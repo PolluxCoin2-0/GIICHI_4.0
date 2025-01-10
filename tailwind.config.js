@@ -15,7 +15,6 @@ export default {
       },
 
       backgroundImage: {
-        "yellow-gradient":"linear-gradient(to bottom, #FAAB02 0%, #539D43 100%)",
 
       },   
     },
