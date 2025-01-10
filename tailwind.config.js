@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-
+       green: "569f42",
       },
 
       fontFamily: {
