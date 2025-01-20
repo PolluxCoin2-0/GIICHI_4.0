@@ -15,18 +15,18 @@ import Review from "./Review";
 import LetsTalk from "./LetsTalk";
 const Dashboard = () => {
   return (
-    <div className="px-4 md:px-32 pt-12">
+    <div className="px-4 md:px-8 lg:px-32 pt-12">
       {/* Heading 1 */}
-      <div className="flex flex-row justify-center md:justify-between items-center px-0 md:px-28">
+      <div className="flex flex-row justify-center md:justify-between items-center px-0 lg:px-28">
         <img src={star1Img} alt="" className="hidden md:block" />
-        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm md:text-[17px] font-medium text-nowrap">
+        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
           -Unlock Your Creative Potential-
         </p>
         <img src={star2Img} alt="" className="hidden md:block" />
       </div>
 
       {/* Heading 2 */}
-      <p className="text-white text-2xl md:text-7xl font-bold text-center pt-4 leading-tight tracking-wide">
+      <p className="text-white text-2xl md:text-4xl lg:text-7xl font-bold text-center pt-4 leading-tight tracking-wide">
         Unlock Web3 Success <br />
         by Partnering with{" "}
         <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -37,7 +37,7 @@ const Dashboard = () => {
       {/* Heading 3 */}
       <div className="flex flex-row justify-between items-center px-0 md:px-20">
         <img src={star3Img} alt="" className="hidden md:block" />
-        <p className="text-sm md:text-lg font-semibold text-white text-opacity-50 text-center pt-6">
+        <p className="text-sm md:text-md lg:text-lg font-semibold text-white text-opacity-50 text-center pt-6">
           Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
           partnership <br />
           program designed to turn your vision into reality.
@@ -46,26 +46,34 @@ const Dashboard = () => {
       </div>
 
       {/* Buttons */}
-      <div className="flex flex-row items-center justify-center space-x-4 md:space-x-12 pt-8">
+      <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-12 pt-8">
         <button
           type="button"
-          className="bg-green-gradient px-6 md:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap"
+          className="bg-green-gradient px-6 md:px-8 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap"
         >
           Contact Us
         </button>
         <button
           type="button"
-          className="bg-black shadow-inner shadow-lightGray text-white text-lg md:text-xl px-6 md:px-12 py-3 rounded-full text-nowrap"
+          className="bg-black shadow-inner shadow-lightGray text-white text-lg md:text-xl px-6 md:px-8 lg:px-12 py-3 rounded-full text-nowrap"
         >
           About GiiCHi
         </button>
       </div>
 
       {/* Blocks Section */}
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-0 md:px-72 pt-10 md:pt-20">
+      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-0 lg:px-72 pt-10 md:pt-20">
         <div className="w-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 rounded-2xl p-2 md:p-4 bg-gray-gradient">
           <img src={blockImg1} alt="" className="" />
-          <p className="text-white text-opacity-50 mt-4 mb-5">
+          <p className="text-white text-opacity-50 mt-4 mb-5 block md:hidden lg:block">
+            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
+            partnership program designed to turn your vision into
+            reality.Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
+            partnership program designed to turn your vision into
+            reality.reality.Accelerate your Web3 journey with GiiCHi CoPilot, a
+            tailored partnership
+          </p>
+          <p className="text-white text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px]">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into
             reality.Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
@@ -86,8 +94,8 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="flex flex-row space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-2xl mt-4 p-2 md:p-4 bg-gray-gradient">
-            <img src={blockImg5} alt="" className="w-[50%] md:w-[62%]" />
-            <img src={blockImg6} alt="" className="w-[50%] md:w-[230px] pr-2" />
+            <img src={blockImg5} alt="" className="w-[50%] lg:w-[62%]" />
+            <img src={blockImg6} alt="" className="w-[50%] lg:w-[230px] pr-2" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import b8Img from "../assets/B8.png";
 import b9Img from "../assets/B9.png";
 const Objectives = () => {
   return (
-    <div className="px-0 md:px-32 pt-12">
+    <div className="px-0 lg:px-32 pt-12">
       {/* heading 1 */}
       <div className="flex flex-row justify-between items-center">
         <p className="bg-darkGray text-white px-8 py-3 rounded-full text-[17px] font-medium">
@@ -18,7 +18,7 @@ const Objectives = () => {
       </div>
 
       {/* Heading 2 */}
-      <p className="text-white text-2xl md:text-6xl font-bold pt-4 leading-tight tracking-wide">
+      <p className="text-white text-2xl md:text-4xl lg:text-6xl font-bold pt-4 leading-tight tracking-wide">
         Delivering Web3 Strategic
         <br />
         <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -39,7 +39,7 @@ const Objectives = () => {
       {/* blocks  */}
       <div>
         {/* block1 row {top row} */}
-        <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 mt-4 md:mt-0">
+        <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 mt-4 lg:mt-0">
             <div className="w-[27%]">
                 <img src={b5Img} alt="" className=""/>
             </div>

@@ -4,10 +4,10 @@ import star2Img from "../assets/star2.png";
 import founderImg from "../assets/founder.png";
 const Review = () => {
   return (
-    <div className="px-0 md:px-32 pt-12">
+    <div className="px-0 lg:px-32 pt-12">
       {/* Heading 1 */}
       <div className="flex flex-row justify-start md:justify-between items-center pr-0 md:pr-48">
-        <p className="bg-darkGray text-white px-8 md:px-20 py-3 rounded-full text-[17px] font-medium">
+        <p className="bg-darkGray text-white px-8 lg:px-20 py-3 rounded-full text-[17px] font-medium">
           -Clients Review-
         </p>
         <img src={circle1Img} alt="" className="w-28 hidden md:block" />
@@ -15,7 +15,7 @@ const Review = () => {
 
       {/* Heading 2 */}
       <div className="flex flex-row justify-between items-center">
-        <p className="text-white text-2xl md:text-6xl font-bold pt-4 leading-tight tracking-wide">
+        <p className="text-white text-2xl md:text-4xl lg:text-6xl font-bold pt-4 leading-tight tracking-wide">
           What{" "}
           <span className="text-transparent bg-clip-text bg-yellow-gradient">
             Clients{" "}
