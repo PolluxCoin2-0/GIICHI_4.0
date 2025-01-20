@@ -1,15 +1,16 @@
-import { BrowserRouter as Route, Routes, Router } from "react-router-dom"
+import { BrowserRouter as Router , Routes,  Route} from "react-router-dom";
+import Navbar from "./layout/Navbar";
+import Dashboard from "./pages/Dashboard";
 function App() {
 
   return (
-    <div>
-      <Router>
+     <Router>
+      <Navbar/>
         <Routes>
-           <Route path="" element=""/>
+           <Route path="/" element={<Dashboard/>}/>
+           <Route path="/dashboard" element={<Dashboard/>}/>
         </Routes>
-      </Router>
-     <p className="text-4xl font-bold text-blue-600">Hello World</p>
-    </div>
+     </Router>
   )
 }
 
