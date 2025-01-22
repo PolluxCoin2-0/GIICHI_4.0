@@ -4,7 +4,7 @@ import star5Img from "../assets/star5.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const LetsTalk = () => {
   return (
-    <div className="px-0 md:px-32 pt-12">
+    <div className="px-0 xl:px-20 2xl:px-32 pt-12">
 
         {/* circle element */}
       <div className="relative inline-block ">
@@ -17,11 +17,11 @@ const LetsTalk = () => {
       </div>
 
       {/* content */}
-      <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-16 shadow-inner shadow-lightGray">
+      <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
         <p className="hidden md:block text-center">
-        <span className="text-transparent bg-clip-text bg-yellow-gradient text-lg font-semibold">We turbocharge your business’s transition to Web 3 with our 15+ years of <br/></span>
-        <span className="text-transparent bg-clip-text bg-yellow-gradient text-lg font-semibold">experience, supported by over 1000 experts and with track record of 1200+ <br/></span>
-        <span className="text-transparent bg-clip-text bg-yellow-gradient text-lg font-semibold">successful enterprise implementations</span>
+        <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">We turbocharge your business’s transition to Web 3 with our 15+ years of <br/></span>
+        <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">experience, supported by over 1000 experts and with track record of 1200+ <br/></span>
+        <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">successful enterprise implementations</span>
         </p>
 
         <p className="block md:hidden text-center">

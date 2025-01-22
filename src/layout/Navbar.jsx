@@ -10,13 +10,15 @@ const Navbar = () => {
        {/* nav menu */}
        <div>
         <ul className="flex flex-row justify-between space-x-10">
-          <li className="text-white text-lg font-semibold">Services</li>
-          <li className="text-white text-lg font-semibold">Technologies</li>
+          <a href="/blockchain-development">
+          <li className="text-white text-lg font-semibold cursor-pointer">Blockchain</li>
+          </a>
+          <li className="text-white text-lg font-semibold">AI</li>
+          <li className="text-white text-lg font-semibold">Gaming</li>
+          <li className="text-white text-lg font-semibold">Counsulting</li>
+          <li className="text-white text-lg font-semibold">Solutions</li>
           <li className="text-white text-lg font-semibold">Industries</li>
-          <li className="text-white text-lg font-semibold">Clients</li>
-          <li className="text-white text-lg font-semibold">Clone</li>
-          <li className="text-white text-lg font-semibold">Company</li>
-          <li className="text-white text-lg font-semibold">Company Us</li>
+          <li className="text-white text-lg font-semibold">About Us</li>
         </ul>
        </div>
 
@@ -32,4 +34,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

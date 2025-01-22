@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
        green: "#569f42",
+       darkGreen: "#029400",
        white: "#ffffff",
        black: "#000000",
        darkGray: "#282A28",
@@ -26,6 +27,7 @@ export default {
       "yellow-gradient": "linear-gradient(to right, #64A03C  0%, #F0AA06 100%)",
       "gray-gradient": "linear-gradient(to bottom left, #000000 0%, #2E2D29 100%)",
       "orange-gradient": "linear-gradient(to right, rgba(43, 179, 45, 0.1) 0%, rgba(255, 168, 40, 0.09) 100%)",
+      "black-gradient": "linear-gradient(to right, #003600 0%, #000000 100%)",
 
 
       },   

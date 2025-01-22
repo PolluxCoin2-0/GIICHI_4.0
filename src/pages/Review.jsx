@@ -4,7 +4,7 @@ import star2Img from "../assets/star2.png";
 import founderImg from "../assets/founder.png";
 const Review = () => {
   return (
-    <div className="px-0 lg:px-32 pt-12">
+    <div className="px-0 xl:px-20 2xl:px-32 pt-12">
       {/* Heading 1 */}
       <div className="flex flex-row justify-start md:justify-between items-center pr-0 md:pr-48">
         <p className="bg-darkGray text-white px-8 lg:px-20 py-3 rounded-full text-[17px] font-medium">
@@ -15,7 +15,7 @@ const Review = () => {
 
       {/* Heading 2 */}
       <div className="flex flex-row justify-between items-center">
-        <p className="text-white text-2xl md:text-4xl lg:text-6xl font-bold pt-4 leading-tight tracking-wide">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           What{" "}
           <span className="text-transparent bg-clip-text bg-yellow-gradient">
             Clients{" "}
@@ -40,9 +40,9 @@ const Review = () => {
       </div>
 
       {/* Blocks */}
-      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-12 w-full pt-10 md:pt-20">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-6 lg:space-x-12 w-full pt-10 xl:pt-20">
         {/* first column */}
-        <div className="w-full md:w-[33%] pr-0 md:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
+        <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
@@ -63,11 +63,11 @@ const Review = () => {
           <div className="relative w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
         </div>
         {/* second column */}
-        <div className="w-full md:w-[33%] pr-0 md:pr-12 pt-10 md:pt-0 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
+        <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into
-            reality.Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
+            partnership program designed to turn your vision into reality.
+            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
           </p>
 
@@ -84,11 +84,11 @@ const Review = () => {
           <div className="relative w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
         </div>
         {/* Third Column */}
-        <div className="w-full md:w-[33%] pt-10 md:pt-0">
+        <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into
-            reality.Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
+            partnership program designed to turn your vision into reality.
+            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
           </p>
 

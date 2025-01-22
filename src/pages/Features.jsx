@@ -5,9 +5,9 @@ import b2Img from "../assets/B2.png";
 import b3Img from "../assets/B3.png";
 const BlockchainFeatures = () => {
   return (
-    <div className="px-0 md:px-0 lg:px-32 pt-8 md:pt-12">
+    <div className="px-0 md:px-0 2xl:px-32 pt-8 md:pt-12">
       {/* Heading 1 */}
-      <div className="flex flex-row justify-center md:justify-between items-center px-0 lg:px-28">
+      <div className="flex flex-row justify-center md:justify-between items-center px-0 xl:px-28">
         <img src={star5Img} alt="" className="hidden md:block" />
         <p className="bg-darkGray text-white px-8 py-3 rounded-full text-[17px] font-medium text-nowrap">
           -Unlock Your Creative Potential-
@@ -16,7 +16,7 @@ const BlockchainFeatures = () => {
       </div>
 
       {/* Heading 2 */}
-      <p className="text-white text-2xl md:text-4xl lg:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
+      <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
         Crafting Non Fungible
         <br />
         <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -33,8 +33,8 @@ const BlockchainFeatures = () => {
       </div>
 
       {/* Blocks */}
-      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-6 w-full pt-8 px-0 lg:px-20">
-        <div className="border-2 border-white w-full md:w-[31%] rounded-2xl">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 w-full pt-8 px-0 xl:px-20">
+        <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl">
             <img src={b1Img} alt="" className=""/>
             <div className="flex flex-col p-4 lg:p-6 bg-darkBlue rounded-b-2xl">
             <p className="text-white text-xl md:text-2xl font-bold">Blockchain</p>
@@ -44,7 +44,7 @@ const BlockchainFeatures = () => {
         </div>
         </div>
 
-        <div className="border-2 border-white w-full md:w-[31%] rounded-2xl mt-4 md:mt-0">
+        <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
         <img src={b2Img} alt="" className=""/>
         <div className="flex flex-col p-4 lg:p-6 bg-navyBlue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
@@ -54,7 +54,7 @@ const BlockchainFeatures = () => {
         </div>
         </div>
 
-        <div className="border-2 border-white w-full md:w-[31%] rounded-2xl mt-4 md:mt-0">
+        <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
         <img src={b3Img} alt="" className=""/>
         <div className="flex flex-col p-4 lg:p-6 bg-blue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
