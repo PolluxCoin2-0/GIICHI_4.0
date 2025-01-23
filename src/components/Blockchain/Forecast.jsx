@@ -1,10 +1,10 @@
-import star2Img from "../../assets/star2.png";
-import element1Img from "../../assets/element1.png";;
-import element2Img from "../../assets/element2.png";
-import circle1Img from "../../assets/circle1.png";
+/* eslint-disable react/prop-types */
 import circle3Img from "../../assets/circle3.png";
 import circle5Img from "../../assets/circle5.png";
-const Forecast = () => {
+import star2Img from "../../assets/star2.png";
+import circle1Img from "../../assets/circle1.png";
+
+const Forecast = ({ img1, img2, title1, title2, desc1, desc2}) => {
   return (
     <div>
        <div className="flex flex-row justify-between items-center mt-28 w-full 3xl:px-20">
@@ -25,35 +25,22 @@ const Forecast = () => {
               {/* block section */}
               <div className="flex flex-row justify-center items-center space-x-12 w-[70%]">
                 <div className="flex flex-col items-center justify-center w-[50%]">
-                  <img src={element1Img} alt="" className="w-60" />
-                  <p className="text-white text-xl font-semibold pt-10">
-                    Blockchain Market Forecast: Growth <br />
-                    Projections and Opportunities Ahead
+                  <img src={img1} alt="" className="w-60" />
+                  <p className="text-white text-xl font-semibold pt-10 px-28 text-center">
+                    {title1}
                   </p>
                   <p className="text-sm md:text-[17px] font-normal text-white text-opacity-50 text-center pt-6 px-28">
-                    As consumer demand for sustainability rises, blockchain technology
-                    is essential for verifying ethical practices and enhancing
-                    security, efficiency, transparency, and compliance across various
-                    business operations. Antier stands out as a premiblockchain
-                    development company, having completed over 1,000 projects since
-                    its inception.
+                    {desc1}
                   </p>
                 </div>
       
                 <div className="flex flex-col items-center justify-center w-[50%]">
-                  <img src={element2Img} alt="" className="w-80" />
-                  <p className="text-white text-xl font-semibold pt-16">
-                    Blockchain Market Forecast: Growth
-                    <br />
-                    Projections and Opportunities Ahead
+                  <img src={img2} alt="" className="w-96" />
+                  <p className="text-white text-xl font-semibold pt-16 px-28 text-center">
+                  {title2}
                   </p>
                   <p className="text-sm md:text-[17px] font-normal text-white text-opacity-50 text-center pt-6 px-28">
-                    As consumer demand for sustainability rises, blockchain technology
-                    is essential for verifying ethical practices and enhancing
-                    security, efficiency, transparency, and compliance across various
-                    business operations. Antier stands out as a premiblockchain
-                    development company, having completed over 1,000 projects since
-                    its inception.
+                   {desc2}
                   </p>
                 </div>
               </div>

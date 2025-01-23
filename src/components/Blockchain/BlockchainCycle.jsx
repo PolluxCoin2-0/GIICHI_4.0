@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const BlockchainCycle = () => {
+const BlockchainCycle = ({title}) => {
     // Custom Arrow Components
     const CustomPrevArrow = ({ onClick }) => (
       <div
@@ -41,7 +41,7 @@ const BlockchainCycle = () => {
        <div className="bg-[#283430] bg-opacity-10 mt-24 3xl:px-64">
         <div className="flex flex-row space-x-20">
           <span className="text-transparent bg-clip-text bg-green-gradient text-3xl font-semibold pt-14 pb-14">
-            Our Blockchain App Development Process
+            {title}
           </span>
           <img src={star1Img} alt="" className="object-contain w-16 pb-12" />
         </div>

@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../../assets/blockchainImg.png";
+import element2Img from "../../../assets/element2.png";
+import element1Img from "../../../assets/element1.png";;
 import crowd1Logo from "../../../assets/crowd1Logo.png";
 import polluxLogo from "../../../assets/polluxLogo (3).png";
 import Forecast from "../../../components/Blockchain/Forecast";
@@ -104,7 +106,25 @@ const BlockchainDevelopment = () => {
 
       {/* Bloackchain forecast */}
       <div>
-        <Forecast />
+        <Forecast 
+         img1={element1Img} 
+        img2={element2Img}
+        title1="Blockchain Market Forecast: Growth  
+        Projections and Opportunities Ahead"
+        title2="Blockchain Market Forecast: Growth  Projections and Opportunities Ahead"
+        desc1="As consumer demand for sustainability rises, blockchain technology
+                    is essential for verifying ethical practices and enhancing
+                    security, efficiency, transparency, and compliance across various
+                    business operations. Antier stands out as a premiblockchain
+                    development company, having completed over 1,000 projects since
+                    its inception."
+         desc2="As consumer demand for sustainability rises, blockchain technology
+                    is essential for verifying ethical practices and enhancing
+                    security, efficiency, transparency, and compliance across various
+                    business operations. Antier stands out as a premiblockchain
+                    development company, having completed over 1,000 projects since
+                    its inception."
+        />
       </div>
       {/* bottom line */}
       <div className="flex justify-center items-center pt-16">
@@ -179,7 +199,7 @@ const BlockchainDevelopment = () => {
 
       {/* Blockchain Process */}
       <div>
-        <BlockchainCycle />
+        <BlockchainCycle title=" Our Blockchain App Development Process"/>
       </div>
 
       {/* Technology Stack */}

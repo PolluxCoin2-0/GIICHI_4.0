@@ -3,6 +3,7 @@ import Navbar from "./layout/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./layout/Footer";
 import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/BlockchainDevelopment";
+import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
            <Route path="/" element={<Dashboard/>}/>
            <Route path="/dashboard" element={<Dashboard/>}/>
            <Route path="/blockchain-development" element={<BlockchainDevelopment/>}/>
+           <Route path="/blockchain-identity" element={<BlockchainIdentity/>}/>
         </Routes>
         <Footer/>
      </Router>
