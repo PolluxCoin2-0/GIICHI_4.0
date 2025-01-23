@@ -1,7 +1,7 @@
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
 const Navbar = () => {
   return (
-    <div className="flex flex-row justify-between items-center px-32 py-4 ">
+    <div className="flex flex-row justify-between items-center 3xl:px-60 py-4 ">
       {/* Logo */}
        <div>
         <img src={Giichi_Logo_Img} alt="" className=""/>
@@ -26,7 +26,7 @@ const Navbar = () => {
        <div>
         <button 
         type="button"
-        className="bg-white px-5 py-3 rounded-full text-md font-semibold">
+        className="bg-green-gradient px-5 py-3 rounded-full text-md font-semibold">
           Get In Touch
         </button>
        </div>

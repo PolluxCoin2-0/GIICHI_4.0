@@ -2,7 +2,7 @@ import giichiLogo from "../assets/Giichi_Logo.png";
 import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-64 pt-12 bg-[#283430] bg-opacity-10 mt-12">
+    <div className="px-4 md:px-8 lg:px-12 xl:px-36 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 mt-12">
         {/* Footer contract */}
         <div className="flex flex-col md:flex-row justify-between">
             {/* Logo */}

@@ -7,3 +7,49 @@ body{
     font-family: "Inter";
     background-color: black;
 }
+
+.custom-arrow {
+    position: absolute;
+    top: -30%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .custom-prev {
+    left: 94%; /* Adjust as needed */
+  }
+  
+  .custom-next {
+    left: 97%; /* Adjust as needed */
+  }
+  
+  .slick-slider {
+    position: relative;
+  }
+  
+  .carousel-container {
+    position: relative;
+    overflow-x: hidden; /* Prevent X-axis overflow */
+  }
+  
+  .slick-slider {
+    margin: 0 auto; /* Center the slider */
+    position: relative;
+  }
+  
+  .slick-list {
+    overflow: hidden; /* Ensure the slides are clipped */
+    padding: 0; /* Remove extra padding */
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+  
+ 
+  
+  body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent body-wide X-axis overflow */
+  }
+  

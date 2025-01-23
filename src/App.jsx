@@ -2,7 +2,7 @@ import { BrowserRouter as Router , Routes,  Route} from "react-router-dom";
 import Navbar from "./layout/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Footer from "./layout/Footer";
-import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment";
+import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/BlockchainDevelopment";
 function App() {
 
   return (
