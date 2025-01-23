@@ -8,9 +8,10 @@ import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
 import Review from "../../../components/Review";
 import Faq from "../../../components/Faq";
 import Insights from "../../../components/Blockchain/Insights";
+
 const BlockchainIdentity = () => {
   return (
-    <div>
+    <div className="pt-12">
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex justify-center 3xl:px-64">
         <img
