@@ -54,8 +54,8 @@ const Navbar = () => {
       {/* Nav Menu */}
       <div
         className={`${
-          isMenuOpen ? "block translate-x-0" : "hidden translate-x-full"
-        } absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto`}
+          isMenuOpen ? "block" : "hidden"
+        } absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto z-20`}
       >
         <ul className="flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-left">
           <a href="/blockchain-development">
@@ -82,7 +82,7 @@ const Navbar = () => {
             About Us
           </li>
         </ul>
-        <div className="lg:hidden flex justify-center mt-4 mb-8">
+        <div className="lg:hidden flex justify-center mt-4 mb-12">
         <button
           type="button"
           className="bg-green-gradient px-5 py-3 rounded-full text-md font-semibold"

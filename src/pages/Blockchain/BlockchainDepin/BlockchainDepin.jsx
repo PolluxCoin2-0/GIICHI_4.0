@@ -148,7 +148,7 @@ const BlockchainDepin = () => {
   return (
     <div className="pt-6 md:pt-12">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
           src={BlockchainDepinImg}
           alt="blockchain-bg-image"
