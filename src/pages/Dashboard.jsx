@@ -13,7 +13,7 @@ import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";
 import LetsTalk from "../components/LetsTalk";
-
+import Typewriter from "../components/Typewriter";
 const Dashboard = () => {
   return (
     <div className="pt-12">
@@ -35,12 +35,12 @@ const Dashboard = () => {
             GiiCHi
           </span>
         </p>
-
+     
         {/* Heading 3 */}
-        <div className="flex flex-row justify-center items-center ">
+        <div className="flex flex-row justify-center items-center h-20">
           <img src={star3Img} alt="" className="hidden md:hidden" />
-          <p className="text-sm md:text-md lg:text-3xl font-semibold text-white text-opacity-50 text-center pt-6">
-          Redefining Digital Evolution
+          <p className="text-sm md:text-md lg:text-3xl font-semibold  text-center pt-6">
+         <Typewriter/>
           </p>
           <img src={star4Img} alt="" className="hidden md:hidden" />
         </div>

@@ -47,6 +47,7 @@ const Objectives = () => {
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 mt-4 lg:mt-0">
           <div className="w-[27%]">
             <img src={b5Img} alt="" className="" />
+            {/* <p className="text-white -mt-6">Blockchain</p> */}
           </div>
           <div className="w-[44%]">
             <img src={b4Img} alt="" className="" />
