@@ -4,7 +4,7 @@ import circle3Img from "../assets/circle3.png";
 import star5Img from "../assets/star5.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-const LetsTalk = ({buttonText}) => {
+const LetsTalk = ({ buttonText }) => {
   return (
     <div className="pt-12">
       {/* circle element */}
@@ -63,8 +63,11 @@ const LetsTalk = ({buttonText}) => {
           {/* Buttons */}
           <div className="flex flex-row justify-center mt-6">
             <div className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg">
-              <button type="button" className=" text-nowrap text-sm md:text-lg ">
-               {buttonText}
+              <button
+                type="button"
+                className=" text-nowrap text-sm md:text-lg "
+              >
+                {buttonText}
               </button>
               <MdOutlineKeyboardArrowRight size={28} />
             </div>

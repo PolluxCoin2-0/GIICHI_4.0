@@ -35,7 +35,7 @@ const FrameworksData = [
     description:
       "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
   },
- 
+
   {
     logo: depinTokenImg,
     title: "DePIN Tokenization Service",
@@ -60,7 +60,7 @@ const FrameworksData = [
     description:
       "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
   },
- 
+
   {
     logo: depinAssetImg,
     title: "DePIN Smart Contract Development",
@@ -79,9 +79,9 @@ const FrameworksData = [
     description:
       "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
   },
- ];
+];
 
- const DepinUseCaseData = [
+const DepinUseCaseData = [
   {
     logo: logictisImg,
     title: "Logistics & Supply Chain",
@@ -94,7 +94,7 @@ const FrameworksData = [
     description:
       "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
   },
- 
+
   {
     logo: energyImg,
     title: "Energy & Utilities",
@@ -119,14 +119,14 @@ const FrameworksData = [
     description:
       "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
   },
- ];
+];
 
 const FrameworksCard = ({ logo, title, description }) => {
   return (
     <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
       <div className="flex flex-row justify-between">
         <img src={logo} alt={title} className="" />
-     </div>
+      </div>
       <p className="text-white pt-4">{title}</p>
       <p className="text-white text-opacity-50 pt-2">{description}</p>
     </div>
@@ -138,7 +138,6 @@ const DepinUseCaseCard = ({ logo, title, description }) => {
     <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
       <div className="flex flex-row justify-between">
         <img src={logo} alt={title} className="" />
-       
       </div>
       <p className="text-white pt-4">{title}</p>
       <p className="text-white text-opacity-50 pt-2">{description}</p>
@@ -148,41 +147,41 @@ const DepinUseCaseCard = ({ logo, title, description }) => {
 const BlockchainDepin = () => {
   return (
     <div className="pt-12">
-       {/* Banner Image */}
-            <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-              <img
-                src={BlockchainDepinImg}
-                alt="blockchain-bg-image"
-                className="w-full h-[400px] object-cover rounded-3xl"
-              />
-              {/* The text */}
-              <div className="absolute top-0 left-80 w-full h-full flex flex-col items-start justify-center">
-                <p className="">
-                  <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
-                  DePIN Development {" "}
-                  </span>
-                  <br />
-                  <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
-                  Company{" "}
-                  </span>
-                </p>
-                <p className="pt-6 text-lg font-semibold leading-snug">
-                  Enable more secure storage and management of digital identities in{" "}
-                  <br />
-                  blockchain with a single, tamper-proof ecosystem.
-                </p>
-                {/* Button */}
-                <button
-                  type="button"
-                  className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-                >
-                  Schedule A Free Demo
-                </button>
-              </div>
-            </div>
+      {/* Banner Image */}
+      <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
+        <img
+          src={BlockchainDepinImg}
+          alt="blockchain-bg-image"
+          className="w-full h-[400px] object-cover rounded-3xl"
+        />
+        {/* The text */}
+        <div className="absolute top-0 left-80 w-full h-full flex flex-col items-start justify-center">
+          <p className="">
+            <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
+              DePIN Development{" "}
+            </span>
+            <br />
+            <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
+              Company{" "}
+            </span>
+          </p>
+          <p className="pt-6 text-lg font-semibold leading-snug">
+            Enable more secure storage and management of digital identities in{" "}
+            <br />
+            blockchain with a single, tamper-proof ecosystem.
+          </p>
+          {/* Button */}
+          <button
+            type="button"
+            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
+          >
+            Schedule A Free Demo
+          </button>
+        </div>
+      </div>
 
-         {/* Forecast */}
-         <div>
+      {/* Forecast */}
+      <div>
         <Forecast
           img1={depinImg}
           img2={depinSolImg}
@@ -196,24 +195,26 @@ const BlockchainDepin = () => {
            high operational costs. The rise of DePIN solutions stems from the growing demand for more secure, 
            transparent, and scalable management of physical assets across industries."
         />
-        </div>
+      </div>
 
-          {/* bottom line */}
+      {/* bottom line */}
       <div className="flex justify-center items-center pt-16">
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
-        {/* Blockchain Services */}
+      {/* Blockchain Services */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
-        Antier’s Advanced DePIN <br/> {" "}
+          Antier’s Advanced DePIN <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          Development Services
+            Development Services
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center">
-        Being a leading DePIN development company, Antier offers a wide range of services to help businesses leverage the <br/>power of decentralized infrastructure.{" "}
+          Being a leading DePIN development company, Antier offers a wide range
+          of services to help businesses leverage the <br />
+          power of decentralized infrastructure.{" "}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -233,18 +234,20 @@ const BlockchainDepin = () => {
         <LetsTalk buttonText="Talk to Our Experts" />
       </div>
 
-
       {/* Blockchain frameworks */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        DePIN Use Cases: How Antier Serves<br/> {" "}
+          DePIN Use Cases: How Antier Serves
+          <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          Diverse Industries
+            Diverse Industries
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        From healthcare to finance, Antier offers a wide range of DePIN development services to empower businesses across <br/>various industries.{" "}
+          From healthcare to finance, Antier offers a wide range of DePIN
+          development services to empower businesses across <br />
+          various industries.{" "}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -259,39 +262,39 @@ const BlockchainDepin = () => {
         </div>
       </div>
 
-       {/* Services */}
-       <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      {/* Services */}
+      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
-        Prominent Components That 
+          Prominent Components That
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-         DePIN’s Functionality
+            DePIN’s Functionality
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
-        Understanding the components that drive DePIN’s functionality is essential for organizations looking to <br/> leverage its true potential.
+          Understanding the components that drive DePIN’s functionality is
+          essential for organizations looking to <br /> leverage its true
+          potential.
         </p>
         <Services />
       </div>
 
-      
       {/* connect section */}
       <div>
         <LetsTalk buttonText="Hire Us" />
       </div>
-      
+
       {/* FAQ Section */}
       <div>
-        <Faq/>
+        <Faq />
       </div>
 
       {/* Spotlight-Insights Section */}
       <div>
-        <Insights/>
+        <Insights />
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default BlockchainDepin
+export default BlockchainDepin;

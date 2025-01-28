@@ -20,11 +20,11 @@ const Dashboard = () => {
       {/* Section 1 */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <div className="flex flex-row justify-center md:justify-between items-center">
-          <img src={star1Img} alt="" className="hidden md:block" />
-          <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
+          <img src={star1Img} alt="" className="hidden md:hidden" />
+          {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
             -Unlock Your Creative Potential-
-          </p>
-          <img src={star2Img} alt="" className="hidden md:block" />
+          </p> */}
+          <img src={star2Img} alt="" className="hidden md:hidden" />
         </div>
 
         {/* Heading 2 */}
@@ -37,14 +37,12 @@ const Dashboard = () => {
         </p>
 
         {/* Heading 3 */}
-        <div className="flex flex-row justify-between items-center ">
-          <img src={star3Img} alt="" className="hidden md:block" />
-          <p className="text-sm md:text-md lg:text-lg font-semibold text-white text-opacity-50 text-center pt-6">
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership <br />
-            program designed to turn your vision into reality.
+        <div className="flex flex-row justify-center items-center ">
+          <img src={star3Img} alt="" className="hidden md:hidden" />
+          <p className="text-sm md:text-md lg:text-3xl font-semibold text-white text-opacity-50 text-center pt-6">
+          Redefining Digital Evolution
           </p>
-          <img src={star4Img} alt="" className="hidden md:block" />
+          <img src={star4Img} alt="" className="hidden md:hidden" />
         </div>
 
         {/* Buttons */}
@@ -109,13 +107,14 @@ const Dashboard = () => {
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-16">
-        <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
+        <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] 
+        before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
       {/* BLOCKCHAIN FEATURE PAGE */}
-      <div>
+      {/* <div>
         <Features />
-      </div>
+      </div> */}
 
       {/* MISSION PAGE */}
       <div>

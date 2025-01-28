@@ -6,7 +6,10 @@
 body{
     font-family: "Inter";
     background-color: black;
+    overflow-x: hidden;
 }
+
+
 
 .custom-arrow {
     position: absolute;

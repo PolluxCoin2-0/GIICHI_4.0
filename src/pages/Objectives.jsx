@@ -12,10 +12,10 @@ const Objectives = () => {
     <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
       {/* heading 1 */}
       <div className="flex flex-row justify-between items-center">
-        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium">
+        {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium">
           -Unlock Your Creative Potential-
-        </p>
-        <img src={star1Img} alt="" className="hidden md:block" />
+        </p> */}
+        <img src={star1Img} alt="" className="hidden md:hidden" />
       </div>
 
       {/* Heading 2 */}
@@ -37,7 +37,7 @@ const Objectives = () => {
         <img
           src={star2Img}
           alt=""
-          className="object-contain pb-10 hidden md:block"
+          className="object-contain pb-10 hidden md:hidden"
         />
       </div>
 
