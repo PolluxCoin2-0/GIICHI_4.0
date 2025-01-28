@@ -35,7 +35,7 @@ const Forecast = ({ img1, img2, title1, title2, desc1, desc2}) => {
                 </div>
       
                 <div className="flex flex-col items-center justify-center w-[50%]">
-                  <img src={img2} alt="" className="w-96" />
+                  <img src={img2} alt="" className="w-72" />
                   <p className="text-white text-xl font-semibold pt-16 px-28 text-center">
                   {title2}
                   </p>
