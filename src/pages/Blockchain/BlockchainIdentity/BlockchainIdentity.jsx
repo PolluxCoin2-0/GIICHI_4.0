@@ -11,16 +11,16 @@ import Insights from "../../../components/Blockchain/Insights";
 
 const BlockchainIdentity = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-6 md:pt-12">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="relative w-full mx-auto flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <img
           src={blockchainIdenityImg}
           alt="blockchain-bg-image"
-          className="w-full h-[400px] object-cover rounded-3xl"
+          className="md:w-full md:h-[400px] object-cover rounded-3xl"
         />
         {/* The text */}
-        <div className="absolute top-0 left-80 w-full h-full flex flex-col items-start justify-center">
+        <div className="absolute top-0 left-80 w-full h-full hidden md:flex flex-col items-start justify-center">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
               Blockchain In Identity{" "}
@@ -31,6 +31,26 @@ const BlockchainIdentity = () => {
             </span>
           </p>
           <p className="pt-6 text-lg font-semibold leading-snug">
+            Enable more secure storage and management of digital identities in{" "}
+            <br />
+            blockchain with a single, tamper-proof ecosystem.
+          </p>
+          {/* Button */}
+          <button
+            type="button"
+            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
+          >
+            Schedule A Free Demo
+          </button>
+        </div>
+        {/* for mobile */}
+        <div className="md:hidden flex flex-col items-start justify-center pt-6">
+          <p className="">
+            <span className="text-white text-3xl font-bold">
+              Blockchain In Identity Management{" "}
+            </span>
+           </p>
+          <p  className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
             Enable more secure storage and management of digital identities in{" "}
             <br />
             blockchain with a single, tamper-proof ecosystem.

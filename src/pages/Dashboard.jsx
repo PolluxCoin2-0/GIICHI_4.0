@@ -8,7 +8,7 @@ import blockImg3 from "../assets/blockImg3.png";
 import blockImg4 from "../assets/blockImg4.png";
 import blockImg5 from "../assets/blockImg5.png";
 import blockImg6 from "../assets/blockImg6.png";
-import Features from "./Features";
+// import Features from "./Features";
 import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";

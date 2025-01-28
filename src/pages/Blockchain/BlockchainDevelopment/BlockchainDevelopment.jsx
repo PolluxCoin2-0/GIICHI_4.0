@@ -68,16 +68,16 @@ const FrameworksCard = ({ logo, title, description }) => {
 
 const BlockchainDevelopment = () => {
   return (
-    <div className="pt-12 ">
+    <div className="pt-6 md:pt-12 ">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <img
           src={BlockchainImg}
           alt="blockchain-bg-image"
-          className="w-full h-[400px] object-cover rounded-3xl"
+          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="absolute top-0 left-80 w-full h-full flex flex-col items-start justify-center">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
               Blockchain Development{" "}
@@ -92,6 +92,27 @@ const BlockchainDevelopment = () => {
             partnership program designed to turn your vision into <br />
             reality.Accelerate your Web3 journey with Accelerate your Web3{" "}
             <br />
+            journey with GiiCHi CoPilot.
+          </p>
+          {/* Button */}
+          <button
+            type="button"
+            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
+          >
+            Schedule A Free Demo
+          </button>
+        </div>
+         <div className="md:hidden flex flex-col items-start justify-center pt-6">
+          <p className="">
+            <span className="text-white text-3xl font-bold">
+              Blockchain Development  Company{" "}
+            </span>
+      
+          </p>
+          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
+            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored 
+            partnership program designed to turn your vision into 
+            reality.Accelerate your Web3 journey with Accelerate your Web3
             journey with GiiCHi CoPilot.
           </p>
           {/* Button */}
