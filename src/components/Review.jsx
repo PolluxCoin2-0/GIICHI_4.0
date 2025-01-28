@@ -5,7 +5,7 @@ import founderImg from "../assets/founder.png";
 
 const Review = () => {
   return (
-    <div className="3xl:px-64">
+    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64  pt-12 md:pt-24">
       {/* Heading 1 */}
       <div className="flex flex-row justify-start md:justify-between items-center pr-0 md:pr-48">
         <p className="bg-darkGray text-white px-8 lg:px-20 py-3 rounded-full text-[17px] font-medium">
@@ -28,7 +28,7 @@ const Review = () => {
 
       {/* Heading 3*/}
       <div className="flex flex-row justify-between pr-0 md:pr-40">
-        <p className="text-md md:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
+        <p className="text-md lg:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
           Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
           partnership <br />
           program designed to turn your vision into reality.
@@ -44,7 +44,7 @@ const Review = () => {
       <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-6 lg:space-x-12 w-full pt-10 xl:pt-20">
         {/* first column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
-          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
+          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
@@ -65,7 +65,7 @@ const Review = () => {
         </div>
         {/* second column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
-          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
+          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
@@ -86,7 +86,7 @@ const Review = () => {
         </div>
         {/* Third Column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0">
-          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6">
+          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]" >
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into reality.
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored

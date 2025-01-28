@@ -2,7 +2,7 @@ import giichiLogo from "../assets/Giichi_Logo.png";
 import { FaRegCopyright } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 xl:px-36 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 mt-12">
+    <div className="px-4 md:px-8 lg:px-16 xl:px-24 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 mt-12">
         {/* Footer contract */}
         <div className="flex flex-col md:flex-row justify-between">
             {/* Logo */}
@@ -51,10 +51,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-center md:justify-between pt-12 pb-8">
             <div className="flex flex-row space-x-1 justify-center items-center">
             <FaRegCopyright color="#758080" size={16}/>
-            <p className="text-white text-opacity-50 text-sm md:text-xs lg:text-[16px]">copyright 2023 Giichi All Rights Reserved</p>
+            <p className="text-white text-opacity-50 text-xs md:text-xs lg:text-[16px] text-nowrap text-center">copyright 2023 Giichi All Rights Reserved</p>
            
             </div>
-            <p className="text-white text-opacity-50 text-sm md:text-xs lg:text-[16px]">This page uses cookies. See cookies details <span className="underline">here</span> </p>
+            <p className="text-white text-opacity-50 text-xs md:text-xs lg:text-[16px] text-nowrap text-center">This page uses cookies. See cookies details <span className="underline">here</span> </p>
         </div>
     </div>
   )

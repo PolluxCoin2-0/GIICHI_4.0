@@ -13,7 +13,7 @@ const BlockchainIdentity = () => {
   return (
     <div className="pt-12">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex justify-center 3xl:px-64">
+      <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <img
           src={blockchainIdenityImg}
           alt="blockchain-bg-image"
@@ -73,7 +73,7 @@ const BlockchainIdentity = () => {
       </div>
 
       {/* Services */}
-      <div className="mt-12 3xl:px-64">
+      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Benefits of Blockchain for
           <br />
@@ -81,7 +81,7 @@ const BlockchainIdentity = () => {
             Identity Management
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
           Blockchain-based decentralized identity management solutions address
           the existing challenges,
           <br /> enabling the betterment of the entire process.

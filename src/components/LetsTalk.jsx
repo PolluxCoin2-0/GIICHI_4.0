@@ -6,34 +6,34 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({buttonText}) => {
   return (
-    <div className="">
+    <div className="pt-12">
       {/* circle element */}
       <div className="relative inline-block ">
         <img
           src={circle2Img}
           alt=""
-          className="w-28 h-auto relative z-10 hidden md:block"
+          className="w-28 h-auto relative z-10 hidden lg:block"
         />
         <img
           src={circle3Img}
           alt=""
-          className="w-28 h-auto absolute top-0 left-12 z-20 hidden md:block"
+          className="w-28 h-auto absolute top-0 left-12 z-20 hidden lg:block"
         />
       </div>
 
       {/* content */}
-      <div className="3xl:px-64">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
         <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
           <p className="hidden md:block text-center ">
-            <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">
+            <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
               We turbocharge your business’s transition to Web 3 with our 15+
               years of <br />
             </span>
-            <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">
+            <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
               experience, supported by over 1000 experts and with track record
               of 1200+ <br />
             </span>
-            <span className="text-transparent bg-clip-text bg-yellow-gradient md:text-sm lg:text-lg font-semibold">
+            <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
               successful enterprise implementations
             </span>
           </p>
@@ -62,8 +62,8 @@ const LetsTalk = ({buttonText}) => {
 
           {/* Buttons */}
           <div className="flex flex-row justify-center mt-6">
-            <div className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-3 text-black rounded-full text-xl font-semibold shadow-lg">
-              <button type="button" className="">
+            <div className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg">
+              <button type="button" className=" text-nowrap text-sm md:text-lg ">
                {buttonText}
               </button>
               <MdOutlineKeyboardArrowRight size={28} />
@@ -72,7 +72,7 @@ const LetsTalk = ({buttonText}) => {
         </div>
       </div>
       {/* stars */}
-      <div className="hidden md:flex justify-end mt-12 mr-72">
+      <div className="hidden lg:flex justify-end mt-12 2xl:mr-72">
         <img src={star5Img} alt="" className="w-12 object-contain" />
         <img src={star5Img} alt="" className="w-12 pb-14 object-contain" />
       </div>

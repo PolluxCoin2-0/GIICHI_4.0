@@ -9,10 +9,10 @@ import b9Img from "../assets/B9.png";
 
 const Objectives = () => {
   return (
-    <div className="3xl:px-64 pt-24">
+    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
       {/* heading 1 */}
       <div className="flex flex-row justify-between items-center">
-        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-[17px] font-medium">
+        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium">
           -Unlock Your Creative Potential-
         </p>
         <img src={star1Img} alt="" className="hidden md:block" />
@@ -29,7 +29,7 @@ const Objectives = () => {
 
       {/* Heading 3*/}
       <div className="flex flex-row justify-between">
-        <p className="text-md md:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
+        <p className="text-sm md:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
           Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
           partnership <br />
           program designed to turn your vision into reality.

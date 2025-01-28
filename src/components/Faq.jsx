@@ -43,7 +43,7 @@ const Faq = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center mt-20">
+    <div className="flex items-center justify-center mt-20 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
       <div className="text-center">
         <p className="text-2xl md:text-3xl font-bold  mb-8">
         <span className="text-transparent bg-clip-text bg-green-gradient">

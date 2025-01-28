@@ -5,7 +5,7 @@ import b3Img from "../../assets/B3.png";
 const Insights = () => {
   return (
     <div>
-      <div className="3xl:px-64 mt-16 ">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 mt-12 md:mt-16 ">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
           Spotlight On{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">

@@ -16,11 +16,11 @@ body{
   }
   
   .custom-prev {
-    left: 94%; /* Adjust as needed */
+    left: 90%; /* Adjust as needed */
   }
   
   .custom-next {
-    left: 97%; /* Adjust as needed */
+    left: 96%; /* Adjust as needed */
   }
   
   .slick-slider {

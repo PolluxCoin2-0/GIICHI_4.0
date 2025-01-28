@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (
     <div className="pt-12">
       {/* Section 1 */}
-      <div className="3xl:px-60">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <div className="flex flex-row justify-center md:justify-between items-center">
           <img src={star1Img} alt="" className="hidden md:block" />
           <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
@@ -51,13 +51,13 @@ const Dashboard = () => {
         <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-8 pt-8">
           <button
             type="button"
-            className="bg-green-gradient px-6 md:px-8 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap"
+            className="bg-green-gradient px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap"
           >
             Contact Us
           </button>
           <button
             type="button"
-            className="bg-black shadow-inner shadow-lightGray text-white text-lg md:text-xl px-6 md:px-8 lg:px-12 py-3 rounded-full text-nowrap"
+            className="bg-black shadow-inner shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap"
           >
             About GiiCHi
           </button>
@@ -65,10 +65,10 @@ const Dashboard = () => {
       </div>
 
       {/* Section-2 Blocks Section */}
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full 3xl:px-80 pt-10 md:pt-20">
+      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-60 3xl:px-80 pt-10 md:pt-20">
         <div className="w-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 rounded-3xl p-2 md:p-4 bg-gray-gradient">
           <img src={blockImg1} alt="" className="w-full" />
-          <p className="text-white text-opacity-50 mt-4 lg:mt-1 xl:mt-5 mb-5 lg:-mb-2 xl:mb-5 block md:hidden lg:block px-2 text-lg">
+          <p className="text-white text-opacity-50 mt-4 lg:mt-4 xl:mt-5 mb-5 lg:-mb-2 xl:mb-5 block md:hidden lg:block px-2 lg:text-[15px] xl:text-lg">
             Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
             partnership program designed to turn your vision into
             reality.Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
@@ -128,13 +128,13 @@ const Dashboard = () => {
       </div>
 
       {/* CLIENTS REVIEW PAGE */}
-      <div className="pt-24">
+      <div className="pt-12 md:pt-24">
         <Review />
       </div>
 
       {/* CLIENTS REVIEW PAGE */}
       <div className="pt-12">
-        <LetsTalk buttonText="Lets Talk"/>
+        <LetsTalk buttonText="Lets Talk" />
       </div>
     </div>
   );

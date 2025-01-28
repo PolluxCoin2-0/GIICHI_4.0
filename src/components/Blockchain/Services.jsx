@@ -52,7 +52,7 @@ const Services = () => {
   return (
     <div>
        {/* services Block */}
-       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-20">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 mt-12 md:mt-20">
           {/* services Block */}
           {servicesData.map((service, index) => (
             <ServicesCard

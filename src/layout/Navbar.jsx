@@ -3,9 +3,11 @@ const Navbar = () => {
   return (
     <div className="flex flex-row justify-between items-center 3xl:px-60 py-4 ">
       {/* Logo */}
+      <a href="/dashboard">
        <div>
-        <img src={Giichi_Logo_Img} alt="" className=""/>
+        <img src={Giichi_Logo_Img} alt="" className="cursor-pointer"/>
        </div>
+       </a>
        
        {/* nav menu */}
        <div>

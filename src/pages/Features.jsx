@@ -6,11 +6,11 @@ import b3Img from "../assets/B3.png";
 
 const BlockchainFeatures = () => {
   return (
-    <div className="3xl:px-64 pt-8 md:pt-12">
+    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-8 md:pt-12">
       {/* Heading 1 */}
       <div className="flex flex-row justify-center md:justify-between items-center px-8">
         <img src={star5Img} alt="" className="hidden md:block" />
-        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-[17px] font-medium text-nowrap">
+        <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
           -Unlock Your Creative Potential-
         </p>
         <img src={star6Img} alt="" className="pt-12 hidden md:block" />
@@ -41,7 +41,7 @@ const BlockchainFeatures = () => {
             <p className="text-white text-xl md:text-2xl font-bold">
               Blockchain
             </p>
-            <p className="pt-2 text-white text-opacity-50 font-medium text-sm md:text-[16px]">
+            <p className="pt-2 text-white text-opacity-50 font-medium text-sm lg:text-[16px]">
               Accelerate your Web3 journey with GiiCHi <br />
               CoPilot, a tailored partnership program designed to turn your
               vision into reality.
@@ -53,7 +53,7 @@ const BlockchainFeatures = () => {
           <img src={b2Img} alt="" className="" />
           <div className="flex flex-col p-4 lg:p-6 bg-navyBlue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
-            <p className="pt-2 text-white text-opacity-50 font-medium text-sm md:text-[16px]">
+            <p className="pt-2 text-white text-opacity-50 font-medium text-sm lg:text-[16px]">
               Accelerate your Web3 journey with GiiCHi <br />
               CoPilot, a tailored partnership program designed to turn your
               vision into reality.
@@ -65,7 +65,7 @@ const BlockchainFeatures = () => {
           <img src={b3Img} alt="" className="" />
           <div className="flex flex-col p-4 lg:p-6 bg-blue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
-            <p className="pt-2 text-white text-opacity-50 font-medium text-sm md:text-[16px]">
+            <p className="pt-2 text-white text-opacity-50 font-medium text-sm lg:text-[16px]">
               Accelerate your Web3 journey with GiiCHi <br />
               CoPilot, a tailored partnership program designed to turn your
               vision into reality.

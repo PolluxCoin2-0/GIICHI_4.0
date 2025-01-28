@@ -149,7 +149,7 @@ const BlockchainDepin = () => {
   return (
     <div className="pt-12">
        {/* Banner Image */}
-            <div className="relative w-full mx-auto flex justify-center 3xl:px-64">
+            <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
               <img
                 src={BlockchainDepinImg}
                 alt="blockchain-bg-image"
@@ -191,9 +191,7 @@ const BlockchainDepin = () => {
           desc1="DePIN(Decentralized Physical Infrastructure Networks) represents a transformative 
           approach to managing physical infrastructure by integrating decentralized technologies 
           like blockchain. DePIN supports direct peer-to-peer communication and data sharing, bypassing 
-          intermediaries to deliver scalable, secure, and transparent infrastructure for various industries. 
-          With the ability to tokenize assets and reward participants through incentives, DePIN helps 
-          organizations scale while maintaining trust and security."
+          intermediaries to deliver scalable, secure, and transparent infrastructure for various industries. "
           desc2="Traditional infrastructure systems struggle with inefficiencies, centralization risks, and
            high operational costs. The rise of DePIN solutions stems from the growing demand for more secure, 
            transparent, and scalable management of physical assets across industries."
@@ -205,8 +203,8 @@ const BlockchainDepin = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
-        {/* Blockchain frameworks */}
-      <div className=" mt-24">
+        {/* Blockchain Services */}
+      <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
         Antier’s Advanced DePIN <br/> {" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -218,7 +216,7 @@ const BlockchainDepin = () => {
         Being a leading DePIN development company, Antier offers a wide range of services to help businesses leverage the <br/>power of decentralized infrastructure.{" "}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-12 3xl:px-64">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           {FrameworksData.map((data, index) => (
             <FrameworksCard
               key={index}
@@ -237,19 +235,19 @@ const BlockchainDepin = () => {
 
 
       {/* Blockchain frameworks */}
-      <div className=" mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
+      <div className="mt-12 md:mt-24">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         DePIN Use Cases: How Antier Serves<br/> {" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
           Diverse Industries
           </span>
         </p>
 
-        <p className="text-white text-opacity-40 pt-6 text-center">
+        <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         From healthcare to finance, Antier offers a wide range of DePIN development services to empower businesses across <br/>various industries.{" "}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-12 3xl:px-64">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           {DepinUseCaseData.map((data, index) => (
             <DepinUseCaseCard
               key={index}
@@ -262,7 +260,7 @@ const BlockchainDepin = () => {
       </div>
 
        {/* Services */}
-       <div className="mt-12 3xl:px-64">
+       <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
         Prominent Components That 
           <br />
@@ -270,7 +268,7 @@ const BlockchainDepin = () => {
          DePIN’s Functionality
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
         Understanding the components that drive DePIN’s functionality is essential for organizations looking to <br/> leverage its true potential.
         </p>
         <Services />

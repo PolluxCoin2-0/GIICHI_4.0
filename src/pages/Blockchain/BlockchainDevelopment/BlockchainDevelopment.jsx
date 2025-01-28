@@ -55,7 +55,7 @@ const FrameworksData = [
 
 const FrameworksCard = ({ logo, title, description }) => {
   return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
+    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
       <div className="flex flex-row justify-between">
         <img src={logo} alt={title} className="" />
         <LuArrowUpRight color="#2BB32A" size={28} />
@@ -68,9 +68,9 @@ const FrameworksCard = ({ logo, title, description }) => {
 
 const BlockchainDevelopment = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-12 ">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex justify-center 3xl:px-64">
+      <div className="relative w-full mx-auto flex justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <img
           src={BlockchainImg}
           alt="blockchain-bg-image"
@@ -132,7 +132,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Blockchain Development Services */}
-      <div className="mt-12 3xl:px-64">
+      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Our Blockchain
           <br />
@@ -140,7 +140,7 @@ const BlockchainDevelopment = () => {
             Development Services
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
           Antier provides a full suite of blockchain development services to
           help businesses harness the full <br />
           potential of the technology and stay ahead in today’s competitive web3
@@ -151,14 +151,14 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Industries  */}
-      <div className="text-center mt-24 ">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
+      <div className="text-center mt-12 md:mt-24">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Industries{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             We Serve
           </span>
         </p>
-        <p className="text-[17px] text-white text-opacity-70 pt-4">
+        <p className="text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           As a leading custom blockchain development company, we leverage
           different blockchain networks <br /> to provide you with the best
           solutions aligned with your needs.
@@ -170,22 +170,22 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Blockchain frameworks */}
-      <div className=" mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
+      <div className="mt-12 md:mt-24 ">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Blockchain Frameworks We Utilize <br /> for{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             L2/L3 Development
           </span>
         </p>
 
-        <p className="text-white text-opacity-40 pt-6 text-center">
+        <p className="text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Giichi team of experienced blockchain developers has a deep
           understanding of L2 and L3 blockchains and their <br />
           underlying frameworks. Our expertise lies in leveraging the robust
           capabilities of these frameworks that{" "}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-12 3xl:px-64">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64">
           {FrameworksData.map((data, index) => (
             <FrameworksCard
               key={index}
@@ -216,28 +216,28 @@ const BlockchainDevelopment = () => {
           the <br /> global market and stay abreast of the latest market trends.
         </p>
         {/* Tech Stack */}
-        <div className="3xl:px-64 flex flex-col items-start w-full">
-          <div className="w-[20%]">
+        <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full">
+          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
               Mobile
             </p>
           </div>
-          <div className="w-[20%]">
+          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
               Frontend
             </p>
           </div>
-          <div className="w-[20%]">
+          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
               Backend
             </p>
           </div>
-          <div className="w-[20%]">
+          <div className="w-[80%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 text-nowrap">
               Smart Contract Language
             </p>
           </div>
-          <div className="w-[20%]">
+          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
               CMS
             </p>

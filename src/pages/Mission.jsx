@@ -66,7 +66,7 @@ const Mission = () => {
   };
 
   return (
-    <div className="3xl:px-64 pt-24">
+    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
       {/* Heading 1 */}
       <p className="text-white text-xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
         Generating lasting performance <br />
@@ -95,7 +95,7 @@ const Mission = () => {
       </div>
 
       {/* Blocks : Our Partners */}
-      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 xl:space-x-0 w-full mt-8">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 xl:space-x-0 space-y-4 md:space-y-0 w-full mt-8">
         {partners.map((partner, index) => (
           <PartnerCard
             key={index}
@@ -114,7 +114,7 @@ const Mission = () => {
       </div>
 
       {/* Blocks : Our Clients */}
-      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 xl:space-x-0 w-full mt-8">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 xl:space-x-0 space-y-4 md:space-y-0 w-full mt-8">
         {clients.map((client, index) => (
           <PartnerCard
             key={index}
