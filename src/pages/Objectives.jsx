@@ -12,9 +12,6 @@ const Objectives = () => {
     <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
       {/* heading 1 */}
       <div className="flex flex-row justify-between items-center">
-        {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium">
-          -Unlock Your Creative Potential-
-        </p> */}
         <img src={star1Img} alt="" className="hidden md:hidden" />
       </div>
 
@@ -45,28 +42,61 @@ const Objectives = () => {
       <div className="mt-8">
         {/* block1 row {top row} */}
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 mt-4 lg:mt-0">
-          <div className="w-[27%]">
-            <img src={b5Img} alt="" className="" />
-            {/* <p className="text-white -mt-6">Blockchain</p> */}
+          {/* Block 1 */}
+          <div className="w-[27%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-white py-2 text-start pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN</div>
+            <img src={b5Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ut quo a, optio mollitia voluptate temporibus eum. Sit, ad accusantium.</p>
+            </div>
           </div>
-          <div className="w-[44%]">
-            <img src={b4Img} alt="" className="" />
+
+          {/* Block 2 */}
+          <div className="w-[44%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN </div>
+            <img src={b4Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci nesciunt perspiciatis deserunt libero minus aliquam repudiandae at, iure quae!</p>
+            </div>
           </div>
-          <div className="w-[27%]">
-            <img src={b6Img} alt="" className="" />
+
+          {/* Block 3 */}
+          <div className="w-[27%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN</div>
+            <img src={b6Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus officia sapiente qui repellat pariatur reprehenderit natus saepe quod id nobis?</p>
+            </div>
           </div>
         </div>
 
         {/* block2 row  */}
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 pt-2 md:pt-4">
-          <div className="w-[33%]">
-            <img src={b7Img} alt="" className=" " />
+          {/* Block 4 */}
+          <div className="w-[33%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN</div>
+            <img src={b7Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quasi voluptates cum et, veritatis animi eum totam consequatur natus illum!</p>
+            </div>
           </div>
-          <div className="w-[33%]">
-            <img src={b8Img} alt="" className="" />
+
+          {/* Block 5 */}
+          <div className="w-[33%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN</div>
+            <img src={b8Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, assumenda. Eveniet magni distinctio obcaecati dolore unde voluptate officia vero minus!</p>
+            </div>
           </div>
-          <div className="w-[33%]">
-            <img src={b9Img} alt="" className="" />
+
+          {/* Block 6 */}
+          <div className="w-[33%] relative group">
+            <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-6 pb-6 text-2xl font-bold">BLOCKCHAIN</div>
+            <img src={b9Img} alt="" className="w-full h-auto"/>
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste odio repellat distinctio enim dicta alias laborum quod. Cumque, quae rerum!</p>
+            </div>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
 import Review from "../../../components/Review";
 import Faq from "../../../components/Faq";
 import Insights from "../../../components/Blockchain/Insights";
+import CalendlyButton from "../../../components/resuableComp/Calendly";
 
 const BlockchainIdentity = () => {
   return (
@@ -35,14 +36,12 @@ const BlockchainIdentity = () => {
             <br />
             blockchain with a single, tamper-proof ecosystem.
           </p>
-          {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+
+            {/* Button */}
+         <CalendlyButton/>
         </div>
+
+        
         {/* for mobile */}
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -55,13 +54,8 @@ const BlockchainIdentity = () => {
             <br />
             blockchain with a single, tamper-proof ecosystem.
           </p>
-          {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+           {/* Button */}
+           <CalendlyButton/>
         </div>
       </div>
 

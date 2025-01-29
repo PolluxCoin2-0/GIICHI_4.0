@@ -22,6 +22,7 @@ import LetsTalk from "../../../components/LetsTalk";
 import Services from "../../../components/Blockchain/Services";
 import Faq from "../../../components/Faq";
 import Insights from "../../../components/Blockchain/Insights";
+import CalendlyButton from "../../../components/resuableComp/Calendly";
 const FrameworksData = [
   {
     logo: depinArchImg,
@@ -170,13 +171,9 @@ const BlockchainDepin = () => {
             <br />
             blockchain with a single, tamper-proof ecosystem.
           </p>
-          {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+          
+            {/* Button */}
+         <CalendlyButton/>
         </div>
        
        {/* for mobile */}
@@ -192,13 +189,8 @@ const BlockchainDepin = () => {
             <br />
             blockchain with a single, tamper-proof ecosystem.
           </p>
-          {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+           {/* Button */}
+           <CalendlyButton/>
         </div>
       </div>
 

@@ -6,18 +6,18 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
   return (
-    <div className="pt-12">
+    <div className="pt-6 pb-12">
       {/* circle element */}
       <div className="relative inline-block ">
         <img
           src={circle2Img}
           alt=""
-          className="w-28 h-auto relative z-10 hidden lg:block"
+          className="w-28 h-auto relative z-10 hidden lg:hidden"
         />
         <img
           src={circle3Img}
           alt=""
-          className="w-28 h-auto absolute top-0 left-12 z-20 hidden lg:block"
+          className="w-28 h-auto absolute top-0 left-12 z-20 hidden lg:hidden"
         />
       </div>
 
@@ -62,20 +62,21 @@ const LetsTalk = ({ buttonText }) => {
 
           {/* Buttons */}
           <div className="flex flex-row justify-center mt-6">
-            <div className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg">
-              <button
-                type="button"
-                className=" text-nowrap text-sm md:text-lg "
-              >
-                {buttonText}
-              </button>
-              <MdOutlineKeyboardArrowRight size={28} />
-            </div>
+          <div 
+  className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg cursor-pointer"
+  onClick={() => window.open("https://wa.me/9266416198", "_blank")}
+>
+  <button type="button" className="text-nowrap text-sm md:text-lg cursor-pointer">
+    {buttonText}
+  </button>
+  <MdOutlineKeyboardArrowRight size={28} />
+</div>
+
           </div>
         </div>
       </div>
       {/* stars */}
-      <div className="hidden lg:flex justify-end mt-12 2xl:mr-72">
+      <div className="hidden lg:hidden justify-end mt-12 2xl:mr-72">
         <img src={star5Img} alt="" className="w-12 object-contain" />
         <img src={star5Img} alt="" className="w-12 pb-14 object-contain" />
       </div>

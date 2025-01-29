@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 const Typewriter = () => {
-  const words = ["Redefining , Digital , Evolution "];
+  const words = ["Redefining Digital Evolution "];
   const [currentWord, setCurrentWord] = useState('');
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

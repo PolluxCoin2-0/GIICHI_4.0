@@ -2,10 +2,45 @@
 import star6Img from "../assets/star6.png";
 import crowd1Logo from "../assets/crowd1Logo.png";
 import polluxLogo from "../assets/polluxLogo (3).png";
+import poxLogo from "../assets/poxLogo.png";
+import akamaiLogo from "../assets/akamai.png";
+import xdcImg from "../assets/xdc.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
+ // Custom Arrow Components
+  const CustomPrevArrow = ({ onClick }) => (
+    <div
+      className="custom-arrow custom-prev"
+      onClick={onClick}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
+        color: "#2BB32A",
+        
+      }}
+    >
+      <FaChevronLeft size={24} />
+    </div>
+  );
+
+  const CustomNextArrow = ({ onClick }) => (
+    <div
+      className="custom-arrow custom-next"
+      onClick={onClick}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        cursor: "pointer",
+        color: "#2BB32A",
+      }}
+    >
+      <FaChevronRight size={24} />
+    </div>
+  );
 const Mission = () => {
   const partners = [
     {
@@ -35,6 +70,8 @@ const Mission = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -76,14 +113,14 @@ const Mission = () => {
       </p>
 
       {/* Heading 2 */}
-      <div className="flex flex-row justify-between items-center">
-        <img src={star6Img} alt="" className="hidden md:block" />
-        <p className="text-sm md:text-lg font-semibold text-white text-opacity-50 text-center pt-6">
+      <div className="flex flex-row justify-center items-center">
+        <img src={star6Img} alt="" className="hidden md:hidden" />
+        <p className="text-sm md:text-lg font-semibold text-white text-opacity-50 text-center pt-6 ">
           Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
           partnership <br />
           program designed to turn your vision into reality.
         </p>
-        <img src={star6Img} alt="" className="hidden md:block" />
+        <img src={star6Img} alt="" className="hidden md:hidden" />
       </div>
 
       {/* Heading 3 */}
@@ -117,33 +154,54 @@ const Mission = () => {
       {/* Blocks : Our Clients */}
       <div className="mt-8">
         <div className="flex flex-row space-x-2 md:space-x-5 space-y-5 md:space-y-0 w-full">
-        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515]  w-[25%] flex flex-row justify-center items-center space-x-6 ">
-            <p className=" text-lightGray text-sm md:text-3xl"></p>
+        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
           </div>
-          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515]  w-[25%] flex flex-row justify-center items-center space-x-6 ">
-            <p className=" text-lightGray text-sm md:text-3xl"> </p>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={akamaiLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Akamai</p>
           </div>
-          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515]  w-[25%] flex flex-row justify-center items-center space-x-6 ">
-            <p className=" text-lightGray text-sm md:text-3xl"> </p>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={xdcImg} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Xinfin Network</p>
           </div>
-          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515]  w-[25%] flex flex-row justify-center items-center space-x-6 ">
-            <p className=" text-lightGray text-sm md:text-3xl"> </p>
-          </div>
+          
         </div>
 
         <div className="flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[20%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[20%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[20%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[20%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[20%]"></p>
+        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[25%] flex flex-row justify-center items-center space-x-4">
+          <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
+          </div>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[25%] flex flex-row justify-center items-center space-x-4">
+          <img src={akamaiLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Akamai</p>
+          </div>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[25%] flex flex-row justify-center items-center space-x-4">
+          <img src={xdcImg} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Xinfin Network</p>
+          </div>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[25%] flex flex-row justify-center items-center space-x-4 ">
+          <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
+          </div>
+        
         </div>
 
         <div className="flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[25%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[25%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[25%]"></p>
-          <p className="rounded-2xl py-10 px-2 md:px-4 bg-[#151515] w-[25%]"></p>
+        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
+          </div>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={akamaiLogo} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Akamai</p>
+          </div>
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <img src={xdcImg} alt="" className="w-9 h-9 object-contain"/>
+            <p className=" text-lightGray text-sm md:text-xl">Xinfin Network</p>
+          </div>
         </div>
       </div>
     </div>

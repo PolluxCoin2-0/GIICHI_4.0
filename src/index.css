@@ -7,10 +7,10 @@ body{
     font-family: "Inter";
     background-color: black;
     overflow-x: hidden;
+    margin: 0;
 }
 
-
-
+/* for prev and next arrows icons */
 .custom-arrow {
     position: absolute;
     top: -30%;
@@ -19,11 +19,11 @@ body{
   }
   
   .custom-prev {
-    left: 90%; /* Adjust as needed */
+    left: 93%; /* Adjust as needed */
   }
   
   .custom-next {
-    left: 96%; /* Adjust as needed */
+    left: 98%; /* Adjust as needed */
   }
   
   .slick-slider {
@@ -49,10 +49,16 @@ body{
     display: flex;
   }
   
+  /* for blocks moves from left to right and right to left */
+ /* Apply left to right for the first and third rows */
+.slick-left-right .slick-track {
+  transform: translateX(0) !important;
+}
+
+.slick-right-left .slick-track {
+  transform: translateX(100%) !important;
+}
+
+  
+
  
-  
-  body {
-    margin: 0;
-    overflow-x: hidden; /* Prevent body-wide X-axis overflow */
-  }
-  

@@ -13,6 +13,25 @@ import Review from "../../../components/Review";
 import LetsTalk from "../../../components/LetsTalk";
 import Faq from "../../../components/Faq";
 import { LuArrowUpRight } from "react-icons/lu";
+import CalendlyButton from "../../../components/resuableComp/Calendly";
+import FlutterImg from "../../../assets/Flutter.png";
+import KotlinImg from "../../../assets/kotlin.png";
+import DartImg from "../../../assets/dart.png";
+import SwiftImg from "../../../assets/swift (3).png";
+import htmlImg from "../../../assets/html-5.png";
+import cssImg from "../../../assets/css-3.png";
+import jsImg from "../../../assets/java-script.png";
+import tsImg from "../../../assets/typescript (1).png";
+import reactImg from "../../../assets/reactjs.png";
+import nextImg from "../../../assets/nextjs (1).png";
+import tailwindImg from "../../../assets/tailwind.png";
+import expressImg from "../../../assets/express (2).png";
+import nodeImg from "../../../assets/node.png";
+import mongoImg from "../../../assets/mongo.png";
+import rustImg from "../../../assets/rust.png";
+import solidityImg from "../../../assets/solidity.png";
+import moveImg from "../../../assets/move.png";
+import wordpressImg from "../../../assets/wordpress.png";
 
 const FrameworksData = [
   {
@@ -95,12 +114,8 @@ const BlockchainDevelopment = () => {
             journey with GiiCHi CoPilot.
           </p>
           {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+         <CalendlyButton/>
+         {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
          <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -116,12 +131,7 @@ const BlockchainDevelopment = () => {
             journey with GiiCHi CoPilot.
           </p>
           {/* Button */}
-          <button
-            type="button"
-            className="bg-darkGreen px-6 py-1 rounded-md text-white mt-4 "
-          >
-            Schedule A Free Demo
-          </button>
+        <CalendlyButton/>
         </div>
       </div>
 
@@ -237,32 +247,112 @@ const BlockchainDevelopment = () => {
           the <br /> global market and stay abreast of the latest market trends.
         </p>
         {/* Tech Stack */}
-        <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full">
-          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
-              Mobile
-            </p>
+        <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
+          {/* for mobile tech stack */}
+          <div className="flex flex-row justify-start items-center space-x-6 w-full">
+            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 "> Mobile</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={FlutterImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">Flutter</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={KotlinImg} alt="" className="w-16"/>
+            <p className="text-white text-sm pt-2">Kotlin</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={DartImg} alt="" className="w-10"/>
+            <p className="text-white text-sm pt-2">Dart</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={SwiftImg} alt="" className="w-10"/>
+            <p className="text-white text-sm pt-2">Swift</p>
+            </div>
           </div>
-          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
-              Frontend
-            </p>
+
+          {/* for frontend tech stack */}
+          <div className="flex flex-row justify-start items-center space-x-6 w-full">
+            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 ">Frontend</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={htmlImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">HTML</p>
+            </div>
+            <div className=" flex flex-col justify-center items-center w-[10%]">
+            <img src={cssImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">CSS</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={jsImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">Javascript</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={tsImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">Typescript</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={reactImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">ReactJS</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={nextImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm pt-2">NextJS</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={tailwindImg} alt="" className="w-10 "/>
+            <p className="text-white text-nowrap text-sm pt-2" >Tailwind CSS</p>
+            </div>
           </div>
-          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
-              Backend
-            </p>
+
+          {/* for backend tech stack */}
+         <div className="flex flex-row justify-start items-center space-x-6 w-full">
+            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2"> Backend</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={expressImg} alt="" className="w-10 "/>
+            <p className="text-white text-nowrap text-sm pt-2">Express.js</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={nodeImg} alt="" className="w-10 "/>
+            <p className="text-white text-nowrap text-sm pt-2">NodeJS</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={mongoImg} alt="" className="w-10 "/>
+            <p className="text-white text-nowrap text-sm pt-2">MongoDB</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={rustImg} alt="" className="w-10"/>
+            <p className="text-white text-nowrap text-sm pt-2">Rust</p>
+            </div>
           </div>
-          <div className="w-[80%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 text-nowrap">
-              Smart Contract Language
-            </p>
+
+          {/* for smart contract language tech stack */}
+          <div className=" flex flex-row justify-start items-center space-x-6 w-full">
+            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 text-nowrap"> Smart Contract Language</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={solidityImg} alt="" className="w-12 "/>
+            <p className="text-white text-sm pt-2">Solidity</p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={moveImg} alt="" className="w-12 "/>
+            <p className="text-white text-sm pt-2">Move</p>
+            </div>
           </div>
-          <div className="w-[50%] md:w-[35%] lg:w-[25%] xl:w-[20%]">
+
+          {/* for CMS tech stack */}
+         <div className="flex flex-row justify-start items-center space-x-6 w-full">
+            <div className="w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
               CMS
             </p>
+            </div>
+            <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={wordpressImg} alt="" className="w-10 "/>
+            <p className="text-white text-sm text-center pt-2">Wordpress</p>
+            </div>
           </div>
+
         </div>
       </div>
 
