@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,6 +83,8 @@ const Navbar = () => {
             About Us
           </li>
         </ul>
+
+
         <div className="lg:hidden flex justify-center mt-4 mb-12">
         <button
           type="button"
@@ -94,6 +97,7 @@ const Navbar = () => {
       </div>
 
       {/* Get in Touch Button */}
+      <Link to="/contact-us">
       <div className="hidden lg:block">
         <button
           type="button"
@@ -102,6 +106,7 @@ const Navbar = () => {
           Get In Touch
         </button>
       </div>
+      </Link>
     </nav>
   );
 };

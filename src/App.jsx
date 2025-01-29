@@ -5,6 +5,7 @@ import Footer from "./layout/Footer";
 import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/BlockchainDevelopment";
 import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
 import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
+import ContactForm from "./components/resuableComp/ContactForm";
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
            <Route path="/blockchain-development" element={<BlockchainDevelopment/>}/>
            <Route path="/blockchain-identity" element={<BlockchainIdentity/>}/>
            <Route path="/blockchain-depin" element={<BlockchainDepin/>}/>
+           <Route path="/contact-us" element={<ContactForm/>}/>
         </Routes>
         <Footer/>
      </Router>
