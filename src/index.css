@@ -59,6 +59,56 @@ body{
   transform: translateX(100%) !important;
 }
 
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
+.box {
+  display: grid;
+  place-content: center;
+  border: solid 5px transparent;
+  border-radius: 2em;
+  padding: 10px;
+  
+  --border-angle: 0turn;
+  --gradient-border: conic-gradient(
+      from var(--border-angle), 
+      transparent 25%, 
+      #08f, 
+      #f03 99%, 
+      transparent
+  );
+  
+  position: relative;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border-radius: inherit;
+  padding: 5px;
+  background: var(--gradient-border);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  animation: border-move 3s linear infinite;
+}
+
+ @keyframes border-rotate {
+            to {
+                --border-angle: 1turn;
+            }
+        }
+
+.box:hover::before {
+  animation-play-state: paused;
+}
+
   
 
  

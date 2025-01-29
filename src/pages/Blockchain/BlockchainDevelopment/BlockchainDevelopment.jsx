@@ -250,8 +250,8 @@ const BlockchainDevelopment = () => {
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
           {/* for mobile tech stack */}
           <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 "> Mobile</p>
-            </div>
+         
+            <div className="w-[20%] "> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 box"> Mobile</p></div>
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={FlutterImg} alt="" className="w-10 "/>
             <p className="text-white text-sm pt-2">Flutter</p>
@@ -272,7 +272,7 @@ const BlockchainDevelopment = () => {
 
           {/* for frontend tech stack */}
           <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 ">Frontend</p>
+            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 ">Frontend</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={htmlImg} alt="" className="w-10 "/>
@@ -306,7 +306,7 @@ const BlockchainDevelopment = () => {
 
           {/* for backend tech stack */}
          <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2"> Backend</p>
+            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3"> Backend</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={expressImg} alt="" className="w-10 "/>
@@ -328,7 +328,7 @@ const BlockchainDevelopment = () => {
 
           {/* for smart contract language tech stack */}
           <div className=" flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2 text-nowrap"> Smart Contract Language</p>
+            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-nowrap"> Smart Contract Language</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={solidityImg} alt="" className="w-12 "/>
@@ -343,7 +343,7 @@ const BlockchainDevelopment = () => {
           {/* for CMS tech stack */}
          <div className="flex flex-row justify-start items-center space-x-6 w-full">
             <div className="w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-2">
+            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3">
               CMS
             </p>
             </div>

@@ -32,6 +32,15 @@ export default {
           "linear-gradient(to right, rgba(43, 179, 45, 0.1) 0%, rgba(255, 168, 40, 0.09) 100%)",
         "black-gradient": "linear-gradient(to right, #003600 0%, #000000 100%)",
       },
+
+      animation: {
+        'border': 'border 4s linear infinite',
+    },
+    keyframes: {
+        'border': {
+            to: { '--border-angle': '360deg' },
+        }
+    }  
     },
   },
   plugins: [],
