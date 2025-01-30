@@ -10,7 +10,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import uviLogo from "../assets/uviLogo.png";
 import sulaanaLogo from "../assets/SulanaLogo.svg";
-import sulmineLogo from "../assets/SulLogo.svg";
+import sulmineLogo from "../assets/sulLogo.svg";
 import { Link } from "react-router-dom";
 import zonLogo from "../assets/zonToken.png";
 import lBankLogo from "../assets/lbank.png";
