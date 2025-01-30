@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  // const [openModal, setOpenModal] = useState(false);
   return (
     <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-20 3xl:px-60 py-4 bg-black">
       {/* Logo */}
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
               Blockchain
             </li>
-          </a>
+             </a>
           <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
             AI
           </li>
@@ -84,7 +84,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-
+        <Link to="/contact-us">
         <div className="lg:hidden flex justify-center mt-4 mb-12">
         <button
           type="button"
@@ -93,7 +93,7 @@ const Navbar = () => {
           Get In Touch
         </button>
       </div>
-        
+      </Link>
       </div>
 
       {/* Get in Touch Button */}

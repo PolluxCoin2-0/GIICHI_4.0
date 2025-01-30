@@ -15,9 +15,11 @@ export default {
         black: "#000000",
         darkGray: "#282A28",
         lightGray: "#5A5C59",
+        lightestGray: "#D9D9D9",
         darkBlue: "#041C41",
         navyBlue: "#061037",
         blue: "#041D3F",
+        
       },
 
       fontFamily: {},

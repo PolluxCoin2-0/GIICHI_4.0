@@ -153,23 +153,23 @@ const Mission = () => {
 
       {/* Blocks : Our Clients */}
       <div className="mt-8">
-        <div className="flex flex-row space-x-2 md:space-x-5 space-y-5 md:space-y-0 w-full">
-        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+        <div className="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-5 md:space-y-0 w-full">
+        <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-full md:w-[33%] flex flex-row justify-center items-center space-x-4">
           <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
             <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
           </div>
-          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-full md:w-[33%] flex flex-row justify-center items-center space-x-4">
           <img src={akamaiLogo} alt="" className="w-9 h-9 object-contain"/>
             <p className=" text-lightGray text-sm md:text-xl">Akamai</p>
           </div>
-          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
+          <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-full md:w-[33%] flex flex-row justify-center items-center space-x-4">
           <img src={xdcImg} alt="" className="w-9 h-9 object-contain"/>
             <p className=" text-lightGray text-sm md:text-xl">Xinfin Network</p>
           </div>
           
         </div>
 
-        <div className="flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
+        <div className="hidden md:flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
         <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[25%] flex flex-row justify-center items-center space-x-4">
           <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
             <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
@@ -189,7 +189,7 @@ const Mission = () => {
         
         </div>
 
-        <div className="flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
+        <div className="hidden md:flex flex-row space-x-2 md:space-x-5 space-y-2 md:space-y-0 w-full mt-5">
         <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] w-[33%] flex flex-row justify-center items-center space-x-4">
           <img src={poxLogo} alt="" className="w-9 h-9 object-contain"/>
             <p className=" text-lightGray text-sm md:text-xl">PolluxChain</p>
