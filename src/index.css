@@ -109,6 +109,33 @@ body{
   animation-play-state: paused;
 }
 
+/* Reduce the border opacity */
+.PhoneInput input {
+  background-color: transparent !important; /* Remove default background */
+  border: 1px solid rgba(255, 255, 255, 0.05) !important; /* Adjust border opacity to 5% */
+}
+
+/* Ensure placeholder color and visibility */
+.PhoneInput input::placeholder {
+  color: #b0b0b0 !important;  /* Placeholder color */
+  opacity: 1 !important;      /* Make sure placeholder is visible */
+}
+
+/* If PhoneInput has additional class names like .react-tel-input, you may need to target it as well */
+.react-tel-input input {
+  background-color: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important; /* Adjust border opacity to 5% */
+}
+
+.react-tel-input input::placeholder {
+  color: #b0b0b0 !important;
+  opacity: 1 !important;
+}
+
+
+
+
+
   
 
  
