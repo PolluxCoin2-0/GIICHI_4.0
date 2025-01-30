@@ -6,7 +6,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
   return (
-    <div className="pt-6 pb-12">
+    <div className="pt-0 md:pt-6 pb-12">
       {/* circle element */}
       <div className="relative inline-block ">
         <img
@@ -62,16 +62,18 @@ const LetsTalk = ({ buttonText }) => {
 
           {/* Buttons */}
           <div className="flex flex-row justify-center mt-6">
-          <div 
-  className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg cursor-pointer"
-  onClick={() => window.open("https://wa.me/9266416198", "_blank")}
->
-  <button type="button" className="text-nowrap text-sm md:text-lg cursor-pointer">
-    {buttonText}
-  </button>
-  <MdOutlineKeyboardArrowRight size={28} />
-</div>
-
+            <div
+              className="flex flex-row items-center bg-green-gradient px-6 md:px-12 py-2 md:py-3 text-black rounded-full text-lg md:text-xl font-semibold shadow-lg cursor-pointer transform hover:scale-105 transition-transform duration-300"
+              onClick={() => window.open("https://wa.me/9266416198", "_blank")}
+            >
+              <button
+                type="button"
+                className="text-nowrap text-sm md:text-lg cursor-pointer"
+              >
+                {buttonText}
+              </button>
+              <MdOutlineKeyboardArrowRight size={28} />
+            </div>
           </div>
         </div>
       </div>

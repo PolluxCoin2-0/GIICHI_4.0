@@ -16,7 +16,7 @@ import LetsTalk from "../components/LetsTalk";
 import Typewriter from "../components/Typewriter";
 const Dashboard = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-6 md:pt-12">
       {/* Section 1 */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <div className="flex flex-row justify-center md:justify-between items-center">
@@ -37,7 +37,7 @@ const Dashboard = () => {
         </p>
      
         {/* Heading 3 */}
-        <div className="flex flex-row justify-center items-center h-20">
+        <div className="flex flex-row justify-center items-center h-10 md:h-20">
           <img src={star3Img} alt="" className="hidden md:hidden" />
           <p className="text-sm md:text-md lg:text-3xl font-semibold  text-center pt-6">
          <Typewriter/>
