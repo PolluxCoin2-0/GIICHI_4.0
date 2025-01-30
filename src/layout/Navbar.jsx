@@ -15,7 +15,8 @@ const Navbar = () => {
       </a>
 
       {/* Hamburger Menu (visible on mobile) */}
-      <div className="lg:hidden">
+      {/* added -mr-52 to justify the hamburger for mobile, dont know why this is happening */}
+      <div className="lg:hidden -mr-52">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none"

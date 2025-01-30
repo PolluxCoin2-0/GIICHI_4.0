@@ -106,7 +106,7 @@ const Dashboard = () => {
       </div>
 
       {/* bottom line */}
-      <div className="flex justify-center items-center pt-16">
+      <div className="flex justify-center items-center pt-16 ">
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] 
         before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
