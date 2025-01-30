@@ -71,10 +71,10 @@ const ContactForm = () => {
         onClick={onClick}
         readOnly
         placeholder="Date*"
-        className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white pr-24 placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
+        className="w-full mr-24 p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white  placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
       />
       <FaCalendarAlt
-        className="absolute right-3 top-3 text-white cursor-pointer"
+        className="absolute right-3 top-3 text-white cursor-pointer "
         onClick={onClick}
       />
     </div>
@@ -82,15 +82,16 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-20 bg-greish-gradient h-full pb-24 px-4 md:px-0">
-      <div className="border-2 border-white border-opacity-15 rounded-3xl px-4 md:px-12 py-6 md:py-10 w-full md:w-[40%] pb-20 bg-gray-gradient ">
+      <div className="border-2 border-white border-opacity-15 rounded-3xl px-4 md:px-6 lg:px-12 py-6 md:py-10 w-full md:w-[80%] lg:w-[70%] xl:w-[40%] pb-20 bg-gray-gradient ">
         <p className="text-white text-xl md:text-3xl font-bold text-center">
           Please Share Your Details
         </p>
-        <p className="text-white text-opacity-60 pt-4 md:pt-8 text-sm md:text-[17px]">Contact Details:</p>
-        
-       
+        <p className="text-white text-opacity-60 pt-4 md:pt-8 text-sm md:text-[17px]">
+          Contact Details:
+        </p>
+
         <div className="pt-4">
-           {/* first and last name */}
+          {/* first and last name */}
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 w-full">
             <div className="flex flex-col w-full md:w-[50%]">
               <input
@@ -120,8 +121,8 @@ const ContactForm = () => {
               )}
             </div>
           </div>
-         
-         {/* email and mobile number */}
+
+          {/* email and mobile number */}
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 mt-4 w-full">
             <div className="flex flex-col w-full md:w-[50%]">
               <input
@@ -157,67 +158,67 @@ const ContactForm = () => {
               )}
             </div>
           </div>
-         
-         {/* nature of work and purpose */}
+
+          {/* nature of work and purpose */}
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 mt-4 w-full">
             <div className="w-full md:w-[50%]">
-            <select
-              name="natureOfWork"
-              value={formData.natureOfWork}
-              onChange={handleChange}
-              className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
-            >
-              <option value="" className="text-black text-sm">
-                Nature of Work
-              </option>
-              <option value="Consulting" className="text-black text-sm">
-                Consulting
-              </option>
-              <option value="Development" className="text-black text-sm">
-                Development
-              </option>
-              <option value="Marketing" className="text-black text-sm">
-                Marketing
-              </option>
-            </select>
+              <select
+                name="natureOfWork"
+                value={formData.natureOfWork}
+                onChange={handleChange}
+                className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
+              >
+                <option value="" className="text-black text-sm">
+                  Nature of Work
+                </option>
+                <option value="Consulting" className="text-black text-sm">
+                  Consulting
+                </option>
+                <option value="Development" className="text-black text-sm">
+                  Development
+                </option>
+                <option value="Marketing" className="text-black text-sm">
+                  Marketing
+                </option>
+              </select>
             </div>
-            
+
             <div className="w-full md:w-[50%] mt-4 md:mt-0">
-            <select
-              name="purpose"
-              value={formData.purpose}
-              onChange={handleChange}
-              className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
-            >
-              <option value="" className="text-black text-sm">
-                Purpose
-              </option>
-              <option value="CoPilot" className="text-black text-sm">
-                CoPilot
-              </option>
-              <option
-                value="Build a Product/Service"
-                className="text-black text-sm"
+              <select
+                name="purpose"
+                value={formData.purpose}
+                onChange={handleChange}
+                className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
               >
-                Build a Product/Service
-              </option>
-              <option
-                value="Technical Support/Query"
-                className="text-black text-sm"
-              >
-                Technical Support/Query
-              </option>
-              <option value="Schedule a Demo" className="text-black text-sm">
-                Schedule a Demo
-              </option>
-              <option value="Others" className="text-black text-sm">
-                Others
-              </option>
-            </select>
+                <option value="" className="text-black text-sm">
+                  Purpose
+                </option>
+                <option value="CoPilot" className="text-black text-sm">
+                  CoPilot
+                </option>
+                <option
+                  value="Build a Product/Service"
+                  className="text-black text-sm"
+                >
+                  Build a Product/Service
+                </option>
+                <option
+                  value="Technical Support/Query"
+                  className="text-black text-sm"
+                >
+                  Technical Support/Query
+                </option>
+                <option value="Schedule a Demo" className="text-black text-sm">
+                  Schedule a Demo
+                </option>
+                <option value="Others" className="text-black text-sm">
+                  Others
+                </option>
+              </select>
             </div>
           </div>
-         
-         <p className="text-white text-opacity-60 pt-4 md:pt-8">
+
+          <p className="text-white text-opacity-60 pt-4 md:pt-8 text-sm md:text-[17px]">
             Best Date & Time to Reach You:
           </p>
 
@@ -231,7 +232,7 @@ const ContactForm = () => {
                 customInput={<CustomInput />}
               />
             </div>
-            
+
             <div className="w-full md:w-[50%] mt-4 md:mt-0">
               <select
                 name="time"
@@ -263,7 +264,7 @@ const ContactForm = () => {
               </select>
             </div>
           </div>
-          
+
           {/* message */}
           <div className="mt-4">
             <textarea
@@ -275,8 +276,8 @@ const ContactForm = () => {
               placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
             />
           </div>
-         
-         {/* submit button */}
+
+          {/* submit button */}
           <div className="mt-4">
             <button
               type="button"
