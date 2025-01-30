@@ -23,8 +23,15 @@ body{
     top: -30%;
     transform: translateY(-50%);
     z-index: 2;
+    padding: 8px; /* Add padding for better visibility */
+    border-radius: 50%; /* Optional: Makes the background circular */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
   }
-  
+    
+  .custom-arrow:hover {
+    background-color: white;
+  }
+
   .custom-prev {
     left: 93%; /* Adjust as needed */
   }
@@ -55,6 +62,9 @@ body{
   .slick-track {
     display: flex;
   }
+
+  
+  
   
   /* for blocks moves from left to right and right to left */
  /* Apply left to right for the first and third rows */
