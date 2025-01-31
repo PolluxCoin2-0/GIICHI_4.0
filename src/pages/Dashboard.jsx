@@ -49,7 +49,7 @@ const Dashboard = () => {
         <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-8 pt-8">
           <button
             type="button"
-            className="bg-green-gradient px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="bg-green-gradient shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
           >
             Contact Us
           </button>
