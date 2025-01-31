@@ -1,11 +1,11 @@
 import star1Img from "../assets/star1.png";
 import star2Img from "../assets/star2.png";
-import b5Img from "../assets/B5.png";
-import b4Img from "../assets/B4.png";
-import b6Img from "../assets/B6.png";
-import b7Img from "../assets/B7.png";
-import b8Img from "../assets/B8.png";
-import b9Img from "../assets/B9.png";
+import b5Img from "../assets/blockchain.png";
+import b4Img from "../assets/metaverse.png";
+import b6Img from "../assets/crypto.png";
+import b7Img from "../assets/ai1.png";
+import b8Img from "../assets/defi.png";
+import b9Img from "../assets/cloud.png";
 
 const Objectives = () => {
   return (
