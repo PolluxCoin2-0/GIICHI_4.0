@@ -6,6 +6,7 @@ import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/Bloc
 import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
 import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
 import ContactForm from "./components/resuableComp/ContactForm";
+import AboutUs from "./pages/About/AboutUs";
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/blockchain-identity" element={<BlockchainIdentity/>}/>
            <Route path="/blockchain-depin" element={<BlockchainDepin/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
+           <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
         <Footer/>
      </Router>

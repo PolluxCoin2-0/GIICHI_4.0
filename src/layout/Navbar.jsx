@@ -84,9 +84,12 @@ const Navbar = () => {
           <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300" >
             Industries
           </li>
+
+          <a href="/about-us">
           <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
             About Us
           </li>
+          </a>
         </ul>
 
         <Link to="/contact-us">
