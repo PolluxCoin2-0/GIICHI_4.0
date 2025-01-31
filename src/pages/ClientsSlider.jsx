@@ -73,8 +73,8 @@ const ClientsSlider = () => {
         ].map((item, index) => (
           <div key={index} className="px-3 mt-4">
             <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] flex justify-center items-center space-x-4">
-              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain" />
-              <p className="text-sm md:text-2xl dancing-font" style={{ color: item.color }}>{item.name}</p>
+              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain text-nowrap" />
+              <p className="text-sm md:text-2xl dancing-font text-nowrap" style={{ color: item.color }}>{item.name}</p>
             </div>
           </div>
         ))}
@@ -90,8 +90,8 @@ const ClientsSlider = () => {
         ].map((item, index) => (
           <div key={index} className="px-3 mt-4">
             <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] flex justify-center items-center space-x-4">
-              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain" />
-              <p className="text-sm md:text-2xl dancing-font" style={{ color: item.color }}>{item.name}</p>
+              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain text-nowrap" />
+              <p className="text-sm md:text-2xl dancing-font text-nowrap" style={{ color: item.color }}>{item.name}</p>
             </div>
           </div>
         ))}
@@ -105,8 +105,8 @@ const ClientsSlider = () => {
         ].map((item, index) => (
           <div key={index} className="px-3 mt-4 ">
             <div className="rounded-2xl py-3 md:py-5 px-2 md:px-4 bg-[#151515] flex justify-center items-center space-x-4">
-              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain" />
-              <p className="text-sm md:text-2xl dancing-font" style={{ color: item.color }}>{item.name}</p>
+              <img src={item.logo} alt={item.name} className="w-9 h-9 object-contain text-nowrap" />
+              <p className="text-sm md:text-2xl dancing-font text-nowrap" style={{ color: item.color }}>{item.name}</p>
             </div>
           </div>
         ))}
