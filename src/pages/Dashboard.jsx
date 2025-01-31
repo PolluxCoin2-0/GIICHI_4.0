@@ -18,7 +18,7 @@ const Dashboard = () => {
   return (
     <div className="pt-6 md:pt-12">
       {/* Section 1 */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60">
         <div className="flex flex-row justify-center md:justify-between items-center">
           <img src={star1Img} alt="" className="hidden md:hidden" />
           {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
