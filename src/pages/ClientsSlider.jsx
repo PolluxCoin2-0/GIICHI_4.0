@@ -23,6 +23,7 @@ const ClientsSlider = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "20px",
+    easing: "ease-in-out", // Makes transition smooth
     arrows: false, // Disable arrows
     responsive: [
       {
@@ -52,6 +53,7 @@ const ClientsSlider = () => {
     slidesToShow: 3, // Show 3 slides in first and third row
     rtl: true, // Right to Left movement for first and third row
     autoplaySpeed: 3000,
+    
   };
 
   const sliderSecondRowSettings = {

@@ -119,7 +119,7 @@ const Mission = () => {
     };
     return (
       <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
-        <img src={logo} alt={title} className="w-10 md:w-20" />
+        <img src={logo} alt={title} className="w-20 h-20 md:w-20  object-contain" />
         <Link
           to={link}
           target="_blank"
@@ -127,7 +127,7 @@ const Mission = () => {
           className="flex flex-row items-center mt-4 space-x-2 cursor-pointer"
         >
           <FaLink color="#F0AA06" size={20} />
-          <p className="text-white text-lg font-bold"> {title}</p>
+          <p className="text-white text-lg font-bold text-nowrap"> {title}</p>
         </Link>
         <p
           className="text-white text-opacity-70 pt-2"
@@ -139,7 +139,7 @@ const Mission = () => {
           {description}
         </p>
         {/* Toggle "View More" / "View Less" */}
-        <div className="flex justify-between items-center w-[350px] ">
+        <div className="flex justify-between items-center w-[250px] ">
           <button
             onClick={toggleDescription}
             className="text-orange font-medium leading-snug py-4 text-justify"
@@ -156,7 +156,9 @@ const Mission = () => {
   };
 
   return (
-    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-6 md:pt-12">
+    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-6 md:pt-12">
+      <div className="hidden md:block spotlight2 spotlight-left1"></div>
+      <div className="hidden md:block spotlight1 spotlight-right1"></div>
       {/* Heading 1 */}
       <p className="hidden md:block text-white text-xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
         Ensuring long-term success and high performance for<br />
@@ -204,7 +206,7 @@ const Mission = () => {
       </Slider>
 
       {/* Heading 4 */}
-      <div className="flex flex-row justify-center items-center mt-12">
+      <div className="flex flex-row justify-center items-center mt-12 md:mt-20">
         <p className="bg-darkGray text-white px-8 lg:px-24 py-3 rounded-full text-[17px] font-medium text-nowrap">
           - Our Clients-
         </p>

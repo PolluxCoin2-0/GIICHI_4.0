@@ -149,9 +149,127 @@ body{
   opacity: 1 !important;
 }
 
+/* spotlight shadow */
+   
+/* Common spotlight styles in navbar */
+.spotlight {
+  height: 90vh;
+  width: 60vw; /* 40% of viewport width for each */
+  background-image: radial-gradient(closest-side, rgba(47, 176, 3, 0.15), transparent);
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Left spotlight */
+.spotlight-left {
+  left: -20vw; /* Move towards the left */
+}
+
+/* Right spotlight */
+.spotlight-right {
+  right: -20vw; /* Move towards the right */
+}
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 768px) {
+  .spotlight {
+      height: 50vh;
+      width: 45vw; /* Slightly increase width */
+  }
+  
+  .spotlight-left {
+      left: -25vw;
+  }
+
+  .spotlight-right {
+      right: -25vw;
+  }
+}
+
+/* Adjust for very small screens */
+@media screen and (max-width: 480px) {
+  .spotlight {
+      height: 60vh;
+      width: 50vw; /* Take more space */
+  }
+
+  .spotlight-left {
+      left: -30vw;
+  }
+
+  .spotlight-right {
+      right: -30vw;
+  }
+}
+
+/* mission spotlight */
+
+.spotlight1 {
+  height: 90vh;
+  width: 60vw; /* 40% of viewport width for each */
+  background-image: radial-gradient(closest-side, rgba(47, 176, 3, 0.15), transparent);
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  z-index: 0;
+  pointer-events: none;
+}
+.spotlight2 {
+  height: 90vh;
+  width: 60vw; /* 40% of viewport width for each */
+  background-image: radial-gradient(closest-side, rgba(47, 176, 3, 0.15), transparent);
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  z-index: 0;
+  pointer-events: none;
+}
 
 
+/* Left spotlight */
+.spotlight-left1 {
+  left: -20vw; /* Move towards the left */
+}
 
+/* Right spotlight */
+.spotlight-right1 {
+  right: -20vw; /* Move towards the right */
+}
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 768px) {
+  .spotlight1 {
+      height: 50vh;
+      width: 45vw; /* Slightly increase width */
+  }
+  
+  .spotlight-left1 {
+      left: -25vw;
+  }
+
+  .spotlight-right1 {
+      right: -25vw;
+  }
+}
+
+/* Adjust for very small screens */
+@media screen and (max-width: 480px) {
+  .spotlight1 {
+      height: 60vh;
+      width: 50vw; /* Take more space */
+  }
+
+  .spotlight-left1 {
+      left: -30vw;
+  }
+
+  .spotlight-right1 {
+      right: -30vw;
+  }
+}
 
   
 

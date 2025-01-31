@@ -6,7 +6,11 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const [openModal, setOpenModal] = useState(false);
   return (
-    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-20 3xl:px-60 py-4 bg-black">
+    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 3xl:px-60 py-4 ">
+<div className="hidden md:block spotlight spotlight-left"></div>
+<div className="hidden md:block spotlight spotlight-right"></div>
+
+
       {/* Logo */}
       <a href="/dashboard">
         <div>
@@ -16,7 +20,7 @@ const Navbar = () => {
 
       {/* Hamburger Menu (visible on mobile) */}
       {/* added -mr-52 to justify the hamburger for mobile, dont know why this is happening */}
-      <div className="lg:hidden -mr-52">
+      <div className="lg:hidden -mr-52 md:-mr-96">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none"
@@ -61,26 +65,26 @@ const Navbar = () => {
       >
         <ul className="flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-left">
           <a href="/blockchain-development">
-            <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
               Blockchain
             </li>
              </a>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0  text-nowrap hover:text-gray-300" >
             AI
           </li>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
             Gaming
           </li>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
             Consulting
           </li>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
             Solutions
           </li>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300" >
             Industries
           </li>
-          <li className="text-white text-lg font-semibold cursor-pointer py-2 lg:py-0">
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
             About Us
           </li>
         </ul>
@@ -89,7 +93,7 @@ const Navbar = () => {
         <div className="lg:hidden flex justify-center mt-4 mb-12">
         <button
           type="button"
-          className="bg-green-gradient px-5 py-3 rounded-full text-md font-semibold"
+          className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300"
         >
           Get In Touch
         </button>
@@ -102,7 +106,7 @@ const Navbar = () => {
       <div className="hidden lg:block">
         <button
           type="button"
-          className="bg-green-gradient px-5 py-3 rounded-full text-md font-semibold"
+          className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300"
         >
           Get In Touch
         </button>

@@ -9,7 +9,8 @@ import b9Img from "../assets/B9.png";
 
 const Objectives = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
+    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-12 md:pt-24">
+      <div className="hidden md:block spotlight spotlight-left"></div>
       {/* heading 1 */}
       <div className="flex flex-row justify-between items-center">
         <img src={star1Img} alt="" className="hidden md:hidden" />

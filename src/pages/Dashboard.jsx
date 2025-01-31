@@ -132,7 +132,7 @@ const Dashboard = () => {
       </div>
 
       {/* CLIENTS REVIEW PAGE */}
-      <div className="pt-12">
+      <div className="pt-6">
         <LetsTalk buttonText="Lets Talk" />
       </div>
     </div>
