@@ -63,7 +63,7 @@ const Dashboard = () => {
       </div>
 
       {/* Section-2 Blocks Section */}
-      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-60 3xl:px-80 pt-10 md:pt-20">
+      <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-40 3xl:px-80 pt-10 md:pt-20">
         <div className="w-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 rounded-3xl p-2 md:p-4 bg-gray-gradient ">
           <img src={blockImg1} alt="" className="w-full " />
           <p className="text-white text-opacity-50 mt-4 lg:mt-4 xl:mt-5 mb-5 lg:-mb-2 xl:mb-5 block md:hidden lg:block px-2 lg:text-[15px] xl:text-lg">
