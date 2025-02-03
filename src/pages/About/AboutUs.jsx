@@ -10,7 +10,7 @@ import LetsTalk from "../../components/LetsTalk";
 import indiaImg from "../../assets/india 1.png";
 const AboutUs = () => {
   return (
-    <div className="">
+    <div className="relative z-10">
       {/* header banner image */}
       <div className="relative z-10 -mt-4">
         <img
@@ -22,13 +22,13 @@ const AboutUs = () => {
 
       {/* about giichi */}
       <div className="absolute z-20 top-0 mt-64 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 ">
-        <p className="text-center text-7xl font-bold">
+        <p className="text-center text-4xl md:text-7xl font-bold">
           <span className="text-transparent bg-clip-text bg-white-gradient">
             About GiiCHi
           </span>
         </p>
         <div className="flex justify-center pt-6">
-          <p className="text-white text-opacity-70 text-md font-medium 2xl:w-[50%] 3xl:w-[40%] text-center">
+          <p className="text-white text-opacity-70 text-sm md:text-[17px] font-medium lg:w-[60%] 2xl:w-[50%] 3xl:w-[40%] text-center">
             Giichi, an IT company, specializes in digital transformation
             consulting and engineering services. We are dedicated to providing
             innovative solutions to both global enterprises and emerging
@@ -40,50 +40,55 @@ const AboutUs = () => {
       </div>
 
       {/* Technologyu excellence */}
-      <div className="relative bg-[#D9D9D9] bg-opacity-10 pt-20 pb-20 mt-20">
+      <div className="relative bg-[#D9D9D9] bg-opacity-10 pt-20 pb-20 mt-20 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60">
       <div className="hidden md:block spotlight spotlight-left"></div>
 <div className="hidden md:block spotlight spotlight-right"></div>
-        <p className="text-5xl font-bold text-center text-white">
+        <p className="text-2xl md:text-5xl font-bold text-center text-white">
           Technology{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Excellence{" "}
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-center pt-6 text-lg leading-snug">
+        <p className="block md:hidden text-white text-opacity-70 text-center pt-6 text-sm md:text-lg leading-snug">
           We assist our clients in accelerating their progress by crafting
-          flexible and scalable software <br />
+          flexible and scalable software
           development solutions.
         </p>
-        <div className="flex flex-row justify-center items-center space-x-72 mt-8">
+        <p className="hidden md:block text-white text-opacity-70 text-center pt-6 text-sm md:text-lg leading-snug">
+          We assist our clients in accelerating their progress by crafting
+          flexible and scalable software 
+          development solutions.
+        </p>
+        <div className="flex flex-row justify-center items-center space-x-4 md:space-x-12 lg:space-x-20 xl:space-x-72 mt-8">
           <div>
-            <div className="flex flex-row items-center space-x-8">
-              <img src={bkImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">BLOCKCHAIN</p>
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 pl-4">
+              <img src={bkImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">BLOCKCHAIN</p>
             </div>
-            <div className="flex flex-row items-center space-x-8 mt-8 ">
-              <img src={mtImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">METAVERSE</p>
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
+              <img src={mtImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">METAVERSE</p>
             </div>
-            <div className="flex flex-row items-center space-x-8 mt-8">
-              <img src={crImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">CRYPTO SOLUTIONS</p>
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
+              <img src={crImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">CRYPTO SOLUTIONS</p>
             </div>
           </div>
 
           <div>
-            <div className="flex flex-row items-center space-x-8">
-              <img src={clImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 ">
+              <img src={clImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 CLOUD POWERED SOLUTIONS
               </p>
             </div>
-            <div className="flex flex-row items-center space-x-8 mt-8">
-              <img src={defiImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">DEFI</p>
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
+              <img src={defiImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">DEFI</p>
             </div>
-            <div className="flex flex-row items-center space-x-8 mt-8">
-              <img src={aiImg} alt="" className="w-16 rounded-xl" />
-              <p className="text-xl font-bold text-white">
+            <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
+              <img src={aiImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 ARTIFICIAL INTELLIGENCE
               </p>
             </div>
@@ -92,21 +97,21 @@ const AboutUs = () => {
       </div>
 
       {/* Vision and Mission */}
-      <div className="relative flex flex-row items-center space-x-32 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 w-full mt-20 mb-20">
+      <div className="relative flex flex-col md:flex-row items-center space-x-0 md:space-x-10 lg:space-x-32 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 w-full mt-20 mb-20">
       <div className="hidden md:block spotlight spotlight-left"></div>
 
-        <div className="w-[40%]">
+        <div className="w-full md:w-[40%]">
 
-          <img src={missionImg} alt="" className="w-[70%]" />
+          <img src={missionImg} alt="" className="w-full xl:w-[70%]" />
         </div>
-        <div className="flex flex-col justify-start items-start w-[60%]">
-          <p className="text-5xl font-bold text-center text-white">
+        <div className="flex flex-col justify-start items-start w-full  md:w-[60%]">
+          <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white">
             Mission &{" "}
             <span className="text-transparent bg-clip-text bg-green-gradient">
               Vision
             </span>
           </p>
-          <p className="text-md text-white text-opacity-70 2xl:w-[100%] 3xl:w-[80%] pt-8">
+          <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[80%] pt-4 lg:pt-8">
             Our goal is to expedite the integration of new technologies within
             enterprises, streamline the resolution of intricate challenges that
             inevitably arise during digital evolution, and oversee continuous
@@ -124,9 +129,9 @@ const AboutUs = () => {
       </div>
 
       {/* Location */}
-      <div className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-64 mt-20 mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-64 mt-12 lg:mt-20 mb-12">
         {/* first */}
-        <div className="pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
+        <div className="pr-0 md:pr-6 xl:pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">
             <img src={indiaImg} alt="" className=""/>
             <p className="text-white text-xl font-bold">INDIA</p>
@@ -135,7 +140,7 @@ const AboutUs = () => {
           <p className="text-white  pt-5">+91 8360494224</p>
         </div>
  {/* second */}
-        <div className="pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
+        <div className="pr-0  md:pr-6 xl:pr-24  md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">
             <img src={indiaImg} alt="" className=""/>
             <p className="text-white text-xl font-bold">INDIA</p>

@@ -16,9 +16,9 @@ import LetsTalk from "../components/LetsTalk";
 import Typewriter from "../components/Typewriter";
 const Dashboard = () => {
   return (
-    <div className="pt-6 md:pt-12">
+    <div className="pt-6 md:pt-20 ">
       {/* Section 1 */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 ">
         <div className="flex flex-row justify-center md:justify-between items-center">
           <img src={star1Img} alt="" className="hidden md:hidden" />
           {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
@@ -28,7 +28,7 @@ const Dashboard = () => {
         </div>
 
         {/* Heading 2 */}
-        <p className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide ">
+        <p className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide" >
           Unlock Web3 Success <br />
           by Partnering with{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">

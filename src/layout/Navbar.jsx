@@ -1,15 +1,18 @@
 import { useState } from "react";
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
 import { Link } from "react-router-dom";
-
+import { FaArrowRightLong } from "react-icons/fa6";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const [openModal, setOpenModal] = useState(false);
+  const [isBlockchainDropdownOpen, setIsBlockchainDropdownOpen] = useState(true); // Set to true initially
+  const [isBlockchainFrameDropdownOpen, setIsBlockchainFrameDropdownOpen] = useState(false);
+  const [isBlockchainLayerDropdownOpen, setIsBlockchainLayerDropdownOpen] = useState(false);
+  
   return (
-    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 ">
-<div className="hidden md:block spotlight spotlight-left"></div>
-<div className="hidden md:block spotlight spotlight-right"></div>
-
+    <div>
+    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
 
       {/* Logo */}
       <a href="/dashboard">
@@ -19,103 +22,160 @@ const Navbar = () => {
       </a>
 
       {/* Hamburger Menu (visible on mobile) */}
-      {/* added -mr-52 to justify the hamburger for mobile, dont know why this is happening */}
       <div className="lg:hidden -mr-52 md:-mr-96">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none"
         >
           {isMenuOpen ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
           ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           )}
         </button>
       </div>
 
       {/* Nav Menu */}
-      <div
-        className={`${
-          isMenuOpen ? "block" : "hidden"
-        } absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto z-20`}
-      >
+      <div className={`${isMenuOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto z-20`}>
         <ul className="flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-left">
-          <a href="/blockchain-development">
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
-              Blockchain
-            </li>
-             </a>
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0  text-nowrap hover:text-gray-300" >
-            AI
-          </li>
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
-            Gaming
-          </li>
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
-            Consulting
-          </li>
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
-            Solutions
-          </li>
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300" >
-            Industries
-          </li>
-
-          <a href="/about-us">
-          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
-            About Us
-          </li>
-          </a>
+          <li className="relative text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">Blockchain</li>
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">AI </li>
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">Gaming</li>
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">Consulting</li>
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">Solutions</li>
+          <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">Industries</li>
+          <Link to="/about-us"><li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">About Us</li></Link>
         </ul>
-
         <Link to="/contact-us">
-        <div className="lg:hidden flex justify-center mt-4 mb-12">
-        <button
-          type="button"
-          className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300"
-        >
-          Get In Touch
-        </button>
+          <div className="lg:hidden flex justify-center mt-4 mb-12">
+            <button className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">Get In Touch</button>
+          </div>
+        </Link>
       </div>
-      </Link>
-      </div>
-
+     
       {/* Get in Touch Button */}
       <Link to="/contact-us">
-      <div className="hidden lg:block">
-        <button
-          type="button"
-          className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300"
-        >
-          Get In Touch
-        </button>
-      </div>
+        <div className="hidden lg:block">
+          <button className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">Get In Touch</button>
+        </div>
       </Link>
+
+    
     </nav>
+    
+    <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+    <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+      <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
+        <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+         onMouseEnter={() => setIsBlockchainFrameDropdownOpen(true)}
+         onMouseLeave={() => setIsBlockchainFrameDropdownOpen(false)}>
+          <p className="text-white text-[17px] font-bold">Blockchain</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        {isBlockchainDropdownOpen && (
+              <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <Link to="/blockchain-development">
+                <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                  <p className="text-white text-[17px] font-bold">Blockchain Development</p>
+                  <p className="text-sm ">Top into the potential of blockchain technology with our strategic blockchain servicesTop into the <br/> potential of blockchain technology with our strategic blockchain services</p>
+                  </div>
+                  </Link>
+                <Link to="/blockchain-defi">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                 <p className="text-white text-[17px] font-bold"> Blockchain In identity Management</p>
+                  <p className="text-sm">Transparent and flawless indentity management with blockchain</p> </div></Link>
+                <Link to="/blockchain-identity">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                  <p className=" text-white text-[17px] font-bold">DiPin Debelopment</p>
+                  <p className="text-sm">Pioneering the future of De-PIN -powered applications.</p>
+                  </div>
+                  </Link>
+                
+              </div>
+            )}
+        <div className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+         onMouseEnter={() => setIsBlockchainLayerDropdownOpen(true)}
+         onMouseLeave={() => setIsBlockchainLayerDropdownOpen(false)}>
+          <p className="text-white text-[17px] font-bold">Blockchain Frameworks</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        {isBlockchainFrameDropdownOpen && (
+              <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <Link to="/blockchain-development">
+                <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                  <p className="text-white text-[17px] font-bold">Blockchain Development</p>
+                  <p className="text-sm ">Top into the potential of blockchain technology with our strategic blockchain servicesTop into the <br/> potential of blockchain technology with our strategic blockchain services</p>
+                  </div>
+                  </Link>
+                <Link to="/blockchain-defi">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                 <p className="text-white text-[17px] font-bold"> Blockchain In identity Management</p>
+                  <p className="text-sm">Transparent and flawless indentity management with blockchain</p> </div></Link>
+                <Link to="/blockchain-identity">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                  <p className=" text-white text-[17px] font-bold">DiPin Debelopment</p>
+                  <p className="text-sm">Pioneering the future of De-PIN -powered applications.</p>
+                  </div>
+                  </Link>
+                
+              </div>
+            )}
+        <div className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4" 
+         onMouseEnter={() => setIsBlockchainDropdownOpen(true)}
+         onMouseLeave={() => setIsBlockchainDropdownOpen(false)}>
+          <p className="text-white text-[17px] font-bold">Layer 1 & Layer 2 Solutions</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        {isBlockchainLayerDropdownOpen && (
+              <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <Link to="/blockchain-development">
+                <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                  <p className="text-white text-[17px] font-bold">Blockchain Development</p>
+                  <p className="text-sm ">Top into the potential of blockchain technology with our strategic blockchain servicesTop into the <br/> potential of blockchain technology with our strategic blockchain services</p>
+                  </div>
+                  </Link>
+                <Link to="/blockchain-defi">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                 <p className="text-white text-[17px] font-bold"> Blockchain In identity Management</p>
+                  <p className="text-sm">Transparent and flawless indentity management with blockchain</p> </div></Link>
+                <Link to="/blockchain-identity">
+                <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                  <p className=" text-white text-[17px] font-bold">DiPin Debelopment</p>
+                  <p className="text-sm">Pioneering the future of De-PIN -powered applications.</p>
+                  </div>
+                  </Link>
+                
+              </div>
+            )}
+        <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+          <p className="text-white text-[17px] font-bold">Enterprise Blockchain</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        <div className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+          <p className="text-white text-[17px] font-bold">Smart Contract</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        <div className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+          <p className="text-white text-[17px] font-bold">Tokenization</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        <div className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+          <p className="text-white text-[17px] font-bold">Whitepaper</p>
+          <FaArrowRightLong color="#ffffff" size={24}/>
+        </div>
+        
+      </div>
+      <div className="w-[70%] ">
+
+      
+      </div>
+    </div>
+    </div>
+    </div>
   );
 };
 
