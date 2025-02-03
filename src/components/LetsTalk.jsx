@@ -22,7 +22,7 @@ const LetsTalk = ({ buttonText }) => {
       </div>
 
       {/* content */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64">
         <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
           <p className="hidden md:block text-center ">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">

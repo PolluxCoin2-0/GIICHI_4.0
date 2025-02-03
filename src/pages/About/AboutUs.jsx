@@ -21,14 +21,14 @@ const AboutUs = () => {
       </div>
 
       {/* about giichi */}
-      <div className="absolute z-20 top-0 mt-64 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 ">
+      <div className="absolute z-20 top-0 mt-64 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 ">
         <p className="text-center text-7xl font-bold">
           <span className="text-transparent bg-clip-text bg-white-gradient">
             About GiiCHi
           </span>
         </p>
         <div className="flex justify-center pt-6">
-          <p className="text-white text-opacity-70 text-md font-medium w-[40%] text-center">
+          <p className="text-white text-opacity-70 text-md font-medium 2xl:w-[50%] 3xl:w-[40%] text-center">
             Giichi, an IT company, specializes in digital transformation
             consulting and engineering services. We are dedicated to providing
             innovative solutions to both global enterprises and emerging
@@ -40,7 +40,9 @@ const AboutUs = () => {
       </div>
 
       {/* Technologyu excellence */}
-      <div className="bg-[#D9D9D9] bg-opacity-10 pt-20 pb-20 mt-20">
+      <div className="relative bg-[#D9D9D9] bg-opacity-10 pt-20 pb-20 mt-20">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+<div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-5xl font-bold text-center text-white">
           Technology{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -90,8 +92,11 @@ const AboutUs = () => {
       </div>
 
       {/* Vision and Mission */}
-      <div className="flex flex-row items-center space-x-32 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 w-full mt-20 mb-20">
+      <div className="relative flex flex-row items-center space-x-32 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 w-full mt-20 mb-20">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+
         <div className="w-[40%]">
+
           <img src={missionImg} alt="" className="w-[70%]" />
         </div>
         <div className="flex flex-col justify-start items-start w-[60%]">
@@ -101,7 +106,7 @@ const AboutUs = () => {
               Vision
             </span>
           </p>
-          <p className="text-md text-white text-opacity-70 w-[80%] pt-8">
+          <p className="text-md text-white text-opacity-70 2xl:w-[100%] 3xl:w-[80%] pt-8">
             Our goal is to expedite the integration of new technologies within
             enterprises, streamline the resolution of intricate challenges that
             inevitably arise during digital evolution, and oversee continuous
@@ -119,7 +124,7 @@ const AboutUs = () => {
       </div>
 
       {/* Location */}
-      <div className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-64 mt-20 mb-12">
+      <div className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-64 mt-20 mb-12">
         {/* first */}
         <div className="pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">

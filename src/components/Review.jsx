@@ -5,7 +5,7 @@ import founderImg from "../assets/founder.png";
 
 const Review = () => {
   return (
-    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-0">
+    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-0">
       <div className="hidden md:block spotlight1 spotlight-right1"></div>
       {/* Heading 1 */}
       <div className="flex flex-row justify-start md:justify-between items-center pr-0 md:pr-48">

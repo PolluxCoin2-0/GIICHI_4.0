@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const [openModal, setOpenModal] = useState(false);
   return (
-    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-64 3xl:px-60 py-4 ">
+    <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 ">
 <div className="hidden md:block spotlight spotlight-left"></div>
 <div className="hidden md:block spotlight spotlight-right"></div>
 
