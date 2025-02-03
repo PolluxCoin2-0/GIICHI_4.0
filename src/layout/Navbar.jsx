@@ -171,8 +171,7 @@ const Navbar = () => {
       </div>
       <div className="w-[70%] ">
 
-      
-      </div>
+ </div>
     </div>
     </div>
     </div>
