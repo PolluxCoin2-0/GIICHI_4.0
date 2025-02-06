@@ -2,12 +2,13 @@ import { useState } from "react";
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import MobileNavbar from "./MobileNavbar";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isBlockchainDropdownOpen, setIsBlockchainDropdownOpen] =
-    useState(true);
+    useState(false);
   const [isBlockchain1DropdownOpen, setIsBlockchain1DropdownOpen] =
-    useState(true);
+    useState(false);
   const [
     isBlockchainEnterpriseDropdownOpen,
     setIsBlockchainEnterpriseDropdownOpen,
@@ -18,31 +19,31 @@ const Navbar = () => {
     useState(false);
 
   // ai
-  const [isAiDropdownOpen, setIsAiDropdownOpen] = useState(true);
-  const [isAi1DropdownMenu, setIsAi1DropdownOpen] = useState(true);
+  const [isAiDropdownOpen, setIsAiDropdownOpen] = useState(false);
+  const [isAi1DropdownMenu, setIsAi1DropdownOpen] = useState(false);
   const [generativeAiDropdownMenu, setGenerativeAiDropdown] = useState(false);
 
   // gaming
-  const [isGamingDropdownOpen, setIsGamingDropdownOpen] = useState(true);
-  const [isGaming1DropdownOpen, setIsGaming1DropdownOpen] = useState(true);
+  const [isGamingDropdownOpen, setIsGamingDropdownOpen] = useState(false);
+  const [isGaming1DropdownOpen, setIsGaming1DropdownOpen] = useState(false);
   const [isMetaverseDropdownOpen, setIsMetaverseDropdownOpen] = useState(false);
 
   //consulting
   const [isConsultingDropdownOpen, setIsConsultingDropdownOpen] =
-    useState(true);
+    useState(false);
   const [isConsulting1DropdownOpen, setIsConsulting1DropdownOpen] =
-    useState(true);
-  const [isMarketDropdownOpen, setIsMarketDropdownOpen] = useState(true);
+    useState(false);
+  const [isMarketDropdownOpen, setIsMarketDropdownOpen] = useState(false);
 
   //solution
-  const [isSolutionDropdownOpen, setIsSolutionDropdownOpen] = useState(true);
+  const [isSolutionDropdownOpen, setIsSolutionDropdownOpen] = useState(false);
 
   //Industries
-  const [isIndustryDropdownMenu, setIsIndustryDropdownMenu] = useState(true);
-  const [isBfsiDropdownMenu, setIsBfsiDropdownMenu] = useState(true);
+  const [isIndustryDropdownMenu, setIsIndustryDropdownMenu] = useState(false);
+  const [isBfsiDropdownMenu, setIsBfsiDropdownMenu] = useState(false);
   const [isServiceDropdown, setIsServiceDropdownMenu] = useState(false);
   //About Us
-  const [isAboutDropdownMenu, setIsDropdownMenu] = useState(true);
+  const [isAboutDropdownMenu, setIsDropdownMenu] = useState(false);
 
   // blockchain toggles
   const toggleBlockchainMenu = () => {
@@ -184,13 +185,13 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 relative">
+      <nav className="flex flex-row justify-between items-start md:items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 relative ">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
 
         {/* Logo */}
         <a href="/dashboard">
-          <div>
+          <div  className="border-2 hidden md:block">
             <img
               src={Giichi_Logo_Img}
               alt="Giichi Logo"
@@ -200,7 +201,7 @@ const Navbar = () => {
         </a>
 
         {/* Hamburger Menu (visible on mobile) */}
-        <div className="lg:hidden -mr-52 md:-mr-96">
+        {/* <div className="lg:hidden -mr-52 md:-mr-96">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-white focus:outline-none"
@@ -235,21 +236,25 @@ const Navbar = () => {
               </svg>
             )}
           </button>
-        </div>
+        </div> */}
+
+        {/* Navbar Menu */}
+        <MobileNavbar/>
 
         {/* Nav Menu */}
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto z-20`}
+          } hidden absolute top-16 left-0 w-full bg-black lg:static lg:flex lg:w-auto z-20`}
         >
-          <ul className="flex flex-col lg:flex-row lg:space-x-10 text-center lg:text-left">
+          <ul className="flex flex-col lg:flex-row lg:space-x-10 text-start md:text-center lg:text-left px-4 md:px-0">
             <li
               className=" text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
               onClick={toggleBlockchainMenu}
               onMouseEnter={toggleBlockchainMenu}
             >
               Blockchain
+             
             </li>
             <li
               className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
@@ -297,7 +302,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <Link to="/contact-us">
-            <div className="lg:hidden flex justify-center mt-4 mb-12">
+            <div className="lg:hidden flex justify-start md:justify-center mt-4 mb-12 px-4 md:px-0">
               <button className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">
                 Get In Touch
               </button>
@@ -317,7 +322,7 @@ const Navbar = () => {
 
       {/* Blockchain navitems */}
       {isBlockchainDropdownOpen && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 z-30">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
@@ -349,7 +354,7 @@ const Navbar = () => {
                   <Link to="/blockchain-identity">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className=" text-white text-[17px] font-bold">
-                        DiPin Debelopment
+                      Depin Development
                       </p>
                     </div>
                   </Link>
@@ -419,13 +424,7 @@ const Navbar = () => {
                         </p>
                       </div>
                     </Link>
-                    <Link to="/blockchain-identity">
-                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                        <p className=" text-white text-[17px] font-bold">
-                          Real-Estate
-                        </p>
-                      </div>
-                    </Link>
+                    
                     <Link to="/blockchain-identity">
                       <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                         <p className=" text-white text-[17px] font-bold">
@@ -528,7 +527,7 @@ const Navbar = () => {
 
       {/* aI NAIvTEMS */}
       {isAiDropdownOpen && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className=" hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
@@ -598,7 +597,7 @@ const Navbar = () => {
 
       {/* Gaming NAIvTEMS */}
       {isGamingDropdownOpen && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
@@ -663,7 +662,7 @@ const Navbar = () => {
 
       {/* Consulting NAIvTEMS */}
       {isConsultingDropdownOpen && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
@@ -759,7 +758,7 @@ const Navbar = () => {
 
       {/* Solution NAIvTEMS */}
       {isSolutionDropdownOpen && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
@@ -806,7 +805,7 @@ const Navbar = () => {
 
       {/* Industry NAIvTEMS */}
       {isIndustryDropdownMenu && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
@@ -879,7 +878,7 @@ const Navbar = () => {
 
       {/* About us NAIvTEMS */}
       {isAboutDropdownMenu && (
-        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+        <div className="hidden lg:block px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
