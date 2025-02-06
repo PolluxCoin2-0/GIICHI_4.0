@@ -16,34 +16,55 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: "What is user testing?",
+      question: "What is blockchain development?",
       answer:
-        "User testing is a process in which real users evaluate a product or service by using it to find usability issues. Participants should represent the target audience of the product or service being tested.",
+        "Blockchain development involves designing, building, and deploying decentralized applications (dApps), smart contracts, and custom blockchain solutions that ensure transparency, security, and efficiency in digital transactions.",
     },
     {
-      question: "Why is user testing important?",
+      question: "What industries can benefit from blockchain technology?",
       answer:
-        "User testing helps identify issues with your product early, improving user satisfaction and reducing development costs.",
+        "Blockchain is widely used in industries like finance, healthcare, supply chain, real estate, gaming, government, and entertainment, improving security, transparency, and automation.",
     },
     {
-      question: "Who should participate in user testing?",
+      question: " What are the key benefits of blockchain development?",
       answer:
-        "Participants should represent the target audience of the product or service being tested.",
+        "Blockchain offers benefits such as enhanced security, decentralization, immutability, faster transactions, reduced costs, and trustless operations, making it ideal for various business applications.",
     },
     {
-      question: "What is the difference between UX and UI design?",
+      question: " What are smart contracts, and how do they work?",
       answer:
-        "UX design focuses on the overall experience of the user, while UI design concentrates on the visual and interactive aspects of a product.",
+        "Smart contracts are self-executing digital contracts with predefined rules written in code. They automatically trigger actions when conditions are met, eliminating intermediaries and reducing fraud.",
     },
     {
-      question: "What are the key principles of UX design?",
+      question: "  How much does blockchain development cost?",
       answer:
-        "Key principles of UX design include usability, accessibility, consistency, and a user-centered approach.",
+        "The cost depends on factors like project complexity, blockchain type, smart contract functionality, and integration needs. Custom blockchain solutions can range from a few thousand to hundreds of thousands of dollars.",
     },
+    {
+      question: "   How long does it take to develop a blockchain application?",
+      answer:
+        "Development time varies based on project scope and complexity. A basic dApp may take a few weeks, while a full-fledged blockchain platform may require several months of development and testing.",
+    },
+    {
+      question: "  Which blockchain platforms do you work with?",
+      answer:
+        "We specialize in various blockchain frameworks, including Ethereum, Polygon, BNB Chain, Solana, Avalanche, Polkadot, Cosmos, and custom Layer 2/3 solutions.",
+    },
+    {
+      question: "  Can you integrate blockchain with existing business systems?",
+      answer:
+        "Yes, we provide blockchain integration services to connect blockchain networks with existing enterprise systems, ensuring seamless operations and improved efficiency.",
+    },
+    {
+      question: " How do you ensure security in blockchain development?",
+      answer:
+        "We follow best practices such as smart contract audits, rigorous security testing, encryption techniques, and compliance with industry standards to prevent vulnerabilities and cyber threats.",
+    },
+
   ];
 
   return (
-    <div className="flex items-center justify-center mt-20 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+    <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
       <div className="text-center">
         <p className="text-2xl md:text-3xl font-bold  mb-8">
         <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -55,19 +76,19 @@ const Faq = () => {
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 lg:py-6 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[700px]"
+              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[700px]"
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"
                 onClick={() => toggleFaq(index)} // Toggle FAQ on click
               >
-                <p className="syne-font text-sm md:text-lg lg:text-xl text-start text-white">
+                <p className="syne-font text-sm md:text-[17px] text-start text-white">
                   {faq.question}
                 </p>
                 {faqState[index] ? (
-                  <MdOutlineArrowCircleUp size={28} color="#ffffff"/>
+                  <MdOutlineArrowCircleUp size={24} color="#ffffff"/>
                 ) : (
-                  <MdOutlineArrowCircleDown size={28} color="#ffffff"/>
+                  <MdOutlineArrowCircleDown size={24} color="#ffffff"/>
                 )}
               </div>
               <div
@@ -75,7 +96,7 @@ const Faq = () => {
                   faqState[index] ? "max-h-40" : "max-h-0"
                 }`}
               >
-                <p className="text-start syne-font text-xs md:text-sm mt-3 text-white">
+                <p className="text-start syne-font text-xs md:text-sm mt-3 text-white text-opacity-80">
                   {faq.answer}
                 </p>
               </div>

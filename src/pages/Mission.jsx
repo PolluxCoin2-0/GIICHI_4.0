@@ -90,6 +90,8 @@ const Mission = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,  // Enable autoplay
+    autoplaySpeed: 2000,  // Set the autoplay speed (in milliseconds)
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     responsive: [
@@ -177,8 +179,7 @@ const Mission = () => {
       <div className="flex flex-row justify-center items-center">
         <img src={star6Img} alt="" className="hidden md:hidden" />
         <p className="text-sm md:text-lg font-semibold text-white text-opacity-70 text-center pt-6 ">
-          Fast-track your Web3 journey with GiiCHi CoPilot <br />– a customized
-          partnership program built to bring your vision to life.
+          Fast-track Your Web3 Journey With GiiCHi CoPilot <br />
         </p>
         <img src={star6Img} alt="" className="hidden md:hidden" />
       </div>

@@ -46,15 +46,15 @@ const Objectives = () => {
           {/* Block 1 */}
           <div className="w-[27%] relative group overflow-hidden">
             <img src={b5Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold hover:hidden md:block">
-          BLOCKCHAIN
-            </div> */}
+
             {/* Hover effect content */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                BLOCKCHAIN
-              </p>
-              <p className="pt-4 text-xs md:text-sm ">
+            <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  BLOCKCHAIN
+                </p>
+              </div>
+              <p className="pt-4 text-xs md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Giichi IT Solutions delivers cutting-edge blockchain solutions,
                 empowering enterprises to innovate, scale, and operate smarter
                 than ever before.
@@ -65,14 +65,13 @@ const Objectives = () => {
           {/* Block 2 */}
           <div className="w-[44%] relative group">
             <img src={b4Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold">
-            METAVERSE
-            </div> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                METAVERSE
-              </p>
-              <p className="pt-4  text-xs md:text-sm w-[80%]">
+            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  METAVERSE
+                </p>
+              </div>
+              <p className="pt-4  text-xs md:text-sm w-[80%] absolute bottom-0  left-0  bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 {" "}
                 We empower businesses to achieve breakthrough moments in the
                 Metaverse by building immersive, scalable, and interactive
@@ -84,14 +83,13 @@ const Objectives = () => {
           {/* Block 3 */}
           <div className="w-[27%] relative group">
             <img src={b6Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold">
-           CRYPTO SOLUTIONS
-            </div> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                CRYPTO SOLUTIONS
-              </p>
-              <p className="pt-4 text-sm">
+            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  CRYPTO SOLUTIONS
+                </p>
+              </div>
+              <p className="pt-4 text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Leverage our cutting-edge crypto solutions to launch, scale, and
                 optimize your project. At Giichi IT Solutions, we harness
                 blockchain innovation to build transformative solutions that
@@ -106,15 +104,14 @@ const Objectives = () => {
           {/* Block 4 */}
           <div className="w-[33%] relative group">
             <img src={b7Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold">
-           ARTIFICIAL INTELLIGENCE
-            </div> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                {" "}
-                ARTIFICIAL INTELLIGENCE
-              </p>
-              <p className="pt-4 text-sm">
+            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  {" "}
+                  ARTIFICIAL INTELLIGENCE
+                </p>
+              </div>
+              <p className="pt-4 text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Amplifying Efficiency with Cutting-Edge AI/ML Solutions:
                 Maximize your business efficiency and productivity with Giichi’s
                 premium AI/ML development services and solutions.
@@ -125,15 +122,14 @@ const Objectives = () => {
           {/* Block 5 */}
           <div className="w-[33%] relative group">
             <img src={b8Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold">
-            DEFI
-            </div> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                {" "}
-                DEFI{" "}
-              </p>
-              <p className="pt-4 text-sm">
+            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  {" "}
+                  DEFI{" "}
+                </p>
+              </div>
+              <p className="pt-4 text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Decentralized Finance (DeFi) is reshaping the financial
                 landscape, eliminating intermediaries and empowering users with
                 full control over their assets. At Giichi, we develop
@@ -146,15 +142,14 @@ const Objectives = () => {
           {/* Block 6 */}
           <div className="w-[33%] relative group">
             <img src={b9Img} alt="" className="w-full h-auto" />
-            {/* <div className="absolute bottom-0 left-0 w-full text-start text-white py-2 pl-1 md:pl-6 pb-1 md:pb-6 text-xs md:text-2xl font-normal md:font-bold">
-            CLOUD POWERED SOLUTIONS
-            </div> */}
-            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-              <p className="text-xs md:text-2xl font-normal md:font-bold">
-                {" "}
-                CLOUD POWERED SOLUTIONS{" "}
-              </p>
-              <p className="pt-4 text-sm">
+            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                  {" "}
+                  CLOUD POWERED SOLUTIONS{" "}
+                </p>
+              </div>
+              <p className="pt-4 text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Leverage the power of cloud computing to scale your business
                 seamlessly. Giichi delivers secure, efficient, and scalable
                 cloud solutions, optimizing performance, storage, and

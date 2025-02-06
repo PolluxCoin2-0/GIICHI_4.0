@@ -44,6 +44,8 @@ const BlockchainCycle = ({ title }) => {
     speed: 500,
     slidesToShow: 3, // Default (for larger screens)
     slidesToScroll: 1,
+    autoplay: true,  // Enable autoplay
+    autoplaySpeed: 1000,  // Set the autoplay speed (in milliseconds)
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     responsive: [
