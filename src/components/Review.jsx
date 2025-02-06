@@ -3,6 +3,64 @@ import star1Img from "../assets/star1.png";
 import star2Img from "../assets/star2.png";
 import founderImg from "../assets/pic.png";
 
+const ReviewData = [
+  {
+    review: "Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 development helped us scale our projects effortlessly. Their professionalism, commitment, and technical knowledge were key to meeting our business goals.",
+    name: "Abhishek Harta",
+  },
+  {
+    review: "We are extremely impressed with Giichi IT Solutions’ approach to blockchain development. Their team has been incredibly process-oriented, adaptable, and cooperative. They’ve consistently delivered high-quality results on time.",
+    name: "Shivam Singh",
+  },
+  {
+    review: "Giichi IT Solutions delivered exceptional work with complex UI designs and blockchain solutions. Their team’s ability to handle the most challenging features and deliver them on schedule has made them our go-to development partner.",
+    name: "Shubham Gupta",
+  },
+  {
+    review: "The team at Giichi IT Solutions was highly skilled and helped us quickly develop our MVP. They set clear deadlines, followed up regularly, and provided the right talent to ensure success.",
+    name: "Saurav Singh",
+  },
+  {
+    review: "Thanks to Giichi IT Solutions, we’ve witnessed a significant improvement in user engagement metrics. Their reliability and ability to meet deadlines have made a positive impact on our project outcomes.",
+    name: "Manohar",
+  },
+  {
+    review: "Giichi IT Solutions has been instrumental in helping us navigate the complexities of blockchain integration. Their ability to address issues promptly and their clear communication made for a smooth experience.",
+    name: "Charil",
+  },
+  {
+    review: "Giichi IT Solutions stood out for their excellent planning and blockchain expertise. Their team was responsive, professional, and delivered high-quality results consistently. Our project was a huge success thanks to them.",
+    name: "Ayushi",
+  },
+  {
+    review: "Giichi IT Solutions helped us deliver a seamless blockchain solution that met our goals. Their project management and follow-up were top-notch, and we saw a significant positive impact on our operations.",
+    name: "Durgesh",
+  },
+  
+  
+  
+
+]
+const ReviewCard = () => {
+  return (
+    <div>
+         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
+          <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
+          Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 development helped us scale our projects effortlessly. Their professionalism, commitment, and technical knowledge were key to meeting our business goals.
+          </p>
+
+          <div className="flex flex-row space-x-6 items-center pt-0 md:pt-6">
+            <img src={founderImg} alt="" className="w-12" />
+            <div>
+              <p className="text-white">Abhishek</p>
+              {/* <p className="text-white">CEO</p> */}
+            </div>
+          </div>
+        </div>
+    </div>
+  )
+}
+
 const Review = () => {
   return (
     <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-0">
@@ -46,13 +104,13 @@ const Review = () => {
         {/* first column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
-          Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 development helped us scale our projects effortlessly. Their professionalism, commitment, and technical knowledge were key to meeting our business goals.
+          Giichi IT Solutions stood out for their excellent planning and blockchain expertise. Their team was professional, committed, responsive, professional, and delivered high-quality results consistently. Our project was a huge success thanks to them.
           </p>
 
           <div className="flex flex-row space-x-6 items-center pt-0 md:pt-6">
             <img src={founderImg} alt="" className="w-12" />
             <div>
-              <p className="text-white">Abhishek</p>
+              <p className="text-white">Abhishek Harta</p>
               {/* <p className="text-white">CEO</p> */}
             </div>
           </div>

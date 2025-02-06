@@ -22,22 +22,28 @@ const AboutUs = () => {
       </div>
 
       {/* about giichi */}
-      <div className="absolute z-20 top-0 mt-64 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 ">
-        <p className="text-center text-4xl md:text-7xl font-bold">
+      <div className="absolute z-20 top-0 mt-40 px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 ">
+        <p className="text-center text-4xl md:text-8xl font-bold">
           <span className="text-transparent bg-clip-text bg-white-gradient">
             About GiiCHi
           </span>
         </p>
+        <p className="text-white text-opacity-80 text-xl font-semibold text-center pt-6">Transforming the Digital Landscape with Blockchain, Web3, and AI Solutions</p>
         <div className="flex justify-center pt-6">
-          <p className="text-white text-opacity-70 text-sm md:text-[17px] font-medium lg:w-[60%] 2xl:w-[50%] 3xl:w-[40%] text-center">
-            Giichi, an IT company, specializes in digital transformation
-            consulting and engineering services. We are dedicated to providing
-            innovative solutions to both global enterprises and emerging
-            technology startups. Since 2021, we have been assisting companies
-            and well-established brands in redefining their business strategies
-            by embracing digitalization.
+          <p className="text-white text-opacity-70 text-[15px]  font-medium lg:w-[60%] 2xl:w-[55%]  text-center">
+          At Giichi IT Solutions Pvt. Ltd., we are committed to driving the future of technology by delivering cutting-edge blockchain development, Web3 solutions, 
+          and AI-powered applications that empower businesses to thrive in the digital era. With expertise in decentralized technologies and the rapidly evolving Web3 ecosystem,
+           we help businesses embrace the new digital revolution and stay ahead of the curve.
+        
+         
           </p>
         </div>
+        <div className="flex justify-center mt-8 cursor-pointer" 
+         onClick={() => window.open("https://wa.me/9266416198", "_blank")}>
+        <button className="bg-green-gradient px-5 lg:px-4 xl:px-10 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">
+                Get In Touch
+              </button>
+              </div>
       </div>
 
       {/* Technologyu excellence */}
@@ -80,7 +86,7 @@ const AboutUs = () => {
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 ">
               <img src={clImg} alt="" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
-                CLOUD POWERED SOLUTIONS
+                CLOUD SOLUTIONS
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
@@ -152,10 +158,10 @@ const AboutUs = () => {
 {/* third */}
         <div >
           <div className="flex flex-row items-center space-x-6 ">
-            <img src={dubaiImg} alt="" className="w-14"/>
+            <img src={dubaiImg} alt="" className="w-12"/>
             <p className="text-white text-xl font-bold">DUBAI</p>
           </div>
-          <p className="text-white text-opacity-50 pt-5 ">F-334, Autviz Solutions, Industrial Area, <br/> Phase 8(B), SAS Nagar, Punjab 160071</p>
+          <p className="text-white text-opacity-50 pt-5 ">Al Abraj Street 12 Business Bay, <br/> Dubai, United Arab Emirates <br/>30833</p>
           <p className="text-white  pt-5">+91 92664 16198</p>
         </div>
       </div>

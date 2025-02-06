@@ -14,6 +14,7 @@ import Objectives from "./Objectives";
 import Review from "../components/Review";
 import LetsTalk from "../components/LetsTalk";
 import Typewriter from "../components/Typewriter";
+import { Link } from "react-router-dom";
 const Dashboard = () => {
   return (
     <div className="pt-6 md:pt-20 ">
@@ -49,16 +50,19 @@ const Dashboard = () => {
         <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-8 pt-8">
           <button
             type="button"
-            className="bg-green-gradient shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="bg-green-gradient cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
+            onClick={() => window.open("https://wa.me/9266416198", "_blank")}
           >
             Contact Us
           </button>
+          <Link to="/about-us">
           <button
             type="button"
-            className="bg-black shadow-inner shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="bg-black shadow-inner cursor-pointer shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
           >
             About GiiCHi
           </button>
+          </Link>
         </div>
       </div>
 

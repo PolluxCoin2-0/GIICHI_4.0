@@ -302,8 +302,9 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <Link to="/contact-us">
-            <div className="lg:hidden flex justify-start md:justify-center mt-4 mb-12 px-4 md:px-0">
+          <Link to="">
+            <div className="lg:hidden flex justify-start md:justify-center mt-4 mb-12 px-4 md:px-0 cursor-pointer" 
+             onClick={() => window.open("https://wa.me/9266416198", "_blank")}>
               <button className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">
                 Get In Touch
               </button>
@@ -312,8 +313,9 @@ const Navbar = () => {
         </div>
 
         {/* Get in Touch Button */}
-        <Link to="/contact-us">
-          <div className="hidden lg:block">
+        <Link to="">
+          <div className="hidden lg:block cursor-pointer"
+           onClick={() => window.open("https://wa.me/9266416198", "_blank")}>
             <button className="bg-green-gradient px-5 lg:px-4 xl:px-5 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">
               Get In Touch
             </button>
