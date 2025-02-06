@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // For Hamburger and Close icons
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"; // Dropdown arrow
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
+import { Link } from "react-router-dom";
 
 const MobileNavbar = () => {
   // State to manage the visibility of the mobile navbar
@@ -78,9 +79,11 @@ const MobileNavbar = () => {
                 </li>
                 {isBk1Open && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/blockchain-development">
                     <p className="text-white text-xs ">
                       Blockchain Development
                     </p>
+                    </Link>
                     <p className="text-white text-xs pt-2">
                       Blockchain In identity Management
                     </p>
