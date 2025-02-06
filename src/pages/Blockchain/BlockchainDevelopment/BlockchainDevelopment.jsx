@@ -1,15 +1,11 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../../assets/blockchainImg.png";
-import element2Img from "../../../assets/element2.png";
-import element1Img from "../../../assets/element1.png";
-import crowd1Logo from "../../../assets/crowd1Logo.png";
-import polluxLogo from "../../../assets/polluxLogo (3).png";
+import bkDev1Img  from "../../../assets/bkDev1.png";
+import bkDev2Img from "../../../assets/bkDev2.png";
 import Forecast from "../../../components/Blockchain/Forecast";
 import Services from "../../../components/Blockchain/Services";
 import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
-import Insights from "../../../components/Blockchain/Insights";
 import Industries from "./Industries";
-import Review from "../../../components/Review";
 import LetsTalk from "../../../components/LetsTalk";
 import Faq from "../../../components/Faq";
 import { LuArrowUpRight } from "react-icons/lu";
@@ -32,43 +28,63 @@ import rustImg from "../../../assets/rust.png";
 import solidityImg from "../../../assets/solidity.png";
 import moveImg from "../../../assets/move.png";
 import wordpressImg from "../../../assets/wordpress.png";
+import polygonImg from "../../../assets/polygon.png";
+import zkSyncImg from "../../../assets/zksync.png";
+import avlancheImg from "../../../assets/avlanche.png";
+import cosmosDkImg from "../../../assets/cosmosDk.png";
+import polkadotImg from "../../../assets/polkadot.png";
+import arbitrumImg from '../../../assets/arbitrum.png';
+import parityImg from "../../../assets/parity.png";
+import opStackImg from "../../../assets/opStack.png";
 
 const FrameworksData = [
   {
-    logo: crowd1Logo,
-    title: "Crowd1",
+    logo: polygonImg,
+    title: "Polygon zkEVM",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
   },
   {
-    logo: crowd1Logo,
-    title: "Crowd1",
+    logo: zkSyncImg,
+    title: " zkSync Hyperchains",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
   },
   {
-    logo: polluxLogo,
-    title: "Pollux",
+    logo: avlancheImg,
+    title: " Avalanche Subnets ",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
   },
   {
-    logo: crowd1Logo,
-    title: "Crowd1",
+    logo: cosmosDkImg,
+    title: " Cosmos SDK ",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
   },
   {
-    logo: crowd1Logo,
-    title: "Crowd1",
+    logo: polkadotImg,
+    title: " Polkadot Parachains",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
   },
   {
-    logo: polluxLogo,
-    title: "Pollux",
+    logo: arbitrumImg,
+    title: " Arbitrum Orbit ",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: parityImg,
+    title: " Parity Substrate ",
+    description:
+      "A modular and highly efficient framework by Parity Technologies, designed for building flexible and scalable blockchain architectures.",
+  },
+  {
+    logo: opStackImg,
+    title: "  OP Stack ",
+    description:
+      "A standardized development framework for launching Layer 2 blockchains with production-ready infrastructure, similar to OP Mainnet.",
   },
 ];
 
@@ -76,10 +92,10 @@ const FrameworksCard = ({ logo, title, description }) => {
   return (
     <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
       <div className="flex flex-row justify-between">
-        <img src={logo} alt={title} className="" />
+        <img src={logo} alt={title} className="w-12" />
         <LuArrowUpRight color="#2BB32A" size={28} />
       </div>
-      <p className="text-white pt-4">{title}</p>
+      <p className="text-white pt-4 text-lg font-bold">{title}</p>
       <p className="text-white text-opacity-50 pt-2">{description}</p>
     </div>
   );
@@ -87,7 +103,7 @@ const FrameworksCard = ({ logo, title, description }) => {
 
 const BlockchainDevelopment = () => {
   return (
-    <div className="pt-6 md:pt-12 ">
+    <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
@@ -107,11 +123,7 @@ const BlockchainDevelopment = () => {
             </span>
           </p>
           <p className="pt-6 text-lg font-semibold leading-snug">
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored <br />
-            partnership program designed to turn your vision into <br />
-            reality.Accelerate your Web3 journey with Accelerate your Web3{" "}
-            <br />
-            journey with GiiCHi CoPilot.
+          With expertise in 40+ blockchain protocols, Giichi IT Solutions <br/>is driving the web3 revolution with cutting-edge <br/>blockchain development services.
           </p>
           {/* Button */}
          <CalendlyButton/>
@@ -125,10 +137,7 @@ const BlockchainDevelopment = () => {
       
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored 
-            partnership program designed to turn your vision into 
-            reality.Accelerate your Web3 journey with Accelerate your Web3
-            journey with GiiCHi CoPilot.
+          With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services.
           </p>
           {/* Button */}
         <CalendlyButton/>
@@ -136,25 +145,14 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Bloackchain forecast */}
-      <div>
+      <div className="mt-20">
         <Forecast
-          img1={element1Img}
-          img2={element2Img}
-          title1="Blockchain Market Forecast: Growth  
-        Projections and Opportunities Ahead"
-          title2="Blockchain Market Forecast: Growth  Projections and Opportunities Ahead"
-          desc1="As consumer demand for sustainability rises, blockchain technology
-                    is essential for verifying ethical practices and enhancing
-                    security, efficiency, transparency, and compliance across various
-                    business operations. Antier stands out as a premiblockchain
-                    development company, having completed over 1,000 projects since
-                    its inception."
-          desc2="As consumer demand for sustainability rises, blockchain technology
-                    is essential for verifying ethical practices and enhancing
-                    security, efficiency, transparency, and compliance across various
-                    business operations. Antier stands out as a premiblockchain
-                    development company, having completed over 1,000 projects since
-                    its inception."
+          img1={bkDev1Img}
+          img2={bkDev2Img}
+          title1="Blockchain Development Solutions: Powering Scalable Growth in the Web3 Economy"
+          title2="Blockchain Market Forecast: Growth Projections & Emerging  Opportunities"
+          desc1="As businesses embrace decentralization, blockchain technology plays a vital role in ensuring security, efficiency, transparency, and compliance across industries. Giichi IT Solutions specializes in delivering customized blockchain development solutions, leveraging expertise across 40+ blockchain protocols. Our team of experts builds scalable and innovative blockchain applications tailored to businesses worldwide."
+          desc2="The blockchain industry is on a remarkable growth trajectory, with the market expected to reach nearly $1,000 trillion by 2032, according to Statista. The cryptocurrency market is also set to expand, with an estimated 861 million users by 2025, and user penetration projected to rise to 11.02%. On a global scale, the United States is forecasted to generate the $9,788 million in revenue in 2024, leading the crypto market. "
         />
       </div>
       {/* bottom line */}
@@ -163,7 +161,9 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Blockchain Development Services */}
-      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Our Blockchain
           <br />
@@ -172,17 +172,16 @@ const BlockchainDevelopment = () => {
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
-          Antier provides a full suite of blockchain development services to
-          help businesses harness the full <br />
-          potential of the technology and stay ahead in today’s competitive web3
-          era.
+        Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape.
         </p>
         {/* services */}
         <Services />
       </div>
 
       {/* Industries  */}
-      <div className="text-center mt-12 md:mt-24">
+      <div className="relative text-center mt-12 md:mt-24">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Industries{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -201,7 +200,9 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Blockchain frameworks */}
-      <div className="mt-12 md:mt-24 ">
+      <div className="relative mt-12 md:mt-24 ">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Blockchain Frameworks We Utilize <br /> for{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -210,10 +211,9 @@ const BlockchainDevelopment = () => {
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          Giichi team of experienced blockchain developers has a deep
-          understanding of L2 and L3 blockchains and their <br />
-          underlying frameworks. Our expertise lies in leveraging the robust
-          capabilities of these frameworks that{" "}
+        At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, <br/>
+        leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge<br/>
+         rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64">
@@ -234,7 +234,9 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Technology Stack */}
-      <div className="mt-12 ">
+      <div className="relative mt-12 ">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
           Technology{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -249,58 +251,58 @@ const BlockchainDevelopment = () => {
         {/* Tech Stack */}
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
           {/* for mobile tech stack */}
-          <div className="flex flex-row justify-start items-center space-x-6 w-full">
+          <div className="flex flex-row justify-start items-center space-x-4 md:space-x-6 w-full">
          
-            <div className="w-[20%] "> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 box"> Mobile</p></div>
+            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-2 md:px-5 py-2 md:py-3 text-sm md:text-[17px]"> Mobile</p></div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={FlutterImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">Flutter</p>
+            <img src={FlutterImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={KotlinImg} alt="" className="w-16"/>
-            <p className="text-white text-sm pt-2">Kotlin</p>
+            <img src={KotlinImg} alt="" className="w-10 md:w-16"/>
+            <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={DartImg} alt="" className="w-10"/>
-            <p className="text-white text-sm pt-2">Dart</p>
+            <img src={DartImg} alt="" className="w-6 md:w-10"/>
+            <p className="text-white text-xs md:text-sm pt-2">Dart</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={SwiftImg} alt="" className="w-10"/>
-            <p className="text-white text-sm pt-2">Swift</p>
+            <img src={SwiftImg} alt="" className="w-6 md:w-10"/>
+            <p className="text-white text-xs md:text-sm pt-2">Swift</p>
             </div>
           </div>
 
           {/* for frontend tech stack */}
-          <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 ">Frontend</p>
+          <div className="flex flex-row justify-start items-center space-x-4 md:space-x-6 w-full">
+            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-2 md:px-5 py-2 md:py-3 text-sm md:text-[17px] ">Frontend</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={htmlImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">HTML</p>
+            <img src={htmlImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">HTML</p>
             </div>
             <div className=" flex flex-col justify-center items-center w-[10%]">
-            <img src={cssImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">CSS</p>
+            <img src={cssImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">CSS</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={jsImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">Javascript</p>
+            <img src={jsImg} alt="" className="w-5 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">Javascript</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={tsImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">Typescript</p>
+            <img src={tsImg} alt="" className="w-5 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">Typescript</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={reactImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">ReactJS</p>
+            <img src={reactImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">ReactJS</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={nextImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm pt-2">NextJS</p>
+            <img src={nextImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-xs md:text-sm pt-2">NextJS</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={tailwindImg} alt="" className="w-10 "/>
-            <p className="text-white text-nowrap text-sm pt-2" >Tailwind CSS</p>
+            <img src={tailwindImg} alt="" className="w-6 md:w-10"/>
+            <p className="text-white text-nowrap text-xs md:text-sm pt-2" >Tailwind CSS</p>
             </div>
           </div>
 
@@ -361,9 +363,9 @@ const BlockchainDevelopment = () => {
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>
       {/* Clients Review */}
-      <div>
+      {/* <div>
         <Review />
-      </div>
+      </div> */}
 
       {/* FAQ SECTION */}
       <div>
@@ -371,7 +373,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Spotlight insights */}
-      <Insights />
+      {/* <Insights /> */}
     </div>
   );
 };

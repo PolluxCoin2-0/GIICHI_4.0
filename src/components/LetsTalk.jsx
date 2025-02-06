@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import circle2Img from "../assets/circle2.png";
 import circle3Img from "../assets/circle3.png";
@@ -26,15 +27,13 @@ const LetsTalk = ({ buttonText }) => {
         <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
           <p className="hidden md:block text-center ">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-              We turbocharge your business’s transition to Web 3 with our 15+
-              years of <br />
+            We accelerate your business's journey to Web 3 with over 15 years of expertise,<br/>  
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-              experience, supported by over 1000 experts and with track record
-              of 1200+ <br />
+            backed by a team of 1000+ professionals and a proven record of 1200+ successful<br />
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-              successful enterprise implementations
+            enterprise implementations.
             </span>
           </p>
 

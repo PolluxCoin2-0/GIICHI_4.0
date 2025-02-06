@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
 import { Link } from "react-router-dom";
@@ -343,15 +344,15 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
-                  <Link to="/blockchain-defi">
+                  <Link to="">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
                         {" "}
-                        Blockchain In identity Management
+                        Blockchain Identity Management
                       </p>
                     </div>
                   </Link>
-                  <Link to="/blockchain-identity">
+                  <Link to="">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className=" text-white text-[17px] font-bold">
                       Depin Development

@@ -1,7 +1,7 @@
 import circle1Img from "../assets/circle1.png";
 import star1Img from "../assets/star1.png";
 import star2Img from "../assets/star2.png";
-import founderImg from "../assets/founder.png";
+import founderImg from "../assets/pic.png";
 
 const Review = () => {
   return (
@@ -46,17 +46,14 @@ const Review = () => {
         {/* first column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
+          Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 development helped us scale our projects effortlessly. Their professionalism, commitment, and technical knowledge were key to meeting our business goals.
           </p>
 
           <div className="flex flex-row space-x-6 items-center pt-0 md:pt-6">
-            <img src={founderImg} alt="" className="" />
+            <img src={founderImg} alt="" className="w-12" />
             <div>
-              <p className="text-white">Kamal Kundal</p>
-              <p className="text-white">CEO</p>
+              <p className="text-white">Abhishek</p>
+              {/* <p className="text-white">CEO</p> */}
             </div>
           </div>
         </div>
@@ -67,17 +64,14 @@ const Review = () => {
         {/* second column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]">
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
+          We are extremely impressed with Giichi IT Solutions’ approach to blockchain development. Their team has been incredibly process-oriented, adaptable, and cooperative. They’ve consistently delivered high-quality results on time.
           </p>
 
           <div className="flex flex-row space-x-6 items-center pt-0 md:pt-6">
-            <img src={founderImg} alt="" className="" />
+            <img src={founderImg} alt="" className="w-12" />
             <div>
-              <p className="text-white">Kamal Kundal</p>
-              <p className="text-white">CEO</p>
+              <p className="text-white">Shivam Singh</p>
+              {/* <p className="text-white">CEO</p> */}
             </div>
           </div>
         </div>
@@ -88,17 +82,14 @@ const Review = () => {
         {/* Third Column */}
         <div className="w-full md:w-[33%] pr-0 md:pr-4 lg:pr-12 pt-10 md:pt-0">
           <p className="text-white text-opacity-50 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px]" >
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
-            Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-            partnership program designed to turn your vision into reality.
+          Giichi IT Solutions delivered exceptional work with complex UI designs and blockchain solutions. Their team’s ability to handle the most challenging features and deliver them on schedule has made them our go-to development partner.
           </p>
 
           <div className="flex flex-row space-x-6 items-center pt-0 md:pt-6">
-            <img src={founderImg} alt="" className="" />
+            <img src={founderImg} alt="" className="w-12" />
             <div>
-              <p className="text-white">Kamal Kundal</p>
-              <p className="text-white">CEO</p>
+              <p className="text-white">Saurav Singh</p>
+              {/* <p className="text-white">CEO</p> */}
             </div>
           </div>
         </div>

@@ -3,38 +3,54 @@
 // service data
 const servicesData = [
   {
-    title: "Blockchain Consultation &  Integration",
+    title: " Blockchain Consultation & Integration",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
   },
   {
-    title: "Blockchain Consultation &  Integration",
+    title: "Layer 2 Development",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      " We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
   },
   {
-    title: "Blockchain Consultation &  Integration",
+    title: " Blockchain Protocol Development",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      " Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
   },
   {
-    title: "Blockchain Consultation &  Integration",
+    title: " Centralized & Decentralized Exchange Development ",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      " We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
   },
   {
-    title: "Blockchain Consultation &  Integration",
+    title: " NFT Marketplace Development",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
   },
   {
-    title: "Blockchain Consultation &  Integration",
+    title: "Smart Contract Development & Audit ",
     description:
-      "From strategy development to implementation, our custom Blockchain software development experts will guide you through every stage of your blockchain application development journey. Antier's deep industry knowledge and proven track record ensure successfull blockchain integration.",
+      " We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+  },
+  {
+    title: " Crypto Wallet Development  ",
+    description:
+      " Our secure and user-friendly crypto wallets leverage advanced encryption, multi-signature authentication, and robust security audits for safe digital asset management.",
+  },
+  {
+    title: "Decentralized App (dApp) Development ",
+    description:
+      "  From ideation to launch, we build high-quality, scalable dApps that enhance user engagement and drive business growth in the decentralized ecosystem.",
+  },
+  {
+    title: "Metaverse Development  ",
+    description:
+      " We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
   },
 ];
 
 const ServicesCard = ({ title, description }) => {
+  
   return (
     <div>
       <div className="w-full pr-12 relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">

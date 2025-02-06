@@ -7,7 +7,8 @@ import defiImg from "../../assets/defi.png";
 import aiImg from "../../assets/ai2.png";
 import missionImg from "../../assets/mission.png";
 import LetsTalk from "../../components/LetsTalk";
-import indiaImg from "../../assets/india 1.png";
+import indiaImg from "../../assets/indiaflag.png";
+import dubaiImg from "../../assets/dubaiflag.png";
 const AboutUs = () => {
   return (
     <div className="relative z-10">
@@ -133,29 +134,29 @@ const AboutUs = () => {
         {/* first */}
         <div className="pr-0 md:pr-6 xl:pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">
-            <img src={indiaImg} alt="" className=""/>
+            <img src={indiaImg} alt="" className="w-12"/>
             <p className="text-white text-xl font-bold">INDIA</p>
           </div>
-          <p className="text-white text-opacity-50 pt-5 ">F-334, Autviz Solutions, Industrial Area, <br/> Phase 8(B), SAS Nagar, Punjab 160071</p>
-          <p className="text-white  pt-5">+91 8360494224</p>
+          <p className="text-white text-opacity-50 pt-5 ">Giichi It Solutions Pvt Ltd <br/> IT Spaze Park, Sector 49 Gurugram, <br/>Haryana 122018</p>
+          <p className="text-white  pt-5">+91 92664 16198</p>
         </div>
  {/* second */}
         <div className="pr-0  md:pr-6 xl:pr-24  md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">
-            <img src={indiaImg} alt="" className=""/>
+            <img src={indiaImg} alt="" className="w-12"/>
             <p className="text-white text-xl font-bold">INDIA</p>
           </div>
-          <p className="text-white text-opacity-50 pt-5 ">F-334, Autviz Solutions, Industrial Area, <br/> Phase 8(B), SAS Nagar, Punjab 160071</p>
-          <p className="text-white  pt-5">+91 8360494224</p>
+          <p className="text-white text-opacity-50 pt-5 ">Giichi It Solutions Pvt Ltd <br/> Sushma Infinium, Zirakpur, Punjab <br/>140603</p>
+          <p className="text-white  pt-5">+91 92664 16198</p>
         </div>
 {/* third */}
         <div >
-          <div className="flex flex-row items-center space-x-6">
-            <img src={indiaImg} alt="" className=""/>
-            <p className="text-white text-xl font-bold">INDIA</p>
+          <div className="flex flex-row items-center space-x-6 ">
+            <img src={dubaiImg} alt="" className="w-14"/>
+            <p className="text-white text-xl font-bold">DUBAI</p>
           </div>
           <p className="text-white text-opacity-50 pt-5 ">F-334, Autviz Solutions, Industrial Area, <br/> Phase 8(B), SAS Nagar, Punjab 160071</p>
-          <p className="text-white  pt-5">+91 8360494224</p>
+          <p className="text-white  pt-5">+91 92664 16198</p>
         </div>
       </div>
     </div>
