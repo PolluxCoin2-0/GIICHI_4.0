@@ -191,7 +191,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <a href="/dashboard">
-          <div  className="border-2 hidden md:block">
+          <div  className="hidden md:block">
             <img
               src={Giichi_Logo_Img}
               alt="Giichi Logo"
@@ -335,7 +335,7 @@ const Navbar = () => {
               </div>
 
               {isBlockchain1DropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                   <Link to="/blockchain-development">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -365,14 +365,14 @@ const Navbar = () => {
                 onClick={toggleBlockchainEnterpriseMenu}
                 // onMouseEnter={toggleBlockchainEnterpriseMenu}
               >
-                <p className="text-white text-[17px] font-bold">
+                <p className="text-white text-[17px] font-bold text-nowrap">
                   Enterprise Blockchain
                 </p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isBlockchainEnterpriseDropdownOpen && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
                     <Link to="/blockchain-development">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
@@ -454,7 +454,7 @@ const Navbar = () => {
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isBlockchainScDropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                   <Link to="/blockchain-development">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -481,7 +481,7 @@ const Navbar = () => {
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isBlockchainTokenDropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
                   <Link to="/blockchain-development">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -542,7 +542,7 @@ const Navbar = () => {
               </div>
 
               {isAi1DropdownMenu && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                   <Link to="">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -571,7 +571,7 @@ const Navbar = () => {
               </div>
               {generativeAiDropdownMenu && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
@@ -609,7 +609,7 @@ const Navbar = () => {
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isGaming1DropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                   <Link to="">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -636,7 +636,7 @@ const Navbar = () => {
               </div>
               {isMetaverseDropdownOpen && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
@@ -675,7 +675,7 @@ const Navbar = () => {
               </div>
               {isConsulting1DropdownOpen && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
@@ -700,7 +700,7 @@ const Navbar = () => {
                       </div>
                     </Link>
                   </div>
-                  <div className="absolute left-[1200px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute xl:left-[1000px] 2xl:left-[1200px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                         <p className="text-white text-[17px] font-bold">
@@ -732,14 +732,14 @@ const Navbar = () => {
                 className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
                 onClick={toggleMarketMenu}
               >
-                <p className="text-white text-[17px] font-bold">
+                <p className="text-white text-[17px] font-bold text-nowrap">
                   Marketing As a Service
                 </p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isMarketDropdownOpen && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
@@ -817,7 +817,7 @@ const Navbar = () => {
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isBfsiDropdownMenu && (
-                <div className="absolute left-[700px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
                   <Link to="">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -852,7 +852,7 @@ const Navbar = () => {
               </div>
               {isServiceDropdown && (
                 <div className="flex flex-row justify-between">
-                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                  <div className="absolute lg:left-[400px] xl:left-[500px] 2xl:xl:left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                     <Link to="">
                       <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                         <p className="text-white text-[17px] font-bold">
