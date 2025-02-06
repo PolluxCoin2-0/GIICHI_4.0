@@ -367,6 +367,7 @@ const MobileNavbar = () => {
             )}
 
             {/* About Us Section */}
+            <Link to="/about-us">
             <li
               onClick={() => setIsAboutMenuOpen(!isAboutMenuOpen)}
               className="flex justify-between items-center"
@@ -374,9 +375,12 @@ const MobileNavbar = () => {
               About Us
               <MdOutlineKeyboardArrowDown size={20} />
             </li>
+            </Link>
             {isAboutMenuOpen && (
               <ul className="pl-4">
+                <Link to="/about-us">
                 <li className="text-white text-sm pt-2">About Us</li>
+                </Link>
                 <li className="text-white text-sm pt-2 ">Blogs</li>
                 <li className="text-white text-sm pt-2">Career</li>
               </ul>
