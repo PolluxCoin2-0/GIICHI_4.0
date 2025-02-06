@@ -4,24 +4,56 @@ import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isBlockchainDropdownOpen, setIsBlockchainDropdownOpen] =useState(true); 
-  const [isBlockchain1DropdownOpen, setIsBlockchain1DropdownOpen] =useState(true); 
-  const [isBlockchainEnterpriseDropdownOpen,setIsBlockchainEnterpriseDropdownOpen] = useState(false);
-  const [isBlockchainScDropdownOpen, setIsBlockchainScDropdownOpen] =useState(false);
-  const [isBlockchainTokenDropdownOpen, setIsBlockchainTokenDropdownOpen] =useState(false);
+  const [isBlockchainDropdownOpen, setIsBlockchainDropdownOpen] =
+    useState(true);
+  const [isBlockchain1DropdownOpen, setIsBlockchain1DropdownOpen] =
+    useState(true);
+  const [
+    isBlockchainEnterpriseDropdownOpen,
+    setIsBlockchainEnterpriseDropdownOpen,
+  ] = useState(false);
+  const [isBlockchainScDropdownOpen, setIsBlockchainScDropdownOpen] =
+    useState(false);
+  const [isBlockchainTokenDropdownOpen, setIsBlockchainTokenDropdownOpen] =
+    useState(false);
 
   // ai
   const [isAiDropdownOpen, setIsAiDropdownOpen] = useState(true);
   const [isAi1DropdownMenu, setIsAi1DropdownOpen] = useState(true);
-  
-  const toggleBlockchainMenu = () => { 
+  const [generativeAiDropdownMenu, setGenerativeAiDropdown] = useState(false);
+
+  // gaming
+  const [isGamingDropdownOpen, setIsGamingDropdownOpen] = useState(true);
+  const [isGaming1DropdownOpen, setIsGaming1DropdownOpen] = useState(true);
+  const [isMetaverseDropdownOpen, setIsMetaverseDropdownOpen] = useState(false);
+
+  //consulting
+  const [isConsultingDropdownOpen, setIsConsultingDropdownOpen] =
+    useState(true);
+  const [isConsulting1DropdownOpen, setIsConsulting1DropdownOpen] =
+    useState(true);
+  const [isMarketDropdownOpen, setIsMarketDropdownOpen] = useState(true);
+
+  //solution
+  const [isSolutionDropdownOpen, setIsSolutionDropdownOpen] = useState(true);
+
+  //Industries
+  const [isIndustryDropdownMenu, setIsIndustryDropdownMenu] = useState(true);
+  const [isBfsiDropdownMenu, setIsBfsiDropdownMenu] = useState(true);
+  const [isServiceDropdown, setIsServiceDropdownMenu] = useState(false);
+  //About Us
+  const [isAboutDropdownMenu, setIsDropdownMenu] = useState(true);
+
+  // blockchain toggles
+  const toggleBlockchainMenu = () => {
     setIsBlockchainDropdownOpen(!isBlockchainDropdownOpen);
+    setIsAiDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsDropdownMenu(false);
   };
-
-  const toggleAiMenu = () => {
-    setIsAiDropdownOpen(!isAiDropdownOpen);
-  };
-
   const toggleBlockchain1Menu = () => {
     setIsBlockchainEnterpriseDropdownOpen(false);
     setIsBlockchainTokenDropdownOpen(false);
@@ -49,6 +81,107 @@ const Navbar = () => {
     setIsBlockchain1DropdownOpen(false);
   };
 
+  // AI Toggles
+  const toggleAiMenu = () => {
+    setIsAiDropdownOpen(!isAiDropdownOpen);
+    setIsBlockchainDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsDropdownMenu(false);
+  };
+  const toggleAi1Menu = () => {
+    setIsAi1DropdownOpen(!isAi1DropdownMenu);
+    setGenerativeAiDropdown(false);
+  };
+  const toggleGenerativeMenu = () => {
+    setGenerativeAiDropdown(!generativeAiDropdownMenu);
+    setIsAi1DropdownOpen(false);
+  };
+
+  // Gaming toggles
+  const toggleGamingMenu = () => {
+    setIsGamingDropdownOpen(!isGamingDropdownOpen);
+    setIsBlockchainDropdownOpen(false);
+    setIsAiDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsDropdownMenu(false);
+  };
+  const toggleGaming1Menu = () => {
+    setIsGaming1DropdownOpen(!isGaming1DropdownOpen);
+    setIsMetaverseDropdownOpen(false);
+  };
+  const toggleMetaverseMenu = () => {
+    setIsMetaverseDropdownOpen(!isMetaverseDropdownOpen);
+    setIsGaming1DropdownOpen(false);
+  };
+
+  // Consulting toggles
+  const toggleConsultingMenu = () => {
+    setIsConsultingDropdownOpen(!isConsultingDropdownOpen);
+    setIsBlockchainDropdownOpen(false);
+    setIsAiDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsDropdownMenu(false);
+  };
+
+  const toggleConsulting1Menu = () => {
+    setIsConsulting1DropdownOpen(!isConsulting1DropdownOpen);
+    setIsMarketDropdownOpen(false);
+  };
+  const toggleMarketMenu = () => {
+    setIsMarketDropdownOpen(!isMarketDropdownOpen);
+    setIsConsulting1DropdownOpen(false);
+  };
+
+  // solution toggles
+  const toggleSolutionMenu = () => {
+    setIsSolutionDropdownOpen(!isSolutionDropdownOpen);
+    setIsBlockchainDropdownOpen(false);
+    setIsAiDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsDropdownMenu(false);
+  };
+
+  //industry toggle
+  const toggleIndustryMenu = () => {
+    setIsIndustryDropdownMenu(!isIndustryDropdownMenu);
+    setIsBlockchainDropdownOpen(false);
+    setIsAiDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsDropdownMenu(false);
+  };
+
+  const toggleBfsiMenu = () => {
+    setIsBfsiDropdownMenu(!isBfsiDropdownMenu);
+    setIsServiceDropdownMenu(false);
+  };
+
+  const toggleServiceMenu = () => {
+    setIsServiceDropdownMenu(!isServiceDropdown);
+    setIsBfsiDropdownMenu(false);
+  };
+
+  //About Us
+  const toggleAboutMenu = () => {
+    setIsDropdownMenu(!isAboutDropdownMenu);
+    setIsBlockchainDropdownOpen(false);
+    setIsAiDropdownOpen(false);
+    setIsGamingDropdownOpen(false);
+    setIsConsultingDropdownOpen(false);
+    setIsSolutionDropdownOpen(false);
+    setIsIndustryDropdownMenu(false);
+    setIsBlockchainDropdownOpen(false);
+  };
   return (
     <div>
       <nav className="flex flex-row justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4 relative">
@@ -118,25 +251,47 @@ const Navbar = () => {
             >
               Blockchain
             </li>
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+            <li
+              className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
               onClick={toggleAiMenu}
-              onMouseEnter={toggleAiMenu}>
+              onMouseEnter={toggleAiMenu}
+            >
               AI{" "}
             </li>
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
+            <li
+              className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+              onClick={toggleGamingMenu}
+              onMouseEnter={toggleGamingMenu}
+            >
               Gaming
             </li>
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
+            <li
+              className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+              onClick={toggleConsultingMenu}
+              onMouseEnter={toggleConsultingMenu}
+            >
               Consulting
             </li>
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
+            <li
+              className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+              onClick={toggleSolutionMenu}
+              onMouseEnter={toggleSolutionMenu}
+            >
               Solutions
             </li>
-            <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
+            <li
+              className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+              onClick={toggleIndustryMenu}
+              onMouseEnter={toggleIndustryMenu}
+            >
               Industries
             </li>
             <Link to="/about-us">
-              <li className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300">
+              <li
+                className="text-white text-lg lg:text-sm xl:text-lg font-semibold cursor-pointer py-2 lg:py-0 text-nowrap hover:text-gray-300"
+                onClick={toggleAboutMenu}
+                onMouseEnter={toggleAboutMenu}
+              >
                 About Us
               </li>
             </Link>
@@ -212,81 +367,80 @@ const Navbar = () => {
               </div>
               {isBlockchainEnterpriseDropdownOpen && (
                 <div className="flex flex-row justify-between">
-                <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
-                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
-                      <p className="text-white text-[17px] font-bold">
-                        Supply Chain
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                        Transport & Logistics
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Entertainment
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Real-Estate
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Education
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="absolute left-[1200px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
-                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
-                      <p className="text-white text-[17px] font-bold">
-                       Finance
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                       Healthcare
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                       Real-Estate
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                      Procure-to-Pay
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                      Carbon Credits
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                 
+                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/blockchain-development">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Supply Chain
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-defi">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          Transport & Logistics
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Entertainment
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Real-Estate
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Education
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="absolute left-[1200px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/blockchain-development">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Finance
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-defi">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          Healthcare
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Real-Estate
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Procure-to-Pay
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="/blockchain-identity">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className=" text-white text-[17px] font-bold">
+                          Carbon Credits
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               )}
 
@@ -328,7 +482,7 @@ const Navbar = () => {
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
               {isBlockchainTokenDropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
                   <Link to="/blockchain-development">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
@@ -346,21 +500,21 @@ const Navbar = () => {
                   <Link to="/blockchain-defi">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
-                      Fund Tokenization
+                        Fund Tokenization
                       </p>
                     </div>
                   </Link>
                   <Link to="/blockchain-defi">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
-                       Gold Tokenization
+                        Gold Tokenization
                       </p>
                     </div>
                   </Link>
                   <Link to="/blockchain-defi">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
-                       Asset Management
+                        Asset Management
                       </p>
                     </div>
                   </Link>
@@ -372,41 +526,36 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* aI NAITEMS */}
+      {/* aI NAIvTEMS */}
       {isAiDropdownOpen && (
         <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
           <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
             <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
                 className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
-                onClick={toggleBlockchain1Menu}
+                onClick={toggleAi1Menu}
                 // onMouseEnter={toggleBlockchain1Menu}
               >
-                <p className="text-white text-[17px] font-bold">Artificial Intelligence</p>
+                <p className="text-white text-[17px] font-bold">
+                  Artificial Intelligence
+                </p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
 
-              {isBlockchain1DropdownOpen && (
+              {isAi1DropdownMenu && (
                 <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
+                  <Link to="">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
-                        Blockchain Development
+                        Artificial Intelligence
                       </p>
                     </div>
                   </Link>
-                  <Link to="/blockchain-defi">
+                  <Link to="">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
                         {" "}
-                        Blockchain In identity Management
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        DiPin Debelopment
+                        AI/ML Solutions
                       </p>
                     </div>
                   </Link>
@@ -414,170 +563,337 @@ const Navbar = () => {
               )}
               <div
                 className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
-                onClick={toggleBlockchainEnterpriseMenu}
-                // onMouseEnter={toggleBlockchainEnterpriseMenu}
+                onClick={toggleGenerativeMenu}
               >
                 <p className="text-white text-[17px] font-bold">
-                 Generative AI
+                  Generative AI
                 </p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
-              {isBlockchainEnterpriseDropdownOpen && (
+              {generativeAiDropdownMenu && (
                 <div className="flex flex-row justify-between">
-                <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
-                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
-                      <p className="text-white text-[17px] font-bold">
-                        Supply Chain
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                        Transport & Logistics
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Entertainment
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Real-Estate
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                        Education
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="absolute left-[1200px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
-                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
-                      <p className="text-white text-[17px] font-bold">
-                       Finance
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                       Healthcare
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                       Real-Estate
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                      Procure-to-Pay
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-identity">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className=" text-white text-[17px] font-bold">
-                      Carbon Credits
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                 
+                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Generative AI
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          Generative AI Development
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               )}
+            </div>
+            <div className="w-[70%] "></div>
+          </div>
+        </div>
+      )}
 
+      {/* Gaming NAIvTEMS */}
+      {isGamingDropdownOpen && (
+        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+          <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+            <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
               <div
-                className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
-                onClick={toggleBlockchainScMenu}
-                // onMouseEnter={toggleBlockchainScMenu}
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleGaming1Menu}
+                // onMouseEnter={toggleBlockchain1Menu}
+              >
+                <p className="text-white text-[17px] font-bold">Gaming</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              {isGaming1DropdownOpen && (
+                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                  <Link to="">
+                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                      <p className="text-white text-[17px] font-bold">
+                        Game Development
+                      </p>
+                    </div>
+                  </Link>
+                  <Link to="">
+                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                      <p className="text-white text-[17px] font-bold">
+                        {" "}
+                        P2E Game Development
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              )}
+              <div
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleMetaverseMenu}
+              >
+                <p className="text-white text-[17px] font-bold">Metaverse</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              {isMetaverseDropdownOpen && (
+                <div className="flex flex-row justify-between">
+                  <div className="absolute left-[700px] mt-2 top-[95px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Metaverse Development
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          Metaverse App Development
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="w-[70%] "></div>
+          </div>
+        </div>
+      )}
+
+      {/* Consulting NAIvTEMS */}
+      {isConsultingDropdownOpen && (
+        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+          <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+            <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
+              <div
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleConsulting1Menu}
+                // onMouseEnter={toggleBlockchain1Menu}
+              >
+                <p className="text-white text-[17px] font-bold">Consulting</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              {isConsulting1DropdownOpen && (
+                <div className="flex flex-row justify-between">
+                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Blockchain Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          {" "}
+                          Web3 Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          {" "}
+                          Metaverse Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="absolute left-[1200px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          {" "}
+                          DeFi Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          {" "}
+                          DAO Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
+                        <p className="text-white text-[17px] font-bold">
+                          {" "}
+                          AI Consulting Company
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              )}
+              <div
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleMarketMenu}
               >
                 <p className="text-white text-[17px] font-bold">
-                  Smart Contract
+                  Marketing As a Service
                 </p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
-              {isBlockchainScDropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
-                    <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
-                      <p className="text-white text-[17px] font-bold">
-                        Smart Contract Development
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                        Smart Contract Audit
-                      </p>
-                    </div>
-                  </Link>
+              {isMarketDropdownOpen && (
+                <div className="flex flex-row justify-between">
+                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Marketing As A Service (MaaS)
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               )}
+            </div>
+            <div className="w-[70%] "></div>
+          </div>
+        </div>
+      )}
 
-              <div
-                className="flex flex-row justify-between  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
-                onClick={toggleBlockchainTokenMenu}
-                // onMouseEnter={toggleBlockchainTokenMenu}
-              >
-                <p className="text-white text-[17px] font-bold">Tokenization</p>
+      {/* Solution NAIvTEMS */}
+      {isSolutionDropdownOpen && (
+        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+          <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+            <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">Exchange</p>
                 <FaArrowRightLong color="#ffffff" size={24} />
               </div>
-              {isBlockchainTokenDropdownOpen && (
-                <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                  <Link to="/blockchain-development">
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">Wallet</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">NFT</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">DEFI</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">WEB3</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">
+                  Digital Banking
+                </p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">
+                  Coin Development
+                </p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">Trading Bots</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+            </div>
+            <div className="w-[70%] "></div>
+          </div>
+        </div>
+      )}
+
+      {/* Industry NAIvTEMS */}
+      {isIndustryDropdownMenu && (
+        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+          <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+            <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
+              <div
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleBfsiMenu}
+                // onMouseEnter={toggleBlockchain1Menu}
+              >
+                <p className="text-white text-[17px] font-bold">BFSI</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              {isBfsiDropdownMenu && (
+                <div className="absolute left-[700px] mt-2 top-[100px] text-white text-opacity-80 hover:text-white">
+                  <Link to="">
                     <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
                       <p className="text-white text-[17px] font-bold">
-                        Asset Tokenization
+                        Trade Finance
                       </p>
                     </div>
                   </Link>
-                  <Link to="/blockchain-defi">
+                  <Link to="">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
-                        Real -Estate Tokenization
+                        {" "}
+                        Insurance
                       </p>
                     </div>
                   </Link>
-                  <Link to="/blockchain-defi">
+                  <Link to="">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className="text-white text-[17px] font-bold">
-                      Fund Tokenization
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                       Gold Tokenization
-                      </p>
-                    </div>
-                  </Link>
-                  <Link to="/blockchain-defi">
-                    <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
-                      <p className="text-white text-[17px] font-bold">
-                       Asset Management
+                        {" "}
+                        KYC & AML
                       </p>
                     </div>
                   </Link>
                 </div>
               )}
+              <div
+                className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4"
+                onClick={toggleServiceMenu}
+              >
+                <p className="text-white text-[17px] font-bold"> Services</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              {isServiceDropdown && (
+                <div className="flex flex-row justify-between">
+                  <div className="absolute left-[700px] mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          Cloud Services
+                        </p>
+                      </div>
+                    </Link>
+                    <Link to="">
+                      <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 ">
+                        <p className="text-white text-[17px] font-bold">
+                          AWS Services
+                        </p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="w-[70%] "></div>
+          </div>
+        </div>
+      )}
+
+      {/* About us NAIvTEMS */}
+      {isAboutDropdownMenu && (
+        <div className="px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60">
+          <div className="flex flex-row items-center w-full bg-white bg-opacity-30 rounded-2xl p-6">
+            <div className="w-[30%] bg-white bg-opacity-10 rounded-2xl p-4">
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">About Us</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">Blogs</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
+              <div className="flex flex-row justify-between hover:bg-white hover:bg-opacity-40 rounded-2xl p-4">
+                <p className="text-white text-[17px] font-bold">Career</p>
+                <FaArrowRightLong color="#ffffff" size={24} />
+              </div>
             </div>
             <div className="w-[70%] "></div>
           </div>
