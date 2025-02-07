@@ -83,7 +83,6 @@ const BlockchainCycle1 = ({ title }) => {
         <Slider {...settings}>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">01.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Decentralized Digital Identity</p>
               <p className="font-semibold text-sm pt-2">
               Users can create self-sovereign identities (SSI) that allow full control over personal data, reducing reliance on centralized authorities.
@@ -92,7 +91,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">02.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Secure Login & Authentication </p>
               <p className="font-semibold text-sm pt-2">
               Eliminates password-based logins with blockchain-powered authentication, reducing the risk of credential theft and phishing attacks.
@@ -101,7 +99,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">03.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
               KYC & AML Compliance
               </p>
@@ -112,7 +109,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">04.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Digital Voting Systems</p>
               <p className="font-medium text-sm pt-2">
               Enables secure, transparent, and fraud-resistant online voting by ensuring voter identities remain verifiable and immutable.
@@ -121,7 +117,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">05.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
               Healthcare & Medical Records
               </p>
@@ -132,7 +127,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">06.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 {" "}
                 Education & Credential Verification
@@ -144,7 +138,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">07.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Government & Public Services</p>
               <p className="font-medium text-sm pt-2">
               Enhances e-governance by securing citizen IDs, passports, and social security data on a blockchain, preventing fraud and identity theft.
@@ -153,7 +146,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">08.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
               Supply Chain & Workforce Identity
               </p>
@@ -164,7 +156,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">09.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Travel & Immigration</p>
               <p className="font-medium text-sm pt-2">
               Enables digital passports and visa records, streamlining border control and airport security with faster, secure identity verification.
@@ -173,7 +164,6 @@ const BlockchainCycle1 = ({ title }) => {
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
-              <p className="text-xl font-semibold">10.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Financial Inclusion & Banking</p>
               <p className="font-medium text-sm pt-2">
               Provides unbanked individuals with verifiable digital identities, enabling them to access financial services without traditional documentation barriers.

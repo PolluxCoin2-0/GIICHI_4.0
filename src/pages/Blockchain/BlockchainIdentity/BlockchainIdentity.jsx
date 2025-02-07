@@ -53,7 +53,7 @@ const BlockchainIdentity = () => {
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
             Leverage blockchain technology to revolutionize digital identity
             management with a secure, tamper-proof, and decentralized ecosystem.
-            By eliminating reliance on centralized authorities, and blockchain
+            By eliminating reliance on centralized authorities, blockchain
             enhances data privacy, security, and user control over personal
             information.
           </p>
