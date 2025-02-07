@@ -1,7 +1,7 @@
 import blockchainIdenityImg from "../../../assets/bg-identity.png";
 import Forecast from "../../../components/Blockchain/Forecast";
-import identityImg from "../../../assets/identity.png";
-import identityDataImg from "../../../assets/identityData.png";
+import identityImg from "../../../assets/BlockchainId1.png";
+import identityDataImg from "../../../assets/BlockchainId2.png";
 import LetsTalk from "../../../components/LetsTalk";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import IdentityServices from "../../../components/Blockchain/IdentityServices";
@@ -63,7 +63,7 @@ const BlockchainIdentity = () => {
       </div>
 
       {/* Forecast */}
-      <div>
+      <div className="mt-10">
         <Forecast
           img1={identityImg}
           img2={identityDataImg}
@@ -89,7 +89,7 @@ const BlockchainIdentity = () => {
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-xs lg:text-sm xl:text-lg font-normal pt-2">
           At Giichi, we are revolutionizing identity management by leveraging
-          blockchain-based decentralized identity solutions. <br />
+          blockchain-based decentralized identity solution. <br />
           Our approach eliminates traditional inefficiencies, ensuring privacy,
           security, and seamless accessibility while putting <br />
           users in control of their digital identities.

@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import BlockchainDepinImg from "../../../assets/depin.png";
 import Forecast from "../../../components/Blockchain/Forecast";
-import depinImg from "../../../assets/depinImage.png";
-import depinSolImg from "../../../assets/depinSol.png";
+import depinImg from "../../../assets/depin (2).png";
+import depinSolImg from "../../../assets/depinsol2.png";
 import depinArchImg from "../../../assets/depinArch.png";
 import depinApiImg from "../../../assets/depinApi.png";
 import depinAssetImg from "../../../assets/depinAsset.png";
@@ -19,10 +19,9 @@ import satelliteImg from "../../../assets/satellite.png";
 import manufactureImg from "../../../assets/manufacture.png";
 import healthImg from "../../../assets/health.png";
 import LetsTalk from "../../../components/LetsTalk";
-import Services from "../../../components/Blockchain/Services";
 import Faq from "../../../components/Faq";
-import Insights from "../../../components/Blockchain/Insights";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
+import DepinServices from "../../../components/Blockchain/DepinServices";
 
 
 const FrameworksData = [
@@ -30,57 +29,57 @@ const FrameworksData = [
     logo: depinArchImg,
     title: "DePIN Architecture Design",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
   },
   {
     logo: depinServiceImg,
     title: "DePIN Consulting Services",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
   },
 
   {
     logo: depinTokenImg,
     title: "DePIN Tokenization Service",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
   },
   {
     logo: depinDevImg,
     title: "DePIN Marketplace Development",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
   },
   {
     logo: depinApiImg,
     title: "DePIN API Development",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
   },
   {
     logo: depinAuditImg,
     title: "DePIN Audit and Security",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
   },
 
   {
     logo: depinAssetImg,
     title: "DePIN Smart Contract Development",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "We develop self-executing smart contracts that automate agreements, enhance transparency, and eliminate the need for intermediaries in DePIN ecosystems.",
   },
   {
     logo: depinGoverImg,
     title: "DePIN Asset Management",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Giichi’s decentralized asset management solutions enable businesses to track, control, and optimize the performance of their physical and digital assets across decentralized infrastructure networks.",
   },
   {
     logo: depinScImg,
     title: "DePIN Governance",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "We implement decentralized governance frameworks that allow stakeholders to participate in decision-making processes through transparent and democratic voting mechanisms.",
   },
 ];
 
@@ -89,38 +88,38 @@ const DepinUseCaseData = [
     logo: logictisImg,
     title: "Logistics & Supply Chain",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Giichi’s DePIN solutions revolutionize supply chain management by ensuring real-time tracking, improved transparency, and efficient inventory management. Businesses can leverage decentralized platforms to minimize delays, streamline logistics, and enhance overall supply chain performance.",
   },
   {
     logo: realStateImg,
     title: "Real Estate",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "We develop DePIN-based property management platforms that simplify rent collection, maintenance scheduling, and stakeholder communication. Our decentralized solutions ensure secure and immutable property records, reducing disputes and fostering trust among tenants, landlords, and investors.",
   },
 
   {
     logo: energyImg,
     title: "Energy & Utilities",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Giichi empowers energy companies with decentralized energy trading platforms that optimize resource allocation, enhance transaction transparency, and support sustainable energy initiatives. Our solutions enable peer-to-peer energy exchange and eliminate reliance on intermediaries.",
   },
   {
     logo: satelliteImg,
     title: "Telecommunications",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "With Giichi’s DePIN solutions, telecom businesses can establish decentralized communication networks that improve data privacy, reduce dependency on traditional infrastructure, and facilitate peer-to-peer transactions, ensuring a more resilient and efficient telecom ecosystem.",
   },
   {
     logo: healthImg,
     title: "Healthcare",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "We enhance healthcare data management by developing decentralized networks for patient records. Our solutions improve data security, interoperability among healthcare providers, and patient access to medical history, fostering a secure and efficient healthcare ecosystem.",
   },
   {
     logo: manufactureImg,
     title: "Manufacturing",
     description:
-      "Accelerate your Web3 journey with GiiCHi CoPilot, a tailored partnership program designed to turn your vision into reality.",
+      "Giichi’s DePIN technology strengthens manufacturing operations by securing sensitive data, ensuring process transparency, and optimizing supply chains. Our solutions help streamline workflows, enhance collaboration, and prevent vulnerabilities in production environment.",
   },
 ];
 
@@ -149,7 +148,7 @@ const DepinUseCaseCard = ({ logo, title, description }) => {
 };
 const BlockchainDepin = () => {
   return (
-    <div className="pt-6 md:pt-12">
+    <div className="pt-6 md:pt-12 mb-10">
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
@@ -158,7 +157,7 @@ const BlockchainDepin = () => {
           className="md:w-full md:h-[400px] object-cover rounded-3xl"
         />
         {/* The text */}
-        <div className="absolute top-0 left-80 w-full h-full hidden md:flex flex-col items-start justify-center">
+        <div className="absolute top-0 md:left-16 lg:left-24 xl:left-40 2xl:left-72 w-full h-full hidden md:flex flex-col items-start justify-center">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
               DePIN Development{" "}
@@ -169,9 +168,9 @@ const BlockchainDepin = () => {
             </span>
           </p>
           <p className="pt-6 text-lg font-semibold leading-snug">
-            Enable more secure storage and management of digital identities in{" "}
-            <br />
-            blockchain with a single, tamper-proof ecosystem.
+          Building a decentralized infrastructure network is no longer a challenge. <br/>
+          Giichi enables businesses to transform their physical infrastructure into <br/>
+          decentralized networks that enhance efficiency, security, and transparency.
           </p>
 
           {/* Button */}
@@ -187,9 +186,9 @@ const BlockchainDepin = () => {
             <br />
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            Enable more secure storage and management of digital identities in{" "}
-            <br />
-            blockchain with a single, tamper-proof ecosystem.
+          Building a decentralized infrastructure network is no longer a challenge. 
+          Giichi enables businesses to transform their physical infrastructure into 
+          decentralized networks that enhance efficiency, security, and transparency.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -197,19 +196,14 @@ const BlockchainDepin = () => {
       </div>
 
       {/* Forecast */}
-      <div>
+      <div className="mt-10">
         <Forecast
           img1={depinImg}
           img2={depinSolImg}
-          title1="What is DePIN?"
-          title2="DePin Solutions: Addressing Modern Infrastructure Demands for Business Efficiency"
-          desc1="DePIN(Decentralized Physical Infrastructure Networks) represents a transformative 
-          approach to managing physical infrastructure by integrating decentralized technologies 
-          like blockchain. DePIN supports direct peer-to-peer communication and data sharing, bypassing 
-          intermediaries to deliver scalable, secure, and transparent infrastructure for various industries. "
-          desc2="Traditional infrastructure systems struggle with inefficiencies, centralization risks, and
-           high operational costs. The rise of DePIN solutions stems from the growing demand for more secure, 
-           transparent, and scalable management of physical assets across industries."
+          title1="Revolutionize your infrastructure with Giichi’s DePIN expertise!"
+          title2="DePin Solutions: Future-Proofing Your Infrastructure for Business Growth"
+          desc1="Traditional infrastructure systems often face inefficiencies, centralization risks, and high operational costs. The rise of DePIN (Decentralized Physical Infrastructure Networks) is driven by the need for secure, transparent, and scalable management of physical assets across industries. "
+          desc2="Giichi empowers businesses to embrace this transformation by delivering customized DePIN solutions that streamline infrastructure management. Our cutting-edge DePIN development services help organizations seamlessly integrate decentralized networks, transforming their physical infrastructure into future-ready, high-performance systems."
         />
       </div>
 
@@ -221,16 +215,15 @@ const BlockchainDepin = () => {
       {/* Blockchain Services */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
-          Giichi+ Advanced DePIN <br />{" "}
+          GiiCHi Advanced DePIN <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Services
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center">
-          Being a leading DePIN development company, Giichi offers a wide range
-          of services to help businesses leverage the <br />
-          power of decentralized infrastructure.{" "}
+        As a leading DePIN development company, Giichi offers a comprehensive range of services to help businesses harness the power of <br/>
+        decentralized infrastructure and optimize operational efficiency.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -252,18 +245,17 @@ const BlockchainDepin = () => {
 
       {/* Blockchain frameworks */}
       <div className="mt-12 md:mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          DePIN Use Cases: How Giichi Serves
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        DePIN Use Cases: Transforming Industries with 
           <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
-            Diverse Industries
+          Decentralized Infrastructure
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          From healthcare to finance, Giichi offers a wide range of DePIN
-          development services to empower businesses across <br />
-          various industries.{" "}
+        Giichi delivers cutting-edge DePIN solutions tailored to various industries, helping businesses <br/>
+        enhance efficiency, security, and transparency through decentralized networks.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -281,18 +273,17 @@ const BlockchainDepin = () => {
       {/* Services */}
       <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
-          Prominent Components That
+        Key Components Powering 
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-            DePIN’s Functionality
+          DePIN’s Ecosystem
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
-          Understanding the components that drive DePIN’s functionality is
-          essential for organizations looking to <br /> leverage its true
-          potential.
+        For businesses looking to unlock the full potential of decentralized infrastructure, understanding <br/>
+        the fundamental components of DePIN (Decentralized Physical Infrastructure Networks) is crucial.
         </p>
-        <Services />
+        <DepinServices />
       </div>
 
       {/* connect section */}
@@ -302,13 +293,10 @@ const BlockchainDepin = () => {
 
       {/* FAQ Section */}
       <div>
-        <Faq />
+        {/* <Faq /> */}
       </div>
 
-      {/* Spotlight-Insights Section */}
-      <div>
-        <Insights />
-      </div>
+     
     </div>
   );
 };
