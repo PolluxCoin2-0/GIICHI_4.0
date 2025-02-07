@@ -91,7 +91,7 @@ const FrameworksData = [
 const FrameworksCard = ({ logo, title, description }) => {
   return (
     <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between ">
         <img src={logo} alt={title} className="w-12" />
         <LuArrowUpRight color="#2BB32A" size={28} />
       </div>
@@ -112,7 +112,7 @@ const BlockchainDevelopment = () => {
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
               Blockchain Development{" "}
@@ -171,7 +171,7 @@ const BlockchainDevelopment = () => {
             Development Services
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2">
         Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape.
         </p>
         {/* services */}
@@ -193,7 +193,7 @@ const BlockchainDevelopment = () => {
           different blockchain networks <br /> to provide you with the best
           solutions aligned with your needs.
         </p>
-        <p className="block md:hidden text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="block md:hidden text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           As a leading custom blockchain development company, we leverage
           different blockchain networks  to provide you with the best
           solutions aligned with your needs.
@@ -221,7 +221,7 @@ const BlockchainDevelopment = () => {
           </span>
         </p>
 
-        <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] lg:text-[15px]  xl:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, <br/>
         leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge<br/>
          rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
@@ -267,11 +267,11 @@ const BlockchainDevelopment = () => {
         {/* Tech Stack */}
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
           {/* for mobile tech stack */}
-          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
-             <div className="w-full md:w-[20%]"> 
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
+             <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]"> 
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center"> Mobile</p>
             </div>
-            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
+            <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={FlutterImg} alt="" className="w-6 md:w-10 "/>
             <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
@@ -292,12 +292,12 @@ const BlockchainDevelopment = () => {
           </div>
 
           {/* for frontend tech stack */}
-          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
-            <div className="w-full md:w-[20%]">
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
                 Frontend</p>
             </div>
-            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
+            <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
             <img src={htmlImg} alt="" className="w-10 "/>
             <p className="text-white text-[10px] md:text-sm pt-2">HTML</p>
@@ -330,12 +330,12 @@ const BlockchainDevelopment = () => {
           </div>
 
           {/* for backend tech stack */}
-         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
-            <div className="w-full md:w-[20%]"> 
+         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]"> 
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
                  Backend</p>
             </div>
-            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
+            <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={expressImg} alt="" className="w-6 md:w-10 "/>
             <p className="text-white text-nowrap text-xs md:text-sm pt-2">Express.js</p>
@@ -356,11 +356,11 @@ const BlockchainDevelopment = () => {
           </div>
 
           {/* for smart contract language tech stack */}
-          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
-            <div className="w-full md:w-[20%]">
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6  lg:space-x-12 w-full">
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-nowrap text-center"> Smart Contract Language</p>
             </div>
-            <div className="w-[90%] md:w-[80%] flex flex-row justify-start items-center space-x-16 md:space-x-6 mt-4 ">
+            <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-start items-center space-x-16 md:space-x-6 lg:space-x-12 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={solidityImg} alt="" className="w-12 "/>
             <p className="text-white text-sm pt-2">Solidity</p>
@@ -373,13 +373,13 @@ const BlockchainDevelopment = () => {
           </div>
 
           {/* for CMS tech stack */}
-         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
-            <div className="w-full md:w-[20%]">
+         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6  lg:space-x-12 w-full">
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
             <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
               CMS
             </p>
             </div>
-            <div className="w-[90%] md:w-[80%] flex flex-row justify-center md:justify-start items-center md:space-x-6 mt-4 ">
+            <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-center md:justify-start items-center md:space-x-6 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={wordpressImg} alt="" className="w-10 "/>
             <p className="text-white text-sm text-center pt-2">Wordpress</p>

@@ -82,9 +82,9 @@ const BlockchainCycle = ({ title }) => {
         </div>
         <Slider {...settings}>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">01.</p>
-              <p className="font-semibold text-lg">Requirement Analysis</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Requirement Analysis</p>
               <p className="font-semibold text-sm pt-2">
                 We begin by understanding your business objectives, use cases,
                 and technical requirements to define the project scope and
@@ -93,9 +93,9 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">02.</p>
-              <p className="font-semibold text-lg">Blockchain Consultation </p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Blockchain Consultation </p>
               <p className="font-semibold text-sm pt-2">
                 Our experts analyze the best blockchain platform, consensus
                 mechanism, and architecture to align with your business goals.
@@ -103,9 +103,9 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">03.</p>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 Technical Architecture & Planning
               </p>
               <p className="font-semibold text-sm pt-2">
@@ -116,10 +116,10 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">04.</p>
-              <p className="font-semibold text-lg">UI/UX Design</p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">UI/UX Design</p>
+              <p className="font-medium text-sm pt-2">
                 Our design team creates user-friendly interfaces that enhance
                 accessibility and improve the overall experience of the
                 blockchain application.
@@ -127,12 +127,12 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">05.</p>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 Smart Contract Development
               </p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-medium text-sm pt-2">
                 We develop and implement secure, efficient, and self-executing
                 smart contracts tailored to your blockchain application's
                 functionality.
@@ -140,13 +140,13 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">06.</p>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 {" "}
                 Core Blockchain Development
               </p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-medium text-sm pt-2">
                 Our developers integrate blockchain components such as consensus
                 algorithms, nodes, and APIs, ensuring seamless interoperability
                 and scalability.
@@ -154,10 +154,10 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">07.</p>
-              <p className="font-semibold text-lg">Testing & Security Audit</p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Testing & Security Audit</p>
+              <p className="font-medium text-sm pt-2">
                 Rigorous testing, including functionality, performance, and
                 security audits, is conducted to identify vulnerabilities and
                 optimize the application.
@@ -165,32 +165,32 @@ const BlockchainCycle = ({ title }) => {
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">08.</p>
-              <p className="font-semibold text-lg">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 Deployment & Network Setup
               </p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-medium text-sm pt-2">
                 We deploy the blockchain solution on the preferred mainnet or
                 testnet, ensuring smooth functionality and seamless integration.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">09.</p>
-              <p className="font-semibold text-lg">Monitoring & Optimization</p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Monitoring & Optimization</p>
+              <p className="font-medium text-sm pt-2">
                 Post-launch monitoring and performance tracking are implemented
                 to enhance security, efficiency, and user experience.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
-            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-6">
+            <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">10.</p>
-              <p className="font-semibold text-lg">Maintenance & Upgrades</p>
-              <p className="font-semibold text-sm pt-2">
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Maintenance & Upgrades</p>
+              <p className="font-medium text-sm pt-2">
                 We provide ongoing support, updates, and feature enhancements to
                 keep your blockchain app future-ready and competitive.
               </p>
