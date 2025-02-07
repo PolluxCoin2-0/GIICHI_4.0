@@ -1,7 +1,7 @@
 import blockchainIdenityImg from "../../../assets/bg-identity.png";
 import Forecast from "../../../components/Blockchain/Forecast";
-import identityImg from "../../../assets/identity.png";
-import identityDataImg from "../../../assets/identityData.png";
+import identityImg from "../../../assets/BlockchainId1.png";
+import identityDataImg from "../../../assets/BlockchainId2.png";
 import LetsTalk from "../../../components/LetsTalk";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import IdentityServices from "../../../components/Blockchain/IdentityServices";
@@ -63,7 +63,7 @@ const BlockchainIdentity = () => {
       </div>
 
       {/* Forecast */}
-      <div>
+      <div className="mt-10">
         <Forecast
           img1={identityImg}
           img2={identityDataImg}
