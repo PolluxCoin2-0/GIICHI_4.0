@@ -4,6 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import indiaMap from "../assets/indiaflag.png";
+import dubaiMap from "../assets/dubaiflag.png";
 const Footer = () => {
   return (
     <div className="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-32 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 ">
@@ -17,55 +19,78 @@ const Footer = () => {
         {/* About Us */}
         <div>
           <p className="text-white font-semibold text-lg pt-6 md:pt-0">
-            About Us
+            GO TO
           </p>
-          <p className="text-white text-opacity-50 pt-2 md:pt-4 md:text-xs lg:text-[16px]">
-            Investors
+          <p className="text-white text-opacity-50 pt-2 md:pt-6 md:text-xs lg:text-[16px]">
+          HOME
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Features
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          ABOUT US
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Book a Demo
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          OUR WORKS
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Security
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          BLOGS
           </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          CONTACT
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          CAREERS
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          TERMS & CONDITIONS
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          PRIVACY POLICY
+          </p>
+         
         </div>
 
         {/* Products */}
         <div>
           <p className="text-white font-semibold text-lg pt-6 md:pt-0">
-            Products
+          OUR SERVICES
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Credit Cards
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          DIGITAL TRANSFORMATION
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Gift Cards
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          ARTIFICIAL INTELLIGENCE
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Saving Account
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          APPLICATION DEVELOPMENT
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            NFT
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          WEBSITE DEVELOPMENT
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          CLOUD SOLUTIONS
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          DEVOPS SOLUTIONS
+          </p>
+          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          TECHNOLOGY CONSULTING & INNOVATION
           </p>
         </div>
 
         {/* UseFull Links */}
         <div>
           <p className="text-white font-semibold text-lg pt-6 md:pt-0">
-            Useful Links
+          BUSINESS INQUIRY
           </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Free Rewards
-          </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Documentation
-          </p>
-          <p className="text-white text-opacity-50 pt-4 md:text-xs lg:text-[16px]">
-            Affiliate program
-          </p>
+          <div className="flex flex-row items-center space-x-4 mt-6">
+          <img src={indiaMap} alt="india-map-image" className="w-10"/>
+          <p className="text-white text-[17px] font-semibold ">+91 92664 16198</p>
+          </div>
+          <div className="flex flex-row items-center space-x-4 mt-6">
+          <img src={dubaiMap} alt="india-map-image" className="w-10"/>
+          <p className="text-white text-[17px] font-semibold ">+91 92664 16198</p>
+          </div>
+         
+          
         </div>
 
         {/* Socials Icons*/}
@@ -109,7 +134,7 @@ const Footer = () => {
         <div className="flex flex-row space-x-1 justify-center items-center">
           <FaRegCopyright color="#758080" size={16} />
           <p className="text-white text-opacity-50 text-xs md:text-xs lg:text-[16px] text-nowrap text-center">
-            copyright 2023 Giichi All Rights Reserved
+            copyright 2023 Giichi - All Rights Reserved
           </p>
         </div>
       </div>
