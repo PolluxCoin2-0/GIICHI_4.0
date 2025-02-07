@@ -12,7 +12,7 @@ import CalendlyButton from "../../../components/resuableComp/Calendly";
 
 const BlockchainIdentity = () => {
   return (
-    <div className="pt-6 md:pt-12">
+    <div className="pt-6 md:pt-12 mb-12">
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
@@ -24,7 +24,7 @@ const BlockchainIdentity = () => {
         <div className="absolute top-0 left-80 w-full h-full hidden md:flex flex-col items-start justify-center">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
-              Blockchain In Identity{" "}
+              Blockchain Identity{" "}
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
