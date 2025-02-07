@@ -21,28 +21,32 @@ const Footer = () => {
           <p className="text-white font-semibold text-lg pt-6 md:pt-0">
             GO TO
           </p>
-          <p className="text-white text-opacity-50 pt-2 md:pt-6 md:text-xs lg:text-[16px]">
+          <a href="/dashboard" >
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px] cursor-pointer">
           HOME
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          </a>
+          <a href="/about-us">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px] cursor-pointer">
           ABOUT US
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          </a>
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           OUR WORKS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           BLOGS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           CONTACT
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           CAREERS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           TERMS & CONDITIONS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           PRIVACY POLICY
           </p>
          
@@ -53,25 +57,25 @@ const Footer = () => {
           <p className="text-white font-semibold text-lg pt-6 md:pt-0">
           OUR SERVICES
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           DIGITAL TRANSFORMATION
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           ARTIFICIAL INTELLIGENCE
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           APPLICATION DEVELOPMENT
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           WEBSITE DEVELOPMENT
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           CLOUD SOLUTIONS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           DEVOPS SOLUTIONS
           </p>
-          <p className="text-white text-opacity-50 pt-6 md:text-xs lg:text-[16px]">
+          <p className="text-white text-opacity-50 hover:text-white pt-6 text-sm md:text-xs lg:text-[16px]">
           TECHNOLOGY CONSULTING & INNOVATION
           </p>
         </div>
@@ -82,11 +86,11 @@ const Footer = () => {
           BUSINESS INQUIRY
           </p>
           <div className="flex flex-row items-center space-x-4 mt-6">
-          <img src={indiaMap} alt="india-map-image" className="w-10"/>
+          <img src={indiaMap} alt="india-map-image" className="w-10  transform hover:scale-110 transition-transform duration-300"/>
           <p className="text-white text-[17px] font-semibold ">+91 92664 16198</p>
           </div>
           <div className="flex flex-row items-center space-x-4 mt-6">
-          <img src={dubaiMap} alt="india-map-image" className="w-10"/>
+          <img src={dubaiMap} alt="india-map-image" className="w-10  transform hover:scale-110 transition-transform duration-300"/>
           <p className="text-white text-[17px] font-semibold ">+91 92664 16198</p>
           </div>
          

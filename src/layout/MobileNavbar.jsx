@@ -38,6 +38,7 @@ const MobileNavbar = () => {
       {/* Toggle Button */}
       <div className="flex flex-row justify-between ">
         {/* Logo */}
+        <Link to="/dashboard">
         <div className="">
           <img
             src={Giichi_Logo_Img}
@@ -45,6 +46,7 @@ const MobileNavbar = () => {
             className="cursor-pointer w-24 md:w-28"
           />
         </div>
+        </Link>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none  "

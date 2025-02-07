@@ -5,13 +5,10 @@ import {
 import { useState } from "react";
 
 const Faq = () => {
-  const [faqState, setFaqState] = useState({}); // State to manage each FAQ's open/close state
+  const [activeIndex, setActiveIndex] = useState(null); // Track the currently open FAQ index
 
   const toggleFaq = (index) => {
-    setFaqState((prevState) => ({
-      ...prevState,
-      [index]: !prevState[index], // Toggle the state of the specific FAQ
-    }));
+    setActiveIndex(prevIndex => (prevIndex === index ? null : index)); // Toggle the FAQ, close if the same is clicked
   };
 
   const faqData = [
@@ -85,7 +82,7 @@ const Faq = () => {
                 <p className="syne-font text-sm md:text-[17px] text-start text-white">
                   {faq.question}
                 </p>
-                {faqState[index] ? (
+                {activeIndex === index ? (
                   <MdOutlineArrowCircleUp size={24} color="#ffffff"/>
                 ) : (
                   <MdOutlineArrowCircleDown size={24} color="#ffffff"/>
@@ -93,7 +90,7 @@ const Faq = () => {
               </div>
               <div
                 className={`overflow-hidden transition-max-height duration-300 ease-in-out text-white ${
-                  faqState[index] ? "max-h-40" : "max-h-0"
+                  activeIndex === index ? "max-h-40" : "max-h-0"
                 }`}
               >
                 <p className="text-start syne-font text-xs md:text-sm mt-3 text-white text-opacity-80">
