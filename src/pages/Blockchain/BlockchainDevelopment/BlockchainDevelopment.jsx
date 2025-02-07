@@ -145,7 +145,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Bloackchain forecast */}
-      <div className="mt-20">
+      <div className="mt-6 md:mt-20">
         <Forecast
           img1={bkDev1Img}
           img2={bkDev2Img}
@@ -179,7 +179,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Industries  */}
-      <div className="relative text-center mt-12 md:mt-24">
+      <div className="relative text-center mt-8 md:mt-24">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -188,9 +188,14 @@ const BlockchainDevelopment = () => {
             We Serve
           </span>
         </p>
-        <p className="text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="hidden md:block text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           As a leading custom blockchain development company, we leverage
           different blockchain networks <br /> to provide you with the best
+          solutions aligned with your needs.
+        </p>
+        <p className="block md:hidden text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          As a leading custom blockchain development company, we leverage
+          different blockchain networks  to provide you with the best
           solutions aligned with your needs.
         </p>
         {/* various industries  */}
@@ -203,16 +208,27 @@ const BlockchainDevelopment = () => {
       <div className="relative mt-12 md:mt-24 ">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="hidden md:block text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Blockchain Frameworks We Utilize <br /> for{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             L2/L3 Development
           </span>
         </p>
+        <p className="block md:hidden text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          Blockchain Frameworks We Utilize for{" "}
+          <span className="text-transparent bg-clip-text bg-green-gradient">
+            L2/L3 Development
+          </span>
+        </p>
 
-        <p className="text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, <br/>
         leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge<br/>
+         rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
+        </p>
+        <p className="block md:hidden text-white text-opacity-70 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, 
+        leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge
          rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
         </p>
 

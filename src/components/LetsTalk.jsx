@@ -23,7 +23,7 @@ const LetsTalk = ({ buttonText }) => {
       </div>
 
       {/* content */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 mt-6">
         <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
           <p className="hidden md:block text-center ">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
@@ -39,19 +39,23 @@ const LetsTalk = ({ buttonText }) => {
 
           <p className="block md:hidden text-center">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-              We turbocharge your business’s{" "}
+            We accelerate your business's{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-              transition to Web 3 with our 15+{" "}
+            journey to Web 3 with over 15 years {" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-              years of experience, supported{" "}
+            of expertise, backed by a team  by {" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-              by over 1000 experts and with{" "}
+             over 1000 experts and with of{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-              track record of 1200+ successful{" "}
+             1000+ professionals and a proven {" "}
+            </span>
+            <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
+              {" "}
+              record of 1200+ successful 
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
               {" "}
