@@ -153,7 +153,7 @@ const Review = () => {
 
       {/* Heading 3*/}
       <div className="flex flex-row justify-between pr-0 md:pr-40">
-        <p className="text-md lg:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
+        <p className="text-md md:text-xs lg:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
           Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
           partnership <br />
           program designed to turn your vision into reality.

@@ -354,7 +354,7 @@ const Navbar = () => {
                       </p>
                     </div>
                   </Link>
-                  <Link to="">
+                  <Link to="/blockchain-depin">
                     <div className="px-4 py-2  hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4">
                       <p className=" text-white text-[17px] font-bold">
                       Depin Development

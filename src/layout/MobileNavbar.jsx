@@ -80,7 +80,7 @@ const MobileNavbar = () => {
                   Blockchain
                 </li>
                 {isBk1Open && (
-                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                  <div className="pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                     <Link to="/blockchain-development">
                     <p className="text-white text-xs ">
                       Blockchain Development
@@ -91,9 +91,11 @@ const MobileNavbar = () => {
                       Blockchain In identity Management
                     </p>
                     </Link>
+                    <Link to="/blockchain-depin">
                     <p className=" text-white text-xs pt-2">
                       Depin Development{" "}
                     </p>
+                    </Link>
                   </div>
                 )}
                 <li

@@ -131,15 +131,14 @@ const AboutUs = () => {
               Vision
             </span>
           </p>
-          <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[80%] pt-4 lg:pt-8">
-            Our goal is to expedite the integration of new technologies within
-            enterprises, streamline the resolution of intricate challenges that
-            inevitably arise during digital evolution, and oversee continuous
-            innovation. Whether it’s a customer-centricapplication or a
-            revolutionary enterprise-level solution, we guide the entire journey
-            from initial idea and design to successful implementation, while
-            offering sustained support along the way.
+          <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4 lg:pt-8">
+          At Giichi IT Solutions Pvt. Ltd., our mission is to accelerate enterprise adoption of emerging technologies, ensuring seamless integration and innovation-driven growth. We strive to simplify complex digital transformation challenges, empowering businesses to stay ahead in an ever-evolving landscape.
+        
           </p>
+         <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4"> Our vision is to be the driving force behind next-gen technology solutions, guiding businesses from concept to execution. Whether it’s 
+          a customer-centric application or a disruptive enterprise solution, we ensure a smooth journey—from ideation and design to implementation 
+          and continuous support—fueling long-term success in the digital era.
+       </p>
         </div>
       </div>
 
