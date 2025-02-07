@@ -3,11 +3,10 @@ import Forecast from "../../../components/Blockchain/Forecast";
 import identityImg from "../../../assets/identity.png";
 import identityDataImg from "../../../assets/identityData.png";
 import LetsTalk from "../../../components/LetsTalk";
-import Review from "../../../components/Review";
-import Faq from "../../../components/Faq";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import IdentityServices from "../../../components/Blockchain/IdentityServices";
 import BlockchainCycle1 from "../../../components/Blockchain/BlockchainCycle1";
+import Faq1 from "../../../components/Faq1";
 
 const BlockchainIdentity = () => {
   return (
@@ -52,10 +51,11 @@ const BlockchainIdentity = () => {
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Leverage blockchain technology to revolutionize digital identity management 
-          with a secure, tamper-proof, and decentralized ecosystem. By eliminating 
-          reliance on centralized authorities, blockchain enhances data privacy, 
-          security, and user control over personal information.
+            Leverage blockchain technology to revolutionize digital identity
+            management with a secure, tamper-proof, and decentralized ecosystem.
+            By eliminating reliance on centralized authorities, blockchain
+            enhances data privacy, security, and user control over personal
+            information.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -69,13 +69,8 @@ const BlockchainIdentity = () => {
           img2={identityDataImg}
           title1="Harnessing Blockchain for Secure Digital Identity Solutions with Giichi"
           title2="Centralized vs. Decentralized: Transforming Digital Identity Management with Giichi"
-          desc1="In today’s fast-evolving digital landscape, secure identity management is a critical necessity. Organizations across industries—from enterprises and governments to educational institutions—are adopting blockchain technology to establish tamper-proof, decentralized digital identity solutions.
-                 At Giichi, we leverage the power of blockchain to streamline digital identification processes, ensuring unparalleled security, privacy, and trust. Our solutions empower businesses to securely store, verify, and manage credentials such as vaccination records, academic certifications, professional licenses, and employee IDs, eliminating fraud risks and unauthorized access.
-                 By integrating blockchain-based identity solutions, Giichi helps organizations build a future-ready ecosystem that enhances data integrity, ensures compliance, and improves operational efficiency—while placing users in full control of their digital identity."
-          desc2="Traditional identity management systems rely on centralized authorities to store and verify user identities. However, these systems come with inherent risks—data breaches, identity theft, and lack of user control. Centralized identity models create single points of failure, making personal and enterprise data vulnerable to cyber threats.
-                 At Giichi, we are redefining digital identity management with blockchain-powered decentralized identity solutions. Unlike centralized systems, decentralized identity management (DID) eliminates intermediaries, giving users full ownership and control over their credentials. Our blockchain-driven approach ensures tamper-proof security, seamless verification, and enhanced privacy, empowering businesses and individuals to safeguard their digital identities like never before.
-                 By bridging the gap between security and accessibility, Giichi is leading the way in decentralized identity solutions, making digital identity management safer, smarter, and future-ready."
-        />
+          desc1="At Giichi, we leverage the power of blockchain to streamline digital identification processes, ensuring unparalleled security, privacy, and trust. Our solutions empower businesses to securely store, verify, and manage credentials such as vaccination records, academic certifications, professional licenses, and, eliminating fraud risks and unauthorized access."
+          desc2="Traditional identity management systems rely on centralized authorities to store and verify user identities. However, these systems come with inherent risks, data breaches, identity theft, and lack of user control. Centralized identity models create single points of failure, making personal and enterprise data vulnerable to cyber threats."        />
       </div>
 
       {/* connect section */}
@@ -107,20 +102,10 @@ const BlockchainIdentity = () => {
         <BlockchainCycle1 title="Use Cases of Blockchain for Identity Management" />
       </div>
 
-      {/* Clients Review */}
-      <div className="mt-12">
-        <Review />
-      </div>
-
       {/* FAQ */}
       <div>
-        <Faq />
+        <Faq1 />
       </div>
-
-      {/* Spotlight Insights */}
-      {/* <div>
-        <Insights />
-      </div> */}
     </div>
   );
 };

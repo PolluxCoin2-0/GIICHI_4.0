@@ -221,14 +221,14 @@ const BlockchainDepin = () => {
       {/* Blockchain Services */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
-          Antier’s Advanced DePIN <br />{" "}
+          Giichi+ Advanced DePIN <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Services
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center">
-          Being a leading DePIN development company, Antier offers a wide range
+          Being a leading DePIN development company, Giichi offers a wide range
           of services to help businesses leverage the <br />
           power of decentralized infrastructure.{" "}
         </p>
@@ -253,7 +253,7 @@ const BlockchainDepin = () => {
       {/* Blockchain frameworks */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          DePIN Use Cases: How Antier Serves
+          DePIN Use Cases: How Giichi Serves
           <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Diverse Industries
@@ -261,7 +261,7 @@ const BlockchainDepin = () => {
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          From healthcare to finance, Antier offers a wide range of DePIN
+          From healthcare to finance, Giichi offers a wide range of DePIN
           development services to empower businesses across <br />
           various industries.{" "}
         </p>

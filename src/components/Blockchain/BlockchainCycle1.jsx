@@ -84,21 +84,18 @@ const BlockchainCycle1 = ({ title }) => {
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">01.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Requirement Analysis</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Decentralized Digital Identity</p>
               <p className="font-semibold text-sm pt-2">
-                We begin by understanding your business objectives, use cases,
-                and technical requirements to define the project scope and
-                feasibility.
+              Users can create self-sovereign identities (SSI) that allow full control over personal data, reducing reliance on centralized authorities.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">02.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Blockchain Consultation </p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Secure Login & Authentication </p>
               <p className="font-semibold text-sm pt-2">
-                Our experts analyze the best blockchain platform, consensus
-                mechanism, and architecture to align with your business goals.
+              Eliminates password-based logins with blockchain-powered authentication, reducing the risk of credential theft and phishing attacks.
               </p>
             </div>
           </div>
@@ -106,23 +103,19 @@ const BlockchainCycle1 = ({ title }) => {
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">03.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
-                Technical Architecture & Planning
+              KYC & AML Compliance
               </p>
               <p className="font-semibold text-sm pt-2">
-                We design the system architecture, select the technology stack,
-                and outline the development roadmap, ensuring a strong
-                foundation.
+              Streamlines identity verification for banks, financial institutions, and crypto exchanges, ensuring compliance while reducing onboarding time.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">04.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">UI/UX Design</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Digital Voting Systems</p>
               <p className="font-medium text-sm pt-2">
-                Our design team creates user-friendly interfaces that enhance
-                accessibility and improve the overall experience of the
-                blockchain application.
+              Enables secure, transparent, and fraud-resistant online voting by ensuring voter identities remain verifiable and immutable.
               </p>
             </div>
           </div>
@@ -130,12 +123,10 @@ const BlockchainCycle1 = ({ title }) => {
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">05.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
-                Smart Contract Development
+              Healthcare & Medical Records
               </p>
               <p className="font-medium text-sm pt-2">
-                We develop and implement secure, efficient, and self-executing
-                smart contracts tailored to your blockchain application's
-                functionality.
+              Stores patient identities, health records, and medical histories securely, allowing seamless access while maintaining privacy and compliance.
               </p>
             </div>
           </div>
@@ -144,23 +135,19 @@ const BlockchainCycle1 = ({ title }) => {
               <p className="text-xl font-semibold">06.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
                 {" "}
-                Core Blockchain Development
+                Education & Credential Verification
               </p>
               <p className="font-medium text-sm pt-2">
-                Our developers integrate blockchain components such as consensus
-                algorithms, nodes, and APIs, ensuring seamless interoperability
-                and scalability.
+              Universities and institutions can issue tamper-proof digital diplomas and certifications, enabling instant verification by employers and organizations.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">07.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Testing & Security Audit</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Government & Public Services</p>
               <p className="font-medium text-sm pt-2">
-                Rigorous testing, including functionality, performance, and
-                security audits, is conducted to identify vulnerabilities and
-                optimize the application.
+              Enhances e-governance by securing citizen IDs, passports, and social security data on a blockchain, preventing fraud and identity theft.
               </p>
             </div>
           </div>
@@ -168,31 +155,28 @@ const BlockchainCycle1 = ({ title }) => {
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">08.</p>
               <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">
-                Deployment & Network Setup
+              Supply Chain & Workforce Identity
               </p>
               <p className="font-medium text-sm pt-2">
-                We deploy the blockchain solution on the preferred mainnet or
-                testnet, ensuring smooth functionality and seamless integration.
+              Ensures authenticity of supplier identities, preventing fraud while allowing secure workforce credentialing and verification.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">09.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Monitoring & Optimization</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Travel & Immigration</p>
               <p className="font-medium text-sm pt-2">
-                Post-launch monitoring and performance tracking are implemented
-                to enhance security, efficiency, and user experience.
+              Enables digital passports and visa records, streamlining border control and airport security with faster, secure identity verification.
               </p>
             </div>
           </div>
           <div className="px-2 md:px-4">
             <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
               <p className="text-xl font-semibold">10.</p>
-              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">Maintenance & Upgrades</p>
+              <p className="font-semibold text-lg lg:text-[17px] xl:text-lg"> Financial Inclusion & Banking</p>
               <p className="font-medium text-sm pt-2">
-                We provide ongoing support, updates, and feature enhancements to
-                keep your blockchain app future-ready and competitive.
+              Provides unbanked individuals with verifiable digital identities, enabling them to access financial services without traditional documentation barriers.
               </p>
             </div>
           </div>

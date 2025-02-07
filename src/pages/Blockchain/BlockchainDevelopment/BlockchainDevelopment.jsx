@@ -431,18 +431,10 @@ const BlockchainDevelopment = () => {
       <div>
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>
-      {/* Clients Review */}
-      {/* <div>
-        <Review />
-      </div> */}
-
       {/* FAQ SECTION */}
       <div>
         <Faq />
       </div>
-
-      {/* Spotlight insights */}
-      {/* <Insights /> */}
     </div>
   );
 };
