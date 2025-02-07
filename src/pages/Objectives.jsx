@@ -54,7 +54,7 @@ const Objectives = () => {
                   BLOCKCHAIN
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[6px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Giichi IT Solutions delivers cutting-edge blockchain solutions,
                 empowering enterprises to innovate, scale, and operate smarter
                 than ever before.
@@ -85,11 +85,11 @@ const Objectives = () => {
             <img src={b6Img} alt="" className="w-full h-auto" />
             <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                <p className="text-[10x] md:text-2xl font-normal md:font-bold">
                   CRYPTO SOLUTIONS
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Leverage our cutting-edge crypto solutions to launch, scale, and
                 optimize your project. At Giichi IT Solutions, we harness
                 blockchain innovation to build transformative solutions that
@@ -106,12 +106,12 @@ const Objectives = () => {
             <img src={b7Img} alt="" className="w-full h-auto" />
             <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
                   ARTIFICIAL INTELLIGENCE
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Amplifying Efficiency with Cutting-Edge AI/ML Solutions:
                 Maximize your business efficiency and productivity with Giichi’s
                 premium AI/ML development services and solutions.
@@ -124,12 +124,12 @@ const Objectives = () => {
             <img src={b8Img} alt="" className="w-full h-auto" />
             <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
                   DEFI{" "}
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Decentralized Finance (DeFi) is reshaping the financial
                 landscape, eliminating intermediaries and empowering users with
                 full control over their assets. At Giichi, we develop
@@ -144,12 +144,12 @@ const Objectives = () => {
             <img src={b9Img} alt="" className="w-full h-auto" />
             <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
                   CLOUD POWERED SOLUTIONS{" "}
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[4px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Leverage the power of cloud computing to scale your business
                 seamlessly. Giichi delivers secure, efficient, and scalable
                 cloud solutions, optimizing performance, storage, and
