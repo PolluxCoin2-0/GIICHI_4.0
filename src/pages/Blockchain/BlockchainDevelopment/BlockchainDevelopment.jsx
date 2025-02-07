@@ -251,31 +251,37 @@ const BlockchainDevelopment = () => {
         {/* Tech Stack */}
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
           {/* for mobile tech stack */}
-          <div className="flex flex-row justify-start items-center space-x-4 md:space-x-6 w-full">
-         
-            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-2 md:px-5 py-2 md:py-3 text-sm md:text-[17px]"> Mobile</p></div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
+             <div className="w-full md:w-[20%]"> 
+              <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-sm md:text-[17px] "> Mobile</p>
+            </div>
+            <div className="w-full md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 md:mt-0">
+            <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={FlutterImg} alt="" className="w-6 md:w-10 "/>
             <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
+            <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={KotlinImg} alt="" className="w-10 md:w-16"/>
             <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
+            <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={DartImg} alt="" className="w-6 md:w-10"/>
             <p className="text-white text-xs md:text-sm pt-2">Dart</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
+            <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={SwiftImg} alt="" className="w-6 md:w-10"/>
             <p className="text-white text-xs md:text-sm pt-2">Swift</p>
+            </div>
             </div>
           </div>
 
           {/* for frontend tech stack */}
-          <div className="flex flex-row justify-start items-center space-x-4 md:space-x-6 w-full">
-            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-2 md:px-5 py-2 md:py-3 text-sm md:text-[17px] ">Frontend</p>
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
+            <div className="w-full md:w-[20%]">
+              <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-sm md:text-[17px] ">
+                Frontend</p>
             </div>
+            <div className="w-full md:w-[80%] flex flex-row justify-between md:justify-start items-center space-x-4 md:space-x-6 mt-4 md:mt-0">
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={htmlImg} alt="" className="w-6 md:w-10 "/>
             <p className="text-white text-xs md:text-sm pt-2">HTML</p>
@@ -303,6 +309,7 @@ const BlockchainDevelopment = () => {
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={tailwindImg} alt="" className="w-6 md:w-10"/>
             <p className="text-white text-nowrap text-xs md:text-sm pt-2" >Tailwind CSS</p>
+            </div>
             </div>
           </div>
 

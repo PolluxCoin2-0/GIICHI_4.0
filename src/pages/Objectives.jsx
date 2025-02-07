@@ -85,7 +85,7 @@ const Objectives = () => {
             <img src={b6Img} alt="" className="w-full h-auto" />
             <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-[10x] md:text-2xl font-normal md:font-bold">
+                <p className="text-[8px] md:text-2xl font-normal md:font-bold">
                   CRYPTO SOLUTIONS
                 </p>
               </div>
@@ -146,7 +146,7 @@ const Objectives = () => {
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
-                  CLOUD POWERED SOLUTIONS{" "}
+                  CLOUD SOLUTIONS{" "}
                 </p>
               </div>
               <p className="pt-1 md:pt-4 text-[4px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
