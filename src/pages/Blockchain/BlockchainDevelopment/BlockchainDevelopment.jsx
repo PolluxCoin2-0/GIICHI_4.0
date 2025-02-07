@@ -253,9 +253,9 @@ const BlockchainDevelopment = () => {
           {/* for mobile tech stack */}
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
              <div className="w-full md:w-[20%]"> 
-              <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-sm md:text-[17px] "> Mobile</p>
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center"> Mobile</p>
             </div>
-            <div className="w-full md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 md:mt-0">
+            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[12%]">
             <img src={FlutterImg} alt="" className="w-6 md:w-10 "/>
             <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
@@ -278,67 +278,73 @@ const BlockchainDevelopment = () => {
           {/* for frontend tech stack */}
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
             <div className="w-full md:w-[20%]">
-              <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-sm md:text-[17px] ">
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
                 Frontend</p>
             </div>
-            <div className="w-full md:w-[80%] flex flex-row justify-between md:justify-start items-center space-x-4 md:space-x-6 mt-4 md:mt-0">
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={htmlImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">HTML</p>
+            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={htmlImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">HTML</p>
             </div>
-            <div className=" flex flex-col justify-center items-center w-[10%]">
-            <img src={cssImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">CSS</p>
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={cssImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">CSS</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={jsImg} alt="" className="w-5 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">Javascript</p>
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={jsImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">Javascript</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={tsImg} alt="" className="w-5 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">Typescript</p>
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={tsImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">Typescript</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={reactImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">ReactJS</p>
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={reactImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">ReactJS</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={nextImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">NextJS</p>
+            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={nextImg} alt="" className="w-10 "/>
+            <p className="text-white text-[10px] md:text-sm pt-2">NextJS</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={tailwindImg} alt="" className="w-6 md:w-10"/>
-            <p className="text-white text-nowrap text-xs md:text-sm pt-2" >Tailwind CSS</p>
+            <div className="hidden md:flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+            <img src={tailwindImg} alt="" className="w-10"/>
+            <p className="text-white text-nowrap text-[10px] md:text-sm pt-2" >Tailwind CSS</p>
             </div>
             </div>
           </div>
 
           {/* for backend tech stack */}
-         <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"> <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3"> Backend</p>
+         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
+            <div className="w-full md:w-[20%]"> 
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
+                 Backend</p>
+            </div>
+            <div className="w-[90%] md:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 mt-4 ">
+              <div className="flex flex-col justify-center items-center w-[10%]">
+            <img src={expressImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-nowrap text-xs md:text-sm pt-2">Express.js</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={expressImg} alt="" className="w-10 "/>
-            <p className="text-white text-nowrap text-sm pt-2">Express.js</p>
+            <img src={nodeImg} alt="" className="w-6 md:w-10"/>
+            <p className="text-white text-nowrap text-xs md:text-sm pt-2">NodeJS</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={nodeImg} alt="" className="w-10 "/>
-            <p className="text-white text-nowrap text-sm pt-2">NodeJS</p>
+            <img src={mongoImg} alt="" className="w-6 md:w-10 "/>
+            <p className="text-white text-nowrap text-xs md:text-sm pt-2">MongoDB</p>
             </div>
             <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={mongoImg} alt="" className="w-10 "/>
-            <p className="text-white text-nowrap text-sm pt-2">MongoDB</p>
+            <img src={rustImg} alt="" className="w-6 md:w-10"/>
+            <p className="text-white text-nowrap text-xs md:text-sm pt-2">Rust</p>
             </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={rustImg} alt="" className="w-10"/>
-            <p className="text-white text-nowrap text-sm pt-2">Rust</p>
             </div>
           </div>
 
           {/* for smart contract language tech stack */}
-          <div className=" flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]"><p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3 text-nowrap"> Smart Contract Language</p>
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
+            <div className="w-full md:w-[20%]">
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-nowrap text-center"> Smart Contract Language</p>
             </div>
+            <div className="w-[90%] md:w-[80%] flex flex-row justify-start items-center space-x-16 md:space-x-6 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={solidityImg} alt="" className="w-12 "/>
             <p className="text-white text-sm pt-2">Solidity</p>
@@ -347,18 +353,21 @@ const BlockchainDevelopment = () => {
             <img src={moveImg} alt="" className="w-12 "/>
             <p className="text-white text-sm pt-2">Move</p>
             </div>
+            </div>
           </div>
 
           {/* for CMS tech stack */}
-         <div className="flex flex-row justify-start items-center space-x-6 w-full">
-            <div className="w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-8 px-5 py-3">
+         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 w-full">
+            <div className="w-full md:w-[20%]">
+            <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
               CMS
             </p>
             </div>
+            <div className="w-[90%] md:w-[80%] flex flex-row justify-center md:justify-start items-center md:space-x-6 mt-4 ">
             <div className="flex flex-col justify-center items-center w-[10%]">
             <img src={wordpressImg} alt="" className="w-10 "/>
             <p className="text-white text-sm text-center pt-2">Wordpress</p>
+            </div>
             </div>
           </div>
 
