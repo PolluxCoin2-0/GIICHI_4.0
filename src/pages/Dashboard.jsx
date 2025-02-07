@@ -8,7 +8,6 @@ import blockImg3 from "../assets/blockImg3.png";
 import blockImg4 from "../assets/blockImg4.png";
 import blockImg5 from "../assets/blockImg5.png";
 import blockImg6 from "../assets/blockImg6.png";
-// import Features from "./Features";
 import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";
@@ -29,19 +28,19 @@ const Dashboard = () => {
         </div>
 
         {/* Heading 2 */}
-        <p className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide" >
+        <p className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide">
           Unlock Web3 Success <br />
           by Partnering with{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             GiiCHi
           </span>
         </p>
-     
+
         {/* Heading 3 */}
         <div className="flex flex-row justify-center items-center h-10 md:h-20">
           <img src={star3Img} alt="" className="hidden md:hidden" />
           <p className="text-sm md:text-md lg:text-3xl font-semibold  text-center pt-6">
-         <Typewriter/>
+            <Typewriter />
           </p>
           <img src={star4Img} alt="" className="hidden md:hidden" />
         </div>
@@ -56,12 +55,12 @@ const Dashboard = () => {
             Contact Us
           </button>
           <Link to="/about-us">
-          <button
-            type="button"
-            className="bg-black shadow-inner cursor-pointer shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
-          >
-            About GiiCHi
-          </button>
+            <button
+              type="button"
+              className="bg-black shadow-inner cursor-pointer shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
+            >
+              About GiiCHi
+            </button>
           </Link>
         </div>
       </div>
@@ -111,8 +110,10 @@ const Dashboard = () => {
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-16 ">
-        <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] 
-        before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
+        <div
+          className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] 
+        before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"
+        ></div>
       </div>
 
       {/* BLOCKCHAIN FEATURE PAGE */}

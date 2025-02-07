@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../../assets/blockchainImg.png";
-import bkDev1Img  from "../../../assets/bkDev1.png";
+import bkDev1Img from "../../../assets/bkDev1.png";
 import bkDev2Img from "../../../assets/bkDev2.png";
 import Forecast from "../../../components/Blockchain/Forecast";
 import Services from "../../../components/Blockchain/Services";
@@ -33,7 +33,7 @@ import zkSyncImg from "../../../assets/zksync.png";
 import avlancheImg from "../../../assets/avlanche.png";
 import cosmosDkImg from "../../../assets/cosmosDk.png";
 import polkadotImg from "../../../assets/polkadot.png";
-import arbitrumImg from '../../../assets/arbitrum.png';
+import arbitrumImg from "../../../assets/arbitrum.png";
 import parityImg from "../../../assets/parity.png";
 import opStackImg from "../../../assets/opStack.png";
 
@@ -123,24 +123,28 @@ const BlockchainDevelopment = () => {
             </span>
           </p>
           <p className="pt-6 text-lg font-semibold leading-snug">
-          With expertise in 40+ blockchain protocols, Giichi IT Solutions <br/>is driving the web3 revolution with cutting-edge <br/>blockchain development services.
+            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
+            <br />
+            is driving the web3 revolution with cutting-edge <br />
+            blockchain development services.
           </p>
           {/* Button */}
-         <CalendlyButton/>
-         {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
+          <CalendlyButton />
+          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
-         <div className="md:hidden flex flex-col items-start justify-center pt-6">
+        <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development  Company{" "}
+              Blockchain Development Company{" "}
             </span>
-      
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services.
+            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
+            driving the web3 revolution with cutting-edge blockchain development
+            services.
           </p>
           {/* Button */}
-        <CalendlyButton/>
+          <CalendlyButton />
         </div>
       </div>
 
@@ -162,8 +166,8 @@ const BlockchainDevelopment = () => {
 
       {/* Blockchain Development Services */}
       <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Our Blockchain
           <br />
@@ -172,7 +176,10 @@ const BlockchainDevelopment = () => {
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2">
-        Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape.
+          Giichi IT Solutions offers a comprehensive suite of blockchain
+          development services to help businesses unlock the full potential of
+          blockchain technology and gain a competitive edge in the evolving Web3
+          landscape.
         </p>
         {/* services */}
         <Services />
@@ -180,8 +187,8 @@ const BlockchainDevelopment = () => {
 
       {/* Industries  */}
       <div className="relative text-center mt-8 md:mt-24">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Industries{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -195,8 +202,8 @@ const BlockchainDevelopment = () => {
         </p>
         <p className="block md:hidden text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           As a leading custom blockchain development company, we leverage
-          different blockchain networks  to provide you with the best
-          solutions aligned with your needs.
+          different blockchain networks to provide you with the best solutions
+          aligned with your needs.
         </p>
         {/* various industries  */}
         <div>
@@ -206,8 +213,8 @@ const BlockchainDevelopment = () => {
 
       {/* Blockchain frameworks */}
       <div className="relative mt-12 md:mt-24 ">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="hidden md:block text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Blockchain Frameworks We Utilize <br /> for{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -222,14 +229,21 @@ const BlockchainDevelopment = () => {
         </p>
 
         <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] lg:text-[15px]  xl:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, <br/>
-        leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge<br/>
-         rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
+          At Giichi IT Solutions, our team of expert blockchain developers
+          specializes in Layer 2 and Layer 3 blockchain solutions, <br />
+          leveraging advanced frameworks to enhance scalability, efficiency, and
+          interoperability. We focus on implementing cutting-edge
+          <br />
+          rollup technologies, enabling seamless L2/L3 chain deployment while
+          maintaining high transaction throughput and security.
         </p>
         <p className="block md:hidden text-white text-opacity-70 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, 
-        leveraging advanced frameworks to enhance scalability, efficiency, and interoperability. We focus on implementing cutting-edge
-         rollup technologies, enabling seamless L2/L3 chain deployment while maintaining high transaction throughput and security.
+          At Giichi IT Solutions, our team of expert blockchain developers
+          specializes in Layer 2 and Layer 3 blockchain solutions, leveraging
+          advanced frameworks to enhance scalability, efficiency, and
+          interoperability. We focus on implementing cutting-edge rollup
+          technologies, enabling seamless L2/L3 chain deployment while
+          maintaining high transaction throughput and security.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64">
@@ -251,8 +265,8 @@ const BlockchainDevelopment = () => {
 
       {/* Technology Stack */}
       <div className="relative mt-12 ">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
           Technology{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -268,26 +282,29 @@ const BlockchainDevelopment = () => {
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 flex flex-col items-start w-full space-y-12 mt-12">
           {/* for mobile tech stack */}
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
-             <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]"> 
-              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center"> Mobile</p>
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
+                {" "}
+                Mobile
+              </p>
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
-            <div className="flex flex-col justify-center items-center w-[12%]">
-            <img src={FlutterImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[12%]">
-            <img src={KotlinImg} alt="" className="w-10 md:w-16"/>
-            <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[12%]">
-            <img src={DartImg} alt="" className="w-6 md:w-10"/>
-            <p className="text-white text-xs md:text-sm pt-2">Dart</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[12%]">
-            <img src={SwiftImg} alt="" className="w-6 md:w-10"/>
-            <p className="text-white text-xs md:text-sm pt-2">Swift</p>
-            </div>
+              <div className="flex flex-col justify-center items-center w-[12%]">
+                <img src={FlutterImg} alt="" className="w-6 md:w-10 " />
+                <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[12%]">
+                <img src={KotlinImg} alt="" className="w-10 md:w-16" />
+                <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[12%]">
+                <img src={DartImg} alt="" className="w-6 md:w-10" />
+                <p className="text-white text-xs md:text-sm pt-2">Dart</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[12%]">
+                <img src={SwiftImg} alt="" className="w-6 md:w-10" />
+                <p className="text-white text-xs md:text-sm pt-2">Swift</p>
+              </div>
             </div>
           </div>
 
@@ -295,98 +312,118 @@ const BlockchainDevelopment = () => {
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
             <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
-                Frontend</p>
+                Frontend
+              </p>
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={htmlImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">HTML</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={cssImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">CSS</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={jsImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">Javascript</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={tsImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">Typescript</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={reactImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">ReactJS</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={nextImg} alt="" className="w-10 "/>
-            <p className="text-white text-[10px] md:text-sm pt-2">NextJS</p>
-            </div>
-            <div className="hidden md:flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-            <img src={tailwindImg} alt="" className="w-10"/>
-            <p className="text-white text-nowrap text-[10px] md:text-sm pt-2" >Tailwind CSS</p>
-            </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={htmlImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">HTML</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={cssImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">CSS</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={jsImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">
+                  Javascript
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={tsImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">
+                  Typescript
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={reactImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">
+                  ReactJS
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={nextImg} alt="" className="w-10 " />
+                <p className="text-white text-[10px] md:text-sm pt-2">NextJS</p>
+              </div>
+              <div className="hidden md:flex flex-col justify-center items-center w-[5%] md:w-[10%]">
+                <img src={tailwindImg} alt="" className="w-10" />
+                <p className="text-white text-nowrap text-[10px] md:text-sm pt-2">
+                  Tailwind CSS
+                </p>
+              </div>
             </div>
           </div>
 
           {/* for backend tech stack */}
-         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
-            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]"> 
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
+            <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
               <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
-                 Backend</p>
+                Backend
+              </p>
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={expressImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-nowrap text-xs md:text-sm pt-2">Express.js</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={nodeImg} alt="" className="w-6 md:w-10"/>
-            <p className="text-white text-nowrap text-xs md:text-sm pt-2">NodeJS</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={mongoImg} alt="" className="w-6 md:w-10 "/>
-            <p className="text-white text-nowrap text-xs md:text-sm pt-2">MongoDB</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={rustImg} alt="" className="w-6 md:w-10"/>
-            <p className="text-white text-nowrap text-xs md:text-sm pt-2">Rust</p>
-            </div>
+                <img src={expressImg} alt="" className="w-6 md:w-10 " />
+                <p className="text-white text-nowrap text-xs md:text-sm pt-2">
+                  Express.js
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={nodeImg} alt="" className="w-6 md:w-10" />
+                <p className="text-white text-nowrap text-xs md:text-sm pt-2">
+                  NodeJS
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={mongoImg} alt="" className="w-6 md:w-10 " />
+                <p className="text-white text-nowrap text-xs md:text-sm pt-2">
+                  MongoDB
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={rustImg} alt="" className="w-6 md:w-10" />
+                <p className="text-white text-nowrap text-xs md:text-sm pt-2">
+                  Rust
+                </p>
+              </div>
             </div>
           </div>
 
           {/* for smart contract language tech stack */}
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6  lg:space-x-12 w-full">
             <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
-              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-nowrap text-center"> Smart Contract Language</p>
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-nowrap text-center">
+                {" "}
+                Smart Contract Language
+              </p>
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-start items-center space-x-16 md:space-x-6 lg:space-x-12 mt-4 ">
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={solidityImg} alt="" className="w-12 "/>
-            <p className="text-white text-sm pt-2">Solidity</p>
-            </div>
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={moveImg} alt="" className="w-12 "/>
-            <p className="text-white text-sm pt-2">Move</p>
-            </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={solidityImg} alt="" className="w-12 " />
+                <p className="text-white text-sm pt-2">Solidity</p>
+              </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={moveImg} alt="" className="w-12 " />
+                <p className="text-white text-sm pt-2">Move</p>
+              </div>
             </div>
           </div>
 
           {/* for CMS tech stack */}
-         <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6  lg:space-x-12 w-full">
+          <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6  lg:space-x-12 w-full">
             <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
-            <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
-              CMS
-            </p>
+              <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] text-center">
+                CMS
+              </p>
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-center md:justify-start items-center md:space-x-6 mt-4 ">
-            <div className="flex flex-col justify-center items-center w-[10%]">
-            <img src={wordpressImg} alt="" className="w-10 "/>
-            <p className="text-white text-sm text-center pt-2">Wordpress</p>
-            </div>
+              <div className="flex flex-col justify-center items-center w-[10%]">
+                <img src={wordpressImg} alt="" className="w-10 " />
+                <p className="text-white text-sm text-center pt-2">Wordpress</p>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
 

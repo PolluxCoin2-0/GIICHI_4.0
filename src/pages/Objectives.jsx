@@ -89,7 +89,7 @@ const Objectives = () => {
                   CRYPTO SOLUTIONS
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[4px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Leverage our cutting-edge crypto solutions to launch, scale, and
                 optimize your project. At Giichi IT Solutions, we harness
                 blockchain innovation to build transformative solutions that

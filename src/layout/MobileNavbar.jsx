@@ -86,9 +86,11 @@ const MobileNavbar = () => {
                       Blockchain Development
                     </p>
                     </Link>
+                    <Link to="/blockchain-identity">
                     <p className="text-white text-xs pt-2">
                       Blockchain In identity Management
                     </p>
+                    </Link>
                     <p className=" text-white text-xs pt-2">
                       Depin Development{" "}
                     </p>

@@ -7,7 +7,6 @@ import Services from "../../../components/Blockchain/Services";
 import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
 import Review from "../../../components/Review";
 import Faq from "../../../components/Faq";
-// import Insights from "../../../components/Blockchain/Insights";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 
 const BlockchainIdentity = () => {
@@ -37,25 +36,24 @@ const BlockchainIdentity = () => {
             blockchain with a single, tamper-proof ecosystem.
           </p>
 
-            {/* Button */}
-         <CalendlyButton/>
+          {/* Button */}
+          <CalendlyButton />
         </div>
 
-        
         {/* for mobile */}
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
               Blockchain In Identity Management{" "}
             </span>
-           </p>
-          <p  className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
+          </p>
+          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
             Enable more secure storage and management of digital identities in{" "}
             <br />
             blockchain with a single, tamper-proof ecosystem.
           </p>
-           {/* Button */}
-           <CalendlyButton/>
+          {/* Button */}
+          <CalendlyButton />
         </div>
       </div>
 
