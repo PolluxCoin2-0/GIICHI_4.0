@@ -7,7 +7,7 @@ import Services from "../../../components/Blockchain/Services";
 import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
 import Review from "../../../components/Review";
 import Faq from "../../../components/Faq";
-import Insights from "../../../components/Blockchain/Insights";
+// import Insights from "../../../components/Blockchain/Insights";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 
 const BlockchainIdentity = () => {
@@ -119,9 +119,9 @@ const BlockchainIdentity = () => {
       </div>
 
       {/* Spotlight Insights */}
-      <div>
+      {/* <div>
         <Insights />
-      </div>
+      </div> */}
     </div>
   );
 };
