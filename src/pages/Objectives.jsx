@@ -54,7 +54,7 @@ const Objectives = () => {
                   BLOCKCHAIN
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Giichi IT Solutions delivers cutting-edge blockchain solutions,
                 empowering enterprises to innovate, scale, and operate smarter
                 than ever before.
