@@ -34,7 +34,7 @@ const MobileNavbar = () => {
   const [isAboutMenuOpen, setIsAboutMenuOpen] = useState(false);
 
   return (
-    <div className="block md:hidden w-full ">
+    <div className="block lg:hidden w-full ">
       {/* Toggle Button */}
       <div className="flex flex-row justify-between ">
         {/* Logo */}
