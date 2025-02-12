@@ -47,13 +47,14 @@ const Dashboard = () => {
 
         {/* Buttons */}
         <div className="flex flex-row items-center justify-center space-x-4 lg:space-x-8 pt-8">
+          <Link to="/contact-us">
           <button
             type="button"
             className="bg-green-gradient cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
-            onClick={() => window.open("https://wa.me/9266416198", "_blank")}
           >
             Contact Us
           </button>
+          </Link>
           <Link to="/about-us">
             <button
               type="button"
