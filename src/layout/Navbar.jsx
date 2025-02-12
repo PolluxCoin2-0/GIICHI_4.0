@@ -209,10 +209,9 @@ const handleMenuLeave = () => {
           </Link>
         </div>
 
-        <Link to="">
+        <Link to="/contact-us">
           <div 
             className="hidden lg:block cursor-pointer"
-            onClick={() => window.open("https://wa.me/9266416198", "_blank")}
           >
             <button className="bg-green-gradient px-4 xl:px-5 py-2 xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300">
               Get In Touch
@@ -227,7 +226,7 @@ const handleMenuLeave = () => {
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full max-w-[calc(100%-12rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
+          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-12rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-2xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (
@@ -244,7 +243,7 @@ const handleMenuLeave = () => {
 
               {activeSubmenu && (
                 <div className="w-[70%] relative">
-                  <div className="absolute  w-full mt-2 text-white">
+                  <div className="absolute w-full mt-2 text-white">
                   <div className="grid grid-cols-2 gap-4 w-full">
                     {menuItems[activeMenu].submenus
                       .find(submenu => submenu.label === activeSubmenu)
