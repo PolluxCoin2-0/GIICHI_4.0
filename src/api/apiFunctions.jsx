@@ -1,6 +1,6 @@
 import axios from "axios";
 import API_ENDPOINTS from "./apiEndPoints";
-const BASE_URL = import.meta.env.VITE_BASE_URL;
+// const BASE_URL = import.meta.env.VITE_BASE_URL;
 /**
  * Generic POST request handler
  * @param {string} endpoint - The API endpoint to call (without base URL).
@@ -9,7 +9,7 @@ const BASE_URL = import.meta.env.VITE_BASE_URL;
  */
 const postRequest = async (endpoint, data) => {
   try {
-    const response = await axios.post(`${BASE_URL}${endpoint}`, data);
+    const response = await axios.post(`https://contact-backend-giichi.onrender.com/api/contact${endpoint}`, data);
     return response.data;
   } catch (error) {
     console.error(
