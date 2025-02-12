@@ -6,6 +6,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { createContactApi } from "../../api/apiFunctions";
 import { toast } from "react-toastify";
+import Loader from "./Loader";
 
 const ContactForm = () => {
   const [isloading, setIsLoading] = useState("");
@@ -84,6 +85,8 @@ const ContactForm = () => {
       console.log(formData);
     } catch (error) {
       console.log("error", error);
+    } finally{
+      setIsLoading(false);
     }
     console.log({ formData });
   };
@@ -199,7 +202,7 @@ const ContactForm = () => {
               onClick={handleSubmit}
               className="text-black bg-yellow-gradient w-full py-2 rounded-md font-semibold"
             >
-              Submit
+            {isloading ? <Loader/> : "Submit"}
             </button>
           </div>
         </div>
