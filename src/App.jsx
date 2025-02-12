@@ -7,11 +7,20 @@ import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/Blockchain
 import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
+import { ToastContainer } from "react-toastify";
 function App() {
 
   return (
      <Router>
       <Navbar/>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        theme="dark"
+        newestOnTop={true}
+        pauseOnFocusLoss
+        toastClassName="custom-toast"
+      />
         <Routes>
            <Route path="/" element={<Dashboard/>}/>
            <Route path="/dashboard" element={<Dashboard/>}/>

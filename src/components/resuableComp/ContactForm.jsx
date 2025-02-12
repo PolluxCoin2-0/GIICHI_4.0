@@ -4,12 +4,16 @@ import { useState } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import { createContactApi } from "../../api/apiFunctions";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
+  const [isloading, setIsLoading] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     email: "",
+    countryCode: "",
     mobile: "",
     subject: "",
     message: "",
@@ -25,7 +29,15 @@ const ContactForm = () => {
     });
   };
 
- const validate = () => {
+  const handlePhoneChange = (value, country) => {
+    setFormData({
+      ...formData,
+      mobile: value,
+      countryCode: country.dialCode, // Store country code separately
+    });
+  };
+
+  const validate = () => {
     let newErrors = {};
     if (!formData.firstName.trim())
       newErrors.firstName = "First name is required";
@@ -36,24 +48,47 @@ const ContactForm = () => {
       newErrors.email = "Invalid email format";
     }
 
-    if (!formData.mobile.trim()) newErrors.mobile = "Mobile number is required";
-    else if (!/^(\+\d{1,3}[- ]?)?\d{10}$/.test(formData.mobile)) {
-      newErrors.mobile = "Invalid mobile number format"; // Mobile number validation (basic format check)
-    }
-
     if (!formData.subject.trim()) newErrors.subject = "Subject is required";
     if (!formData.message.trim()) newErrors.message = "Message is required";
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = () => {
-    if (validate()) {
-      alert("Form submitted successfully!");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const validateData = validate();
+    console.log(validateData);
+    if (!validateData) {
+      toast.warning("Fill all the required field!");
+      return;
     }
+    if (isloading) {
+      toast.warning("Loading....");
+    }
+    try {
+      setIsLoading(true);
+      const response = await createContactApi(
+        formData.firstName,
+        formData.lastName,
+        formData.email,
+        formData.countryCode,
+        formData.mobile,
+        formData.subject,
+        formData.message
+      );
+      console.log({ response });
+      setFormData(response);
+      if (response?.M === "Contact created successfully") {
+        toast.success("Submitted Successfully");
+      }
+      console.log(formData);
+    } catch (error) {
+      console.log("error", error);
+    }
+    console.log({ formData });
   };
 
- return (
+  return (
     <div className="flex flex-col justify-center items-center mt-8 md:mt-20 bg-greish-gradient h-full pb-24 px-4 md:px-0">
       <div className="border-2 border-white border-opacity-15 rounded-3xl px-4 md:px-6 lg:px-12 py-6 md:py-10 w-full md:w-[80%] lg:w-[70%] xl:w-[40%] pb-20 bg-gray-gradient ">
         <p className="text-white text-xl md:text-3xl font-bold text-center">
@@ -116,11 +151,8 @@ const ContactForm = () => {
               <PhoneInput
                 country={"in"} // Default to India
                 value={formData.mobile}
-                onChange={(value) =>
-                  setFormData({ ...formData, mobile: value })
-                }
-                className="w-full p-0 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white 
-              placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
+                onChange={(value, country) => handlePhoneChange(value, country)}
+                className="w-full p-0 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
                 buttonClass="!w-[12%] !text-black"
                 placeholder="Enter phone number"
                 preferredCountries={["in"]} // Make India appear first in the list
@@ -131,18 +163,20 @@ const ContactForm = () => {
               )}
             </div>
           </div>
-          
+
           <div className="flex flex-col w-full mt-4">
-          <input
-            type="text"
-            name="subject"
-            value={formData.subject}
-            onChange={handleChange}
-            placeholder="Subject"
-            className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
-          />
-          {errors.subject && <p className="text-red-400 text-sm">{errors.subject}</p>}
-        </div> 
+            <input
+              type="text"
+              name="subject"
+              value={formData.subject}
+              onChange={handleChange}
+              placeholder="Subject"
+              className="w-full p-1 md:p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
+            />
+            {errors.subject && (
+              <p className="text-red-400 text-sm">{errors.subject}</p>
+            )}
+          </div>
           {/* message */}
           <div className="mt-4">
             <textarea
@@ -153,7 +187,9 @@ const ContactForm = () => {
               className="w-full p-2 border-[1px] border-white border-opacity-15 rounded-md bg-white bg-opacity-10 text-white
               placeholder:text-white placeholder:text-opacity-60 placeholder:text-sm"
             />
-            {errors.message && <p className="text-red-400 text-sm">{errors.message}</p>}
+            {errors.message && (
+              <p className="text-red-400 text-sm">{errors.message}</p>
+            )}
           </div>
 
           {/* submit button */}
