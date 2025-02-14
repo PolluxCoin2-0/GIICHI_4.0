@@ -242,7 +242,7 @@ const handleMenuLeave = () => {
               </div>
 
               {activeSubmenu && (
-                <div className="w-[70%] relative">
+                <div className="w-[70%] relative ml-6">
                   <div className="absolute w-full mt-2 text-white">
                   <div className="grid grid-cols-2 gap-4 w-full">
                     {menuItems[activeMenu].submenus
