@@ -14,6 +14,8 @@ import Review from "../components/Review";
 import LetsTalk from "../components/LetsTalk";
 import Typewriter from "../components/Typewriter";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 const Dashboard = () => {
   return (
     <div className="pt-6 md:pt-20 ">
@@ -28,12 +30,29 @@ const Dashboard = () => {
         </div>
 
         {/* Heading 2 */}
-        <p className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide">
+        <p className="text-center">
+          <motion.p
+             className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
+              initial={{ opacity: 0, y: -50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: false }}
+            >
           Unlock Web3 Success <br />
-          by Partnering with{" "}
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          </motion.p>
+          <motion.p
+               className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: false }}
+            >
+              by Partnering with{" "}
+              <span className="text-transparent bg-clip-text bg-green-gradient">
             GiiCHi
           </span>
+            </motion.p>
+          
         </p>
 
         {/* Heading 3 */}

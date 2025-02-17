@@ -25,9 +25,9 @@ const Navbar = () => {
           items: [
             { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
             { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
-            { label: "Entertainment", link: "/blockchain-identity" },
-            { label: "Real-Estate", link: "/blockchain-identity" },
-            { label: "Education", link: "/blockchain-identity" },
+            { label: "Entertainment", link: "/blockchain-in-entertainment" },
+            { label: "Real-Estate", link: "/blockchain-in-real-estate" },
+            { label: "Education", link: "/blockchain-in-education" },
             { label: "Finance", link: "/blockchain-development" },
             { label: "Healthcare", link: "/blockchain-defi" },
             { label: "Procure-to-Pay", link: "/blockchain-identity" },
@@ -108,7 +108,7 @@ const Navbar = () => {
         {
           label: "Marketing As a Service",
           items: [
-            { label: "Marketing As A Service (MaaS)", link: "/" }
+            { label: "Marketing As A Service (MaaS)", link: "/blockchain-in-Marketing" }
           ]
         }
       ]

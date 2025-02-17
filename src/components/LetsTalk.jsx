@@ -6,6 +6,7 @@ import star5Img from "../assets/star5.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
+  
   return (
     <div className="pt-0 lg:pt-6 pb-12">
       {/* circle element */}
