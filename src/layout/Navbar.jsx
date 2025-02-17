@@ -24,7 +24,7 @@ const Navbar = () => {
           label: "Enterprise Blockchain",
           items: [
             { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
-            { label: "Transport & Logistics", link: "/blockchain-defi" },
+            { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
             { label: "Entertainment", link: "/blockchain-identity" },
             { label: "Real-Estate", link: "/blockchain-identity" },
             { label: "Education", link: "/blockchain-identity" },

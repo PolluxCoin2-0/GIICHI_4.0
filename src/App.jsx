@@ -6,6 +6,7 @@ import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/Bloc
 import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
 import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
 import SupplyChain from "./pages/Enterprise/SupplyChain";
+import TransportAndLogistics from "./pages/Enterprise/TransportAndLogistics";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -29,6 +30,7 @@ function App() {
            <Route path="/blockchain-identity" element={<BlockchainIdentity/>}/>
            <Route path="/blockchain-depin" element={<BlockchainDepin/>}/>
            <Route path="/blockchain-in-supply-chain" element={<SupplyChain/>}/>
+           <Route path="/blockchain-in-transport-and-logistics" element={<TransportAndLogistics/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
