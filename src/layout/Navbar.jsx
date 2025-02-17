@@ -202,9 +202,9 @@ const handleMenuLeave = () => {
               </button>
             </div>
           ))}
-          <Link to="/about-us">
+          <Link to="https://blog.giichi.network/" target="_blank">
             <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300">
-              About Us
+              Blogs
             </button>
           </Link>
         </div>
@@ -242,7 +242,7 @@ const handleMenuLeave = () => {
               </div>
 
               {activeSubmenu && (
-                <div className="w-[70%] relative">
+                <div className="w-[70%] relative ml-6">
                   <div className="absolute w-full mt-2 text-white">
                   <div className="grid grid-cols-2 gap-4 w-full">
                     {menuItems[activeMenu].submenus
