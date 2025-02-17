@@ -202,9 +202,9 @@ const handleMenuLeave = () => {
               </button>
             </div>
           ))}
-          <Link to="/about-us">
+          <Link to="https://blog.giichi.network/" target="_blank">
             <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300">
-              About Us
+              Blogs
             </button>
           </Link>
         </div>
