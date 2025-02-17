@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
   return (
-    <div className="pt-0 md:pt-6 pb-12">
+    <div className="pt-0 lg:pt-6 pb-12">
       {/* circle element */}
       <div className="relative inline-block ">
         <img
