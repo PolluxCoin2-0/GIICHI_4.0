@@ -23,7 +23,7 @@ const Navbar = () => {
         {
           label: "Enterprise Blockchain",
           items: [
-            { label: "Supply Chain", link: "/" },
+            { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
             { label: "Transport & Logistics", link: "/" },
             { label: "Entertainment", link: "/" },
             { label: "Real-Estate", link: "/" },
