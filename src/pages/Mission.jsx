@@ -89,8 +89,8 @@ const Mission = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,  // Enable autoplay
-    autoplaySpeed: 2000,  // Set the autoplay speed (in milliseconds)
+    autoplay: true,
+    autoplaySpeed: 2000,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     responsive: [
@@ -119,8 +119,12 @@ const Mission = () => {
       setIsExpanded(!isExpanded);
     };
     return (
-      <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
-        <img src={logo} alt={title} className="w-20 h-20 md:w-20  object-contain" />
+      <div className="w-full border-[1px] border-white border-opacity-10 rounded-3xl p-4 lg:p-6">
+        <img
+          src={logo}
+          alt={title}
+          className="w-20 h-20 md:w-20  object-contain"
+        />
         <Link
           to={link}
           target="_blank"
@@ -133,7 +137,7 @@ const Mission = () => {
         <p
           className="text-white text-opacity-70 pt-2"
           style={{
-            maxHeight: isExpanded ? "none" : "3.6em", // Adjust height for 2 lines (line-height × 2)
+            maxHeight: isExpanded ? "none" : "3.6em",
             overflow: "hidden",
           }}
         >
@@ -162,7 +166,8 @@ const Mission = () => {
       <div className="hidden md:block spotlight1 spotlight-right1"></div>
       {/* Heading 1 */}
       <p className="hidden md:block text-white text-xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
-        Ensuring long-term success and high performance for<br />
+        Ensuring long-term success and high performance for
+        <br />
         <span className="text-transparent bg-clip-text bg-green-gradient">
           critical mission objectives
         </span>
@@ -177,7 +182,7 @@ const Mission = () => {
       {/* Heading 2 */}
       <div className="flex flex-row justify-center items-center">
         <p className="text-sm md:text-lg font-semibold text-white text-opacity-70 text-center pt-6 ">
-          Fast-track Your Web3 Journey With GiiCHi CoPilot <br />
+          Fast-track Your Web3 Journey With GiiCHi <br />
         </p>
       </div>
 
@@ -209,7 +214,6 @@ const Mission = () => {
           - Our Clients-
         </p>
       </div>
-
       {/* Blocks : Our Clients */}
       <ClientsSlider />
     </div>

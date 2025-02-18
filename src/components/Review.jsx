@@ -77,8 +77,8 @@ const sliderSettings = {
   speed: 500,
   slidesToShow: 3,
   slidesToScroll: 1,
-  autoplay: true,  // Enable autoplay
-  autoplaySpeed: 2000,  // Set the autoplay speed (in milliseconds)
+  autoplay: true, 
+  autoplaySpeed: 2000,  
   prevArrow: <CustomPrevArrow />,
   nextArrow: <CustomNextArrow />,
   responsive: [
@@ -120,21 +120,11 @@ const ReviewCard = ({review, name}) => {
   )
 }
 
-
-
 const Review = () => {
   return (
     <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-0">
       <div className="hidden md:block spotlight1 spotlight-right1"></div>
-      {/* Heading 1 */}
-      <div className="flex flex-row justify-start md:justify-between items-center pr-0 md:pr-48">
-        {/* <p className="bg-darkGray text-white px-8 lg:px-20 py-3 rounded-full text-[17px] font-medium">
-          -Clients Review-
-        </p> */}
-        {/* <img src={circle1Img} alt="" className="w-28 hidden md:hidden" /> */}
-      </div>
-
-      {/* Heading 2 */}
+    {/* Heading 1*/}
       <div className="flex flex-row justify-between items-center">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           What{" "}
@@ -143,24 +133,8 @@ const Review = () => {
           </span>
           Say
         </p>
-        {/* <img src={star1Img} alt="" className="w-16 hidden md:hidden" /> */}
       </div>
-
-      {/* Heading 3*/}
-      <div className="flex flex-row justify-between pr-0 md:pr-40">
-        {/* <p className="text-md md:text-xs lg:text-lg font-semibold text-white text-opacity-50 pt-4 md:pt-6">
-          Accelerate your Web3 journey with GiiCHi CoPilot, a tailored
-          partnership <br />
-          program designed to turn your vision into reality.
-        </p> */}
-        {/* <img
-          src={star2Img}
-          alt=""
-          className="object-contain pb-10 hidden md:hidden"
-        /> */}
-      </div>
-
-      {/* Blocks */}
+     {/* Blocks */}
       <Slider {...sliderSettings} className="mt-8 w-full">
         {ReviewData.map((data, index) => (
           <div key={index} className="px-2">
@@ -174,5 +148,4 @@ const Review = () => {
     </div>
   );
 };
-
 export default Review;

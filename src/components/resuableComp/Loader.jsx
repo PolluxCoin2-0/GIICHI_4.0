@@ -1,4 +1,3 @@
-
 const Loader = () => {
   return (
     <div className="flex flex-row justify-center  gap-2 py-2">
@@ -8,5 +7,4 @@ const Loader = () => {
     </div>
   );
 };
-
 export default Loader;

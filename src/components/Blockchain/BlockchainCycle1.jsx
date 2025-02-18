@@ -166,9 +166,7 @@ const BlockchainCycle1 = ({ title }) => {
             </div>
           </div>
         </Slider>
-
-        
-      </div>
+        </div>
     </div>
   );
 };

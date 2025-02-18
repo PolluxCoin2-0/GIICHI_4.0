@@ -7,6 +7,7 @@ import CalendlyButton from "../../../components/resuableComp/Calendly";
 import IdentityServices from "../../../components/Blockchain/IdentityServices";
 import BlockchainCycle1 from "../../../components/Blockchain/BlockchainCycle1";
 import Faq1 from "../../../components/Faq1";
+import WhatsAppImg from "../../../assets/whatsapp.png";
 
 const BlockchainIdentity = () => {
   return (
@@ -70,7 +71,8 @@ const BlockchainIdentity = () => {
           title1="Harnessing Blockchain for Secure Digital Identity Solutions with Giichi"
           title2="Centralized vs. Decentralized: Transforming Digital Identity Management with Giichi"
           desc1="At Giichi, we leverage the power of blockchain to streamline digital identification processes, ensuring unparalleled security, privacy, and trust. Our solutions empower businesses to securely store, verify, and manage credentials such as vaccination records, academic certifications, professional licenses, and, eliminating fraud risks and unauthorized access."
-          desc2="Traditional identity management systems rely on centralized authorities to store and verify user identities. However, these systems come with inherent risks, data breaches, identity theft, and lack of user control. Centralized identity models create single points of failure, making personal and enterprise data vulnerable to cyber threats."        />
+          desc2="Traditional identity management systems rely on centralized authorities to store and verify user identities. However, these systems come with inherent risks, data breaches, identity theft, and lack of user control. Centralized identity models create single points of failure, making personal and enterprise data vulnerable to cyber threats."
+        />
       </div>
 
       {/* connect section */}
@@ -106,6 +108,16 @@ const BlockchainIdentity = () => {
       <div>
         <Faq1 />
       </div>
+
+      {/* whatsapp image */}
+      <a
+        href="https://wa.me/9266416198"
+        id="whatsapp-icon"
+        target="_blank"
+        title="Chat with us on WhatsApp"
+      >
+        <img src={WhatsAppImg} alt="WhatsApp" className="" />
+      </a>
     </div>
   );
 };

@@ -1,7 +1,5 @@
-
 import { motion } from "framer-motion";
 
-// Gradient animation definitions
 const grad1 = {
   initial: {
     x1: "0%",
@@ -75,24 +73,12 @@ const grad5 = {
     y1: ["0%", "0%", "180%"],
     y2: ["20%", "20%", "200%"],
   },
-
- 
-
-  
 };
-
-
 
 export const PulseBeam = () => {
   return (
     <div className="flex h-[40rem] relative items-center justify-center antialiased bg-transparent overflow-hidden">
-      
-      {/* Button with Link */}
-      <a
-        href=""
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="" target="_blank" rel="noopener noreferrer">
         <button className="bg-green-500 md:w-[320px]  md:h-[120px] z-40 no-underline group cursor-pointer relative shadow-2xl shadow-green-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block">
           <span className="absolute inset-0 overflow-hidden rounded-full">
             <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -104,8 +90,6 @@ export const PulseBeam = () => {
           </div>
         </button>
       </a>
-
-      {/* Core SVGs component with animated gradients */}
       <div className="absolute inset-0 flex items-center justify-center">
         <SVGs />
       </div>
@@ -113,7 +97,6 @@ export const PulseBeam = () => {
   );
 };
 
-// SVGs with animated gradient strokes and text labels
 export const SVGs = () => {
   return (
     <svg
@@ -124,7 +107,6 @@ export const SVGs = () => {
       xmlns="http://www.w3.org/2000/svg"
       className="flex flex-shrink-0"
     >
-      {/* Paths with animated gradients */}
       <path
         d="M289 220.5H36.5C30.9772 220.5 26.5 224.977 26.5 230.5V330"
         stroke="url(#grad1)"
@@ -150,7 +132,6 @@ export const SVGs = () => {
         stroke="url(#grad5)"
       />
 
-      {/* Text labels at the ends of the connecting lines */}
       <text x="0" y="350" className="text-xl font-medium fill-[#ffffff]">
         Secure
       </text>
@@ -199,9 +180,6 @@ export const SVGs = () => {
         >
           <GradientColors />
         </motion.linearGradient>
-
-        
-
         <motion.linearGradient
           variants={grad1}
           animate="animate"
@@ -218,7 +196,6 @@ export const SVGs = () => {
         >
           <GradientColors />
         </motion.linearGradient>
-
         <motion.linearGradient
           variants={grad2}
           animate="animate"
@@ -274,7 +251,7 @@ export const SVGs = () => {
 
 // Static gradient colors for SVG
 export const GradientColors = () => (
- <>
+  <>
     <stop stopColor="#8AF969" stopOpacity="1"></stop>
     <stop stopColor="#fffff"></stop>
     <stop offset="0.325" stopColor="#ffff"></stop>

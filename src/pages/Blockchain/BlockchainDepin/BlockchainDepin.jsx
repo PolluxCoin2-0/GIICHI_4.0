@@ -21,7 +21,7 @@ import healthImg from "../../../assets/health.png";
 import LetsTalk from "../../../components/LetsTalk";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import DepinServices from "../../../components/Blockchain/DepinServices";
-
+import whatsAppImg from "../../../assets/whatsapp.png";
 
 const FrameworksData = [
   {
@@ -167,9 +167,12 @@ const BlockchainDepin = () => {
             </span>
           </p>
           <p className="pt-6 text-lg font-semibold leading-snug">
-          Building a decentralized infrastructure network is no longer a challenge. <br/>
-          Giichi enables businesses to transform their physical infrastructure into <br/>
-          decentralized networks that enhance efficiency, security, and transparency.
+            Building a decentralized infrastructure network is no longer a
+            challenge. <br />
+            Giichi enables businesses to transform their physical infrastructure
+            into <br />
+            decentralized networks that enhance efficiency, security, and
+            transparency.
           </p>
 
           {/* Button */}
@@ -185,9 +188,10 @@ const BlockchainDepin = () => {
             <br />
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Building a decentralized infrastructure network is no longer a challenge. 
-          Giichi enables businesses to transform their physical infrastructure into 
-          decentralized networks that enhance efficiency, security, and transparency.
+            Building a decentralized infrastructure network is no longer a
+            challenge. Giichi enables businesses to transform their physical
+            infrastructure into decentralized networks that enhance efficiency,
+            security, and transparency.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -221,8 +225,9 @@ const BlockchainDepin = () => {
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center">
-        As a leading DePIN development company, Giichi offers a comprehensive range of services to help businesses harness the power of <br/>
-        decentralized infrastructure and optimize operational efficiency.
+          As a leading DePIN development company, Giichi offers a comprehensive
+          range of services to help businesses harness the power of <br />
+          decentralized infrastructure and optimize operational efficiency.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -245,16 +250,18 @@ const BlockchainDepin = () => {
       {/* Blockchain frameworks */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        DePIN Use Cases: Transforming Industries with 
+          DePIN Use Cases: Transforming Industries with
           <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          Decentralized Infrastructure
+            Decentralized Infrastructure
           </span>
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        Giichi delivers cutting-edge DePIN solutions tailored to various industries, helping businesses <br/>
-        enhance efficiency, security, and transparency through decentralized networks.
+          Giichi delivers cutting-edge DePIN solutions tailored to various
+          industries, helping businesses <br />
+          enhance efficiency, security, and transparency through decentralized
+          networks.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -272,15 +279,17 @@ const BlockchainDepin = () => {
       {/* Services */}
       <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
-        Key Components Powering 
+          Key Components Powering
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          DePIN’s Ecosystem
+            DePIN’s Ecosystem
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
-        For businesses looking to unlock the full potential of decentralized infrastructure, understanding <br/>
-        the fundamental components of DePIN (Decentralized Physical Infrastructure Networks) is crucial.
+          For businesses looking to unlock the full potential of decentralized
+          infrastructure, understanding <br />
+          the fundamental components of DePIN (Decentralized Physical
+          Infrastructure Networks) is crucial.
         </p>
         <DepinServices />
       </div>
@@ -291,11 +300,17 @@ const BlockchainDepin = () => {
       </div>
 
       {/* FAQ Section */}
-      <div>
-        {/* <Faq /> */}
-      </div>
+      <div>{/* <Faq /> */}</div>
 
-     
+      {/* whatsapp image */}
+      <a
+        href="https://wa.me/9266416198"
+        id="whatsapp-icon"
+        target="_blank"
+        title="Chat with us on WhatsApp"
+      >
+        <img src={whatsAppImg} alt="WhatsApp" className="" />
+      </a>
     </div>
   );
 };

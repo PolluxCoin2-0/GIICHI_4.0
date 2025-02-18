@@ -5,10 +5,10 @@ import {
 import { useState } from "react";
 
 const Faq1 = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track the currently open FAQ index
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFaq = (index) => {
-    setActiveIndex(prevIndex => (prevIndex === index ? null : index)); // Toggle the FAQ, close if the same is clicked
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
   const faqData = [
@@ -28,12 +28,14 @@ const Faq1 = () => {
         "Blockchain identity management works by issuing verifiable credentials stored on the blockchain. Users can present these credentials for authentication without exposing their private data, ensuring privacy and security.",
     },
     {
-      question: "What industries can benefit from blockchain identity management?",
+      question:
+        "What industries can benefit from blockchain identity management?",
       answer:
         "Blockchain identity solutions are beneficial for banking, healthcare, education, government, supply chain, travel, and e-commerce by enabling secure authentication, compliance, and fraud prevention.",
     },
     {
-      question: "  How does blockchain identity help with KYC and AML compliance?",
+      question:
+        "  How does blockchain identity help with KYC and AML compliance?",
       answer:
         "Blockchain identity management simplifies KYC (Know Your Customer) and AML (Anti-Money Laundering) processes by allowing businesses to verify customer identities instantly while maintaining data integrity and reducing costs.",
     },
@@ -47,15 +49,14 @@ const Faq1 = () => {
       answer:
         "A decentralized identity wallet allows users to store and manage their digital identity credentials securely on their devices. It enables them to share only necessary information without exposing full identity details.",
     },
-    
   ];
 
   return (
     <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
       <div className="text-center">
         <p className="text-2xl md:text-3xl font-bold  mb-8">
-        <span className="text-transparent bg-clip-text bg-green-gradient">
-          Frequently Asked Questions
+          <span className="text-transparent bg-clip-text bg-green-gradient">
+            Frequently Asked Questions
           </span>
         </p>
 
@@ -67,15 +68,15 @@ const Faq1 = () => {
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"
-                onClick={() => toggleFaq(index)} // Toggle FAQ on click
+                onClick={() => toggleFaq(index)}
               >
                 <p className="syne-font text-sm md:text-[17px] text-start text-white">
                   {faq.question}
                 </p>
                 {activeIndex === index ? (
-                  <MdOutlineArrowCircleUp size={24} color="#ffffff"/>
+                  <MdOutlineArrowCircleUp size={24} color="#ffffff" />
                 ) : (
-                  <MdOutlineArrowCircleDown size={24} color="#ffffff"/>
+                  <MdOutlineArrowCircleDown size={24} color="#ffffff" />
                 )}
               </div>
               <div
@@ -94,5 +95,4 @@ const Faq1 = () => {
     </div>
   );
 };
-
 export default Faq1;

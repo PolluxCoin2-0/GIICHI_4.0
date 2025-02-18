@@ -23,8 +23,8 @@ const ClientsSlider = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "20px",
-    easing: "ease-in-out", // Makes transition smooth
-    arrows: false, // Disable arrows
+    easing: "ease-in-out", 
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -32,7 +32,7 @@ const ClientsSlider = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           centerMode: false,
-          arrows: false, // Disable arrows
+          arrows: false, 
         },
       },
       {
@@ -41,7 +41,7 @@ const ClientsSlider = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
-          arrows: false, // Disable arrows
+          arrows: false, 
         },
       },
     ],
@@ -50,17 +50,16 @@ const ClientsSlider = () => {
   // Customize slider settings for each row
   const sliderFirstAndThirdRowSettings = {
     ...sliderSettings,
-    slidesToShow: 3, // Show 3 slides in first and third row
-    rtl: true, // Right to Left movement for first and third row
+    slidesToShow: 3, 
+    rtl: true, 
     autoplaySpeed: 3000,
     
   };
-
-  const sliderSecondRowSettings = {
+const sliderSecondRowSettings = {
     ...sliderSettings,
-    slidesToShow: 5, // Show 5 slides in second row
-    rtl: false, // Right to Left movement for first and third row
-    autoplaySpeed: 2000,
+    slidesToShow: 5, 
+    rtl: false, 
+    autoplaySpeed: 3000,
   };
 
   return (

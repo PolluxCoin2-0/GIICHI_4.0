@@ -13,6 +13,7 @@ import Typewriter from "../components/Typewriter";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import whatsAppImg from "../assets/whatsapp.png";
+import calendlyImg from "../assets/calendar.png";
 
 const Dashboard = () => {
   return (
@@ -140,9 +141,20 @@ const Dashboard = () => {
       </div>
 
       {/* whatsapp image */}
-<a href="https://wa.me/9266416198" id="whatsapp-icon" target="_blank" title="Chat with us on WhatsApp">
+      <div>
+     <a href="https://wa.me/9266416198" id="whatsapp-icon" target="_blank" title="Chat with us on WhatsApp">
     <img src={whatsAppImg} alt="WhatsApp" className="" />
-</a>
+    </a>
+    </div>
+
+    {/* Calender Image */}
+    <div>
+      <a href="" id="calender-icon" target="_blank" title="Schedule Meeting">
+      <img src={calendlyImg} alt="calender" className="" />
+      </a>
+    </div>
+
+
 
     </div>
   );
