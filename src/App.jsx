@@ -5,6 +5,16 @@ import Footer from "./layout/Footer";
 import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/BlockchainDevelopment";
 import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
 import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
+import SupplyChain from "./pages/Enterprise/SupplyChain";
+import TransportAndLogistics from "./pages/Enterprise/TransportAndLogistics";
+import Entertainment from "./pages/Enterprise/Entertainment";
+import Education from "./pages/Enterprise/Education";
+import RealEstate from "./pages/Enterprise/RealEstate";
+import Maas from "./pages/Consulting/Maas";
+import Finance from "./pages/Enterprise/Finance";
+import Healthcare from "./pages/Enterprise/Healthcare";
+import Procure from "./pages/Enterprise/Procure";
+import Carbon from "./pages/Enterprise/Carbon";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -27,6 +37,16 @@ function App() {
            <Route path="/blockchain-development" element={<BlockchainDevelopment/>}/>
            <Route path="/blockchain-identity" element={<BlockchainIdentity/>}/>
            <Route path="/blockchain-depin" element={<BlockchainDepin/>}/>
+           <Route path="/blockchain-in-supply-chain" element={<SupplyChain/>}/>
+           <Route path="/blockchain-in-transport-and-logistics" element={<TransportAndLogistics/>}/>
+           <Route path="/blockchain-in-entertainment" element={<Entertainment/>}/>
+           <Route path="/blockchain-in-education" element={<Education/>}/>
+           <Route path="/blockchain-in-real-estate" element={<RealEstate/>}/>
+           <Route path="/blockchain-in-Marketing" element={<Maas/>}/>
+           <Route path="/blockchain-in-finance" element={<Finance/>}/>
+           <Route path="/blockchain-in-healthcare" element={<Healthcare/>} />
+           <Route path="/blockchain-procurement" element={<Procure/>}/>
+           <Route path="/blockchain-in-carbon-credits" element={<Carbon/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>

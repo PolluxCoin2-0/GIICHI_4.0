@@ -5,10 +5,10 @@ import {
 import { useState } from "react";
 
 const Faq = () => {
-  const [activeIndex, setActiveIndex] = useState(null); // Track the currently open FAQ index
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFaq = (index) => {
-    setActiveIndex(prevIndex => (prevIndex === index ? null : index)); // Toggle the FAQ, close if the same is clicked
+    setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
   const faqData = [
@@ -48,7 +48,8 @@ const Faq = () => {
         "We specialize in various blockchain frameworks, including Ethereum, Polygon, BNB Chain, Solana, Avalanche, Polkadot, Cosmos, and custom Layer 2/3 solutions.",
     },
     {
-      question: "  Can you integrate blockchain with existing business systems?",
+      question:
+        "  Can you integrate blockchain with existing business systems?",
       answer:
         "Yes, we provide blockchain integration services to connect blockchain networks with existing enterprise systems, ensuring seamless operations and improved efficiency.",
     },
@@ -57,15 +58,14 @@ const Faq = () => {
       answer:
         "We follow best practices such as smart contract audits, rigorous security testing, encryption techniques, and compliance with industry standards to prevent vulnerabilities and cyber threats.",
     },
-
   ];
 
   return (
     <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
       <div className="text-center">
         <p className="text-2xl md:text-3xl font-bold  mb-8">
-        <span className="text-transparent bg-clip-text bg-green-gradient">
-          Frequently Asked Questions
+          <span className="text-transparent bg-clip-text bg-green-gradient">
+            Frequently Asked Questions
           </span>
         </p>
 
@@ -77,15 +77,15 @@ const Faq = () => {
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"
-                onClick={() => toggleFaq(index)} // Toggle FAQ on click
+                onClick={() => toggleFaq(index)}
               >
                 <p className="syne-font text-sm md:text-[17px] text-start text-white">
                   {faq.question}
                 </p>
                 {activeIndex === index ? (
-                  <MdOutlineArrowCircleUp size={24} color="#ffffff"/>
+                  <MdOutlineArrowCircleUp size={24} color="#ffffff" />
                 ) : (
-                  <MdOutlineArrowCircleDown size={24} color="#ffffff"/>
+                  <MdOutlineArrowCircleDown size={24} color="#ffffff" />
                 )}
               </div>
               <div
@@ -104,5 +104,4 @@ const Faq = () => {
     </div>
   );
 };
-
 export default Faq;

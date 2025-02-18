@@ -23,32 +23,32 @@ const Navbar = () => {
         {
           label: "Enterprise Blockchain",
           items: [
-            { label: "Supply Chain", link: "/blockchain-development" },
-            { label: "Transport & Logistics", link: "/blockchain-defi" },
-            { label: "Entertainment", link: "/blockchain-identity" },
-            { label: "Real-Estate", link: "/blockchain-identity" },
-            { label: "Education", link: "/blockchain-identity" },
-            { label: "Finance", link: "/blockchain-development" },
-            { label: "Healthcare", link: "/blockchain-defi" },
-            { label: "Procure-to-Pay", link: "/blockchain-identity" },
-            { label: "Carbon Credits", link: "/blockchain-identity" }
+            { label: "Supply Chain", link: "/" },
+            { label: "Transport & Logistics", link: "/" },
+            { label: "Entertainment", link: "/" },
+            { label: "Real-Estate", link: "/" },
+            { label: "Education", link: "/" },
+            { label: "Finance", link: "/" },
+            { label: "Healthcare", link: "/" },
+            { label: "Procure-to-Pay", link: "/" },
+            { label: "Carbon Credits", link: "/" }
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/blockchain-development" },
-            { label: "Smart Contract Audit", link: "/blockchain-defi" }
+            { label: "Smart Contract Development", link: "/" },
+            { label: "Smart Contract Audit", link: "/" }
           ]
         },
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/blockchain-development" },
-            { label: "Real-Estate Tokenization", link: "/blockchain-defi" },
-            { label: "Fund Tokenization", link: "/blockchain-defi" },
-            { label: "Gold Tokenization", link: "/blockchain-defi" },
-            { label: "Asset Management", link: "/blockchain-defi" }
+            { label: "Asset Tokenization", link: "/" },
+            { label: "Real-Estate Tokenization", link: "/" },
+            { label: "Fund Tokenization", link: "/" },
+            { label: "Gold Tokenization", link: "/" },
+            { label: "Asset Management", link: "/" }
           ]
         }
       ]

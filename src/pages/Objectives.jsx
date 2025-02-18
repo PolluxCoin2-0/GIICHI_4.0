@@ -1,5 +1,3 @@
-import star1Img from "../assets/star1.png";
-import star2Img from "../assets/star2.png";
 import b5Img from "../assets/blockchain.png";
 import b4Img from "../assets/metaverse.png";
 import b6Img from "../assets/crypto.png";
@@ -11,12 +9,7 @@ const Objectives = () => {
   return (
     <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-12 md:pt-24">
       <div className="hidden md:block spotlight spotlight-left"></div>
-      {/* heading 1 */}
-      <div className="flex flex-row justify-between items-center">
-        <img src={star1Img} alt="" className="hidden md:hidden" />
-      </div>
-
-      {/* Heading 2 */}
+      {/* Heading 1*/}
       <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
         Delivering Web3 Strategic
         <br />
@@ -24,19 +17,14 @@ const Objectives = () => {
           Objectives
         </span>
       </p>
-
-      {/* Heading 3*/}
+      {/* Heading 2*/}
       <div className="flex flex-row justify-between">
         <p className="text-sm md:text-lg font-semibold text-white text-opacity-70 pt-4 md:pt-6">
           Giichi is focused on leveraging Web3 technology to provide
-          decentralized solutions, <br/>empowering users with enhanced security,
-          transparency, and control over their digital <br/> assets and interactions.
+          decentralized solutions, <br />
+          empowering users with enhanced security, transparency, and control
+          over their digital <br /> assets and interactions.
         </p>
-        <img
-          src={star2Img}
-          alt=""
-          className="object-contain pb-10 hidden md:hidden"
-        />
       </div>
 
       {/* blocks  */}
@@ -48,7 +36,7 @@ const Objectives = () => {
             <img src={b5Img} alt="" className="w-full h-auto" />
 
             {/* Hover effect content */}
-            <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   BLOCKCHAIN
@@ -63,15 +51,18 @@ const Objectives = () => {
           </div>
 
           {/* Block 2 */}
-          <div className="w-[44%] relative group">
+          <div className="w-[44%] relative group  overflow-hidden">
             <img src={b4Img} alt="" className="w-full h-auto" />
-            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                <p className="text-xs md:text-2xl font-normal md:font-bold">
+                <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   METAVERSE
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[8px] md:text-sm w-full md:w-[80%] absolute bottom-0  left-0  bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p
+                className="pt-1 md:pt-4 text-[8px] md:text-sm w-full md:w-[80%] absolute bottom-0  left-0  bg-black bg-opacity-50
+               text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out"
+              >
                 {" "}
                 We empower businesses to achieve breakthrough moments in the
                 Metaverse by building immersive, scalable, and interactive
@@ -81,9 +72,9 @@ const Objectives = () => {
           </div>
 
           {/* Block 3 */}
-          <div className="w-[27%] relative group">
+          <div className="w-[27%] relative group  overflow-hidden">
             <img src={b6Img} alt="" className="w-full h-auto" />
-            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[8px] md:text-2xl font-normal md:font-bold">
                   CRYPTO SOLUTIONS
@@ -99,19 +90,19 @@ const Objectives = () => {
           </div>
         </div>
 
-        {/* block2 row  */}
+        {/* block2 bottom row  */}
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 pt-2 md:pt-4">
           {/* Block 4 */}
-          <div className="w-[33%] relative group">
+          <div className="w-[33%] relative group  overflow-hidden">
             <img src={b7Img} alt="" className="w-full h-auto" />
-            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
                   ARTIFICIAL INTELLIGENCE
                 </p>
               </div>
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0  left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 Amplifying Efficiency with Cutting-Edge AI/ML Solutions:
                 Maximize your business efficiency and productivity with Giichi’s
                 premium AI/ML development services and solutions.
@@ -120,9 +111,9 @@ const Objectives = () => {
           </div>
 
           {/* Block 5 */}
-          <div className="w-[33%] relative group">
+          <div className="w-[33%] relative group  overflow-hidden">
             <img src={b8Img} alt="" className="w-full h-auto" />
-            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}
@@ -140,9 +131,9 @@ const Objectives = () => {
           </div>
 
           {/* Block 6 */}
-          <div className="w-[33%] relative group">
+          <div className="w-[33%] relative group  overflow-hidden">
             <img src={b9Img} alt="" className="w-full h-auto" />
-            <div className="absolute bottom-0 left-0 top-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
                   {" "}

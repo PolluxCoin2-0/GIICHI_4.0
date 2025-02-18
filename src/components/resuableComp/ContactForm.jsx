@@ -34,7 +34,7 @@ const ContactForm = () => {
     setFormData({
       ...formData,
       mobile: value,
-      countryCode: country.dialCode, // Store country code separately
+      countryCode: country.dialCode,
     });
   };
 
@@ -85,7 +85,7 @@ const ContactForm = () => {
       console.log(formData);
     } catch (error) {
       console.log("error", error);
-    } finally{
+    } finally {
       setIsLoading(false);
     }
     console.log({ formData });
@@ -202,7 +202,7 @@ const ContactForm = () => {
               onClick={handleSubmit}
               className="text-black bg-yellow-gradient w-full py-2 rounded-md font-semibold"
             >
-            {isloading ? <Loader/> : "Submit"}
+              {isloading ? <Loader /> : "Submit"}
             </button>
           </div>
         </div>

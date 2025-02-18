@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import star1Img from "../../assets/star1.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -74,11 +73,7 @@ const BlockchainCycle1 = ({ title }) => {
           <span className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-3xl font-semibold pt-14 pb-14">
             {title}
           </span>
-          <img
-            src={star1Img}
-            alt=""
-            className="object-contain w-16 pb-12 hidden md:hidden"
-          />
+          
         </div>
         <Slider {...settings}>
           <div className="px-2 md:px-4">
@@ -171,12 +166,7 @@ const BlockchainCycle1 = ({ title }) => {
             </div>
           </div>
         </Slider>
-
-        <div className="hidden md:flex flex-row justify-end mt-6">
-          <img src={star1Img} alt="" className="object-contain" />
-          <img src={star1Img} alt="" className="object-contain w-12 pb-20" />
         </div>
-      </div>
     </div>
   );
 };

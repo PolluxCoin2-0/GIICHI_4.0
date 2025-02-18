@@ -1,61 +1,47 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import circle2Img from "../assets/circle2.png";
-import circle3Img from "../assets/circle3.png";
-import star5Img from "../assets/star5.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
   return (
-    <div className="pt-0 md:pt-6 pb-12">
-      {/* circle element */}
-      <div className="relative inline-block ">
-        <img
-          src={circle2Img}
-          alt=""
-          className="w-28 h-auto relative z-10 hidden lg:hidden"
-        />
-        <img
-          src={circle3Img}
-          alt=""
-          className="w-28 h-auto absolute top-0 left-12 z-20 hidden lg:hidden"
-        />
-      </div>
-
-      {/* content */}
+    <div className="pt-0 lg:pt-6 pb-12">
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 mt-6">
         <div className="bg-orange-gradient bg-opacity-50 rounded-2xl p-8 md:p-12 lg:p-16 shadow-inner shadow-lightGray">
           <p className="hidden md:block text-center ">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-            We accelerate your business's journey to Web 3 with over 15 years of expertise,<br/>  
+              We accelerate your business's journey to Web 3 with over 15 years
+              of expertise,
+              <br />
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-            backed by a team of 1000+ professionals and a proven record of 1200+ successful<br />
+              backed by a team of 1000+ professionals and a proven record of
+              1200+ successful
+              <br />
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-sm lg:text-lg font-semibold">
-            enterprise implementations.
+              enterprise implementations.
             </span>
           </p>
 
           <p className="block md:hidden text-center">
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-            We accelerate your business's{" "}
+              We accelerate your business's{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-            journey to Web 3 with over 15 years {" "}
+              journey to Web 3 with over 15 years{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-            of expertise, backed by a team  by {" "}
+              of expertise, backed by a team by{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-             over 1000 experts and with of{" "}
+              over 1000 experts and with of{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
-             1000+ professionals and a proven {" "}
+              1000+ professionals and a proven{" "}
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
               {" "}
-              record of 1200+ successful 
+              record of 1200+ successful
             </span>
             <span className="text-transparent bg-clip-text bg-yellow-gradient text-md font-semibold">
               {" "}
@@ -80,13 +66,7 @@ const LetsTalk = ({ buttonText }) => {
           </div>
         </div>
       </div>
-      {/* stars */}
-      <div className="hidden lg:hidden justify-end mt-12 2xl:mr-72">
-        <img src={star5Img} alt="" className="w-12 object-contain" />
-        <img src={star5Img} alt="" className="w-12 pb-14 object-contain" />
-      </div>
     </div>
   );
 };
-
 export default LetsTalk;

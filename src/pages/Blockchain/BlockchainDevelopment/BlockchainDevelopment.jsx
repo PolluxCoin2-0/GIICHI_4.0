@@ -26,7 +26,6 @@ import nodeImg from "../../../assets/node.png";
 import mongoImg from "../../../assets/mongo.png";
 import rustImg from "../../../assets/rust.png";
 import solidityImg from "../../../assets/solidity.png";
-import moveImg from "../../../assets/move.png";
 import wordpressImg from "../../../assets/wordpress.png";
 import polygonImg from "../../../assets/polygon.png";
 import zkSyncImg from "../../../assets/zksync.png";
@@ -36,7 +35,8 @@ import polkadotImg from "../../../assets/polkadot.png";
 import arbitrumImg from "../../../assets/arbitrum.png";
 import parityImg from "../../../assets/parity.png";
 import opStackImg from "../../../assets/opStack.png";
-
+import moveImg from "../../../assets/move.png";
+import WhatsAppImg from "../../../assets/whatsapp.png";
 const FrameworksData = [
   {
     logo: polygonImg,
@@ -435,6 +435,16 @@ const BlockchainDevelopment = () => {
       <div>
         <Faq />
       </div>
+
+      {/* whatsapp image */}
+      <a
+        href="https://wa.me/9266416198"
+        id="whatsapp-icon"
+        target="_blank"
+        title="Chat with us on WhatsApp"
+      >
+        <img src={WhatsAppImg} alt="WhatsApp" className="" />
+      </a>
     </div>
   );
 };
