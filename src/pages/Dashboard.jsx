@@ -1,10 +1,3 @@
-
-import blockImg1 from "../assets/blockImg1.png";
-import blockImg2 from "../assets/blockImg2.png";
-import blockImg3 from "../assets/blockImg3.png";
-import blockImg4 from "../assets/blockImg4.png";
-import blockImg5 from "../assets/blockImg5.png";
-import blockImg6 from "../assets/blockImg6.png";
 import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";
@@ -13,9 +6,22 @@ import Typewriter from "../components/Typewriter";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import whatsAppImg from "../assets/whatsapp.png";
+import { useState } from "react";
+import axios from "axios";
+import { useEffect } from "react";
 // import calendlyImg from "../assets/calendar.png";
 
 const Dashboard = () => {
+  const [blogData, setBlogData] = useState([]);
+
+  const fetchData = async()=>{
+    const res = await axios.get("https://bnode.giichi.network/api/blog/getAllBlogs?search=");
+    console.log("Res", res?.data?.data);
+    setBlogData(res?.data?.data);
+  }
+
+  useEffect(()=>{fetchData()},[]);
+
   return (
     <div className="pt-6 md:pt-20 ">
       {/* Section 1 */}
@@ -76,33 +82,60 @@ const Dashboard = () => {
 
       {/* Section-2 Blocks Section */}
       <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-40 3xl:px-80 pt-10 md:pt-20">
-        <div className="w-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 rounded-3xl p-2 md:p-4 bg-gray-gradient ">
-          <img src={blockImg1} alt="" className="w-full " />
-          <p className="text-white text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px]">
-          GiiCHi CoPilot offers the expertise, tools, and support you need to navigate the complexities of the Web3 ecosystem. With a tailored approach, we help you build, scale, and innovate within the decentralized world, ensuring your success every step of the way. Let us be your guide in making your Web3 ambitions come to life, from concept to execution.
+        <Link to={`https://blog.giichi.network/blog-detail/${blogData[0]?._id}`} className="w-full h-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 
+        rounded-3xl p-2 md:p-4 bg-gray-gradient ">
+          <img src={blogData[0]?.blogImages[0]} alt="" className="w-full rounded-2xl" />
+          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px]">
+         <div dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}  className="line-clamp-10 text-justify hyphens-auto" />
+
           </p>
           <p className="text-white text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px]">
           GiiCHi CoPilot offers the expertise, tools, and support you need to navigate the complexities of the Web3 ecosystem. With a tailored approach, we help you build, scale, and innovate within the decentralized world, ensuring your success every step of the way. Let us be your guide in making your Web3 ambitions come to life, from concept to execution.
           </p>
-        </div>
+        </Link>
 
         <div className="w-full md:w-[65%] mt-4 md:mt-0">
-          <div className="flex flex-row space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl p-2 md:p-4 bg-gray-gradient">
-            <div>
-              <img src={blockImg2} alt="" className="" />
-            </div>
-            <div>
-              <img src={blockImg3} alt="" className="" />
-              <img src={blockImg4} alt="" className="mt-2 md:mt-4" />
+          <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl p-2 md:p-4 bg-gray-gradient">
+            <Link to={`https://blog.giichi.network/blog-detail/${blogData[1]?._id}`} className="w-[50%] relative group overflow-hidden">
+              <img src={blogData[1]?.blogImages[0]} alt="" className=" h-full object-center rounded-l-2xl" />
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              {blogData[1]?.shortDescription}
+            </p>
+            </Link>
+
+            <div className="w-[50%]">
+            <Link to={`https://blog.giichi.network/blog-detail/${blogData[2]?._id}`} className="relative group overflow-hidden" >
+              <img src={blogData[2]?.blogImages[0]} alt="" className="w-full h-36 rounded-tr-2xl" />
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                 {blogData[2]?.shortDescription}
+            </p>
+              </Link>
+              <Link to={`https://blog.giichi.network/blog-detail/${blogData[3]?._id}`} className="relative group overflow-hidden">
+                 <img src={blogData[3]?.blogImages[0]} alt="" className="mt-2 md:mt-4 w-full h-36 rounded-br-2xl" />
+                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                 {blogData[3]?.shortDescription}
+            </p>
+              </Link>
             </div>
           </div>
-          <div className="flex flex-row space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl mt-4 p-2 md:p-4 bg-gray-gradient">
-            <img src={blockImg5} alt="" className="w-[50%] lg:w-[62%]" />
+          <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl mt-4 p-2 md:p-4 bg-gray-gradient">
+            <Link to={`https://blog.giichi.network/blog-detail/${blogData[4]?._id}`} className="w-[50%] h-40 relative group overflow-hidden">
+            <img src={blogData[4]?.blogImages[0]} alt="" className="w-full h-full rounded-l-2xl"  />
+            <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                 {blogData[4]?.shortDescription}
+            </p>
+            </Link>
+
+            <Link to={`https://blog.giichi.network/blog-detail/${blogData[5]?._id}`} className="w-[49%] h-40 pr-0 relative group overflow-hidden">
             <img
-              src={blockImg6}
+              src={blogData[5]?.blogImages[0]}
               alt=""
-              className="w-[50%] lg:w-[206px] xl:w-full pr-2"
+              className="w-full h-full object-cover rounded-r-2xl"
             />
+            <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+               {blogData[5]?.shortDescription}
+            </p>
+          </Link>
           </div>
         </div>
       </div>
