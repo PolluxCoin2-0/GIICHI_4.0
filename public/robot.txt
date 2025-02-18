@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Allow: /public/
-Sitemap: http://giichi.network/sitemap.xml
+Allow: /
+
+Sitemap: https://giichi.network/sitemap.xml

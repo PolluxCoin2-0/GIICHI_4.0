@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import circle2Img from "../assets/circle2.png";
-import circle3Img from "../assets/circle3.png";
-import star5Img from "../assets/star5.png";
+// import circle2Img from "../assets/circle2.png";
+// import circle3Img from "../assets/circle3.png";
+// import star5Img from "../assets/star5.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const LetsTalk = ({ buttonText }) => {
@@ -10,7 +10,7 @@ const LetsTalk = ({ buttonText }) => {
   return (
     <div className="pt-0 lg:pt-6 pb-12">
       {/* circle element */}
-      <div className="relative inline-block ">
+      {/* <div className="relative inline-block ">
         <img
           src={circle2Img}
           alt=""
@@ -21,7 +21,7 @@ const LetsTalk = ({ buttonText }) => {
           alt=""
           className="w-28 h-auto absolute top-0 left-12 z-20 hidden lg:hidden"
         />
-      </div>
+      </div> */}
 
       {/* content */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 mt-6">
@@ -82,10 +82,10 @@ const LetsTalk = ({ buttonText }) => {
         </div>
       </div>
       {/* stars */}
-      <div className="hidden lg:hidden justify-end mt-12 2xl:mr-72">
+      {/* <div className="hidden lg:hidden justify-end mt-12 2xl:mr-72">
         <img src={star5Img} alt="" className="w-12 object-contain" />
         <img src={star5Img} alt="" className="w-12 pb-14 object-contain" />
-      </div>
+      </div> */}
     </div>
   );
 };

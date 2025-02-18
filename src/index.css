@@ -42,10 +42,12 @@ body{
 
   .custom-prev {
     left: 84%; /* Adjust as needed */
+    top: -30px;
   }
   
   .custom-next {
     left: 92%; /* Adjust as needed */
+    top: -30px;
   }
   
   .slick-slider {
@@ -279,6 +281,41 @@ body{
   }
 }
 
-  
+/* Basic styles for the WhatsApp icon */
+#whatsapp-icon {
+  position: fixed;
+  bottom: 140px; /* Positioned at the bottom */
+  right: 28px; /* Positioned at the right */
+  z-index: 9999;
+  transition: bottom 0.5s ease-in-out;
+}
+
+/* Add glow effect with animation */
+#whatsapp-icon img {
+  width: 60px; /* Size of the WhatsApp icon */
+  height: 60px;
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Initial glow */
+  transition: box-shadow 0.3s ease-in-out;
+  animation: glowUpDown 2s infinite ease-in-out; /* Animation for glowing up and down */
+}
+
+/* Keyframes for the glowing up/down animation */
+@keyframes glowUpDown {
+  0% {
+      transform: scale(1); /* Normal size */
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Initial glow */
+  }
+  50% {
+      transform: scale(1.1); /* Slightly larger */
+      box-shadow: 0 0 20px rgba(0, 255, 0, 1); /* Stronger glow */
+  }
+  100% {
+      transform: scale(1); /* Return to normal size */
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Initial glow */
+  }
+}
+
+
 
  

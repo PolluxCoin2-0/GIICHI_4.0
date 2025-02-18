@@ -19,7 +19,6 @@ import satelliteImg from "../../../assets/satellite.png";
 import manufactureImg from "../../../assets/manufacture.png";
 import healthImg from "../../../assets/health.png";
 import LetsTalk from "../../../components/LetsTalk";
-import Faq from "../../../components/Faq";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import DepinServices from "../../../components/Blockchain/DepinServices";
 

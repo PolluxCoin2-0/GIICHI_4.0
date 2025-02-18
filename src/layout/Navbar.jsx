@@ -28,27 +28,27 @@ const Navbar = () => {
             { label: "Entertainment", link: "/blockchain-in-entertainment" },
             { label: "Real-Estate", link: "/blockchain-in-real-estate" },
             { label: "Education", link: "/blockchain-in-education" },
-            { label: "Finance", link: "/blockchain-development" },
-            { label: "Healthcare", link: "/blockchain-defi" },
-            { label: "Procure-to-Pay", link: "/blockchain-identity" },
-            { label: "Carbon Credits", link: "/blockchain-identity" }
+            { label: "Finance", link: "/blockchain-in-finance" },
+            { label: "Healthcare", link: "/blockchain-in-healthcare" },
+            { label: "Procure-to-Pay", link: "/blockchain-procurement" },
+            { label: "Carbon Credits", link: "/blockchain-in-carbon-credits" }
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/blockchain-development" },
-            { label: "Smart Contract Audit", link: "/blockchain-defi" }
+            { label: "Smart Contract Development", link: "/" },
+            { label: "Smart Contract Audit", link: "/" }
           ]
         },
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/blockchain-development" },
-            { label: "Real-Estate Tokenization", link: "/blockchain-defi" },
-            { label: "Fund Tokenization", link: "/blockchain-defi" },
-            { label: "Gold Tokenization", link: "/blockchain-defi" },
-            { label: "Asset Management", link: "/blockchain-defi" }
+            { label: "Asset Tokenization", link: "/" },
+            { label: "Real-Estate Tokenization", link: "/" },
+            { label: "Fund Tokenization", link: "/" },
+            { label: "Gold Tokenization", link: "/" },
+            { label: "Asset Management", link: "/" }
           ]
         }
       ]
@@ -108,7 +108,7 @@ const Navbar = () => {
         {
           label: "Marketing As a Service",
           items: [
-            { label: "Marketing As A Service (MaaS)", link: "/blockchain-in-Marketing" }
+            { label: "Marketing As A Service (MaaS)", link: "/" }
           ]
         }
       ]

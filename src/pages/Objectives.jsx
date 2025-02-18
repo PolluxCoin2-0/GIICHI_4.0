@@ -1,5 +1,4 @@
-import star1Img from "../assets/star1.png";
-import star2Img from "../assets/star2.png";
+
 import b5Img from "../assets/blockchain.png";
 import b4Img from "../assets/metaverse.png";
 import b6Img from "../assets/crypto.png";
@@ -12,9 +11,7 @@ const Objectives = () => {
     <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-12 md:pt-24">
       <div className="hidden md:block spotlight spotlight-left"></div>
       {/* heading 1 */}
-      <div className="flex flex-row justify-between items-center">
-        <img src={star1Img} alt="" className="hidden md:hidden" />
-      </div>
+      
 
       {/* Heading 2 */}
       <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
@@ -32,11 +29,7 @@ const Objectives = () => {
           decentralized solutions, <br/>empowering users with enhanced security,
           transparency, and control over their digital <br/> assets and interactions.
         </p>
-        <img
-          src={star2Img}
-          alt=""
-          className="object-contain pb-10 hidden md:hidden"
-        />
+       
       </div>
 
       {/* blocks  */}

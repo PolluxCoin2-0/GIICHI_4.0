@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
-import circle1Img from "../assets/circle1.png";
-import star1Img from "../assets/star1.png";
-import star2Img from "../assets/star2.png";
-import founderImg from "../assets/pic.png";
+
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -110,10 +107,8 @@ const ReviewCard = ({review, name}) => {
           </p>
 
           <div className="flex flex-row space-x-4 items-center pt-0 md:pt-6">
-            <img src={founderImg} alt="" className="w-12" />
             <div>
               <p className="text-white">{name}</p>
-              {/* <p className="text-white">CEO</p> */}
             </div>
           </div>
         </div>
@@ -136,7 +131,7 @@ const Review = () => {
         {/* <p className="bg-darkGray text-white px-8 lg:px-20 py-3 rounded-full text-[17px] font-medium">
           -Clients Review-
         </p> */}
-        <img src={circle1Img} alt="" className="w-28 hidden md:hidden" />
+        {/* <img src={circle1Img} alt="" className="w-28 hidden md:hidden" /> */}
       </div>
 
       {/* Heading 2 */}
@@ -148,7 +143,7 @@ const Review = () => {
           </span>
           Say
         </p>
-        <img src={star1Img} alt="" className="w-16 hidden md:hidden" />
+        {/* <img src={star1Img} alt="" className="w-16 hidden md:hidden" /> */}
       </div>
 
       {/* Heading 3*/}
@@ -158,11 +153,11 @@ const Review = () => {
           partnership <br />
           program designed to turn your vision into reality.
         </p> */}
-        <img
+        {/* <img
           src={star2Img}
           alt=""
           className="object-contain pb-10 hidden md:hidden"
-        />
+        /> */}
       </div>
 
       {/* Blocks */}

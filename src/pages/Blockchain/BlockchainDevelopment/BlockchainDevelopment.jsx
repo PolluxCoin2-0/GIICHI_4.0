@@ -26,7 +26,6 @@ import nodeImg from "../../../assets/node.png";
 import mongoImg from "../../../assets/mongo.png";
 import rustImg from "../../../assets/rust.png";
 import solidityImg from "../../../assets/solidity.png";
-import moveImg from "../../../assets/move.png";
 import wordpressImg from "../../../assets/wordpress.png";
 import polygonImg from "../../../assets/polygon.png";
 import zkSyncImg from "../../../assets/zksync.png";
@@ -36,7 +35,7 @@ import polkadotImg from "../../../assets/polkadot.png";
 import arbitrumImg from "../../../assets/arbitrum.png";
 import parityImg from "../../../assets/parity.png";
 import opStackImg from "../../../assets/opStack.png";
-
+import moveImg  from "../../../assets/move.png";
 const FrameworksData = [
   {
     logo: polygonImg,

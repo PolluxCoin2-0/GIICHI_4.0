@@ -1,7 +1,4 @@
-import star1Img from "../assets/star1.png";
-import star2Img from "../assets/star2.png";
-import star3Img from "../assets/star3.png";
-import star4Img from "../assets/star4.png";
+
 import blockImg1 from "../assets/blockImg1.png";
 import blockImg2 from "../assets/blockImg2.png";
 import blockImg3 from "../assets/blockImg3.png";
@@ -15,20 +12,13 @@ import LetsTalk from "../components/LetsTalk";
 import Typewriter from "../components/Typewriter";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import whatsAppImg from "../assets/whatsapp.png";
 
 const Dashboard = () => {
   return (
     <div className="pt-6 md:pt-20 ">
       {/* Section 1 */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 ">
-        <div className="flex flex-row justify-center md:justify-between items-center">
-          <img src={star1Img} alt="" className="hidden md:hidden" />
-          {/* <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
-            -Unlock Your Creative Potential-
-          </p> */}
-          <img src={star2Img} alt="" className="hidden md:hidden" />
-        </div>
-
         {/* Heading 2 */}
         <p className="text-center">
           <motion.p
@@ -57,11 +47,9 @@ const Dashboard = () => {
 
         {/* Heading 3 */}
         <div className="flex flex-row justify-center items-center h-10 md:h-20">
-          <img src={star3Img} alt="" className="hidden md:hidden" />
           <p className="text-sm md:text-md lg:text-3xl font-semibold  text-center pt-6">
             <Typewriter />
           </p>
-          <img src={star4Img} alt="" className="hidden md:hidden" />
         </div>
 
         {/* Buttons */}
@@ -150,6 +138,12 @@ const Dashboard = () => {
       <div className="pt-6">
         <LetsTalk buttonText="Lets Talk" />
       </div>
+
+      {/* whatsapp image */}
+<a href="https://wa.me/9266416198" id="whatsapp-icon" target="_blank" title="Chat with us on WhatsApp">
+    <img src={whatsAppImg} alt="WhatsApp" className="" />
+</a>
+
     </div>
   );
 };

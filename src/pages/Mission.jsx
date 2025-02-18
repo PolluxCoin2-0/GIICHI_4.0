@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import star6Img from "../assets/star6.png";
 import poxLogo from "../assets/poxLogo.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -177,11 +176,9 @@ const Mission = () => {
 
       {/* Heading 2 */}
       <div className="flex flex-row justify-center items-center">
-        <img src={star6Img} alt="" className="hidden md:hidden" />
         <p className="text-sm md:text-lg font-semibold text-white text-opacity-70 text-center pt-6 ">
           Fast-track Your Web3 Journey With GiiCHi CoPilot <br />
         </p>
-        <img src={star6Img} alt="" className="hidden md:hidden" />
       </div>
 
       {/* Heading 3 */}
