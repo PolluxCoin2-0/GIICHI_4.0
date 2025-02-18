@@ -78,7 +78,7 @@ const Dashboard = () => {
       <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-40 3xl:px-80 pt-10 md:pt-20">
         <div className="w-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 rounded-3xl p-2 md:p-4 bg-gray-gradient ">
           <img src={blockImg1} alt="" className="w-full " />
-          <p className="text-white text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] text-justify">
+          <p className="text-white text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px]">
           GiiCHi CoPilot offers the expertise, tools, and support you need to navigate the complexities of the Web3 ecosystem. With a tailored approach, we help you build, scale, and innovate within the decentralized world, ensuring your success every step of the way. Let us be your guide in making your Web3 ambitions come to life, from concept to execution.
           </p>
           <p className="text-white text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px]">

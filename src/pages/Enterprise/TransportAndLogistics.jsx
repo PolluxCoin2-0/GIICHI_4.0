@@ -56,10 +56,10 @@ const TransportAndLogistics = () => {
         <Forecast
           img1={bkDev1Img}
           img2={bkDev2Img}
-          title1="Blockchain Development Solutions: Powering Scalable Growth in the Web3 Economy"
-          title2="Blockchain Market Forecast: Growth Projections & Emerging  Opportunities"
-          desc1="As businesses embrace decentralization, blockchain technology plays a vital role in ensuring security, efficiency, transparency, and compliance across industries. Giichi IT Solutions specializes in delivering customized blockchain development solutions, leveraging expertise across 40+ blockchain protocols. Our team of experts builds scalable and innovative blockchain applications tailored to businesses worldwide."
-          desc2="The blockchain industry is on a remarkable growth trajectory, with the market expected to reach nearly $1,000 trillion by 2032, according to Statista. The cryptocurrency market is also set to expand, with an estimated 861 million users by 2025, and user penetration projected to rise to 11.02%. On a global scale, the United States is forecasted to generate the $9,788 million in revenue in 2024, leading the crypto market. "
+          title1="Blockchain for Transportation: Paving the Road for the Future"
+          title2="Giichi IT Solutions: Integrating Blockchain in Transportation"
+          desc1="The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. "
+          desc2="At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers."
         />
       </div>
 
@@ -78,63 +78,47 @@ const TransportAndLogistics = () => {
         Blockchain in Transport : How can our Solution Help?
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          Being a trusted Blockchain supply chain development company, Antier
-          offers Blockchain supply chain development <br />
-          services to help supply chain leaders optimize their business
-          operations and reduce inefficiency in data <br /> management with
-          intuitive workflows.
+        Our blockchain-based solution for the transportation industry provides a more transparent and secure approach to business operations, ensuring immutable transaction records, improved provenance tracking, and enhanced coordination across the supply chain. Here’s how our solution delivers value:
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between space-x-0 lg:space-x-4 xl:space-x-6 mt-12">
           <div className="border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl py-12 flex flex-col justify-between w-full lg:w-[25%] lg:hover:w-[60%] p-4 lg:p-2 xl:p-4 transition-all duration-300 ease-in-out">
             <img src={insurance} alt="" className="w-20" />
             <p className="text-white pt-4 lg:h-16 ">
-              Better Visibility and Transparency
+            Better Security
             </p>
             <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-48 2xl:h-52">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
+            Access key transaction data via a private, secure, and transparent shared ledger. This ensures you can spot fraud-prone areas and prevent manipulation of contract terms by enabling the immutable recording of agreed conditions, providing protection against unauthorized changes.
             </p>
           </div>
 
           <div className="mt-4 lg:mt-0 border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl py-12 flex flex-col justify-between  w-full lg:w-[25%] lg:hover:w-[60%] p-4 lg:p-2 xl:p-4 transition-all duration-300 ease-in-out">
             <img src={insurance} alt="" className="w-20" />
             <p className="text-white pt-4 lg:h-16">
-              Streamlined Onboarding
+            Trust in Digitized Data
             </p>
             <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-40 2xl:h-52">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
+            Eliminate the time-consuming and error-prone paperwork by digitizing critical information and securely posting it to the blockchain. This streamlined process ensures safe access to trusted data, reducing fraudulent activities and increasing transparency across operations.
             </p>
           </div>
 
           <div className="mt-4 lg:mt-0 border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl py-12 flex flex-col justify-between w-full lg:w-[25%] lg:hover:w-[60%] p-4 lg:p-2 xl:p-4 transition-all duration-300 ease-in-out">
             <img src={insurance} alt="" className="w-20" />
             <p className="text-white pt-4  lg:h-16">
-              Reduced Product Counterfeiting
+            Improved Logistics Management
             </p>
             <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-40 2xl:h-52">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
+            Gain full visibility across the supply chain, including real-time tracking of goods from acceptance to delivery. With blockchain, you can efficiently monitor chain-of-custody, payment details, and shipment locations, and react promptly to any unforeseen disruptions that could affect operations.
             </p>
           </div>
 
           <div className="mt-4 lg:mt-0 border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl py-12 flex flex-col justify-between w-full lg:w-[25%] lg:hover:w-[60%] p-4 lg:p-2 xl:p-4 transition-all duration-300 ease-in-out">
             <img src={insurance} alt="" className="w-20" />
             <p className="text-white pt-4  lg:h-16">
-              Secured Supply Chain Operations
+            Efficient Industry Interactions
             </p>
             <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-40 2xl:h-52">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
+            Enhance collaboration between suppliers, consumers, freight forwarders, and other stakeholders. Blockchain ensures a single, trusted source of truth for all participants, allowing for better dispute resolution, smoother interactions, and more efficient processes across the supply chain.
             </p>
           </div>
 
