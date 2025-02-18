@@ -25,9 +25,9 @@ const Navbar = () => {
           items: [
             { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
             { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
-            { label: "Entertainment", link: "/" },
-            { label: "Real-Estate", link: "/" },
-            { label: "Education", link: "/" },
+            { label: "Entertainment", link: "/blockchain-in-entertainment" },
+            { label: "Real-Estate", link: "/blockchain-in-real-estate" },
+            { label: "Education", link: "/blockchain-in-education" },
             { label: "Finance", link: "/" },
             { label: "Healthcare", link: "/" },
             { label: "Procure-to-Pay", link: "/" },

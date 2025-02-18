@@ -29,10 +29,7 @@ const TransportAndLogistics = () => {
             </span>
           </p>
           <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          Embrace Augmented Security, Trust in Data, and Streamlined Logistics Management
           </p>
           {/* Button */}
           <CalendlyButton />
