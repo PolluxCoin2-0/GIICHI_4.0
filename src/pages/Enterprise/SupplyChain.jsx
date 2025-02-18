@@ -14,7 +14,7 @@ const SupplyChain = () => {
         <img
           src={BlockchainImg}
           alt="blockchain-bg-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
+          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl  "
         />
         {/* The text */}
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
