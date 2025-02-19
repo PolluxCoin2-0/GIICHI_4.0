@@ -15,6 +15,7 @@ import Finance from "./pages/Enterprise/Finance";
 import Healthcare from "./pages/Enterprise/Healthcare";
 import ScDevelopment from "./pages/SmartContract/ScDevelopment";
 import ScAudit from "./pages/SmartContract/ScAudit";
+import WhitepaperDev from "./pages/WhitepaperDev";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -47,6 +48,7 @@ function App() {
            <Route path="/blockchain-in-healthcare" element={<Healthcare/>} />
            <Route path="/smart-contract-development" element={<ScDevelopment/>}/>
            <Route path="/smart-contract-audit" element={<ScAudit/>}/>
+           <Route path="/whiteppaper-development" element={<WhitepaperDev/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
