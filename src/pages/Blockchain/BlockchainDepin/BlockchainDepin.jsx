@@ -307,6 +307,7 @@ const BlockchainDepin = () => {
         href="https://wa.me/9266416198"
         id="whatsapp-icon"
         target="_blank"
+        rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
       >
         <img src={whatsAppImg} alt="WhatsApp" className="" />

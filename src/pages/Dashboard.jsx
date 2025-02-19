@@ -87,12 +87,13 @@ const Dashboard = () => {
       <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 w-full px-4 md:px-8 lg:px:24 xl:px-20 2xl:px-40 3xl:px-80 pt-10 md:pt-20">
         <Link
           to={`https://blog.giichi.network/blog-detail/${blogData[0]?._id}`}
+          target="_blank" rel="noopener noreferrer"
           className="w-full h-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 
       rounded-3xl p-2 md:p-4 bg-gray-gradient "
         >
           <img
             src={blogData[0]?.blogImages[0]}
-            alt=""
+            alt="blogs-image"
             className="w-full rounded-2xl"
           />
           <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
@@ -114,11 +115,12 @@ const Dashboard = () => {
           <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl p-2 md:p-4 bg-gray-gradient">
             <Link
               to={`https://blog.giichi.network/blog-detail/${blogData[1]?._id}`}
+              target="_blank" rel="noopener noreferrer"
               className="w-[60%] md:w-[50%] relative group overflow-hidden"
             >
               <img
                 src={blogData[1]?.blogImages[0]}
-                alt=""
+                alt="blogs-image"
                 className="w-full h-full object-center rounded-l-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -128,11 +130,12 @@ const Dashboard = () => {
             <div className="w-[60%] md:w-[50%]">
               <Link
                 to={`https://blog.giichi.network/blog-detail/${blogData[2]?._id}`}
+                target="_blank" rel="noopener noreferrer"
                 className="relative group overflow-hidden"
               >
                 <img
                   src={blogData[2]?.blogImages[0]}
-                  alt=""
+                  alt="blogs-image"
                   className="w-full h-36 rounded-tr-2xl z-20"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full h-1/2 bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -141,11 +144,12 @@ const Dashboard = () => {
               </Link>
               <Link
                 to={`https://blog.giichi.network/blog-detail/${blogData[3]?._id}`}
+                target="_blank" rel="noopener noreferrer"
                 className="relative group overflow-hidden"
               >
                 <img
                   src={blogData[3]?.blogImages[0]}
-                  alt=""
+                  alt="blogs-image"
                   className="mt-2 md:mt-4 w-full h-36 rounded-br-2xl z-20"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -157,11 +161,12 @@ const Dashboard = () => {
           <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl mt-4 p-2 md:p-4 bg-gray-gradient">
             <Link
               to={`https://blog.giichi.network/blog-detail/${blogData[4]?._id}`}
+              target="_blank" rel="noopener noreferrer"
               className="w-[50%] h-40 relative group overflow-hidden"
             >
               <img
                 src={blogData[4]?.blogImages[0]}
-                alt=""
+                alt="blogs-image"
                 className="w-full h-full rounded-l-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -171,11 +176,12 @@ const Dashboard = () => {
 
             <Link
               to={`https://blog.giichi.network/blog-detail/${blogData[5]?._id}`}
+              target="_blank" rel="noopener noreferrer"
               className="w-[49%] h-40 pr-0 relative group overflow-hidden"
             >
               <img
                 src={blogData[5]?.blogImages[0]}
-                alt=""
+                alt="blogs-image"
                 className="w-full h-full object-cover rounded-r-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -194,12 +200,7 @@ const Dashboard = () => {
         ></div>
       </div>
 
-      {/* BLOCKCHAIN FEATURE PAGE */}
-      {/* <div>
-        <Features />
-      </div> */}
-
-      {/* MISSION PAGE */}
+     {/* MISSION PAGE */}
       <div>
         <Mission />
       </div>
@@ -225,6 +226,7 @@ const Dashboard = () => {
           href="https://wa.me/9266416198"
           id="whatsapp-icon"
           target="_blank"
+          rel="noopener noreferrer"
           title="Chat with us on WhatsApp"
         >
           <img src={whatsAppImg} alt="WhatsApp" className="" />

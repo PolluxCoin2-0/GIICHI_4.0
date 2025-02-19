@@ -53,7 +53,7 @@ const Education = () => {
         </div>
       </div>
 
-      {/* Bloackchain entertainment forecast */}
+      {/* Bloackchain education forecast */}
       <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
         <div className="w-full md:w-[40%]">{/* img */}</div>
 
@@ -62,14 +62,14 @@ const Education = () => {
             Blockchain Application in Education: Embrace Greater Transparency
             and Credibility
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
             molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
             saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
             nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
             nesciunt porro voluptas ducimus.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
             molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
             saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
@@ -206,7 +206,7 @@ const Education = () => {
                   className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center w-full md:w-[33%] 
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
                 >
-                  <img src={insurance} alt="" className="w-20" />
+                  <img src={insurance} alt="security-&-transparency-image" className="w-20" />
                   <p className="text-white pt-4 text-xl font-bold ">
                     Lack of Security and Transparency
                   </p>
@@ -216,7 +216,7 @@ const Education = () => {
                   className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center  w-full md:w-[33%] 
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
                 >
-                  <img src={insurance} alt="" className="w-20" />
+                  <img src={insurance} alt="enhanced-security-image" className="w-20" />
                   <p className="text-white pt-4 text-xl font-bold ">
                   Enhanced security
                   </p>

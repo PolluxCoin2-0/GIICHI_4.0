@@ -23,22 +23,21 @@ const Navbar = () => {
         {
           label: "Enterprise Blockchain",
           items: [
-            { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
-            { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
-            { label: "Entertainment", link: "/blockchain-in-entertainment" },
-            { label: "Real-Estate", link: "/blockchain-in-real-estate" },
-            { label: "Education", link: "/blockchain-in-education" },
-            { label: "Finance", link: "/blockchain-in-finance" },
-            { label: "Healthcare", link: "/blockchain-in-healthcare" },
-            { label: "Procure-to-Pay", link: "/blockchain-procurement" },
-            { label: "Carbon Credits", link: "/blockchain-in-carbon-credits" }
+            { label: "Supply Chain", link: "" },
+            { label: "Transport & Logistics", link: "" },
+            { label: "Entertainment", link: "" },
+            { label: "Real-Estate", link: "" },
+            { label: "Education", link: "" },
+            { label: "Finance", link: "" },
+            { label: "Healthcare", link: "" },
+           
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/" },
-            { label: "Smart Contract Audit", link: "/" }
+            { label: "Smart Contract Development", link: "/smart-contract-development" },
+            { label: "Smart Contract Audit", link: "/smart-contract-audit" }
           ]
         },
         {
@@ -183,7 +182,7 @@ const handleMenuLeave = () => {
 
         <a href="/dashboard">
           <div className="hidden lg:block">
-            <img src={Giichi_Logo_Img} alt="Giichi Logo" className="w-24 md:w-28" />
+            <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-28" />
           </div>
         </a>
 
@@ -202,8 +201,8 @@ const handleMenuLeave = () => {
               </button>
             </div>
           ))}
-          <Link to="https://blog.giichi.network/" target="_blank">
-            <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300">
+          <Link to="https://blog.giichi.network/" target="_blank" rel="noopener noreferrer">
+            <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300 cursor-pointer">
               Blogs
             </button>
           </Link>

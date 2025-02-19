@@ -56,7 +56,7 @@ const IndustriesData = [
 const IndustriesCard = ({ img, title }) => {
     return (
       <div className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center">
-        <img src={img} alt="" className="w-20" />
+        <img src={img} alt="industry-images" className="w-20" />
         <p className="text-white pt-4">{title}</p>
       </div>
     );

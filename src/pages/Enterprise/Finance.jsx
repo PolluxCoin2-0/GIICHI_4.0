@@ -113,14 +113,14 @@ const Finance = () => {
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
             Blockchain Applications in Finance: Driving the Change
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
             molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
             saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
             nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
             nesciunt porro voluptas ducimus.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
             molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
             saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
