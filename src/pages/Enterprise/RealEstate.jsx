@@ -1,10 +1,8 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
 import RealServices from "../../components/Enterprise/RealServices";
-import BlockchainCycle from "../../components/Blockchain/BlockchainCycle";
-import LetsTalk from "../../components/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-
+import Faq5 from "../../components/Faq5";
 
 const RealEstate = () => {
   return (
@@ -27,11 +25,10 @@ const RealEstate = () => {
             Real Estate{" "}
             </span>
           </p>
-          <p className="pt-6 text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          <p className="pt-6 text-[17px] font-semibold leading-snug">
+          Revolutionizing real estate by addressing key challenges like <br/>
+          mortgage securitization, inefficient asset management, and illegal <br/>
+          property transfers. 
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -40,7 +37,7 @@ const RealEstate = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Blockchain Solutions for Real Estate{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
@@ -59,22 +56,26 @@ const RealEstate = () => {
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
-            Media and Entertainment Industry: Ripe for Blockchain Adoption
+          Capitalize on Giichi for Blockchain Solutions in Real Estate – We’re the Architects of Change
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          With deep blockchain expertise and a global presence, Giichi IT Solutions empowers clients to redefine the future of real estate. 
+          We transform challenges into opportunities, unlocking limitless possibilities and ensuring success with cutting-edge blockchain innovations.
           </p>
+          
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          At Giichi IT Solutions, we lead the way in blockchain-powered real estate solutions, ensuring transparency, efficiency, and security in every transaction. 
+          Our expert team designs cutting-edge blockchain systems to eliminate industry bottlenecks such as:
           </p>
+          <ul className="list-disc px-0 xl:px-28 ml-5">
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Multiple Intermediaries </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Identity Theft</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Delayed Transactions </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Title Disputes </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Data Breaches </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> High Transaction Costs </li>
+          </ul>
+         
         </div>
       </div>
       {/* bottom line */}
@@ -94,24 +95,17 @@ const RealEstate = () => {
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2">
-          Giichi IT Solutions offers a comprehensive suite of blockchain
-          development services to help businesses unlock the full potential of
-          blockchain technology and gain a competitive edge in the evolving Web3
-          landscape.
+        At Giichi IT Solutions, we provide a comprehensive suite of blockchain solutions for real estate, empowering market players with cutting-edge technology and expert talent to revolutionize their existing systems.
         </p>
         {/* services */}
         <RealServices />
       </div>
-
-      {/* Blockchain Process */}
-      <div>
-        <BlockchainCycle title=" Our Blockchain App Development Process" />
-      </div>
-
-      {/* Schedule a free demo */}
-      <div>
-        <LetsTalk buttonText="Schedule A Free Demo" />
-      </div>
+   
+   {/* Faq */}
+   <div>
+    <Faq5/>
+   </div>
+    
 
      
     </div>

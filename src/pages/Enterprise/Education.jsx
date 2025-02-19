@@ -2,8 +2,6 @@
 import BlockchainImg from "../../assets/blockchainImg.png";
 import LetsTalk from "../../components/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import { BsClipboardDataFill } from "react-icons/bs";
-import { GrDocumentPerformance } from "react-icons/gr";
 import insurance from "../../assets/insurance.png";
 
 const Education = () => {
@@ -28,10 +26,7 @@ const Education = () => {
             </span>
           </p>
           <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          Blockchain technology is revolutionizing the education sector <br/>by enhancing security, transparency, and accessibility. 
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -40,13 +35,11 @@ const Education = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Blockchain Solution for Education{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
-            driving the web3 revolution with cutting-edge blockchain development
-            services.
+          Blockchain technology is revolutionizing the education sector by enhancing security, transparency, and accessibility. 
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -59,22 +52,13 @@ const Education = () => {
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
-            Blockchain Application in Education: Embrace Greater Transparency
-            and Credibility
+          Blockchain Application in Education: Embrace Greater Transparency and Credibility
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
+          The education sector is evolving, and blockchain technology is at the forefront of this transformation. By offering secure, decentralized, and transparent records of learning, blockchain enhances credibility, accessibility, and efficiency in education.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
+          At Giichi IT Solutions, we empower educational institutions with cutting-edge blockchain solutions that fortify academic records, automate learning processes, and enhance trust in credentials. Our expert blockchain developers craft tailored solutions to help you redefine education with transparency and security.
           </p>
         </div>
       </div>
@@ -84,120 +68,19 @@ const Education = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
-      {/* Challenges with blockchainn education */}
-      <div className="pt-12 pb-20">
-        <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-          Challenges with the Existing Educational Process:
-          <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
-            What can Blockchain address?
-          </span>{" "}
-        </p>
-        <p className="hidden lg:block text-center text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          The existing educational system is beset with the following
-          inefficiencies that lead to an <br />
-          unavoidable Blockchain application in education.
-        </p>
-
-        <div className="pt-4">
-          {/* step 1 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white text-3xl exo-font">
-                Inefficient Record Keeping
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Educational institutions currently use paper-based methods to{" "}
-                <br /> manage academic records, certificates, and credentials,{" "}
-                <br />
-                leading to impersonation risks.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
-            </div>
-          </div>
-
-          {/* step 2 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
-            <div className="">
-              <p className="text-white text-3xl exo-font">
-                Learner Performance Tracking
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Educational institutions currently use paper-based methods to{" "}
-                <br /> manage academic records, certificates, and credentials,{" "}
-                <br />
-                leading to impersonation risks.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <GrDocumentPerformance color="#ffffff" size={36} />
-            </div>
-          </div>
-
-          {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white text-3xl exo-font">
-                Ineffective Identity Management
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Educational institutions currently use paper-based methods to{" "}
-                <br /> manage academic records, certificates, and credentials,{" "}
-                <br />
-                leading to impersonation risks.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
-            </div>
-          </div>
-
-          {/* step 4 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
-            <div className="">
-              <p className="text-white text-3xl exo-font">
-                Accountability Issues
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Educational institutions currently use paper-based methods to{" "}
-                <br /> manage academic records, certificates, and credentials,{" "}
-                <br />
-                leading to impersonation risks.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <GrDocumentPerformance color="#ffffff" size={36} />
-            </div>
-          </div>
-
-          {/* step 5 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white text-3xl exo-font">
-                Transcript Availability
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Educational institutions currently use paper-based methods to{" "}
-                <br /> manage academic records, certificates, and credentials,{" "}
-                <br />
-                leading to impersonation risks.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-24">
+    {/* Benefits of blockchain application */}
+      <div className="mt-24">
           <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-            Benefits of Blockchain application <br />
+          Benefits of Blockchain<br />
             <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
               {" "}
               In Education
             </span>
+          </p>
+          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
+          Blockchain technology is reshaping the education sector by enhancing security, accessibility, credibility, and 
+transparency.
+ 
           </p>
           <div>
             <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
@@ -250,7 +133,6 @@ const Education = () => {
             <div></div>
           </div>
         </div>
-      </div>
       {/* Schedule a free demo */}
       <div>
         <LetsTalk buttonText="Schedule A Free Demo" />

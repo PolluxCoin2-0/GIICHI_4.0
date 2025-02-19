@@ -8,21 +8,21 @@ import { LuArrowUpRight } from "react-icons/lu";
 const FrameworksData = [
   {
     logo: insurance,
-    title: "Better Visibility and Transparency",
+    title: "Empowered Copyright Owners",
     description:
-      " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
+      "By reducing reliance on platform providers and intermediaries, blockchain ensures that content creators retain full control over their intellectual property and earnings.",
   },
   {
     logo: insurance,
-    title: " Streamlined Onboarding",
+    title: "Decentralized Payments",
     description:
-      "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
+      "With blockchain, payment collections and ad revenues become more efficient. Smart contracts automate revenue distribution, eliminating unnecessary fees.",
   },
   {
     logo: insurance,
-    title: " Reduced Product Counterfeiting ",
+    title: "Greater Transparency",
     description:
-      "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
+      "The decentralized nature of blockchain enhances transparency in content ownership and lifecycle tracking, ensuring fair use and accountability.",
   },
  ];
 
@@ -60,11 +60,9 @@ const Entertainment = () => {
               Entertainment{" "}
             </span>
           </p>
-          <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          <p className="pt-6 md:text-[15px] lg:text-[17px] font-semibold leading-snug">
+          Secure digital content, prevent piracy, and enhance transparency <br/>
+          across content creation and distribution. Revolutionizing rights <br/>management and monetization with blockchain technology.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -73,13 +71,11 @@ const Entertainment = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Blockchain In Media And Entertainment{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
-            driving the web3 revolution with cutting-edge blockchain development
-            services.
+          Secure digital content, prevent piracy, and enhance transparency across content creation and distribution. Revolutionizing rights management and monetization with blockchain technology.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -92,21 +88,13 @@ const Entertainment = () => {
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
-            Media and Entertainment Industry: Ripe for Blockchain Adoption
+          Media & Entertainment Industry: Ripe for Blockchain Adoption
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28  leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-7">
+          The media and entertainment industry faces challenges like content commoditization, widespread piracy, and copyright infringements. Many users hesitate to pay for premium content, leading to revenue leakage despite new streaming models.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-7 ">
+          Blockchain technology offers a solution by reducing IP infringements, ensuring transparent content ownership, and enabling seamless monetization through smart contracts. At Giichi IT Solutions, we leverage blockchain to transform digital rights management, secure content distribution, and drive revenue growth for creators and businesses.
           </p>
         </div>
       </div>
@@ -120,12 +108,12 @@ const Entertainment = () => {
       <div className="relative mt-20  mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          What Impact can Blockchain in Media Make?
+        <p className="text-white text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+        Impact of Blockchain in Media <br/>
+        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl"> & Entertainment</span>
         </p>
-        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          The implementation of blockchain in media and entertainment can bring
-          a significant change in the industry by enabling the following:
+        <p className="hidden md:block text-sm md:text-[10px] xl:text-[18px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+        Blockchain is set to revolutionize the media and entertainment industry by offering:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
