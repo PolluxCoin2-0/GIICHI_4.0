@@ -85,34 +85,34 @@ const Dashboard = () => {
         <Link to={`https://blog.giichi.network/blog-detail/${blogData[0]?._id}`} className="w-full h-full md:w-[35%] border-[1px] border-white border-opacity-30 px-2 md:px-4 
         rounded-3xl p-2 md:p-4 bg-gray-gradient ">
           <img src={blogData[0]?.blogImages[0]} alt="" className="w-full rounded-2xl" />
-          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px]">
-         <div dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}  className="line-clamp-10 text-justify hyphens-auto" />
-
+          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px]">
+          <div dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}  className="line-clamp-10 text-justify hyphens-auto" />
           </p>
-          <p className="text-white text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px]">
-          GiiCHi CoPilot offers the expertise, tools, and support you need to navigate the complexities of the Web3 ecosystem. With a tailored approach, we help you build, scale, and innovate within the decentralized world, ensuring your success every step of the way. Let us be your guide in making your Web3 ambitions come to life, from concept to execution.
+          
+          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px]">
+          <div dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}  className="line-clamp-10 text-justify hyphens-auto" />
           </p>
         </Link>
 
         <div className="w-full md:w-[65%] mt-4 md:mt-0">
           <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl p-2 md:p-4 bg-gray-gradient">
-            <Link to={`https://blog.giichi.network/blog-detail/${blogData[1]?._id}`} className="w-[50%] relative group overflow-hidden">
+            <Link to={`https://blog.giichi.network/blog-detail/${blogData[1]?._id}`} className="w-[60%] md:w-[50%] relative group overflow-hidden">
               <img src={blogData[1]?.blogImages[0]} alt="" className=" h-full object-center rounded-l-2xl" />
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm inset-0 absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
               {blogData[1]?.shortDescription}
             </p>
             </Link>
 
-            <div className="w-[50%]">
+            <div className="w-[60%] md:w-[50%]">
             <Link to={`https://blog.giichi.network/blog-detail/${blogData[2]?._id}`} className="relative group overflow-hidden" >
               <img src={blogData[2]?.blogImages[0]} alt="" className="w-full h-36 rounded-tr-2xl" />
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute inset-0 bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                  {blogData[2]?.shortDescription}
             </p>
               </Link>
               <Link to={`https://blog.giichi.network/blog-detail/${blogData[3]?._id}`} className="relative group overflow-hidden">
                  <img src={blogData[3]?.blogImages[0]} alt="" className="mt-2 md:mt-4 w-full h-36 rounded-br-2xl" />
-                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm inset-0 absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                  {blogData[3]?.shortDescription}
             </p>
               </Link>
@@ -121,7 +121,7 @@ const Dashboard = () => {
           <div className="flex flex-row w-full space-x-2 md:space-x-4 border-[1px] border-white border-opacity-30 rounded-3xl mt-4 p-2 md:p-4 bg-gray-gradient">
             <Link to={`https://blog.giichi.network/blog-detail/${blogData[4]?._id}`} className="w-[50%] h-40 relative group overflow-hidden">
             <img src={blogData[4]?.blogImages[0]} alt="" className="w-full h-full rounded-l-2xl"  />
-            <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <p className="pt-1 md:pt-4 text-[5px] md:text-sm inset-0 absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                  {blogData[4]?.shortDescription}
             </p>
             </Link>
@@ -132,7 +132,7 @@ const Dashboard = () => {
               alt=""
               className="w-full h-full object-cover rounded-r-2xl"
             />
-            <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <p className="pt-1 md:pt-4 text-[5px] md:text-sm inset-0 absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                {blogData[5]?.shortDescription}
             </p>
           </Link>
