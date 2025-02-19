@@ -37,6 +37,7 @@ import parityImg from "../../../assets/parity.png";
 import opStackImg from "../../../assets/opStack.png";
 import moveImg from "../../../assets/move.png";
 import WhatsAppImg from "../../../assets/whatsapp.png";
+
 const FrameworksData = [
   {
     logo: polygonImg,
@@ -290,19 +291,19 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={FlutterImg} alt="" className="w-6 md:w-10 " />
+                <img src={FlutterImg} alt="flutter-img" className="w-6 md:w-10 " />
                 <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={KotlinImg} alt="" className="w-10 md:w-16" />
+                <img src={KotlinImg} alt="kotlin-img" className="w-10 md:w-16" />
                 <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={DartImg} alt="" className="w-6 md:w-10" />
+                <img src={DartImg} alt="dart-img" className="w-6 md:w-10" />
                 <p className="text-white text-xs md:text-sm pt-2">Dart</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={SwiftImg} alt="" className="w-6 md:w-10" />
+                <img src={SwiftImg} alt="swift-img" className="w-6 md:w-10" />
                 <p className="text-white text-xs md:text-sm pt-2">Swift</p>
               </div>
             </div>
@@ -317,37 +318,37 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={htmlImg} alt="" className="w-10 " />
+                <img src={htmlImg} alt="html-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">HTML</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={cssImg} alt="" className="w-10 " />
+                <img src={cssImg} alt="css-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">CSS</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={jsImg} alt="" className="w-10 " />
+                <img src={jsImg} alt="javacript-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">
                   Javascript
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={tsImg} alt="" className="w-10 " />
+                <img src={tsImg} alt="typescript-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">
                   Typescript
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={reactImg} alt="" className="w-10 " />
+                <img src={reactImg} alt="reactjs-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">
                   ReactJS
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={nextImg} alt="" className="w-10 " />
+                <img src={nextImg} alt="nextjs-img" className="w-10 " />
                 <p className="text-white text-[10px] md:text-sm pt-2">NextJS</p>
               </div>
               <div className="hidden md:flex flex-col justify-center items-center w-[5%] md:w-[10%]">
-                <img src={tailwindImg} alt="" className="w-10" />
+                <img src={tailwindImg} alt="tailwind-img" className="w-10" />
                 <p className="text-white text-nowrap text-[10px] md:text-sm pt-2">
                   Tailwind CSS
                 </p>
@@ -364,25 +365,25 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={expressImg} alt="" className="w-6 md:w-10 " />
+                <img src={expressImg} alt="express-img" className="w-6 md:w-10 " />
                 <p className="text-white text-nowrap text-xs md:text-sm pt-2">
                   Express.js
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={nodeImg} alt="" className="w-6 md:w-10" />
+                <img src={nodeImg} alt="node-img" className="w-6 md:w-10" />
                 <p className="text-white text-nowrap text-xs md:text-sm pt-2">
                   NodeJS
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={mongoImg} alt="" className="w-6 md:w-10 " />
+                <img src={mongoImg} alt="mongo-img" className="w-6 md:w-10 " />
                 <p className="text-white text-nowrap text-xs md:text-sm pt-2">
                   MongoDB
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={rustImg} alt="" className="w-6 md:w-10" />
+                <img src={rustImg} alt="rust-img" className="w-6 md:w-10" />
                 <p className="text-white text-nowrap text-xs md:text-sm pt-2">
                   Rust
                 </p>
@@ -400,11 +401,11 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-start items-center space-x-16 md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={solidityImg} alt="" className="w-12 " />
+                <img src={solidityImg} alt="solidity-img" className="w-12 " />
                 <p className="text-white text-sm pt-2">Solidity</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={moveImg} alt="" className="w-12 " />
+                <img src={moveImg} alt="move-language-img" className="w-12 " />
                 <p className="text-white text-sm pt-2">Move</p>
               </div>
             </div>
@@ -419,7 +420,7 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-center md:justify-start items-center md:space-x-6 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={wordpressImg} alt="" className="w-10 " />
+                <img src={wordpressImg} alt="wordpress-img" className="w-10 " />
                 <p className="text-white text-sm text-center pt-2">Wordpress</p>
               </div>
             </div>
@@ -441,6 +442,7 @@ const BlockchainDevelopment = () => {
         href="https://wa.me/9266416198"
         id="whatsapp-icon"
         target="_blank"
+        rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
       >
         <img src={WhatsAppImg} alt="WhatsApp" className="" />

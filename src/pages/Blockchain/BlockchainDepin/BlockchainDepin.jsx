@@ -22,7 +22,7 @@ import LetsTalk from "../../../components/LetsTalk";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import DepinServices from "../../../components/Blockchain/DepinServices";
 import whatsAppImg from "../../../assets/whatsapp.png";
-
+import Faq3 from "../../../components/Faq3";
 const FrameworksData = [
   {
     logo: depinArchImg,
@@ -300,13 +300,14 @@ const BlockchainDepin = () => {
       </div>
 
       {/* FAQ Section */}
-      <div>{/* <Faq /> */}</div>
+      <div> <Faq3 /> </div>
 
       {/* whatsapp image */}
       <a
         href="https://wa.me/9266416198"
         id="whatsapp-icon"
         target="_blank"
+        rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
       >
         <img src={whatsAppImg} alt="WhatsApp" className="" />

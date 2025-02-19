@@ -4,7 +4,7 @@ import {
 } from "react-icons/md";
 import { useState } from "react";
 
-const Faq1 = () => {
+const Faq3 = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFaq = (index) => {
@@ -13,42 +13,38 @@ const Faq1 = () => {
 
   const faqData = [
     {
-      question: "What is blockchain identity management?",
+      question: "What is DePIN?",
       answer:
-        "Blockchain identity management is a decentralized way of verifying and managing digital identities using blockchain technology. It allows individuals and businesses to have secure, self-sovereign identities without relying on central authorities.",
+        "DePIN is a decentralized network that allows individuals to contribute physical infrastructure (e.g., bandwidth, storage, energy) and earn rewards via blockchain technology.",
     },
     {
-      question: "How does blockchain improve digital identity security?",
+      question: "How does DePIN work?",
       answer:
-        "Blockchain enhances security by storing identity data in a decentralized, tamper-proof ledger, reducing the risk of hacks, identity theft, and unauthorized modifications. It uses cryptographic encryption to protect personal data.",
+        "Users contribute physical resources to the network and receive tokens in return. Blockchain ensures transparency, security, and automated transactions.",
     },
     {
-      question: "How does blockchain-based identity management work?",
+      question: "What resources can I contribute?",
       answer:
-        "Blockchain identity management works by issuing verifiable credentials stored on the blockchain. Users can present these credentials for authentication without exposing their private data, ensuring privacy and security.",
-    },
-    {
-      question:
-        "What industries can benefit from blockchain identity management?",
-      answer:
-        "Blockchain identity solutions are beneficial for banking, healthcare, education, government, supply chain, travel, and e-commerce by enabling secure authentication, compliance, and fraud prevention.",
+        "You can contribute internet bandwidth, storage space, or energy to the network.",
     },
     {
       question:
-        "  How does blockchain identity help with KYC and AML compliance?",
+        "How are rewards distributed?",
       answer:
-        "Blockchain identity management simplifies KYC (Know Your Customer) and AML (Anti-Money Laundering) processes by allowing businesses to verify customer identities instantly while maintaining data integrity and reducing costs.",
+        "Rewards are given based on the amount and quality of resources contributed, usually in the form of tokens.",
     },
     {
-      question: "  Can blockchain identity management prevent identity theft?",
+      question:
+        "  Is DePIN secure?",
       answer:
-        "Yes! Since identities are decentralized and cryptographically secured, hackers cannot alter or steal identity records, making identity theft significantly harder.",
+        "Yes, it uses blockchain for transparency, security, and protection from fraud.",
     },
     {
-      question: " What is a decentralized identity wallet?",
+      question: " How can I participate",
       answer:
-        "A decentralized identity wallet allows users to store and manage their digital identity credentials securely on their devices. It enables them to share only necessary information without exposing full identity details.",
+        "Set up the required devices and contribute resources to start earning rewards in tokens.",
     },
+   
   ];
 
   return (
@@ -95,4 +91,4 @@ const Faq1 = () => {
     </div>
   );
 };
-export default Faq1;
+export default Faq3;

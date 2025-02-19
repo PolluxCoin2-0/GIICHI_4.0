@@ -17,8 +17,8 @@ const AboutUs = () => {
       <div className="relative z-10 -mt-4">
         <img
           src={aboutBannerImg}
-          alt=""
-          className="w-full  h-[700px] object-cover"
+          alt="About-banner-image"
+          className="w-full h-[700px] object-cover"
         />
       </div>
 
@@ -75,19 +75,19 @@ const AboutUs = () => {
         <div className="flex flex-row justify-center items-center space-x-4 md:space-x-12 lg:space-x-20 xl:space-x-72 mt-8">
           <div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 pl-4">
-              <img src={bkImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={bkImg} alt="blockchain" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 BLOCKCHAIN
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
-              <img src={mtImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={mtImg} alt="metaverse" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 METAVERSE
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
-              <img src={crImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={crImg} alt="crypto-solution" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 CRYPTO SOLUTIONS
               </p>
@@ -96,19 +96,19 @@ const AboutUs = () => {
 
           <div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 ">
-              <img src={clImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={clImg} alt="cloud-solution" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 CLOUD SOLUTIONS
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
-              <img src={defiImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={defiImg} alt="defi" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 DEFI
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
-              <img src={aiImg} alt="" className="w-10 md:w-16 rounded-xl" />
+              <img src={aiImg} alt="artificial-intelligence" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 ARTIFICIAL INTELLIGENCE
               </p>
@@ -122,7 +122,7 @@ const AboutUs = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
 
         <div className="w-full md:w-[40%]">
-          <img src={missionImg} alt="" className="w-full xl:w-[70%]" />
+          <img src={missionImg} alt="mission" className="w-full xl:w-[70%]" />
         </div>
         <div className="flex flex-col justify-start items-start w-full  md:w-[60%]">
           <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white">
@@ -152,7 +152,7 @@ const AboutUs = () => {
         {/* first */}
         <div className="w-full md:w-[30%] pr-0  md:pr-6 xl:pr-24 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6 ">
-            <img src={indiaImg} alt="" className="w-12" />
+            <img src={indiaImg} alt="india-map-image" className="w-12" />
             <p className="text-white text-xl font-bold">INDIA</p>
           </div>
           <p className="text-white text-opacity-50 pt-5 ">
@@ -165,7 +165,7 @@ const AboutUs = () => {
         {/* second */}
         <div className="w-full md:w-[30%] pr-0  md:pr-6 xl:pr-24 mt-6 md:mt-0 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
           <div className="flex flex-row items-center space-x-6">
-            <img src={indiaImg} alt="" className="w-12" />
+            <img src={indiaImg} alt="india-map-image" className="w-12" />
             <p className="text-white text-xl font-bold">INDIA</p>
           </div>
           <p className="text-white text-opacity-50 pt-5 ">
@@ -178,7 +178,7 @@ const AboutUs = () => {
         {/* third */}
         <div className="w-full md:w-[30%] pr-0 md:-mt-9 mt-6 ">
           <div className="flex flex-row items-center space-x-6">
-            <img src={dubaiImg} alt="" className="w-12" />
+            <img src={dubaiImg} alt="dubai-flag-image" className="w-12" />
             <p className="text-white text-xl font-bold">DUBAI</p>
           </div>
           <p className="text-white text-opacity-50 pt-5 ">

@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between">
         {/* Logo */}
         <div>
-          <img src={giichiLogo} alt="" className="w-48 md:w-20 lg:w-40 xl:w-full object-contain" />
+          <img src={giichiLogo} alt="Giichi-logo" className="w-48 md:w-20 lg:w-40 xl:w-full object-contain cursor-pointer" />
         </div>
 
         {/* About Us */}
@@ -25,7 +25,7 @@ const Footer = () => {
           HOME
           </p>
           </a>
-          <a href="/about-us">
+          <a href="/about-us" >
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
           ABOUT US
           </p>
@@ -33,9 +33,11 @@ const Footer = () => {
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
           OUR WORKS
           </p>
+          <a href="https://blog.giichi.network/" target="_blank" rel="noopener noreferrer">
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
           BLOGS
           </p>
+          </a>
           <a href="/contact-us">
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
           CONTACT
@@ -100,7 +102,7 @@ const Footer = () => {
           <div className="flex flex-row space-x-5 pt-6">
             <Link
               to="https://x.com/GiichiPvt?t=7FutgqPG6G_2umfDR53SgQ&s=09"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <p className="px-3 md:px-2 lg:px-3 py-3 md:py-2 lg:py-3 rounded-full bg-yellow-gradient transform hover:scale-110 transition-transform duration-300">
                 <FaXTwitter size={24} color="#000000" />
@@ -109,7 +111,7 @@ const Footer = () => {
 
             <Link
               to="https://www.linkedin.com/company/giichi-it-solution/"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <p className="px-3 md:px-2 lg:px-3 py-3 md:py-2 lg:py-3 rounded-full bg-yellow-gradient transform hover:scale-110 transition-transform duration-300">
                 <FaLinkedinIn size={24} color="#000000" />
@@ -118,7 +120,7 @@ const Footer = () => {
 
             <Link
               to="https://www.instagram.com/giichi_labs/?igsh=MWhhY3RpMmtpeHBveA%3D%3D#"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <p className="px-3 md:px-2 lg:px-3 py-3 md:py-2 lg:py-3 rounded-full bg-yellow-gradient transform hover:scale-110 transition-transform duration-300">
                 <FaInstagram size={24} color="#000000" />

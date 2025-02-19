@@ -42,7 +42,7 @@ const MobileNavbar = () => {
         <div className="">
           <img
             src={Giichi_Logo_Img}
-            alt="Giichi Logo"
+            alt="Giichi-Logo"
             className="cursor-pointer w-24 md:w-28"
           />
         </div>

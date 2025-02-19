@@ -1,8 +1,4 @@
 /* eslint-disable react/prop-types */
-
-// import star2Img from "../../assets/star2.png";
-// import circle1Img from "../../assets/circle1.png";
-
 const Forecast = ({ img1, img2, title1, title2, desc1, desc2 }) => {
   return (
     <div className="relative">
@@ -12,7 +8,7 @@ const Forecast = ({ img1, img2, title1, title2, desc1, desc2 }) => {
        {/* block section */}
         <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-12 w-full md:w-full 2xl:w-[70%]">
           <div className="flex flex-col items-center justify-center w-full md:w-[60%] mt-10">
-            <img src={img1} alt="" className="" />
+            <img src={img1} alt="forecast-images" className="" />
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">
               {title1}
             </p>
@@ -22,7 +18,7 @@ const Forecast = ({ img1, img2, title1, title2, desc1, desc2 }) => {
           </div>
 
           <div className="flex flex-col items-center justify-center w-full md:w-[60%] ">
-            <img src={img2} alt="" className="" />
+            <img src={img2} alt="forecast-img" className="" />
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">
               {title2}
             </p>

@@ -33,7 +33,7 @@ const Objectives = () => {
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 mt-4 lg:mt-0">
           {/* Block 1 */}
           <div className="w-[27%] relative group overflow-hidden">
-            <img src={b5Img} alt="" className="w-full h-auto" />
+            <img src={b5Img} alt="blockchain-image" className="w-full h-auto" />
 
             {/* Hover effect content */}
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -52,7 +52,7 @@ const Objectives = () => {
 
           {/* Block 2 */}
           <div className="w-[44%] relative group  overflow-hidden">
-            <img src={b4Img} alt="" className="w-full h-auto" />
+            <img src={b4Img} alt="metaverse-image" className="w-full h-auto" />
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
@@ -73,7 +73,7 @@ const Objectives = () => {
 
           {/* Block 3 */}
           <div className="w-[27%] relative group  overflow-hidden">
-            <img src={b6Img} alt="" className="w-full h-auto" />
+            <img src={b6Img} alt="crypto-solution-image" className="w-full h-auto" />
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[8px] md:text-2xl font-normal md:font-bold">
@@ -94,7 +94,7 @@ const Objectives = () => {
         <div className="w-full flex flex-row justify-between space-x-2 md:space-x-4 pt-2 md:pt-4">
           {/* Block 4 */}
           <div className="w-[33%] relative group  overflow-hidden">
-            <img src={b7Img} alt="" className="w-full h-auto" />
+            <img src={b7Img} alt="artificial-inteligence-image" className="w-full h-auto" />
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
@@ -112,7 +112,7 @@ const Objectives = () => {
 
           {/* Block 5 */}
           <div className="w-[33%] relative group  overflow-hidden">
-            <img src={b8Img} alt="" className="w-full h-auto" />
+            <img src={b8Img} alt="defi-image" className="w-full h-auto" />
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
@@ -132,7 +132,7 @@ const Objectives = () => {
 
           {/* Block 6 */}
           <div className="w-[33%] relative group  overflow-hidden">
-            <img src={b9Img} alt="" className="w-full h-auto" />
+            <img src={b9Img} alt="cloud-solution-image" className="w-full h-auto" />
             <div className="absolute inset-0 bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
               <div className="absolute bottom-0 top-0 left-0 w-full bg-black bg-opacity-50 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
                 <p className="text-[10px] md:text-2xl font-normal md:font-bold">
