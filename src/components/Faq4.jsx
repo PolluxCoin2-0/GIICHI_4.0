@@ -48,8 +48,11 @@ const Faq4 = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-      <div className="text-center">
+    <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 relative">
+       <div className="hidden md:block spotlight spotlight-left"></div>
+       <div className="hidden md:block spotlight2 spotlight-right"></div>
+      <div className="text-center ">
+     
         <p className="text-2xl md:text-3xl font-bold  mb-8">
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Frequently Asked Questions
@@ -60,7 +63,7 @@ const Faq4 = () => {
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[700px]"
+              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[1100px]"
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"

@@ -73,7 +73,7 @@ const Faq = () => {
           {faqData.map((faq, index) => (
             <div
               key={index}
-              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[700px]"
+              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[1100px]"
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"

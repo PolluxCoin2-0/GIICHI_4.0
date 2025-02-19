@@ -3,7 +3,44 @@ import BlockchainImg from "../../assets/blockchainImg.png";
 import LetsTalk from "../../components/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import insurance from "../../assets/insurance.png";
+import { LuArrowUpRight } from "react-icons/lu";
 
+const FrameworksData = [
+  {
+    logo: insurance,
+    title: "Better Visibility and Transparency",
+    description:
+      " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
+  },
+  {
+    logo: insurance,
+    title: " Streamlined Onboarding",
+    description:
+      "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
+  },
+  {
+    logo: insurance,
+    title: " Reduced Product Counterfeiting ",
+    description:
+      "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
+  },
+ 
+
+  
+];
+
+const FrameworksCard = ({ logo, title, description }) => {
+  return (
+    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 hover:scale-105 transition-transform duration-500 ease-in-out">
+      <div className="flex flex-row justify-between items-center ">
+        <img src={logo} alt={title} className="w-12" />
+        <LuArrowUpRight color="#2BB32A" size={28} />
+      </div>
+      <p className="text-white pt-4 text-lg font-bold">{title}</p>
+      <p className="text-white text-opacity-50 pt-2">{description}</p>
+    </div>
+  );
+};
 
 const Entertainment = () => {
   return (
@@ -83,7 +120,7 @@ const Entertainment = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mb-24">
+      <div className="relative mt-20  mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
@@ -94,52 +131,15 @@ const Entertainment = () => {
           a significant change in the industry by enabling the following:
         </p>
 
-        <div className="flex flex-col lg:flex-row justify-between space-x-0 lg:space-x-4 xl:space-x-6 mt-12">
-          <div
-            className="border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl  px-8 py-8 flex flex-col justify-between w-full lg:w-[33%] lg:hover:w-[60%]  
-          transition-all duration-300 ease-in-out"
-          >
-            <img src={insurance} alt="" className="w-20" />
-            <p className="text-white pt-4 lg:h-16 ">
-              Better Visibility and Transparency
-            </p>
-            <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-48 2xl:h-32  ">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
-            </p>
-          </div>
-
-          <div
-            className="mt-4 lg:mt-0 border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl px-8 py-8  flex flex-col justify-between
-            w-full lg:w-[33%] lg:hover:w-[60%]  transition-all duration-300 ease-in-out"
-          >
-            <img src={insurance} alt="" className="w-20" />
-            <p className="text-white pt-4 lg:h-16">Streamlined Onboarding</p>
-            <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-40 2xl:h-32">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
-            </p>
-          </div>
-
-          <div
-            className="mt-4 lg:mt-0 border-[1px] border-white hover:bg-greish-gradient border-opacity-20 rounded-xl px-8 py-8  flex flex-col justify-between
-           w-full lg:w-[33%] lg:hover:w-[60%]  transition-all duration-300 ease-in-out"
-          >
-            <img src={insurance} alt="" className="w-20" />
-            <p className="text-white pt-4  lg:h-16">
-              Reduced Product Counterfeiting
-            </p>
-            <p className="text-[15px]  text-white text-opacity-80 pt-2 lg:h-52 xl:h-40 2xl:h-32">
-              Our experts use smart contracts to develop Blockchain supply chain
-              solutions that give permissioned participants real-time visibility
-              across all supply chain operations and the ability to act earlier
-              in case of any exception.
-            </p>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
+          {FrameworksData.map((data, index) => (
+            <FrameworksCard
+              key={index}
+              logo={data.logo}
+              title={data.title}
+              description={data.description}
+            />
+          ))}
         </div>
       </div>
 
