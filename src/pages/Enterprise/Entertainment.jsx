@@ -66,7 +66,6 @@ const Entertainment = () => {
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">

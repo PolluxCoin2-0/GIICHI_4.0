@@ -82,7 +82,6 @@ const TransportAndLogistics = () => {
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -115,8 +114,6 @@ const TransportAndLogistics = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
-      
-
       {/* Blockchain Supply Chain Network */}
       <div className="relative mt-20  mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
@@ -145,7 +142,6 @@ const TransportAndLogistics = () => {
       <div>
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>
-    
     </div>
   );
 };

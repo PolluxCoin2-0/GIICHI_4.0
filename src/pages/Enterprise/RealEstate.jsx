@@ -32,7 +32,6 @@ const RealEstate = () => {
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -62,21 +61,19 @@ const RealEstate = () => {
           With deep blockchain expertise and a global presence, Giichi IT Solutions empowers clients to redefine the future of real estate. 
           We transform challenges into opportunities, unlocking limitless possibilities and ensuring success with cutting-edge blockchain innovations.
           </p>
-          
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
           At Giichi IT Solutions, we lead the way in blockchain-powered real estate solutions, ensuring transparency, efficiency, and security in every transaction. 
           Our expert team designs cutting-edge blockchain systems to eliminate industry bottlenecks such as:
           </p>
           <ul className="list-disc px-0 xl:px-28 ml-5">
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Multiple Intermediaries </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Identity Theft</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Multiple Intermediaries </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Identity Theft</li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Delayed Transactions </li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Title Disputes </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> Data Breaches </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 "> High Transaction Costs </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Data Breaches </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">High Transaction Costs </li>
           </ul>
-         
-        </div>
+         </div>
       </div>
       {/* bottom line */}
       <div className="flex justify-center items-center pt-16">
@@ -100,14 +97,10 @@ const RealEstate = () => {
         {/* services */}
         <RealServices />
       </div>
-   
    {/* Faq */}
    <div>
     <Faq5/>
    </div>
-    
-
-     
     </div>
   );
 };

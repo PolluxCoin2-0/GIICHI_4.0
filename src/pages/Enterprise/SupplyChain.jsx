@@ -6,7 +6,7 @@ import CalendlyButton from "../../components/resuableComp/Calendly";
 import insurance from "../../assets/insurance.png";
 import Faq4 from "../../components/Faq4";
 import { LuArrowUpRight } from "react-icons/lu";
- 
+
 const FrameworksData = [
   {
     logo: insurance,
@@ -38,8 +38,6 @@ const FrameworksData = [
     description:
       "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
   },
-
-  
 ];
 
 const FrameworksCard = ({ logo, title, description }) => {
@@ -69,7 +67,7 @@ const SupplyChain = () => {
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            Blockchain for Supply {" "}
+              Blockchain for Supply{" "}
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
@@ -77,24 +75,27 @@ const SupplyChain = () => {
             </span>
           </p>
           <p className="pt-6 md:text-[15px] font-semibold leading-snug">
-          Unlock the power of blockchain to revolutionize your supply chain.  <br/>Gain end-to-end visibility,
-          transparency, and full asset control  <br/>across your network, ensuring seamless operations and <br/>
-           eliminating inefficiencies.
+            Unlock the power of blockchain to revolutionize your supply chain.{" "}
+            <br />
+            Gain end-to-end visibility, transparency, and full asset control{" "}
+            <br />
+            across your network, ensuring seamless operations and <br />
+            eliminating inefficiencies.
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-            Blockchain for Supply  Chain Solution{" "}
+              Blockchain for Supply Chain Solution{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50 text-justify hyphens-auto">
-          Unlock the power of blockchain to revolutionize your supply chain. Gain end-to-end visibility,
-          transparency, and full asset control  across your network, ensuring seamless operations and 
-           eliminating inefficiencies.
+            Unlock the power of blockchain to revolutionize your supply chain.
+            Gain end-to-end visibility, transparency, and full asset control
+            across your network, ensuring seamless operations and eliminating
+            inefficiencies.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -107,14 +108,25 @@ const SupplyChain = () => {
 
         <div className="w-full md:w-[65%] ">
           <p className="text-white text-xl md:text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28">
-          Blockchain Supply Chain Development: Build a Transparent, Trusted, and Resilient Network
+            Blockchain Supply Chain Development: Build a Transparent, Trusted,
+            and Resilient Network
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
-          The supply chain industry is rapidly evolving, with innovative technologies reshaping operations and processes. Traditional supply chains, reliant on disjointed data systems and paper-based practices, struggle to leverage vast amounts of data effectively.
+            The supply chain industry is rapidly evolving, with innovative
+            technologies reshaping operations and processes. Traditional supply
+            chains, reliant on disjointed data systems and paper-based
+            practices, struggle to leverage vast amounts of data effectively.
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
-          Blockchain technology is revolutionizing supply chain management, offering unparalleled transparency, traceability, and significant reductions in administrative costs.
-          At Giichi IT Solutions, we specialize in creating blockchain-powered supply chain solutions that digitize operations, reduce costs, and unlock new opportunities—all while maintaining the integrity of your ongoing processes. Our expertise ensures that supply chain leaders can not only overcome disruptions but also build resilient networks that are future-ready.
+            Blockchain technology is revolutionizing supply chain management,
+            offering unparalleled transparency, traceability, and significant
+            reductions in administrative costs. At Giichi IT Solutions, we
+            specialize in creating blockchain-powered supply chain solutions
+            that digitize operations, reduce costs, and unlock new
+            opportunities—all while maintaining the integrity of your ongoing
+            processes. Our expertise ensures that supply chain leaders can not
+            only overcome disruptions but also build resilient networks that are
+            future-ready.
           </p>
         </div>
       </div>
@@ -133,34 +145,40 @@ const SupplyChain = () => {
           </span>
         </p>
         <p className="hidden lg:block text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        Traditional supply chain management processes are riddled with 
-        inefficiencies that create information silos and make asset <br/>
-        tracking cumbersome and time-consuming.
+          Traditional supply chain management processes are riddled with
+          inefficiencies that create information silos and make asset <br />
+          tracking cumbersome and time-consuming.
         </p>
         <p className="block lg:hidden text-sm md:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           The traditional supply chain management process is beset with a
-          plethora of inefficiencies that lead to information silos 
-          and makes asset tracking a cumbersome and time-consuming task.
+          plethora of inefficiencies that lead to information silos and makes
+          asset tracking a cumbersome and time-consuming task.
         </p>
 
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
           <div className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8">
-            <div className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
-             <img src={insurance} alt="" className="w-20" />
+            <div
+              className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
+              <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Lack of Security and Transparency
               </p>
             </div>
-            <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
+            <div
+              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
               <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Costly Data Reconciliation Processes
               </p>
             </div>
-            <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
+            <div
+              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
               <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Disconnected Supply Chain Participants
@@ -169,22 +187,28 @@ const SupplyChain = () => {
           </div>
 
           <div className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8">
-            <div className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%]  
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
+            <div
+              className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%]  
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
               <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Complicated and Manual Record Keeping Methods
               </p>
             </div>
-            <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
+            <div
+              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
               <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Inefficient Asset Traceability
               </p>
             </div>
-            <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient">
+            <div
+              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+            >
               <img src={insurance} alt="" className="w-20" />
               <p className="text-white pt-4 w-[80%] md:w-[60%]">
                 Error-prone and Delayed Business Operations
@@ -196,18 +220,21 @@ const SupplyChain = () => {
 
       {/* Blockchain Supply Chain Network */}
       <div className="relative mt-12 md:mt-20  mb-24">
-  <div className="hidden md:block spotlight spotlight-left"></div>
-  <div className="hidden md:block spotlight2 spotlight-right"></div>
-  <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-    Why Do Supply Chain Networks Run Better on Giichi's Blockchain-Powered
-    Supply Chain Solutions?
-  </p>
-  <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-    As a trusted blockchain development partner, Giichi IT Solutions offers blockchain-powered supply chain solutions to help businesses <br/>
-    optimize operations and eliminate inefficiencies in data management through intuitive workflows.
-  </p>
- 
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+          Why Do Supply Chain Networks Run Better on Giichi's Blockchain-Powered
+          Supply Chain Solutions?
+        </p>
+        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+          As a trusted blockchain development partner, Giichi IT Solutions
+          offers blockchain-powered supply chain solutions to help businesses{" "}
+          <br />
+          optimize operations and eliminate inefficiencies in data management
+          through intuitive workflows.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
           {FrameworksData.map((data, index) => (
             <FrameworksCard
               key={index}
@@ -217,8 +244,7 @@ const SupplyChain = () => {
             />
           ))}
         </div>
-</div>
-
+      </div>
 
       {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
@@ -229,71 +255,84 @@ const SupplyChain = () => {
           </span>
         </p>
         <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        Our blockchain supply chain solutions are packed with user-friendly, advanced features that empower businesses<br/> to efficiently manage their supply chain operations without hassle.
+          Our blockchain supply chain solutions are packed with user-friendly,
+          advanced features that empower businesses
+          <br /> to efficiently manage their supply chain operations without
+          hassle.
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
             <img src={insurance} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[17px]">
-            Reporting Dashboard
+              Reporting Dashboard
             </p>
             <p
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                bottom-12 md:bottom-8 p-4 md:p-2 lg:md:p-4 left-0 right-0 text-center "
             >
-             A comprehensive dashboard that provides real-time insights and detailed analytics for better decision-making and enhanced visibility across supply chain processes.
+              A comprehensive dashboard that provides real-time insights and
+              detailed analytics for better decision-making and enhanced
+              visibility across supply chain processes.
             </p>
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
             <img src={insurance} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[17px]">
-            User Management
+              User Management
             </p>
             <p
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                 bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-              Streamline user access and roles within the supply chain network with robust management tools, ensuring secure and controlled interactions.
+              Streamline user access and roles within the supply chain network
+              with robust management tools, ensuring secure and controlled
+              interactions.
             </p>
           </div>
 
-           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
+          <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
             <img src={insurance} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[17px]">
-            Multi-Currency Wallet
+              Multi-Currency Wallet
             </p>
             <p
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                 bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-             A versatile wallet that supports multiple currencies, enabling businesses to manage and process transactions seamlessly in various currencies within the supply chain ecosystem.
+              A versatile wallet that supports multiple currencies, enabling
+              businesses to manage and process transactions seamlessly in
+              various currencies within the supply chain ecosystem.
             </p>
           </div>
 
-            <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
+          <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
             <img src={insurance} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[17px]">
-            Instant KYC and AML
+              Instant KYC and AML
             </p>
             <p
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                 bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-              Integrated Know Your Customer (KYC) and Anti-Money Laundering (AML) features ensure compliance and secure onboarding of supply chain participants, while simplifying verification processes.
+              Integrated Know Your Customer (KYC) and Anti-Money Laundering
+              (AML) features ensure compliance and secure onboarding of supply
+              chain participants, while simplifying verification processes.
             </p>
           </div>
 
-           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
+          <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
             <img src={insurance} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[17px]">
-            Funds Management System
+              Funds Management System
             </p>
             <p
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                 bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-             A powerful system for managing funds with real-time tracking of total supply, funds in circulation, and more, offering businesses complete control over financial operations.
+              A powerful system for managing funds with real-time tracking of
+              total supply, funds in circulation, and more, offering businesses
+              complete control over financial operations.
             </p>
           </div>
         </div>
