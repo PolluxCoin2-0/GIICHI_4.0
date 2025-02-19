@@ -53,7 +53,7 @@ const Navbar = () => {
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/" },
+            { label: "White Paper Development", link: "/whiteppaper-development" },
             
           ]
         }
