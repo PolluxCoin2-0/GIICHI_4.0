@@ -49,6 +49,13 @@ const Navbar = () => {
             { label: "Gold Tokenization", link: "/" },
             { label: "Asset Management", link: "/" }
           ]
+        },
+        {
+          label: "Whitepaper",
+          items: [
+            { label: "White Paper Development", link: "/" },
+            
+          ]
         }
       ]
     },
