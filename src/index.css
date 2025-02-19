@@ -35,12 +35,12 @@ body{
 
   .custom-prev {
     left: 84%; /* Adjust as needed */
-    top: -30px;
+    top: -60px;
   }
   
   .custom-next {
     left: 92%; /* Adjust as needed */
-    top: -30px;
+    top: -60px;
   }
   
   .slick-slider {
