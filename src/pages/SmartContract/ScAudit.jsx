@@ -1,75 +1,10 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import LetsTalk from "../../components/LetsTalk";
+import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
 import { BsClipboardDataFill } from "react-icons/bs";
-
-const FrameworksData = [
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
-  },
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
-  },
-
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
-  },
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
-  },
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
-  },
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
-  },
-
-  {
-    logo: insurance,
-    title: "Pre-Audit Consultation",
-    description:
-      "We develop self-executing smart contracts that automate agreements, enhance transparency, and eliminate the need for intermediaries in DePIN ecosystems.",
-  },
-  {
-    logo: insurance,
-    title: "DePIN Asset Management",
-    description:
-      "Giichi’s decentralized asset management solutions enable businesses to track, control, and optimize the performance of their physical and digital assets across decentralized infrastructure networks.",
-  },
- 
-];
-const FrameworksCard = ({ logo, title, description }) => {
-    return (
-      <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
-        <div className="flex flex-row justify-between">
-          <img src={logo} alt={title} className="w-20" />
-        </div>
-        <p className="text-white pt-4">{title}</p>
-        <p className="text-white text-opacity-50 pt-2">{description}</p>
-      </div>
-    );
-  };
-
+import Framework from "../../components/Framework";
+import { ScAuditFramework } from "../../components/data/frameworkData";
 
 const ScAudit = () => {
   return (
@@ -167,15 +102,9 @@ const ScAudit = () => {
         <p className="text-white text-opacity-40 pt-6 text-center">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta?
         </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-8 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
+        
+        <div>
+         <Framework data={ScAuditFramework}/>
         </div>
       </div>
     

@@ -2,8 +2,8 @@
 import BlockchainImg from "../../assets/blockchainImg.png";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import insurance from "../../assets/insurance.png";
-import Faq6 from "../../components/Faq6";
-
+import Faq from "../../components/Faq";
+import { EducationFaq } from "../../components/data/faqsData";
 const Education = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
@@ -197,7 +197,7 @@ const Education = () => {
 
       {/* faq */}
       <div>
-        <Faq6 />
+        <Faq data={EducationFaq} />
       </div>
     </div>
   );

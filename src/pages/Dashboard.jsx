@@ -1,8 +1,8 @@
 import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";
-import LetsTalk from "../components/LetsTalk";
-import Typewriter from "../components/Typewriter";
+import LetsTalk from "../components/resuableComp/LetsTalk";
+import Typewriter from "../components/resuableComp/Typewriter";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import whatsAppImg from "../assets/whatsapp.png";

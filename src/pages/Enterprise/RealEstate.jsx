@@ -2,7 +2,8 @@
 import BlockchainImg from "../../assets/blockchainImg.png";
 import RealServices from "../../components/Enterprise/RealServices";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import Faq5 from "../../components/Faq5";
+import Faq from "../../components/Faq";
+import { RealEstateFaq } from "../../components/data/faqsData";
 
 const RealEstate = () => {
   return (
@@ -99,7 +100,7 @@ const RealEstate = () => {
       </div>
    {/* Faq */}
    <div>
-    <Faq5/>
+    <Faq data={RealEstateFaq}/>
    </div>
     </div>
   );

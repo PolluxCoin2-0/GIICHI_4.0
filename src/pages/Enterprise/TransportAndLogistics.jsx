@@ -1,60 +1,11 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import LetsTalk from "../../components/LetsTalk";
+import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
 import Forecast from "../../components/Blockchain/Forecast";
-import bkDev1Img from "../../assets/bkDev1.png";
-import bkDev2Img from '../../assets/bkDev2.png';
-import { LuArrowUpRight } from "react-icons/lu";
-
-const FrameworksData = [
-  {
-    logo: insurance,
-    title: "Better Visibility and Transparency",
-    description:
-      " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
-  },
-  {
-    logo: insurance,
-    title: " Streamlined Onboarding",
-    description:
-      "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
-  },
-  {
-    logo: insurance,
-    title: " Reduced Product Counterfeiting ",
-    description:
-      "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
-  },
-  {
-    logo: insurance,
-    title: " Secured Supply Chain Operations ",
-    description:
-      "Our blockchain solutions secure your entire supply chain network by using encrypted records on permissioned blockchains, safeguarding your data from unauthorized access.",
-  },
-  {
-    logo: insurance,
-    title: "Seamless Team Collaboration",
-    description:
-      "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
-  },
-
-  
-];
-
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 hover:scale-105 transition-transform duration-500 ease-in-out">
-      <div className="flex flex-row justify-between items-center ">
-        <img src={logo} alt={title} className="w-12" />
-        <LuArrowUpRight color="#2BB32A" size={28} />
-      </div>
-      <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
-    </div>
-  );
-};
+import Framework from "../../components/Framework";
+import { TransportFramework } from "../../components/data/frameworkData";
+import { TransportForecast } from "../../components/data/forecastData";
 
 const TransportAndLogistics = () => {
   return (
@@ -99,14 +50,7 @@ const TransportAndLogistics = () => {
 
       {/* Bloackchain transport & Logistics forecast */}
       <div className="mt-6 md:mt-20">
-        <Forecast
-          img1={bkDev1Img}
-          img2={bkDev2Img}
-          title1="Blockchain for Transportation: Paving the Road for the Future"
-          title2="Giichi IT Solutions: Integrating Blockchain in Transportation"
-          desc1="The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. "
-          desc2="At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers."
-        />
+        <Forecast data={TransportForecast} />
       </div>
 
       {/* bottom line */}
@@ -125,17 +69,9 @@ const TransportAndLogistics = () => {
         Our blockchain-based solution for the transportation industry provides a more transparent and secure approach to business operations, <br/>
         ensuring immutable transaction records, improved provenance tracking, and enhanced coordination across the supply chain. 
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
-        </div>
+       <div>
+       <Framework data={TransportFramework }/>
+       </div>
       </div>
 
       {/* Schedule a free demo */}

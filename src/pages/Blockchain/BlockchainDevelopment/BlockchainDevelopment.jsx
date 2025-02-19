@@ -1,14 +1,11 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../../assets/blockchainImg.png";
-import bkDev1Img from "../../../assets/bkDev1.png";
-import bkDev2Img from "../../../assets/bkDev2.png";
 import Forecast from "../../../components/Blockchain/Forecast";
 import Services from "../../../components/Blockchain/Services";
 import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
 import Industries from "./Industries";
-import LetsTalk from "../../../components/LetsTalk";
+import LetsTalk from "../../../components/resuableComp/LetsTalk";
 import Faq from "../../../components/Faq";
-import { LuArrowUpRight } from "react-icons/lu";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
 import FlutterImg from "../../../assets/Flutter.png";
 import KotlinImg from "../../../assets/kotlin.png";
@@ -27,80 +24,15 @@ import mongoImg from "../../../assets/mongo.png";
 import rustImg from "../../../assets/rust.png";
 import solidityImg from "../../../assets/solidity.png";
 import wordpressImg from "../../../assets/wordpress.png";
-import polygonImg from "../../../assets/polygon.png";
-import zkSyncImg from "../../../assets/zksync.png";
-import avlancheImg from "../../../assets/avlanche.png";
-import cosmosDkImg from "../../../assets/cosmosDk.png";
-import polkadotImg from "../../../assets/polkadot.png";
-import arbitrumImg from "../../../assets/arbitrum.png";
-import parityImg from "../../../assets/parity.png";
-import opStackImg from "../../../assets/opStack.png";
 import moveImg from "../../../assets/move.png";
 import WhatsAppImg from "../../../assets/whatsapp.png";
+import {BlockchainDevelopmentFaq} from "../../../components/data/faqsData";
+import { BlockchainDevelopmentService } from "../../../components/data/ServicesData";
+import { BlockchainDevelopmentCycle } from "../../../components/data/developmentCycleData";
+import { BlockchainDevelopmentForecast } from "../../../components/data/forecastData";
+import Framework from "../../../components/Framework";
+import { BlockchainDevelopmentFramework } from "../../../components/data/frameworkData";
 
-const FrameworksData = [
-  {
-    logo: polygonImg,
-    title: "Polygon zkEVM",
-    description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
-  },
-  {
-    logo: zkSyncImg,
-    title: " zkSync Hyperchains",
-    description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
-  },
-  {
-    logo: avlancheImg,
-    title: " Avalanche Subnets ",
-    description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
-  },
-  {
-    logo: cosmosDkImg,
-    title: " Cosmos SDK ",
-    description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
-  },
-  {
-    logo: polkadotImg,
-    title: " Polkadot Parachains",
-    description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
-  },
-  {
-    logo: arbitrumImg,
-    title: " Arbitrum Orbit ",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: parityImg,
-    title: " Parity Substrate ",
-    description:
-      "A modular and highly efficient framework by Parity Technologies, designed for building flexible and scalable blockchain architectures.",
-  },
-  {
-    logo: opStackImg,
-    title: "  OP Stack ",
-    description:
-      "A standardized development framework for launching Layer 2 blockchains with production-ready infrastructure, similar to OP Mainnet.",
-  },
-];
-
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
-      <div className="flex flex-row justify-between ">
-        <img src={logo} alt={title} className="w-12" />
-        <LuArrowUpRight color="#2BB32A" size={28} />
-      </div>
-      <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
-    </div>
-  );
-};
 
 const BlockchainDevelopment = () => {
   return (
@@ -152,12 +84,7 @@ const BlockchainDevelopment = () => {
       {/* Bloackchain forecast */}
       <div className="mt-6 md:mt-20">
         <Forecast
-          img1={bkDev1Img}
-          img2={bkDev2Img}
-          title1="Blockchain Development Solutions: Powering Scalable Growth in the Web3 Economy"
-          title2="Blockchain Market Forecast: Growth Projections & Emerging  Opportunities"
-          desc1="As businesses embrace decentralization, blockchain technology plays a vital role in ensuring security, efficiency, transparency, and compliance across industries. Giichi IT Solutions specializes in delivering customized blockchain development solutions, leveraging expertise across 40+ blockchain protocols. Our team of experts builds scalable and innovative blockchain applications tailored to businesses worldwide."
-          desc2="The blockchain industry is on a remarkable growth trajectory, with the market expected to reach nearly $1,000 trillion by 2032, according to Statista. The cryptocurrency market is also set to expand, with an estimated 861 million users by 2025, and user penetration projected to rise to 11.02%. On a global scale, the United States is forecasted to generate the $9,788 million in revenue in 2024, leading the crypto market. "
+        data={BlockchainDevelopmentForecast}
         />
       </div>
       {/* bottom line */}
@@ -183,7 +110,7 @@ const BlockchainDevelopment = () => {
           landscape.
         </p>
         {/* services */}
-        <Services />
+        <Services data={BlockchainDevelopmentService}/>
       </div>
 
       {/* Industries  */}
@@ -247,21 +174,14 @@ const BlockchainDevelopment = () => {
           maintaining high transaction throughput and security.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
-        </div>
+       <div>
+        <Framework data={BlockchainDevelopmentFramework}/>
+       </div>
       </div>
 
       {/* Blockchain Process */}
       <div>
-        <BlockchainCycle title=" Our Blockchain App Development Process" />
+        <BlockchainCycle title=" Our Blockchain App Development Process" data={BlockchainDevelopmentCycle}/>
       </div>
 
       {/* Technology Stack */}
@@ -434,7 +354,7 @@ const BlockchainDevelopment = () => {
       </div>
       {/* FAQ SECTION */}
       <div>
-        <Faq />
+        <Faq data={BlockchainDevelopmentFaq} />
       </div>
 
       {/* whatsapp image */}

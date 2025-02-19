@@ -1,57 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import LetsTalk from "../../components/LetsTalk";
+import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import insurance from "../../assets/insurance.png";
-import Faq4 from "../../components/Faq4";
-import { LuArrowUpRight } from "react-icons/lu";
-
-const FrameworksData = [
-  {
-    logo: insurance,
-    title: "Better Visibility and Transparency",
-    description:
-      " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
-  },
-  {
-    logo: insurance,
-    title: " Streamlined Onboarding",
-    description:
-      "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
-  },
-  {
-    logo: insurance,
-    title: " Reduced Product Counterfeiting ",
-    description:
-      "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
-  },
-  {
-    logo: insurance,
-    title: " Secured Supply Chain Operations ",
-    description:
-      "Our blockchain solutions secure your entire supply chain network by using encrypted records on permissioned blockchains, safeguarding your data from unauthorized access.",
-  },
-  {
-    logo: insurance,
-    title: "Seamless Team Collaboration",
-    description:
-      "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
-  },
-];
-
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
-      <div className="flex flex-row justify-between items-center ">
-        <img src={logo} alt={title} className="w-12" />
-        <LuArrowUpRight color="#2BB32A" size={28} />
-      </div>
-      <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
-    </div>
-  );
-};
+import { SuppyChainFaq } from "../../components/data/faqsData";
+import Faq from "../../components/Faq";
+import Framework from "../../components/Framework";
+import { SupplyChainFramework } from "../../components/data/frameworkData";
 
 const SupplyChain = () => {
   return (
@@ -233,16 +189,8 @@ const SupplyChain = () => {
           optimize operations and eliminate inefficiencies in data management
           through intuitive workflows.
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
+        <div>
+        <Framework data={SupplyChainFramework}/>
         </div>
       </div>
 
@@ -344,7 +292,7 @@ const SupplyChain = () => {
       </div>
       {/* FAQ SECTION */}
       <div>
-        <Faq4 />
+        <Faq data={SuppyChainFaq} />
       </div>
     </div>
   );
