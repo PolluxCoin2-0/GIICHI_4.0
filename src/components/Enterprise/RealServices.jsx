@@ -1,34 +1,34 @@
 /* eslint-disable react/prop-types */
 const servicesData = [
   {
-    title: "Blockchain Consultation & Integration",
+    title: " Real Estate Tokenization",
     description:
-      "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+      "We develop blockchain-based solutions to facilitate seamless rental property transactions. By tokenizing real estate assets, properties can be traded digitally, enabling secure and efficient transactions. Our solutions cover technology, legal, and auditing processes to help raise capital through property-backed tokens, ensuring compliance with various jurisdictions via smart contracts.",
   },
   {
-    title: "Layer 2 Development",
+    title: " Real Estate Property Search Platform",
     description:
-      "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+      "We automate the entire home-buying process with blockchain-powered platforms. Buyers can explore listings, take physical or virtual tours, and finalize purchases effortlessly. Smart contracts streamline transactions, eliminating unnecessary delays and paperwork.",
   },
   {
-    title: "Blockchain Protocol Development",
+    title: "Real Estate Marketplace Platform",
     description:
-      "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+      "Our blockchain-powered real estate marketplace ensures secure, customizable asset issuance while maintaining regulatory compliance. This reduces costs, minimizes counterparty risk, and enhances liquidity potential. With rapid, customizable issuance, firms can cater to investor demands more precisely, transforming real estate investments.",
   },
   {
     title: "Mortgage Securitization Platform",
     description:
-      "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+      "Traditional loan and mortgage approvals are slow and insecure due to paper-based, non-standardized processes. Our blockchain-powered mortgage securitization platform automates approvals, secures transactions with smart contracts, and ensures real-time payment distribution to beneficiaries. Regulators receive instant reporting, making loan lifecycle management more efficient and transparent.",
   },
   {
-    title: "NFT Marketplace Development",
+    title: " Digital Registry Platform Development",
     description:
-      "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+      "Secure asset titles and documentation are crucial for investor confidence and seamless transactions. Our blockchain-based digital registry streamlines real estate records, ensuring transparency, fraud prevention, and regulatory compliance while unlocking access to financing and economic growth.",
   },
   {
-    title: "Smart Contract Development & Audit",
+    title: "Real Estate Construction Management",
     description:
-      "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+      "Large construction projects face sub-contracting inefficiencies, procurement delays, and supply chain opacity. Our blockchain solutions for real estate construction simplify procurement, automate contract management, verify product authenticity, and optimize project oversight—enhancing efficiency, reducing risks, and ensuring seamless execution.",
   },
 ];
 
