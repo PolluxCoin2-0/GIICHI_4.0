@@ -13,7 +13,7 @@ const Forecast = ({data}) => {
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">
               {data.title1}
             </p>
-            <p className="text-sm md:text-[17px] font-normal text-white text-opacity-50 text-center pt-6 px-0 xl:px-28 ">
+            <p className="text-sm md:text-[17px] font-light text-white text-opacity-50 pt-6 px-0 xl:px-[85px] text-justify tracking-normal hyphens-auto leading-normal break-words whitespace-normal">
               {data.desc1}
             </p>
           </div>
@@ -23,7 +23,7 @@ const Forecast = ({data}) => {
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">
               {data.title2}
             </p>
-            <p className="text-sm md:text-[17px] font-normal text-white text-opacity-50 text-center pt-10 px-0 xl:px-28 ">
+            <p className="text-sm md:text-[17px] font-light text-white text-opacity-50 pt-10 px-0 xl:px-[94px] text-justify tracking-normal hyphens-auto leading-normal break-words whitespace-normal">
               {data.desc2}
             </p>
           </div>

@@ -19,7 +19,7 @@ const Objectives = () => {
       </p>
       {/* Heading 2*/}
       <div className="flex flex-row justify-between">
-        <p className="text-sm md:text-lg font-semibold text-white text-opacity-70 pt-4 md:pt-6">
+        <p className="text-sm md:text-lg font-medium text-white text-opacity-70 pt-4 md:pt-6">
           Giichi is focused on leveraging Web3 technology to provide
           decentralized solutions, <br />
           empowering users with enhanced security, transparency, and control
