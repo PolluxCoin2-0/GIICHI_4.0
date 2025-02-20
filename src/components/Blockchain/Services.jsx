@@ -11,7 +11,7 @@ const ServicesCard = ({ title, description, isLastInRow,  }) => {
         <p className="text-white text-lg font-bold border-b-2 border-white border-opacity-20 pb-2">
           {title}
         </p>
-        <p className="text-sm text-white text-opacity-70 pt-4">{description}</p>
+        <p className="text-sm text-white text-opacity-70 pt-4 leading-6 tracking-normal text-justify">{description}</p>
       </div>
     </div>
   );
