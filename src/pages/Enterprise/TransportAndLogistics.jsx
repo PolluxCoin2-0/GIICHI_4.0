@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import TransportBannerImg from "../../assets/TransportBanner.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import Forecast from "../../components/Blockchain/Forecast";
@@ -13,8 +13,8 @@ const TransportAndLogistics = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={TransportBannerImg}
+          alt="Transport-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -29,7 +29,7 @@ const TransportAndLogistics = () => {
             </span>
           </p>
           <p className="pt-6 md:text-[12px] lg:text-lg font-semibold leading-snug">
-          Embrace Augmented Security, Trust in Data, and Streamlined Logistics Management
+          Embrace Augmented Security, Trust in Data, and <br/>Streamlined Logistics Management
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -59,13 +59,15 @@ const TransportAndLogistics = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20  mb-24">
+      <div className="relative mt-20 mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        Blockchain in Transport : How can our Solution Help?
+        Blockchain in Transport : <br/>
+        <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl">How can our Solution Help?
+          </span>
         </p>
-        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center leading-6">
         Our blockchain-based solution for the transportation industry provides a more transparent and secure approach to business operations, <br/>
         ensuring immutable transaction records, improved provenance tracking, and enhanced coordination across the supply chain. 
         </p>

@@ -46,7 +46,7 @@ const BlockchainStep = ({ step, title, description }) => (
 );
 
 const BlockchainCycle = ({ title, data }) => (
-  <div className="relative bg-[#283430] bg-opacity-10 mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
+  <div className="relative bg-[#283430] bg-opacity-10 mt-24 pb-16 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
     <div className="hidden md:block spotlight spotlight-right"></div>
     <div className="flex flex-row space-x-20">
       <span className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-3xl font-semibold pt-14 pb-14">

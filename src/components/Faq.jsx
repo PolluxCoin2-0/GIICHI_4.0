@@ -13,7 +13,9 @@ const Faq = ({data}) => {
   };
 
   return (
-    <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+    <div className="flex items-center justify-center mt-10 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
       <div className="text-center">
         <p className="text-2xl md:text-3xl font-bold  mb-8">
           <span className="text-transparent bg-clip-text bg-green-gradient">
