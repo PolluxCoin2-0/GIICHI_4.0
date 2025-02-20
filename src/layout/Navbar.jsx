@@ -25,19 +25,19 @@ const Navbar = () => {
           items: [
             { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
             { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
-            { label: "Entertainment", link: "/blockchain-in-entertainment" },
-            { label: "Real-Estate", link: "/blockchain-in-real-estate" },
-            { label: "Education", link: "/blockchain-in-education" },
-            { label: "Finance", link: "/blockchain-in-finance" },
-            { label: "Healthcare", link: "/blockchain-in-healthcare" },
+            { label: "Entertainment", link: "/" },
+            { label: "Real-Estate", link: "/" },
+            { label: "Education", link: "/" },
+            { label: "Finance", link: "/" },
+            { label: "Healthcare", link: "/" },
            
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/smart-contract-development" },
-            { label: "Smart Contract Audit", link: "/smart-contract-audit" }
+            { label: "Smart Contract Development", link: "/" },
+            { label: "Smart Contract Audit", link: "/" }
           ]
         },
         {
@@ -53,7 +53,7 @@ const Navbar = () => {
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/whiteppaper-development" },
+            { label: "White Paper Development", link: "/" },
             
           ]
         }

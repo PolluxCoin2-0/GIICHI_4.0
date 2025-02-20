@@ -190,7 +190,7 @@ const BlockchainDevelopment = () => {
           </span>
         </p>
 
-        <p className="text-white text-opacity-40 pt-6 text-center">
+        <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
           We leverage cutting-edge technologies and platforms being practiced in
           the <br /> global market and stay abreast of the latest market trends.
         </p>
