@@ -228,7 +228,7 @@ const handleMenuLeave = () => {
 
       {activeMenu && (
         <div 
-          className="absolute left-0 w-full flex justify-center backdrop-blur-3xl"
+          className="absolute left-0 w-full flex justify-center  backdrop-blur-3xl"
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
