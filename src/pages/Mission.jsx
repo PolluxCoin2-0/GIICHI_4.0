@@ -152,7 +152,8 @@ const Mission = () => {
         <div className="flex justify-between items-center w-[250px] ">
           <button
             onClick={toggleDescription}
-            className="text-orange font-medium leading-snug py-4 text-justify"
+            className="text-orange font-medium leading-snug py-4 text-justify focus:outline-none"
+            aria-label="read more content" type="button" title="Click to read more description"
           >
             {isExpanded ? (
               <FiMinusCircle size={24} color="#ffffff" />

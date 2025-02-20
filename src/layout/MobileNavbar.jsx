@@ -50,6 +50,7 @@ const MobileNavbar = () => {
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none  "
+          aria-label="Contact-form" type="button" title="Click to Contact form"
         >
           {isMenuOpen ? (
             <FaTimes className="h-6 w-6" />

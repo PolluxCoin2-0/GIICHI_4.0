@@ -67,7 +67,8 @@ const Dashboard = () => {
           <Link to="/contact-us">
             <button
               type="button"
-              className="bg-green-gradient cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-12 py-3 text-white rounded-full text-lg md:text-xl text-nowrap transform hover:scale-105 transition-transform duration-300"
+              aria-label="Contact us "  title="Click to contact us form"
             >
               Contact Us
             </button>
@@ -75,7 +76,8 @@ const Dashboard = () => {
           <Link to="/about-us">
             <button
               type="button"
-              className="bg-black shadow-inner cursor-pointer shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="bg-black focus:outline-none shadow-inner cursor-pointer shadow-lightGray text-white text-lg md:text-xl px-6 lg:px-12 py-3 rounded-full text-nowrap transform hover:scale-105 transition-transform duration-300"
+              aria-label="About giichi"  title="Click to visit About page"
             >
               About GiiCHi
             </button>

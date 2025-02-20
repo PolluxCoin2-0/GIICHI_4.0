@@ -200,7 +200,8 @@ const ContactForm = () => {
             <button
               type="button"
               onClick={handleSubmit}
-              className="text-black bg-yellow-gradient w-full py-2 rounded-md font-semibold"
+              className="text-black bg-yellow-gradient w-full py-2 rounded-md font-semibold focus:outline-none"
+              aria-label="Submit" title="Click to submit"
             >
               {isloading ? <Loader /> : "Submit"}
             </button>
