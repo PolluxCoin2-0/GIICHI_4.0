@@ -21,7 +21,9 @@ import Supp8Img from "../../assets/Supp8.png";
 import Supp9Img from "../../assets/Supp9.png";
 import Supp10Img from "../../assets/Supp10.png";
 import Supp11Img from "../../assets/Supp11.png";
-
+import Trans1Img from "../../assets/Tran1.png";
+import Trans2Img from "../../assets/Tran2.png";
+import Trans3Img from "../../assets/Tran3.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -271,19 +273,19 @@ export const EntertainmentFramework = [
 
  export const TransportFramework = [
    {
-     logo: insurance,
+     logo: Trans1Img,
      title: "Better Security",
      description:
        "Access key transaction data via a private, secure, and transparent shared ledger. This ensures you can spot fraud-prone areas and prevent manipulation of contract terms by enabling the immutable recording of agreed conditions, providing protection against unauthorized changes.",
    },
    {
-     logo: insurance,
+     logo: Trans2Img,
      title: "Trust in Digitized Data",
      description:
        "Eliminate the time-consuming and error-prone paperwork by digitizing critical information and securely posting it to the blockchain. This streamlined process ensures safe access to trusted data, reducing fraudulent activities and increasing transparency across operations.",
    },
    {
-     logo: insurance,
+     logo: Trans3Img,
      title: "Efficient Industry Interactions",
      description:
        "Enhance collaboration between suppliers, consumers, freight forwarders, and other stakeholders. Blockchain ensures a single, trusted source of truth for all participants, allowing for better dispute resolution, smoother interactions, and more efficient processes across the supply chain.",
