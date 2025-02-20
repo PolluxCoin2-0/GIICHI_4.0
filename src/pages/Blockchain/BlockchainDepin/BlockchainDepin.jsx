@@ -126,7 +126,7 @@ const BlockchainDepin = () => {
       </div>
 
       {/* Forecast */}
-      <div className="mt-10">
+      <div className="mt-6 md:mt-20">
         <Forecast data={BlockchainDepinForecast}/>
       </div>
 
