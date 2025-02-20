@@ -96,10 +96,10 @@ const BlockchainDevelopment = () => {
       <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 tracking-wide leading-relaxed">
           Our Blockchain
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
             Development Services
           </span>
         </p>
@@ -143,10 +143,10 @@ const BlockchainDevelopment = () => {
       <div className="relative mt-12 md:mt-24 ">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="hidden md:block text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          Blockchain Frameworks We Utilize <br /> for{" "}
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            L2/L3 Development
+        <p className="hidden md:block text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          Blockchain Frameworks We Utilize <br /> {" "}
+          <span className="block pt-4 text-transparent bg-clip-text bg-green-gradient">
+          for L2/L3 Development
           </span>
         </p>
         <p className="block md:hidden text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -156,22 +156,17 @@ const BlockchainDevelopment = () => {
           </span>
         </p>
 
-        <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] lg:text-[15px]  xl:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="hidden md:block text-white text-opacity-40 pt-6 text-center text-sm md:text-[17px] lg:text-[15px]  xl:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 leading-6">
           At Giichi IT Solutions, our team of expert blockchain developers
           specializes in Layer 2 and Layer 3 blockchain solutions, <br />
           leveraging advanced frameworks to enhance scalability, efficiency, and
-          interoperability. We focus on implementing cutting-edge
-          <br />
-          rollup technologies, enabling seamless L2/L3 chain deployment while
-          maintaining high transaction throughput and security.
+          interoperability.
         </p>
         <p className="block md:hidden text-white text-opacity-70 pt-6 text-center text-sm md:text-[17px] px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           At Giichi IT Solutions, our team of expert blockchain developers
           specializes in Layer 2 and Layer 3 blockchain solutions, leveraging
           advanced frameworks to enhance scalability, efficiency, and
-          interoperability. We focus on implementing cutting-edge rollup
-          technologies, enabling seamless L2/L3 chain deployment while
-          maintaining high transaction throughput and security.
+          interoperability.
         </p>
 
        <div>
@@ -185,7 +180,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Technology Stack */}
-      <div className="relative mt-12 ">
+      <div className="relative mt-12 2xl:mt-20 ">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
@@ -349,7 +344,7 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Schedule a free demo */}
-      <div>
+      <div className="mt-12">
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>
       {/* FAQ SECTION */}

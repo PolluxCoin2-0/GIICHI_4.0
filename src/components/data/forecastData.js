@@ -4,6 +4,8 @@ import identityImg from "../../assets/BlockchainId1.png";
 import identityDataImg from "../../assets/BlockchainId2.png";
 import depinImg from "../../assets/depin (2).png";
 import depinSolImg from "../../assets/depinsol2.png";
+import TransportFeature1Img from "../../assets/TransportFeature.png";
+import TransportFeature2Img from "../../assets/TransportFeature2.png";
 
 export const BlockchainDevelopmentForecast = {
   img1: bkDev1Img,
@@ -44,8 +46,8 @@ export const BlockchainDepinForecast = {
 };
 
 export const TransportForecast = {
-   img1:bkDev1Img,
-    img2:bkDev2Img,
+   img1:TransportFeature1Img,
+    img2:TransportFeature2Img,
     title1:"Blockchain for Transportation: Paving the Road for the Future",
     title2:"Giichi IT Solutions: Integrating Blockchain in Transportation",
     desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",

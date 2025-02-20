@@ -16,6 +16,12 @@ import depinScImg from "../../assets/depinSc.png";
 import depinServiceImg from "../../assets/depinService.png";
 import depinTokenImg from "../../assets/depinToken.png";
 import insurance from "../../assets/insurance.png";
+import Supp7Img from "../../assets/Supp7.png";
+import Supp8Img from "../../assets/Supp8.png";
+import Supp9Img from "../../assets/Supp9.png";
+import Supp10Img from "../../assets/Supp10.png";
+import Supp11Img from "../../assets/Supp11.png";
+
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -232,31 +238,31 @@ export const EntertainmentFramework = [
 
  export const SupplyChainFramework = [
    {
-     logo: insurance,
+     logo: Supp7Img,
      title: "Better Visibility and Transparency",
      description:
        " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
    },
    {
-     logo: insurance,
+     logo: Supp8Img,
      title: " Streamlined Onboarding",
      description:
        "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
    },
    {
-     logo: insurance,
+     logo: Supp9Img,
      title: " Reduced Product Counterfeiting ",
      description:
        "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
    },
    {
-     logo: insurance,
+     logo: Supp10Img,
      title: " Secured Supply Chain Operations ",
      description:
        "Our blockchain solutions secure your entire supply chain network by using encrypted records on permissioned blockchains, safeguarding your data from unauthorized access.",
    },
    {
-     logo: insurance,
+     logo: Supp11Img,
      title: "Seamless Team Collaboration",
      description:
        "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
@@ -266,34 +272,24 @@ export const EntertainmentFramework = [
  export const TransportFramework = [
    {
      logo: insurance,
-     title: "Better Visibility and Transparency",
+     title: "Better Security",
      description:
-       " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
+       "Access key transaction data via a private, secure, and transparent shared ledger. This ensures you can spot fraud-prone areas and prevent manipulation of contract terms by enabling the immutable recording of agreed conditions, providing protection against unauthorized changes.",
    },
    {
      logo: insurance,
-     title: " Streamlined Onboarding",
+     title: "Trust in Digitized Data",
      description:
-       "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
+       "Eliminate the time-consuming and error-prone paperwork by digitizing critical information and securely posting it to the blockchain. This streamlined process ensures safe access to trusted data, reducing fraudulent activities and increasing transparency across operations.",
    },
    {
      logo: insurance,
-     title: " Reduced Product Counterfeiting ",
+     title: "Efficient Industry Interactions",
      description:
-       "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
+       "Enhance collaboration between suppliers, consumers, freight forwarders, and other stakeholders. Blockchain ensures a single, trusted source of truth for all participants, allowing for better dispute resolution, smoother interactions, and more efficient processes across the supply chain.",
    },
-   {
-     logo: insurance,
-     title: " Secured Supply Chain Operations ",
-     description:
-       "Our blockchain solutions secure your entire supply chain network by using encrypted records on permissioned blockchains, safeguarding your data from unauthorized access.",
-   },
-   {
-     logo: insurance,
-     title: "Seamless Team Collaboration",
-     description:
-       "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
-   },
+   
+   
  ];
 
  export const ScAuditFramework =  [
