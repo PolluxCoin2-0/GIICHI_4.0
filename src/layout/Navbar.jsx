@@ -36,8 +36,8 @@ const Navbar = () => {
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/smart-contract-development" },
-            { label: "Smart Contract Audit", link: "/smart-contract-audit" }
+            { label: "Smart Contract Development", link: "" },
+            { label: "Smart Contract Audit", link: "" }
           ]
         },
         {
@@ -48,6 +48,13 @@ const Navbar = () => {
             { label: "Fund Tokenization", link: "/" },
             { label: "Gold Tokenization", link: "/" },
             { label: "Asset Management", link: "/" }
+          ]
+        },
+        {
+          label: "Whitepaper",
+          items: [
+            { label: "White Paper Development", link: "" },
+            
           ]
         }
       ]
@@ -221,7 +228,7 @@ const handleMenuLeave = () => {
 
       {activeMenu && (
         <div 
-          className="absolute left-0 w-full flex justify-center backdrop-blur-md"
+          className="absolute left-0 w-full flex justify-center backdrop-blur-3xl"
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >

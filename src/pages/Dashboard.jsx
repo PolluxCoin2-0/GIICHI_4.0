@@ -1,8 +1,8 @@
 import Mission from "./Mission";
 import Objectives from "./Objectives";
 import Review from "../components/Review";
-import LetsTalk from "../components/LetsTalk";
-import Typewriter from "../components/Typewriter";
+import LetsTalk from "../components/resuableComp/LetsTalk";
+import Typewriter from "../components/resuableComp/Typewriter";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import whatsAppImg from "../assets/whatsapp.png";
@@ -121,9 +121,10 @@ const Dashboard = () => {
               <img
                 src={blogData[1]?.blogImages[0]}
                 alt="blogs-image"
-                className="w-full h-full object-center rounded-l-2xl z-20"
+                className="w-full h-full object-center rounded-2xl z-20"
               />
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 
+              text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
                 {blogData[1]?.shortDescription}
               </p>
             </Link>
@@ -136,9 +137,10 @@ const Dashboard = () => {
                 <img
                   src={blogData[2]?.blogImages[0]}
                   alt="blogs-image"
-                  className="w-full h-36 rounded-tr-2xl z-20"
+                  className="w-full h-36 rounded-2xl z-20 object-cover"
                 />
-                <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full h-1/2 bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
+                <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full h-1/2 bg-black bg-opacity-70 text-white p-1 
+                md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
                   {blogData[2]?.shortDescription}
                 </p>
               </Link>
@@ -150,7 +152,7 @@ const Dashboard = () => {
                 <img
                   src={blogData[3]?.blogImages[0]}
                   alt="blogs-image"
-                  className="mt-2 md:mt-4 w-full h-36 rounded-br-2xl z-20"
+                  className="mt-2 md:mt-4 w-full h-36 rounded-2xl z-20 object-cover"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
                   {blogData[3]?.shortDescription}
@@ -167,9 +169,11 @@ const Dashboard = () => {
               <img
                 src={blogData[4]?.blogImages[0]}
                 alt="blogs-image"
-                className="w-full h-full rounded-l-2xl z-20"
+                className="w-full h-full rounded-2xl z-20 object-cover"
               />
-              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
+              <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full
+               bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 
+               group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
                 {blogData[4]?.shortDescription}
               </p>
             </Link>
@@ -182,7 +186,7 @@ const Dashboard = () => {
               <img
                 src={blogData[5]?.blogImages[0]}
                 alt="blogs-image"
-                className="w-full h-full object-cover rounded-r-2xl z-20"
+                className="w-full h-full object-cover rounded-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
                 {blogData[5]?.shortDescription}

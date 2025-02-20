@@ -1,86 +1,23 @@
 /* eslint-disable react/prop-types */
 import BlockchainDepinImg from "../../../assets/depin.png";
 import Forecast from "../../../components/Blockchain/Forecast";
-import depinImg from "../../../assets/depin (2).png";
-import depinSolImg from "../../../assets/depinsol2.png";
-import depinArchImg from "../../../assets/depinArch.png";
-import depinApiImg from "../../../assets/depinApi.png";
-import depinAssetImg from "../../../assets/depinAsset.png";
-import depinAuditImg from "../../../assets/depinAudit.png";
-import depinDevImg from "../../../assets/depinDev.png";
-import depinGoverImg from "../../../assets/depinGover.png";
-import depinScImg from "../../../assets/depinSc.png";
-import depinServiceImg from "../../../assets/depinService.png";
-import depinTokenImg from "../../../assets/depinToken.png";
 import logictisImg from "../../../assets/logictics.png";
 import realStateImg from "../../../assets/real-estate.png";
 import energyImg from "../../../assets/energy.png";
 import satelliteImg from "../../../assets/satellite.png";
 import manufactureImg from "../../../assets/manufacture.png";
 import healthImg from "../../../assets/health.png";
-import LetsTalk from "../../../components/LetsTalk";
+import LetsTalk from "../../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
-import DepinServices from "../../../components/Blockchain/DepinServices";
+import Services from "../../../components/Blockchain/Services";
 import whatsAppImg from "../../../assets/whatsapp.png";
-import Faq3 from "../../../components/Faq3";
-const FrameworksData = [
-  {
-    logo: depinArchImg,
-    title: "DePIN Architecture Design",
-    description:
-      "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
-  },
-  {
-    logo: depinServiceImg,
-    title: "DePIN Consulting Services",
-    description:
-      "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
-  },
+import { BlockchainDepinFaq } from "../../../components/data/faqsData";
+import Faq from "../../../components/Faq";
+import { BlockchainDepinService } from "../../../components/data/ServicesData";
+import { BlockchainDepinForecast } from "../../../components/data/forecastData";
+import Framework from "../../../components/Framework";
+import { BlockchainDepinFramework } from "../../../components/data/frameworkData";
 
-  {
-    logo: depinTokenImg,
-    title: "DePIN Tokenization Service",
-    description:
-      "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
-  },
-  {
-    logo: depinDevImg,
-    title: "DePIN Marketplace Development",
-    description:
-      "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
-  },
-  {
-    logo: depinApiImg,
-    title: "DePIN API Development",
-    description:
-      "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
-  },
-  {
-    logo: depinAuditImg,
-    title: "DePIN Audit and Security",
-    description:
-      "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
-  },
-
-  {
-    logo: depinAssetImg,
-    title: "DePIN Smart Contract Development",
-    description:
-      "We develop self-executing smart contracts that automate agreements, enhance transparency, and eliminate the need for intermediaries in DePIN ecosystems.",
-  },
-  {
-    logo: depinGoverImg,
-    title: "DePIN Asset Management",
-    description:
-      "Giichi’s decentralized asset management solutions enable businesses to track, control, and optimize the performance of their physical and digital assets across decentralized infrastructure networks.",
-  },
-  {
-    logo: depinScImg,
-    title: "DePIN Governance",
-    description:
-      "We implement decentralized governance frameworks that allow stakeholders to participate in decision-making processes through transparent and democratic voting mechanisms.",
-  },
-];
 
 const DepinUseCaseData = [
   {
@@ -122,17 +59,7 @@ const DepinUseCaseData = [
   },
 ];
 
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6">
-      <div className="flex flex-row justify-between">
-        <img src={logo} alt={title} className="" />
-      </div>
-      <p className="text-white pt-4">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
-    </div>
-  );
-};
+
 
 const DepinUseCaseCard = ({ logo, title, description }) => {
   return (
@@ -199,15 +126,8 @@ const BlockchainDepin = () => {
       </div>
 
       {/* Forecast */}
-      <div className="mt-10">
-        <Forecast
-          img1={depinImg}
-          img2={depinSolImg}
-          title1="Revolutionize your infrastructure with Giichi’s DePIN expertise!"
-          title2="DePin Solutions: Future-Proofing Your Infrastructure for Business Growth"
-          desc1="Traditional infrastructure systems often face inefficiencies, centralization risks, and high operational costs. The rise of DePIN (Decentralized Physical Infrastructure Networks) is driven by the need for secure, transparent, and scalable management of physical assets across industries. "
-          desc2="Giichi empowers businesses to embrace this transformation by delivering customized DePIN solutions that streamline infrastructure management. Our cutting-edge DePIN development services help organizations seamlessly integrate decentralized networks, transforming their physical infrastructure into future-ready, high-performance systems."
-        />
+      <div className="mt-6 md:mt-20">
+        <Forecast data={BlockchainDepinForecast}/>
       </div>
 
       {/* bottom line */}
@@ -230,16 +150,9 @@ const BlockchainDepin = () => {
           decentralized infrastructure and optimize operational efficiency.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
-        </div>
+       <div>
+       <Framework data={BlockchainDepinFramework}/>
+       </div>
       </div>
 
       {/* connect section */}
@@ -291,7 +204,7 @@ const BlockchainDepin = () => {
           the fundamental components of DePIN (Decentralized Physical
           Infrastructure Networks) is crucial.
         </p>
-        <DepinServices />
+        <Services data={BlockchainDepinService}/>
       </div>
 
       {/* connect section */}
@@ -300,7 +213,7 @@ const BlockchainDepin = () => {
       </div>
 
       {/* FAQ Section */}
-      <div> <Faq3 /> </div>
+      <div> <Faq data={BlockchainDepinFaq}/> </div>
 
       {/* whatsapp image */}
       <a

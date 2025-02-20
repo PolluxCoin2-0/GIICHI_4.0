@@ -1,43 +1,9 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import LetsTalk from "../../components/LetsTalk";
+import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
-import { LuArrowUpRight } from "react-icons/lu";
-
-const FrameworksData = [
-  {
-    logo: insurance,
-    title: "Empowered Copyright Owners",
-    description:
-      "By reducing reliance on platform providers and intermediaries, blockchain ensures that content creators retain full control over their intellectual property and earnings.",
-  },
-  {
-    logo: insurance,
-    title: "Decentralized Payments",
-    description:
-      "With blockchain, payment collections and ad revenues become more efficient. Smart contracts automate revenue distribution, eliminating unnecessary fees.",
-  },
-  {
-    logo: insurance,
-    title: "Greater Transparency",
-    description:
-      "The decentralized nature of blockchain enhances transparency in content ownership and lifecycle tracking, ensuring fair use and accountability.",
-  },
- ];
-
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 hover:scale-105 transition-transform duration-500 ease-in-out">
-      <div className="flex flex-row justify-between items-center ">
-        <img src={logo} alt={title} className="w-12" />
-        <LuArrowUpRight color="#2BB32A" size={28} />
-      </div>
-      <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
-    </div>
-  );
-};
+import Framework from "../../components/Framework";
+import { EntertainmentFramework } from "../../components/data/frameworkData";
 
 const Entertainment = () => {
   return (
@@ -66,7 +32,6 @@ const Entertainment = () => {
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -116,16 +81,9 @@ const Entertainment = () => {
         Blockchain is set to revolutionize the media and entertainment industry by offering:
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64 ">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
-        </div>
+       <div>
+       <Framework data={EntertainmentFramework}/>
+       </div>
       </div>
 
       {/* Schedule a free demo */}

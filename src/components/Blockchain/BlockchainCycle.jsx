@@ -10,14 +10,9 @@ const ArrowButton = ({ direction, onClick }) => (
   <div
     className={`custom-arrow custom-${direction}`}
     onClick={onClick}
-    style={{
-      display: "flex",
-      alignItems: "center",
-      cursor: "pointer",
-      color: "#2BB32A",
-    }}
+    style={{ display: "flex", alignItems: "center", cursor: "pointer", color: "#2BB32A" }}
   >
-    {direction === 'prev' ? <FaChevronLeft size={24} /> : <FaChevronRight size={24} />}
+    {direction === "prev" ? <FaChevronLeft size={24} /> : <FaChevronRight size={24} />}
   </div>
 );
 
@@ -33,22 +28,11 @@ const sliderSettings = {
   prevArrow: <ArrowButton direction="prev" />,
   nextArrow: <ArrowButton direction="next" />,
   responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 425,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
+    { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+    { breakpoint: 425, settings: { slidesToShow: 1, slidesToScroll: 1 } },
   ],
 };
+
 
 // Reusable BlockchainStep Component
 const BlockchainStep = ({ step, title, description }) => (
@@ -61,8 +45,8 @@ const BlockchainStep = ({ step, title, description }) => (
   </div>
 );
 
-const BlockchainCycle = ({ title }) => (
-  <div className="relative bg-[#283430] bg-opacity-10 mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
+const BlockchainCycle = ({ title, data }) => (
+  <div className="relative bg-[#283430] bg-opacity-10 mt-24 pb-16 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64">
     <div className="hidden md:block spotlight spotlight-right"></div>
     <div className="flex flex-row space-x-20">
       <span className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-3xl font-semibold pt-14 pb-14">
@@ -70,56 +54,9 @@ const BlockchainCycle = ({ title }) => (
       </span>
     </div>
     <Slider {...sliderSettings}>
-      <BlockchainStep
-        step="01."
-        title="Requirement Analysis"
-        description="We begin by understanding your business objectives, use cases, and technical requirements to define the project scope and feasibility."
-      />
-      <BlockchainStep
-        step="02."
-        title="Blockchain Consultation"
-        description="Our experts analyze the best blockchain platform, consensus mechanism, and architecture to align with your business goals."
-      />
-      <BlockchainStep
-        step="03."
-        title="Technical Architecture & Planning"
-        description="We design the system architecture, select the technology stack, and outline the development roadmap, ensuring a strong foundation."
-      />
-      <BlockchainStep
-        step="04."
-        title="UI/UX Design"
-        description="Our design team creates user-friendly interfaces that enhance accessibility and improve the overall experience of the blockchain application."
-      />
-      <BlockchainStep
-        step="05."
-        title="Smart Contract Development"
-        description="We develop and implement secure, efficient, and self-executing smart contracts tailored to your blockchain application's functionality."
-      />
-      <BlockchainStep
-        step="06."
-        title="Core Blockchain Development"
-        description="Our developers integrate blockchain components such as consensus algorithms, nodes, and APIs, ensuring seamless interoperability and scalability."
-      />
-      <BlockchainStep
-        step="07."
-        title="Testing & Security Audit"
-        description="Rigorous testing, including functionality, performance, and security audits, is conducted to identify vulnerabilities and optimize the application."
-      />
-      <BlockchainStep
-        step="08."
-        title="Deployment & Network Setup"
-        description="We deploy the blockchain solution on the preferred mainnet or testnet, ensuring smooth functionality and seamless integration."
-      />
-      <BlockchainStep
-        step="09."
-        title="Monitoring & Optimization"
-        description="Post-launch monitoring and performance tracking are implemented to enhance security, efficiency, and user experience."
-      />
-      <BlockchainStep
-        step="10."
-        title="Maintenance & Upgrades"
-        description="We provide ongoing support, updates, and feature enhancements to keep your blockchain app future-ready and competitive."
-      />
+      {data.map((step, index) => (
+        <BlockchainStep key={index} {...step} />
+      ))}
     </Slider>
   </div>
 );

@@ -1,63 +1,9 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import LetsTalk from "../../components/LetsTalk";
+import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
-
-const FrameworksData = [
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
-  },
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
-  },
-
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
-  },
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
-  },
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
-  },
-  {
-    logo: insurance,
-    title: "drug trancelbity",
-    description:
-      "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
-  },
-
-  
-];
-
-
-const FrameworksCard = ({ logo, title, description }) => {
-  return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
-      <div className="flex flex-row justify-center ">
-        <img src={logo} alt={title} className="w-24" />
-      </div>
-      <p className="text-white pt-4 text-center">{title}</p>
-      <p className="text-white text-opacity-50 pt-2 text-center">{description}</p>
-    </div>
-  );
-};
+import Framework from "../../components/Framework";
+import { HealthcareFramework } from "../../components/data/frameworkData";
 
 const Healthcare = () => {
   return (
@@ -165,17 +111,8 @@ const Healthcare = () => {
           The implementation of blockchain in media and entertainment can bring
           a significant change in the industry by enabling the following:
         </p>
-
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-12 gap-6 md:gap-8 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          {FrameworksData.map((data, index) => (
-            <FrameworksCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
+        <div>
+        <Framework data={HealthcareFramework}/>
         </div>
       </div>
 
