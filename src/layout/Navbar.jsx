@@ -23,21 +23,21 @@ const Navbar = () => {
         {
           label: "Enterprise Blockchain",
           items: [
-            { label: "Supply Chain", link: "" },
-            { label: "Transport & Logistics", link: "" },
-            { label: "Entertainment", link: "" },
-            { label: "Real-Estate", link: "" },
-            { label: "Education", link: "" },
-            { label: "Finance", link: "" },
-            { label: "Healthcare", link: "" },
+            { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
+            { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
+            { label: "Entertainment", link: "/" },
+            { label: "Real-Estate", link: "/" },
+            { label: "Education", link: "/" },
+            { label: "Finance", link: "/" },
+            { label: "Healthcare", link: "/" },
            
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "" },
-            { label: "Smart Contract Audit", link: "" }
+            { label: "Smart Contract Development", link: "/" },
+            { label: "Smart Contract Audit", link: "/" }
           ]
         },
         {
@@ -53,7 +53,7 @@ const Navbar = () => {
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "" },
+            { label: "White Paper Development", link: "/" },
             
           ]
         }
