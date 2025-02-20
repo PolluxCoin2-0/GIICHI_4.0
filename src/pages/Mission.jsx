@@ -93,6 +93,11 @@ const Mission = () => {
     autoplaySpeed: 2000,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
+    afterChange: (index) => {
+      document.querySelectorAll(".slick-slide").forEach((slide, i) => {
+        slide.setAttribute("aria-hidden", i === index ? "false" : "true");
+      });
+    },
     responsive: [
       {
         breakpoint: 1024,
