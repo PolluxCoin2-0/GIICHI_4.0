@@ -106,10 +106,14 @@ const MobileNavbar = () => {
                 </li>
                 {isEnterpriseOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/blockchain-in-supply-chain">
                     <p className="text-white text-xs "> Supply Chain</p>
+                    </Link>
+                    <Link to="/blockchain-in-transport-and-logistics">
                     <p className="text-white text-xs pt-2">
                       Transport & Logistics
                     </p>
+                    </Link>
                     <p className=" text-white text-xs pt-2"> Real-Estate </p>
                     <p className=" text-white text-xs pt-2"> Education </p>
                     <p className=" text-white text-xs pt-2"> Finance</p>
