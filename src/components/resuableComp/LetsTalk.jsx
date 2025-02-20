@@ -60,6 +60,7 @@ const LetsTalk = ({ buttonText }) => {
               <button
                 type="button"
                 className="text-nowrap text-sm md:text-lg cursor-pointer"
+                aria-label="Connect-on-whatsapp" title="Connect on WhatsApp"
               >
                 {buttonText}
               </button>

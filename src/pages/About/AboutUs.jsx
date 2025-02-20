@@ -48,7 +48,8 @@ const AboutUs = () => {
           className="flex justify-center mt-8 cursor-pointer"
           onClick={() => window.open("https://wa.me/9266416198", "_blank")}
         >
-          <button className="bg-green-gradient px-5 lg:px-4 xl:px-10 py-2 xl:py-3 rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300">
+          <button className="bg-green-gradient px-5 lg:px-4 xl:px-10 py-2 xl:py-3 focus:outline-none rounded-full text-lg lg:text-sm xl:text-lg text-nowrap font-semibold transform hover:scale-105 transition-transform duration-300"
+          aria-label="Go to contact form" type="button" title="Click to Contact form">
             Get In Touch
           </button>
         </div>

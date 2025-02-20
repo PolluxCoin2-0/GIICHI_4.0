@@ -203,13 +203,15 @@ const handleMenuLeave = () => {
               onMouseEnter={() => handleMenuEnter(key)}
               onMouseLeave={handleMenuLeave}
             >
-              <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300">
+              <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300"
+               aria-label="label-demo" type="button" title="Click ">
                 {value.label}
               </button>
             </div>
           ))}
           <Link to="https://blog.giichi.network/" target="_blank" rel="noopener noreferrer">
-            <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300 cursor-pointer">
+            <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300 cursor-pointer"
+             aria-label="Go to blogs" type="button" title="Click to Blogs page">
               Blogs
             </button>
           </Link>
@@ -219,7 +221,8 @@ const handleMenuLeave = () => {
           <div 
             className="hidden lg:block cursor-pointer"
           >
-            <button className="bg-green-gradient px-4 xl:px-5 py-2 xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300">
+            <button className="bg-green-gradient px-4 xl:px-5 py-2 xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300" 
+            aria-label="Contact form" type="button" title="Click to access contact form">
               Get In Touch
             </button>
           </div>
