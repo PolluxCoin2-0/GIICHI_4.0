@@ -102,7 +102,7 @@ const ReviewCard = ({review, name}) => {
   return (
     <div>
          <div className="w-full mt-16 pr-0 md:pr-4 lg:pr-12 md:relative mb-8 after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent">
-          <p className="text-white text-opacity-70 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[17px] h-[160px]">
+          <p className="text-white text-opacity-70 md:border-b-2 border-white border-opacity-20 pb-6 text-sm md:text-[15px] h-[160px] leading-relaxed tracking-wide font-light text-justify">
           {review}
           </p>
 
