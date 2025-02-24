@@ -31,7 +31,7 @@ const Dashboard = () => {
       {/* Section 1 */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 ">
         {/* Heading 2 */}
-        <p className="text-center">
+        <h1 className="text-center">
           <motion.h1
             className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
             initial={{ opacity: 0, y: -50 }}
@@ -53,7 +53,7 @@ const Dashboard = () => {
               GiiCHi
             </span>
           </motion.h1>
-        </p>
+        </h1>
 
         {/* Heading 3 */}
         <div className="flex flex-row justify-center items-center h-10 md:h-20">
