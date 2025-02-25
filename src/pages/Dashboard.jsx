@@ -31,7 +31,6 @@ const Dashboard = () => {
       {/* Section 1 */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 ">
         {/* Heading 2 */}
-        <h1 className="text-center">
           <motion.h1
             className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
             initial={{ opacity: 0, y: -50 }}
@@ -40,20 +39,11 @@ const Dashboard = () => {
             viewport={{ once: false }}
           >
             Unlock Web3 Success <br />
-          </motion.h1>
-          <motion.h1
-            className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            viewport={{ once: false }}
-          >
             by Partnering with{" "}
             <span className="text-transparent bg-clip-text bg-green-gradient">
               GiiCHi
             </span>
           </motion.h1>
-        </h1>
 
         {/* Heading 3 */}
         <div className="flex flex-row justify-center items-center h-10 md:h-20">
