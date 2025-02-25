@@ -19,7 +19,7 @@ const CalendlyButton = () => {
     // Initialize the Calendly widget
     if (window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: 'https://calendly.com/priyanshu_pollux/30min',
+        url: 'https://calendly.com/giichi-network',
       });
     }
     return false;
