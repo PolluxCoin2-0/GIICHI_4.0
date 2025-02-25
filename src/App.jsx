@@ -48,7 +48,7 @@ function App() {
            <Route path="/blockchain-in-healthcare" element={<Healthcare/>} />
            <Route path="/smart-contract-development" element={<ScDevelopment/>}/>
            <Route path="/smart-contract-audit" element={<ScAudit/>}/>
-           <Route path="/whiteppaper-development" element={<WhitepaperDev/>}/>
+           <Route path="/whitepaper-development" element={<WhitepaperDev/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
