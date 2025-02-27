@@ -122,7 +122,7 @@ const AssetManagement = () => {
            <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12">
              <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
              Choosing Giichi for Digital <br/>
-             <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Asset Tokenization</span></p>
+             <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Asset Management</span></p>
               {/* Reviews Grid Layout */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
                {/* Custom First Card */}
@@ -130,7 +130,7 @@ const AssetManagement = () => {
                 <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-2xl font-bold text-white">
                    Why choose Giichi for Asset <br />
                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                   Tokenization Services?
+                   Management Services?
                    </span>
                  </h3>
                  <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
