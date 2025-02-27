@@ -15,7 +15,7 @@ import Finance from "./pages/Enterprise/Finance";
 import Healthcare from "./pages/Enterprise/Healthcare";
 import ScDevelopment from "./pages/SmartContract/ScDevelopment";
 import ScAudit from "./pages/SmartContract/ScAudit";
-import AssetManagement from "./pages/Tokenization/AssetToken";
+import AssetManagement from "./pages/Tokenization/AssetManagement";
 import AssetToken from "./pages/Tokenization/AssetToken";
 import RealEstateToken from "./pages/Tokenization/RealEstateToken";
 import WhitepaperDev from "./pages/WhitepaperDev";
