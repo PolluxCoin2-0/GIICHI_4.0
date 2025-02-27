@@ -161,78 +161,78 @@ export const EntertainmentFramework = [
      logo: depinArchImg,
      title: "Capital Markets",
      description:
-       "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
+       "Eliminate single points of failure with decentralized utilities, reducing settlement time and costs. Digitize processes to improve efficiency and minimize counterparty risk.",
    },
    {
      logo: depinArchImg,
-     title: "Payments and Remittance",
+     title: "Payments & Remittance",
      description:
-       "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
+       "Leverage blockchain to enable instant cross-border payments with lower transaction fees, enhanced security, and direct peer-to-peer transfers—removing intermediaries for faster settlements.",
    },
  
    {
      logo: depinArchImg,
-     title: "DePIN Tokenization Service",
+     title: "Trade Finance",
      description:
-       "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
+       "Simplify global trade by eliminating third-party intermediaries and paperwork. Blockchain enables real-time document updates, reducing delays and boosting transaction efficiency.",
    },
    {
      logo: depinArchImg,
-     title: "DePIN Marketplace Development",
+     title: "Banking & Lending",
      description:
-       "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
+       "Enhance lending processes with real-time KYC/AML verification, automated fund disbursement, and secure documentation. Improve operational efficiency while reducing costs.",
    },
    {
      logo: depinArchImg,
-     title: "DePIN API Development",
+     title: "KYC & AML Compliance",
      description:
-       "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
+       "Automate identity verification with a single, secure repository of customer information. Blockchain ensures tamper-proof records and controlled data sharing for improved compliance.",
    },
    {
      logo: depinArchImg,
-     title: "DePIN Audit and Security",
+     title: "Asset Management",
      description:
-       "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
+       "Digitize assets to improve market access, liquidity, and fractional ownership. Blockchain simplifies fund launches and enhances stakeholder management.",
    },
  ];
 
  export const HealthcareFramework = [
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: " Drug Traceability",
      description:
-       "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
+       "Prevent counterfeit and unauthorized drugs by implementing blockchain-based tracking for pharmaceuticals.",
    },
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: "Optimized Supply Chain Management",
      description:
-       "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
+       "Enhance efficiency and transparency by tracking the origin and movement of medicines and medical devices in real-time.",
    },
  
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: "Enhanced Data Security",
      description:
-       "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
+       "Protect sensitive patient records with decentralized, tamper-proof storage, reducing data breaches and privacy risks.",
    },
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: " Improved Interoperability",
      description:
-       "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
+       "Facilitate secure data exchange across healthcare institutions, allowing doctors instant access to accurate medical records.",
    },
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: " Faster Payment Processing",
      description:
-       "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
+       "Streamline billing, insurance claims, and transactions with secure and automated blockchain-based payments.",
    },
    {
      logo: insurance,
-     title: "drug trancelbity",
+     title: " Regulatory Compliance",
      description:
-       "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
+       "Ensure compliance with healthcare regulations through transparent and immutable record-keeping.",
    },
  
    
@@ -294,56 +294,85 @@ export const EntertainmentFramework = [
    
  ];
 
- export const ScAuditFramework =  [
+ export const ScDevelopmentFramework =  [
    {
      logo: insurance,
-     title: "Pre-Audit Consultation",
+     title: " Smart Contract Architecture",
      description:
-       "Our team specializes in designing scalable and resilient decentralized networks that seamlessly integrate with physical infrastructure. Using best-in-class blockchain technology, we create systems that enhance communication between devices and nodes.",
+       "We design resilient smart contract architecture to ensure security, scalability, and efficiency in every project.",
    },
    {
      logo: insurance,
-     title: "Pre-Audit Consultation",
+     title: " Smart Contract Development",
      description:
-       "Navigating the complexities of decentralized infrastructure can be challenging. Our DePIN consulting services provide strategic insights to help businesses implement the right DePIN solutions efficiently and effectively.",
-   },
- 
-   {
-     logo: insurance,
-     title: "Pre-Audit Consultation",
-     description:
-       "Giichi’s DePIN tokenization service enables businesses to convert physical assets into digital tokens on the blockchain, ensuring secure transactions while adhering to regulatory compliance.",
-   },
-   {
-     logo: insurance,
-     title: "Pre-Audit Consultation",
-     description:
-       "We build custom DePIN marketplaces that connect digital infrastructure providers, investors, and users through a decentralized platform designed for scalability and seamless user experience.",
-   },
-   {
-     logo: insurance,
-     title: "Pre-Audit Consultation",
-     description:
-       "Our API development services allow seamless integration of decentralized functionalities into existing applications, providing real-time data access and interoperability between DePIN systems.",
-   },
-   {
-     logo: insurance,
-     title: "Pre-Audit Consultation",
-     description:
-       "Security is a top priority. Giichi performs rigorous DePIN audits to identify potential vulnerabilities, implement robust security measures, and safeguard decentralized networks against cyber threats.",
+       "Our team develops custom, self-executing smart contracts tailored for various industries, enabling seamless automation.",
    },
  
    {
      logo: insurance,
-     title: "Pre-Audit Consultation",
+     title: "Smart Contract Audit",
      description:
-       "We develop self-executing smart contracts that automate agreements, enhance transparency, and eliminate the need for intermediaries in DePIN ecosystems.",
+       "We offer comprehensive smart contract audits to identify and rectify vulnerabilities, ensuring your contracts are secure and error-free.",
    },
    {
      logo: insurance,
-     title: "DePIN Asset Management",
+     title: " Smart Contract Optimization",
      description:
-       "Giichi’s decentralized asset management solutions enable businesses to track, control, and optimize the performance of their physical and digital assets across decentralized infrastructure networks.",
+       "Our experts optimize smart contracts to reduce gas fees and enhance efficiency, making transactions cost-effective.",
    },
+
   
  ];
+
+ export const ScAuditFramework =  [
+  {
+    logo: insurance,
+    title: "Pre-Audit Consultation",
+    description:
+      "We begin with an in-depth discussion to understand your contract’s functionality, objectives, and requirements to customize the audit accordingly.",
+  },
+  {
+    logo: insurance,
+    title: "Automated Analysis",
+    description:
+      "Using cutting-edge security tools, we conduct an initial scan to identify common vulnerabilities quickly and efficiently.",
+  },
+
+  {
+    logo: insurance,
+    title: " Manual Code Review",
+    description:
+      "Our expert auditors perform a line-by-line analysis to detect complex logic errors that automated tools might overlook.",
+  },
+  {
+    logo: insurance,
+    title: "Functional Testing",
+    description:
+      "We test smart contract behavior under various real-world scenarios to ensure flawless execution and logic integrity.",
+  },
+  {
+    logo: insurance,
+    title: "Vulnerability Assessment",
+    description:
+      "A deep security analysis uncovers potential attack vectors, preventing exploits before they happen.",
+  },
+  {
+    logo: insurance,
+    title: "Detailed Reporting",
+    description:
+      "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",
+  },
+  {
+    logo: insurance,
+    title: "Third-Party Verification",
+    description:
+      "To enhance credibility, we integrate external validation for an additional layer of scrutiny and trust.",
+  },
+  {
+    logo: insurance,
+    title: " Remediation Support",
+    description:
+      "Beyond auditing, we assist in patching vulnerabilities and optimizing your smart contract security for seamless deployment.",
+  },
+ 
+];

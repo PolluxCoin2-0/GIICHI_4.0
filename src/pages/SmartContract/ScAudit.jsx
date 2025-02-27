@@ -20,18 +20,15 @@ const ScAudit = () => {
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Smart Contract{" "}
+            Smart Contract 
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-             Audit{" "}
+            Audit Services
             </span>
           </p>
           <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          Ensuring Security, Transparency & Efficiency
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -40,13 +37,11 @@ const ScAudit = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Smart Contract  Audit Services
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
-            driving the web3 revolution with cutting-edge blockchain development
-            services.
+          Ensuring Security, Transparency & Efficiency
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -59,29 +54,27 @@ const ScAudit = () => {
 
         <div className="w-full md:w-[50%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
-          Why do you Need Smart Contract Security Audit?
+          Why You Need a Smart Contract Security Audit?
           </p>
+          <p  className="text-white">Major Blockchain Hacks in 2024:</p>
           <ul className="">
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70 "> 
                 <span className="text-green font-bold text-2xl">&#10003; </span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, laborum.
+                $200M Lost – Euler Finance (March 2024)
             </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
             <span className="text-green font-bold text-2xl">&#10003; </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, voluptate!
+            $14M Exploit – Rain Exchange (April 2024)
            </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
             <span className="text-green font-bold text-2xl">&#10003; </span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, sit?
+            $14.4M Hack – Holograph NFT Protocol (June 2024)
             </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
             <span className="text-green font-bold text-2xl">&#10003; </span>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, eos!
+            $3.5M Breach – Sportsbet.io (June 2024)
             </li>
-            <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
-            <span className="text-green font-bold text-2xl">&#10003; </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, animi.
-            </li>
+            <p className="text-white">These real-world breaches highlight the urgent need for smart contract security audits to prevent vulnerabilities, exploits, and financial loss.</p>
           </ul>
         </div>
       </div>
@@ -94,13 +87,13 @@ const ScAudit = () => {
       {/* Blockchain Services */}
       <div className="mt-12 md:mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
-        Smart Contract Auditing-  <br />{" "}
+        Smart Contract Auditing:<br/>
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          The Highlights
+          Key Highlights
           </span>
         </p>
         <p className="text-white text-opacity-40 pt-6 text-center">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta?
+        At Giichi IT Solutions, we take pride in delivering top-tier smart contract audits that fortify your blockchain-based projects against exploits and vulnerabilities.
         </p>
         
         <div>
@@ -112,11 +105,9 @@ const ScAudit = () => {
       {/* why your business need smart contract development */}
       <div className="pt-12 pb-20">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-        Projects Requiring Smart Contract Audit</p>
+        Projects That Require Smart Contract Audits</p>
         <p className="hidden lg:block text-center text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          The existing educational system is beset with the following
-          inefficiencies that lead to an <br />
-          unavoidable Blockchain application in education.
+        Ensure your blockchain project is secure, reliable, and compliant with our comprehensive <br/>smart contract audit services designed for high-risk, high-value projects.
         </p>
 
         <div className="pt-4">
@@ -125,8 +116,8 @@ const ScAudit = () => {
             <div className="">
               <p className="text-white text-xl md:text-3xl exo-font">DeFi Platforms</p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                Smart contracts enable parties to enter into agreements<br/> 
-                while eliminating third-party involvement.
+              We safeguard Decentralized Finance (DeFi) applications by<br/>
+               securing the entire transaction flow, preventing exploits,<br/> and protecting user assets.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -139,12 +130,11 @@ const ScAudit = () => {
           <div className="flex flex-row space-x-12 items-center ml-20 md:ml-[980px] mt-12">
             <div className="">
               <p className="text-white text-xl md:text-3xl exo-font">
-              Token Issuance
+              Token Issuance & ICOs
               </p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                The execution of smart contracts takes place simultaneously
-                across <br /> participating computers, once the required
-                criteria are satisfied.
+              Smart contract audits ensure that newly issued tokens and<br/>
+               ICO projects meet industry security standards and <br/>compliance regulations.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -158,10 +148,8 @@ const ScAudit = () => {
             <div className="">
               <p className="text-white text-xl md:text-3xl exo-font">NFT Marketplaces</p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                The information in the contract is visible to all participants{" "}
-                <br />
-                in the blockchain network, thereby fostering <br />
-                an environment of trust.
+              Our audits fortify NFT trading platforms against vulnerabilities <br/>
+              that may lead to ownership disputes, unsafe transactions, or exploits.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -173,11 +161,10 @@ const ScAudit = () => {
           {/* step 4 */}
           <div className="flex flex-row space-x-12 items-center ml-20 md:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-xl md:text-3xl exo-font">Blockchain</p>
+              <p className="text-white text-xl md:text-3xl exo-font">Blockchain-Based Voting Systems</p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                The distributed ledger is impregnable and immune to alterations,{" "}
-                <br />
-                thus enhancing the security paradigm.
+              We verify the integrity of on-chain voting mechanisms, <br/>
+              ensuring tamper-proof, accurate, and transparent <br/>election processes.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -189,10 +176,10 @@ const ScAudit = () => {
           {/* step 5 */}
           <div className="flex flex-row space-x-12 items-center ml-20 md:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-xl md:text-3xl exo-font">Decentralized Exchanges</p>
+              <p className="text-white text-xl md:text-3xl exo-font"> Decentralized Exchanges (DEXs)</p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                Eliminate human error by automating record-keeping, <br />
-                storage, and retrieval.
+              DEXs facilitate trustless crypto trading via smart contracts,<br/>
+               making them prime targets for security breaches. A thorough <br/>audit is critical to protect user funds.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -204,11 +191,10 @@ const ScAudit = () => {
           {/* step 6*/}
           <div className="flex flex-row space-x-12 items-center ml-20 md:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-xl md:text-3xl exo-font">Solution for Supply Chain</p>
+              <p className="text-white text-xl md:text-3xl exo-font">Blockchain-Powered Supply Chains</p>
               <p className="text-white text-[10px] md:text-[14px] text-opacity-70 exo-font pt-0 md:pt-2">
-                The distributed ledger is impregnable and immune to alterations,{" "}
-                <br />
-                thus enhancing the security paradigm.
+              Smart contracts in supply chain management require audits <br/>
+              to validate data integrity, security, and accuracy in <br/>tracking and handling processes.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -228,11 +214,11 @@ const ScAudit = () => {
   <p className="text-white text-center text-xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
   Our Smart Contract Security  <br />
     <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl text-center">
-    Audit Process
+    Audit Process 
     </span>
   </p>
   <p className="text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-    We devise a coherent roadmap to navigate your smart contracts development journey
+  We follow a comprehensive audit methodology to ensure that your smart contract is secure, credible, and resilient against threats.
   </p>
   <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative">
     {/* Dotted Line */}
@@ -241,12 +227,13 @@ const ScAudit = () => {
     {/* Step 1 */}
     <div className="flex flex-row space-x-12 items-center ml-20 md:ml-[400px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Analyzing the Requirements</p>
+        <p className="text-white text-lg md:text-3xl exo-font"> Client Consultation & <br/>Requirement Analysis</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Initial consultation to understand business <br/>
+            logic & functional requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Reviewing the White Paper & Yellow Paper for <br/>technical insights</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Analyzing code design patterns to verify intended<br/> smart contract behavior</li>
           </ul>
         </p>
       </div>
@@ -258,12 +245,12 @@ const ScAudit = () => {
     {/* Step 2 */}
     <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[1000px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Creating the Technical Design</p>
+        <p className="text-white text-lg md:text-3xl exo-font">Static & Dynamic Code Analysis</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Running automated code scans with 150+ vulnerability detectors</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Identifying errors, malicious code, compilation issues</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Deploying contracts in a sandbox environment to test execution & gas limits</li>
           </ul>
         </p>
       </div>
@@ -275,12 +262,13 @@ const ScAudit = () => {
     {/* Step 3 */}
     <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[350px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Proceeding with the Development</p>
+        <p className="text-white text-lg md:text-3xl exo-font"> Manual Code Verification</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+         
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Timestamp dependence risks</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">External call vulnerabilities</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Denial-of-service (DoS) threats</li>
           </ul>
         </p>
       </div>
@@ -292,12 +280,12 @@ const ScAudit = () => {
     {/* Step 4 */}
     <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[980px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Deployment and Testing</p>
+        <p className="text-white text-lg md:text-3xl exo-font"> Business Logic Verification</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Utilizing audit tools (e.g., Surya) to ensure system architecture aligns with business logic</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Executing functional tests and verifying end-to-end scenarios</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font "> Identifying centralization risks and suggesting security enhancements</li>
           </ul>
         </p>
       </div>
@@ -309,12 +297,12 @@ const ScAudit = () => {
      {/* Step 5 */}
      <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[350px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Proceeding with the Development</p>
+        <p className="text-white text-lg md:text-3xl exo-font">Initial Audit Report & Bug Fixing</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font "> Delivering a preliminary audit report highlighting risks & vulnerabilities</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Providing fix recommendations to mitigate threats</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Offering three free follow-up audits post client fixes</li>
           </ul>
         </p>
       </div>
@@ -326,12 +314,12 @@ const ScAudit = () => {
      {/* Step 6 */}
      <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[980px] mt-12">
       <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Deployment and Testing</p>
+        <p className="text-white text-lg md:text-3xl exo-font">Final Audit Report & Delivery</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font "> All identified risks & vulnerability statuses</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font ">Security recommendations for ongoing verification</li>
+            <li className="text-white text-[12px] md:text-[14px] text-opacity-80 exo-font "> Delivering a complete audit report ensuring compliance & best practices</li>
           </ul>
         </p>
       </div>
@@ -340,22 +328,7 @@ const ScAudit = () => {
       </div>
     </div>
 
-     {/* Step 7 */}
-     <div className="flex flex-row space-x-12 items-center  ml-20 md:ml-[350px] mt-12">
-      <div className="">
-        <p className="text-white text-lg md:text-3xl exo-font">Proceeding with the Development</p>
-        <p className="pt-2">
-          <ul className="list-disc ml-6">
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[12px] md:text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-          </ul>
-        </p>
-      </div>
-      <div className="text-white text-xl md:text-4xl font-bold border-white border-4 w-10 md:w-20 h-10 md:h-20 p-2 absolute left-0 md:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-        07
-      </div>
-    </div>
+     
   </div>
 </div>
 

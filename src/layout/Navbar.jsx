@@ -65,14 +65,12 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "Artificial Intelligence", link: "/" },
-            { label: "AI/ML Solutions", link: "/" }
+            { label: "AI / ML Solutions", link: "/" }
           ]
         },
         {
           label: "Generative AI",
           items: [
-            { label: "Generative AI", link: "/" },
             { label: "Generative AI Development", link: "/" }
           ]
         }
@@ -85,7 +83,7 @@ const Navbar = () => {
           label: "Gaming",
           items: [
             { label: "Game Development", link: "/" },
-            { label: "P2E Game Development", link: "/" }
+            { label: "Web3 Game Development", link: "/" }
           ]
         },
         {

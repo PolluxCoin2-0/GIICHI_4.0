@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
@@ -19,18 +20,15 @@ const Healthcare = () => {
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            Blockchain Development For {" "}
+            Blockchain Development {" "}
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            Healthcare{" "}
+            for Healthcare{" "}
             </span>
           </p>
           <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
+          Revolutionizing Healthcare with Secure & <br/>Efficient Blockchain Solutions
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -43,9 +41,7 @@ const Healthcare = () => {
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
-            driving the web3 revolution with cutting-edge blockchain development
-            services.
+          Revolutionizing Healthcare with Secure & Efficient Blockchain Solutions
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -56,38 +52,35 @@ const Healthcare = () => {
       <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
       <div className="w-full md:w-[50%] ">
           <p className="text-white text-2xl xl:text-4xl 2xl:text-5xl font-semibold pt-4">
-          Why Healthcare Needs Blockchain: The Current Reality
+          The Challenges of Healthcare Without Blockchain
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6  leading-7 w-[80%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-            molestiae minus quasi nostrum vitae ratione excepturi ducimus esse
-            saepe magni ipsum? Quia perferendis rerum sit impedit blanditiis et
-            nobis reiciendis recusandae provident? Sequi ea quibusdam, quo
-            nesciunt porro voluptas ducimus.
+          In today’s healthcare system, data security, accessibility, and integrity remain critical issues. From blood pressure readings to prescription records, patient data needs 24/7 availability for accurate monitoring and treatment. However, the existing infrastructure struggles with:
           </p>
         
         
         </div>
         <div className="w-full md:w-[50%]">
           <div className="flex flex-row space-x-6 items-center ">
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tl-2xl">
+            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tl-2xl w-[70%]">
               <p className="text-[#239400] text-5xl font-semibold">30%</p>
               <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit. (NCBI)</p>
             </div>
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tr-2xl">
-            <p className="text-[#239400] text-5xl font-semibold">30%</p>
-              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit. (NCBI)</p>
+            <div className=" bg-[#239400] bg-opacity-5 p-6   rounded-tr-2xl w-[70%]">
+              <p className="text-[#239400] text-5xl font-semibold"> 50M+</p>
+              <p className="text-white pt-2">patient records were breached in 2021 (Global News Wire).</p>
             </div>
           </div>
 
           <div className="flex flex-row space-x-6 items-center mt-6">
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-bl-2xl">
-              <p className="text-[#239400] text-5xl font-semibold">30%</p>
-              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit. (NCBI)</p>
+            
+            <div className=" bg-[#239400] bg-opacity-5 p-6  rounded-bl-2xl w-[70%]">
+            <p className="text-[#239400] text-5xl font-semibold ">$60B+</p>
+              <p className="text-white pt-2">lost annually due to healthcare fraud and abuse (Global News Wire).</p>
             </div>
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-br-2xl">
-            <p className="text-[#239400] text-5xl font-semibold ">30%</p>
-              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit. (NCBI)</p>
+            <div className=" bg-[#239400] bg-opacity-5 rounded-br-2xl p-6 w-[70%]">
+            <p className="text-[#239400] text-5xl font-semibold">30%</p>
+              <p className="text-white pt-2">of medicines in Latin America, Asia, and Africa are counterfeit (NCBI).</p>
             </div>
           </div>
  
@@ -105,11 +98,10 @@ const Healthcare = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        How can Antiers Blockchain Healthcare Solutions Drive Impactful Change?
+        How Giichi's Blockchain Healthcare Solutions Drive Real Impact
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          The implementation of blockchain in media and entertainment can bring
-          a significant change in the industry by enabling the following:
+        At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, efficiency, and transparency across the industry. Our solutions bring tangible benefits and transform healthcare operations.
         </p>
         <div>
         <Framework data={HealthcareFramework}/>
