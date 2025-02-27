@@ -385,3 +385,45 @@ export const EntertainmentFramework = [
   },
  
 ];
+
+export const AssetTokenFramework =  [
+  {
+    logo: insurance,
+    title: "Real Estate",
+    description:
+      "We begin with an in-depth discussion to understand your contract’s functionality, objectives, and requirements to customize the audit accordingly.",
+  },
+  {
+    logo: insurance,
+    title: "Collectibles",
+    description:
+      "Using cutting-edge security tools, we conduct an initial scan to identify common vulnerabilities quickly and efficiently.",
+  },
+
+  {
+    logo: insurance,
+    title: "Financial Instruments",
+    description:
+      "Our expert auditors perform a line-by-line analysis to detect complex logic errors that automated tools might overlook.",
+  },
+  {
+    logo: insurance,
+    title: "Commodities",
+    description:
+      "We test smart contract behavior under various real-world scenarios to ensure flawless execution and logic integrity.",
+  },
+  {
+    logo: insurance,
+    title: "Intellectual Property",
+    description:
+      "A deep security analysis uncovers potential attack vectors, preventing exploits before they happen.",
+  },
+  {
+    logo: reportImg,
+    title: "Private Equity",
+    description:
+      "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",
+  },
+  
+];
+

@@ -15,6 +15,9 @@ import Finance from "./pages/Enterprise/Finance";
 import Healthcare from "./pages/Enterprise/Healthcare";
 import ScDevelopment from "./pages/SmartContract/ScDevelopment";
 import ScAudit from "./pages/SmartContract/ScAudit";
+import AssetManagement from "./pages/Tokenization/AssetToken";
+import AssetToken from "./pages/Tokenization/AssetToken";
+import RealEstateToken from "./pages/Tokenization/RealEstateToken";
 import WhitepaperDev from "./pages/WhitepaperDev";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
@@ -48,6 +51,9 @@ function App() {
            <Route path="/blockchain-in-healthcare" element={<Healthcare/>} />
            <Route path="/smart-contract-development" element={<ScDevelopment/>}/>
            <Route path="/smart-contract-audit" element={<ScAudit/>}/>
+           <Route path="/asset-tokenization" element={<AssetToken/>}/>
+           <Route path="/asset-management" element={<AssetManagement/>}/>
+           <Route path="/real-estate-tokenization" element={<RealEstateToken/>}/>
            <Route path="/whitepaper-development" element={<WhitepaperDev/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
