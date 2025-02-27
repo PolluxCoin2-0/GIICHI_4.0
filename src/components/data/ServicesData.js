@@ -156,3 +156,37 @@ export const BlockchainDevelopmentService = [
     },
     
   ];
+
+  export const AiMlSolutionService = [
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "AI-Technology Powered Trading Bot",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+    
+  ];

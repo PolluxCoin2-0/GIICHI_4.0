@@ -19,6 +19,7 @@ import AssetManagement from "./pages/Tokenization/AssetManagement";
 import AssetToken from "./pages/Tokenization/AssetToken";
 import RealEstateToken from "./pages/Tokenization/RealEstateToken";
 import WhitepaperDev from "./pages/WhitepaperDev";
+import AiSolutions from "./pages/Ai/AiSolutions";
 import ContactForm from "./components/resuableComp/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -55,6 +56,7 @@ function App() {
            <Route path="/asset-management" element={<AssetManagement/>}/>
            <Route path="/real-estate-tokenization" element={<RealEstateToken/>}/>
            <Route path="/whitepaper-development" element={<WhitepaperDev/>}/>
+           <Route path="/ai-ml-solution" element={<AiSolutions/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>

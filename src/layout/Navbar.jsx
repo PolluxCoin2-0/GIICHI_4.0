@@ -63,7 +63,7 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "AI / ML Solutions", link: "/" }
+            { label: "AI / ML Solutions", link: "/ai-ml-solution" }
           ]
         },
         {
