@@ -62,11 +62,11 @@ const Healthcare = () => {
         </div>
         <div className="w-full md:w-[50%]">
           <div className="flex flex-row space-x-6 items-center ">
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tl-2xl w-[70%]">
+            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tl-3xl w-[70%]">
               <p className="text-[#239400] text-5xl font-semibold">30%</p>
-              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit. (NCBI)</p>
+              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit.</p>
             </div>
-            <div className=" bg-[#239400] bg-opacity-5 p-6   rounded-tr-2xl w-[70%]">
+            <div className=" bg-[#239400] bg-opacity-5 p-9   rounded-tr-3xl w-[70%]">
               <p className="text-[#239400] text-5xl font-semibold"> 50M+</p>
               <p className="text-white pt-2">patient records were breached in 2021 (Global News Wire).</p>
             </div>
@@ -74,14 +74,11 @@ const Healthcare = () => {
 
           <div className="flex flex-row space-x-6 items-center mt-6">
             
-            <div className=" bg-[#239400] bg-opacity-5 p-6  rounded-bl-2xl w-[70%]">
+            <div className=" bg-[#239400] bg-opacity-5 p-8  rounded-bl-3xl  rounded-br-3xl  w-full">
             <p className="text-[#239400] text-5xl font-semibold ">$60B+</p>
               <p className="text-white pt-2">lost annually due to healthcare fraud and abuse (Global News Wire).</p>
             </div>
-            <div className=" bg-[#239400] bg-opacity-5 rounded-br-2xl p-6 w-[70%]">
-            <p className="text-[#239400] text-5xl font-semibold">30%</p>
-              <p className="text-white pt-2">of medicines in Latin America, Asia, and Africa are counterfeit (NCBI).</p>
-            </div>
+           
           </div>
  
         </div>
@@ -101,7 +98,9 @@ const Healthcare = () => {
         How Giichi's Blockchain Healthcare Solutions Drive Real Impact
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, efficiency, and transparency across the industry. Our solutions bring tangible benefits and transform healthcare operations.
+        At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, <br/>
+        efficiency, and transparency across the industry. Our solutions bring tangible benefits <br/>
+        and transform healthcare operations.
         </p>
         <div>
         <Framework data={HealthcareFramework}/>

@@ -81,7 +81,9 @@ const Finance = () => {
         </p>
 
         <p className="text-white text-opacity-40 pt-6 text-center">
-        Blockchain is transforming the financial services industry by offering a secure, efficient, and decentralized approach to operations. From payments to risk management, it presents new opportunities for organizations to streamline processes, reduce costs, and enhance security.
+        Blockchain is transforming the financial services industry by offering a secure, efficient, and decentralized approach to operations.<br/>
+         From payments to risk management, it presents new opportunities for organizations <br/>
+         to streamline processes, reduce costs, and enhance security.
         </p>
 
         <div>
@@ -98,8 +100,10 @@ const Finance = () => {
           It into FinTech?
           </span>
         </p>
-        <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        Blockchain is revolutionizing the FinTech industry by offering unparalleled security, transparency, and efficiency. Three core features make blockchain a game-changer for businesses integrating it into financial operations:
+        <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-6 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        Blockchain is revolutionizing the FinTech industry by offering unparalleled security, transparency, and efficiency. <br/>
+        Three core features make blockchain a game-changer for businesses integrating <br/>
+        it into financial operations:
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">

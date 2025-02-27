@@ -187,7 +187,9 @@ const ScDevelopment = () => {
           </span>{" "}
         </p>
         <p className="hidden lg:block text-center text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        Smart contracts introduce a new level of automation, bringing unprecedented efficiency and cost reductions to business operations. With self-executing agreements, businesses can eliminate delays, minimize errors, and enhance security.
+        Smart contracts introduce a new level of automation, bringing unprecedented efficiency and cost reductions <br/>
+        to business operations. With self-executing agreements, businesses can eliminate delays,<br/>
+         minimize errors, and enhance security.
         </p>
 
         <div className="pt-4">
@@ -196,7 +198,7 @@ const ScDevelopment = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Disintermediation</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Remove third-party involvement, enabling direct, trustless agreements between parties.
+              Remove third-party involvement, enabling direct, <br/>trustless agreements between parties.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -211,7 +213,7 @@ const ScDevelopment = () => {
                 Real-Time Execution
               </p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Smart contracts execute instantly when predefined conditions are met, ensuring efficiency.
+              Smart contracts execute instantly when predefined conditions <br/>are met, ensuring efficiency.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -224,7 +226,7 @@ const ScDevelopment = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Transparency</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              All contract details are stored on the blockchain, visible to all participants, fostering trust.
+              All contract details are stored on the blockchain, <br/>visible to all participants, fostering trust.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -237,7 +239,7 @@ const ScDevelopment = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Security</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Immutable and tamper-proof records enhance security and reduce fraud risks.
+              Immutable and tamper-proof records enhance security <br/>and reduce fraud risks.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -250,7 +252,7 @@ const ScDevelopment = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Accuracy</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Automate record-keeping, storage, and retrieval, eliminating human error.
+              Automate record-keeping, storage, and retrieval, <br/> eliminating human error.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -263,7 +265,7 @@ const ScDevelopment = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Cost Savings </p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Reduce operational costs by automating manual processes and minimizing risks.
+              Reduce operational costs by automating manual processes <br/>and minimizing risks.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
