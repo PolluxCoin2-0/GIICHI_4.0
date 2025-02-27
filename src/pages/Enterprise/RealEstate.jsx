@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import RealEstateBannerImg from "../../assets/RealEstateBanner.png";
+import RealEstateFeatureImg from "../../assets/RealEstateFeature.png";
 import RealServices from "../../components/Enterprise/RealServices";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import Faq from "../../components/Faq";
@@ -11,8 +12,8 @@ const RealEstate = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={RealEstateBannerImg}
+          alt="real-estate-banner-img"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -51,8 +52,10 @@ const RealEstate = () => {
       </div>
 
       {/* Bloackchain REAL ESTATE forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[40%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
+        <div className="w-full md:w-[40%]">
+          <img src={RealEstateFeatureImg} alt="real-estate-feature-image" className="w-[80%]"/>
+        </div>
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
@@ -66,13 +69,16 @@ const RealEstate = () => {
           At Giichi IT Solutions, we lead the way in blockchain-powered real estate solutions, ensuring transparency, efficiency, and security in every transaction. 
           Our expert team designs cutting-edge blockchain systems to eliminate industry bottlenecks such as:
           </p>
-          <ul className="list-disc px-0 xl:px-28 ml-5">
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Multiple Intermediaries </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Identity Theft</li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Delayed Transactions </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Title Disputes </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">Data Breaches </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 ">High Transaction Costs </li>
+          <ul className="list-disc px-0 xl:px-28 ml-5 flex flex-row">
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ">Multiple Intermediaries </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-12">Identity Theft</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-12 ">Delayed Transactions </li>
+           
+          </ul>
+          <ul className="list-disc px-0 xl:px-28 ml-5 flex flex-row mt-2">
+          <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ">Title Disputes </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-[120px]">Data Breaches </li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4  ml-9">High Transaction Costs </li>
           </ul>
          </div>
       </div>

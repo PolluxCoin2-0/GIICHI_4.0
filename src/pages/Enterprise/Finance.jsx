@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import FinanceBannerImg from "../../assets/FinanceBanner.png";
+import FinanceFeatureImg from "../../assets/FinanceFeature.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
 import Framework from "../../components/Framework";
 import { FinanceFramework } from "../../components/data/frameworkData";
-
+import securityImg from "../../assets/security.png";
+import ledgerImg from "../../assets/Supp4.png";
+import NetworkImg from "../../assets/depinGover.png";
 
 const Finance = () => {
   return (
@@ -13,8 +15,8 @@ const Finance = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={FinanceBannerImg}
+          alt="finance-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -50,17 +52,21 @@ const Finance = () => {
       </div>
 
       {/* Bloackchain supply chain forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[40%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="w-full md:w-[40%]">
+          <img src={FinanceFeatureImg} alt="finance-feature-image" className="w-[80%]"/>
+        </div>
 
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
+          <p className="text-white text-2xl xl:text-5xl font-semibold pt-4 px-0 xl:px-28 ">
             Blockchain Applications in Finance: Driving the Change
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
           Blockchain is revolutionizing financial operations by shifting control from centralized authorities to a decentralized, trustless ecosystem. This transformation leads to significant savings in administrative, infrastructure, and transaction costs while improving efficiency, transparency, and security.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-8 px-0 xl:px-28 leading-6">
           By eliminating intermediaries, blockchain streamlines digital asset transfers and reduces reliance on central counterparties, ensuring faster and more reliable transactions. Its integration enhances trust, accuracy, and resilience in financial services, making it an essential technology for the future of finance.
           </p>
         </div>
@@ -107,7 +113,7 @@ const Finance = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={insurance} alt="" className="w-20 group-hover:hidden" />
+            <img src={securityImg} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
             Cryptographic Security
             </p>
@@ -119,7 +125,7 @@ const Finance = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={insurance} alt="" className="w-20 group-hover:hidden" />
+            <img src={ledgerImg} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
               Distributed Ledger Architecture
             </p>
@@ -131,7 +137,7 @@ const Finance = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={insurance} alt="" className="w-20 group-hover:hidden" />
+            <img src={NetworkImg} alt="" className="w-20 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
               Network Consensus Mechanism
             </p>

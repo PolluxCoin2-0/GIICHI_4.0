@@ -13,7 +13,7 @@ import Supp6Img from "../../assets/Supp6.png";
 import Supp12Img from "../../assets/Supp12.png";
 import Supp13Img from "../../assets/Supp13.png";
 import Supp14Img from "../../assets/Supp14.png";
-import Supp15Img from "../../assets/Supp15.png";
+import Supp15Img from "../../assets/Kyc.png";
 import Supp16Img from "../../assets/Supp16.png";
 import { SuppyChainFaq } from "../../components/data/faqsData";
 import Faq from "../../components/Faq";

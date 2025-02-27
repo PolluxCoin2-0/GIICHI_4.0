@@ -1,12 +1,16 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import scDevBannerImg from "../../assets/ScDevBanner.png";
+import scDevFeatureImg from "../../assets/ScDevFeature.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import { BsClipboardDataFill } from "react-icons/bs";
-import { GrDocumentPerformance } from "react-icons/gr";
 import Framework from "../../components/Framework";
 import { ScDevelopmentFramework } from "../../components/data/frameworkData";
-
+import agreementImg from "../../assets/agreement.png";
+import realTimeImg from "../../assets/realTime.png";
+import transparencyImg from "../../assets/transparency.png";
+import securityImg from '../../assets/security.png';
+import accuracyImg from "../../assets/accuracy.png";
+import savingImg from "../../assets/savings.png";
 
 const ScDevelopment = () => {
   return (
@@ -14,8 +18,8 @@ const ScDevelopment = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={scDevBannerImg}
+          alt="smart-contract-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -52,8 +56,12 @@ const ScDevelopment = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[40%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="w-full md:w-[40%]">
+          <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/>
+        </div>
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
@@ -201,8 +209,8 @@ const ScDevelopment = () => {
               Remove third-party involvement, enabling direct, <br/>trustless agreements between parties.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+              <img src={agreementImg} alt="" className=""/>
             </div>
           </div>
 
@@ -216,8 +224,8 @@ const ScDevelopment = () => {
               Smart contracts execute instantly when predefined conditions <br/>are met, ensuring efficiency.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <GrDocumentPerformance color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={realTimeImg} alt="" className=""/>
             </div>
           </div>
 
@@ -229,8 +237,8 @@ const ScDevelopment = () => {
               All contract details are stored on the blockchain, <br/>visible to all participants, fostering trust.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={transparencyImg} alt="" className=""/>
             </div>
           </div>
 
@@ -242,8 +250,8 @@ const ScDevelopment = () => {
               Immutable and tamper-proof records enhance security <br/>and reduce fraud risks.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <GrDocumentPerformance color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={securityImg} alt="" className=""/>
             </div>
           </div>
 
@@ -255,8 +263,8 @@ const ScDevelopment = () => {
               Automate record-keeping, storage, and retrieval, <br/> eliminating human error.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <BsClipboardDataFill color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={accuracyImg} alt="" className=""/>
             </div>
           </div>
 
@@ -268,37 +276,14 @@ const ScDevelopment = () => {
               Reduce operational costs by automating manual processes <br/>and minimizing risks.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <GrDocumentPerformance color="#ffffff" size={36} />
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={savingImg} alt="" className=""/>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Smart contract dev on various blokchain platforms */}
-      {/* <div>
-        <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          Smart Contract Development on <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl text-center">
-            Various Blockchain Platforms
-          </span>
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-4 md:gap-12 px-4 xl:px-12 3xl:px-64">
-          {ScData.map((data, index) => (
-            <ScCard
-              key={index}
-              logo={data.logo}
-              title={data.title}
-              description={data.description}
-            />
-          ))}
-        </div>
-      </div> */}
-
-     
-
-
-      {/* Schedule a free demo */}
+    {/* Schedule a free demo */}
       <div>
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>

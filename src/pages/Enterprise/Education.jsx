@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import EducationBannerImg from "../../assets/EducationBanner.png";
+import EducationFeatureImg from "../../assets/EducationFeature.png";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import insurance from "../../assets/insurance.png";
+import securityImg from '../../assets/security.png';
+import accessImg from "../../assets/accessibility.png";
+import credibilityImg from "../../assets/credibility.png";
+import transparencyImg from "../../assets/transparency.png";
 import Faq from "../../components/Faq";
 import { EducationFaq } from "../../components/data/faqsData";
 const Education = () => {
@@ -10,8 +14,8 @@ const Education = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={EducationBannerImg}
+          alt="education-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -48,10 +52,14 @@ const Education = () => {
       </div>
 
       {/* Bloackchain education forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[40%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="w-full md:w-[40%]">
+          <img src={EducationFeatureImg} alt="education-feature-image" className="w-[70%]"/>
+        </div>
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
+          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28">
             Blockchain Application in Education: Embrace Greater Transparency
             and Credibility
           </p>
@@ -77,7 +85,9 @@ const Education = () => {
       </div>
 
       {/* Benefits of blockchain application */}
-      <div className="mt-24">
+      <div className="mt-24 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Benefits of Blockchain
           <br />
@@ -98,7 +108,7 @@ const Education = () => {
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
               >
                 <img
-                  src={insurance}
+                  src={securityImg}
                   alt="security-&-transparency-image"
                   className="w-20"
                 />
@@ -120,9 +130,9 @@ const Education = () => {
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
               >
                 <img
-                  src={insurance}
+                  src={accessImg}
                   alt="enhanced-security-image"
-                  className="w-20"
+                  className="w-16"
                 />
                 <p className="text-white pt-4 text-xl font-bold ">
                   Improved Accessibility
@@ -149,7 +159,7 @@ const Education = () => {
                 className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center  w-full md:w-[40%]  
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
               >
-                <img src={insurance} alt="" className="w-20" />
+                <img src={credibilityImg} alt="" className="w-20" />
                 <p className="text-white pt-4 text-xl font-bold ">
                   Enhanced Credibility
                 </p>
@@ -172,7 +182,7 @@ const Education = () => {
                 className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center w-full md:w-[40%] 
                             md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
               >
-                <img src={insurance} alt="" className="w-20" />
+                <img src={transparencyImg} alt="" className="w-20" />
                 <p className="text-white pt-4 text-xl font-bold ">
                   Increased Transparency
                 </p>

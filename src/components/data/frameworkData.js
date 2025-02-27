@@ -24,6 +24,15 @@ import Supp11Img from "../../assets/Supp11.png";
 import Trans1Img from "../../assets/Tran1.png";
 import Trans2Img from "../../assets/Tran2.png";
 import Trans3Img from "../../assets/Tran3.png";
+import copyrightImg from "../../assets/Copyright.png";
+import paymentImg from "../../assets/payment.png";
+import transparencyImg from '../../assets/transparency.png';
+import KycImg from "../../assets/Kyc.png";
+import museumImg from "../../assets/museum 1.png";
+import supplyChainImg from "../../assets/Supp3.png";
+import securityImg from "../../assets/security.png";
+import credibilityImg from '../../assets/credibility.png';
+import reportImg from "../../assets/Supp14.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -137,19 +146,19 @@ export const BlockchainDepinFramework = [
 
 export const EntertainmentFramework = [
   {
-    logo: insurance,
+    logo: copyrightImg,
     title: "Empowered Copyright Owners",
     description:
       "By reducing reliance on platform providers and intermediaries, blockchain ensures that content creators retain full control over their intellectual property and earnings.",
   },
   {
-    logo: insurance,
+    logo: paymentImg,
     title: "Decentralized Payments",
     description:
       "With blockchain, payment collections and ad revenues become more efficient. Smart contracts automate revenue distribution, eliminating unnecessary fees.",
   },
   {
-    logo: insurance,
+    logo: transparencyImg,
     title: "Greater Transparency",
     description:
       "The decentralized nature of blockchain enhances transparency in content ownership and lifecycle tracking, ensuring fair use and accountability.",
@@ -158,13 +167,13 @@ export const EntertainmentFramework = [
 
  export const FinanceFramework = [
    {
-     logo: depinArchImg,
+     logo: depinAssetImg,
      title: "Capital Markets",
      description:
        "Eliminate single points of failure with decentralized utilities, reducing settlement time and costs. Digitize processes to improve efficiency and minimize counterparty risk.",
    },
    {
-     logo: depinArchImg,
+     logo: paymentImg,
      title: "Payments & Remittance",
      description:
        "Leverage blockchain to enable instant cross-border payments with lower transaction fees, enhanced security, and direct peer-to-peer transfers—removing intermediaries for faster settlements.",
@@ -177,19 +186,19 @@ export const EntertainmentFramework = [
        "Simplify global trade by eliminating third-party intermediaries and paperwork. Blockchain enables real-time document updates, reducing delays and boosting transaction efficiency.",
    },
    {
-     logo: depinArchImg,
+     logo: museumImg,
      title: "Banking & Lending",
      description:
        "Enhance lending processes with real-time KYC/AML verification, automated fund disbursement, and secure documentation. Improve operational efficiency while reducing costs.",
    },
    {
-     logo: depinArchImg,
+     logo: KycImg,
      title: "KYC & AML Compliance",
      description:
        "Automate identity verification with a single, secure repository of customer information. Blockchain ensures tamper-proof records and controlled data sharing for improved compliance.",
    },
    {
-     logo: depinArchImg,
+     logo: depinTokenImg,
      title: "Asset Management",
      description:
        "Digitize assets to improve market access, liquidity, and fractional ownership. Blockchain simplifies fund launches and enhances stakeholder management.",
@@ -198,38 +207,38 @@ export const EntertainmentFramework = [
 
  export const HealthcareFramework = [
    {
-     logo: insurance,
+     logo: depinAuditImg,
      title: " Drug Traceability",
      description:
        "Prevent counterfeit and unauthorized drugs by implementing blockchain-based tracking for pharmaceuticals.",
    },
    {
-     logo: insurance,
+     logo: supplyChainImg,
      title: "Optimized Supply Chain Management",
      description:
        "Enhance efficiency and transparency by tracking the origin and movement of medicines and medical devices in real-time.",
    },
  
    {
-     logo: insurance,
+     logo: securityImg,
      title: "Enhanced Data Security",
      description:
        "Protect sensitive patient records with decentralized, tamper-proof storage, reducing data breaches and privacy risks.",
    },
    {
-     logo: insurance,
+     logo: credibilityImg,
      title: " Improved Interoperability",
      description:
        "Facilitate secure data exchange across healthcare institutions, allowing doctors instant access to accurate medical records.",
    },
    {
-     logo: insurance,
+     logo: paymentImg,
      title: " Faster Payment Processing",
      description:
        "Streamline billing, insurance claims, and transactions with secure and automated blockchain-based payments.",
    },
    {
-     logo: insurance,
+     logo: depinScImg,
      title: " Regulatory Compliance",
      description:
        "Ensure compliance with healthcare regulations through transparent and immutable record-keeping.",
@@ -357,7 +366,7 @@ export const EntertainmentFramework = [
       "A deep security analysis uncovers potential attack vectors, preventing exploits before they happen.",
   },
   {
-    logo: insurance,
+    logo: reportImg,
     title: "Detailed Reporting",
     description:
       "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",

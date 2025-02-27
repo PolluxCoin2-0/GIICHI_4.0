@@ -3,7 +3,8 @@ import BlockchainImg from "../../../assets/blockchainImg.png";
 import Forecast from "../../../components/Blockchain/Forecast";
 import Services from "../../../components/Blockchain/Services";
 import BlockchainCycle from "../../../components/Blockchain/BlockchainCycle";
-import Industries from "./Industries";
+import Industries from "../../../components/Blockchain/Industries";
+import { BkDevIndustriesData } from "../../../components/data/industriesData";
 import LetsTalk from "../../../components/resuableComp/LetsTalk";
 import Faq from "../../../components/Faq";
 import CalendlyButton from "../../../components/resuableComp/Calendly";
@@ -135,7 +136,7 @@ const BlockchainDevelopment = () => {
         </p>
         {/* various industries  */}
         <div>
-          <Industries />
+          <Industries data={BkDevIndustriesData} />
         </div>
       </div>
 

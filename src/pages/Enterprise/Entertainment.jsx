@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import BlockchainImg from "../../assets/blockchainImg.png";
+import MediaBannerImg from "../../assets/MediaBanner.png";
+import MediaFeatureImg from "../../assets/MediaFeature.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import Framework from "../../components/Framework";
@@ -11,8 +12,8 @@ const Entertainment = () => {
       {/* Banner Image */}
       <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
         <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
+          src={MediaBannerImg}
+          alt="media-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
@@ -48,8 +49,10 @@ const Entertainment = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[40%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
+        <div className="w-full md:w-[40%]">
+          <img src={MediaFeatureImg} alt="media-feature-image" className="w-full object-contain"/>
+        </div>
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">

@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
+import ScAuditFeatureImg from '../../assets/ScAuditFeature.png';
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import { BsClipboardDataFill } from "react-icons/bs";
@@ -49,32 +50,37 @@ const ScAudit = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
-        <div className="w-full md:w-[50%]">{/* img */}</div>
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-32 mb-12 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="w-full md:w-[50%]">
+          <img src={ScAuditFeatureImg} alt="" className="w-[80%]"/>
+        </div>
 
         <div className="w-full md:w-[50%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
           Why You Need a Smart Contract Security Audit?
           </p>
-          <p  className="text-white">Major Blockchain Hacks in 2024:</p>
+          <p  className="text-white pt-4">Major Blockchain Hacks in 2024:</p>
           <ul className="">
-            <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70 "> 
-                <span className="text-green font-bold text-2xl">&#10003; </span>
+            <li className="pt-4 text-[17px] leading-snug text-white text-opacity-70 "> 
+                <span className="text-green font-bold text-xl">&#10003; </span>
                 $200M Lost – Euler Finance (March 2024)
             </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
-            <span className="text-green font-bold text-2xl">&#10003; </span>
+            <span className="text-green font-bold text-xl">&#10003; </span>
             $14M Exploit – Rain Exchange (April 2024)
            </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
-            <span className="text-green font-bold text-2xl">&#10003; </span>
+            <span className="text-green font-bold text-xl">&#10003; </span>
             $14.4M Hack – Holograph NFT Protocol (June 2024)
             </li>
             <li className="pt-3 text-[17px] leading-snug text-white text-opacity-70">
-            <span className="text-green font-bold text-2xl">&#10003; </span>
+            <span className="text-green font-bold text-xl">&#10003; </span>
             $3.5M Breach – Sportsbet.io (June 2024)
             </li>
-            <p className="text-white">These real-world breaches highlight the urgent need for smart contract security audits to prevent vulnerabilities, exploits, and financial loss.</p>
+            <p className="text-white pt-8">
+              These real-world breaches highlight the urgent need for smart contract <br/>security audits to prevent vulnerabilities, exploits, and financial loss.</p>
           </ul>
         </div>
       </div>

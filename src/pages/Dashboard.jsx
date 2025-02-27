@@ -28,8 +28,12 @@ const Dashboard = () => {
 
   return (
     <div className="pt-6 md:pt-20 ">
+      
       {/* Section 1 */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 ">
+      <div className="px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60 relative">
+      <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight spotlight-right"></div>
+
         {/* Heading 2 */}
           <motion.h1
             className="text-white text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"

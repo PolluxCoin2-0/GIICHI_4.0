@@ -182,9 +182,7 @@ const handleMenuLeave = () => {
   return (
     <nav className="relative z-50">
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight spotlight-right"></div>
-
+       
         <a href="/dashboard">
           <div className="hidden lg:block">
             <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-28" />
