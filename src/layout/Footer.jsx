@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import indiaMap from "../assets/indiaflag.png";
 const Footer = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-16 xl:px-24 2xl:px-32 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 ">
+    <div className="px-4 md:px-8 lg:px-16 xl:px-36 2xl:px-32 3xl:px-64 pt-12 bg-[#283430] bg-opacity-10 ">
       {/* Footer contract */}
       <div className="flex flex-col md:flex-row justify-between">
         {/* Logo */}

@@ -179,7 +179,7 @@ const handleMenuLeave = () => {
 
   return (
     <nav className="relative z-50">
-      <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4">
+      <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 py-4">
        
         <a href="/dashboard">
           <div className="hidden lg:block">
@@ -215,7 +215,7 @@ const handleMenuLeave = () => {
           <div 
             className="hidden lg:block cursor-pointer"
           >
-            <button className="bg-green-gradient px-4 xl:px-5 py-2 xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300" 
+            <button className="bg-green-gradient px-4 xl:px-5 py-2 2xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300" 
             aria-label="Contact form" type="button" title="Click to access contact form">
               Get In Touch
             </button>
@@ -229,7 +229,7 @@ const handleMenuLeave = () => {
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-12rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
+          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-2xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (

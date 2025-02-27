@@ -10,14 +10,14 @@ const Healthcare = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={HealthBannerImg}
           alt="healthcare-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
             Blockchain Development {" "}
@@ -49,7 +49,7 @@ const Healthcare = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
       <div className="w-full md:w-[50%] ">
           <p className="text-white text-2xl xl:text-4xl 2xl:text-5xl font-semibold pt-4">
           The Challenges of Healthcare Without Blockchain
@@ -91,11 +91,13 @@ const Healthcare = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20  mb-24">
+      <div className="relative mt-6 mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        How Giichi's Blockchain Healthcare Solutions Drive Real Impact
+        <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 text-center">
+        How Giichi's Blockchain Healthcare <br/>
+        <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+        Solutions Drive Real Impact</span>
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
         At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, <br/>

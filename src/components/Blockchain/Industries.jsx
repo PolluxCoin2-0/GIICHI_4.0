@@ -12,7 +12,7 @@ const Industries = ({data}) => {
   return (
     <div>
       <div className="bg-[#283430] bg-opacity-10 text-center mt-6 md:mt-12 p-1 pb-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-12 mt-20 px-4 md:px-12 3xl:px-64">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-12 xl:gap-8 2xl:gap-12 mt-20 px-4 md:px-12 xl:px-36 2xl:px-32 3xl:px-64">
           {data.map((industry, index) => (
             <IndustriesCard
               key={index}

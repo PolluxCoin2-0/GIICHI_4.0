@@ -67,8 +67,8 @@ const DepinUseCaseCard = ({ logo, title, description }) => {
       <div className="flex flex-row justify-between">
         <img src={logo} alt={title} className="" />
       </div>
-      <p className="text-white pt-4">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
+      <p className="text-white pt-4 text-lg font-bold">{title}</p>
+      <p className="text-white text-opacity-50 pt-2 text-sm ">{description}</p>
     </div>
   );
 };
@@ -76,14 +76,14 @@ const BlockchainDepin = () => {
   return (
     <div className="pt-6 md:pt-12 mb-10">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 z-10">
         <img
           src={BlockchainDepinImg}
           alt="blockchain-bg-image"
           className="md:w-full md:h-[400px] object-cover rounded-3xl"
         />
         {/* The text */}
-        <div className="absolute top-0 md:left-16 lg:left-24 xl:left-40 2xl:left-72 w-full h-full hidden md:flex flex-col items-start justify-center">
+        <div className="absolute top-0 md:left-16 lg:left-24 xl:left-48 2xl:left-72 w-full h-full hidden md:flex flex-col items-start justify-center">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
               DePIN Development{" "}
@@ -93,7 +93,7 @@ const BlockchainDepin = () => {
               Company{" "}
             </span>
           </p>
-          <p className="pt-6 text-lg font-semibold leading-snug">
+          <p className="pt-6 xl:text-[17px] 2xl:text-lg font-semibold leading-snug">
             Building a decentralized infrastructure network is no longer a
             challenge. <br />
             Giichi enables businesses to transform their physical infrastructure
@@ -136,8 +136,8 @@ const BlockchainDepin = () => {
       </div>
 
       {/* Blockchain Services */}
-      <div className="mt-12 md:mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
+      <div className="mt-12">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
           GiiCHi Advanced DePIN <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Services
@@ -155,14 +155,11 @@ const BlockchainDepin = () => {
        </div>
       </div>
 
-      {/* connect section */}
-      <div>
-        <LetsTalk buttonText="Talk to Our Experts" />
-      </div>
+      
 
       {/* Blockchain frameworks */}
       <div className="mt-12 md:mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="text-white text-2xl md:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           DePIN Use Cases: Transforming Industries with
           <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -170,14 +167,14 @@ const BlockchainDepin = () => {
           </span>
         </p>
 
-        <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="text-white text-opacity-40 pt-6 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Giichi delivers cutting-edge DePIN solutions tailored to various
           industries, helping businesses <br />
           enhance efficiency, security, and transparency through decentralized
           networks.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full mt-8 gap-6 md:gap-12 xl:gap-8 2xl:gap-12 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           {DepinUseCaseData.map((data, index) => (
             <DepinUseCaseCard
               key={index}
@@ -190,15 +187,15 @@ const BlockchainDepin = () => {
       </div>
 
       {/* Services */}
-      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
+      <div className="mt-12 xl:mt-20 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Key Components Powering
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
             DePIN’s Ecosystem
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-sm md:text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7">
           For businesses looking to unlock the full potential of decentralized
           infrastructure, understanding <br />
           the fundamental components of DePIN (Decentralized Physical
@@ -211,10 +208,10 @@ const BlockchainDepin = () => {
       <div>
         <LetsTalk buttonText="Hire Us" />
       </div>
-
+      
       {/* FAQ Section */}
       <div> <Faq data={BlockchainDepinFaq}/> </div>
-
+      
       {/* whatsapp image */}
       <a
         href="https://wa.me/9266416198"

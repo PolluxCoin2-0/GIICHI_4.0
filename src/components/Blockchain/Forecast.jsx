@@ -5,7 +5,7 @@ const Forecast = ({data}) => {
     <div className="relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-      <div className="flex flex-row justify-center mt-0 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-20">
+      <div className="flex flex-row justify-center mt-0 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-20">
        {/* block section */}
         <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-12 w-full md:w-full 2xl:w-[70%]">
           <div className="flex flex-col items-center justify-center w-full md:w-[60%]">

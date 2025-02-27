@@ -10,14 +10,14 @@ const RealEstate = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={RealEstateBannerImg}
           alt="real-estate-banner-img"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient text-5xl font-bold">
             Blockchain Solutions for {" "}
@@ -27,7 +27,7 @@ const RealEstate = () => {
             Real Estate{" "}
             </span>
           </p>
-          <p className="pt-6 text-[17px] font-semibold leading-snug">
+          <p className="pt-6 text-[17px] xl:text-[15px] 2xl:text-[17px] font-semibold leading-snug">
           Revolutionizing real estate by addressing key challenges like <br/>
           mortgage securitization, inefficient asset management, and illegal <br/>
           property transfers. 
@@ -52,30 +52,30 @@ const RealEstate = () => {
       </div>
 
       {/* Bloackchain REAL ESTATE forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12">
+      <div className="flex flex-col md:flex-row justify-between space-x-12 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
         <div className="w-full md:w-[40%]">
           <img src={RealEstateFeatureImg} alt="real-estate-feature-image" className="w-[80%]"/>
         </div>
 
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
+          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
           Capitalize on Giichi for Blockchain Solutions in Real Estate – We’re the Architects of Change
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto ">
           With deep blockchain expertise and a global presence, Giichi IT Solutions empowers clients to redefine the future of real estate. 
           We transform challenges into opportunities, unlocking limitless possibilities and ensuring success with cutting-edge blockchain innovations.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto">
           At Giichi IT Solutions, we lead the way in blockchain-powered real estate solutions, ensuring transparency, efficiency, and security in every transaction. 
           Our expert team designs cutting-edge blockchain systems to eliminate industry bottlenecks such as:
           </p>
-          <ul className="list-disc px-0 xl:px-28 ml-5 flex flex-row">
+          <ul className="list-disc ml-5 flex flex-row">
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ">Multiple Intermediaries </li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-12">Identity Theft</li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-12 ">Delayed Transactions </li>
            
           </ul>
-          <ul className="list-disc px-0 xl:px-28 ml-5 flex flex-row mt-2">
+          <ul className="list-disc ml-5 flex flex-row mt-2">
           <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ">Title Disputes </li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ml-[120px]">Data Breaches </li>
             <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4  ml-9">High Transaction Costs </li>
@@ -88,17 +88,17 @@ const RealEstate = () => {
       </div>
 
       {/* Blockchain Development Services */}
-      <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide">
+        <p className="text-white text-2xl md:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide">
         Our Blockchain Real Estate Software 
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Services
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] 2xl:text-lg font-normal pt-2">
         At Giichi IT Solutions, we provide a comprehensive suite of blockchain solutions for real estate, empowering market players with cutting-edge technology and expert talent to revolutionize their existing systems.
         </p>
         {/* services */}
