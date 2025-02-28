@@ -224,3 +224,37 @@ export const BlockchainDevelopmentService = [
     },
     
   ];
+
+  export const GenerativeAiService = [
+    {
+      title: "Smart Contract Generation",
+      description:
+        "Automates the creation, auditing, and optimization of smart contracts, reducing human errors.",
+    },
+    {
+      title: "Fraud Detection & Security",
+      description:
+        "Enhances blockchain security by identifying anomalies and detecting fraudulent transactions.",
+    },
+    {
+      title: "Decentralized Content Creation",
+      description:
+        "Generates AI-driven NFTs, digital art, and virtual assets for Web3 applications.",
+    },
+    {
+      title: "Metaverse & Virtual Asset Creation",
+      description:
+        "Designs AI-generated environments, avatars, and digital items for blockchain-based metaverses.",
+    },
+    {
+      title: "Decentralized AI Models",
+      description:
+        "Integrates AI with blockchain to create decentralized AI systems for transparent and tamper-proof decision-making.",
+    },
+    {
+      title: "Identity Verification & Privacy",
+      description:
+        "Enhances KYC/AML processes using AI-driven identity verification on blockchain networks.",
+    },
+    
+  ];

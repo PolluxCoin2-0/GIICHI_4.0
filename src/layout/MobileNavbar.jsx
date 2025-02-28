@@ -28,9 +28,9 @@ const MobileNavbar = () => {
   const [isMarketOpen, setIsMarketOpen] = useState(false);
 
   const [isSolutionMenuOpen, setIsSolutionMenuOpen] = useState(false);
-  const [isBfsiOpen, setIsBfsiOpen] = useState(false);
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
-  const [isIndustryMenuOpen, setIsIndustryMenuOpen] = useState(false);
+  // const [isBfsiOpen, setIsBfsiOpen] = useState(false);
+  // const [isServicesOpen, setIsServicesOpen] = useState(false);
+  // const [isIndustryMenuOpen, setIsIndustryMenuOpen] = useState(false);
   const [isAboutMenuOpen, setIsAboutMenuOpen] = useState(false);
 
   return (
@@ -39,20 +39,18 @@ const MobileNavbar = () => {
       <div className="flex flex-row justify-between ">
         {/* Logo */}
         <Link to="/dashboard">
-          <div className="">
-            <img
-              src={Giichi_Logo_Img}
-              alt="Giichi-Logo"
-              className="cursor-pointer w-24 md:w-28"
-            />
-          </div>
+        <div className="">
+          <img
+            src={Giichi_Logo_Img}
+            alt="Giichi-Logo"
+            className="cursor-pointer w-24 md:w-28"
+          />
+        </div>
         </Link>
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="text-white focus:outline-none  "
-          aria-label="Contact-form"
-          type="button"
-          title="Click to Contact form"
+          aria-label="Contact-form" type="button" title="Click to Contact form"
         >
           {isMenuOpen ? (
             <FaTimes className="h-6 w-6" />
@@ -85,19 +83,19 @@ const MobileNavbar = () => {
                 {isBk1Open && (
                   <div className="pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
                     <Link to="/blockchain-development">
-                      <p className="text-white text-xs ">
-                        Blockchain Development
-                      </p>
+                    <p className="text-white text-xs ">
+                      Blockchain Development
+                    </p>
                     </Link>
                     <Link to="/blockchain-identity">
-                      <p className="text-white text-xs pt-2">
-                        Blockchain In identity Management
-                      </p>
+                    <p className="text-white text-xs pt-2">
+                      Blockchain In identity Management
+                    </p>
                     </Link>
                     <Link to="/blockchain-depin">
-                      <p className=" text-white text-xs pt-2">
-                        Depin Development{" "}
-                      </p>
+                    <p className=" text-white text-xs pt-2">
+                      Depin Development{" "}
+                    </p>
                     </Link>
                   </div>
                 )}
@@ -109,30 +107,14 @@ const MobileNavbar = () => {
                 </li>
                 {isEnterpriseOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <Link to="/blockchain-in-supply-chain">
-                      <p className="text-white text-xs "> Supply Chain</p>
-                    </Link>
-                    <Link to="/blockchain-in-transport-and-logistics">
-                      <p className="text-white text-xs pt-2">
-                        Transport & Logistics
-                      </p>
-                    </Link>
-                    <Link to="/blockchain-in-entertainment">
-                      <p className=" text-white text-xs pt-2">Entertainment </p>
-                    </Link>
-                    <Link to="/blockchain-in-real-estate">
-                      <p className=" text-white text-xs pt-2"> Real-Estate </p>
-                    </Link>
-                    <Link to="/blockchain-in-education">
-                      <p className=" text-white text-xs pt-2"> Education </p>
-                    </Link>
-                    <Link to="/blockchain-in-finance">
-                      <p className=" text-white text-xs pt-2"> Finance</p>
-                    </Link>
-                    <Link to="/blockchain-in-healthcare">
-                      <p className=" text-white text-xs pt-2"> Healthcare </p>
-                    </Link>
-                  </div>
+                    <Link to="/blockchain-in-supply-chain"><p className="text-white text-xs "> Supply Chain</p></Link>
+                    <Link to="/blockchain-in-transport-and-logistics"><p className="text-white text-xs pt-2">Transport & Logistics</p></Link>
+                    <Link to="/blockchain-in-entertainment"><p className=" text-white text-xs pt-2">Entertainment </p></Link>
+                    <Link to="/blockchain-in-real-estate"><p className=" text-white text-xs pt-2"> Real-Estate </p></Link>
+                    <Link to="/blockchain-in-education"><p className=" text-white text-xs pt-2"> Education </p></Link>
+                    <Link to="/blockchain-in-finance"><p className=" text-white text-xs pt-2"> Finance</p></Link>
+                    <Link to="/blockchain-in-healthcare"><p className=" text-white text-xs pt-2"> Healthcare </p></Link>
+                 </div>
                 )}
                 <li
                   className="text-white text-sm pt-2"
@@ -142,17 +124,8 @@ const MobileNavbar = () => {
                 </li>
                 {isScOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <Link to="/smart-contract-development">
-                      <p className="text-white text-xs ">
-                        {" "}
-                        Smart Contract Development
-                      </p>
-                    </Link>
-                    <Link to="/smart-contract-audit">
-                      <p className="text-white text-xs pt-2">
-                        Smart Contract Audit
-                      </p>
-                    </Link>
+                    <Link to="/smart-contract-development"><p className="text-white text-xs "> Smart Contract Development</p></Link>
+                    <Link to="/smart-contract-audit"><p className="text-white text-xs pt-2">Smart Contract Audit</p></Link>
                   </div>
                 )}
                 <li
@@ -354,7 +327,7 @@ const MobileNavbar = () => {
             )}
 
             {/* Industry Section */}
-            <li
+            {/* <li
               onClick={() => setIsIndustryMenuOpen(!isIndustryMenuOpen)}
               className="flex justify-between items-center"
             >
@@ -389,22 +362,22 @@ const MobileNavbar = () => {
                   </div>
                 )}
               </ul>
-            )}
+            )} */}
 
             {/* About Us Section */}
             <Link to="/about-us">
-              <li
-                onClick={() => setIsAboutMenuOpen(!isAboutMenuOpen)}
-                className="flex justify-between items-center"
-              >
-                About Us
-                <MdOutlineKeyboardArrowDown size={20} />
-              </li>
+            <li
+              onClick={() => setIsAboutMenuOpen(!isAboutMenuOpen)}
+              className="flex justify-between items-center"
+            >
+              About Us
+              <MdOutlineKeyboardArrowDown size={20} />
+            </li>
             </Link>
             {isAboutMenuOpen && (
               <ul className="pl-4">
                 <Link to="/about-us">
-                  <li className="text-white text-sm pt-2">About Us</li>
+                <li className="text-white text-sm pt-2">About Us</li>
                 </Link>
                 <li className="text-white text-sm pt-2 ">Blogs</li>
                 <li className="text-white text-sm pt-2">Career</li>
@@ -413,6 +386,8 @@ const MobileNavbar = () => {
           </ul>
         </div>
       )}
+
+       
     </div>
   );
 };
