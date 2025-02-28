@@ -52,7 +52,7 @@ const Education = () => {
       </div>
 
       {/* Bloackchain education forecast */}
-      <div className="flex flex-col md:flex-row justify-between space-x-10 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 lg:space-x-10 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
@@ -80,12 +80,12 @@ const Education = () => {
       </div>
 
       {/* bottom line */}
-      <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">
+      <div className="flex justify-center items-center pt-0 md:pt-16 pb-6">
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
       {/* Benefits of blockchain application */}
-      <div className="mt-12 relative">
+      <div className="mt-0 md:mt-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
@@ -104,18 +104,18 @@ const Education = () => {
           <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
             <div className="flex flex-col md:flex-row w-full justify-center space-x-0 md:space-x-6 lg:space-x-8">
               <div
-                className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center w-full md:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
+                className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full md:w-[50%] lg:w-[40%] 
+                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
               >
                 <img
                   src={securityImg}
                   alt="security-&-transparency-image"
-                  className="w-20"
+                  className="w-12 lg:w-20"
                 />
-                <p className="text-white pt-4 text-xl font-bold ">
+                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
                   Enhanced Security
                 </p>
-                <p className="text-white text-opacity-70 text-[15px] pt-4">
+                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
                   <ul className="list-disc ml-6">
                     <li>Provides a tamper-proof record of educational data.</li>
                     <li>
@@ -126,18 +126,18 @@ const Education = () => {
                 </p>
               </div>
               <div
-                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center  w-full md:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
+                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center  w-full  md:w-[50%] lg:w-[40%] 
+                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
               >
                 <img
                   src={accessImg}
                   alt="enhanced-security-image"
-                  className="w-16"
+                  className="w-12 lg:w-20"
                 />
-                <p className="text-white pt-4 text-xl font-bold ">
+                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
                   Improved Accessibility
                 </p>
-                <p className="text-white text-opacity-70 text-[15px] pt-4">
+                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
                   <ul className="list-disc ml-6">
                     <li>
                       {" "}
@@ -156,14 +156,14 @@ const Education = () => {
 
             <div className="flex flex-col md:flex-row justify-center w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8">
               <div
-                className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center  w-full md:w-[40%]  
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
+                className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center  w-full md:w-[50%] lg:w-[40%]  
+                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
               >
-                <img src={credibilityImg} alt="" className="w-20" />
-                <p className="text-white pt-4 text-xl font-bold ">
+                <img src={credibilityImg} alt="" className="w-12 lg:w-20" />
+                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
                   Enhanced Credibility
                 </p>
-                <p className="text-white text-opacity-70 text-[15px] pt-4">
+                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
                   <ul className="list-disc ml-6">
                     <li>
                       {" "}
@@ -179,14 +179,14 @@ const Education = () => {
                 </p>
               </div>
               <div
-                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center w-full md:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-6"
+                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full  md:w-[50%] lg:w-[40%] 
+                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
               >
-                <img src={transparencyImg} alt="" className="w-20" />
-                <p className="text-white pt-4 text-xl font-bold ">
+                <img src={transparencyImg} alt="" className="w-12 lg:w-20" />
+                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
                   Increased Transparency
                 </p>
-                <p className="text-white text-opacity-70 text-[15px] pt-4">
+                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
                   <ul className="list-disc ml-6">
                     <li>
                       {" "}

@@ -49,7 +49,7 @@ const Entertainment = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between space-x-20 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
+      <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-20 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
         <div className="w-full md:w-[40%]">
           <img src={MediaFeatureImg} alt="media-feature-image" className="w-full object-contain"/>
         </div>

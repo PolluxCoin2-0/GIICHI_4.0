@@ -4,7 +4,6 @@ import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import Services from "../../components/Blockchain/Services";
 import {  AiMlSolutionService } from "../../components/data/ServicesData";
-import securityImg from "../../assets/security.png";
 import Industries from "../../components/Blockchain/Industries";
 import { BkDevIndustriesData } from "../../components/data/industriesData";
 

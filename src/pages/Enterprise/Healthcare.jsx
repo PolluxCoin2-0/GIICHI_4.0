@@ -20,15 +20,16 @@ const Healthcare = () => {
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            Blockchain Development {" "}
+              Blockchain Development{" "}
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            for Healthcare{" "}
+              for Healthcare{" "}
             </span>
           </p>
           <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-          Revolutionizing Healthcare with Secure & <br/>Efficient Blockchain Solutions
+            Revolutionizing Healthcare with Secure & <br />
+            Efficient Blockchain Solutions
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -37,11 +38,12 @@ const Healthcare = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-            Blockchain Development For Healthcare{" "}
+              Blockchain Development For Healthcare{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Revolutionizing Healthcare with Secure & Efficient Blockchain Solutions
+            Revolutionizing Healthcare with Secure & Efficient Blockchain
+            Solutions
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -49,44 +51,50 @@ const Healthcare = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
-      <div className="w-full md:w-[50%] ">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 md:mb-8 lg:mb-12">
+        <div className="w-full md:w-[50%] ">
           <p className="text-white text-2xl xl:text-4xl 2xl:text-5xl font-semibold pt-4">
-          The Challenges of Healthcare Without Blockchain
+            The Challenges of Healthcare Without Blockchain
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6  leading-7 w-[80%]">
-          In today’s healthcare system, data security, accessibility, and integrity remain critical issues. From blood pressure readings to prescription records, patient data needs 24/7 availability for accurate monitoring and treatment. However, the existing infrastructure struggles with:
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
+            In today’s healthcare system, data security, accessibility, and
+            integrity remain critical issues. From blood pressure readings to
+            prescription records, patient data needs 24/7 availability for
+            accurate monitoring and treatment. However, the existing
+            infrastructure struggles with:
           </p>
-        
-        
         </div>
-        <div className="w-full md:w-[50%]">
-          <div className="flex flex-row space-x-6 items-center ">
-            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-tl-3xl w-[70%]">
+        <div className="w-full md:w-[70%] lg:w-[50%] mt-4 md:mt-0">
+          <div className="flex flex-col md:flex-row space-x-0 md:space-x-6 items-center ">
+            <div className=" bg-[#239400] bg-opacity-5 p-6 rounded-3xl md:rounded-tl-3xl w-full md:w-[70%]">
               <p className="text-[#239400] text-5xl font-semibold">30%</p>
-              <p className="text-white pt-2">of medicines in parts of Latin America, Asia and Africa can be counterfeit.</p>
+              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px]">
+                of medicines in parts of Latin America, Asia and Africa can be
+                counterfeit.
+              </p>
             </div>
-            <div className=" bg-[#239400] bg-opacity-5 p-9   rounded-tr-3xl w-[70%]">
+            <div className=" bg-[#239400] bg-opacity-5 p-9 rounded-3xl md:rounded-tr-3xl w-full md:w-[70%] mt-4 md:mt-0">
               <p className="text-[#239400] text-5xl font-semibold"> 50M+</p>
-              <p className="text-white pt-2">patient records were breached in 2021 (Global News Wire).</p>
+              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px]">
+                patient records were breached in 2021 (Global News Wire).
+              </p>
             </div>
           </div>
 
           <div className="flex flex-row space-x-6 items-center mt-6">
-            
-            <div className=" bg-[#239400] bg-opacity-5 p-8  rounded-bl-3xl  rounded-br-3xl  w-full">
-            <p className="text-[#239400] text-5xl font-semibold ">$60B+</p>
-              <p className="text-white pt-2">lost annually due to healthcare fraud and abuse (Global News Wire).</p>
+            <div className=" bg-[#239400] bg-opacity-5 p-8 rounded-3xl md:rounded-bl-3xl  rounded-br-3xl  w-full">
+              <p className="text-[#239400] text-5xl font-semibold ">$60B+</p>
+              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px]">
+                lost annually due to healthcare fraud and abuse (Global News
+                Wire).
+              </p>
             </div>
-           
           </div>
- 
         </div>
-        
       </div>
 
       {/* bottom line */}
-      <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">
+      <div className="flex justify-center items-center pt-6 lg:pt-16 pb-6">
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
 
@@ -95,17 +103,20 @@ const Healthcare = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 text-center">
-        How Giichi's Blockchain Healthcare <br/>
-        <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
-        Solutions Drive Real Impact</span>
+          How Giichi's Blockchain Healthcare <br />
+          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+            Solutions Drive Real Impact
+          </span>
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, <br/>
-        efficiency, and transparency across the industry. Our solutions bring tangible benefits <br/>
-        and transform healthcare operations.
+          At Giichi IT Solutions, we tackle critical healthcare challenges with
+          cutting-edge blockchain applications that ensure security, <br />
+          efficiency, and transparency across the industry. Our solutions bring
+          tangible benefits <br />
+          and transform healthcare operations.
         </p>
         <div>
-        <Framework data={HealthcareFramework}/>
+          <Framework data={HealthcareFramework} />
         </div>
       </div>
 

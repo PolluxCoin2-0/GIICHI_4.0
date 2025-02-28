@@ -36,22 +36,22 @@ const Navbar = () => {
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/smart-contract-development" },
-            { label: "Smart Contract Audit", link: "/smart-contract-audit" }
+            { label: "Smart Contract Development", link: "" },
+            { label: "Smart Contract Audit", link: "" }
           ]
         },
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/asset-tokenization" },
-            { label: "Real-Estate Tokenization", link: "/real-estate-tokenization" },
-            { label: "Asset Management", link: "/asset-management" }
+            { label: "Asset Tokenization", link: "" },
+            { label: "Real-Estate Tokenization", link: "" },
+            { label: "Asset Management", link: "" }
           ]
         },
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/whitepaper-development" },
+            { label: "White Paper Development", link: "" },
             
           ]
         }
@@ -63,7 +63,7 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "AI / ML Solutions", link: "/ai-ml-solution" }
+            { label: "AI / ML Solutions", link: "" }
           ]
         },
         {
