@@ -13,7 +13,7 @@ const steps = [
   { id: "02", title: "Train the AI Model" },
   { id: "03", title: "Fine-Tune & Optimize" },
   { id: "04", title: "Deploy the Model" },
-  { id: "05", title: "Monitor & Improve" }
+  { id: "05", title: "Monitor & Improve" },
 ];
 
 const GenerativeAi = () => {
@@ -30,16 +30,17 @@ const GenerativeAi = () => {
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-72 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-           Generative AI Development
+              Generative AI Development
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-            {" "}
+              {" "}
             </span>
           </p>
           <p className="pt-6 md:text-[15px] font-semibold leading-snug">
-          Generative AI development focuses on creating models that can <br/>
-          generate new content, such as text, images, music, or code, by <br/> learning patterns from existing data.
+            Generative AI development focuses on creating models that can <br />
+            generate new content, such as text, images, music, or code, by{" "}
+            <br /> learning patterns from existing data.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -48,36 +49,56 @@ const GenerativeAi = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-            Generative AI Development
+              Generative AI Development
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Generative AI development focuses on creating models that can generate new content, such as text, images, music, or code, by  learning patterns from existing data.
+            Generative AI development focuses on creating models that can
+            generate new content, such as text, images, music, or code, by
+            learning patterns from existing data.
           </p>
           {/* Button */}
           <CalendlyButton />
         </div>
       </div>
 
-          {/* Real Estate Tokenization Services */}
-          <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      {/* Blockchain Supply Chain Network */}
+      <div className="relative mt-20  mb-24 pt-8 pb-8 bg-[#283430] bg-opacity-10">
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <p className="text-white text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+          Generative AI Development Process
+        </p>
+        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+          At Giichi IT Solutions, we help enterprises achieve business
+          automation with advanced, secure, and efficient smart contract
+          solutions.
+        </p>
+
+        <div>
+          <ProductDev data={steps} />
+        </div>
+      </div>
+      {/* Real Estate Tokenization Services */}
+      <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-5xl  font-bold pt-4 tracking-wide leading-relaxed text-center ">
-        Services Provided by 
+          Services Provided by
           <br />
           <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
-          Generative AI in Blockchain 
+            Generative AI in Blockchain
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum <br/>animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          omnis voluptatum <br />
+          animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
         </p>
         {/* services */}
-        <Services data={GenerativeAiService}/>
-      </div> 
-       
-     {/* Industries  */}
+        <Services data={GenerativeAiService} />
+      </div>
+      {/* Industries  */}
       <div className="relative text-center mt-8 md:mt-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
@@ -103,25 +124,7 @@ const GenerativeAi = () => {
         </div>
       </div>
 
-      {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20  mb-24 pt-8 pb-8 bg-[#283430] bg-opacity-10">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-       Generative AI Development Process
-        </p>
-        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions.
-        </p>
-         
-         <div>
-          <ProductDev data={steps}/>
-          </div>
-    </div>
-
-   
-
-    {/* Schedule a free demo */}
+      {/* Schedule a free demo */}
       <div className="mt-20">
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>
