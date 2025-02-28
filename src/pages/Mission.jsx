@@ -167,14 +167,14 @@ const Mission = () => {
   };
 
   return (
-    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-6 md:pt-12">
+    <div className="relative px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-64 pt-6 md:pt-12">
       <div className="hidden md:block spotlight2 spotlight-left1"></div>
       <div className="hidden md:block spotlight1 spotlight-right1"></div>
       {/* Heading 1 */}
-      <p className="hidden md:block text-white text-xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pt-4 leading-tight tracking-wide">
+      <p className="hidden md:block text-white text-xl md:text-4xl 2xl:text-6xl font-bold text-center pt-4 leading-snug tracking-wide">
         Ensuring long-term success and high performance for
         <br />
-        <span className="text-transparent bg-clip-text bg-green-gradient">
+        <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
           critical mission objectives
         </span>
       </p>

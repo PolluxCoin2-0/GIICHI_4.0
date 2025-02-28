@@ -7,7 +7,7 @@ import b9Img from "../assets/cloud.png";
 
 const Objectives = () => {
   return (
-    <div className="relative px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-64 pt-12 md:pt-24">
+    <div className="relative px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-64 pt-12 md:pt-24">
       <div className="hidden md:block spotlight spotlight-left"></div>
       {/* Heading 1*/}
       <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">

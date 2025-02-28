@@ -63,7 +63,7 @@ const sliderSecondRowSettings = {
   };
 
   return (
-    <div className="2xl:px-7 mt-8">
+    <div className="xl:px-4 2xl:px-7 mt-8">
       {/* First Row - Sliding with 3 items */}
       <Slider {...sliderFirstAndThirdRowSettings} className="w-full mb-5">
         {[{ logo: poxLogo, name: "PolluxChain", color: "#38DD02" },

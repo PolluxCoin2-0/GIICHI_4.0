@@ -15,24 +15,24 @@ const BlockchainIdentity = () => {
   return (
     <div className="pt-6 md:pt-12 mb-12">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={blockchainIdenityImg}
           alt="blockchain-bg-image"
           className="md:w-full md:h-[400px] object-cover rounded-3xl"
         />
         {/* The text */}
-        <div className="absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full hidden md:flex flex-col items-start justify-center">
+        <div className="absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full hidden md:flex flex-col items-start justify-center">
           <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
+            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-4xl xl:text-5xl font-bold">
               Blockchain Identity{" "}
             </span>
             <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
+            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-4xl xl:text-5xl font-bold">
               Management{" "}
             </span>
           </p>
-          <p className="pt-4 md:text-[15px] lg:text-[17px] font-semibold leading-snug">
+          <p className="pt-4 md:text-[15px] lg:text-[17px] xl:text-[15px] 2xl:text-[17px] font-semibold leading-snug">
             Leverage blockchain technology to revolutionize digital identity
             management <br />
             with a secure, tamper-proof, and decentralized ecosystem. By
@@ -72,21 +72,18 @@ const BlockchainIdentity = () => {
         />
       </div>
 
-      {/* connect section */}
-      <div>
-        <LetsTalk buttonText="Connect On Whatsapp" />
-      </div>
+    
 
       {/* Services */}
-      <div className="mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
+      <div className="mt-12 xl:mt-20 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold pt-4 leading-tight tracking-wide">
           Unlocking the Power of Blockchain for
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          <span className="block pt-3 text-transparent bg-clip-text bg-green-gradient">
             Identity Management with Giichi
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-sm md:text-xs lg:text-sm xl:text-lg font-normal pt-2">
+        <p className="text-white text-opacity-70 pt-4 text-sm md:text-xs lg:text-sm xl:text-[15px] 2xl:text-lg font-normal">
           At Giichi, we are revolutionizing identity management by leveraging
           blockchain-based decentralized identity solution. <br />
           Our approach eliminates traditional inefficiencies, ensuring privacy,
@@ -105,7 +102,10 @@ const BlockchainIdentity = () => {
       <div>
         <Faq data={BlockchainIdentityFaq} />
       </div>
-
+         {/* connect section */}
+      <div>
+      <LetsTalk buttonText="Connect On Whatsapp" />
+    </div>
       {/* whatsapp image */}
       <a
         href="https://wa.me/9266416198"

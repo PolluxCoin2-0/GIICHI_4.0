@@ -4,8 +4,12 @@ export default {
   theme: {
     extend: {
       screens: {
-        "2xl": "1536px", // Add the 2xl breakpoint
-        "3xl": "1920px", // Add the 3xl breakpoint
+       sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px", // Correct 2xl breakpoint
+      "3xl": "1920px", // Correct 3xl breakpoint
       },
 
       colors: {

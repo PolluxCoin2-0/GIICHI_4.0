@@ -2,11 +2,12 @@
 import scDevBannerImg from "../../assets/ScDevBanner.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
-import { Link } from "react-router-dom";
 import Services from "../../components/Blockchain/Services";
-import {  RealEstateTokenizationService } from "../../components/data/ServicesData";
+import {  AiMlSolutionService } from "../../components/data/ServicesData";
+import Industries from "../../components/Blockchain/Industries";
+import { BkDevIndustriesData } from "../../components/data/industriesData";
 
-const RealEstatetToken = () => {
+const AiSolutions = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
@@ -17,14 +18,14 @@ const RealEstatetToken = () => {
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-72 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-           Real Estate Tokenization 
+            AI/ML Solutions
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-           Service{" "}
+            {" "}
             </span>
           </p>
           <p className="pt-6 md:text-[15px] font-semibold leading-snug">
@@ -49,45 +50,77 @@ const RealEstatetToken = () => {
         </div>
       </div>
 
-      {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight spotlight-right"></div>
-        <div className="w-full md:w-[40%]">
-          {/* <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/> */}
-        </div>
+          {/* Real Estate Tokenization Services */}
+          <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl  font-bold pt-4 tracking-wide leading-relaxed text-center ">
+        Revolutionize the Crypto World 
+          <br />
+          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+          with AI Development
+          </span>
+        </p>
+        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2 text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum <br/>animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
+        </p>
+        {/* services */}
+        <Services data={AiMlSolutionService}/>
+      </div> 
+       
+        {/* Features offered by Supply Chain Management */}
+             <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
+               <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
+               Key Features
+                 <br />
+                 <span className="text-transparent bg-clip-text bg-green-gradient">
+               
+                 </span>
+               </p>
+               <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-6 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+               Blockchain is revolutionizing the FinTech industry by offering unparalleled security, transparency, and efficiency. <br/>
+               Three core features make blockchain a game-changer for businesses integrating <br/>
+               it into financial operations:
+               </p>
+                <div className="flex flex-row justify-center items-center space-x-32 mt-12">
+                    <p className="text-white text-xl">Machine Learning</p>
+                    <p className="text-white text-xl">Deep Learning</p>
+                    <p className="text-white text-xl">Data Science</p>
+                    <p className="text-white text-xl">Data Science</p>
+                </div>
+                <div className="flex flex-row justify-center items-center space-x-32 mt-12">
+                    <p className="text-white text-xl">Machine Learning</p>
+                    <p className="text-white text-xl">Deep Learning</p>
+                    <p className="text-white text-xl">Data Science</p>
+                </div>
+             </div>
 
-        <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
-          Introduction to Real Estate Tokenization
-          </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur, architecto soluta hic nisi aliquid dolore deleniti, explicabo cumque odit itaque dolor voluptatum dicta nemo perspiciatis magnam voluptas, vero laborum.
-          </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga ad laboriosam aspernatur velit nam aliquid blanditiis aut unde nemo.
-          </p>
-          {/* button for a free demo */}
-        <Link to="/contact-us">
-          <button
-            type="button"
-            className="mt-8 mx-0 xl:mx-28 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
-            aria-label="Contact us "
-            title="Click to contact us form"
-          >
-            Request a Free Demo
-          </button>
-        </Link>
+              {/* Industries  */}
+      <div className="relative text-center mt-8 md:mt-24">
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          Industries{" "}
+          <span className="text-transparent bg-clip-text bg-green-gradient">
+            We Serve
+          </span>
+        </p>
+        <p className="hidden md:block text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          As a leading custom blockchain development company, we leverage
+          different blockchain networks <br /> to provide you with the best
+          solutions aligned with your needs.
+        </p>
+        <p className="block md:hidden text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+          As a leading custom blockchain development company, we leverage
+          different blockchain networks to provide you with the best solutions
+          aligned with your needs.
+        </p>
+        {/* various industries  */}
+        <div>
+          <Industries data={BkDevIndustriesData} />
         </div>
-        
       </div>
-         
-      {/* bottom line */}
-      <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">
-        <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
-      </div>
-      
-     
+
       {/* Blockchain Supply Chain Network */}
       <div className="relative mt-20  mb-24 pt-8 pb-8 bg-[#283430] bg-opacity-10">
         <div className="hidden md:block spotlight spotlight-left"></div>
@@ -171,23 +204,7 @@ const RealEstatetToken = () => {
   </div>
       </div>
 
-      {/* Real Estate Tokenization Services */}
-       <div className="relative mt-12 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 tracking-wide leading-relaxed">
-          Real Estate 
-          <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
-          Tokenization Services
-          </span>
-        </p>
-        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
-        </p>
-        {/* services */}
-        <Services data={RealEstateTokenizationService}/>
-      </div>
+   
 
     {/* Schedule a free demo */}
       <div className="mt-20">
@@ -197,4 +214,4 @@ const RealEstatetToken = () => {
   );
 };
 
-export default RealEstatetToken;
+export default AiSolutions;

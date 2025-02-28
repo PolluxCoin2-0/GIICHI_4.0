@@ -25,35 +25,33 @@ const Navbar = () => {
           items: [
             { label: "Supply Chain", link: "/blockchain-in-supply-chain" },
             { label: "Transport & Logistics", link: "/blockchain-in-transport-and-logistics" },
-            { label: "Entertainment", link: "/" },
-            { label: "Real-Estate", link: "/" },
-            { label: "Education", link: "/" },
-            { label: "Finance", link: "/" },
-            { label: "Healthcare", link: "/" },
+            { label: "Entertainment", link: "/blockchain-in-entertainment" },
+            { label: "Real-Estate", link: "/blockchain-in-real-estate" },
+            { label: "Education", link: "/blockchain-in-education" },
+            { label: "Finance", link: "/blockchain-in-finance" },
+            { label: "Healthcare", link: "/blockchain-in-healthcare" },
            
           ]
         },
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "/" },
-            { label: "Smart Contract Audit", link: "/" }
+            { label: "Smart Contract Development", link: "" },
+            { label: "Smart Contract Audit", link: "" }
           ]
         },
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/" },
-            { label: "Real-Estate Tokenization", link: "/" },
-            { label: "Fund Tokenization", link: "/" },
-            { label: "Gold Tokenization", link: "/" },
-            { label: "Asset Management", link: "/" }
+            { label: "Asset Tokenization", link: "" },
+            { label: "Real-Estate Tokenization", link: "" },
+            { label: "Asset Management", link: "" }
           ]
         },
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/" },
+            { label: "White Paper Development", link: "" },
             
           ]
         }
@@ -65,14 +63,12 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "Artificial Intelligence", link: "/" },
-            { label: "AI/ML Solutions", link: "/" }
+            { label: "AI / ML Solutions", link: "" }
           ]
         },
         {
           label: "Generative AI",
           items: [
-            { label: "Generative AI", link: "/" },
             { label: "Generative AI Development", link: "/" }
           ]
         }
@@ -85,7 +81,7 @@ const Navbar = () => {
           label: "Gaming",
           items: [
             { label: "Game Development", link: "/" },
-            { label: "P2E Game Development", link: "/" }
+            { label: "Web3 Game Development", link: "/" }
           ]
         },
         {
@@ -183,10 +179,8 @@ const handleMenuLeave = () => {
 
   return (
     <nav className="relative z-50">
-      <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-24 2xl:px-32 3xl:px-60 py-4">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight spotlight-right"></div>
-
+      <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 py-4">
+       
         <a href="/dashboard">
           <div className="hidden lg:block">
             <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-28" />
@@ -221,7 +215,7 @@ const handleMenuLeave = () => {
           <div 
             className="hidden lg:block cursor-pointer"
           >
-            <button className="bg-green-gradient px-4 xl:px-5 py-2 xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300" 
+            <button className="bg-green-gradient px-4 xl:px-5 py-2 2xl:py-3 rounded-full text-sm xl:text-lg font-semibold hover:scale-105 transition-transform duration-300" 
             aria-label="Contact form" type="button" title="Click to access contact form">
               Get In Touch
             </button>
@@ -235,7 +229,7 @@ const handleMenuLeave = () => {
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-12rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
+          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-2xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (
