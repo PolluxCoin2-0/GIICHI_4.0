@@ -40,7 +40,7 @@ const Finance = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Blockchain Financial Services{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">

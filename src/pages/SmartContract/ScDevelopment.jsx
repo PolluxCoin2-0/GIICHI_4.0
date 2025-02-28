@@ -44,7 +44,7 @@ const ScDevelopment = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
+            Smart Contract Development{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
@@ -95,9 +95,9 @@ const ScDevelopment = () => {
   At Giichi IT Solutions, we follow a structured and efficient approach to developing secure and scalable smart contracts.
  
   </p>
-  <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative mr-0 2xl:mr-28 ">
+  <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative mr-0 2xl:mr-28 px-4">
 {/* Step 1 */}
-    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[400px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[400px] mt-4 md:mt-12">
       <div className="">
         <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Analyzing the Requirements</p>
         <p className="pt-2">
@@ -114,7 +114,7 @@ const ScDevelopment = () => {
     </div>
 
     {/* Step 2 */}
-    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[1000px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[1000px] mt-12">
       <div className="">
         <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Creating the Technical Design</p>
         <p className="pt-2">
@@ -131,7 +131,7 @@ const ScDevelopment = () => {
     </div>
 
     {/* Step 3 */}
-    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[350px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[350px] mt-12">
       <div className="">
         <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Smart Contract Development</p>
         <p className="pt-2">
@@ -148,7 +148,7 @@ const ScDevelopment = () => {
     </div>
 
     {/* Step 4 */}
-    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px]  xl:ml-[800px] 2xl:ml-[980px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-40 lg:ml-[550px]  xl:ml-[800px] 2xl:ml-[980px] mt-12">
       <div className="">
         <p className="text-white text-lg md:text-2xl xl:text-3xl font-semibold">Deployment and Testing</p>
         <p className="pt-2">
