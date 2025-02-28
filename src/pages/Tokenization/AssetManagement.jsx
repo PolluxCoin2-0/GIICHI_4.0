@@ -41,14 +41,14 @@ const AssetManagement = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={scDevBannerImg}
           alt="smart-contract-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
             Crypto Asset 
@@ -81,7 +81,7 @@ const AssetManagement = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
@@ -89,7 +89,7 @@ const AssetManagement = () => {
         </div>
 
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
+          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  ">
           Cryptocurrency Asset Management Solutions - The Paradigm Shift to an Emerging Market
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6  leading-8">
@@ -119,7 +119,7 @@ const AssetManagement = () => {
       </div>
       
       {/* why choose asset token for business */}
-           <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12">
+           <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-8">
              <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
              Choosing Giichi for Digital <br/>
              <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Asset Management</span></p>
@@ -127,7 +127,7 @@ const AssetManagement = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
                {/* Custom First Card */}
                <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4">
-                <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-2xl font-bold text-white">
+                <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-lg 2xl:text-2xl font-bold text-white">
                    Why choose Giichi for Asset <br />
                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
                    Management Services?

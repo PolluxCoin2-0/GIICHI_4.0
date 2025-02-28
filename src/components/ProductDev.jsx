@@ -4,7 +4,7 @@ const ProductDev = ({ data }) => {
       <div className="flex flex-wrap justify-center p-8">
         <div className="flex max-w-3xl justify-center flex-wrap flex-col md:flex-row md:items-center">
           {/* Top row - 3 hexagons on desktop, stacked on mobile */}
-          <div className="flex justify-center w-full flex-col md:flex-row md:-mb-4">
+          <div className="flex justify-center w-full flex-col md:flex-row xl:-mb-16 md:-mb-4">
             {data.slice(0, 3).map((step, index) => (
               <div key={index} className="relative m-0 md:m-4">
                 {/* Hexagon outer gradient */}

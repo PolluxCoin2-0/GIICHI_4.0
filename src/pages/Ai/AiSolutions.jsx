@@ -3,7 +3,7 @@ import scDevBannerImg from "../../assets/ScDevBanner.png";
 import LetsTalk from "../../components/resuableComp/LetsTalk";
 import CalendlyButton from "../../components/resuableComp/Calendly";
 import Services from "../../components/Blockchain/Services";
-import {  AiMlSolutionService } from "../../components/data/ServicesData";
+import { AiMlSolutionService } from "../../components/data/ServicesData";
 import Industries from "../../components/Blockchain/Industries";
 import { BkDevIndustriesData } from "../../components/data/industriesData";
 import ProductDev from "../../components/ProductDev";
@@ -13,33 +13,34 @@ const steps = [
   { id: "02", title: "Model Development" },
   { id: "03", title: "Model Evaluation" },
   { id: "04", title: "Deployment" },
-  { id: "05", title: "Monitoring & Improvement" }
+  { id: "05", title: "Monitoring & Improvement" },
 ];
 
 const AiSolutions = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={scDevBannerImg}
           alt="smart-contract-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-72 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-72 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-            AI/ML Solutions
+              AI/ML Solutions
             </span>
             <br />
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
-            {" "}
+              {" "}
             </span>
           </p>
           <p className="pt-6 md:text-[15px] font-semibold leading-snug">
-          At Giichi IT Solutions, we specialize in writing secure, <br/>
-          efficient, and automated smart contracts for Ethereum, TRON, <br/>Hyperledger, EOS, and other blockchain platforms.
+            At Giichi IT Solutions, we specialize in writing secure, <br />
+            efficient, and automated smart contracts for Ethereum, TRON, <br />
+            Hyperledger, EOS, and other blockchain platforms.
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -48,40 +49,44 @@ const AiSolutions = () => {
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
             <span className="text-white text-3xl font-bold">
-            Real World Asset Tokenization  Development{" "}
+              Real World Asset Tokenization Development{" "}
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          At Giichi IT Solutions, we specialize in writing secure, efficient, and automated smart contracts for Ethereum, TRON, Hyperledger, EOS, and other blockchain platforms.
+            At Giichi IT Solutions, we specialize in writing secure, efficient,
+            and automated smart contracts for Ethereum, TRON, Hyperledger, EOS,
+            and other blockchain platforms.
           </p>
           {/* Button */}
           <CalendlyButton />
         </div>
       </div>
 
-          {/* Real Estate Tokenization Services */}
-          <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      {/* Real Estate Tokenization Services */}
+      <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl  font-bold pt-4 tracking-wide leading-relaxed text-center ">
-        Revolutionize the Crypto World 
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 tracking-wide leading-relaxed text-center ">
+          Revolutionize the Crypto World
           <br />
           <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
-          with AI Development
+            with AI Development
           </span>
         </p>
         <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum <br/>animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+          omnis voluptatum <br />
+          animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
         </p>
         {/* services */}
-        <Services data={AiMlSolutionService}/>
-      </div> 
-       
-     {/* Industries  */}
+        <Services data={AiMlSolutionService} />
+      </div>
+
+      {/* Industries  */}
       <div className="relative text-center mt-8 md:mt-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60">
           Industries{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             We Serve
@@ -108,20 +113,19 @@ const AiSolutions = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-       AI/ML Development Process
+          AI/ML Development Process
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions.
+          At Giichi IT Solutions, we help enterprises achieve business
+          automation with advanced, secure, and efficient smart contract
+          solutions.
         </p>
-         
-         <div>
-          <ProductDev data={steps}/>
-          </div>
-    </div>
 
-   
-
-    {/* Schedule a free demo */}
+        <div>
+          <ProductDev data={steps} />
+        </div>
+      </div>
+      {/* Schedule a free demo */}
       <div className="mt-20">
         <LetsTalk buttonText="Schedule A Free Demo" />
       </div>

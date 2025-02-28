@@ -7,7 +7,7 @@ const WhitepaperDev = () => {
   return (
     <div className="mt-20 ">
       {/* white paper creation service */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-20 2xl:px-32 3xl:px-60">
+      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <p className="text-5xl text-white font-semibold text-center">
           Personalized White Paper <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
@@ -49,7 +49,7 @@ const WhitepaperDev = () => {
       </div>
 
       {/* our blockchain creation  process */}
-      <div className="bg-[#283430] bg-opacity-10 relative mt-20 pt-10 pb-10 flex flex-col justify-center items-center">
+      <div className="bg-[#283430] bg-opacity-10 relative mt-20 pt-10 pb-10 flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-4xl text-white font-semibold text-center">
@@ -78,14 +78,11 @@ const WhitepaperDev = () => {
           <div className="flex flex-row space-x-12 items-center mt-12">
             <div className="">
               <p className="text-white text-3xl exo-font">Understand</p>
-              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                rem <br />
-                vero odio rerum suscipit qui nulla! Quidem illo dolores
-                veritatis!
+              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2 w-[40%]">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rem vero odio rerum suscipit qui nulla! Quidem illo dolores veritatis!
               </p>
             </div>
-            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[520px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[500px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               01
             </div>
           </div>
@@ -94,13 +91,10 @@ const WhitepaperDev = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Research</p>
               <p className="text-white text-[17px] text-opacity-80 exo-font pt-2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                rem <br />
-                vero odio rerum suscipit qui nulla! Quidem illo dolores
-                veritatis!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rem vero odio rerum suscipit qui nulla! Quidem illo dolores veritatis!
               </p>
             </div>
-            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[520px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[500px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               02
             </div>
           </div>
@@ -108,14 +102,11 @@ const WhitepaperDev = () => {
           <div className="flex flex-row space-x-12 items-center mt-12">
             <div className="">
               <p className="text-white text-3xl exo-font">Content Creation</p>
-              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                rem <br />
-                vero odio rerum suscipit qui nulla! Quidem illo dolores
-                veritatis!
+              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2 w-[40%]">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rem vero odio rerum suscipit qui nulla! Quidem illo dolore veritatis!
               </p>
             </div>
-            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[520px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[500px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               03
             </div>
           </div>
@@ -124,13 +115,10 @@ const WhitepaperDev = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Design</p>
               <p className="text-white text-[17px] text-opacity-80 exo-font pt-2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                rem <br />
-                vero odio rerum suscipit qui nulla! Quidem illo dolores
-                veritatis!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rem vero odio rerum suscipit qui nulla! Quidem illo dolores veritatis!
               </p>
             </div>
-            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[520px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[500px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               04
             </div>
           </div>
@@ -138,14 +126,11 @@ const WhitepaperDev = () => {
           <div className="flex flex-row space-x-12 items-center mt-12">
             <div className="">
               <p className="text-white text-3xl exo-font">Delivery</p>
-              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-                rem <br />
-                vero odio rerum suscipit qui nulla! Quidem illo dolores
-                veritatis!
+              <p className="text-white text-[17px] text-opacity-80 exo-font pt-2 w-[40%]">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt rem vero odio rerum suscipit qui nulla! Quidem illo dolores veritatis!
               </p>
             </div>
-            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[520px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[500px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               05
             </div>
           </div>
@@ -155,10 +140,10 @@ const WhitepaperDev = () => {
       {/* Importance of whitepaper */}
       <div className="mt-20 text-center">
       <p className="text-5xl text-white font-semibold text-center">Importance of Whitepaper </p>
-      <p className="text-white text-opacity-70 text-center pt-4">
+      <p className="text-white text-opacity-70 text-center pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         A whitepaper is a detailed and authoritative report that explains a complex issue, proposes a solution, or presents research findings. <br/>
         Whitepapers are commonly used in business, technology, and academia to inform and persuade an audience. <br/>Here’s why they are important:</p>
-            <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
+            <div className="px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-10">
                   <div className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8">
                     <div
                       className=" rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
@@ -226,7 +211,7 @@ const WhitepaperDev = () => {
         <div className="relative text-center mt-8 md:mt-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="text-white text-2xl md:text-4xl lg:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         Industries and Sectors <br/>
           <span className="text-transparent bg-clip-text bg-green-gradient">
           that we cover

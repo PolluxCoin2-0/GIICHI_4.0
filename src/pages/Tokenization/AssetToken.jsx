@@ -46,14 +46,14 @@ const AssetToken = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={scDevBannerImg}
           alt="smart-contract-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl font-bold">
             Real World Asset 
@@ -85,7 +85,7 @@ const AssetToken = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
@@ -96,7 +96,7 @@ const AssetToken = () => {
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
           Maximize Value with Asset Tokenization
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6  leading-8">
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8">
           Unlock new opportunities by converting real-world assets into digital tokens, enabling fractional ownership, enhanced liquidity, and transparent transactions.
           </p>
           <ul className="list-disc flex flex-col mt-0 lg:mt-2 ml-6">
@@ -124,7 +124,7 @@ const AssetToken = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
        {/* Bloackchain entertainment forecast */}
-       <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+       <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
       <div className="w-full md:w-[60%] ">
@@ -162,7 +162,9 @@ const AssetToken = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          Our Real World Asset Tokenization Services
+          Our Real World Asset <br/>
+          <span className="text-transparent bg-clip-text bg-green-gradient">
+          Tokenization Services</span>
         </p>
     <div>
         <Framework data={AssetTokenFramework}/>
@@ -170,79 +172,78 @@ const AssetToken = () => {
       </div>
 
       {/*Lifecycle of a Tokenized Security */}
-      <div className="pt-12 pb-20">
+      <div className="pb-20">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-      
-          <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
-          Lifecycle of a Tokenized Security
-          </span>{" "}
+        Lifecycle of a<br/>
+        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
+                 Tokenized Security
+           </span>{" "}
         </p>
         
         <div className="pt-4">
           {/* step 1 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Structuring & Issuance</p>
+              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">Structuring & Issuance</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
               Enable trustless agreements without third-party involvement.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               <img src={agreementImg} alt="" className=""/>
             </div>
           </div>
 
           {/* step 2 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+          <div className="flex flex-row space-x-12 items-center xl:ml-[800px] 2xl:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">
+              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
               Trading & Transfers
               </p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
               Execute smart contracts instantly when conditions are met.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
             <img src={realTimeImg} alt="" className=""/>
             </div>
           </div>
 
           {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Corporate Actions & <br/>Governance</p>
+              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">Corporate Actions & Governance</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
               Store all contract details on blockchain for transparency.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
             <img src={transparencyImg} alt="" className=""/>
             </div>
           </div>
 
           {/* step 4 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+          <div className="flex flex-row space-x-12 items-center xl:ml-[800px] 2xl:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Maturity & Exit</p>
+              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">Maturity & Exit</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
               Ensure immutable and tamper-proof financial records.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
             <img src={securityImg} alt="" className=""/>
             </div>
           </div>
 
            {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Digitization</p>
+              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">Digitization</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
               Enhance security and reduce fraud risks with blockchain validation.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
             <img src={transparencyImg} alt="" className=""/>
             </div>
           </div>
@@ -253,7 +254,7 @@ const AssetToken = () => {
       </div>
 
       {/* why choose asset token for business */}
-      <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12">
+      <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
          Digital Asset <br/>
         <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Tokenization Services</span></p>
@@ -280,7 +281,7 @@ const AssetToken = () => {
             >
               <div className="flex flex-row space-x-4 items-center">
                 <p><IoMdCheckmarkCircleOutline size={32} className="text-3xl text-[#64A03C] rounded-full" /></p>
-                <p className="font-semibold text-white poppins-thin text-xl">
+                <p className="font-semibold text-white poppins-thin text-lg 2xl:text-xl">
                   {client.title}
                 </p>
               </div>

@@ -15,14 +15,14 @@ const ScAudit = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 z-10">
+      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
         <img
           src={ScAuditBannerImg}
           alt="smart-contract-banner-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-40 2xl:left-80 w-full h-full">
+        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
           <p className="">
             <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
               Smart Contract
@@ -54,7 +54,7 @@ const ScAudit = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 lg:mt-32 mb-6 lg:mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 lg:mt-32 mb-6 lg:mb-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[50%]">
@@ -95,7 +95,7 @@ const ScAudit = () => {
       </div>
 
       {/* Blockchain Services */}
-      <div className="mt-0 lg:mt-12 flex flex-col justify-center items-center">
+      <div className="mt-0 2xl:mt-12 flex flex-col justify-center items-center">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide text-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           Smart Contract Auditing:
           <br />
@@ -115,7 +115,7 @@ const ScAudit = () => {
 
       {/* why your business need smart contract development */}
       <div className="mt-12 md:mt-20 pb-20">
-        <p className="text-white text-center text-2xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
+        <p className="text-white text-center text-2xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 ">
           Projects That Require <br />
           <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
             Smart Contract Audits
@@ -129,12 +129,12 @@ const ScAudit = () => {
         </p>
         <div className="pt-0 md:pt-4 px-4">
           {/* step 1 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-12 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-48 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 DeFi Platforms
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
                 We safeguard Decentralized Finance (DeFi) applications by
                 securing the entire transaction flow, preventing exploits, and
                 protecting user assets.
@@ -148,10 +148,10 @@ const ScAudit = () => {
           {/* step 2 */}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-[400px] lg:ml-[560px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 Token Issuance & ICOs
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
                 Smart contract audits ensure that newly issued tokens and ICO
                 projects meet industry security standards and compliance
                 regulations.
@@ -163,12 +163,12 @@ const ScAudit = () => {
           </div>
 
           {/* step 3 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-12 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-48 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 NFT Marketplaces
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
                 Our audits fortify NFT trading platforms against vulnerabilities
                 that may lead to ownership disputes, unsafe transactions, or
                 exploits.
@@ -182,10 +182,10 @@ const ScAudit = () => {
           {/* step 4 */}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-[400px] lg:ml-[560px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 Blockchain-Based Voting Systems
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
                 We verify the integrity of on-chain voting mechanisms, ensuring
                 tamper-proof, accurate, and transparent election processes.
               </p>
@@ -196,13 +196,13 @@ const ScAudit = () => {
           </div>
 
           {/* step 5 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-12 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-4 xl:ml-48 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 {" "}
                 Decentralized Exchanges (DEXs)
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full md:w-[40%]">
                 DEXs facilitate trustless crypto trading via smart contracts,
                 making them prime targets for security breaches. A thorough
                 audit is critical to protect user funds.
@@ -216,10 +216,10 @@ const ScAudit = () => {
           {/* step 6*/}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-[400px] lg:ml-[560px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[17px] lg:text-xl xl:text-3xl">
+              <p className="text-white text-[17px] lg:text-xl 2xl:text-3xl">
                 Blockchain-Powered Supply Chains
               </p>
-              <p className="text-white text-[10px] md:text-[12px] lg:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] text-opacity-70 pt-0 lg:pt-2 w-full xl:w-[60%]">
                 Smart contracts in supply chain management require audits to
                 validate data integrity, security, and accuracy in tracking and
                 handling processes.
@@ -236,35 +236,35 @@ const ScAudit = () => {
       <div className="mt-0 xl:mt-20 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-center text-xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+        <p className="text-white text-center text-xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Our Smart Contract Security <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl text-center">
             Audit Process
           </span>
         </p>
-        <p className="text-sm md:text-[14px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
+        <p className="text-sm md:text-[14px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 text-center">
           We follow a comprehensive audit methodology to ensure that your smart
           contract is secure, credible, and resilient against threats.
         </p>
         <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative ">
           {/* Step 1 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[50px] 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[200px] 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 {" "}
                 Client Consultation & Requirement <br/>Analysis
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6 w-[90%] md:w-full lg:w-[90%]">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Initial consultation to understand business logic &
                     functional requirements
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Reviewing the White Paper & Yellow Paper for technical
                     insights
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Analyzing code design patterns to verify intended smart
                     contract behavior
                   </li>
@@ -279,19 +279,19 @@ const ScAudit = () => {
           {/* Step 2 */}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 Static & Dynamic Code Analysis
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Running automated code scans with 150+ vulnerability
                     detectors
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Identifying errors, malicious code, compilation issues
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Deploying contracts in a sandbox environment to test
                     execution & gas limits
                   </li>
@@ -304,21 +304,21 @@ const ScAudit = () => {
           </div>
 
           {/* Step 3 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center  ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[50px] 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center  ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[200px] 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 {" "}
                 Manual Code Verification
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Timestamp dependence risks
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     External call vulnerabilities
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Denial-of-service (DoS) threats
                   </li>
                 </ul>
@@ -332,21 +332,21 @@ const ScAudit = () => {
           {/* Step 4 */}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center  ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 {" "}
                 Business Logic Verification
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Utilizing audit tools (e.g., Surya) to ensure system
                     architecture aligns with business logic
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Executing functional tests and verifying end-to-end
                     scenarios
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     {" "}
                     Identifying centralization risks and suggesting security
                     enhancements
@@ -360,22 +360,22 @@ const ScAudit = () => {
           </div>
 
           {/* Step 5 */}
-          <div className="flex flex-row space-x-8 md:space-x-12 items-center  ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[50px] 2xl:ml-[300px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center  ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[200px] 2xl:ml-[300px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 Initial Audit Report & Bug Fixing
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     {" "}
                     Delivering a preliminary audit report highlighting risks &
                     vulnerabilities
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Providing fix recommendations to mitigate threats
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Offering three free follow-up audits post client fixes
                   </li>
                 </ul>
@@ -388,19 +388,19 @@ const ScAudit = () => {
           {/* Step 6 */}
           <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-20 md:ml-[150px] lg:ml-[200px] xl:ml-[800px] 2xl:ml-[1050px] mt-12">
             <div className="">
-              <p className="text-white text-[15px] lg:text-2xl 2xl:text-3xl">
+              <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 Final Audit Report & Delivery
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6">
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     {" "}
                     All identified risks & vulnerability statuses
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     Security recommendations for ongoing verification
                   </li>
-                  <li className="text-white text-[11px] lg:text-[14px] text-opacity-80">
+                  <li className="text-white text-[11px] 2xl:text-[14px] text-opacity-80">
                     {" "}
                     Delivering a complete audit report ensuring compliance &
                     best practices
