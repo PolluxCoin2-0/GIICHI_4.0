@@ -36,8 +36,8 @@ const Navbar = () => {
         {
           label: "Smart Contract",
           items: [
-            { label: "Smart Contract Development", link: "" },
-            { label: "Smart Contract Audit", link: "" }
+            { label: "Smart Contract Development", link: "/smart-contract-development" },
+            { label: "Smart Contract Audit", link: "/smart-contract-audit" }
           ]
         },
         {
@@ -63,7 +63,7 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "AI / ML Solutions", link: "" }
+            { label: "AI / ML Solutions", link: "/" }
           ]
         },
         {

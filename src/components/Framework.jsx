@@ -10,7 +10,7 @@ const FrameworksCard = ({ logo, title, description }) => {
         <LuArrowUpRight color="#2BB32A" size={28} />
       </div>
       <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2">{description}</p>
+      <p className="text-white text-opacity-50 pt-2 text-[15px]">{description}</p>
     </div>
   );
 };

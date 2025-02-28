@@ -82,7 +82,7 @@ const ScDevelopment = () => {
       </div>
 
       {/* Smart Contract Dev Process */}
-      <div className="mt-20 relative">
+      <div className="mt-0 xl:mt-20 relative">
   <div className="hidden md:block spotlight spotlight-left"></div>
   <div className="hidden md:block spotlight2 spotlight-right"></div>
   <p className="text-white text-center text-xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -95,74 +95,71 @@ const ScDevelopment = () => {
   At Giichi IT Solutions, we follow a structured and efficient approach to developing secure and scalable smart contracts.
  
   </p>
-  <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative mr-28">
-    {/* Dotted Line */}
-    {/* <div className="absolute left-1/2 top-0 h-full border-l-2 border-dotted border-white "></div> */}
-
-    {/* Step 1 */}
-    <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+  <div className="pt-4 pb-8 bg-[#283430] bg-opacity-10 mt-8 relative mr-0 2xl:mr-28 ">
+{/* Step 1 */}
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[400px] mt-12">
       <div className="">
-        <p className="text-white text-3xl exo-font">Analyzing the Requirements</p>
+        <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Analyzing the Requirements</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Understand business objectives</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font "> Identify and define smart contract logic</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Develop a strategic roadmap</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Understand business objectives</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80"> Identify and define smart contract logic</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Develop a strategic roadmap</li>
           </ul>
         </p>
       </div>
-      <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+      <div className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
         01
       </div>
     </div>
 
     {/* Step 2 */}
-    <div className="flex flex-row space-x-12 items-center ml-[1000px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[1000px] mt-12">
       <div className="">
-        <p className="text-white text-3xl exo-font">Creating the Technical Design</p>
+        <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Creating the Technical Design</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[17px] text-opacity-80 exo-font "> Draft a detailed smart contract document</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font "> Design a data flow diagram</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Establish a robust technical architecture</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80"> Draft a detailed smart contract document</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80"> Design a data flow diagram</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Establish a robust technical architecture</li>
           </ul>
         </p>
       </div>
-      <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+      <div className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
         02
       </div>
     </div>
 
     {/* Step 3 */}
-    <div className="flex flex-row space-x-12 items-center ml-[350px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-4 xl:ml-12 2xl:ml-[350px] mt-12">
       <div className="">
-        <p className="text-white text-3xl exo-font">Smart Contract Development</p>
+        <p className="text-white text-[15px] md:text-2xl xl:text-3xl font-semibold">Smart Contract Development</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Implement the proposed smart contract solution</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Conduct rigorous testing and security checks</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font "> Gather client feedback and iterate for perfection</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Implement the proposed smart contract solution</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Conduct rigorous testing and security checks</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80"> Gather client feedback and iterate for perfection</li>
           </ul>
         </p>
       </div>
-      <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+      <div className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
         03
       </div>
     </div>
 
     {/* Step 4 */}
-    <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+    <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px]  xl:ml-[800px] 2xl:ml-[980px] mt-12">
       <div className="">
-        <p className="text-white text-3xl exo-font">Deployment and Testing</p>
+        <p className="text-white text-lg md:text-2xl xl:text-3xl font-semibold">Deployment and Testing</p>
         <p className="pt-2">
           <ul className="list-disc ml-6">
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
-            <li className="text-white text-[17px] text-opacity-80 exo-font ">Comprehend business requirements</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Deploy the smart contract on the blockchain network</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Perform comprehensive security audits and stress testing</li>
+            <li className="text-white text-[10px] md:text-[15px] xl:text-[17px] text-opacity-80">Monitor real-world performance and resolve potential issues</li>
           </ul>
         </p>
       </div>
-      <div className="text-white text-4xl font-bold border-white border-4 w-20 h-20 p-2 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+      <div className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
         04
       </div>
     </div>
@@ -170,11 +167,12 @@ const ScDevelopment = () => {
 </div>
 
       {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20  mb-24">
+      <div className="relative mt-12 md:mt-20  mb-12 md:mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          Our Smart Contract Development Services
+          Our Smart Contract <br/>
+          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl text-center">Development Services</span>
         </p>
         <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
         At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions.
@@ -186,7 +184,7 @@ const ScDevelopment = () => {
       </div>
 
       {/* why your business need smart contract development */}
-      <div className="pt-12 pb-20">
+      <div className="pt-0 xl:pt-12 pb-20">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
         Why Does Your Business Need 
           <br />
@@ -200,84 +198,84 @@ const ScDevelopment = () => {
          minimize errors, and enhance security.
         </p>
 
-        <div className="pt-4">
+        <div className="pt-4 px-4">
           {/* step 1 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-8 lg:space-x-12 items-center ml-16 md:ml-40 lg:ml-8 xl:ml-32 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Disintermediation</p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Remove third-party involvement, enabling direct, <br/>trustless agreements between parties.
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">Disintermediation</p>
+              <p className="text-white text-[10px] md:text-[16px] text-opacity-70  pt-2 w-full lg:w-[50%] 2xl:w-[60%]">
+              Remove third-party involvement, enabling direct, trustless agreements between parties.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={agreementImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+              <img src={agreementImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
 
           {/* step 2 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">
                 Real-Time Execution
               </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Smart contracts execute instantly when predefined conditions <br/>are met, ensuring efficiency.
+              <p className="text-white text-[10px] md:text-[16px] text-opacity-70 pt-2 w-full xl:w-[50%] 2xl:w-[60%]">
+              Smart contracts execute instantly when predefined conditions are met, ensuring efficiency.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <img src={realTimeImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={realTimeImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
 
           {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-8 xl:ml-32 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Transparency</p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              All contract details are stored on the blockchain, <br/>visible to all participants, fostering trust.
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">Transparency</p>
+              <p className="text-white text-[10px] md:text-[16px] text-opacity-70 pt-2 w-full lg:w-[50%] 2xl:w-[60%]">
+              All contract details are stored on the blockchain, visible to all participants, fostering trust.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <img src={transparencyImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={transparencyImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
 
           {/* step 4 */}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Security</p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Immutable and tamper-proof records enhance security <br/>and reduce fraud risks.
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">Security</p>
+              <p className="text-white text-[10px] md:text-[16px] text-opacity-70 pt-2 w-full lg:w-[50%] 2xl:w-[60%]">
+              Immutable and tamper-proof records enhance security and reduce fraud risks.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <img src={securityImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={securityImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
 
           {/* step 5 */}
-          <div className="flex flex-row space-x-12 items-center ml-[400px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-8 xl:ml-32 2xl:ml-[400px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Accuracy</p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Automate record-keeping, storage, and retrieval, <br/> eliminating human error.
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">Accuracy</p>
+              <p className="text-white text-[10px] md:text-[17px] text-opacity-70  pt-2 w-full lg:w-[50%] 2xl:w-[60%]">
+              Automate record-keeping, storage, and retrieval, eliminating human error.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <img src={accuracyImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={accuracyImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
 
           {/* step 6*/}
-          <div className="flex flex-row space-x-12 items-center ml-[980px] mt-12">
+          <div className="flex flex-row space-x-8 md:space-x-12 items-center ml-16 md:ml-40 lg:ml-[550px] xl:ml-[800px] 2xl:ml-[980px] mt-12">
             <div className="">
-              <p className="text-white text-3xl exo-font">Cost Savings </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Reduce operational costs by automating manual processes <br/>and minimizing risks.
+              <p className="text-white text-[15px] md:text-2xl lg:text-3xl">Cost Savings </p>
+              <p className="text-white text-[10px] md:text-[16px] text-opacity-70 pt-2 w-full xl:w-[50%] 2xl:w-[60%]">
+              Reduce operational costs by automating manual processes and minimizing risks.
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-            <img src={savingImg} alt="" className=""/>
+            <div className="rounded-full bg-blue-500 border-white border-2 md:border-4 w-12 md:w-20 h-12 md:h-20 p-2 md:p-3 absolute left-4 lg:left-[420px] xl:left-[600px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <img src={savingImg} alt="" className="w-20 md:w-full"/>
             </div>
           </div>
         </div>

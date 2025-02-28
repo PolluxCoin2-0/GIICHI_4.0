@@ -13,31 +13,31 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 const clientData = [
   {
     description:
-      "Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 helped us scale our projects effortlessly.",
+      "Expertise in Web3, DeFi, and NFT solutions to help businesses scale effortlessly.",
     title: "Blockchain Pioneers",
    
   },
   {
     description:
-      "Giichi IT Solutions provided us with top-notch Web3 solutions. Their professionalism and dedication to quality are unmatched.",
+      " Bespoke blockchain solutions tailored to your specific industry needs.",
       title: "Customization Excellence",
   
   },
   {
     description:
-      "The team at Giichi IT Solutions exceeded our expectations. Their blockchain expertise helped us launch our product successfully.",
+      "From development to deployment and compliance, we manage everything.",
       title: "End-to-End Services",
    
   },
   {
     description:
-      "An exceptional experience working with Giichi IT Solutions! Their knowledge and commitment to excellence are truly commendable.",
+      "Advanced security protocols to protect digital assets from vulnerabilities..",
       title: "Security-Centric Approach",
     
   },
   {
     description:
-      "Giichi IT Solutions transformed our vision into reality with their deep understanding of Web3 technology. Highly recommended!",
+      "A dedicated team providing continuous assistance and optimization.",
       title: "24/7 Support",
   },
 ];
@@ -64,8 +64,7 @@ const AssetToken = () => {
             </span>
           </p>
           <p className="pt-6 md:text-[15px] font-semibold leading-snug">
-          At Giichi IT Solutions, we specialize in writing secure, <br/>
-          efficient, and automated smart contracts for Ethereum, TRON, <br/>Hyperledger, EOS, and other blockchain platforms.
+          Transform Physical Assets into Digital Value with Blockchain
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -78,7 +77,7 @@ const AssetToken = () => {
             </span>
           </p>
           <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          At Giichi IT Solutions, we specialize in writing secure, efficient, and automated smart contracts for Ethereum, TRON, Hyperledger, EOS, and other blockchain platforms.
+          Transform Physical Assets into Digital Value with Blockchain
           </p>
           {/* Button */}
           <CalendlyButton />
@@ -86,7 +85,7 @@ const AssetToken = () => {
       </div>
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
@@ -94,24 +93,26 @@ const AssetToken = () => {
         </div>
 
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
+          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
           Maximize Value with Asset Tokenization
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur, architecto soluta hic nisi aliquid dolore deleniti, explicabo cumque odit itaque dolor voluptatum dicta nemo perspiciatis magnam voluptas, vero laborum.
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6  leading-8">
+          Unlock new opportunities by converting real-world assets into digital tokens, enabling fractional ownership, enhanced liquidity, and transparent transactions.
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga ad laboriosam aspernatur velit nam aliquid blanditiis aut unde nemo.
-          </p>
+          <ul className="list-disc flex flex-col mt-0 lg:mt-2 ml-6">
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ">Eliminate intermediaries for seamless transactions</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ">Enhance liquidity with global accessibility</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ">Increase security & transparency using blockchain</li>
+          </ul>
           {/* button for a free demo */}
         <Link to="/contact-us">
           <button
             type="button"
-            className="mt-8 mx-0 xl:mx-28 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="mt-8 ml-2 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
             aria-label="Contact us "
             title="Click to contact us form"
           >
-            Request a Free Demo
+            Schedule a Free Demo
           </button>
         </Link>
         </div>
@@ -123,24 +124,26 @@ const AssetToken = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
        {/* Bloackchain entertainment forecast */}
-       <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+       <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight spotlight-right"></div>
       <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 px-0 xl:px-28 ">
-          World-class Asset Tokenization Development Company
+          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4">
+          World-Class Asset Tokenization Development
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequuntur, architecto soluta hic nisi aliquid dolore deleniti, explicabo cumque odit itaque dolor voluptatum dicta nemo perspiciatis magnam voluptas, vero laborum.
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8">
+          As a leading blockchain development company, Giichi IT Solutions helps enterprises integrate asset tokenization into their financial ecosystems. Our solutions ensure compliance, liquidity, and automation through smart contracts, driving efficiency across industries.
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 xl:px-28  leading-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga ad laboriosam aspernatur velit nam aliquid blanditiis aut unde nemo.
-          </p>
+          <ul className="list-disc flex flex-col mt-0 lg:mt-2 ml-6">
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 "> Proven expertise in blockchain-powered asset tokenization</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 "> Tailored solutions for diverse industries</li>
+            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ">Regulatory-compliant and secure smart contracts</li>
+          </ul>
           {/* button for a free demo */}
         <Link to="/contact-us">
           <button
             type="button"
-            className="mt-8 mx-0 xl:mx-28 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="mt-8  bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
             aria-label="Contact us "
             title="Click to contact us form"
           >
@@ -161,22 +164,18 @@ const AssetToken = () => {
         <p className="text-white text-xl lg:text-3xl xl:text-4xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
           Our Real World Asset Tokenization Services
         </p>
-        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-        At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions.
-        </p>
-
-        <div>
+    <div>
         <Framework data={AssetTokenFramework}/>
         </div>
       </div>
 
-      {/* why your business need smart contract development */}
+      {/*Lifecycle of a Tokenized Security */}
       <div className="pt-12 pb-20">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-        Lifecycle of a Tokenized Security
+      
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
-        
+          Lifecycle of a Tokenized Security
           </span>{" "}
         </p>
         
@@ -186,7 +185,7 @@ const AssetToken = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Structuring & Issuance</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Remove third-party involvement, enabling direct, <br/>trustless agreements between parties.
+              Enable trustless agreements without third-party involvement.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -201,7 +200,7 @@ const AssetToken = () => {
               Trading & Transfers
               </p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Smart contracts execute instantly when predefined conditions <br/>are met, ensuring efficiency.
+              Execute smart contracts instantly when conditions are met.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -214,7 +213,7 @@ const AssetToken = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Corporate Actions & <br/>Governance</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              All contract details are stored on the blockchain, <br/>visible to all participants, fostering trust.
+              Store all contract details on blockchain for transparency.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -227,7 +226,7 @@ const AssetToken = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Maturity & Exit</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              Immutable and tamper-proof records enhance security <br/>and reduce fraud risks.
+              Ensure immutable and tamper-proof financial records.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -240,7 +239,7 @@ const AssetToken = () => {
             <div className="">
               <p className="text-white text-3xl exo-font">Digitization</p>
               <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-              All contract details are stored on the blockchain, <br/>visible to all participants, fostering trust.
+              Enhance security and reduce fraud risks with blockchain validation.
               </p>
             </div>
             <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
@@ -256,8 +255,8 @@ const AssetToken = () => {
       {/* why choose asset token for business */}
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 mt-12">
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
-        Choosing Giichi for Digital <br/>
-        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Asset Tokenization</span></p>
+         Digital Asset <br/>
+        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">Tokenization Services</span></p>
          {/* Reviews Grid Layout */}
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
           {/* Custom First Card */}
@@ -265,11 +264,11 @@ const AssetToken = () => {
            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-2xl font-bold text-white">
               Why choose Giichi for Asset <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-              Tokenization Services?
+              Tokenization?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
-            By partnering with Antier, you can rely on a team of technical experts with real-world experience delivering end-to-end blockchain services.
+            Giichi offers secure, scalable, and regulatory-compliant asset tokenization, enabling seamless digital asset management and liquidity. 
             </p>
           </div>
 
@@ -280,13 +279,13 @@ const AssetToken = () => {
               className="p-4 md:p-6 text-gray-900 rounded-2xl flex flex-col space-y-6 relative transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(100,255,100,0.5),_0_0_15px_rgba(100,255,100,0.3)]"
             >
               <div className="flex flex-row space-x-4 items-center">
-                <p><IoMdCheckmarkCircleOutline size={40} className="text-3xl text-[#64A03C] rounded-full" /></p>
+                <p><IoMdCheckmarkCircleOutline size={32} className="text-3xl text-[#64A03C] rounded-full" /></p>
                 <p className="font-semibold text-white poppins-thin text-xl">
                   {client.title}
                 </p>
               </div>
              
-              <p className="text-sm font-normal poppins-thin text-white opacity-80">
+              <p className="text-sm font-normal poppins-thin text-white opacity-80 w-[80%] ml-2">
                 {client.description}
               </p>
               
