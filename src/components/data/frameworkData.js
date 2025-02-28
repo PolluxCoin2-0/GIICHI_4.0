@@ -33,6 +33,12 @@ import supplyChainImg from "../../assets/Supp3.png";
 import securityImg from "../../assets/security.png";
 import credibilityImg from '../../assets/credibility.png';
 import reportImg from "../../assets/Supp14.png";
+import consultImg from "../../assets/consult.png";
+import analysisImg from "../../assets/analysis.png";
+import codeReviewImg from "../../assets/review.png";
+import testingImg from "../../assets/testing.png";
+import verificationImg from "../../assets/verify.png";
+import supportImg from "../../assets/support.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -335,32 +341,32 @@ export const EntertainmentFramework = [
 
  export const ScAuditFramework =  [
   {
-    logo: insurance,
+    logo: consultImg,
     title: "Pre-Audit Consultation",
     description:
       "We begin with an in-depth discussion to understand your contract’s functionality, objectives, and requirements to customize the audit accordingly.",
   },
   {
-    logo: insurance,
+    logo: analysisImg,
     title: "Automated Analysis",
     description:
       "Using cutting-edge security tools, we conduct an initial scan to identify common vulnerabilities quickly and efficiently.",
   },
 
   {
-    logo: insurance,
+    logo: codeReviewImg,
     title: " Manual Code Review",
     description:
       "Our expert auditors perform a line-by-line analysis to detect complex logic errors that automated tools might overlook.",
   },
   {
-    logo: insurance,
+    logo: testingImg,
     title: "Functional Testing",
     description:
       "We test smart contract behavior under various real-world scenarios to ensure flawless execution and logic integrity.",
   },
   {
-    logo: insurance,
+    logo: depinAuditImg,
     title: "Vulnerability Assessment",
     description:
       "A deep security analysis uncovers potential attack vectors, preventing exploits before they happen.",
@@ -372,13 +378,13 @@ export const EntertainmentFramework = [
       "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",
   },
   {
-    logo: insurance,
+    logo: verificationImg,
     title: "Third-Party Verification",
     description:
       "To enhance credibility, we integrate external validation for an additional layer of scrutiny and trust.",
   },
   {
-    logo: insurance,
+    logo: supportImg,
     title: " Remediation Support",
     description:
       "Beyond auditing, we assist in patching vulnerabilities and optimizing your smart contract security for seamless deployment.",
@@ -389,40 +395,40 @@ export const EntertainmentFramework = [
 export const AssetTokenFramework =  [
   {
     logo: insurance,
-    title: "Real Estate",
+    title: "Real Estate Tokenization",
     description:
-      "We begin with an in-depth discussion to understand your contract’s functionality, objectives, and requirements to customize the audit accordingly.",
+      "Fractionalize ownership, improve liquidity, and enable seamless real estate transactions with blockchain-based security.",
   },
   {
     logo: insurance,
-    title: "Collectibles",
+    title: "Collectibles Tokenization",
     description:
-      "Using cutting-edge security tools, we conduct an initial scan to identify common vulnerabilities quickly and efficiently.",
+      "Digitize rare collectibles and luxury assets, ensuring authenticity and ownership tracking on the blockchain.",
   },
 
   {
     logo: insurance,
-    title: "Financial Instruments",
+    title: "Financial Instruments Tokenization",
     description:
-      "Our expert auditors perform a line-by-line analysis to detect complex logic errors that automated tools might overlook.",
+      "Enable trading of bonds, stocks, and derivatives with greater transparency, automation, and accessibility.",
   },
   {
     logo: insurance,
-    title: "Commodities",
+    title: "Commodities Tokenization",
     description:
-      "We test smart contract behavior under various real-world scenarios to ensure flawless execution and logic integrity.",
+      "Trade gold, oil, and agricultural products in a digital format with automated settlement via smart contracts.",
   },
   {
     logo: insurance,
-    title: "Intellectual Property",
+    title: "Intellectual Property Tokenization",
     description:
-      "A deep security analysis uncovers potential attack vectors, preventing exploits before they happen.",
+      "Protect and monetize patents, copyrights, and trademarks through immutable blockchain records.",
   },
   {
     logo: reportImg,
-    title: "Private Equity",
+    title: "Private Equity Tokenization",
     description:
-      "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",
+      "Unlock liquidity for private equity investments, ensuring faster, secure, and borderless trading.",
   },
   
 ];
