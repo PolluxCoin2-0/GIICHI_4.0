@@ -3,52 +3,19 @@
 import HealthBannerImg from "../../../assets/HealthBanner.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { HealthcareFramework } from "../../../components/data/frameworkData";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const Healthcare = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={HealthBannerImg}
-          alt="healthcare-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Blockchain Development{" "}
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              for Healthcare{" "}
-            </span>
-          </p>
-          <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            Revolutionizing Healthcare with Secure & <br />
-            Efficient Blockchain Solutions
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-              Blockchain Development For Healthcare{" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            Revolutionizing Healthcare with Secure & Efficient Blockchain
-            Solutions
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={HealthBannerImg}
+        title1=" Blockchain Development"
+        title2="For Healthcare"
+        desc="Revolutionizing Healthcare with Secure & Efficient Blockchain Solutions"
+      />
 
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 md:mb-8 lg:mb-12">
@@ -99,11 +66,12 @@ const Healthcare = () => {
       </div>
 
       {/* Healthcare framework */}
-      <Framework 
-          data={HealthcareFramework} 
-          heading1="How Giichi's Blockchain Healthcare"
-          heading2=" Solutions Drive Real Impact"
-          desc="At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, efficiency, and transparency across the industry."/>
+      <Framework
+        data={HealthcareFramework}
+        heading1="How Giichi's Blockchain Healthcare"
+        heading2=" Solutions Drive Real Impact"
+        desc="At Giichi IT Solutions, we tackle critical healthcare challenges with cutting-edge blockchain applications that ensure security, efficiency, and transparency across the industry."
+      />
 
       {/* Schedule a free demo */}
       <div>

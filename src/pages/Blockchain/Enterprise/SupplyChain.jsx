@@ -18,61 +18,29 @@ import { SuppyChainFaq } from "../../../components/data/faqsData";
 import { SupplyChainFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import Framework from "../../../components/CommonComponent/Framework";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const SupplyChain = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={SupplyChainBannerImg}
-          alt="SupplyChain-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl  "
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Blockchain for Supply{" "}
-            </span>
-            <br />
-            <span className="block pt-2 text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Chain Solution{" "}
-            </span>
-          </p>
-          <p className="pt-6 md:text-[15px] font-semibold leading-snug">
-            Unlock the power of blockchain to revolutionize your supply chain. <br />
-            Gain end-to-end visibility, transparency, and full asset control<br />
-            across your network, ensuring seamless operations and <br />
-            eliminating inefficiencies.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-              Blockchain for Supply Chain Solution{" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50 text-justify hyphens-auto">
-            Unlock the power of blockchain to revolutionize your supply chain.
-            Gain end-to-end visibility, transparency, and full asset control
-            across your network, ensuring seamless operations and eliminating
-            inefficiencies.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={SupplyChainBannerImg}
+        title1="Blockchain for Supply"
+        title2="Chain Solution"
+        desc=" Unlock the power of blockchain to revolutionize your supply chain. Gain end-to-end visibility, transparency, and full asset control across your network, ensuring seamless operations and eliminating  inefficiencies."
+      />
 
       {/* Bloackchain supply chain forecast */}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[40%] relative">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <img src={SupplyFeatureImg} alt="supply-chain-feature-image" className=""/>
+          <div className="hidden md:block spotlight spotlight-left"></div>
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <img
+            src={SupplyFeatureImg}
+            alt="supply-chain-feature-image"
+            className=""
+          />
         </div>
 
         <div className="w-full lg:w-[60%] ">
@@ -107,7 +75,7 @@ const SupplyChain = () => {
 
       {/* Blockchain Supply Chain challenges  */}
       <div className="bg-[#283430] bg-opacity-10 text-center mt-6 md:mt-12 p-1 pt-6 md:pt-12 pb-20 relative">
-      <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-xl md:text-4xl xl:text-5xl 2xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Challenges in Conventional <br />
@@ -116,7 +84,9 @@ const SupplyChain = () => {
           </span>
         </p>
         <p className="hidden lg:block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 leading-7">
-          Traditional supply chain management processes are riddled with inefficiencies that create information silos and  <br />make asset tracking cumbersome and time-consuming.
+          Traditional supply chain management processes are riddled with
+          inefficiencies that create information silos and <br />
+          make asset tracking cumbersome and time-consuming.
         </p>
         <p className="block lg:hidden text-sm md:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           The traditional supply chain management process is beset with a
@@ -188,11 +158,12 @@ const SupplyChain = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-        <Framework 
+      <Framework
         data={SupplyChainFramework}
         heading1="Why Giichi's Blockchain Makes Supply Chains"
         heading2="Smarter and More Efficient?"
-        desc="As a trusted blockchain development partner, Giichi IT Solutions offers blockchain-powered supply chain solutions to help businesses optimize operations and eliminate inefficiencies in data management through intuitive workflows."/>
+        desc="As a trusted blockchain development partner, Giichi IT Solutions offers blockchain-powered supply chain solutions to help businesses optimize operations and eliminate inefficiencies in data management through intuitive workflows."
+      />
 
       {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
@@ -203,7 +174,9 @@ const SupplyChain = () => {
           </span>
         </p>
         <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          Our blockchain supply chain solutions are packed with user-friendly, advanced features that empower businesses<br /> 
+          Our blockchain supply chain solutions are packed with user-friendly,
+          advanced features that empower businesses
+          <br />
           to efficiently manage their supply chain operations without hassle.
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">

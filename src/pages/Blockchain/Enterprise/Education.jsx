@@ -1,62 +1,35 @@
 /* eslint-disable react/prop-types */
 import EducationBannerImg from "../../../assets/EducationBanner.png";
 import EducationFeatureImg from "../../../assets/EducationFeature.png";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
-import securityImg from '../../../assets/security.png';
+import securityImg from "../../../assets/security.png";
 import accessImg from "../../../assets/accessibility.png";
 import credibilityImg from "../../../assets/credibility.png";
 import transparencyImg from "../../../assets/transparency.png";
 import { EducationFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 const Education = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={EducationBannerImg}
-          alt="education-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Blockchain Solution {" "}
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              for Education{" "}
-            </span>
-          </p>
-          <p className="pt-6 md:text-[15px] 2xl:text-lg font-semibold leading-snug">
-            Blockchain technology is revolutionizing the education sector <br />
-            by enhancing security, transparency, and accessibility.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-              Blockchain Solution for Education{" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            Blockchain technology is revolutionizing the education sector by
-            enhancing security, transparency, and accessibility.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={EducationBannerImg}
+        title1="Blockchain Solution "
+        title2="for Education"
+        desc="Blockchain technology is revolutionizing the education sector by
+            enhancing security, transparency, and accessibility."
+      />
 
       {/* Bloackchain education forecast */}
       <div className="flex flex-col md:flex-row justify-between space-x-0 lg:space-x-10 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 relative">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          <img src={EducationFeatureImg} alt="education-feature-image" className="w-[70%]"/>
+          <img
+            src={EducationFeatureImg}
+            alt="education-feature-image"
+            className="w-[70%]"
+          />
         </div>
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
@@ -86,8 +59,8 @@ const Education = () => {
 
       {/* Benefits of blockchain application */}
       <div className="mt-0 md:mt-12 relative">
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight spotlight-right"></div>
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Benefits of Blockchain
           <br />

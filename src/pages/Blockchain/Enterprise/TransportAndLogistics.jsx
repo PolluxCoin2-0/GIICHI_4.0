@@ -4,49 +4,19 @@ import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { TransportFramework } from "../../../components/data/frameworkData";
 import { TransportForecast } from "../../../components/data/forecastData";
 import Framework from "../../../components/CommonComponent/Framework";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
 import Forecast from "../../../components/CommonComponent/Forecast";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const TransportAndLogistics = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={TransportBannerImg}
-          alt="Transport-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-16 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            Blockchain in Transport {" "}
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-            and Logistics{" "}
-            </span>
-          </p>
-          <p className="pt-6 md:text-[12px] lg:text-lg xl:text-[17px] 2xl:text-lg font-semibold leading-snug">
-          Embrace Augmented Security, Trust in Data, and <br/>Streamlined Logistics Management
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-            Blockchain in Transport  and Logistics {" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Embrace Augmented Security, Trust in Data, and Streamlined Logistics Management
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={TransportBannerImg}
+        title1="Blockchain in Transport"
+        title2=" and Logistics "
+        desc="Embrace Augmented Security, Trust in Data, and Streamlined Logistics Management"
+      />
 
       {/* Bloackchain transport & Logistics forecast */}
       <div className="mt-6 md:mt-20">
@@ -59,12 +29,13 @@ const TransportAndLogistics = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-       <Framework 
-       data={TransportFramework }
-       heading1="Blockchain in Transport : "
-       heading2="How can our Solution Help?"
-       desc=" Our blockchain-based solution for the transportation industry provides a more transparent and secure approach to business operations,
-        ensuring immutable transaction records, improved provenance tracking, and enhanced coordination across the supply chain. "/>
+      <Framework
+        data={TransportFramework}
+        heading1="Blockchain in Transport : "
+        heading2="How can our Solution Help?"
+        desc=" Our blockchain-based solution for the transportation industry provides a more transparent and secure approach to business operations,
+        ensuring immutable transaction records, improved provenance tracking, and enhanced coordination across the supply chain. "
+      />
 
       {/* Schedule a free demo */}
       <div>

@@ -3,66 +3,47 @@ import MediaBannerImg from "../../../assets/MediaBanner.png";
 import MediaFeatureImg from "../../../assets/MediaFeature.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { EntertainmentFramework } from "../../../components/data/frameworkData";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const Entertainment = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={MediaBannerImg}
-          alt="media-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Blockchain In Media &{" "}
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Entertainment{" "}
-            </span>
-          </p>
-          <p className="pt-6 md:text-[15px] lg:text-[17px] xl:text-[15px] 2xl:text-[17px] font-semibold leading-snug">
-          Secure digital content, prevent piracy, and enhance transparency <br/>
-          across content creation and distribution. Revolutionizing rights <br/>management and monetization with blockchain technology.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-            Blockchain In Media And Entertainment{" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-          Secure digital content, prevent piracy, and enhance transparency across content creation and distribution. Revolutionizing rights management and monetization with blockchain technology.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={MediaBannerImg}
+        title1="Blockchain In Media &"
+        title="And Entertainment"
+        desc=" Secure digital content, prevent piracy, and enhance transparency across content creation and distribution. Revolutionizing rights management and monetization with blockchain technology."
+      />
 
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-20 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12">
         <div className="w-full md:w-[40%]">
-          <img src={MediaFeatureImg} alt="media-feature-image" className="w-full object-contain"/>
+          <img
+            src={MediaFeatureImg}
+            alt="media-feature-image"
+            className="w-full object-contain"
+          />
         </div>
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 ">
-          Media & Entertainment Industry: Ripe for Blockchain Adoption
+            Media & Entertainment Industry: Ripe for Blockchain Adoption
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 leading-7 text-justify hyphens-auto">
-          The media and entertainment industry faces challenges like content commoditization, widespread piracy, and copyright infringements. Many users hesitate to pay for premium content, leading to revenue leakage despite new streaming models.
+            The media and entertainment industry faces challenges like content
+            commoditization, widespread piracy, and copyright infringements.
+            Many users hesitate to pay for premium content, leading to revenue
+            leakage despite new streaming models.
           </p>
           <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 leading-7 text-justify hyphens-auto">
-          Blockchain technology offers a solution by reducing IP infringements, ensuring transparent content ownership, and enabling seamless monetization through smart contracts. At Giichi IT Solutions, we leverage blockchain to transform digital rights management, secure content distribution, and drive revenue growth for creators and businesses.
+            Blockchain technology offers a solution by reducing IP
+            infringements, ensuring transparent content ownership, and enabling
+            seamless monetization through smart contracts. At Giichi IT
+            Solutions, we leverage blockchain to transform digital rights
+            management, secure content distribution, and drive revenue growth
+            for creators and businesses.
           </p>
         </div>
       </div>
@@ -73,10 +54,12 @@ const Entertainment = () => {
       </div>
 
       {/*Entertainment Framework*/}
-        <Framework data={EntertainmentFramework}
-       heading1=" Impact of Blockchain in Media"
-       heading2="& Entertainment"
-       desc=" Blockchain is set to revolutionize the media and entertainment industry by offering:"/>
+      <Framework
+        data={EntertainmentFramework}
+        heading1=" Impact of Blockchain in Media"
+        heading2="& Entertainment"
+        desc=" Blockchain is set to revolutionize the media and entertainment industry by offering:"
+      />
 
       {/* Schedule a free demo */}
       <div>

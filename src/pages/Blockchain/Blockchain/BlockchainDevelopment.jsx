@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../../assets/blockchainImg.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 import Forecast from "../../../components/CommonComponent/Forecast";
 import BlockchainCycle from "../../../components/CommonComponent/BlockchainCycle";
 import { BkDevIndustriesData } from "../../../components/data/industriesData";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
 import FlutterImg from "../../../assets/Flutter.png";
 import KotlinImg from "../../../assets/kotlin.png";
 import DartImg from "../../../assets/dart.png";
@@ -24,7 +24,7 @@ import solidityImg from "../../../assets/solidity.png";
 import wordpressImg from "../../../assets/wordpress.png";
 import moveImg from "../../../assets/move.png";
 import WhatsAppImg from "../../../assets/whatsapp.png";
-import {BlockchainDevelopmentFaq} from "../../../components/data/faqsData";
+import { BlockchainDevelopmentFaq } from "../../../components/data/faqsData";
 import { BlockchainDevelopmentService } from "../../../components/data/ServicesData";
 import { BlockchainDevelopmentCycle } from "../../../components/data/developmentCycleData";
 import { BlockchainDevelopmentForecast } from "../../../components/data/forecastData";
@@ -34,59 +34,22 @@ import Framework from "../../../components/CommonComponent/Framework";
 import Services from "../../../components/CommonComponent/Services";
 import Industries from "../../../components/CommonComponent/Industries";
 
-
 const BlockchainDevelopment = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
-      {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={BlockchainImg}
-          alt="blockchain-bg-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 lg:left-24 xl:left-44 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-3xl lg:text-4xl xl:text-5xl font-bold">
-              Blockchain Development{" "}
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-3xl lg:text-4xl xl:text-5xl  font-bold">
-              Company{" "}
-            </span>
-          </p>
-          <p className="pt-6 lg:text-[17px] 2xl:text-lg font-semibold leading-snug">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions{" "}
-            <br />
-            is driving the web3 revolution with cutting-edge <br />
-            blockchain development services.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-              Blockchain Development Company{" "}
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            With expertise in 40+ blockchain protocols, Giichi IT Solutions is
+      {/* Banner Image content */}
+      <BannerContent
+        img={BlockchainImg}
+        title1="Blockchain Development"
+        title2="Company"
+        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is
             driving the web3 revolution with cutting-edge blockchain development
-            services.
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+            services."
+      />
 
       {/* Bloackchain forecast */}
       <div className="mt-6 md:mt-20">
-        <Forecast
-        data={BlockchainDevelopmentForecast}
-        />
+        <Forecast data={BlockchainDevelopmentForecast} />
       </div>
       {/* bottom line */}
       <div className="flex justify-center items-center pt-16">
@@ -94,31 +57,37 @@ const BlockchainDevelopment = () => {
       </div>
 
       {/* Blockchain Development Services */}
-        <Services 
+      <Services
         data={BlockchainDevelopmentService}
         heading1="Our Blockchain"
         heading2="Development Services"
-        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."/>
+        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+      />
 
       {/* Industries  */}
-         <Industries 
-          data={BkDevIndustriesData}
-          heading1="Industries"
-          heading2="We Serve"
-          desc="As a leading custom blockchain development company, we leverage
+      <Industries
+        data={BkDevIndustriesData}
+        heading1="Industries"
+        heading2="We Serve"
+        desc="As a leading custom blockchain development company, we leverage
           different blockchain networks to provide you with the best solutions
-          aligned with your needs." />
+          aligned with your needs."
+      />
 
       {/* Blockchain Development frameworks */}
-        <Framework 
+      <Framework
         data={BlockchainDevelopmentFramework}
         heading1="Blockchain Frameworks We Utilize"
         heading2="L2/L3 Development"
-        desc=" At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, leveraging advanced frameworks to enhance scalability, efficiency, and interoperability."/>
+        desc=" At Giichi IT Solutions, our team of expert blockchain developers specializes in Layer 2 and Layer 3 blockchain solutions, leveraging advanced frameworks to enhance scalability, efficiency, and interoperability."
+      />
 
       {/* Blockchain Process */}
       <div>
-        <BlockchainCycle title=" Our Blockchain App Development Process" data={BlockchainDevelopmentCycle}/>
+        <BlockchainCycle
+          title=" Our Blockchain App Development Process"
+          data={BlockchainDevelopmentCycle}
+        />
       </div>
 
       {/* Technology Stack */}
@@ -148,11 +117,19 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={FlutterImg} alt="flutter-img" className="w-6 md:w-10 " />
+                <img
+                  src={FlutterImg}
+                  alt="flutter-img"
+                  className="w-6 md:w-10 "
+                />
                 <p className="text-white text-xs md:text-sm pt-2">Flutter</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[12%]">
-                <img src={KotlinImg} alt="kotlin-img" className="w-10 md:w-16" />
+                <img
+                  src={KotlinImg}
+                  alt="kotlin-img"
+                  className="w-10 md:w-16"
+                />
                 <p className="text-white text-xs md:text-sm pt-2">Kotlin</p>
               </div>
               <div className="flex flex-col justify-center items-center w-[12%]">
@@ -222,7 +199,11 @@ const BlockchainDevelopment = () => {
             </div>
             <div className="w-[90%] md:w-[80%] lg:w-[30%] xl:w-[80%] flex flex-row justify-between md:justify-start items-center md:space-x-6 lg:space-x-12 mt-4 ">
               <div className="flex flex-col justify-center items-center w-[10%]">
-                <img src={expressImg} alt="express-img" className="w-6 md:w-10 " />
+                <img
+                  src={expressImg}
+                  alt="express-img"
+                  className="w-6 md:w-10 "
+                />
                 <p className="text-white text-nowrap text-xs md:text-sm pt-2">
                   Express.js
                 </p>

@@ -2,7 +2,6 @@
 import ScAuditBannerImg from "../../../assets/ScAuditBanner.png";
 import ScAuditFeatureImg from "../../../assets/ScAuditFeature.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
-import CalendlyButton from "../../../components/resuableComponent/Calendly";
 import { ScAuditFramework } from "../../../components/data/frameworkData";
 import defiImg from "../../../assets/defi (1).png";
 import tokenImg from "../../../assets/tokens.png";
@@ -10,48 +9,18 @@ import nftImg from "../../../assets/nft.png";
 import votesImg from "../../../assets/vote.png";
 import supplyImg from "../../../assets/Supp10.png";
 import Framework from "../../../components/CommonComponent/Framework";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const ScAudit = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
-      <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 z-10">
-        <img
-          src={ScAuditBannerImg}
-          alt="smart-contract-banner-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
-        />
-        {/* The text */}
-        <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-20 lg:left-24 xl:left-48 2xl:left-80 w-full h-full">
-          <p className="">
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Smart Contract
-            </span>
-            <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-4xl lg:text-5xl font-bold">
-              Audit Services
-            </span>
-          </p>
-          <p className="pt-6 md:text-[15px] lg:text-lg font-semibold leading-snug">
-            Ensuring Security, Transparency & Efficiency
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
-        </div>
-        <div className="md:hidden flex flex-col items-start justify-center pt-6">
-          <p className="">
-            <span className="text-white text-3xl font-bold">
-              Smart Contract Audit Services
-            </span>
-          </p>
-          <p className="pt-3 text-sm md:text-lg font-semibold leading-snug text-white text-opacity-50">
-            Ensuring Security, Transparency & Efficiency
-          </p>
-          {/* Button */}
-          <CalendlyButton />
-        </div>
-      </div>
+      <BannerContent
+        img={ScAuditBannerImg}
+        title1="Smart Contract"
+        title2="Audit Services"
+        desc="Ensuring Security, Transparency & Efficiency"
+      />
 
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 lg:mt-32 mb-6 lg:mb-12 relative">
@@ -95,12 +64,12 @@ const ScAudit = () => {
       </div>
 
       {/* Blockchain Services */}
-          <Framework 
-          data={ScAuditFramework} 
-          heading1="Smart Contract Auditing:"
-          heading2="Key Highlights"
-          desc="At Giichi IT Solutions, we take pride in delivering top-tier smart contract audits that fortify your blockchain-based projects against exploits and vulnerabilities."/>
-        
+      <Framework
+        data={ScAuditFramework}
+        heading1="Smart Contract Auditing:"
+        heading2="Key Highlights"
+        desc="At Giichi IT Solutions, we take pride in delivering top-tier smart contract audits that fortify your blockchain-based projects against exploits and vulnerabilities."
+      />
 
       {/* why your business need smart contract development */}
       <div className="mt-12 md:mt-20 pb-20">
@@ -241,7 +210,8 @@ const ScAudit = () => {
             <div className="">
               <p className="text-white text-[15px] lg:text-2xl xl:text-xl 2xl:text-3xl">
                 {" "}
-                Client Consultation & Requirement <br/>Analysis
+                Client Consultation & Requirement <br />
+                Analysis
               </p>
               <p className="pt-2">
                 <ul className="list-disc ml-3 md:ml-6 w-[90%] md:w-full lg:w-[90%]">
