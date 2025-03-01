@@ -6,7 +6,7 @@ import clImg from "../../assets/cloud.png";
 import defiImg from "../../assets/defi.png";
 import aiImg from "../../assets/ai2.png";
 import missionImg from "../../assets/mission.png";
-import LetsTalk from "../../components/resuableComp/LetsTalk";
+import LetsTalk from "../../components/resuableComponent/LetsTalk";
 import indiaImg from "../../assets/indiaflag.png";
 import dubaiImg from "../../assets/dubaiflag.png";
 

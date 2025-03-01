@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import scDevBannerImg from "../../assets/ScDevBanner.png";
-import LetsTalk from "../../components/resuableComp/LetsTalk";
-import CalendlyButton from "../../components/resuableComp/Calendly";
-import Services from "../../components/Blockchain/Services";
+import LetsTalk from "../../components/resuableComponent/LetsTalk";
+import CalendlyButton from "../../components/resuableComponent/Calendly";
 import { GenerativeAiService } from "../../components/data/ServicesData";
-import Industries from "../../components/Blockchain/Industries";
 import { BkDevIndustriesData } from "../../components/data/industriesData";
-import ProductDev from "../../components/ProductDev";
+import ProductDevPhases from "../../components/CommonComponent/ProductDevPhases";
+import Services from "../../components/CommonComponent/Services";
+import Industries from "../../components/CommonComponent/Industries";
 
 const steps = [
   { id: "01", title: "Define the Goal & Gather Data " },
@@ -63,66 +63,27 @@ const GenerativeAi = () => {
       </div>
 
       {/* Blockchain Supply Chain Network */}
-      <div className="relative mt-20  mb-24 pt-8 pb-8 bg-[#283430] bg-opacity-10">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          Generative AI Development Process
-        </p>
-        <p className="hidden md:block text-sm md:text-[10px] xl:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 text-center">
-          At Giichi IT Solutions, we help enterprises achieve business
+         <ProductDevPhases 
+          data={steps} 
+          heading="Generative AI Development Process"
+          desc=" At Giichi IT Solutions, we help enterprises achieve business
           automation with advanced, secure, and efficient smart contract
-          solutions.
-        </p>
-
-        <div>
-          <ProductDev data={steps} />
-        </div>
-      </div>
-      {/* Real Estate Tokenization Services */}
-      <div className="relative mt-24 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl  font-bold pt-4 tracking-wide leading-relaxed text-center ">
-          Services Provided by
-          <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
-            Generative AI in Blockchain
-          </span>
-        </p>
-        <p className="text-white text-opacity-70 text-sm md:text-lg lg:text-[15px] xl:text-lg font-normal pt-2 text-center">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-          omnis voluptatum <br />
-          animi voluptas voluptates, nam quae aliquid velit quisquam fuga!
-        </p>
-        {/* services */}
-        <Services data={GenerativeAiService} />
-      </div>
+          solutions."/>
+      {/* Generative AI Services */}
+    
+        <Services 
+        data={GenerativeAiService}
+        heading1="Services Provided by"
+        heading2=" Generative AI in Blockchain"
+        desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum animi voluptas voluptates, nam quae aliquid velit quisquam fuga!" />
       {/* Industries  */}
-      <div className="relative text-center mt-8 md:mt-24">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          Industries{" "}
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            We Serve
-          </span>
-        </p>
-        <p className="hidden md:block text-sm md:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          As a leading custom blockchain development company, we leverage
-          different blockchain networks <br /> to provide you with the best
-          solutions aligned with your needs.
-        </p>
-        <p className="block md:hidden text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
-          As a leading custom blockchain development company, we leverage
+         <Industries 
+          data={BkDevIndustriesData}
+          heading1="Industries" 
+          heading2="We Serve"
+          desc="As a leading custom blockchain development company, we leverage
           different blockchain networks to provide you with the best solutions
-          aligned with your needs.
-        </p>
-        {/* various industries  */}
-        <div>
-          <Industries data={BkDevIndustriesData} />
-        </div>
-      </div>
+          aligned with your needs."/>
 
       {/* Schedule a free demo */}
       <div className="mt-20">
