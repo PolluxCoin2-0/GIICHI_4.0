@@ -1,3 +1,10 @@
+import logictisImg from "../../assets/logictics.png";
+import realStateImg from "../../assets/real-estate.png";
+import energyImg from "../../assets/energy.png";
+import satelliteImg from "../../assets/satellite.png";
+import manufactureImg from "../../assets/manufacture.png";
+import healthImg from "../../assets/health.png";
+
 export const BlockchainDevelopmentService = [
     {
       title: "Blockchain Consultation & Integration",
@@ -123,6 +130,45 @@ export const BlockchainDevelopmentService = [
     
   ];
    
+  export const DepinUseCaseData = [
+    {
+      logo: logictisImg,
+      title: "Logistics & Supply Chain",
+      description:
+        "Giichi’s DePIN solutions revolutionize supply chain management by ensuring real-time tracking, improved transparency, and efficient inventory management. Businesses can leverage decentralized platforms to minimize delays, streamline logistics, and enhance overall supply chain performance.",
+    },
+    {
+      logo: realStateImg,
+      title: "Real Estate",
+      description:
+        "We develop DePIN-based property management platforms that simplify rent collection, maintenance scheduling, and stakeholder communication. Our decentralized solutions ensure secure and immutable property records, reducing disputes and fostering trust among tenants, landlords, and investors.",
+    },
+  
+    {
+      logo: energyImg,
+      title: "Energy & Utilities",
+      description:
+        "Giichi empowers energy companies with decentralized energy trading platforms that optimize resource allocation, enhance transaction transparency, and support sustainable energy initiatives. Our solutions enable peer-to-peer energy exchange and eliminate reliance on intermediaries.",
+    },
+    {
+      logo: satelliteImg,
+      title: "Telecommunications",
+      description:
+        "With Giichi’s DePIN solutions, telecom businesses can establish decentralized communication networks that improve data privacy, reduce dependency on traditional infrastructure, and facilitate peer-to-peer transactions, ensuring a more resilient and efficient telecom ecosystem.",
+    },
+    {
+      logo: healthImg,
+      title: "Healthcare",
+      description:
+        "We enhance healthcare data management by developing decentralized networks for patient records. Our solutions improve data security, interoperability among healthcare providers, and patient access to medical history, fostering a secure and efficient healthcare ecosystem.",
+    },
+    {
+      logo: manufactureImg,
+      title: "Manufacturing",
+      description:
+        "Giichi’s DePIN technology strengthens manufacturing operations by securing sensitive data, ensuring process transparency, and optimizing supply chains. Our solutions help streamline workflows, enhance collaboration, and prevent vulnerabilities in production environment.",
+    },
+  ];
  export const RealEstateServicesData = [
     {
       title: " Real Estate Tokenization",

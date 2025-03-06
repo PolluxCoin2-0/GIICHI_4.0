@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import BlockchainImg from "../../assets/blockchainImg.png";
-import CalendlyButton from "../../components/resuableComp/Calendly";
-import { PulseBeam } from "../../components/Consulting/PulseBeam";
+import CalendlyButton from "../../components/resuableComponent/Calendly";
 const Maas = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
@@ -29,7 +28,6 @@ const Maas = () => {
           </p>
           {/* Button */}
           <CalendlyButton />
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
         <div className="md:hidden flex flex-col items-start justify-center pt-6">
           <p className="">
@@ -45,10 +43,7 @@ const Maas = () => {
         </div>
       </div>
       
-      {/* PulseBeam */}
-      <div>
-        <PulseBeam/>
-      </div>
+    
     </div>
   );
 };
