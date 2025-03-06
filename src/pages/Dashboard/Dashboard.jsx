@@ -29,7 +29,7 @@ const Dashboard = () => {
   return (
     <div className="pt-6 md:pt-20 ">
       
-      {/* Section 1 */}
+      {/* Section 1 */}   
       <div className="px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60 relative">
       <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
@@ -92,14 +92,14 @@ const Dashboard = () => {
             alt="blogs-image"
             className="w-full rounded-2xl"
           />
-          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
+          <p className="text-white relative overflow-hidden max-h-[11em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
             <div
               dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}
               className="line-clamp-10 text-justify hyphens-auto"
             />
           </p>
 
-          <p className="text-white relative overflow-hidden max-h-[15em] text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px] z-10">
+          <p className="text-white relative overflow-hidden max-h-[11em] text-opacity-50 mt-2 mb-2 hidden md:block lg:hidden text-[12px] z-10">
             <div
               dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}
               className="line-clamp-10 text-justify hyphens-auto"
