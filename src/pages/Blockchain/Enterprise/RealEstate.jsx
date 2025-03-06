@@ -27,7 +27,6 @@ const RealEstate = () => {
             className="w-[80%]"
           />
         </div>
-
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
             Capitalize on Giichi for Blockchain Solutions in Real Estate – We’re

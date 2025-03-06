@@ -19,11 +19,7 @@ const BlockchainIdentity = () => {
         img={blockchainIdenityImg}
         title1="Blockchain Identity"
         title="Management"
-        desc=" Leverage blockchain technology to revolutionize digital identity
-            management with a secure, tamper-proof, and decentralized ecosystem.
-            By eliminating reliance on centralized authorities, blockchain
-            enhances data privacy, security, and user control over personal
-            information."
+        desc=" Leverage blockchain technology to revolutionize digital identity management with a secure, tamper-proof, and decentralized ecosystem. By eliminating reliance on centralized authorities, blockchain enhances data privacy, security, and user control over personal information."
       />
 
       {/* Forecast */}
@@ -36,8 +32,7 @@ const BlockchainIdentity = () => {
         data={BlockchainIdentityService}
         heading1="Unlocking the Power of Blockchain for"
         heading2="Identity Management with Giichi"
-        desc=" At Giichi, we are revolutionizing identity management by leveraging blockchain-based decentralized identity solution. 
-        Our approach eliminates traditional inefficiencies, ensuring privacy, security, and seamless accessibility while putting users in control of their digital identities."
+        desc=" At Giichi, we are revolutionizing identity management by leveraging blockchain-based decentralized identity solution. Our approach eliminates traditional inefficiencies, ensuring privacy, security, and seamless accessibility while putting users in control of their digital identities."
       />
 
       {/* Blockchain Cycle Slider */}

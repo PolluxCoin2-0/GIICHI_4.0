@@ -2,42 +2,13 @@
 import scDevBannerImg from "../../../assets/ScDevBanner.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { AssetTokenFramework } from "../../../components/data/frameworkData";
-import agreementImg from "../../../assets/agreement.png";
-import realTimeImg from "../../../assets/realTime.png";
-import transparencyImg from "../../../assets/transparency.png";
-import securityImg from "../../../assets/security.png";
 import { Link } from "react-router-dom";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import Framework from "../../../components/CommonComponent/Framework";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-
-const clientData = [
-  {
-    description:
-      "Expertise in Web3, DeFi, and NFT solutions to help businesses scale effortlessly.",
-    title: "Blockchain Pioneers",
-  },
-  {
-    description:
-      " Bespoke blockchain solutions tailored to your specific industry needs.",
-    title: "Customization Excellence",
-  },
-  {
-    description:
-      "From development to deployment and compliance, we manage everything.",
-    title: "End-to-End Services",
-  },
-  {
-    description:
-      "Advanced security protocols to protect digital assets from vulnerabilities..",
-    title: "Security-Centric Approach",
-  },
-  {
-    description:
-      "A dedicated team providing continuous assistance and optimization.",
-    title: "24/7 Support",
-  },
-];
+import LifeCycle from "../../../components/CommonComponent/LifeCycle";
+import { assetTokenLifeCycleData } from "../../../components/data/lifecycleData";
+import { clientData } from "../../../components/data/clientData";
 
 const AssetToken = () => {
   return (
@@ -142,99 +113,23 @@ const AssetToken = () => {
       </div>
 
       {/* Asset Tokenization Framework */}
-      <Framework
-        data={AssetTokenFramework}
-        heading1="Our Real World Asset"
-        heading2="Tokenization Services"
-        desc=""
-      />
+      <div>
+        <Framework
+          data={AssetTokenFramework}
+          heading1="Our Real World Asset"
+          heading2="Tokenization Services"
+          desc=""
+        />
+      </div>
 
       {/*Lifecycle of a Tokenized Security */}
-      <div className="pb-20">
-        <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 ">
-          Lifecycle of a<br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
-            Tokenized Security
-          </span>{" "}
-        </p>
-
-        <div className="pt-4">
-          {/* step 1 */}
-          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
-                Structuring & Issuance
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Enable trustless agreements without third-party involvement.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={agreementImg} alt="" className="" />
-            </div>
-          </div>
-
-          {/* step 2 */}
-          <div className="flex flex-row space-x-12 items-center xl:ml-[800px] 2xl:ml-[980px] mt-12">
-            <div className="">
-              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
-                Trading & Transfers
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Execute smart contracts instantly when conditions are met.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={realTimeImg} alt="" className="" />
-            </div>
-          </div>
-
-          {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
-                Corporate Actions & Governance
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Store all contract details on blockchain for transparency.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={transparencyImg} alt="" className="" />
-            </div>
-          </div>
-
-          {/* step 4 */}
-          <div className="flex flex-row space-x-12 items-center xl:ml-[800px] 2xl:ml-[980px] mt-12">
-            <div className="">
-              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
-                Maturity & Exit
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Ensure immutable and tamper-proof financial records.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={securityImg} alt="" className="" />
-            </div>
-          </div>
-
-          {/* step 3 */}
-          <div className="flex flex-row space-x-12 items-center xl:ml-[200px] 2xl:ml-[400px] mt-12">
-            <div className="">
-              <p className="text-white xl:text-xl 2xl:text-3xl exo-font">
-                Digitization
-              </p>
-              <p className="text-white text-[14px] text-opacity-70 exo-font pt-2">
-                Enhance security and reduce fraud risks with blockchain
-                validation.
-              </p>
-            </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-              <img src={transparencyImg} alt="" className="" />
-            </div>
-          </div>
-        </div>
+      <div>
+        <LifeCycle
+          heading1="Lifecycle of a"
+          heading2=" Tokenized Security"
+          desc=""
+          steps={assetTokenLifeCycleData}
+        />
       </div>
 
       {/* why choose asset token for business */}
@@ -261,7 +156,6 @@ const AssetToken = () => {
               liquidity.
             </p>
           </div>
-
           {/* Mapping Client Data */}
           {clientData.map((client, index) => (
             <div

@@ -8,6 +8,60 @@ import transparencyImg from "../../../assets/transparency.png";
 import { EducationFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+
+const benefits = [
+  [
+    {
+      image: securityImg,
+      title: "Enhanced Security",
+      points: [
+        "Provides a tamper-proof record of educational data.",
+        "Prevents unauthorized alterations or deletions of student records.",
+      ],
+    },
+    {
+      image: accessImg,
+      title: "Improved Accessibility",
+      points: [
+        "Enables global access to academic records for students, teachers, and institutions.",
+        "Eliminates delays in retrieving credentials and transcripts.",
+      ],
+    },
+  ],
+  [
+    {
+      image: credibilityImg,
+      title: "Enhanced Credibility",
+      points: [
+        "Blockchain-based degree and certificate verification ensures authenticity.",
+        "Employers can instantly verify educational qualifications, reducing fraud risks.",
+      ],
+    },
+    {
+      image: transparencyImg,
+      title: "Increased Transparency",
+      points: [
+        "Ensures trust and accountability in academic processes.",
+        "Reduces disputes related to credentials and grading.",
+      ],
+    },
+  ],
+];
+
+const BenefitCard = ({ image, title, points }) => {
+  return (
+    <div className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full md:w-[50%] lg:w-[40%] md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6">
+      <img src={image} alt={title} className="w-12 lg:w-20" />
+      <p className="text-white pt-4 text-lg md:text-xl font-bold">{title}</p>
+      <ul className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4 list-disc ml-6">
+        {points.map((point, index) => (
+          <li key={index}>{point}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
 const Education = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
@@ -16,8 +70,7 @@ const Education = () => {
         img={EducationBannerImg}
         title1="Blockchain Solution "
         title2="for Education"
-        desc="Blockchain technology is revolutionizing the education sector by
-            enhancing security, transparency, and accessibility."
+        desc="Blockchain technology is revolutionizing the education sector byenhancing security, transparency, and accessibility."
       />
 
       {/* Bloackchain education forecast */}
@@ -65,116 +118,29 @@ const Education = () => {
           Benefits of Blockchain
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
-            {" "}
             In Education
           </span>
         </p>
         <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6 text-center">
           Blockchain technology is reshaping the education sector by enhancing
-          security, accessibility, <br /> credibility, and transparency.
+          security, accessibility, credibility, and transparency.
         </p>
-        <div>
-          <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
-            <div className="flex flex-col md:flex-row w-full justify-center space-x-0 md:space-x-6 lg:space-x-8">
-              <div
-                className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full md:w-[50%] lg:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
-              >
-                <img
-                  src={securityImg}
-                  alt="security-&-transparency-image"
-                  className="w-12 lg:w-20"
+        <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
+          {benefits.map((row, rowIndex) => (
+            <div
+              key={rowIndex}
+              className="flex flex-col md:flex-row justify-center w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8"
+            >
+              {row.map((benefit, index) => (
+                <BenefitCard
+                  key={index}
+                  image={benefit.image}
+                  title={benefit.title}
+                  points={benefit.points}
                 />
-                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
-                  Enhanced Security
-                </p>
-                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
-                  <ul className="list-disc ml-6">
-                    <li>Provides a tamper-proof record of educational data.</li>
-                    <li>
-                      Prevents unauthorized alterations or deletions of student
-                      records.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div
-                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center  w-full  md:w-[50%] lg:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
-              >
-                <img
-                  src={accessImg}
-                  alt="enhanced-security-image"
-                  className="w-12 lg:w-20"
-                />
-                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
-                  Improved Accessibility
-                </p>
-                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
-                  <ul className="list-disc ml-6">
-                    <li>
-                      {" "}
-                      Enables global access to academic records for students,
-                      teachers, and institutions.
-                    </li>
-                    <li>
-                      {" "}
-                      Eliminates delays in retrieving credentials and
-                      transcripts.
-                    </li>
-                  </ul>
-                </p>
-              </div>
+              ))}
             </div>
-
-            <div className="flex flex-col md:flex-row justify-center w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8">
-              <div
-                className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center  w-full md:w-[50%] lg:w-[40%]  
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
-              >
-                <img src={credibilityImg} alt="" className="w-12 lg:w-20" />
-                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
-                  Enhanced Credibility
-                </p>
-                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
-                  <ul className="list-disc ml-6">
-                    <li>
-                      {" "}
-                      Blockchain-based degree and certificate verification
-                      ensures authenticity.
-                    </li>
-                    <li>
-                      {" "}
-                      Employers can instantly verify educational qualifications,
-                      reducing fraud risks.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div
-                className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full  md:w-[50%] lg:w-[40%] 
-                            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6"
-              >
-                <img src={transparencyImg} alt="" className="w-12 lg:w-20" />
-                <p className="text-white pt-4 text-lg md:text-xl font-bold ">
-                  Increased Transparency
-                </p>
-                <p className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4">
-                  <ul className="list-disc ml-6">
-                    <li>
-                      {" "}
-                      Ensures trust and accountability in academic processes.
-                    </li>
-                    <li>
-                      {" "}
-                      Reduces disputes related to credentials and grading.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div></div>
+          ))}
         </div>
       </div>
 

@@ -23,6 +23,7 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 const SupplyChain = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
+      
       {/* Banner Image */}
       <BannerContent
         img={SupplyChainBannerImg}
