@@ -1,13 +1,25 @@
-import healthImg from "../../assets/healthcare 1.png";
-import propertyImg from "../../assets/property 1.png";
-import museumImg from "../../assets/museum 1.png";
-import agriImg from "../../assets/agriculture 1.png";
-import logisticImg from "../../assets/Group (14).png";
+import healthImg from "../../assets/healthcare.png";
+import propertyImg from "../../assets/realesate.png";
+import museumImg from "../../assets/bfsi.png";
+import agriImg from "../../assets/agriculture.png";
+import logisticImg from "../../assets/logistics.png";
 import retailImg from "../../assets/retail.png";
-import tripImg from "../../assets/trip.png";
-import mediaImg from "../../assets/media.png";
+import tripImg from "../../assets/travel.png";
+import mediaImg from "../../assets/entertainment.png";
 import energyImg from "../../assets/energy.png";
 import educationImg from "../../assets/education.png";
+import icoImg from "../../assets/ico.png";
+import stableImg from "../../assets/token.png";
+import techImg from "../../assets/security.png";
+import financeImg from "../../assets/fund.png";
+import lawImg from "../../assets/depinSc.png";
+import manufactureImg from "../../assets/manufacture.png";
+import lifestyleImg from '../../assets/lifestyle.png';
+import marketingImg from "../../assets/marketing.png";
+import insuranceImg from "../../assets/depinSc.png";
+import telecommunicationImg from "../../assets/satellite.png";
+import operationsImg from "../../assets/review.png";
+import serviceImg from '../../assets/management.png';
 
 export const BkDevIndustriesData = [
   {
@@ -54,43 +66,86 @@ export const BkDevIndustriesData = [
 
 export const WhitepaperIndustriesData = [
   {
-    img: healthImg,
+    img: icoImg,
     title: "ICO",
   },
   {
-    img: healthImg,
+    img: stableImg,
     title: "Stablecoin",
   },
   {
-    img: healthImg,
+    img: techImg,
     title: "Technology",
   },
   {
-    img: healthImg,
+    img: financeImg,
     title: "Finance",
   },
   {
-    img: healthImg,
+    img: lawImg,
     title: "Law",
   },
   {
-    img: healthImg,
+    img: propertyImg,
     title: "Real Estate",
   },
   {
-    img: healthImg,
+    img: manufactureImg,
     title: "Manufacturing",
   },
   {
-    img: healthImg,
+    img: tripImg,
     title: "Travel",
   },
   {
-    img: healthImg,
+    img: lifestyleImg,
     title: "Lifestyle",
   },
   {
-    img: healthImg,
+    img: educationImg,
     title: "Education",
+  },
+];
+
+export const aiMlIndustriesData = [
+  {
+    img: marketingImg,
+    title: "Marketing & Advertising",
+  },
+  {
+    img: propertyImg,
+    title: "Real Estate",
+  },
+  {
+    img: insuranceImg,
+    title: "Insurance",
+  },
+  {
+    img: museumImg,
+    title: "Banking",
+  },
+  {
+    img: logisticImg,
+    title: "Logistics & Supply Chain",
+  },
+  {
+    img: retailImg,
+    title: "Retail",
+  },
+  {
+    img: telecommunicationImg,
+    title: "Telecommunication",
+  },
+  {
+    img: operationsImg,
+    title: "IT Operations",
+  },
+  {
+    img: techImg,
+    title: "Cybersecurity",
+  },
+  {
+    img: serviceImg,
+    title: "Legal Services",
   },
 ];

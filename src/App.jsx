@@ -1,26 +1,27 @@
 import { BrowserRouter as Router , Routes,  Route} from "react-router-dom";
 import Navbar from "./layout/Navbar";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Footer from "./layout/Footer";
-import BlockchainDevelopment from "./pages/Blockchain/BlockchainDevelopment/BlockchainDevelopment";
-import BlockchainIdentity from "./pages/Blockchain/BlockchainIdentity/BlockchainIdentity";
-import BlockchainDepin from "./pages/Blockchain/BlockchainDepin/BlockchainDepin";
-import SupplyChain from "./pages/Enterprise/SupplyChain";
-import TransportAndLogistics from "./pages/Enterprise/TransportAndLogistics";
-import Entertainment from "./pages/Enterprise/Entertainment";
-import Education from "./pages/Enterprise/Education";
-import RealEstate from "./pages/Enterprise/RealEstate";
+import BlockchainDevelopment from "./pages/Blockchain/Blockchain/BlockchainDevelopment";
+import BlockchainIdentity from "./pages/Blockchain/Blockchain/BlockchainIdentity";
+import BlockchainDepin from "./pages/Blockchain/Blockchain/BlockchainDepin";
+import SupplyChain from "./pages/Blockchain/Enterprise/SupplyChain";
+import TransportAndLogistics from "./pages/Blockchain/Enterprise/TransportAndLogistics";
+import Entertainment from "./pages/Blockchain/Enterprise/Entertainment";
+import Education from "./pages/Blockchain/Enterprise/Education";
+import RealEstate from "./pages/Blockchain/Enterprise/RealEstate";
 import Maas from "./pages/Consulting/Maas";
-import Finance from "./pages/Enterprise/Finance";
-import Healthcare from "./pages/Enterprise/Healthcare";
-import ScDevelopment from "./pages/SmartContract/ScDevelopment";
-import ScAudit from "./pages/SmartContract/ScAudit";
-import AssetManagement from "./pages/Tokenization/AssetManagement";
-import AssetToken from "./pages/Tokenization/AssetToken";
-import RealEstateToken from "./pages/Tokenization/RealEstateToken";
-import WhitepaperDev from "./pages/WhitepaperDev";
+import Finance from "./pages/Blockchain/Enterprise/Finance";
+import Healthcare from "./pages/Blockchain/Enterprise/Healthcare";
+import ScDevelopment from "./pages/Blockchain/SmartContract/ScDevelopment";
+import ScAudit from "./pages/Blockchain/SmartContract/ScAudit";
+import AssetManagement from "./pages/Blockchain/Tokenization/AssetManagement";
+import AssetToken from "./pages/Blockchain/Tokenization/AssetToken";
+import RealEstateToken from "./pages/Blockchain/Tokenization/RealEstateToken";
+import WhitepaperDev from "./pages/Blockchain/Whitepaper/WhitepaperDev";
 import AiSolutions from "./pages/Ai/AiSolutions";
-import ContactForm from "./components/resuableComp/ContactForm";
+import GenerativeAi from "./pages/Ai/GenerativeAi";
+import ContactForm from "./components/resuableComponent/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
 function App() {
@@ -57,6 +58,7 @@ function App() {
            <Route path="/real-estate-tokenization" element={<RealEstateToken/>}/>
            <Route path="/whitepaper-development" element={<WhitepaperDev/>}/>
            <Route path="/ai-ml-solution" element={<AiSolutions/>}/>
+           <Route path="/generative-ai" element={<GenerativeAi/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>

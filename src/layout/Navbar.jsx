@@ -118,36 +118,101 @@ const Navbar = () => {
     solutions: {
       label: "Solutions",
       submenus: [
-        { label: "Exchange", items: [] },
-        { label: "Wallet", items: [] },
-        { label: "NFT", items: [] },
-        { label: "DEFI", items: [] },
-        { label: "WEB3", items: [] },
-        { label: "Digital Banking", items: [] },
-        { label: "Coin Development", items: [] },
-        { label: "Trading Bots", items: [] }
+        { label: "Exchange", 
+          items: [
+          { label: "Custom Exchange", link: "/" },
+            { label: "White Label Exchange", link: "/" },
+            { label: "Margin Trading Exchange", link: "/" },
+            { label: "Decentralized Exchange", link: "/" },
+            { label: "Derivatives Exchange", link: "/" },
+            { label: "Centralized Exchange", link: "/" },
+            { label: "P2P Exchange", link: "/" },
+            { label: "Market Making Exchange", link: "/" },
+        ] },
+        { label: "Wallet", 
+          items: [
+          { label: "Digital Wallet", link: "/" },
+            { label: "White Label Wallet", link: "/" },
+            { label: "Web3 Wallet", link: "/" },
+            { label: "Multicurrency Wallet", link: "/" },
+            { label: "MPC Crypto Wallet", link: "/" },
+            { label: "Defi Wallet", link: "/" },
+            { label: "Tron Wallet", link: "/" },
+            { label: "NFT Wallet", link: "/" },
+        ] },
+        { label: "NFT", 
+          items: [
+            { label: "NFT Development", link: "/" },
+            { label: "White Label NFT Development", link: "/" },
+            { label: "NFT Music", link: "/" },
+            { label: "Multicurrency Wallet", link: "/" },
+            { label: "NFT Marketplace", link: "/" },
+            { label: "NFT Loan", link: "/" },
+            { label: "Semi Fungible Token", link: "/" },
+            { label: "NFT Generative Art", link: "/" },
+            { label: "NFT Art", link: "/" },
+          ] },
+        { label: "DEFI", 
+          items: [
+            { label: "Defi Development", link: "/" },
+            { label: "Defi Lottery", link: "/" },
+            { label: "DAO Blockchain", link: "/" },
+            { label: "Olympus DAO Development", link: "/" },
+            { label: "Defi Yeild Farming", link: "/" },
+            { label: "Defi Staking", link: "/" },
+            { label: "Defi Lending & Borrowing", link: "/" },
+            { label: "Dapp Development Company", link: "/" },
+          ] },
+        { label: "WEB3", 
+          items: [
+            { label: "Web3.0 Development", link: "/" },
+          ] },
+        { label: "Digital Banking", 
+          items: [
+            { label: "Digital Banking", link: "/" },
+            { label: "White Label Banking", link: "/" },
+            { label: "White Label Neo Banking", link: "/" },
+            { label: "Payment Gateway", link: "/" },
+            { label: "P2P Lending", link: "/" },
+            
+          ] },
+        { label: "Coin Development", 
+          items: [
+            { label: "Launchpad Development", link: "/" },
+            { label: "ICO Development", link: "/" },
+            { label: "Coin/Token Development", link: "/" },
+            { label: "IDO Development", link: "/" },
+            { label: "Stablecoin Development", link: "/" },
+            { label: "Meme Coin Development", link: "/" },
+          ] },
+        { label: "Trading Bots", 
+          items: [
+            { label: "Trading Bot", link: "/" },
+            { label: "Flash Loan Arbitrage Bot", link: "/" },
+            { label: "Arbitrage Bots", link: "/" },
+           ]}
       ]
     },
-    industries: {
-      label: "Industries",
-      submenus: [
-        {
-          label: "BFSI",
-          items: [
-            { label: "Trade Finance", link: "/" },
-            { label: "Insurance", link: "/" },
-            { label: "KYC & AML", link: "/" }
-          ]
-        },
-        {
-          label: "Services",
-          items: [
-            { label: "Cloud Services", link: "/" },
-            { label: "AWS Services", link: "/" }
-          ]
-        }
-      ]
-    }
+    // industries: {
+    //   label: "Industries",
+    //   submenus: [
+    //     {
+    //       label: "BFSI",
+    //       items: [
+    //         { label: "Trade Finance", link: "/" },
+    //         { label: "Insurance", link: "/" },
+    //         { label: "KYC & AML", link: "/" }
+    //       ]
+    //     },
+    //     {
+    //       label: "Services",
+    //       items: [
+    //         { label: "Cloud Services", link: "/" },
+    //         { label: "AWS Services", link: "/" }
+    //       ]
+    //     }
+    //   ]
+    // }
   };
 
   const [menuTimeout, setMenuTimeout] = useState(null);
@@ -183,7 +248,7 @@ const handleMenuLeave = () => {
        
         <a href="/dashboard">
           <div className="hidden lg:block">
-            <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-28" />
+            <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-40" />
           </div>
         </a>
 
@@ -197,7 +262,7 @@ const handleMenuLeave = () => {
               onMouseEnter={() => handleMenuEnter(key)}
               onMouseLeave={handleMenuLeave}
             >
-              <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300"
+              <button className="text-white text-sm xl:text-lg font-medium hover:text-gray-300"
                aria-label="label-demo" type="button" title="Click ">
                 {value.label}
               </button>
