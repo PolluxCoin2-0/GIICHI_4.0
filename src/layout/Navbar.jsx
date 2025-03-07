@@ -248,7 +248,7 @@ const handleMenuLeave = () => {
        
         <a href="/dashboard">
           <div className="hidden lg:block">
-            <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-28" />
+            <img src={Giichi_Logo_Img} alt="Giichi-Logo" className="w-24 md:w-40" />
           </div>
         </a>
 
@@ -262,7 +262,7 @@ const handleMenuLeave = () => {
               onMouseEnter={() => handleMenuEnter(key)}
               onMouseLeave={handleMenuLeave}
             >
-              <button className="text-white text-sm xl:text-lg font-semibold hover:text-gray-300"
+              <button className="text-white text-sm xl:text-lg font-medium hover:text-gray-300"
                aria-label="label-demo" type="button" title="Click ">
                 {value.label}
               </button>
