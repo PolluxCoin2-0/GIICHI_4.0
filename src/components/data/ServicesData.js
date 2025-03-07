@@ -1,9 +1,9 @@
 import logictisImg from "../../assets/logictics.png";
-import realStateImg from "../../assets/real-estate.png";
+import realStateImg from "../../assets/realesate.png";
 import energyImg from "../../assets/energy.png";
 import satelliteImg from "../../assets/satellite.png";
 import manufactureImg from "../../assets/manufacture.png";
-import healthImg from "../../assets/health.png";
+import healthImg from "../../assets/healthcare.png";
 
 export const BlockchainDevelopmentService = [
     {
@@ -173,7 +173,7 @@ export const BlockchainDevelopmentService = [
     {
       title: " Real Estate Tokenization",
       description:
-        "We develop blockchain-based solutions to facilitate seamless rental property transactions. By tokenizing real estate assets, properties can be traded digitally, enabling secure and efficient transactions. Our solutions cover technology, legal, and auditing processes to help raise capital through property-backed tokens, ensuring compliance with various jurisdictions via smart contracts.",
+        "We develop blockchain-based solutions to facilitate seamless rental property transactions. By tokenizing real estate assets, properties can be traded digitally, enabling secure and efficient transactions. Our solutions cover technology, legal, and auditing processes to help raise capital through property-backed tokens, ensuring compliance via smart contracts.",
     },
     {
       title: " Real Estate Property Search Platform",
@@ -188,7 +188,7 @@ export const BlockchainDevelopmentService = [
     {
       title: "Mortgage Securitization Platform",
       description:
-        "Traditional loan and mortgage approvals are slow and insecure due to paper-based, non-standardized processes. Our blockchain-powered mortgage securitization platform automates approvals, secures transactions with smart contracts, and ensures real-time payment distribution to beneficiaries. Regulators receive instant reporting, making loan lifecycle management more efficient and transparent.",
+        "Traditional loan and mortgage approvals are slow and insecure due to paper-based, non-standardized processes. Our blockchain-powered mortgage securitization platform automates approvals, secures transactions with smart contracts, and ensures real-time payment distribution to beneficiaries.",
     },
     {
       title: " Digital Registry Platform Development",
@@ -198,41 +198,41 @@ export const BlockchainDevelopmentService = [
     {
       title: "Real Estate Construction Management",
       description:
-        "Large construction projects face sub-contracting inefficiencies, procurement delays, and supply chain opacity. Our blockchain solutions for real estate construction simplify procurement, automate contract management, verify product authenticity, and optimize project oversight—enhancing efficiency, reducing risks, and ensuring seamless execution.",
+        "Large construction projects face sub-contracting inefficiencies, procurement delays, and supply chain opacity. Our blockchain solutions for real estate construction simplify procurement, automate contract management, verify product authenticity, and optimize project oversight—enhancing efficiency, reducing risks.",
     },
   ];
 
   
   export const RealEstateTokenizationService = [
     {
-      title: "Fast Track Launch",
+      title: "Fast-Track Launch",
       description:
-        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+        " Expedite the tokenization process with end-to-end solutions, ensuring a seamless transition from property selection to digital token issuance.",
     },
     {
       title: "Investor Outreach",
       description:
-        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+        "Expand your reach by attracting global investors through blockchain-powered fractional ownership, increasing accessibility to real estate markets.",
     },
     {
       title: "Optimize Your Investment",
       description:
-        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+        " Enhance liquidity and maximize returns by enabling easy buying, selling, and trading of tokenized real estate assets.",
     },
     {
       title: "Higher Engagement",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        " Empower investors with transparent, real-time access to asset performance, ownership details, and automated revenue distribution.",
     },
     {
       title: "Risk Management",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "Leverage blockchain's security and smart contracts to ensure compliance, minimize fraud, and protect investor interests.",
     },
     {
-      title: "Ongoing Support",
+      title: "Scalability & Growth",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        " Future-proof your investments with a scalable tokenization model that adapts to market changes and regulatory advancements.",
     },
     
   ];
@@ -241,32 +241,32 @@ export const BlockchainDevelopmentService = [
     {
       title: "AI-Technology Powered Trading Bot",
       description:
-        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+        "Our AI-powered trading bot utilizes advanced machine learning and real-time data analysis to execute smart, high-frequency trades with precision. It optimizes trading strategies, minimizes risks, and maximizes profitability, ensuring seamless automation across multiple exchanges.",
     },
     {
-      title: "AI-Technology Powered Trading Bot",
+      title: "AI-Based Portfolio Management",
       description:
-        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+        "Our AI-based portfolio management system uses advanced machine learning to analyze market trends, optimize asset allocation, and minimize risks. It provides real-time insights, automated rebalancing, and personalized investment strategies to maximize returns effortlessly.",
     },
     {
-      title: "AI-Technology Powered Trading Bot",
+      title: "AI-Based Launchpad",
       description:
-        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+        "Our AI-based launchpad streamlines the process of launching new crypto projects by leveraging intelligent analytics, automated vetting, and risk assessment. It enhances investor confidence, optimizes fundraising strategies, and ensures seamless project execution with AI-driven insights.",
     },
     {
-      title: "AI-Technology Powered Trading Bot",
+      title: "Fraud Detection with AI",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        "Our AI-powered fraud detection system analyzes transaction patterns, detects anomalies, and identifies suspicious activities in real time. Using machine learning and predictive analytics, it enhances security, prevents fraud, and ensures a safer crypto ecosystem.",
     },
     {
-      title: "AI-Technology Powered Trading Bot",
+      title: "AI-Powered Crypto Trading Insights",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "Our AI-powered crypto trading insights leverage machine learning and real-time data analysis to provide accurate market predictions, trend analysis, and smart investment strategies. Stay ahead of the market with AI-driven decision-making and maximize your trading potential.",
     },
     {
-      title: "AI-Technology Powered Trading Bot",
+      title: "AI-Integrated Crypto Market Tools",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        "Our AI-integrated crypto market tools provide real-time data analysis, trend forecasting, and automated trading solutions to enhance decision-making. With AI-driven insights, risk assessment, and portfolio optimization, traders and investors can navigate the crypto market with confidence and precision.",
     },
     
   ];

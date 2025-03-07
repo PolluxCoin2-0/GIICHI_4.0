@@ -3,22 +3,35 @@
 import SupplyChainBannerImg from "../../../assets/supplyChainBanner.png";
 import SupplyFeatureImg from "../../../assets/SupplyFeature.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
-import Supp1Img from "../../../assets/Supp1.png";
-import Supp2Img from "../../../assets/Supp2.png";
-import Supp3Img from "../../../assets/Supp3.png";
-import Supp4Img from "../../../assets/Supp4.png";
-import Supp5Img from "../../../assets/Supp5.png";
-import Supp6Img from "../../../assets/Supp6.png";
-import Supp12Img from "../../../assets/Supp12.png";
-import Supp13Img from "../../../assets/Supp13.png";
-import Supp14Img from "../../../assets/Supp14.png";
-import Supp15Img from "../../../assets/Kyc.png";
-import Supp16Img from "../../../assets/Supp16.png";
+import securityImg from "../../../assets/security.png";
+import processImg from "../../../assets/process.png";
+import SupplyImg from "../../../assets/supply-chain.png";
+import recordImg from "../../../assets/record.png";
+import assetImg from "../../../assets/token.png";
+import delayImg from "../../../assets/wait-time.png";
 import { SuppyChainFaq } from "../../../components/data/faqsData";
 import { SupplyChainFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import Framework from "../../../components/CommonComponent/Framework";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import reportImg from "../../../assets/report.png";
+import manageImg from "../../../assets/management.png";
+import walletImg from "../../../assets/wallet (2).png";
+import kycImg from "../../../assets/search-user.png";
+import fundImg from "../../../assets/fund.png";
+
+const challengesData = [
+  [
+    { image: securityImg, title: "Lack of Security and Transparency" },
+    { image: processImg, title: "Costly Data Reconciliation Processes" },
+    { image: SupplyImg, title: "Disconnected Supply Chain Participants" },
+  ],
+  [
+    { image: recordImg, title: "Complicated and Manual Record Keeping Methods" },
+    { image: assetImg, title: "Inefficient Asset Traceability" },
+    { image: delayImg, title: "Error-prone and Delayed Business Operations" },
+  ],
+];
 
 const SupplyChain = () => {
   return (
@@ -76,87 +89,40 @@ const SupplyChain = () => {
 
       {/* Blockchain Supply Chain challenges  */}
       <div className="bg-[#283430] bg-opacity-10 text-center mt-6 md:mt-12 p-1 pt-6 md:pt-12 pb-20 relative">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-white text-xl md:text-4xl xl:text-5xl 2xl:text-6xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          Challenges in Conventional <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl">
-            Supply Chain Management
-          </span>
-        </p>
-        <p className="hidden lg:block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 leading-7">
-          Traditional supply chain management processes are riddled with
-          inefficiencies that create information silos and <br />
-          make asset tracking cumbersome and time-consuming.
-        </p>
-        <p className="block lg:hidden text-sm md:text-[15px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          The traditional supply chain management process is beset with a
-          plethora of inefficiencies that lead to information silos and makes
-          asset tracking a cumbersome and time-consuming task.
-        </p>
-
-        <div className="px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-10">
-          <div className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8">
-            <div
-              className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp1Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Lack of Security and Transparency
-              </p>
-            </div>
-            <div
-              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp2Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Costly Data Reconciliation Processes
-              </p>
-            </div>
-            <div
-              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp3Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Disconnected Supply Chain Participants
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8">
-            <div
-              className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%]  
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp4Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Complicated and Manual Record Keeping Methods
-              </p>
-            </div>
-            <div
-              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp5Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Inefficient Asset Traceability
-              </p>
-            </div>
-            <div
-              className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
-            md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
-            >
-              <img src={Supp6Img} alt="" className="w-20" />
-              <p className="text-white pt-4 w-[80%] md:w-[60%]">
-                Error-prone and Delayed Business Operations
-              </p>
-            </div>
-          </div>
-        </div>
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
+      <p className="text-white text-xl md:text-4xl xl:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        Challenges in Conventional
+        <br />
+        <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl">
+          Supply Chain Management
+        </span>
+      </p>
+      <div className="flex flex-col justify-center items-center">
+      <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7">
+      Traditional supply chain management processes are riddled with inefficiencies that create information silos and make asset tracking cumbersome and time-consuming.
+      </p>
       </div>
+     <div className="px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-10">
+        {challengesData.map((row, rowIndex) => (
+          <div
+            key={rowIndex}
+            className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8"
+          >
+            {row.map((challenge, index) => (
+              <div
+                key={index}
+                className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center w-full md:w-[33%] 
+                  md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient"
+              >
+                <img src={challenge.image} alt={challenge.title} className="w-16" />
+                <p className="text-white pt-4 w-[80%] md:w-[60%]">{challenge.title}</p>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
 
       {/* Blockchain Supply Chain Network */}
       <Framework
@@ -174,15 +140,14 @@ const SupplyChain = () => {
             Supply Chain Solutions
           </span>
         </p>
-        <p className="hidden md:block text-sm md:text-xs lg:text-[15px] text-white text-center text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          Our blockchain supply chain solutions are packed with user-friendly,
-          advanced features that empower businesses
-          <br />
-          to efficiently manage their supply chain operations without hassle.
+        <div className="flex flex-col justify-center items-center">
+        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7 text-center">
+          Our blockchain supply chain solutions are packed with user-friendly, advanced features that empower businesses to efficiently manage their supply chain operations without hassle.
         </p>
-        <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
+        </div>
+        <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={Supp12Img} alt="" className="w-20 group-hover:hidden" />
+            <img src={reportImg} alt="" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Reporting Dashboard
             </p>
@@ -197,7 +162,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={Supp13Img} alt="" className="w-20 group-hover:hidden" />
+            <img src={manageImg} alt="" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               User Management
             </p>
@@ -212,7 +177,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={Supp14Img} alt="" className="w-20 group-hover:hidden" />
+            <img src={walletImg} alt="" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Multi-Currency Wallet
             </p>
@@ -227,7 +192,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={Supp15Img} alt="" className="w-20 group-hover:hidden" />
+            <img src={kycImg} alt="" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Instant KYC and AML
             </p>
@@ -242,7 +207,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={Supp16Img} alt="" className="w-20 group-hover:hidden" />
+            <img src={fundImg} alt="" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Funds Management System
             </p>

@@ -2,9 +2,9 @@
 import EducationBannerImg from "../../../assets/EducationBanner.png";
 import EducationFeatureImg from "../../../assets/EducationFeature.png";
 import securityImg from "../../../assets/security.png";
-import accessImg from "../../../assets/accessibility.png";
+import accessImg from "../../../assets/payment.png";
 import credibilityImg from "../../../assets/credibility.png";
-import transparencyImg from "../../../assets/transparency.png";
+import transparencyImg from "../../../assets/search-user.png";
 import { EducationFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
@@ -51,7 +51,7 @@ const benefits = [
 const BenefitCard = ({ image, title, points }) => {
   return (
     <div className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full md:w-[50%] lg:w-[40%] md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6">
-      <img src={image} alt={title} className="w-12 lg:w-20" />
+      <img src={image} alt={title} className="w-12 lg:w-16" />
       <p className="text-white pt-4 text-lg md:text-xl font-bold">{title}</p>
       <ul className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4 list-disc ml-6">
         {points.map((point, index) => (

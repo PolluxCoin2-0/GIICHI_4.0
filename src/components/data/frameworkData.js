@@ -15,30 +15,31 @@ import depinGoverImg from "../../assets/depinGover.png";
 import depinScImg from "../../assets/depinSc.png";
 import depinServiceImg from "../../assets/depinService.png";
 import depinTokenImg from "../../assets/depinToken.png";
-import insurance from "../../assets/insurance.png";
-import Supp7Img from "../../assets/Supp7.png";
-import Supp8Img from "../../assets/Supp8.png";
-import Supp9Img from "../../assets/Supp9.png";
-import Supp10Img from "../../assets/Supp10.png";
-import Supp11Img from "../../assets/Supp11.png";
-import Trans1Img from "../../assets/Tran1.png";
-import Trans2Img from "../../assets/Tran2.png";
-import Trans3Img from "../../assets/Tran3.png";
 import copyrightImg from "../../assets/Copyright.png";
-import paymentImg from "../../assets/payment.png";
-import transparencyImg from '../../assets/transparency.png';
-import KycImg from "../../assets/Kyc.png";
-import museumImg from "../../assets/museum 1.png";
-import supplyChainImg from "../../assets/Supp3.png";
+import KycImg from "../../assets/logictics.png";
+import museumImg from "../../assets/bfsi.png";
+import supplyChainImg from "../../assets/logictics.png";
+import credibilityImg from '../../assets/connection.png';
+import reportImg from "../../assets/report.png";
+import testingImg from "../../assets/search-user.png";
+import visibilityImg from "../../assets/eye.png";
+import onBoardingImg from "../../assets/cooperation.png";
+import productImg from "../../assets/printer.png";
+import supplyChainImg1 from "../../assets/supply-chain.png";
+import collabImg from "../../assets/collab.png";
 import securityImg from "../../assets/security.png";
-import credibilityImg from '../../assets/credibility.png';
-import reportImg from "../../assets/Supp14.png";
-import consultImg from "../../assets/consult.png";
-import analysisImg from "../../assets/analysis.png";
+import dataImg from "../../assets/data.png";
+import paymentImg from "../../assets/payment.png";
+import scArchImg from "../../assets/smart-contracts.png";
+import scDevImg from "../../assets/ScDev.png";
+import scAuditImg from '../../assets/audit.png';
+import scOptimizeImg from "../../assets/optimization.png";
 import codeReviewImg from "../../assets/review.png";
-import testingImg from "../../assets/testing.png";
-import verificationImg from "../../assets/verify.png";
-import supportImg from "../../assets/support.png";
+import supportImg from "../../assets/credibility.png";
+import realEstateImg from "../../assets/realesate.png";
+import collectibleImg from "../../assets/agreement.png";
+import commodityImg from "../../assets/commodity.png";
+import equityImg from "../../assets/printer.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -164,7 +165,7 @@ export const EntertainmentFramework = [
       "With blockchain, payment collections and ad revenues become more efficient. Smart contracts automate revenue distribution, eliminating unnecessary fees.",
   },
   {
-    logo: transparencyImg,
+    logo: securityImg,
     title: "Greater Transparency",
     description:
       "The decentralized nature of blockchain enhances transparency in content ownership and lifecycle tracking, ensuring fair use and accountability.",
@@ -255,31 +256,31 @@ export const EntertainmentFramework = [
 
  export const SupplyChainFramework = [
    {
-     logo: Supp7Img,
+     logo: visibilityImg,
      title: "Better Visibility and Transparency",
      description:
        " Our experts utilize smart contracts to provide permissioned participants with real-time visibility across all supply chain operations, enabling proactive responses in case of any exceptions or disruptions.",
    },
    {
-     logo: Supp8Img,
+     logo: onBoardingImg,
      title: " Streamlined Onboarding",
      description:
        "Onboarding new suppliers can be a time-consuming and complex task. Our blockchain solutions accelerate this process by creating an immutable, trustworthy record of vendor details, allowing faster and more efficient integration into the network.",
    },
    {
-     logo: Supp9Img,
+     logo: productImg,
      title: " Reduced Product Counterfeiting ",
      description:
        "Blockchain’s role in supply chain systems helps combat counterfeiting and builds consumer trust. We design solutions that enable businesses to authenticate products, reducing the risks of fraud and ensuring the authenticity of goods.",
    },
    {
-     logo: Supp10Img,
+     logo: supplyChainImg1,
      title: " Secured Supply Chain Operations ",
      description:
        "Our blockchain solutions secure your entire supply chain network by using encrypted records on permissioned blockchains, safeguarding your data from unauthorized access.",
    },
    {
-     logo: Supp11Img,
+     logo: collabImg,
      title: "Seamless Team Collaboration",
      description:
        "With multiple participants and entities involved, effective communication is crucial. Our blockchain solutions enable seamless peer-to-peer interactions through digital signatures, ensuring secure and trusted communication across the network.",
@@ -288,19 +289,19 @@ export const EntertainmentFramework = [
 
  export const TransportFramework = [
    {
-     logo: Trans1Img,
+     logo: securityImg,
      title: "Better Security",
      description:
        "Access key transaction data via a private, secure, and transparent shared ledger. This ensures you can spot fraud-prone areas and prevent manipulation of contract terms by enabling the immutable recording of agreed conditions, providing protection against unauthorized changes.",
    },
    {
-     logo: Trans2Img,
+     logo: dataImg,
      title: "Trust in Digitized Data",
      description:
        "Eliminate the time-consuming and error-prone paperwork by digitizing critical information and securely posting it to the blockchain. This streamlined process ensures safe access to trusted data, reducing fraudulent activities and increasing transparency across operations.",
    },
    {
-     logo: Trans3Img,
+     logo: collabImg,
      title: "Efficient Industry Interactions",
      description:
        "Enhance collaboration between suppliers, consumers, freight forwarders, and other stakeholders. Blockchain ensures a single, trusted source of truth for all participants, allowing for better dispute resolution, smoother interactions, and more efficient processes across the supply chain.",
@@ -311,26 +312,26 @@ export const EntertainmentFramework = [
 
  export const ScDevelopmentFramework =  [
    {
-     logo: insurance,
+     logo: scArchImg,
      title: " Smart Contract Architecture",
      description:
        "We design resilient smart contract architecture to ensure security, scalability, and efficiency in every project.",
    },
    {
-     logo: insurance,
+     logo: scDevImg,
      title: " Smart Contract Development",
      description:
        "Our team develops custom, self-executing smart contracts tailored for various industries, enabling seamless automation.",
    },
  
    {
-     logo: insurance,
+     logo: scAuditImg,
      title: "Smart Contract Audit",
      description:
        "We offer comprehensive smart contract audits to identify and rectify vulnerabilities, ensuring your contracts are secure and error-free.",
    },
    {
-     logo: insurance,
+     logo: scOptimizeImg,
      title: " Smart Contract Optimization",
      description:
        "Our experts optimize smart contracts to reduce gas fees and enhance efficiency, making transactions cost-effective.",
@@ -341,13 +342,13 @@ export const EntertainmentFramework = [
 
  export const ScAuditFramework =  [
   {
-    logo: consultImg,
+    logo: depinServiceImg,
     title: "Pre-Audit Consultation",
     description:
       "We begin with an in-depth discussion to understand your contract’s functionality, objectives, and requirements to customize the audit accordingly.",
   },
   {
-    logo: analysisImg,
+    logo: depinScImg,
     title: "Automated Analysis",
     description:
       "Using cutting-edge security tools, we conduct an initial scan to identify common vulnerabilities quickly and efficiently.",
@@ -378,7 +379,7 @@ export const EntertainmentFramework = [
       "Receive a comprehensive audit report outlining identified risks, critical issues, and recommended security improvements.",
   },
   {
-    logo: verificationImg,
+    logo: paymentImg,
     title: "Third-Party Verification",
     description:
       "To enhance credibility, we integrate external validation for an additional layer of scrutiny and trust.",
@@ -394,38 +395,38 @@ export const EntertainmentFramework = [
 
 export const AssetTokenFramework =  [
   {
-    logo: insurance,
+    logo: realEstateImg,
     title: "Real Estate Tokenization",
     description:
       "Fractionalize ownership, improve liquidity, and enable seamless real estate transactions with blockchain-based security.",
   },
   {
-    logo: insurance,
+    logo: collectibleImg,
     title: "Collectibles Tokenization",
     description:
       "Digitize rare collectibles and luxury assets, ensuring authenticity and ownership tracking on the blockchain.",
   },
 
   {
-    logo: insurance,
+    logo: depinGoverImg,
     title: "Financial Instruments Tokenization",
     description:
       "Enable trading of bonds, stocks, and derivatives with greater transparency, automation, and accessibility.",
   },
   {
-    logo: insurance,
+    logo: commodityImg,
     title: "Commodities Tokenization",
     description:
       "Trade gold, oil, and agricultural products in a digital format with automated settlement via smart contracts.",
   },
   {
-    logo: insurance,
+    logo: copyrightImg,
     title: "Intellectual Property Tokenization",
     description:
       "Protect and monetize patents, copyrights, and trademarks through immutable blockchain records.",
   },
   {
-    logo: reportImg,
+    logo: equityImg,
     title: "Private Equity Tokenization",
     description:
       "Unlock liquidity for private equity investments, ensuring faster, secure, and borderless trading.",

@@ -2,18 +2,18 @@
 import scDevBannerImg from "../../assets/ScDevBanner.png";
 import LetsTalk from "../../components/resuableComponent/LetsTalk";
 import { AiMlSolutionService } from "../../components/data/ServicesData";
-import { BkDevIndustriesData } from "../../components/data/industriesData";
+import { aiMlIndustriesData } from "../../components/data/industriesData";
 import ProductDevPhases from "../../components/CommonComponent/ProductDevPhases";
 import Services from "../../components/CommonComponent/Services";
 import Industries from "../../components/CommonComponent/Industries";
 import BannerContent from "../../components/CommonComponent/BannerContent";
 
 const steps = [
-  { id: "01", title: "Data Preparation" },
-  { id: "02", title: "Model Development" },
-  { id: "03", title: "Model Evaluation" },
-  { id: "04", title: "Deployment" },
-  { id: "05", title: "Monitoring & Improvement" },
+  { id: "01", title: "Consultation Phase" },
+  { id: "02", title: "Requirement Analysis" },
+  { id: "03", title: "Development Phase" },
+  { id: "04", title: "Testing & Deployment" },
+  { id: "05", title: "Maintenance & Support" },
 ];
 
 const AiSolutions = () => {
@@ -24,25 +24,24 @@ const AiSolutions = () => {
         img={scDevBannerImg}
         title1="AI/ML Solutions"
         title2=""
-        desc=" At Giichi IT Solutions, we specialize in writing secure, efficient, 
-          and automated smart contracts for Ethereum, TRON, Hyperledger, EOS, and other blockchain platforms."
+        desc="AT Giichi IT Solutions, We maximize your business efficiency and productivity with our cutting-edge AI/ML development services and solutions!"
       />
 
       {/* AI  Services */}
       <Services
         data={AiMlSolutionService}
-        heading1="Revolutionize the Crypto World"
-        heading2="with AI Development"
-        desc=" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum animi voluptas voluptates, nam quae aliquid velit quisquam fuga!"
+        heading1="Transform the crypto landscape "
+        heading2="with advanced AI development"
+        desc="At Giichi IT Solutions, we harness the power of AI and ML to revolutionize the crypto world, transforming the way it operates for enhanced efficiency and innovation."
       />
 
       {/* Industries  */}
       <Industries
-        data={BkDevIndustriesData}
+        data={aiMlIndustriesData}
         heading1="Industries"
         heading2="We Serve"
         desc=" As a leading custom blockchain development company, we leverage
-          different blockchain networks to provide you with the best solutions
+          different blockchain networks to provide you with the best AI solutions
           aligned with your needs."
       />
 
@@ -50,7 +49,7 @@ const AiSolutions = () => {
       <ProductDevPhases
         data={steps}
         heading="AI/ML Development Process"
-        desc="  At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
+        desc="At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
       />
 
       {/* Schedule a free demo */}

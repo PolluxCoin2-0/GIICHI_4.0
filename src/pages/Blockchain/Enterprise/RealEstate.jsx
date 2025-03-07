@@ -45,25 +45,25 @@ const RealEstate = () => {
             every transaction. Our expert team designs cutting-edge blockchain
             systems to eliminate industry bottlenecks such as:
           </p>
-          <ul className="list-disc ml-5 flex flex-col lg:flex-row ">
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 ">
+          <ul className="list-disc ml-5 flex flex-col lg:flex-row mt-6">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 ">
               Multiple Intermediaries{" "}
             </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-12">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-12">
               Identity Theft
             </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-12 ">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-12 ">
               Delayed Transactions{" "}
             </li>
           </ul>
           <ul className="list-disc ml-5 flex flex-col lg:flex-row mt-0 lg:mt-2">
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 md:pt-1 lg:pt-4 ">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ">
               Title Disputes{" "}
             </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-[120px]">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4 ml-0 lg:ml-[120px]">
               Data Breaches{" "}
             </li>
-            <li className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-4 md:pt-1 lg:pt-4  ml-0 lg:ml-9">
+            <li className="text-sm lg:text-[17px] font-normal text-white text-opacity-80 pt-4 md:pt-1 lg:pt-4  ml-0 lg:ml-9">
               High Transaction Costs{" "}
             </li>
           </ul>

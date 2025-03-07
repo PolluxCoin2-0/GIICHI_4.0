@@ -1,14 +1,21 @@
-import agreementImg from "../../assets/agreement.png";
-import realTimeImg from "../../assets/realTime.png";
-import transparencyImg from "../../assets/transparency.png";
+import agreementImg from "../../assets/logictics.png";
+import transparencyImg from "../../assets/logictics.png";
+import defiImg from "../../assets/defi1.png";
+import tokenImg from "../../assets/token.png";
+import nftImg from "../../assets/nft1.png";
+import votesImg from "../../assets/vote.png";
+import reportImg from "../../assets/agreement.png";
+import realTimeImg from "../../assets/wait-time.png";
+import supplyImg from "../../assets/supply-chain.png";
 import securityImg from "../../assets/security.png";
 import accuracyImg from "../../assets/accuracy.png";
-import savingImg from "../../assets/savings.png";
-import defiImg from "../../assets/defi (1).png";
-import tokenImg from "../../assets/tokens.png";
-import nftImg from "../../assets/nft.png";
-import votesImg from "../../assets/vote.png";
-import supplyImg from "../../assets/Supp10.png";
+import savingImg from "../../assets/fund.png";
+import dexImg from "../../assets/smart-contracts.png";
+import understandImg from "../../assets/understand.png";
+import researchImg from "../../assets/depinAudit.png";
+import contentImg from '../../assets/depinArch.png';
+import designImg from '../../assets/design.png';
+import deliveryImg from "../../assets/cooperation.png";
 
 export const assetTokenLifeCycleData = [
   {
@@ -44,7 +51,7 @@ export const ScDevLifeCycleData = [
     title: "Disintermediation",
     description:
       "Remove third-party involvement, enabling direct, trustless agreements between parties.",
-    image: agreementImg,
+    image: reportImg,
   },
   {
     title: " Real-Time Execution",
@@ -56,7 +63,7 @@ export const ScDevLifeCycleData = [
     title: " Transparency",
     description:
       "All contract details are stored on the blockchain, visible to all participants, fostering trust.",
-    image: transparencyImg,
+    image: supplyImg,
   },
   {
     title: "Security",
@@ -107,12 +114,41 @@ export const ScAuditLifeCycleData = [
     title: "Decentralized Exchanges (DEXs)",
     description:
       "   DEXs facilitate trustless crypto trading via smart contracts, making them prime targets for security breaches. A thorough audit is critical to protect user funds.",
-    image: tokenImg,
+    image: dexImg,
   },
   {
     title: "Blockchain-Powered Supply Chains",
     description:
       " Smart contracts in supply chain management require audits to validate data integrity, security, and accuracy in tracking and handling processes.",
     image: supplyImg,
+  },
+];
+
+export const whitePaperLifeCycleData = [
+  {
+    title: "Understand",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper with your objectives.",
+    image: understandImg,
+  },
+  {
+    title: "Research",
+    description: "Our team conducts in-depth market research, analyzes industry trends, and gathers verifiable data to strengthen your white paper.",
+    image: researchImg,
+  },
+  {
+    title: "Content Creation",
+    description: "We craft a compelling, well-structured, and technically sound document that clearly presents the problem and your innovative solution.",
+    image: contentImg,
+  },
+  {
+    title: "Design ",
+    description: "Our design experts enhance the document’s visual appeal with professional layouts, infographics, and branding elements for maximum impact.",
+    image: designImg,
+  },
+  {
+    title: "Delivery ",
+    description:
+      "The final white paper is thoroughly reviewed, refined, and delivered in a polished format, ready to impress investors and stakeholders.",
+    image: deliveryImg,
   },
 ];

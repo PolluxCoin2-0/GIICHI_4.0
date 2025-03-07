@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import scDevBannerImg from "../../../assets/ScDevBanner.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { AssetTokenFramework } from "../../../components/data/frameworkData";
 import { Link } from "react-router-dom";
@@ -9,13 +8,16 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { assetTokenLifeCycleData } from "../../../components/data/lifecycleData";
 import { clientData } from "../../../components/data/clientData";
+import assetTokenBannerImg from "../../../assets/assetTokenBanner.png";
+import assetTokenFeature1 from "../../../assets/assetTokenFeature1.png";
+import assetTokenFeature2 from "../../../assets/assetTokenFeature2.png";
 
 const AssetToken = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={scDevBannerImg}
+        img={assetTokenBannerImg}
         title1="Real World Asset"
         title2="Tokenization  Development"
         desc="Transform Physical Assets into Digital Value with Blockchain"
@@ -26,7 +28,7 @@ const AssetToken = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          {/* <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/> */}
+          <img src={assetTokenFeature1} alt="smart-contract-feature-image" className="w-[90%]"/>
         </div>
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
@@ -108,7 +110,7 @@ const AssetToken = () => {
         </div>
 
         <div className="w-full md:w-[40%]">
-          {/* <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/> */}
+          <img src={assetTokenFeature2} alt="smart-contract-feature-image" className="w-[90%]"/>
         </div>
       </div>
 
@@ -134,7 +136,7 @@ const AssetToken = () => {
 
       {/* why choose asset token for business */}
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12">
-        <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
+        <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide ">
           Digital Asset <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
             Tokenization Services
@@ -147,7 +149,7 @@ const AssetToken = () => {
             <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-2xl font-bold text-white">
               Why choose Giichi for Asset <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization?
+                Tokenization Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">

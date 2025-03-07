@@ -1,73 +1,43 @@
 /* eslint-disable react/prop-types */
-import scDevBannerImg from "../../../assets/ScDevBanner.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { Link } from "react-router-dom";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import assetManagementBanner from "../../../assets/assetManageBanner.png";
+import assetManagementFeature from "../../../assets/assetManageFeature.png";
+import { clientData } from "../../../components/data/clientData";
 
-const clientData = [
-  {
-    description:
-      "Partnering with Giichi IT Solutions has been an outstanding experience. Their team’s expertise in blockchain and Web3 helped us scale our projects effortlessly.",
-    title: "Blockchain Pioneers",
-  },
-  {
-    description:
-      "Giichi IT Solutions provided us with top-notch Web3 solutions. Their professionalism and dedication to quality are unmatched.",
-    title: "Customization Excellence",
-  },
-  {
-    description:
-      "The team at Giichi IT Solutions exceeded our expectations. Their blockchain expertise helped us launch our product successfully.",
-    title: "End-to-End Services",
-  },
-  {
-    description:
-      "An exceptional experience working with Giichi IT Solutions! Their knowledge and commitment to excellence are truly commendable.",
-    title: "Security-Centric Approach",
-  },
-  {
-    description:
-      "Giichi IT Solutions transformed our vision into reality with their deep understanding of Web3 technology. Highly recommended!",
-    title: "24/7 Support",
-  },
-];
 
 const AssetManagement = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={scDevBannerImg}
+        img={assetManagementBanner}
         title1="Crypto Asset "
         title2="Management Services"
-        desc=" At Giichi IT Solutions, we specialize in writing secure, efficient, 
-          and automated smart contracts for Ethereum, TRON, Hyperledger, EOS, and other blockchain platforms."
+        desc="With a proven track record of building diverse crypto products and services, we leverage our expertise to empower millions of new traders who hesitate to enter the crypto space."
       />
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 2xl:space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          {/* <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/> */}
+          <img src={assetManagementFeature} alt="smart-contract-feature-image" className="w-[90%]"/>
         </div>
 
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  ">
-            Cryptocurrency Asset Management Solutions - The Paradigm Shift to an
-            Emerging Market
+          Cryptocurrency Asset Management Solutions – Embracing the Future of Finance
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6  leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            consequuntur, architecto soluta hic nisi aliquid dolore deleniti,
-            explicabo cumque odit itaque dolor voluptatum dicta nemo
-            perspiciatis magnam voluptas, vero laborum.
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8">
+          Traditionally, only essential elements and metals were considered tradeable commodities. However, the ability to buy and sell licenses, digital assets, and even artwork marks a significant evolution in investment opportunities.
+          This expansion not only enhances diversification but also strengthens portfolios by tapping into the long-term potential of this innovative market. As a result, the dynamic crypto industry has become a valuable addition for investors seeking diversification and long-term profitability.  
+<br/> <br/>
+Despite its potential, crypto trading remains complex due to its decentralized nature and high volatility. While modern traders adapt quickly, those accustomed to traditional trading require in-depth guidance. Additionally, tokens are listed across multiple exchanges, which may not always be compatible with an investor’s wallet. Managing these diverse assets increases complexity, emphasizing the need for expert advisory services to navigate the landscape efficiently.
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6   leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga ad
-            laboriosam aspernatur velit nam aliquid blanditiis aut unde nemo.
-          </p>
+          
           {/* button for a free demo */}
           <Link to="/contact-us">
             <button
@@ -89,7 +59,7 @@ const AssetManagement = () => {
 
       {/* why choose asset token for business */}
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-8">
-        <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide ">
+        <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide ">
           Choosing Giichi for Digital <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
             Asset Management
@@ -106,9 +76,9 @@ const AssetManagement = () => {
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
-              By partnering with Antier, you can rely on a team of technical
-              experts with real-world experience delivering end-to-end
-              blockchain services.
+            Giichi offers secure, scalable, and regulatory-compliant asset
+              tokenization, enabling seamless digital asset management and
+              liquidity.
             </p>
           </div>
 

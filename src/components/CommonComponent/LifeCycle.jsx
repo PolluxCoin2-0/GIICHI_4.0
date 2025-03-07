@@ -2,7 +2,7 @@
 const LifeCycle = ({ heading1, heading2, desc, steps }) => {
   return (
     <div className="pt-20 pb-20">
-      <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
+      <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         {heading1}
         <br />
         <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
@@ -10,7 +10,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
         </span>
       </p>
       <div className="flex justify-center">
-        <p className="hidden lg:block text-center text-sm md:text-[17px] lg:text-[15px] xl:text-[17px] text-white text-opacity-70 pt-4 px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 w-full lg:w-[70%]">
+        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7 text-center">
           {desc}
         </p>
       </div>
@@ -32,7 +32,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
                 {step.description}
               </p>
             </div>
-            <div className="rounded-full bg-blue-500 border-white border-4 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div className="rounded-full bg-blue-500 border-[#8AF969] border-8 w-20 h-20 p-3 absolute xl:left-[650px] 2xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
               <img src={step.image} alt={step.title} />
             </div>
           </div>

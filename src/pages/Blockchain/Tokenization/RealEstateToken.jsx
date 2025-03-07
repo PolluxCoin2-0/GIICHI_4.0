@@ -1,18 +1,19 @@
 /* eslint-disable react/prop-types */
-import scDevBannerImg from "../../../assets/ScDevBanner.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { Link } from "react-router-dom";
 import { RealEstateTokenizationService } from "../../../components/data/ServicesData";
 import Services from "../../../components/CommonComponent/Services";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
+import realEstateTokenBanner from "../../../assets/realEstateTokenBanner.png";
+import realEstateTokenFeature from "../../../assets/realEstateTokenFeature.png";
 
 const steps = [
-  { id: "01", title: "Asset Valuation" },
-  { id: "02", title: "Tokenization" },
-  { id: "03", title: "Token Offering" },
-  { id: "04", title: "Secondary Market" },
-  { id: "05", title: "Income Generation" },
+  { id: "01", title: "Asset Structuring & Legal Compliance" },
+  { id: "02", title: "Tokenization & Smart Contract Development" },
+  { id: "03", title: "Investor Onboarding & Regulatory Verification" },
+  { id: "04", title: "Token Distribution & Trading" },
+  { id: "05", title: "Asset Management & Revenue Distribution" },
 ];
 
 const RealEstatetToken = () => {
@@ -20,11 +21,10 @@ const RealEstatetToken = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={scDevBannerImg}
+        img={realEstateTokenBanner}
         title1="Real Estate Tokenization "
         title2="Service"
-        desc=" At Giichi IT Solutions, we specialize in writing secure, efficient, 
-          and automated smart contracts for Ethereum, TRON, Hyperledger, EOS, and other blockchain platforms."
+        desc="Begin your real estate tokenization journey with Giichi, a leading real estate tokenization company dedicated to turning your vision into reality."
       />
 
       {/* Bloackchain entertainment forecast */}
@@ -32,22 +32,20 @@ const RealEstatetToken = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          {/* <img src={scDevFeatureImg} alt="smart-contract-feature-image" className="w-[90%]"/> */}
+          <img src={realEstateTokenFeature} alt="real-estate-token-feature-image" className="w-[90%]"/>
         </div>
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4">
             Introduction to Real Estate Tokenization
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            consequuntur, architecto soluta hic nisi aliquid dolore deleniti,
-            explicabo cumque odit itaque dolor voluptatum dicta nemo
-            perspiciatis magnam voluptas, vero laborum.
+          Real estate tokenization is the process of converting ownership rights of a physical property into digital tokens on a blockchain. These tokens represent fractional ownership of the asset, allowing investors to buy, sell, and trade real estate more efficiently and securely.
+          <br/> <br/>
+          By leveraging blockchain technology, tokenization enhances liquidity, reduces transaction costs, and increases accessibility to real estate investments, making it possible for a broader range of investors to participate in the market. It also ensures transparency, security, and efficiency by utilizing smart contracts to automate transactions and ownership transfers.
+          <br/> <br/>
+         Real estate tokenization is revolutionizing the industry by breaking down barriers and offering a more flexible and inclusive way to invest in property assets.
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga ad
-            laboriosam aspernatur velit nam aliquid blanditiis aut unde nemo.
-          </p>
+ 
           {/* button for a free demo */}
           <Link to="/contact-us">
             <button
@@ -67,7 +65,7 @@ const RealEstatetToken = () => {
         <ProductDevPhases
           data={steps}
           heading="The Process of Real Estate Tokenization"
-          desc="  At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
+          desc="Explore the world of real estate tokenization and discover how blockchain technology is revolutionizing property investments by enhancing transparency, accessibility, and efficiency."
         />
       </div>
 
@@ -76,8 +74,7 @@ const RealEstatetToken = () => {
         data={RealEstateTokenizationService}
         heading1="Real Estate "
         heading2=" Tokenization Services"
-        desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum 
-          animi voluptas voluptates, nam quae aliquid velit quisquam fuga!"
+        desc="Powered by blockchain technology, real estate tokenization development services are redefining how properties are bought, sold, and managed."
       />
 
       {/* Schedule a free demo */}

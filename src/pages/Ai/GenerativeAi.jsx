@@ -31,7 +31,7 @@ const GenerativeAi = () => {
       <ProductDevPhases
         data={steps}
         heading="Generative AI Development Process"
-        desc=" At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
+        desc="Our comprehensive generative AI development process equips businesses with powerful GenAI solutions that drive innovation and enhance operational efficiency."
       />
 
       {/* Generative AI Services */}
@@ -39,7 +39,7 @@ const GenerativeAi = () => {
         data={GenerativeAiService}
         heading1="Services Provided by"
         heading2=" Generative AI in Blockchain"
-        desc="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis voluptatum animi voluptas voluptates, nam quae aliquid velit quisquam fuga!"
+        desc="Generative AI enhances blockchain by optimizing smart contract development, automating code generation, improving security through anomaly detection, and enabling AI-driven data insights."
       />
 
       {/* Industries  */}
@@ -47,7 +47,7 @@ const GenerativeAi = () => {
         data={BkDevIndustriesData}
         heading1="Industries"
         heading2="We Serve"
-        desc="As a leading custom blockchain development company, we leverage different blockchain networks to provide you with the best solutions aligned with your needs."
+        desc=""
       />
 
       {/* Schedule a free demo */}
