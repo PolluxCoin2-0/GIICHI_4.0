@@ -31,7 +31,7 @@ import securityImg from "../../assets/security.png";
 import dataImg from "../../assets/data.png";
 import paymentImg from "../../assets/payment.png";
 import scArchImg from "../../assets/smart-contracts.png";
-import scDevImg from "../../assets/ScDev.png";
+import scDevImg from "../../assets/scDev.png";
 import scAuditImg from '../../assets/audit.png';
 import scOptimizeImg from "../../assets/optimization.png";
 import codeReviewImg from "../../assets/review.png";
