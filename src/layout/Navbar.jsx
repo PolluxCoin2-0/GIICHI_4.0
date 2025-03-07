@@ -43,9 +43,9 @@ const Navbar = () => {
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/asset-tokenization" },
-            { label: "Real-Estate Tokenization", link: "/real-estate-tokenization" },
-            { label: "Asset Management", link: "/asset-management" }
+            { label: "Asset Tokenization", link: "/" },
+            { label: "Real-Estate Tokenization", link: "/" },
+            { label: "Asset Management", link: "/" }
           ]
         },
         {
