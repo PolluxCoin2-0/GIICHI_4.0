@@ -136,20 +136,9 @@ const MobileNavbar = () => {
                 </li>
                 {isTokenOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs "> Asset Tokenization</p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Real -Estate Tokenization
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Fund Tokenization
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Gold Tokenization
-                    </p>
-                    <p className="text-white text-xs pt-2"> Asset Management</p>
+                    <Link to="/asset-tokenization"><p className="text-white text-xs "> Asset Tokenization</p></Link>
+                    <Link to="/real-estate-tokenization"><p className="text-white text-xs pt-2">Real -Estate Tokenization </p></Link>
+                   <Link to="/asset-management"><p className="text-white text-xs pt-2"> Asset Management</p></Link>
                   </div>
                 )}
               </ul>
@@ -173,11 +162,7 @@ const MobileNavbar = () => {
                 </li>
                 {isAi1Open && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs ">
-                      {" "}
-                      Artificial Intelligence
-                    </p>
-                    <p className="text-white text-xs pt-2"> AI/ML Solutions</p>
+                    <Link to="/"><p className="text-white text-xs pt-2"> AI/ML Solutions</p></Link>
                   </div>
                 )}
                 <li
@@ -188,11 +173,7 @@ const MobileNavbar = () => {
                 </li>
                 {isGenOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs "> Generative AI</p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Generative AI Development
-                    </p>
+                   <Link to="/"><p className="text-white text-xs pt-2">Generative AI Development</p></Link> 
                   </div>
                 )}
               </ul>

@@ -51,7 +51,7 @@ const Navbar = () => {
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/whitepaper-development" },
+            { label: "White Paper Development", link: "/" },
             
           ]
         }
@@ -63,13 +63,13 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "AI / ML Solutions", link: "/ai-ml-solution" }
+            { label: "AI / ML Solutions", link: "/" }
           ]
         },
         {
           label: "Generative AI",
           items: [
-            { label: "Generative AI Development", link: "/generative-ai" }
+            { label: "Generative AI Development", link: "/" }
           ]
         }
       ]

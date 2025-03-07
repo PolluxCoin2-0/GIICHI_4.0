@@ -35,7 +35,7 @@ export const ScDevProcessSteps = [
 
 export const ScAuditProcessSteps = [
   {
-    title: "Client Consultation & Requirement Analysis",
+    title: "Client Consultation & Analysis",
     details: [
       "Business logic & requirements analysis",
       "Reviewing the White Paper & Yellow Paper",

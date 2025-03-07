@@ -99,7 +99,7 @@ const SupplyChain = () => {
         </span>
       </p>
       <div className="flex flex-col justify-center items-center">
-      <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7">
+      <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[50%] leading-7">
       Traditional supply chain management processes are riddled with inefficiencies that create information silos and make asset tracking cumbersome and time-consuming.
       </p>
       </div>
@@ -107,7 +107,7 @@ const SupplyChain = () => {
         {challengesData.map((row, rowIndex) => (
           <div
             key={rowIndex}
-            className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8"
+            className="flex flex-col md:flex-row w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8 space-y-4 md:space-y-0"
           >
             {row.map((challenge, index) => (
               <div
@@ -141,7 +141,7 @@ const SupplyChain = () => {
           </span>
         </p>
         <div className="flex flex-col justify-center items-center">
-        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7 text-center">
+        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[50%] leading-7 text-center">
           Our blockchain supply chain solutions are packed with user-friendly, advanced features that empower businesses to efficiently manage their supply chain operations without hassle.
         </p>
         </div>
