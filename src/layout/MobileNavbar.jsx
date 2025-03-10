@@ -162,7 +162,7 @@ const MobileNavbar = () => {
                 </li>
                 {isAi1Open && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <Link to="/"><p className="text-white text-xs pt-2"> AI/ML Solutions</p></Link>
+                    <Link to="/ai-ml-solution"><p className="text-white text-xs pt-2"> AI/ML Solutions</p></Link>
                   </div>
                 )}
                 <li
@@ -173,7 +173,7 @@ const MobileNavbar = () => {
                 </li>
                 {isGenOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                   <Link to="/"><p className="text-white text-xs pt-2">Generative AI Development</p></Link> 
+                   <Link to="/generative-ai"><p className="text-white text-xs pt-2">Generative AI Development</p></Link> 
                   </div>
                 )}
               </ul>
