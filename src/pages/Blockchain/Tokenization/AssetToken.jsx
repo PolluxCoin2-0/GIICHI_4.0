@@ -136,7 +136,7 @@ const AssetToken = () => {
 
       {/* why choose asset token for business */}
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12">
-        <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide ">
+         <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide ">
           Digital Asset <br />
           <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
             Tokenization Services

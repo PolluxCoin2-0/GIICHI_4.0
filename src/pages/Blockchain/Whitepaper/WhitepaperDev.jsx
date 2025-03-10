@@ -19,7 +19,10 @@ const WhitepaperDev = () => {
   return (
     <div className="mt-20 ">
       {/* white paper creation service */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
+      <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-5xl text-white font-semibold text-center">
           Personalized White Paper <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">

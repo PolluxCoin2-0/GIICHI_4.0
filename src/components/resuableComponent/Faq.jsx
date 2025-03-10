@@ -23,9 +23,9 @@ const Faq = ({data}) => {
           </span>
         </p>
 
-        <div className="space-y-4">
-        {/* <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlightOrange spotlightOrange-right"></div> */}
+        <div className="space-y-4 relative">
+        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+        <div className="hidden md:block spotlightOrange spotlightOrange-right"></div>
           {data.map((faq, index) => (
             <div
               key={index}

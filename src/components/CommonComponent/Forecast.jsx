@@ -2,6 +2,7 @@
 const Forecast = ({ data }) => {
   return (
     <div className="relative">
+       <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight2 spotlight-right"></div>
       <div className="flex flex-row justify-center mt-0 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-20">

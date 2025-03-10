@@ -21,7 +21,10 @@ const ServicesCard = ({ title, description, isLastInRow }) => {
 const Services = ({ data, heading1, heading2, desc }) => {
   return (
     <div>
-   <div className="mt-12 xl:mt-20 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+   <div className="mt-12 xl:mt-20 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
+   <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide">
           {heading1}
           <br />

@@ -280,7 +280,7 @@ body{
   width: 60vw; /* 40% of viewport width for each */
   background-image: radial-gradient(closest-side, rgba(255, 165, 0, 0.1), transparent);
   position: absolute;
-  top: 60%;
+  top: 80%;
   transform: translateY(-50%);
   z-index: 0;
   pointer-events: none;
