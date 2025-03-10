@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import scDevBannerImg from "../../assets/ScDevBanner.png";
+import aiMlBannerImage from "../../assets/aiSolutionBanner.png";
 import LetsTalk from "../../components/resuableComponent/LetsTalk";
 import { AiMlSolutionService } from "../../components/data/ServicesData";
 import { aiMlIndustriesData } from "../../components/data/industriesData";
@@ -21,7 +21,7 @@ const AiSolutions = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={scDevBannerImg}
+        img={aiMlBannerImage}
         title1="AI/ML Solutions"
         title2=""
         desc="AT Giichi IT Solutions, We maximize your business efficiency and productivity with our cutting-edge AI/ML development services and solutions!"
