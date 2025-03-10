@@ -18,8 +18,8 @@ const AssetToken = () => {
       {/* Banner Image */}
       <BannerContent
         img={assetTokenBannerImg}
-        title1="Real World Asset"
-        title2="Tokenization  Development"
+        title1="Asset Tokenization"
+        title2="Development"
         desc="Transform Physical Assets into Digital Value with Blockchain"
       />
 

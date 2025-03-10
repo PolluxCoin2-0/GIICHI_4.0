@@ -4,10 +4,10 @@ const ServicesCard = ({ title, description, isLastInRow }) => {
     <div>
       <div
         className={`w-full pr-12 relative mb-8 ${
-          !isLastInRow ? "after:absolute after:top-0 after:right-0 after:h-full after:w-[2px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent" : ""
+          !isLastInRow ? "after:absolute after:top-0 after:right-0 after:h-[130%] after:w-[3px] after:bg-gradient-to-b after:from-transparent after:via-white/30 after:to-transparent" : ""
         }`}
       >
-        <p className="text-white text-lg font-bold border-b-2 border-white border-opacity-20 pb-2">
+        <p className="text-white text-lg font-bold border-b-[3px] border-white border-opacity-20 pb-2 h-16">
           {title}
         </p>
         <p className="text-sm text-white text-opacity-70 pt-4 leading-6 tracking-normal text-justify">
@@ -33,7 +33,7 @@ const Services = ({ data, heading1, heading2, desc }) => {
          {desc}
         </p>
       {/* Services Block */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 mt-12 md:mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 mt-12 md:mt-20 ">
         {data.map((service, index) => {
           const isLastInRow = (index + 1) % 3 === 0;
           return (

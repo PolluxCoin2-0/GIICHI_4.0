@@ -22,8 +22,8 @@ const GenerativeAi = () => {
       {/* Banner Image */}
       <BannerContent
         img={scDevBannerImg}
-        title1="Generative AI Development"
-        title2=""
+        title1="Generative AI "
+        title2="Development"
         desc="Generative AI development focuses on creating models that can generate new content, such as text, images, music, or code, by learning patterns from existing data."
       />
 
