@@ -61,7 +61,7 @@ const Navbar = () => {
       label: "AI",
       submenus: [
         {
-          label: "Artificial Intelligence",
+          label: "Artificial Intelligence",         
           items: [
             { label: "AI / ML Solutions", link: "/ai-ml-solution" }
           ]
@@ -242,6 +242,7 @@ const handleMenuLeave = () => {
   setMenuTimeout(timeout);
 };
 
+
   return (
     <nav className="relative z-50">
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 py-4">
@@ -294,16 +295,16 @@ const handleMenuLeave = () => {
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-4 rounded-xl">
+          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-6 rounded-xl">
             <div className="flex">
-              <div className="w-[30%] bg-[#D9D9D919] rounded-2xl p-4">
+              <div className="w-[30%] bg-[#D9D9D919] rounded-xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (
                   <div
                     key={submenu.label}
-                    className="flex justify-between items-center p-4 hover:bg-white hover:bg-opacity-40 rounded-2xl cursor-pointer"
+                    className="flex justify-between items-center p-4 hover:bg-[#D9D9D9] hover:bg-opacity-15 rounded-xl cursor-pointer"
                     onMouseEnter={() => handleSubmenuEnter(submenu.label)}
                   >
-                    <p className="text-white text-[17px] font-bold">{submenu.label}</p>
+                    <p className="text-white text-opacity-80 font-medium text-[17px] hover:font-semibold hover:text-white">{submenu.label}</p>
                     <FaArrowRightLong color="#ffffff" size={24} />
                   </div>
                 ))}
@@ -317,8 +318,8 @@ const handleMenuLeave = () => {
                       .find(submenu => submenu.label === activeSubmenu)
                       ?.items.map((item, index) => (
                         <Link to={item.link} key={index}>
-                          <div className="px-4 py-2 hover:bg-white hover:bg-opacity-40 rounded-2xl p-4 mt-4 first:mt-0">
-                            <p className="text-white text-[17px] font-bold text-nowrap">{item.label}</p>
+                          <div className="px-4 py-3 hover:bg-[#8AF969] hover:bg-opacity-10 rounded-xl p-4 mt-4 first:mt-0">
+                            <p className="text-white text-[17px] font-semibold text-nowrap">{item.label}</p>
                           </div>
                         </Link>
                     ))}
