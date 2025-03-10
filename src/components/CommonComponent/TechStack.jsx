@@ -92,6 +92,7 @@ const TechStack = () => {
 
   return (
     <div className="relative mt-12 2xl:mt-20 ">
+      <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight2 spotlight-right"></div>
       <p className="text-white text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pt-4 leading-tight tracking-wide text-center">
