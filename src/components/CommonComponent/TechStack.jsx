@@ -22,7 +22,7 @@ const TechStackSection = ({ title, technologies }) => {
   return (
     <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-x-4 md:space-x-6 lg:space-x-12 w-full">
       <div className="w-full md:w-[20%] lg:w-[30%] xl:w-[20%]">
-        <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] xl:text-[14px] 2xl:px-[17px] text-center">
+        <p className="text-white bg-darkGray rounded-md mt-0 md:mt-8 px-4 md:px-5 py-2 md:py-3 text-sm md:text-[17px] 2xl:text-[14px] 3xl:text-[17px] 2xl:px-[17px] text-start font-semibold">
           {title}
         </p>
       </div>
