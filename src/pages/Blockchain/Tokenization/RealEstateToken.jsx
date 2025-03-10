@@ -22,8 +22,8 @@ const RealEstatetToken = () => {
       {/* Banner Image */}
       <BannerContent
         img={realEstateTokenBanner}
-        title1="Real Estate Tokenization "
-        title2="Service"
+        title1="Real Estate"
+        title2="Tokenization Service"
         desc="Begin your real estate tokenization journey with Giichi, a leading real estate tokenization company dedicated to turning your vision into reality."
       />
 

@@ -71,7 +71,7 @@ const Education = () => {
         img={EducationBannerImg}
         title1="Blockchain Solution "
         title2="for Education"
-        desc="Blockchain technology is revolutionizing the education sector byenhancing security, transparency, and accessibility."
+        desc="Blockchain technology is revolutionizing the education sector by enhancing security, transparency, and accessibility."
       />
 
       {/* Bloackchain education forecast */}

@@ -2,7 +2,7 @@
 const IndustriesCard = ({ img, title }) => {
     return (
       <div className="border-[1px] border-white border-opacity-20 rounded-xl py-12 flex flex-col justify-center items-center">
-        <img src={img} alt="industry-images" className="w-14" />
+        <img src={img} alt="industry-images" className="w-12" />
         <p className="text-white pt-4 text-[17px]">{title}</p>
       </div>
     );

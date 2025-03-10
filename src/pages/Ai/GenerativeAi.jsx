@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import scDevBannerImg from "../../assets/ScDevBanner.png";
+import generativeAiBannerImage from "../../assets/generativeAiBanner.png";
 import LetsTalk from "../../components/resuableComponent/LetsTalk";
 import { GenerativeAiService } from "../../components/data/ServicesData";
 import { BkDevIndustriesData } from "../../components/data/industriesData";
@@ -21,9 +21,9 @@ const GenerativeAi = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={scDevBannerImg}
-        title1="Generative AI Development"
-        title2=""
+        img={generativeAiBannerImage}
+        title1="Generative AI "
+        title2="Development"
         desc="Generative AI development focuses on creating models that can generate new content, such as text, images, music, or code, by learning patterns from existing data."
       />
 

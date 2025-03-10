@@ -23,11 +23,13 @@ const Faq = ({data}) => {
           </span>
         </p>
 
-        <div className="space-y-4">
+        <div className="space-y-4 relative">
+        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+        <div className="hidden md:block spotlightOrange spotlightOrange-right"></div>
           {data.map((faq, index) => (
             <div
               key={index}
-              className="bg-orange-gradient bg-opacity-50 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[1100px]"
+              className="bg-darkOrange-gradient bg-opacity-40 shadow-md px-4 md:px-6 py-4 rounded-2xl w-[300px] md:w-[500px] lg:w-[600px] xl:w-[1100px]"
             >
               <div
                 className="flex flex-row items-center justify-between cursor-pointer"

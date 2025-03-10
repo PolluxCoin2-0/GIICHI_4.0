@@ -18,6 +18,7 @@ const FrameworksCard = ({ logo, title, description }) => {
 const Framework = ({data, heading1, heading2, desc}) => {
   return (
     <div className="mt-12 relative">
+        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
     <div className="hidden md:block spotlight spotlight-left"></div>
     <div className="hidden md:block spotlight2 spotlight-right"></div>
     <div className="flex flex-col justify-center items-center">
