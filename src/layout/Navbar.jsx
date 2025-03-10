@@ -43,15 +43,15 @@ const Navbar = () => {
         {
           label: "Tokenization",
           items: [
-            { label: "Asset Tokenization", link: "/asset-tokenization" },
-            { label: "Real-Estate Tokenization", link: "/real-estate-tokenization" },
-            { label: "Asset Management", link: "/asset-management" }
+            { label: "Asset Tokenization", link: "/" },
+            { label: "Real-Estate Tokenization", link: "/" },
+            { label: "Asset Management", link: "/" }
           ]
         },
         {
           label: "Whitepaper",
           items: [
-            { label: "White Paper Development", link: "/whitepaper-development" },
+            { label: "White Paper Development", link: "/" },
             
           ]
         }
@@ -63,13 +63,13 @@ const Navbar = () => {
         {
           label: "Artificial Intelligence",
           items: [
-            { label: "AI / ML Solutions", link: "/ai-ml-solution" }
+            { label: "AI / ML Solutions", link: "/" }
           ]
         },
         {
           label: "Generative AI",
           items: [
-            { label: "Generative AI Development", link: "/generative-ai" }
+            { label: "Generative AI Development", link: "/" }
           ]
         }
       ]

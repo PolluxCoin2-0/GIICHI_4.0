@@ -13,7 +13,7 @@ const Entertainment = () => {
       <BannerContent
         img={MediaBannerImg}
         title1="Blockchain In Media &"
-        title="And Entertainment"
+        title2="Entertainment"
         desc=" Secure digital content, prevent piracy, and enhance transparency across content creation and distribution. Revolutionizing rights management and monetization with blockchain technology."
       />
 
@@ -56,7 +56,7 @@ const Entertainment = () => {
       {/*Entertainment Framework*/}
       <Framework
         data={EntertainmentFramework}
-        heading1=" Impact of Blockchain in Media"
+        heading1="Impact of Blockchain in Media"
         heading2="& Entertainment"
         desc=" Blockchain is set to revolutionize the media and entertainment industry by offering:"
       />

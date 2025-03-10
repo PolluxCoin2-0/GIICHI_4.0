@@ -24,7 +24,7 @@ const AssetToken = () => {
       />
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
@@ -69,7 +69,7 @@ const AssetToken = () => {
         <div className="relative mb-8 w-[80%] md:w-[60%] before:absolute before:inset-0 before:rounded-full before:h-[2px] before:bg-gradient-to-r before:from-transparent before:via-white/30 before:to-transparent"></div>
       </div>
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 mb-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[60%] ">
@@ -145,8 +145,8 @@ const AssetToken = () => {
         {/* Reviews Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
           {/* Custom First Card */}
-          <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4">
-            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-2xl font-bold text-white">
+          <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
+            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
               Why choose Giichi for Asset <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
                 Tokenization Services?

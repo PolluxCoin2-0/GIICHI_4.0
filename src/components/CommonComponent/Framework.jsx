@@ -21,14 +21,14 @@ const Framework = ({data, heading1, heading2, desc}) => {
     <div className="hidden md:block spotlight spotlight-left"></div>
     <div className="hidden md:block spotlight2 spotlight-right"></div>
     <div className="flex flex-col justify-center items-center">
-        <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide text-center">
+        <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
          {heading1}<br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient">
             {heading2}
           </span>
         </p>
 
-        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-[50%] leading-7 text-center">
+        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[80%] lg:w-[70%] xl:w-[50%] leading-7 text-center">
          {desc}
         </p>
         </div>

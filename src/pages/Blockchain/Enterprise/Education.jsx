@@ -50,7 +50,8 @@ const benefits = [
 
 const BenefitCard = ({ image, title, points }) => {
   return (
-    <div className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full md:w-[50%] lg:w-[40%] md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6">
+    <div className="border-[1px] border-white border-opacity-20 rounded-xl py-8 lg:py-12 flex flex-col justify-center w-full 
+    md:w-[50%] lg:w-[40%] md:hover:scale-105 transition-transform duration-500 ease-in-out hover:bg-greish-gradient px-4 lg:px-6">
       <img src={image} alt={title} className="w-12 lg:w-16" />
       <p className="text-white pt-4 text-lg md:text-xl font-bold">{title}</p>
       <ul className="text-white text-opacity-70 text-[12px] lg:text-[15px] pt-4 list-disc ml-6">
@@ -129,7 +130,7 @@ const Education = () => {
           {benefits.map((row, rowIndex) => (
             <div
               key={rowIndex}
-              className="flex flex-col md:flex-row justify-center w-full space-x-0 md:space-x-6 lg:space-x-8 mt-4 md:mt-6 lg:mt-8"
+              className="flex flex-col md:flex-row justify-center w-full space-x-0 md:space-x-6 lg:space-x-8 space-y-4 md:space-y-0 mt-4 md:mt-6 lg:mt-8"
             >
               {row.map((benefit, index) => (
                 <BenefitCard

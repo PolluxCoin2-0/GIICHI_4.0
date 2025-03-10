@@ -35,7 +35,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
                   >
                     <div className="text-white font-medium text-center">
                       <div className="text-lg font-bold">{step.id}.</div>
-                      <div className="mt-1 text-lg font-bold">{step.title}</div>
+                      <div className="mt-1 text-[12px] md:text-lg font-bold">{step.title}</div>
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
                   >
                     <div className="text-white font-medium text-center">
                       <div className="text-lg font-bold">{step.id}.</div>
-                      <div className="mt-1 text-lg font-bold">{step.title}</div>
+                      <div className="mt-1 text-[12px] md:text-lg font-bold">{step.title}</div>
                     </div>
                   </div>
                 </div>

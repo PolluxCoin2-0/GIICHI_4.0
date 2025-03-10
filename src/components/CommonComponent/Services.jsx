@@ -29,7 +29,7 @@ const Services = ({ data, heading1, heading2, desc }) => {
            {heading2}
           </span>
         </p>
-        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7 w-[60%]">
+        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7 w-full md:w-[60%]">
          {desc}
         </p>
       {/* Services Block */}

@@ -20,7 +20,7 @@ const AssetManagement = () => {
       />
 
       {/* Bloackchain entertainment forecast */}
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-6 2xl:space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-6 2xl:space-x-12 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">

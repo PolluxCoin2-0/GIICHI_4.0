@@ -13,7 +13,7 @@ const RealEstate = () => {
       {/* Banner Image */}
       <BannerContent
         img={RealEstateBannerImg}
-        title1="Blockchain Solutions for"
+        title1="Blockchain Solutions"
         title2="for Real Estate"
         desc=" Revolutionizing real estate by addressing key challenges like mortgage securitization, inefficient asset management, and illegal property transfers. "
       />
