@@ -33,6 +33,7 @@ export default {
         "yellow-gradient":"linear-gradient(to right, #64A03C  10%, #F0AA06 100%)",
         "gray-gradient": "linear-gradient(to bottom left, #000000 0%, #2E2D29 100%)",
         "orange-gradient": "linear-gradient(to right, rgba(43, 179, 45, 0.1) 0%, rgba(255, 168, 40, 0.09) 100%)",
+        "darkOrange-gradient": "linear-gradient(to right, rgba(255, 168, 40, 0.09) 0%, rgba(43, 179, 45, 0.1) 100%)",
         "black-gradient": "linear-gradient(to right, #003600 0%, #000000 100%)",
         "greish-gradient": "linear-gradient(to bottom, #000000 50%, #1B200C 100%)",
         "white-gradient":  "linear-gradient(to right, #2BB32A 10%, #FFFFFF 100%)",
