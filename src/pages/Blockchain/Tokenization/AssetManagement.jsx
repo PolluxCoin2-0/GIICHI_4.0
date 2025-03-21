@@ -24,7 +24,7 @@ const AssetManagement = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          <img src={assetManagementFeature} alt="smart-contract-feature-image" className="w-[90%]"/>
+          <img src={assetManagementFeature} alt="asset-management-feature-image" className="w-[90%]"/>
         </div>
 
         <div className="w-full md:w-[60%] ">

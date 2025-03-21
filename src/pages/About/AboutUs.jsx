@@ -76,19 +76,19 @@ const AboutUs = () => {
         <div className="flex flex-row justify-center items-center space-x-4 md:space-x-12 lg:space-x-20 xl:space-x-72 mt-8">
           <div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 pl-4">
-              <img src={bkImg} alt="blockchain" className="w-10 md:w-16 rounded-xl" />
+              <img src={bkImg} alt="blockchain-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 BLOCKCHAIN
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
-              <img src={mtImg} alt="metaverse" className="w-10 md:w-16 rounded-xl" />
+              <img src={mtImg} alt="metaverse-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 METAVERSE
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8 pl-4">
-              <img src={crImg} alt="crypto-solution" className="w-10 md:w-16 rounded-xl" />
+              <img src={crImg} alt="crypto-solution-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 CRYPTO SOLUTIONS
               </p>
@@ -97,19 +97,19 @@ const AboutUs = () => {
 
           <div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 ">
-              <img src={clImg} alt="cloud-solution" className="w-10 md:w-16 rounded-xl" />
+              <img src={clImg} alt="cloud-solution-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 CLOUD SOLUTIONS
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
-              <img src={defiImg} alt="defi" className="w-10 md:w-16 rounded-xl" />
+              <img src={defiImg} alt="defi-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 DEFI
               </p>
             </div>
             <div className="flex flex-row items-center space-x-2 md:space-x-4 lg:space-x-8 mt-8">
-              <img src={aiImg} alt="artificial-intelligence" className="w-10 md:w-16 rounded-xl" />
+              <img src={aiImg} alt="artificial-intelligence-image" className="w-10 md:w-16 rounded-xl" />
               <p className="text-xs md:text-lg lg:text-xl font-bold text-white">
                 ARTIFICIAL INTELLIGENCE
               </p>
@@ -123,7 +123,7 @@ const AboutUs = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
 
         <div className="w-full md:w-[40%]">
-          <img src={missionImg} alt="mission" className="w-full xl:w-[70%]" />
+          <img src={missionImg} alt="mission-image" className="w-full xl:w-[70%]" />
         </div>
         <div className="flex flex-col justify-start items-start w-full  md:w-[60%]">
           <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-white">

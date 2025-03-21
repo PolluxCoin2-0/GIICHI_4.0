@@ -93,7 +93,7 @@ const BlockchainDevelopment = () => {
         rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
       >
-        <img src={WhatsAppImg} alt="WhatsApp" className="" />
+        <img src={WhatsAppImg} alt="WhatsApp-icon" className="" />
       </a>
     </div>
   );

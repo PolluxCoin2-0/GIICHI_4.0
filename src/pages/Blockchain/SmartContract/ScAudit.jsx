@@ -26,7 +26,7 @@ const ScAudit = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[50%]">
-          <img src={ScAuditFeatureImg} alt="" className="w-[80%]" />
+          <img src={ScAuditFeatureImg} alt="smart-contract-feature-image" className="w-[80%]" />
         </div>
         <div className="w-full md:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-4xl font-semibold pt-4  ">

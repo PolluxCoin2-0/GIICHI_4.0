@@ -28,7 +28,7 @@ const AssetToken = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <div className="w-full md:w-[40%]">
-          <img src={assetTokenFeature1} alt="smart-contract-feature-image" className="w-[90%]"/>
+          <img src={assetTokenFeature1} alt="asset-token-feature-image" className="w-[90%]"/>
         </div>
         <div className="w-full md:w-[60%] ">
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4  ">
@@ -110,7 +110,7 @@ const AssetToken = () => {
         </div>
 
         <div className="w-full md:w-[40%]">
-          <img src={assetTokenFeature2} alt="smart-contract-feature-image" className="w-[90%]"/>
+          <img src={assetTokenFeature2} alt="asset-token-feature-image" className="w-[90%]"/>
         </div>
       </div>
 

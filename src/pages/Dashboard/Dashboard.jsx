@@ -36,14 +36,15 @@ const Dashboard = () => {
 
         {/* Heading 2 */}
           <motion.h1
-            className="text-white text-2xl md:text-4xl lg:text-6xl 2xl:text-7xl font-bold text-center pt-4 leading-tight tracking-wide"
+            className="text-white text-2xl md:text-4xl lg:text-6xl font-bold text-center pt-4 leading-10 tracking-wide"
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: false }}
           >
-            Unlock Web3 Success <br />
-            by Partnering with{" "}
+             Empowering Web3 & Blockchain 
+             <br />
+            Innovation with{" "}
             <span className="text-transparent bg-clip-text bg-green-gradient">
               GiiCHi
             </span>
@@ -89,7 +90,7 @@ const Dashboard = () => {
         >
           <img
             src={blogData[0]?.blogImages[0]}
-            alt="blogs-image"
+            alt="blogs-feature-image"
             className="w-full rounded-2xl"
           />
           <p className="text-white relative overflow-hidden max-h-[11em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
@@ -132,7 +133,7 @@ const Dashboard = () => {
               >
                 <img
                   src={blogData[2]?.blogImages[0]}
-                  alt="blogs-image"
+                  alt="blogs-feature-image"
                   className="w-full h-36 rounded-2xl z-20 object-cover"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full h-1/2 bg-black bg-opacity-70 text-white p-1 
@@ -147,7 +148,7 @@ const Dashboard = () => {
               >
                 <img
                   src={blogData[3]?.blogImages[0]}
-                  alt="blogs-image"
+                  alt="blogs-feature-image"
                   className="mt-2 md:mt-4 w-full h-36 rounded-2xl z-20 object-cover"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -164,7 +165,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[4]?.blogImages[0]}
-                alt="blogs-image"
+                alt="blogs-feature-image"
                 className="w-full h-full rounded-2xl z-20 object-cover"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full
@@ -181,7 +182,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[5]?.blogImages[0]}
-                alt="blogs-image"
+                alt="blogs-feature-image"
                 className="w-full h-full object-cover rounded-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -229,7 +230,7 @@ const Dashboard = () => {
           rel="noopener noreferrer"
           title="Chat with us on WhatsApp"
         >
-          <img src={whatsAppImg} alt="WhatsApp" className="" />
+          <img src={whatsAppImg} alt="WhatsApp-icon" className="" />
         </a>
       </div>
 

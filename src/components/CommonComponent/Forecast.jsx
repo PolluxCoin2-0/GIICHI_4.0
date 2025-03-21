@@ -11,7 +11,7 @@ const Forecast = ({ data }) => {
           <div className="flex flex-col items-center justify-center w-full md:w-[60%] lg:w-[50%] 3xl:w-[40%]">
             <img
               src={data.img1}
-              alt="forecast-images"
+              alt="forecast-image"
               className="h-96 object-contain "
             />
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center">
@@ -25,7 +25,7 @@ const Forecast = ({ data }) => {
           <div className="flex flex-col items-center justify-center w-full md:w-[60%] lg:w-[50%] 3xl:w-[40%]">
             <img
               src={data.img2}
-              alt="forecast-img"
+              alt="forecast-image"
               className="h-96 object-contain"
             />
             <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">

@@ -84,7 +84,7 @@ const Finance = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 xl:space-x-6 px-4 md:px-8 lg:px-12 xl:px-36 2x:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={securityImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={securityImg} alt="security-image" className="w-16 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
               Cryptographic Security
             </p>
@@ -101,7 +101,7 @@ const Finance = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={ledgerImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={ledgerImg} alt="ledger-image" className="w-16 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
               Distributed Ledger Architecture
             </p>
@@ -117,7 +117,7 @@ const Finance = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[33%] group relative ">
-            <img src={NetworkImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={NetworkImg} alt="network-image" className="w-16 group-hover:hidden" />
             <p className="text-white pt-4 text-center group-hover:hidden">
               Network Consensus Mechanism
             </p>

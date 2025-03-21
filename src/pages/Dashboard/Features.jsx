@@ -9,11 +9,11 @@ const BlockchainFeatures = () => {
     <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-64 pt-8 md:pt-12">
       {/* Heading 1 */}
       <div className="flex flex-row justify-center md:justify-between items-center px-8">
-        <img src={star5Img} alt="" className="hidden md:block" />
+        <img src={star5Img} alt="star-image" className="hidden md:block" />
         <p className="bg-darkGray text-white px-8 py-3 rounded-full text-sm lg:text-[17px] font-medium text-nowrap">
           -Unlock Your Creative Potential-
         </p>
-        <img src={star6Img} alt="" className="pt-12 hidden md:block" />
+        <img src={star6Img} alt="star-image" className="pt-12 hidden md:block" />
       </div>
 
       {/* Heading 2 */}
@@ -36,7 +36,7 @@ const BlockchainFeatures = () => {
       {/* Blocks */}
       <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 w-full pt-8 ">
         <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl">
-          <img src={b1Img} alt="" className="" />
+          <img src={b1Img} alt="star-image" className="" />
           <div className="flex flex-col p-4 lg:p-6 bg-darkBlue rounded-b-2xl">
             <p className="text-white text-xl md:text-2xl font-bold">
               Blockchain
@@ -50,7 +50,7 @@ const BlockchainFeatures = () => {
         </div>
 
         <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
-          <img src={b2Img} alt="" className="" />
+          <img src={b2Img} alt="star-image" className="" />
           <div className="flex flex-col p-4 lg:p-6 bg-navyBlue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
             <p className="pt-2 text-white text-opacity-50 font-medium text-sm lg:text-[16px]">
@@ -62,7 +62,7 @@ const BlockchainFeatures = () => {
         </div>
 
         <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
-          <img src={b3Img} alt="" className="" />
+          <img src={b3Img} alt="star-image" className="" />
           <div className="flex flex-col p-4 lg:p-6 bg-blue rounded-b-2xl">
             <p className="text-white text-2xl font-bold">Blockchain</p>
             <p className="pt-2 text-white text-opacity-50 font-medium text-sm lg:text-[16px]">
