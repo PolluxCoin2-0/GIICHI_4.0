@@ -117,7 +117,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[1]?.blogImages[0]}
-                alt="blogs-image"
+                alt="blogs-feature-image"
                 className="w-full h-full object-center rounded-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 
