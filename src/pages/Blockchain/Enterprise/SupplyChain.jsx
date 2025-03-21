@@ -147,7 +147,7 @@ const SupplyChain = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={reportImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={reportImg} alt="report-image" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Reporting Dashboard
             </p>
@@ -162,7 +162,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={manageImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={manageImg} alt="manage-image" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               User Management
             </p>
@@ -177,7 +177,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={walletImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={walletImg} alt="wallet-image" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Multi-Currency Wallet
             </p>
@@ -192,7 +192,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={kycImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={kycImg} alt="know-your-customer-image" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Instant KYC and AML
             </p>
@@ -207,7 +207,7 @@ const SupplyChain = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] group relative ">
-            <img src={fundImg} alt="" className="w-16 group-hover:hidden" />
+            <img src={fundImg} alt="funding-icon" className="w-16 group-hover:hidden" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Funds Management System
             </p>

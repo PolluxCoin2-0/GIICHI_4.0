@@ -6,7 +6,7 @@ const BannerContent = ({img, title1, title2, desc}) => {
         <div className="relative w-full mx-auto flex flex-col md:flex-row justify-center px-4 md:px-8 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 z-10">
         <img
           src={img}
-          alt="blockchain-bg-image"
+          alt="main-background-image"
           className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}

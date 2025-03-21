@@ -80,7 +80,7 @@ const BlockchainDepin = () => {
         rel="noopener noreferrer"
         title="Chat with us on WhatsApp"
       >
-        <img src={whatsAppImg} alt="WhatsApp" className="" />
+        <img src={whatsAppImg} alt="WhatsApp-icon" className="" />
       </a>
     </div>
   );

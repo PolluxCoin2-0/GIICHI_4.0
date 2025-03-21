@@ -14,7 +14,7 @@ const Insights = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 lg:space-x-6 w-full pt-8 ">
           <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl">
-            <img src={b1Img} alt="" className="" />
+            <img src={b1Img} alt="spotlight-image" className="" />
             <div className="flex flex-col p-4 lg:p-6 bg-darkBlue rounded-b-2xl">
               <p className="text-white text-xl md:text-2xl font-bold">
                 Blockchain
@@ -28,7 +28,7 @@ const Insights = () => {
           </div>
 
           <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
-            <img src={b2Img} alt="" className="" />
+            <img src={b2Img} alt="spotlight-image" className="" />
             <div className="flex flex-col p-4 lg:p-6 bg-navyBlue rounded-b-2xl">
               <p className="text-white text-2xl font-bold">Blockchain</p>
               <p className="pt-2 text-white text-opacity-50 font-medium text-sm md:text-[16px]">
@@ -40,7 +40,7 @@ const Insights = () => {
           </div>
 
           <div className="border-2 border-white w-full md:e-[33%] lg:w-[31%] rounded-2xl mt-4 md:mt-0">
-            <img src={b3Img} alt="" className="" />
+            <img src={b3Img} alt="spotlight-image" className="" />
             <div className="flex flex-col p-4 lg:p-6 bg-blue rounded-b-2xl">
               <p className="text-white text-2xl font-bold">Blockchain</p>
               <p className="pt-2 text-white text-opacity-50 font-medium text-sm md:text-[16px]">
