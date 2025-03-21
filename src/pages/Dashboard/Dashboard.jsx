@@ -117,7 +117,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[1]?.blogImages[0]}
-                alt={blogData[1]?.shortDescription || "Blog-Feature-image"}
+                alt={blogData[1]?.shortDescription || "Blog Feature image"}
                 className="w-full h-full object-center rounded-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 
@@ -133,7 +133,7 @@ const Dashboard = () => {
               >
                 <img
                   src={blogData[2]?.blogImages[0]}
-                  alt={blogData[2]?.shortDescription || "Blog-Feature-image"}
+                  alt={blogData[2]?.shortDescription || "Blog Feature image"}
                   className="w-full h-36 rounded-2xl z-20 object-cover"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full h-1/2 bg-black bg-opacity-70 text-white p-1 
@@ -148,7 +148,7 @@ const Dashboard = () => {
               >
                 <img
                   src={blogData[3]?.blogImages[0]}
-                  alt={blogData[3]?.shortDescription || "Blog-Feature-image"}
+                  alt={blogData[3]?.shortDescription || "Blog Feature image"}
                   className="mt-2 md:mt-4 w-full h-36 rounded-2xl z-20 object-cover"
                 />
                 <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
@@ -165,7 +165,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[4]?.blogImages[0]}
-                alt={blogData[4]?.shortDescription || "Blog-Feature-image"}
+                alt={blogData[4]?.shortDescription || "Blog Feature image"}
                 className="w-full h-full rounded-2xl z-20 object-cover"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full
@@ -182,7 +182,7 @@ const Dashboard = () => {
             >
               <img
                 src={blogData[5]?.blogImages[0]}
-                alt={blogData[5]?.shortDescription || "Blog-Feature-image"}
+                alt={blogData[5]?.shortDescription || "Blog Feature image"}
                 className="w-full h-full object-cover rounded-2xl z-20"
               />
               <p className="pt-1 md:pt-4 text-[5px] md:text-sm absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-1 md:p-4 opacity-0 transform translate-y-full group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out z-10">
