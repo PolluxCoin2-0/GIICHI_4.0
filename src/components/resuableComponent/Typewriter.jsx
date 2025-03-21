@@ -37,9 +37,9 @@ const Typewriter = () => {
 
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <h1 id="typewriter" className="text-lg md:text-3xl lg:text-4xl text-white text-opacity-70 font-bold">
+      <h2 id="typewriter" className="text-lg md:text-3xl lg:text-4xl text-white text-opacity-70 font-bold">
         {currentWord}
-      </h1>
+      </h2>
     </div>
   );
 };
