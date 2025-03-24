@@ -9,11 +9,14 @@ import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import Review from "./Review";
+import EmailPopup from "../../components/resuableComponent/EmailPopup";
 // import calendlyImg from "../assets/calendar.png";
 
 const Dashboard = () => {
   const [blogData, setBlogData] = useState([]);
+  const [popupOpen, setPopupOpen] = useState(false);
 
+  // FOR GETTING ALL THE BLOGS DATA HERE IN GIICHI
   const fetchData = async () => {
     const res = await axios.get(
       "https://bnode.giichi.network/api/blog/getAllBlogs?search="
@@ -25,6 +28,17 @@ const Dashboard = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  
+   // FOR EMAIL POPUP
+  useEffect(() => {
+    const timer = setTimeout(() => setPopupOpen(true), 2000); // Show after 2s
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleEmailSubmit = (email) => {
+    console.log("Email Submitted:", email);
+  };
 
   return (
     <div className="pt-6 md:pt-20 ">
@@ -233,6 +247,14 @@ const Dashboard = () => {
           <img src={whatsAppImg} alt="WhatsApp-icon" className="" />
         </a>
       </div>
+
+      <div className="p-10">
+      <EmailPopup
+        isOpen={popupOpen}
+        onClose={() => setPopupOpen(false)}
+        onSubmit={handleEmailSubmit}
+      />
+    </div>
 
       {/* Calender Image */}
       {/* <div>
