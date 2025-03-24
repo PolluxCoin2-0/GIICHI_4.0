@@ -12,6 +12,8 @@ import googleLogo from "../../assets/google.png";
 import linodeLogo from "../../assets/linode.png";
 import awsLogo from "../../assets/aws.png";
 import sulaanaLogo from "../../assets/SulanaLogo.svg";
+import polediumLogo from "../../assets/polediumLogo.png";
+import pmTradeLogo from "../../assets/pm_Logo.png";
 
 const ClientsSlider = () => {
   const sliderSettings = {
@@ -67,6 +69,8 @@ const sliderSecondRowSettings = {
       {/* First Row - Sliding with 3 items */}
       <Slider {...sliderFirstAndThirdRowSettings} className="w-full mb-5">
         {[{ logo: poxLogo, name: "PolluxChain", color: "#38DD02" },
+         { logo: polediumLogo, name: "Poledium", color: "#38DD02" },
+         { logo: pmTradeLogo, name: "PM Trade", color: "#FFEA8A" },
           { logo: akamaiLogo, name: "Akamai", color: "#DE891D" },
           { logo: xdcImg, name: "Xinfin Network", color: "#2C95D4" }
         ].map((item, index) => (
@@ -98,7 +102,8 @@ const sliderSecondRowSettings = {
 
       {/* Third Row - Sliding with 3 items */}
       <Slider {...sliderFirstAndThirdRowSettings} className="w-full">
-        {[{ logo: awsLogo, name: "AWS", color: "#F99901" },
+        {[ 
+          { logo: awsLogo, name: "AWS", color: "#F99901" },
           { logo: googleLogo, name: "Google", color: "#E94234" },
           { logo: linodeLogo, name: "Linode", color: "#2CB159" }
         ].map((item, index) => (

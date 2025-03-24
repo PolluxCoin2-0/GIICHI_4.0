@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
 import ClientsSlider from "./ClientsSlider";
 import { FiMinusCircle, FiPlusCircle } from "react-icons/fi";
 import { useState } from "react";
+import polediumLogo from "../../assets/polediumLogo.png";
+import pmTradeLogo from "../../assets/pm_Logo.png";
+import hyperpoxLogo from '../../assets/hyperlogo.svg';
 
 // Custom Arrow Components
 const CustomPrevArrow = ({ onClick }) => (
@@ -45,6 +48,27 @@ const CustomNextArrow = ({ onClick }) => (
 );
 const Mission = () => {
   const partners = [
+    {
+      logo: polediumLogo,
+      title: "Explore our Web Banking",
+      link: "https://poledium.net/",
+      description:
+        "Poledium is a Decentralized Web3 banking on PolluxChain where user Stake $POX, earn massive APY rewards, and access borderless financial services—no banks, no limits.",
+    },
+    {
+      logo: pmTradeLogo,
+      title: "Trade on PM NFT",
+      link: "https://pmtrade.polluxchain.com/",
+      description:
+        "PM_TRADE is a powerful staking platform where you can stake a minimum of 10 POX, gain eligibility for USDX, and enjoy unlimited rewards.Stake, earn, and grow your wealth seamlessly.",
+    },
+    {
+      logo: hyperpoxLogo,
+      title: "Explore Hyperpox",
+      link: "https://hyperpox.com/",
+      description:
+        "HyperPOX offers USDX staking & POX rewards with up to 5% ROI. Earn passive income, team bonuses & maximize crypto earnings today.",
+    },
     {
       logo: poxLogo,
       title: "Explore Polluxchain",
@@ -80,6 +104,7 @@ const Mission = () => {
       description:
         "SulMine is a cutting-edge mining platform developed by Giichi, designed to offer a seamless and efficient mining experience. Powered by advanced blockchain technology, SulMine ensures security, scalability, and a user-friendly interface for effortless mining.",
     },
+    
   ];
 
   // Slick slider settings
