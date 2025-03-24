@@ -15,6 +15,12 @@ const COLLECTION_ID = "67e0f9f90026b0512307";
 
 const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
   const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  // Function to validate email
+  const isValidEmail = (email) => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  };
 
   // Function to add email to Appwrite database
   const emailGiichi = async (email) => {
@@ -25,7 +31,6 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
         "unique()", // Generates a unique document ID
         { Email: email }
       );
-
       console.log("Email Added:", response);
       return response;
     } catch (error) {
@@ -34,8 +39,12 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
   };
 
   const handleSubmit = async () => {
-    if (!email) return;
-    await emailGiichi(email); // Wait for the email to be added
+    if (!isValidEmail(email)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+    setError("");
+    await emailGiichi(email);
     onSubmit(email);
     onClose();
   };
@@ -45,14 +54,14 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
   return (
     <div className="fixed inset-0 flex justify-start items-end p-6 z-50">
       <motion.div
-        initial={{ x: -200, opacity: 0 }} // Start from the left
+        initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        exit={{ x: -200, opacity: 0 }} // Exit towards the left
+        exit={{ x: -200, opacity: 0 }}
         transition={{
           type: "spring",
           stiffness: 100,
           damping: 12,
-          ease: [0.25, 1, 0.5, 1], // Smooth side slide effect
+          ease: [0.25, 1, 0.5, 1],
         }}
         className="bg-black p-6 rounded-2xl shadow-lg w-96 border border-gray-800"
       >
@@ -69,10 +78,11 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
           onChange={(e) => setEmail(e.target.value)}
           className="w-full p-2 border border-gray-700 rounded-lg text-white placeholder-gray-500 bg-transparent focus:outline-none focus:border-blue-400 transition placeholder:poppins-thin"
         />
+        {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
         <div className="flex justify-between mt-4">
-        <button
+          <button
             onClick={handleSubmit}
-            className="px-4 py-2  text-sm rounded-full bg-gradient-to-r from-[#64A03C] to-[#F0AA06] text-white font-medium cursor-pointer poppins-thin transition-transform duration-200 hover:scale-105"
+            className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-[#64A03C] to-[#F0AA06] text-white font-medium cursor-pointer poppins-thin transition-transform duration-200 hover:scale-105"
           >
             Subscribe 
           </button>
@@ -82,7 +92,6 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
           >
             Cancel
           </button>
-          
         </div>
       </motion.div>
     </div>
