@@ -14,38 +14,58 @@ const DATABASE_ID = "67e0f9f3001eb4c5d085";
 const COLLECTION_ID = "67e0f9f90026b0512307";
 
 const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
   const [error, setError] = useState("");
+
+  // Function to validate name (should not be empty)
+  const isValidName = (name) => {
+    return name.trim().length > 0;
+  };
 
   // Function to validate email
   const isValidEmail = (email) => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 
-  // Function to add email to Appwrite database
-  const emailGiichi = async (email) => {
+  // Function to validate mobile number (basic validation for 10 digits)
+  const isValidMobile = (mobile) => {
+    return /^[0-9]{10}$/.test(mobile);
+  };
+
+  // Function to add data to Appwrite database
+  const saveUserData = async () => {
     try {
       const response = await databases.createDocument(
         DATABASE_ID,
         COLLECTION_ID,
         "unique()", // Generates a unique document ID
-        { Email: email }
+        { Name: name, Email: email, Mobile: mobile }
       );
-      console.log("Email Added:", response);
+      console.log("Data Added:", response);
       return response;
     } catch (error) {
-      console.error("Failed to add email:", error);
+      console.error("Failed to add data:", error);
     }
   };
 
   const handleSubmit = async () => {
+    if (!isValidName(name)) {
+      setError("Please enter your name.");
+      return;
+    }
     if (!isValidEmail(email)) {
       setError("Please enter a valid email address.");
       return;
     }
+    if (!isValidMobile(mobile)) {
+      setError("Please enter a valid 10-digit mobile number.");
+      return;
+    }
     setError("");
-    await emailGiichi(email);
-    onSubmit(email);
+    await saveUserData();
+    onSubmit({ name, email, mobile });
     onClose();
   };
 
@@ -63,7 +83,7 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
           damping: 12,
           ease: [0.25, 1, 0.5, 1],
         }}
-        className="bg-black p-6 rounded-2xl shadow-lg w-96 border border-gray-800"
+        className="bg-black p-6 rounded-2xl shadow-lg w-96 border border-[#041805]"
       >
         <h2 className="text-xl font-semibold mb-4 text-white text-center poppins-thin">
           📩 Stay Updated!
@@ -72,23 +92,37 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
           Get the latest news and offers directly in your inbox.
         </p>
         <input
+          type="text"
+          placeholder="Enter your name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="w-full p-2 border-[1px] border-white border-opacity-30 rounded-lg text-white bg-transparent focus:outline-none focus:border-blue-400 transition placeholder:text-white text-sm"
+        />
+        <input
           type="email"
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-2 border border-gray-700 rounded-lg text-white placeholder-gray-500 bg-transparent focus:outline-none focus:border-blue-400 transition placeholder:poppins-thin"
+          className="w-full p-2 mt-2 border-[1px] border-white border-opacity-30 rounded-lg text-white bg-transparent focus:outline-none focus:border-blue-400 transition placeholder:text-white text-sm"
+        />
+        <input
+          type="text"
+          placeholder="Enter your mobile number"
+          value={mobile}
+          onChange={(e) => setMobile(e.target.value)}
+          className="w-full p-2 mt-2 border-[1px] border-white border-opacity-30 rounded-lg text-white bg-transparent focus:outline-none focus:border-blue-400 transition placeholder:text-white text-sm"
         />
         {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
         <div className="flex justify-between mt-4">
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-[#64A03C] to-[#F0AA06] text-white font-medium cursor-pointer poppins-thin transition-transform duration-200 hover:scale-105"
+            className="px-4 py-2 text-sm rounded-full bg-gradient-to-r from-[#64A03C] to-[#F0AA06] text-white font-medium cursor-pointer transition-transform duration-200 hover:scale-105"
           >
             Subscribe 
           </button>
           <button
             onClick={onClose}
-            className="px-6 py-2 bg-gray-700 text-gray-300 hover:bg-gray-600 poppins-thin cursor-pointer rounded-full text-sm transition-transform duration-200 hover:scale-105"
+            className="px-6 py-2 bg-gray-700 text-gray-300 hover:bg-gray-600 cursor-pointer rounded-full text-sm transition-transform duration-200 hover:scale-105"
           >
             Cancel
           </button>
