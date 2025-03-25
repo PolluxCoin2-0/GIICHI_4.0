@@ -434,3 +434,181 @@ export const AssetTokenFramework =  [
   
 ];
 
+export const BlockchainConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const Web3ConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const MetaverseConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+
+export const CustomExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];

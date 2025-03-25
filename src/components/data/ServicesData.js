@@ -304,3 +304,147 @@ export const BlockchainDevelopmentService = [
     },
     
   ];
+
+  export const BlockchainConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];
+
+  export const Web3ConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];
+
+  export const MetaverseConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];

@@ -152,3 +152,32 @@ export const whitePaperLifeCycleData = [
     image: deliveryImg,
   },
 ];
+
+export const maasLifeCycleData = [
+  {
+    title: "Discovery",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: understandImg,
+  },
+  {
+    title: "Strategy",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: researchImg,
+  },
+  {
+    title: "Execution",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: contentImg,
+  },
+  {
+    title: "Optimization",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: designImg,
+  },
+  {
+    title: "Scaling",
+    description:
+      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: deliveryImg,
+  },
+];

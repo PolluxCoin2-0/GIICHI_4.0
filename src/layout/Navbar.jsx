@@ -99,18 +99,16 @@ const Navbar = () => {
         {
           label: "Consulting",
           items: [
-            { label: "Blockchain Consulting Company", link: "/" },
-            { label: "Web3 Consulting Company", link: "/" },
-            { label: "Metaverse Consulting Company", link: "/" },
-            { label: "DeFi Consulting Company", link: "/" },
-            { label: "DAO Consulting Company", link: "/" },
-            { label: "AI Consulting Company", link: "/" }
+            { label: "Blockchain Consulting Company", link: "/blockchain-consulting-company" },
+            { label: "Web3 Consulting Company", link: "/web3-consulting-company" },
+            { label: "Metaverse Consulting Company", link: "/metaverse-consulting-company" },
+            { label: "DeFi Consulting Company", link: "/defi-consulting-company" },
           ]
         },
         {
           label: "Marketing As a Service",
           items: [
-            { label: "Marketing As A Service (MaaS)", link: "/" }
+            { label: "Marketing As A Service (MaaS)", link: "/marketing-as-a-service" }
           ]
         }
       ]
@@ -120,14 +118,14 @@ const Navbar = () => {
       submenus: [
         { label: "Exchange", 
           items: [
-          { label: "Custom Exchange", link: "/" },
-            { label: "White Label Exchange", link: "/" },
-            { label: "Margin Trading Exchange", link: "/" },
-            { label: "Decentralized Exchange", link: "/" },
-            { label: "Derivatives Exchange", link: "/" },
-            { label: "Centralized Exchange", link: "/" },
-            { label: "P2P Exchange", link: "/" },
-            { label: "Market Making Exchange", link: "/" },
+          { label: "Custom Exchange", link: "/custom-exchange" },
+            { label: "White Label Exchange", link: "/white-label-exchange" },
+            { label: "Margin Trading Exchange", link: "/margin-trading-exchange" },
+            { label: "Decentralized Exchange", link: "/decentralized-exchange" },
+            { label: "Derivatives Exchange", link: "/derivatives-exchange" },
+            { label: "Centralized Exchange", link: "/centralized-exchange" },
+            { label: "P2P Exchange", link: "/p2p-exchange" },
+            { label: "Market Making Exchange", link: "/market-making-exchange" },
         ] },
         { label: "Wallet", 
           items: [

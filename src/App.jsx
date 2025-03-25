@@ -10,7 +10,6 @@ import TransportAndLogistics from "./pages/Blockchain/Enterprise/TransportAndLog
 import Entertainment from "./pages/Blockchain/Enterprise/Entertainment";
 import Education from "./pages/Blockchain/Enterprise/Education";
 import RealEstate from "./pages/Blockchain/Enterprise/RealEstate";
-import Maas from "./pages/Consulting/Maas";
 import Finance from "./pages/Blockchain/Enterprise/Finance";
 import Healthcare from "./pages/Blockchain/Enterprise/Healthcare";
 import ScDevelopment from "./pages/Blockchain/SmartContract/ScDevelopment";
@@ -21,6 +20,19 @@ import RealEstateToken from "./pages/Blockchain/Tokenization/RealEstateToken";
 import WhitepaperDev from "./pages/Blockchain/Whitepaper/WhitepaperDev";
 import AiSolutions from "./pages/Ai/AiSolutions";
 import GenerativeAi from "./pages/Ai/GenerativeAi";
+import Maas from "./pages/Consulting/Maas/Maas";
+import BlockchainConsulting from "./pages/Consulting/Consulting/BlockchainConsulting";
+import Web3Consulting from "./pages/Consulting/Consulting/Web3Consulting";
+import MetaverseConsulting from "./pages/Consulting/Consulting/MetaverseConsulting";
+import DefiConsulting from "./pages/Consulting/Consulting/DefiConsulting";
+import Custom from "./pages/Solutions/Exchange/Custom";
+import WhiteLabel from "./pages/Solutions/Exchange/WhiteLabel";
+import MarginTrading from "./pages/Solutions/Exchange/MarginTrading";
+import Decentralized from "./pages/Solutions/Exchange/Decentralized";
+import Derivatives from "./pages/Solutions/Exchange/Derivatives";
+import Centralized from "./pages/Solutions/Exchange/Centralized";
+import P2P from "./pages/Solutions/Exchange/P2P";
+import MarketMaking from "./pages/Solutions/Exchange/MarketMaking";
 import ContactForm from "./components/resuableComponent/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -59,6 +71,20 @@ function App() {
            <Route path="/whitepaper-development" element={<WhitepaperDev/>}/>
            <Route path="/ai-ml-solution" element={<AiSolutions/>}/>
            <Route path="/generative-ai" element={<GenerativeAi/>}/>
+           <Route path="/marketing-as-a-service" element={<Maas/>}/>
+           <Route path="/blockchain-consulting-company" element={<BlockchainConsulting/>}/>
+           <Route path="/web3-consulting-company" element={<Web3Consulting/>}/>
+           <Route path="/metaverse-consulting-company" element={<MetaverseConsulting/>}/>
+           <Route path="/defi-consulting-company" element={<DefiConsulting/>}/>
+           <Route path="/defi-consulting-com" element={<DefiConsulting/>}/>
+           <Route path="/custom-exchange" element={<Custom/>}/>
+           <Route path="/white-label-exchange" element={<WhiteLabel/>}/>
+           <Route path="/margin-trading-exchange" element={<MarginTrading/>}/>
+           <Route path="/decentralized-exchange" element={<Decentralized/>}/>
+           <Route path="/derivatives-exchange" element={<Derivatives/>}/>
+           <Route path="/centralized-exchange" element={<Centralized/>}/>
+           <Route path="/p2p-exchange" element={<P2P/>}/>
+           <Route path="/market-making-exchange" element={<MarketMaking/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>
