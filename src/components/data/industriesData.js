@@ -149,3 +149,46 @@ export const aiMlIndustriesData = [
     title: "Legal Services",
   },
 ];
+
+export const digitalWalletIndustriesData = [
+  {
+    img: healthImg,
+    title: "Supply Chain",
+  },
+  {
+    img: propertyImg,
+    title: "Banking",
+  },
+  {
+    img: museumImg,
+    title: "Healthcare",
+  },
+  {
+    img: agriImg,
+    title: "Government",
+  },
+  {
+    img: logisticImg,
+    title: "Logistics",
+  },
+  {
+    img: retailImg,
+    title: "Gaming",
+  },
+  {
+    img: mediaImg,
+    title: "E-Commerce",
+  },
+  {
+    img: tripImg,
+    title: "Insurance",
+  },
+  {
+    img: educationImg,
+    title: "Education",
+  },
+  {
+    img: energyImg,
+    title: "Energy",
+  },
+];

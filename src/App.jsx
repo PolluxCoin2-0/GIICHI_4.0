@@ -33,6 +33,14 @@ import Derivatives from "./pages/Solutions/Exchange/Derivatives";
 import Centralized from "./pages/Solutions/Exchange/Centralized";
 import P2P from "./pages/Solutions/Exchange/P2P";
 import MarketMaking from "./pages/Solutions/Exchange/MarketMaking";
+import DefiWallet from "./pages/Solutions/Wallet/DefiWallet";
+import DigitalWallet from "./pages/Solutions/Wallet/DigitalWallet";
+import MpcCryptoWallet from "./pages/Solutions/Wallet/MpcCryptoWallet";
+import MulticurrencyWallet from "./pages/Solutions/Wallet/MulticurrencyWallet";
+import NftWallet from "./pages/Solutions/Wallet/NftWallet";
+import TronWallet from "./pages/Solutions/Wallet/TronWallet";
+import Web3Wallet from "./pages/Solutions/Wallet/Web3Wallet";
+import WhiteLabelWallet from "./pages/Solutions/Wallet/WhiteLabelWallet";
 import ContactForm from "./components/resuableComponent/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -85,6 +93,14 @@ function App() {
            <Route path="/centralized-exchange" element={<Centralized/>}/>
            <Route path="/p2p-exchange" element={<P2P/>}/>
            <Route path="/market-making-exchange" element={<MarketMaking/>}/>
+           <Route path="/defi-wallet" element={<DefiWallet/>}/>
+           <Route path="/digital-wallet" element={<DigitalWallet/>}/>
+           <Route path="/mpc-crypto-wallet" element={<MpcCryptoWallet/>}/>
+           <Route path="/multi-currency-wallet" element={<MulticurrencyWallet/>}/>
+           <Route path="/non-fungible-token-wallet" element={<NftWallet/>}/>
+           <Route path="/tron-wallet" element={<TronWallet/>}/>
+           <Route path="/web3-wallet" element={<Web3Wallet/>}/>
+           <Route path="/white-label-wallet" element={<WhiteLabelWallet/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>

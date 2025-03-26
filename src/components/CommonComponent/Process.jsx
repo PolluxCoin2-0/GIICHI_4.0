@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 const Process = ({ heading1, heading2, desc, processSteps }) => {
   return (
     <div className="mt-0 2xl:mt-20 relative">

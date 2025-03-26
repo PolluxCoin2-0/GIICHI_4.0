@@ -883,3 +883,60 @@ export const MarketMakingExchangeFramework =  [
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
 ];
+
+export const DigitalWalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label Crypto Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Wallet-as-a-Service (WaaS)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "MPC Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Chain Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Coin-Based Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Centralized Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "TRON Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
