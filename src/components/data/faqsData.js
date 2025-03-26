@@ -244,3 +244,54 @@ export const BlockchainDevelopmentFaq = [
         "While the initial integration may require investment, blockchain reduces long-term operational costs by automating record management, verification, and credential issuance—leading to cost savings.",
     },
 ];
+
+
+export const P2PExchangeFaq = [
+  {
+    question: "How does P2P Exchange works?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "How does P2P Exchange works?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "How does P2P Exchange works?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "How does P2P Exchange works?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];
+
+export const MarketMakingExchangeFaq = [
+  {
+    question: "What is Cryptocurrency Market Making?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Cryptocurrency Market Making?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Cryptocurrency Market Making?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Cryptocurrency Market Making?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];

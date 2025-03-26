@@ -448,3 +448,119 @@ export const BlockchainDevelopmentService = [
         "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
     },
   ];
+
+  export const DerivativeDevelopmentService = [
+    {
+      title: "High Leverage",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Multi-Layer Security",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Advanced Order Types",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Powerful Trading Engine",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Multi-Currency Wallet",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Robust Admin Panel",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+   
+  ];
+
+  export const CentralizedDevelopmentService = [
+    {
+      title: "Robust Admin Panel",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Potent Trade Machine",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Device Compatibility",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Multi-Currency Support",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "KYC/AML Integration",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Multiple Payment Gateways",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+    {
+      title: "Enhanced Security",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Advanced Chart Tools",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Crypto Wallet",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+   
+  ];
+
+  export const P2PDevelopmentService = [
+    {
+      title: "Escrow Timer",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Mobile App Development",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Messaging System",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Advanced Filters",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Preferred Trader Selection",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "AI Integration",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+];

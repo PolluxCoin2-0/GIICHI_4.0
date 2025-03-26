@@ -22,7 +22,7 @@ export
 
 const Custom = () => {
   return (
-    <div>
+    <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
         img={BlockchainImg}
