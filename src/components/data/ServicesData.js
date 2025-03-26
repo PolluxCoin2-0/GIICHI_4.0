@@ -564,3 +564,36 @@ export const BlockchainDevelopmentService = [
         "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
     },
 ];
+
+export const DefiWalletService = [
+  {
+    title: "Defi Wallet App Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "MPC Defi Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Exchange Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Yearn Finance Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Lending & Borrowing DeFi Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Super Crypto App Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];

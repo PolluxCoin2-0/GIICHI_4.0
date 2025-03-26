@@ -192,3 +192,27 @@ export const digitalWalletIndustriesData = [
     title: "Energy",
   },
 ];
+
+export const whiteLabelIndustriesData = [
+  {
+    img: healthImg,
+    title: "FinTech",
+  },
+  {
+    img: propertyImg,
+    title: "E-Commerce",
+  },
+  {
+    img: museumImg,
+    title: "Gaming",
+  },
+  {
+    img: logisticImg,
+    title: "Charity",
+  },
+  {
+    img: mediaImg,
+    title: "Fundraising",
+  },
+ 
+];

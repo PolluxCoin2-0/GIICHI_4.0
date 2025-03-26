@@ -142,13 +142,8 @@ const Navbar = () => {
           items: [
             { label: "NFT Development", link: "/" },
             { label: "White Label NFT Development", link: "/" },
-            { label: "NFT Music", link: "/" },
-            { label: "Multicurrency Wallet", link: "/" },
             { label: "NFT Marketplace", link: "/" },
-            { label: "NFT Loan", link: "/" },
             { label: "Semi Fungible Token", link: "/" },
-            { label: "NFT Generative Art", link: "/" },
-            { label: "NFT Art", link: "/" },
           ] },
         { label: "DEFI", 
           items: [
@@ -156,9 +151,7 @@ const Navbar = () => {
             { label: "Defi Lottery", link: "/" },
             { label: "DAO Blockchain", link: "/" },
             { label: "Olympus DAO Development", link: "/" },
-            { label: "Defi Yeild Farming", link: "/" },
             { label: "Defi Staking", link: "/" },
-            { label: "Defi Lending & Borrowing", link: "/" },
             { label: "Dapp Development Company", link: "/" },
           ] },
         { label: "WEB3", 
