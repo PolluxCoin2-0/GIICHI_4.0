@@ -1512,5 +1512,83 @@ export const P2pLendingFramework =  [
   },
 ];
 
+export const NftDevelopmentFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Generative Art",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Timesharing NFT Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Digital Content",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT backed Loans",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Real-estate",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Games",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const WhiteLabelNftFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label NFT Marketplace Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Hybrid NFT Marketplace Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT Smart Contracts Audit",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT Token Standard Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Designing of NFTs",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Support & Maintenance",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
 
 

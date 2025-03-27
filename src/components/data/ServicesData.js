@@ -717,4 +717,37 @@ export const PaymentGatewayService = [
   },
 ];
 
+export const WhiteLabelNftService = [
+  {
+    title: "Hassle-Free Bidding",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Enjoy Additional Privileges",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Lazy Minting",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "IPFS NFT Storage",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-chain Compatibility",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Global Royalty Standard",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
 

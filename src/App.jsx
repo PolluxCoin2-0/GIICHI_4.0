@@ -41,6 +41,15 @@ import NftWallet from "./pages/Solutions/Wallet/NftWallet";
 import TronWallet from "./pages/Solutions/Wallet/TronWallet";
 import Web3Wallet from "./pages/Solutions/Wallet/Web3Wallet";
 import WhiteLabelWallet from "./pages/Solutions/Wallet/WhiteLabelWallet";
+import NftDev from "./pages/Solutions/NFT/NftDev";
+import NftMarketplace from "./pages/Solutions/NFT/NftMarketplace";
+import SemiFungibleToken from "./pages/Solutions/NFT/SemiFungibleToken";
+import WhiteLabelNftDev from "./pages/Solutions/NFT/WhiteLabelNftDev";
+import DaoBlockchain from "./pages/Solutions/Defi/DaoBlockchain";
+import DappDevelopment from "./pages/Solutions/Defi/DappDevelopment";
+import DefiDevelopment from "./pages/Solutions/Defi/DefiDevelopment";
+import DefiStaking from "./pages/Solutions/Defi/DefiStaking";
+import Web3Development from "./pages/Solutions/Web3/Web3Development";
 import DigitalBanking from "./pages/Solutions/DigitalBanking/DigitalBanking";
 import WhiteLabelBanking from "./pages/Solutions/DigitalBanking/WhiteLabelBanking";
 import PaymentGateway from "./pages/Solutions/DigitalBanking/PaymentGateway";
@@ -113,6 +122,15 @@ function App() {
            <Route path="/tron-wallet" element={<TronWallet/>}/>
            <Route path="/web3-wallet" element={<Web3Wallet/>}/>
            <Route path="/white-label-wallet" element={<WhiteLabelWallet/>}/>
+           <Route path="/nft-development" element={<NftDev/>}/>
+           <Route path="/nft-marketplace" element={<NftMarketplace/>}/>
+           <Route path="/semi-fungible-token-development" element={<SemiFungibleToken/>}/>
+           <Route path="/white-label-nft-development" element={<WhiteLabelNftDev/>}/>
+           <Route path="/defi-decentralized-finance-development" element={<DefiDevelopment/>}/>
+           <Route path="/dao-blockchain-development" element={<DaoBlockchain/>}/>
+           <Route path="/dapp-development" element={<DappDevelopment/>}/>
+           <Route path="/defi-staking-development" element={<DefiStaking/>}/>
+           <Route path="/web3-development" element={<Web3Development/>}/>
            <Route path="/digital-banking-solution" element={<DigitalBanking/>}/>
            <Route path="/white-label-banking-solution" element={<WhiteLabelBanking/>}/>
            <Route path="/payment-gateway-banking-solution" element={<PaymentGateway/>}/>
