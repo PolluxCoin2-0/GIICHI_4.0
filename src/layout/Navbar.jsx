@@ -278,11 +278,11 @@ const handleMenuLeave = () => {
 
       {activeMenu && (
         <div 
-          className="absolute left-0 w-full flex justify-center  backdrop-blur-3xl"
+          className="absolute left-0 w-full flex justify-center"
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-6 rounded-xl">
+          <div className="w-full backdrop-blur-3xl lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-6 rounded-xl">
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (
