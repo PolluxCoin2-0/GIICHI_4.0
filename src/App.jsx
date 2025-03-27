@@ -41,6 +41,18 @@ import NftWallet from "./pages/Solutions/Wallet/NftWallet";
 import TronWallet from "./pages/Solutions/Wallet/TronWallet";
 import Web3Wallet from "./pages/Solutions/Wallet/Web3Wallet";
 import WhiteLabelWallet from "./pages/Solutions/Wallet/WhiteLabelWallet";
+import DigitalBanking from "./pages/Solutions/DigitalBanking/DigitalBanking";
+import WhiteLabelBanking from "./pages/Solutions/DigitalBanking/WhiteLabelBanking";
+import PaymentGateway from "./pages/Solutions/DigitalBanking/PaymentGateway";
+import P2pLending from "./pages/Solutions/DigitalBanking/P2pLending";
+import Launchpad from "./pages/Solutions/CoinDevelopment/Launchpad";
+import ICO from "./pages/Solutions/CoinDevelopment/ICO";
+import IDO from "./pages/Solutions/CoinDevelopment/IDO";
+import Memecoin from "./pages/Solutions/CoinDevelopment/Memecoin";
+import Stablecoin from "./pages/Solutions/CoinDevelopment/Stablecoin";
+import Token from "./pages/Solutions/CoinDevelopment/Token";
+import TradingBots from "./pages/Solutions/TradingBots/TradingBots";
+import ArbitrageBots from "./pages/Solutions/TradingBots/ArbitrageBots";
 import ContactForm from "./components/resuableComponent/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
@@ -101,6 +113,18 @@ function App() {
            <Route path="/tron-wallet" element={<TronWallet/>}/>
            <Route path="/web3-wallet" element={<Web3Wallet/>}/>
            <Route path="/white-label-wallet" element={<WhiteLabelWallet/>}/>
+           <Route path="/digital-banking-solution" element={<DigitalBanking/>}/>
+           <Route path="/white-label-banking-solution" element={<WhiteLabelBanking/>}/>
+           <Route path="/payment-gateway-banking-solution" element={<PaymentGateway/>}/>
+            <Route path="/p2p-lending-solution" element={<P2pLending/>}/>
+           <Route path="/launchpad-coin-development" element={<Launchpad/>}/>
+           <Route path="/ico-coin-development" element={<ICO/>}/>
+           <Route path="/ido-coin-development" element={<IDO/>}/>
+           <Route path="/meme-coin-development" element={<Memecoin/>}/>
+           <Route path="/stable-coin-development" element={<Stablecoin/>}/>
+           <Route path="/token-coin-development" element={<Token/>}/>
+           <Route path="/trading-bot-development" element={<TradingBots/>}/>
+           <Route path="/arbitrage-bot-development" element={<ArbitrageBots/>}/>
            <Route path="/contact-us" element={<ContactForm/>}/>
            <Route path="/about-us" element={<AboutUs/>}/>
         </Routes>

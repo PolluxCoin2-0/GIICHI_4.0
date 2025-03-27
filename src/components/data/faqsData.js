@@ -345,3 +345,129 @@ export const Web3WalletExchangeFaq = [
   },
  
 ];
+
+export const CoinLaunchpadFaq = [
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Coin Launchpad Development?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];
+
+export const ICOFaq = [
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Coin Launchpad Development?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];
+
+
+export const IDOFaq = [
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Coin Launchpad Development?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];
+
+export const MemecoinFaq = [
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Coin Launchpad Development?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];
+
+export const DigitalBankingFaq = [
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: "What is Coin Launchpad Development?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question:
+      "What is Coin Launchpad Development?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+ 
+];

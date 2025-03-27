@@ -597,3 +597,124 @@ export const DefiWalletService = [
       "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
   },
 ];
+
+export const TradingBotsService = [
+  {
+    title: "Automated Trade Execution",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Customizable Strategies",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Risk Management Tools",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Advanced Market Analysis",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Real-time Notifications",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Portfolio Management",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Paper Trading",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Machine Learning Integration",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Robust Security ",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const IDOService = [
+  {
+    title: "Retail Investor Access",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Economical Token Listing",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Zero Slippage & Tolerance",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Swift Trading",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Launchpad Governance",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Gamified User Engagement",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Chain Compatibility",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Parametric Trade-Offs",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const PaymentGatewayService = [
+  {
+    title: "Cross-Border Payments",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Wallet Support",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Lingual Capabilities",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Real-Time Transaction Confirmations",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Simple & Intuitive Interface",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+
