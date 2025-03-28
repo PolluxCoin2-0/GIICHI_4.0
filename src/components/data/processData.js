@@ -119,4 +119,73 @@ export const RealEstateProcessSteps = [
   },
 ];
 
+export const CryptoExchangeProcessSteps = [
+  {
+    title: "Use-Case Analysis and Technology Consulting",
+    details: [
+      "Understand business objectives",
+      "Identify and define smart contract logic",
+      "Develop a strategic roadmap",
+    ],
+  },
+  {
+    title: "Technical and Graphic Design",
+    details: [
+      "Draft a detailed smart contract document",
+      "Design a data flow diagram",
+      "Establish a robust technical architecture",
+    ],
+  },
+  {
+    title: "Smart Contract Development",
+    details: [
+      "Implement the proposed smart contract solution",
+      "Conduct rigorous testing and security checks",
+      "Gather client feedback and iterate for perfection",
+    ],
+  },
+  {
+    title: "UI/UX Design",
+    details: [
+      "Deploy the smart contract on the blockchain network",
+      "Perform comprehensive security audits and stress testing",
+      "Monitor real-world performance and resolve potential issues",
+    ],
+  },
+  {
+    title: "Comprehensive QA Testing",
+    details: [
+      "Deploy the smart contract on the blockchain network",
+      "Perform comprehensive security audits and stress testing",
+      "Monitor real-world performance and resolve potential issues",
+    ],
+  },
+  {
+    title: "Deployment",
+    details: [
+      "Deploy the smart contract on the blockchain network",
+      "Perform comprehensive security audits and stress testing",
+      "Monitor real-world performance and resolve potential issues",
+    ],
+  },
+  {
+    title: "Upgrading and Support",
+    details: [
+      "Deploy the smart contract on the blockchain network",
+      "Perform comprehensive security audits and stress testing",
+      "Monitor real-world performance and resolve potential issues",
+    ],
+  },
+  {
+    title: "DevOps Implementation and Infrastructure Optimization",
+    details: [
+      "Deploy the smart contract on the blockchain network",
+      "Perform comprehensive security audits and stress testing",
+      "Monitor real-world performance and resolve potential issues",
+    ],
+  },
+];
+
+
+
 

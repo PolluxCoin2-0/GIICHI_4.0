@@ -69,7 +69,7 @@ const Education = () => {
       {/* Banner Image */}
       <BannerContent
         img={EducationBannerImg}
-        title1="Blockchain Solution "
+        title1="Blockchain Solution"
         title2="for Education"
         desc="Blockchain technology is revolutionizing the education sector by enhancing security, transparency, and accessibility."
       />

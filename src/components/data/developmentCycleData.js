@@ -23,3 +23,15 @@ export const BlockchainDevelopmentCycle = [
     { step: "09.", title: "Travel & Immigration", description: " Enables digital passports and visa records, streamlining border control and airport security with faster, secure identity verification." },
     { step: "10.", title: "Financial Inclusion & Banking", description: " Provides unbanked individuals with verifiable digital identities, enabling them to access financial services without traditional documentation barriers." },
   ];
+
+  export const IdoDevelopmentCycle = [
+    { step: "01.", title: "Expert Consultation", description: " Users can create self-sovereign identities (SSI) that allow full control over personal data, reducing reliance on centralized authorities." },
+    { step: "02.", title: "White Paper Creation", description: " Eliminates password-based logins with blockchain-powered authentication, reducing the risk of credential theft and phishing attacks." },
+    { step: "03.", title: "Blockchain Selection", description: "Streamlines identity verification for banks, financial institutions, and crypto exchanges, ensuring compliance while reducing onboarding time." },
+    { step: "04.", title: "Secure Smart Contracts", description: "Enables secure, transparent, and fraud-resistant online voting by ensuring voter identities remain verifiable and immutable." },
+    { step: "05.", title: "Rigorous Testing", description: " Stores patient identities, health records, and medical histories securely, allowing seamless access while maintaining privacy and compliance." },
+    { step: "06.", title: "Custom Token Development", description: " Universities and institutions can issue tamper-proof digital diplomas and certifications, enabling instant verification by employers and organizations." },
+    { step: "07.", title: "Strategic Marketing", description: "Enhances e-governance by securing citizen IDs, passports, and social security data on a blockchain, preventing fraud and identity theft." },
+    { step: "08.", title: "Ongoing Support", description: "Ensures authenticity of supplier identities, preventing fraud while allowing secure workforce credentialing and verification." },
+   
+  ];

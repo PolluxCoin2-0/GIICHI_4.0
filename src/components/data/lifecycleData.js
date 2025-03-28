@@ -152,3 +152,79 @@ export const whitePaperLifeCycleData = [
     image: deliveryImg,
   },
 ];
+
+export const maasLifeCycleData = [
+  {
+    title: "Discovery",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: understandImg,
+  },
+  {
+    title: "Strategy",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: researchImg,
+  },
+  {
+    title: "Execution",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: contentImg,
+  },
+  {
+    title: "Optimization",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: designImg,
+  },
+  {
+    title: "Scaling",
+    description:
+      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: deliveryImg,
+  },
+];
+
+export const derivativesLifeCycleData = [
+  {
+    title: "Consultation Phase",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: understandImg,
+  },
+  {
+    title: "Discovery Phase",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: researchImg,
+  },
+  {
+    title: "Requirements Gathering",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: contentImg,
+  },
+  {
+    title: "Solution and Strategy Design",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: designImg,
+  },
+  {
+    title: "Development Phase",
+    description:
+      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: deliveryImg,
+  },
+  {
+    title: "Testing and Quality Analysis",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: designImg,
+  },
+  {
+    title: "Deployment Phase",
+    description:
+      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: deliveryImg,
+  },
+  {
+    title: "Maintenance and Support",
+    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    image: designImg,
+  },
+
+];
+

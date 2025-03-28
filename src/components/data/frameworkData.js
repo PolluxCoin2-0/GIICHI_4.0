@@ -434,3 +434,1258 @@ export const AssetTokenFramework =  [
   
 ];
 
+export const BlockchainConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const Web3ConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const MetaverseConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+
+export const CustomExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exploring Blockchain Technology",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Cost-Effective in Nature",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: " Streamlined Processes ",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Offers Competitive Advantage",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Enhanced Safety and Security",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Improved Data Privacy ",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const WhiteLabelExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "High-Volume TPS",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "High-Powered Trading Engine",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: "KYC and AML",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+  {
+    logo: realEstateImg,
+    title: "500+ Cryptocurrencies & Fiat Support",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Automated Trading",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Referral and Reward Program",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "High-Liquidity At All Market Conditions",
+    description:
+      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Staking Module",
+    description:
+      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Payment Gateway Integration",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ 
+];
+
+export const MarginTradingExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Amplified Returns",
+    description:
+      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+  },
+  {
+    logo: realEstateImg,
+    title: "New Income Stream",
+    description:
+      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+  },
+  {
+    logo: realEstateImg,
+    title: "More Users and Earnings",
+    description:
+      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+  },
+];
+
+export const DerivativesExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const CentralizedExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Exchange Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const P2PExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Verified User Profiles",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Powerful Matching Engine",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Escrow System",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Payment Methods",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-layer Security",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Third-Party KYC",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Dispute Redressal",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Chain USDT",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Atomic Swaps",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const MarketMakingExchangeFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Order-Book Liquidity Management",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Cross-Exchange Arbitrage Management",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Bid-Ask Spread Management",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "24X7 Agile Cryptocurrency Market Making",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Volume Facilitation",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Liquidation",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Price Support",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Well-time PR Releases and Launch Strategies",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Experienced Strategists Engagement",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const DigitalWalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label Crypto Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Wallet-as-a-Service (WaaS)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "MPC Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Chain Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Coin-Based Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Centralized Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "TRON Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const WhiteLabelWalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label Crypto Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Wallet-as-a-Service (WaaS)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "MPC Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Chain Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Coin-Based Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Centralized Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "TRON Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const Web3WalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Multi-Currency Web3 Wallets",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Mobile Wallets",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "White Label Web3 Wallets",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Centralized Web3 Wallets",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Web3 Wallets",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 TRON Wallet",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const MulticurrencyWalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Two Factor Authentication",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Automatic Session Logout",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Complete Threat Protection",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Wallet Backup",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Email Authentication",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  
+];
+
+export const ArbitrageBotFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Crypto Arbitrage Bot Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Bot-as-a-Service(BaaS)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "AI Arbitrage Trading Bot Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Arbitrage Bot Consultation Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Arbitrage Bot Integration Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  
+];
+
+export const ICOFramework =  [
+  {
+    logo: realEstateImg,
+    title: "ICO Consulting Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "ICO Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Smart Contract Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "ICO Website/Landing Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "KYC/AML Integration",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+
+  {
+    logo: realEstateImg,
+    title: "Security Audit Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Legal, Risk, Compliance, and Advisory Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "ICO Marketing and PR Support",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Post-ICO Support",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const TokenCoinFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Crypto Token Consulting & Advisory",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Designing Meme Coins",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "AI-Based Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stablecoin Creation",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Equity/Asset-Backed Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+
+  {
+    logo: realEstateImg,
+    title: "Telegram Bot Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Non-Fungible Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Metaverse Tokens",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const StablecoinFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Stablecoin Consulting and Advisory Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stable Coin Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Regulatory Compliance Assistance",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stablecoin Promotion and Marketing Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Token Integration and Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+
+  {
+    logo: realEstateImg,
+    title: "Security and Audit Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ ];
+
+ export const MemecoinFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Stablecoin Consulting and Advisory Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stable Coin Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Regulatory Compliance Assistance",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stablecoin Promotion and Marketing Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Token Integration and Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+
+  {
+    logo: realEstateImg,
+    title: "Security and Audit Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ ];
+
+ export const DigitalBankingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Bank Account",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Debit Card",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Credit Card",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "User-controlled Wallet",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Remittance",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+
+  {
+    logo: realEstateImg,
+    title: "Payments",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Merchant Payment Gateway",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Cryptocurrency Trading Desk",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "P2P Transfers",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+ ];
+
+ export const WhiteLabelBankingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Multi-Currency Accounts",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Debit/Credit Card Integration",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Currency Virtual Cards",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "User-specific Wallet",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Instant Payment Settlements",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Contactless Payments",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const PaymentGatewayFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Multi-Currency Exchange",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Highly-Secure Crypto Wallet",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Blockchain Payment",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multiple Payment Options",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "API Plugins",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Mobile Application",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "User Handled Funds",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Defense-Grade Security",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Crypto Invoice Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const P2pLendingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Data Encryption",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "JWT Encryption",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Anti-Denial of Service (DoS)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Anti-Distributed Denial of Service",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Protection against SQL Injection",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Self-XSS Protection",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Server-Side Request Forgery Protection",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "HTTP Parameter Pollution Protection",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Prevention of Multiple logins of Same Credentials",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const NftDevelopmentFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Generative Art",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Timesharing NFT Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Digital Content",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT backed Loans",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Real-estate",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Games",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const WhiteLabelNftFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label NFT Marketplace Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Hybrid NFT Marketplace Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT Smart Contracts Audit",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "NFT Token Standard Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Designing of NFTs",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Support & Maintenance",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const Web3DevelopmentFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Web3 Metaverse Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Exchange Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Metaverse Game Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Smart Contract Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web 3.0 Browsers",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web Streaming Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Autonomous Organization (DAO)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Finance (DeFi)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const DefiDevFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Process Simplification",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Process Automation",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Reduced Transaction Cost",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Increased Control",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Transparency",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Faster Settlement",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+
+
+

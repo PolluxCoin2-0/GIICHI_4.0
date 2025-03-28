@@ -48,7 +48,7 @@ const BlockchainStep = ({ step, title, description }) => (
     <div className="bg-green-gradient shadow-inner shadow-gray-200 rounded-2xl p-4 xl:p-6">
       <p className="text-xl font-semibold">{step}</p>
       <p className="font-semibold text-lg lg:text-[17px] xl:text-lg">{title}</p>
-      <p className="font-semibold text-sm pt-2">{description}</p>
+      <p className="font-normal text-sm pt-2">{description}</p>
     </div>
   </div>
 );

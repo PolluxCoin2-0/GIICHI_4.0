@@ -99,18 +99,16 @@ const Navbar = () => {
         {
           label: "Consulting",
           items: [
-            { label: "Blockchain Consulting Company", link: "/" },
-            { label: "Web3 Consulting Company", link: "/" },
-            { label: "Metaverse Consulting Company", link: "/" },
-            { label: "DeFi Consulting Company", link: "/" },
-            { label: "DAO Consulting Company", link: "/" },
-            { label: "AI Consulting Company", link: "/" }
+            { label: "Blockchain Consulting Company", link: "" },
+            { label: "Web3 Consulting Company", link: "" },
+            { label: "Metaverse Consulting Company", link: "" },
+            { label: "DeFi Consulting Company", link: "" },
           ]
         },
         {
           label: "Marketing As a Service",
           items: [
-            { label: "Marketing As A Service (MaaS)", link: "/" }
+            { label: "Marketing As A Service (MaaS)", link: "" }
           ]
         }
       ]
@@ -120,76 +118,65 @@ const Navbar = () => {
       submenus: [
         { label: "Exchange", 
           items: [
-          { label: "Custom Exchange", link: "/" },
-            { label: "White Label Exchange", link: "/" },
-            { label: "Margin Trading Exchange", link: "/" },
-            { label: "Decentralized Exchange", link: "/" },
-            { label: "Derivatives Exchange", link: "/" },
-            { label: "Centralized Exchange", link: "/" },
-            { label: "P2P Exchange", link: "/" },
-            { label: "Market Making Exchange", link: "/" },
+          { label: "Custom Exchange", link: "" },
+            { label: "White Label Exchange", link: "" },
+            { label: "Margin Trading Exchange", link: "" },
+            { label: "Decentralized Exchange", link: "" },
+            { label: "Derivatives Exchange", link: "" },
+            { label: "Centralized Exchange", link: "" },
+            { label: "P2P Exchange", link: "" },
+            { label: "Market Making Exchange", link: "" },
         ] },
         { label: "Wallet", 
           items: [
-          { label: "Digital Wallet", link: "/" },
-            { label: "White Label Wallet", link: "/" },
-            { label: "Web3 Wallet", link: "/" },
-            { label: "Multicurrency Wallet", link: "/" },
-            { label: "MPC Crypto Wallet", link: "/" },
-            { label: "Defi Wallet", link: "/" },
-            { label: "Tron Wallet", link: "/" },
-            { label: "NFT Wallet", link: "/" },
+          { label: "Digital Wallet", link: "" },
+            { label: "White Label Wallet", link: "" },
+            { label: "Web3 Wallet", link: "" },
+            { label: "Multicurrency Wallet", link: "" },
+            { label: "MPC Crypto Wallet", link: "" },
+            { label: "Defi Wallet", link: "" },
+            { label: "Tron Wallet", link: "" },
+            { label: "NFT Wallet", link: "" },
         ] },
         { label: "NFT", 
           items: [
-            { label: "NFT Development", link: "/" },
-            { label: "White Label NFT Development", link: "/" },
-            { label: "NFT Music", link: "/" },
-            { label: "Multicurrency Wallet", link: "/" },
-            { label: "NFT Marketplace", link: "/" },
-            { label: "NFT Loan", link: "/" },
-            { label: "Semi Fungible Token", link: "/" },
-            { label: "NFT Generative Art", link: "/" },
-            { label: "NFT Art", link: "/" },
+            { label: "NFT Development", link: "" },
+            { label: "White Label NFT Development", link: "" },
+            { label: "NFT Marketplace", link: "" },
+            { label: "Semi Fungible Token", link: "" },
           ] },
         { label: "DEFI", 
           items: [
-            { label: "Defi Development", link: "/" },
-            { label: "Defi Lottery", link: "/" },
-            { label: "DAO Blockchain", link: "/" },
-            { label: "Olympus DAO Development", link: "/" },
-            { label: "Defi Yeild Farming", link: "/" },
-            { label: "Defi Staking", link: "/" },
-            { label: "Defi Lending & Borrowing", link: "/" },
-            { label: "Dapp Development Company", link: "/" },
+            { label: "Defi Development", link: "" },
+            { label: "DAO Blockchain", link: "" },
+            { label: "Defi Staking", link: "" },
+            { label: "Dapp Development Company", link: "" },
           ] },
         { label: "WEB3", 
           items: [
-            { label: "Web3.0 Development", link: "/" },
+            { label: "Web3.0 Development", link: "" },
           ] },
         { label: "Digital Banking", 
           items: [
-            { label: "Digital Banking", link: "/" },
-            { label: "White Label Banking", link: "/" },
-            { label: "White Label Neo Banking", link: "/" },
-            { label: "Payment Gateway", link: "/" },
-            { label: "P2P Lending", link: "/" },
+            { label: "Digital Banking", link: "" },
+            { label: "White Label Banking", link: "" },
+            { label: "Payment Gateway", link: "" },
+            { label: "P2P Lending", link: "" },
             
           ] },
         { label: "Coin Development", 
           items: [
-            { label: "Launchpad Development", link: "/" },
-            { label: "ICO Development", link: "/" },
-            { label: "Coin/Token Development", link: "/" },
-            { label: "IDO Development", link: "/" },
-            { label: "Stablecoin Development", link: "/" },
-            { label: "Meme Coin Development", link: "/" },
+            { label: "Launchpad Development", link: "" },
+            { label: "ICO Development", link: "" },
+            { label: "Coin/Token Development", link: "" },
+            { label: "IDO Development", link: "" },
+            { label: "Stablecoin Development", link: "" },
+            { label: "Meme Coin Development", link: "" },
           ] },
         { label: "Trading Bots", 
           items: [
-            { label: "Trading Bot", link: "/" },
-            { label: "Flash Loan Arbitrage Bot", link: "/" },
-            { label: "Arbitrage Bots", link: "/" },
+            { label: "Trading Bot", link: "" },
+            { label: "Arbitrage Bots", link: "" },
            ]}
       ]
     },
@@ -291,11 +278,11 @@ const handleMenuLeave = () => {
 
       {activeMenu && (
         <div 
-          className="absolute left-0 w-full flex justify-center  backdrop-blur-3xl"
+          className="absolute left-0 w-full flex justify-center"
           onMouseEnter={() => handleMenuEnter(activeMenu)}
           onMouseLeave={handleMenuLeave}
         >
-          <div className="w-full lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-6 rounded-xl">
+          <div className="w-full backdrop-blur-3xl lg:max-w-[calc(100%-7rem)] xl:max-w-[calc(100%-16rem)] 3xl:max-w-[calc(100%-30rem)] bg-[#D9D9D919] px-6 py-6 rounded-xl">
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (

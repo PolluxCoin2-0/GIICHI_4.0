@@ -304,3 +304,450 @@ export const BlockchainDevelopmentService = [
     },
     
   ];
+
+  export const BlockchainConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];
+
+  export const Web3ConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];
+
+  export const MetaverseConsultingService = [
+    {
+      title: "Expert Advice and Training",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development of Strategies",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Speedy Creation of PoC",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Regulatory Compliance and Security Assessment",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Development & Deployment Solutions",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Superior Technical Guidance",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Enterprise Blockchain Consulting",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Blockchain Applications Development",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+    {
+      title: "Integration of Blockchain",
+      description:
+        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+    },
+  ];
+
+  export const DerivativeDevelopmentService = [
+    {
+      title: "High Leverage",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Multi-Layer Security",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Advanced Order Types",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Powerful Trading Engine",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Multi-Currency Wallet",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Robust Admin Panel",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+   
+  ];
+
+  export const CentralizedDevelopmentService = [
+    {
+      title: "Robust Admin Panel",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Potent Trade Machine",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Device Compatibility",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Multi-Currency Support",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "KYC/AML Integration",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Multiple Payment Gateways",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+    {
+      title: "Enhanced Security",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Advanced Chart Tools",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "Crypto Wallet",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+   
+  ];
+
+  export const P2PDevelopmentService = [
+    {
+      title: "Escrow Timer",
+      description:
+        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+    },
+    {
+      title: "Mobile App Development",
+      description:
+        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+    },
+    {
+      title: "Messaging System",
+      description:
+        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+    },
+    {
+      title: "Advanced Filters",
+      description:
+        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+    },
+    {
+      title: "Preferred Trader Selection",
+      description:
+        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+    },
+    {
+      title: "AI Integration",
+      description:
+        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+    },
+];
+
+export const DefiWalletService = [
+  {
+    title: "Defi Wallet App Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "MPC Defi Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Exchange Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Yearn Finance Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Lending & Borrowing DeFi Wallet Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Defi Super Crypto App Development",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const TradingBotsService = [
+  {
+    title: "Automated Trade Execution",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Customizable Strategies",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Risk Management Tools",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Advanced Market Analysis",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Real-time Notifications",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Portfolio Management",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Paper Trading",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Machine Learning Integration",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Robust Security ",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const IDOService = [
+  {
+    title: "Retail Investor Access",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Economical Token Listing",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Zero Slippage & Tolerance",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Swift Trading",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Launchpad Governance",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Gamified User Engagement",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Chain Compatibility",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Parametric Trade-Offs",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const PaymentGatewayService = [
+  {
+    title: "Cross-Border Payments",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Wallet Support",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-Lingual Capabilities",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Real-Time Transaction Confirmations",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Simple & Intuitive Interface",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+export const WhiteLabelNftService = [
+  {
+    title: "Hassle-Free Bidding",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Enjoy Additional Privileges",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Lazy Minting",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "IPFS NFT Storage",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Multi-chain Compatibility",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+  {
+    title: "Global Royalty Standard",
+    description:
+      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+  },
+];
+
+

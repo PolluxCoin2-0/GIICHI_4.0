@@ -93,7 +93,7 @@ const WhitepaperDev = () => {
       <div>
         <LifeCycle
           heading1="Our White Paper"
-          heading2="  Creation Process"
+          heading2="Creation Process"
           desc=""
           steps={whitePaperLifeCycleData}
         />
