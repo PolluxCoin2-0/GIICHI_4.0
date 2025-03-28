@@ -64,3 +64,13 @@ export const DefiDevForecast = {
    desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
          
 };
+
+export const DaoBlockchainForecast = {
+  img1:TransportFeature1Img,
+   img2:TransportFeature2Img,
+   title1:"Professional DAO Development Company",
+   title2:"An Insight into DAO Development",
+   desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",
+   desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
+         
+};

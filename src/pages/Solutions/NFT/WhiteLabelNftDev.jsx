@@ -4,7 +4,6 @@ import Services from "../../../components/CommonComponent/Services";
 import { WhiteLabelNftService } from "../../../components/data/ServicesData";
 import Framework from "../../../components/CommonComponent/Framework";
 import { WhiteLabelNftFramework } from "../../../components/data/frameworkData";
-import TechStack from "../../../components/CommonComponent/TechStack";
 import Faq from "../../../components/resuableComponent/Faq";
 import { WhiteLabelNftMarketplaceFaq } from "../../../components/data/faqsData";
 
@@ -139,9 +138,9 @@ const WhiteLabelNftDev = () => {
       />
 
        {/* Technology Stack */}
-       <div>
+       {/* <div>
         <TechStack />
-      </div>
+      </div> */}
 
         {/* FAQ SECTION */}
         <div className="mt-24 mb-20">
