@@ -571,3 +571,34 @@ export const DefiDevelopmentFaq = [
   },
  
 ];
+
+export const MaasFaq = [
+  {
+    question: "What is Marketing as a Service (MAAS)?",
+    answer:
+      "MAAS is a comprehensive, on-demand marketing solution that provides businesses with tailored strategies, community engagement, and brand growth using Web3 technologies.",
+  },
+  {
+    question: "How can MAAS benefit my blockchain project?",
+    answer:
+      "MAAS helps blockchain projects by enhancing visibility, building strong communities, optimizing campaigns, and ensuring effective brand positioning in the competitive Web3 space.",
+  },
+  {
+    question: "What services are included in MAAS?",
+    answer:
+      "MAAS covers branding, content creation, social media management, UI/UX design, SEO, analytics, and in-depth marketing insights to boost project success.",
+  },
+  {
+    question:
+      "Is MAAS suitable for startups and established businesses?",
+    answer:
+      "Yes, MAAS is highly scalable and customizable, making it ideal for both startups and established businesses looking to strengthen their presence in the Web3 market.",
+  },
+  {
+    question:
+      "How does MAAS differ from traditional marketing?",
+    answer:
+      "Unlike traditional marketing, MAAS focuses on blockchain, crypto, and NFT projects, leveraging decentralized technologies and Web3-specific engagement strategies.",
+  },
+ 
+];

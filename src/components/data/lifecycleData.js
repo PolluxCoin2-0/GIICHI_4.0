@@ -156,28 +156,28 @@ export const whitePaperLifeCycleData = [
 export const maasLifeCycleData = [
   {
     title: "Discovery",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Understand your business, goals, target audience, and market trends to create a strong foundation.",
     image: understandImg,
   },
   {
     title: "Strategy",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Develop a tailored marketing plan with branding, content, social media, and SEO strategies for maximum impact.",
     image: researchImg,
   },
   {
     title: "Execution",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Implement the strategy with engaging content, targeted campaigns, and community-building activities.",
     image: contentImg,
   },
   {
     title: "Optimization",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Analyze performance metrics and fine-tune strategies for better engagement and conversions.",
     image: designImg,
   },
   {
     title: "Scaling",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "Expand reach, enhance brand authority, and drive long-term growth with advanced marketing initiatives.",
     image: deliveryImg,
   },
 ];
