@@ -9,11 +9,11 @@ import { MetaverseConsultingService } from "../../../components/data/ServicesDat
 import { MetaverseConsultingFramework } from "../../../components/data/frameworkData";
 
 const steps = [
-  { id: "01", title: "Initial Consultation & Needs Assessment" },
-  { id: "02", title: "Strategy & Roadmap Development" },
-  { id: "03", title: "Prototyping & MVP Development" },
-  { id: "04", title: "Full-Scale Development & Integration" },
-  { id: "05", title: "Deployment, Security, & Ongoing Support" },
+  { id: "01", title: "Understanding Business Needs" },
+  { id: "02", title: "Strategy & Roadmap Creation" },
+  { id: "03", title: "Design & Development " },
+  { id: "04", title: "Testing & Optimization" },
+  { id: "05", title: "Deployment & Support " },
 ];
 
 const MetaverseConsulting = () => {
@@ -24,7 +24,7 @@ const MetaverseConsulting = () => {
         img={BlockchainImg}
         title1="Metaverse Consulting "
         title2="Company"
-        desc="Forging Brands With Ultimate Web3 and Digital Marketing, and Consultancy Services"
+        desc="Seamlessly enter the Metaverse and elevate your business with our expert consulting and development services."
       />
 
       {/* Our blockchain consulting related services */}
@@ -37,17 +37,14 @@ const MetaverseConsulting = () => {
 
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Proficient Metaverse Consultants to Assist You
+          Unlock Metaverse Growth with Expert Consulting  
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+         Our metaverse consulting services help businesses tap into the immense growth potential of the metaverse, regardless of industry. Now is the time to explore and integrate this revolutionary technology to achieve next-level success. <br/> <br/> 
+         With a team of highly skilled metaverse experts, we provide strategic guidance and valuable insights, ensuring businesses make the most of metaverse opportunities for maximum benefits.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"
@@ -68,7 +65,7 @@ const MetaverseConsulting = () => {
         data={MetaverseConsultingService}
         heading1="Our Metaverse Consulting"
         heading2="& Development Services"
-        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+        desc="Giichi delivers result-driven metaverse consulting and development services, ensuring a seamless transition to revolutionize business processes."
       />
 
       {/* Top Benefits of blockchain development company */}
@@ -76,7 +73,7 @@ const MetaverseConsulting = () => {
         data={MetaverseConsultingFramework}
         heading1="Benefits of Metaverse"
         heading2="Consulting Services"
-        desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+        desc=""
       />
 
       {/* Blockchain Supply Chain Network */}
@@ -91,10 +88,10 @@ const MetaverseConsulting = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
           {/* Custom First Card */}
           <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
-            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-              Why choose Giichi for Asset <br />
+            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl font-bold text-white">
+              Why choose Giichi for Metaverse<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization Services?
+                Consulting Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">

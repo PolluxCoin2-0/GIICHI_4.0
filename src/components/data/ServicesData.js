@@ -388,49 +388,34 @@ export const BlockchainDevelopmentService = [
 
   export const MetaverseConsultingService = [
     {
-      title: "Expert Advice and Training",
+      title: "Strategic Metaverse Consulting",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Our strategic metaverse consulting and development services offer deep insights to drive transformation across industries.",
     },
     {
-      title: "Development of Strategies",
+      title: "Metaverse Integration Services",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Our team of expert metaverse consultants ensures a smooth transition into the metaverse, helping businesses harness the benefits of this emerging technology.",
     },
     {
-      title: "Speedy Creation of PoC",
+      title: "Creating Metaverse Applications",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Our expert metaverse consultants specialize in guiding businesses to develop high-quality metaverse applications with essential features and functionalities.",
     },
     {
-      title: "Regulatory Compliance and Security Assessment",
+      title: "Metaverse Game Development",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "With the rise of metaverse gaming, our top-rated consulting services help businesses seamlessly explore its vast opportunities in the gaming industry.",
     },
     {
-      title: "Development & Deployment Solutions",
+      title: "Building Metaverse Marketplaces",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "As a top metaverse consulting firm, we provide strategic guidance to develop highly functional metaverse marketplaces that ensure a strong return on investment.",
     },
     {
-      title: "Superior Technical Guidance",
+      title: "Metaverse Enterprise Solutions",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Enterprise Blockchain Consulting",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Blockchain Applications Development",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Integration of Blockchain",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "We assist enterprises in building impactful metaverse solutions to drive success and maintain a competitive edge in the evolving metaverse landscape.",
     },
   ];
 

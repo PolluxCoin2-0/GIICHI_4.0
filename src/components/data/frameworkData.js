@@ -517,39 +517,39 @@ export const Web3ConsultingFramework =  [
 export const MetaverseConsultingFramework =  [
   {
     logo: realEstateImg,
-    title: "Exploring Blockchain Technology",
+    title: "Hyper-Personalized User Experience",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      "The metaverse enhances customer satisfaction and loyalty by delivering hyper-personalized user experiences.",
   },
   {
     logo: realEstateImg,
-    title: " Cost-Effective in Nature",
+    title: "Improved User Engagement and Connection",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "The metaverse enables businesses to enhance services, boost user engagement, and strengthen connections.",
   },
   {
     logo: realEstateImg,
-    title: " Streamlined Processes ",
+    title: "Seamless Training and Skills Delivery",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+      "The metaverse enables businesses across industries to deliver seamless training and skill development for new employees.",
   },
   {
     logo: realEstateImg,
-    title: "Offers Competitive Advantage",
+    title: "Providing Highly Immersive Experiences",
     description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+      "The metaverse allows businesses to deliver immersive experiences, creating a captivating environment for users.",
   },
   {
     logo: realEstateImg,
-    title: "Enhanced Safety and Security",
+    title: "Creating Digital Twins",
     description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+      "The metaverse enables the creation of digital twins for various objects, allowing advanced simulations and in-depth analysis.",
   },
   {
     logo: realEstateImg,
-    title: "Improved Data Privacy ",
+    title: "Increased Accessibility on a Global Scale ",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "The metaverse offers global accessibility, allowing users worldwide to easily and conveniently access the platform.",
   },
  
 ];
