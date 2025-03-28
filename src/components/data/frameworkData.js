@@ -554,6 +554,45 @@ export const MetaverseConsultingFramework =  [
  
 ];
 
+export const DefiConsultingFramework =  [
+  {
+    logo: realEstateImg,
+    title: "DeFi Staking",
+    description:
+      "We provide end-to-end support for your staking strategy, whether you choose to build your own infrastructure or leverage ours.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Assets",
+    description:
+      "We guide you in navigating the exciting world of decentralized assets, unlocking new opportunities in crypto investing.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Stablecoins",
+    description:
+      "We help you identify the right stablecoin for your needs and develop a strong strategy to navigate potential challenges.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi Protocols",
+    description:
+      "With the fast-growing DeFi landscape, we provide expert insights and help you evaluate its potential for your business.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Liquidity Mining",
+    description:
+      "We provide insights into liquidity mining, helping you understand its risks and opportunities while developing strategies to maximize returns.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Custody & Security",
+    description:
+      "Protecting your crypto assets and private keys is essential. We help you design a tailored security and custody strategy.",
+  },
+ 
+];
 
 export const CustomExchangeFramework =  [
   {

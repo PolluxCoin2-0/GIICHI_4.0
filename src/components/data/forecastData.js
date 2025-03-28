@@ -55,6 +55,16 @@ export const TransportForecast = {
           
 }
 
+export const DefiConsultingForecast = {
+  img1:TransportFeature1Img,
+   img2:TransportFeature2Img,
+   title1:"DeFi Consulting: Unlock DeFi’s Potential for Your Business",
+   title2:"Unbiased & Expert Insights on the DeFi Market",
+   desc1:"The DeFi market is expected to reach $232 billion by 2030. If you’re looking to capitalize on this growth but don’t know where to start, we’ve got you covered. Our experts provide comprehensive DeFi consulting, guiding you on everything from technical development to community building.",
+   desc2:"If you’re uncertain about entering the DeFi space, rely on us for independent, expert advice. With real-world experience, we help businesses analyze the DeFi market to make informed decisions. Our deep industry knowledge and expertise have positioned us as a trusted DeFi consulting firm.",
+         
+};
+
 export const DefiDevForecast = {
   img1:TransportFeature1Img,
    img2:TransportFeature2Img,
