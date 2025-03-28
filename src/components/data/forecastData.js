@@ -54,3 +54,13 @@ export const TransportForecast = {
     desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
           
 }
+
+export const DefiDevForecast = {
+  img1:TransportFeature1Img,
+   img2:TransportFeature2Img,
+   title1:"The Paradigm Shift From Traditional Business Model to DeFi Development",
+   title2:"Decentralized Finance Development Global Market Size",
+   desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",
+   desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
+         
+};

@@ -16,7 +16,7 @@ import Framework from "../../../components/CommonComponent/Framework";
 import Services from "../../../components/CommonComponent/Services";
 import Industries from "../../../components/CommonComponent/Industries";
 import TechStack from "../../../components/CommonComponent/TechStack";
-
+import { BlockchainDevtechCategories } from "../../../components/data/techStackData";
 const BlockchainDevelopment = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
@@ -72,7 +72,7 @@ const BlockchainDevelopment = () => {
 
       {/* Technology Stack */}
       <div>
-        <TechStack />
+        <TechStack data={ BlockchainDevtechCategories }/>
       </div>
 
       {/* Schedule a free demo */}

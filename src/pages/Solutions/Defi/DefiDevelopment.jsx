@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom"
+import Forecast from "../../../components/CommonComponent/Forecast";
+import { DefiDevForecast } from "../../../components/data/forecastData";
+import Framework from "../../../components/CommonComponent/Framework";
+import { DefiDevFramework } from "../../../components/data/frameworkData";
 
 const statsData = [
   { label: "Years of blockchain experience", value: "7+" },
@@ -95,8 +99,23 @@ const DefiDevelopment = () => {
      <div className="w-[50%]"></div>
    </div>
 
-   {/*Stats Data */}
-     <div className="relative">
+   {/* Bloackchain forecast */}
+      <div className="mt-6">
+        <Forecast data={DefiDevForecast} />
+      </div>
+
+{/* Blockchain Depin Framework */}
+     <div className="mt-20">
+      <Framework
+        data={DefiDevFramework}
+        heading1="Real-Life Benefits of DeFi "
+        heading2="Software Development"
+        desc=""
+      />
+      </div>
+
+    {/*Stats Data */}
+     <div className="relative mt-24 mb-12">
      <div className="hidden md:block spotlight spotlight-left"></div>
      <div className="hidden md:block spotlight2 spotlight-right"></div>
      <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-6  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
@@ -117,28 +136,30 @@ const DefiDevelopment = () => {
        ))}
      </div>
    </div>
-   
-   <div>
-  <p>DeFi Vs CeFi</p>
-  <p>DeFi and CeFi are two distinct models of financial systems that operate on blockchain technology. CeFi is controlled by a central authority such as a
+    
+    {/* DIFFERNCE BETWEEN CEFI VS DEFI */}
+   <div className="mt-20 ">
+  <p className="text-white text-3xl font-semibold text-center">DeFi Vs CeFi</p>
+  <p className="text-white text-opacity-75 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-4">DeFi and CeFi are two distinct models of financial systems that operate on blockchain technology. CeFi is controlled by a central authority such as a
   bank and CeFi platforms typically require users to go through a rigorous KYC. Decentralized Finance Development is ideal for those who prioritize
   decentralization, transparency, and low fees.</p>
-   <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+   <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96">
       <div className="w-1/2">
         <div>
-          <div className="bg-blue text-white flex items-center">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-2">
+          <div className="bg-green  text-white flex items-center p-4">
+            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-2 ">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 text-blue-500">
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/>
                 <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
               </svg>
             </div>
-            <p className="text-xl font-bold">CEFI</p>
+            <p className="text-xl font-bold text-center">CEFI</p>
           </div>
-          <div className="bg-blue">
+          <div className="bg-green bg-opacity-10 p-4">
             {comparisons.map((comp, index) => (
-              <div key={index} className="border-b last:border-b-0 py-2">
-                <span className="text-blue-700 font-semibold">{comp.cefi}</span>
+              <div key={index} className="border-b last:border-b-0 py-2 flex flex-row space-x-4">
+                <p className="text-white">{index+1}. </p>
+                <span className="text-white font-semibold">{comp.cefi}</span>
               </div>
             ))}
           </div>
@@ -147,7 +168,7 @@ const DefiDevelopment = () => {
       
       <div className="w-1/2">
         <div>
-          <div className="bg-blue text-white flex items-center">
+          <div className="bg-green text-white flex items-center p-4">
             <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center mb-2">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 text-blue">
                 <path d="M12 2L2 7l10 5 10-5-10-5z"/>
@@ -156,10 +177,11 @@ const DefiDevelopment = () => {
             </div>
             <p className="text-xl font-bold">DEFI</p>
           </div>
-          <div className="bg-blue text-white">
+          <div className="bg-green bg-opacity-10 text-white p-4">
             {comparisons.map((comp, index) => (
-              <div key={index} className="border-b last:border-b-0 py-2">
-                <span className="font-semibold">{comp.defi}</span>
+              <div key={index} className="border-b last:border-b-0 py-2 flex flex-row space-x-4">
+                  <p className="text-white">{index+1}. </p>
+                <span className="font-semibold text-white">{comp.defi}</span>
               </div>
             ))}
           </div>

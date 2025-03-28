@@ -1590,5 +1590,102 @@ export const WhiteLabelNftFramework =  [
   },
 ];
 
+export const Web3DevelopmentFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Web3 Metaverse Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Wallet Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Exchange Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Metaverse Game Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web3 Smart Contract Development",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web 3.0 Browsers",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Web Streaming Services",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Autonomous Organization (DAO)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Finance (DeFi)",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+export const DefiDevFramework =  [
+  {
+    logo: realEstateImg,
+    title: "Process Simplification",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Process Automation",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Reduced Transaction Cost",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Increased Control",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Transparency",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Faster Settlement",
+    description:
+      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+  },
+];
+
+
 
 
