@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Services from "../../../components/CommonComponent/Services";
@@ -24,7 +25,7 @@ const BlockchainConsulting = () => {
         img={BlockchainImg}
         title1="Blockchain"
         title2="Consulting Company"
-        desc="Forging Brands With Ultimate Web3 and Digital Marketing, and Consultancy Services"
+        desc="Allow our team of knowledgeable blockchain experts to assist companies in realizing the full potential of blockchain technology and putting it into practice correctly to reap its advantages."
       />
 
       {/* Our blockchain consulting related services */}
@@ -37,17 +38,15 @@ const BlockchainConsulting = () => {
 
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Experienced Blockchain Consultants at Your Service
+          Skilled Blockchain Advisors at Your Disposal
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto md:text-start md:hyphens-none tracking-wider">
+          Giichi is a leading blockchain consulting company, empowers businesses with cutting-edge blockchain solutions that maximize the technology's potential for growth and innovation. <br/> <br/> 
+          Blockchain is a transformative network, offering trust, transparency, and security—features that drive significant impact across industries. By integrating blockchain into business strategies, companies can unlock new opportunities and turn their goals into success stories.  
+          As a renowned blockchain consulting firm, we have a team of expert blockchain consultants who continuously research, develop, and test blockchain ecosystems. Their dedication ensures innovative solutions that seamlessly integrate blockchain architecture into businesses, driving efficiency and competitive advantage.  
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"
@@ -68,15 +67,15 @@ const BlockchainConsulting = () => {
         data={BlockchainConsultingService}
         heading1="Our Blockchain"
         heading2="Consulting Services"
-        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+        desc="Our blockchain consulting and development services are designed to offer strategic insights on seamlessly integrating blockchain technology into businesses, maximizing their efficiency and growth potential."
       />
 
       {/* Top Benefits of blockchain development company */}
       <Framework
         data={BlockchainConsultingFramework}
         heading1="Top Benefits of Blockchain"
-        heading2="Development Company"
-        desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+        heading2="Consulting Company"
+        desc="Discover the incredible benefits your business can gain from our expert blockchain consultants."
       />
 
       {/* Blockchain Supply Chain Network */}
@@ -91,16 +90,14 @@ const BlockchainConsulting = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
           {/* Custom First Card */}
           <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
-            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-              Why choose Giichi for Asset <br />
+            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl font-bold text-white">
+              Why choose Giichi for Blockchain <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization Services?
+                Consulting Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
-              Giichi offers secure, scalable, and regulatory-compliant asset
-              tokenization, enabling seamless digital asset management and
-              liquidity.
+            Giichi is a trusted and reputable blockchain consulting company, dedicated to helping businesses seamlessly implement blockchain technology and maximize its full potential.
             </p>
           </div>
           {/* Mapping Client Data */}

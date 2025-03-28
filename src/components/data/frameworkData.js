@@ -439,37 +439,37 @@ export const BlockchainConsultingFramework =  [
     logo: realEstateImg,
     title: "Exploring Blockchain Technology",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      "Our experienced blockchain consultants provide businesses with in-depth insights into blockchain technology, helping them explore its potential use cases and maximize its benefits.",
   },
   {
     logo: realEstateImg,
     title: " Cost-Effective in Nature",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "By eliminating intermediaries and identifying inefficiencies in business operations, blockchain enables cost reduction through optimized, blockchain-based solutions.",
   },
   {
     logo: realEstateImg,
     title: " Streamlined Processes ",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+      "Blockchain solutions effectively streamline business processes and operations, enabling faster and more efficient transactions.",
   },
   {
     logo: realEstateImg,
     title: "Offers Competitive Advantage",
     description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+      "Harnessing the power of blockchain technology gives businesses a competitive edge by enhancing transparency, efficiency, and security.",
   },
   {
     logo: realEstateImg,
     title: "Enhanced Safety and Security",
     description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+      "Blockchain technology offers enhanced security through its decentralized ledger, which records all transactions securely, transparently, and tamper-proof.",
   },
   {
     logo: realEstateImg,
     title: "Improved Data Privacy ",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Blockchain technology enables secure and private data sharing, ensuring sensitive information is handled with the highest level of confidentiality and enhanced privacy.",
   },
  
 ];
