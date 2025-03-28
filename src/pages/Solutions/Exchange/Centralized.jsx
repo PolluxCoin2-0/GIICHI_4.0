@@ -5,7 +5,9 @@ import { CentralizedExchangeFramework } from "../../../components/data/framework
 import Services from "../../../components/CommonComponent/Services";
 import { CentralizedDevelopmentService } from "../../../components/data/ServicesData";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
-import { derivativesLifeCycleData } from "../../../components/data/lifecycleData";
+import { centralizedLifeCycleData } from "../../../components/data/lifecycleData";
+import Faq from "../../../components/resuableComponent/Faq";
+import { CentralizedExchangeFaq } from "../../../components/data/faqsData";
 
 const Centralized = () => {
   return (
@@ -13,9 +15,9 @@ const Centralized = () => {
       {/* Banner Image content */}
       <BannerContent
         img={BlockchainImg}
-        title1="Centralized Exchange"
-        title2="Development"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        title1="Centralized Exchange "
+        title2=" Development Servicest"
+        desc="Leverage the advantages of high-quality, institutional-grade centralized exchange development to create a fully functional and feature-packed platform."
       />
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
@@ -31,21 +33,12 @@ const Centralized = () => {
             Centralized Exchange Development
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          Elevate your business by creating a secure, scalable, and highly functional centralized cryptocurrency exchange with our expert team. Our centralized crypto exchange platforms offer instant liquidity, robust APIs, and enhanced security measures to ensure a seamless user experience. <br/> <br/>
+          Our skilled and experienced developers specialize in building cutting-edge crypto exchange software, delivering feature-rich, uninterrupted exchanges. We utilize the latest tools and technologies to build resilient and market-ready crypto exchanges.
           </p>
 
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"
@@ -67,7 +60,7 @@ const Centralized = () => {
           data={CentralizedExchangeFramework}
           heading1="Centralized Crypto Exchange"
           heading2="Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="Explore the comprehensive centralized crypto exchange development services we offer."
         />
       </div>
 
@@ -76,7 +69,7 @@ const Centralized = () => {
         data={CentralizedDevelopmentService}
         heading1="Features of Our Centralized "
         heading2="Crypto Exchange Development"
-        desc=""
+        desc="Discover the key features of the centralized cryptocurrency exchanges we develop:"
       />
 
       {/* Lifecycle data */}
@@ -85,8 +78,13 @@ const Centralized = () => {
           heading1="Our Crypto Derivative Exchange"
           heading2="Development Process"
           desc="We follow a step-by-step process for crypto derivatives exchange development to provide the best services to every client."
-          steps={derivativesLifeCycleData}
+          steps={centralizedLifeCycleData}
         />
+      </div>
+
+      {/* FAQ */}
+      <div className="mt-24">
+        <Faq data={CentralizedExchangeFaq} />
       </div>
     </div>
   );

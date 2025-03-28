@@ -119,7 +119,7 @@ function App() {
            <Route path="/mpc-crypto-wallet" element={<MpcCryptoWallet/>}/>
            <Route path="/multi-currency-wallet" element={<MulticurrencyWallet/>}/>
            <Route path="/non-fungible-token-wallet" element={<NftWallet/>}/>
-           <Route path="/tron-wallet" element={<TronWallet/>}/>
+           <Route path="/polink-wallet" element={<TronWallet/>}/>
            <Route path="/web3-wallet" element={<Web3Wallet/>}/>
            <Route path="/white-label-wallet" element={<WhiteLabelWallet/>}/>
            <Route path="/nft-development" element={<NftDev/>}/>

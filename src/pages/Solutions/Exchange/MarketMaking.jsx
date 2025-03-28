@@ -11,9 +11,9 @@ const MarginMaking = () => {
       {/* Banner Image content */}
       <BannerContent
         img={BlockchainImg}
-        title1="Crypto Market Making"
-        title2="Services"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        title1="Crypto Market "
+        title2="Making Services"
+        desc="Enhancing Your Strategic Expansion in the Digital Asset Space"
       />
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
@@ -26,17 +26,16 @@ const MarginMaking = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Pioneers in Crypto Market Making
+          Leading Innovators in Crypto Market Making
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          Years of Expertise in Creating Sustainable Markets <br/> <br/>
+          Crypto market making optimizes trading platforms by ensuring deep liquidity, maintaining tight bid-ask spreads, and stabilizing pricing. Market makers play a crucial role in strengthening order books, improving trade execution, and fostering user confidence. <br/> <br/>
+          At Giichi, we are recognized as a top-tier crypto market maker, providing advanced liquidity solutions to enhance market efficiency. Our strategic market-making services and automated crypto market-making software empower digital assets and trading platforms to excel in the competitive crypto landscape.<br/> <br/>
+          By leveraging cutting-edge technology and extensive industry expertise, we continuously deliver liquidity to establish robust and sustainable markets. Our innovative approach, combined with years of experience in solving complex liquidity challenges, ensures maximum returns for token issuers and exchanges.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"

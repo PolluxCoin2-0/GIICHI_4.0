@@ -21,26 +21,25 @@ const P2P = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-[50px] font-semibold pt-4 tracking-tight leading-[1.2] md:leading-[1.4] xl:leading-[1.6] 2xl:leading-[1.2]">
-           P2P Crypto Exchange Development Company
+          P2P Crypto Exchange Development Company
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-[80%]">
-            Delivering Game-Changing DLT Ecosystems To Transform Your DEX
-            Development Dream Into Reality
+          By eliminating intermediaries, our P2P Exchange Development enables direct peer-to-peer trading,
           </p>
 
           <div className="mt-8">
             <div>
               <p className="text-white text-[17px]">
-                7+ Years of Expertise in the Blockchain Domain
+              Decentralized, Fee-Free Trading
               </p>
               <p className="text-white text-[17px] mt-4">
-                Rigorous Testing and Responsible Handling of Errors
+              Enhanced Security and Privacy
               </p>
               <p className="text-white text-[17px] mt-4">
-                Technology-Agnostic, First-Time Right Deliverables
+              Complete User Control
               </p>
               <p className="text-white text-[17px]  mt-4">
-                Complete Transparency During Development
+              Transparent, Trustless Trading
               </p>
             </div>
           </div>
@@ -77,19 +76,18 @@ const P2P = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-           P2P Cryptocurrency Exchange Development
+          P2P Cryptocurrency Exchange Development
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Embrace Peer-to-Peer Trading Approach <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          Adopt the Peer-to-Peer Trading Model <br/> <br/>
+          In 2023, P2P cryptocurrency exchange platforms saw substantial trading activity. These platforms connect buyers and sellers directly, eliminating intermediaries and offering 
+          improved security, cost-efficiency, user control, and transparency in the trading process. <br/> <br/>
+          A smart contract-based escrow ensures transaction integrity. 
+          At Giichi, we specialize in creating complex and scalable trustless ecosystems tailored to your business goals. Simplify the trading experience for your users with 
+          exceptional P2P crypto exchange application development.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"
@@ -109,18 +107,18 @@ const P2P = () => {
        <div className="mt-20">
         <Framework
           data={P2PExchangeFramework}
-          heading1="P2P Crypto Exchange Software:"
+          heading1="P2P Cryptocurrency Exchange Software :"
           heading2="Key Features"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="The P2P exchange industry has seen rapid growth in recent years. As a leading P2P crypto exchange development company, we integrate the latest industry-standard features into our solutions."
         />
       </div>
      
      {/* Blockchain Development Services */}
      <Services
         data={P2PDevelopmentService}
-        heading1="Features of Our Centralized "
-        heading2="Crypto Exchange Development"
-        desc=""
+        heading1="Advanced P2P Exchange "
+        heading2="Development Features"
+        desc="If your vision goes beyond what the popular P2P exchanges offer and basic features aren’t enough, we have you covered. Stand out from the competition with these trending P2P cryptocurrency exchange development features:"
       />
 
      {/* Blockchain Supply Chain Network */}
@@ -130,14 +128,7 @@ const P2P = () => {
         desc="At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
       />
 
-      {/* OUR P2P CRYPTO EXCHANGE: USER JOURNEY */}
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-white text-2xl md:text-4xl lg:text-4xl font-semibold pt-4 leading-tight tracking-wide text-center">
-          Our P2P Crypto Exchange 
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">Development Journey</span></p>
-      </div>
-     
-      {/* FAQ SECTION */}
+    {/* FAQ SECTION */}
       <div>
         <Faq data={P2PExchangeFaq} />
       </div>

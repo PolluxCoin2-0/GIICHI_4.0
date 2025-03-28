@@ -597,39 +597,27 @@ export const DefiConsultingFramework =  [
 export const CustomExchangeFramework =  [
   {
     logo: realEstateImg,
-    title: "Exploring Blockchain Technology",
+    title: "Crypto Exchange Consulting",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      "Our team of seasoned tech professionals offers specialized consulting services for clients new to the crypto space, ensuring a seamless and hassle-free transition into the world of digital assets.",
   },
   {
     logo: realEstateImg,
-    title: " Cost-Effective in Nature",
+    title: "Custom Exchange Development",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "We design highly functional cryptocurrency exchanges with robust security measures, customized to meet clients' specific needs and incorporate all desired features.",
   },
   {
     logo: realEstateImg,
-    title: " Streamlined Processes ",
+    title: "Whitelabel Exchange Development",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+      "As a pioneering crypto exchange development company, we offer scalable and secure white-label cryptocurrency exchange solutions, enabling a seamless and hassle-free trading experience.",
   },
   {
     logo: realEstateImg,
-    title: "Offers Competitive Advantage",
+    title: "Arbitrage Bot Development",
     description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Enhanced Safety and Security",
-    description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Improved Data Privacy ",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our skilled and experienced developers create advanced arbitrage trading bots that automate trading processes, enabling strategic trading and maximizing profitability.",
   },
   {
     logo: realEstateImg,
@@ -643,69 +631,62 @@ export const CustomExchangeFramework =  [
     description:
       "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
   },
-  {
-    logo: realEstateImg,
-    title: "Improved Data Privacy ",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
- 
-];
+ ];
 
 export const WhiteLabelExchangeFramework =  [
   {
     logo: realEstateImg,
     title: "High-Volume TPS",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      "TPS is a key metric for evaluating the efficiency of an exchange. Our white label crypto exchange guarantees exceptional performance, capable of handling up to 100,000 transactions per second.",
   },
   {
     logo: realEstateImg,
     title: "High-Powered Trading Engine",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "We equip exchanges with a robust trading engine designed to execute buy/sell orders with minimal latency. It supports all major order types, including limit, market, and stop orders.",
   },
   {
     logo: realEstateImg,
     title: "KYC and AML",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
-  },
-  {
-    logo: realEstateImg,
-    title: "500+ Cryptocurrencies & Fiat Support",
-    description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+      "Geography-based KYC/AML procedures help prevent unauthorized users from accessing the trading platform. These measures are also triggered when large cryptocurrency withdrawal requests are detected.",
   },
   {
     logo: realEstateImg,
     title: "Automated Trading",
     description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+      "The advanced bot trading module enables users to capitalize on market opportunities 24/7. Its primary function is to support continuous trading and ensure order books remain filled at all times.",
   },
   {
     logo: realEstateImg,
     title: "Referral and Reward Program",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Giichi has a  market-leading white label crypto trading platform comes with expertly designed referral and reward programs, allowing users to earn incentives by bringing in new participants.",
   },
   {
     logo: realEstateImg,
-    title: "High-Liquidity At All Market Conditions",
+    title: "High Liquidity in All Market Conditions",
     description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+      "Our ready-to-deploy crypto white label exchange is integrated with external liquidity sources, ensuring a fully populated order book and smooth trade executions, regardless of market conditions.",
   },
   {
     logo: realEstateImg,
     title: "Staking Module",
     description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+      "The staking feature enables users to lock their funds and earn additional rewards on their crypto holdings. It also allows platform owners to boost liquidity, security, and control.",
   },
   {
     logo: realEstateImg,
     title: "Payment Gateway Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our crypto exchange white label software development team creates platforms that support various payment methods, enabling a broader customer base to perform instant transactions.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Advanced Admin Console",
+    description:
+      "Our white label cryptocurrency exchange development solution features a user-friendly, powerful admin dashboard that allows customers to efficiently manage the platform and their funds.",
   },
  
 ];
@@ -713,21 +694,21 @@ export const WhiteLabelExchangeFramework =  [
 export const MarginTradingExchangeFramework =  [
   {
     logo: realEstateImg,
-    title: "Amplified Returns",
+    title: "Increased Profits",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      " Margin trading benefits both traders and exchange owners. Traders can maximize their profits with a small initial investment, while exchange owners can boost their earnings by collecting transaction fees on each trade.",
   },
   {
     logo: realEstateImg,
-    title: "New Income Stream",
+    title: "New Revenue Stream",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "Crypto exchange platforms often have idle funds in their reserves. By integrating a crypto leverage trading exchange, owners can use these funds to enable traders to leverage, generating consistent returns.",
   },
   {
     logo: realEstateImg,
-    title: "More Users and Earnings",
+    title: "Increased Users and Revenue",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+      "Whether the crypto market is bearish or bullish, traders are eager to speculate for significant profits. A crypto exchange offering leverage trading can attract more users, leading to higher earnings for exchange owners.",
   },
 ];
 
@@ -736,37 +717,37 @@ export const DerivativesExchangeFramework =  [
     logo: realEstateImg,
     title: "Exchange Consulting Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a leading centralized cryptocurrency exchange development company, we provide expert consulting to help clients smoothly transition into the world of crypto.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Custom Exchange Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our skilled team of developers can create fully customized centralized exchanges tailored to meet business-specific requirements, ensuring complete client satisfaction.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Crypto Exchange Software",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We develop high-performance software for centralized crypto exchanges to ensure seamless, uninterrupted functionality",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Exchange Security Solutions",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We provide robust security solutions for both newly developed and existing centralized crypto exchanges, safeguarding transactions and ensuring a secure trading environment.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Integration Services & Solutions",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our integration services include adding or modifying features and functionalities to existing crypto exchanges, optimizing them to meet desired goals.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Exchange Maintenance Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We offer maintenance services for both new and existing exchanges, ensuring smooth, glitch-free operations.",
   },
 ];
 
@@ -775,37 +756,37 @@ export const CentralizedExchangeFramework =  [
     logo: realEstateImg,
     title: "Exchange Consulting Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a leading provider of centralized cryptocurrency exchange development, we offer expert consulting to help clients seamlessly enter the crypto space.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Custom Exchange Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our skilled development team specializes in building bespoke centralized exchanges tailored to meet the unique needs of businesses, ensuring complete client satisfaction.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Crypto Exchange Software",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We design and develop cutting-edge software for centralized cryptocurrency exchanges, ensuring smooth and uninterrupted functionality.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Exchange Security Solutions",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We provide robust security solutions for the centralized exchanges we develop, as well as for existing exchanges, ensuring secure transactions at all times.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Integration Services & Solutions",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our integration services involve enhancing or modifying features and functionalities of existing crypto exchanges to deliver the desired outcomes.",
   },
   {
     logo: realEstateImg,
-    title: "Exchange Consulting Services",
+    title: "Exchange Maintenance Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We offer ongoing maintenance services for both new and existing exchanges, ensuring they run efficiently without technical issues.",
   },
 ];
 
@@ -814,55 +795,55 @@ export const P2PExchangeFramework =  [
     logo: realEstateImg,
     title: "Verified User Profiles",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "This feature allows users to boost their credibility by verifying their profiles.",
   },
   {
     logo: realEstateImg,
     title: "Powerful Matching Engine",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our high-speed matching engine ensures minimal latency when matching buy and sell orders based on price and quantity preferences",
   },
   {
     logo: realEstateImg,
     title: "Escrow System",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "A smart contract-based escrow securely holds funds until the transaction is completed, ensuring both parties' security.",
   },
   {
     logo: realEstateImg,
     title: "Payment Methods",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our P2P cryptocurrency exchange software supports a wide range of payment options, including bank transfers, gift cards, mobile payments, and more.",
   },
   {
     logo: realEstateImg,
     title: "Multi-layer Security",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We implement encryption for data and wallets, 2FA, anti-phishing protocols, and other robust security measures to ensure maximum protection.",
   },
   {
     logo: realEstateImg,
     title: "Third-Party KYC",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "By partnering with KYC providers like SumSub, Shufti Pro, and Ondato, we add an extra layer of authentication to enhance platform security.",
   },
   {
     logo: realEstateImg,
-    title: "Dispute Redressal",
+    title: "Dispute Resolution",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our platform includes a strong dispute management system where the escrow service resolves issues based on presented evidence.",
   },
   {
     logo: realEstateImg,
     title: "Multi-Chain USDT",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "This feature allows for safeguarding NFT projects through comprehensive audits using advanced tools and methodologies.",
   },
   {
     logo: realEstateImg,
     title: "Atomic Swaps",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We support P2P cross-chain swaps, expanding trading opportunities and enabling fast, cost-effective transactions.",
   },
 ];
 
@@ -871,55 +852,55 @@ export const MarketMakingExchangeFramework =  [
     logo: realEstateImg,
     title: "Order-Book Liquidity Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We ensure a well-balanced order book by consistently placing buy and sell orders, facilitating seamless trade execution.",
   },
   {
     logo: realEstateImg,
     title: "Cross-Exchange Arbitrage Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our cryptocurrency market-making bots eliminate arbitrage opportunities by maintaining uniform asset pricing across multiple trading platforms.",
   },
   {
     logo: realEstateImg,
     title: "Bid-Ask Spread Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We maintain competitive, tight spreads, reducing entry and exit costs for investors while promoting confident trading.",
   },
   {
     logo: realEstateImg,
     title: "24X7 Agile Cryptocurrency Market Making",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "With advanced trading bots, our team continuously monitors and adapts to market fluctuations, ensuring a strategic approach to changing conditions.",
   },
   {
     logo: realEstateImg,
-    title: "Volume Facilitation",
+    title: " Volume Generation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "From early adoption to mass trading, we ensure a steady token volume, keeping market charts active and organic.",
   },
   {
     logo: realEstateImg,
-    title: "Liquidation",
+    title: "Asset Liquidation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a top-tier market maker, we assist clients in liquidating assets efficiently when they wish to sell off their token inventory.",
   },
   {
     logo: realEstateImg,
-    title: "Price Support",
+    title: "Price Stability & Support",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our 24/7 market-making bots provide ongoing price support, helping to stabilize and increase asset value in different market conditions.",
   },
   {
     logo: realEstateImg,
-    title: "Well-time PR Releases and Launch Strategies",
+    title: "Strategic PR & Launch Planning",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Leverage industry expertise to plan and execute PR campaigns, marketing strategies, and exchange listings for optimal market impact.",
   },
   {
     logo: realEstateImg,
-    title: "Experienced Strategists Engagement",
+    title: "Expert Market Strategy Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our experienced strategists design tailored market-making strategies to help clients navigate volatile market conditions and achieve their financial goals.",
   },
 ];
 

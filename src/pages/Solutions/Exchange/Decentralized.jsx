@@ -1,43 +1,47 @@
 import { FaExchangeAlt } from "react-icons/fa";
+import Faq from "../../../components/resuableComponent/Faq";
+import { DecentralizedExchangeFaq } from "../../../components/data/faqsData";
 
 const platforms = [
   {
-    name: "Real-time Alerts and Notifications",
+    name: "Peer-to-Peer Trading",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
+    name: "Liquidity Pools",
+    icon: <FaExchangeAlt />,
+    color: "bg-black",
+  },
+  
+  {
+    name: "Enhanced Security",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
+    name: "Fast Transactions",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
+    name: "User Privacy & Anonymity",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
+    name: "No Centralized Authority",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
+    name: "Smart Contract Integration",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
+ 
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
-    color: "bg-black",
-  },
-  {
-    name: "Real-time Alerts and Notifications",
+    name: "Decentralized Governance",
     icon: <FaExchangeAlt />,
     color: "bg-black",
   },
@@ -64,26 +68,28 @@ const Decentralized = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-[50px] font-semibold pt-4 tracking-tight leading-[1.2] md:leading-[1.4] xl:leading-[1.6] 2xl:leading-[1.2]">
-            Decentralized Exchange <br /> Development Company
+          Decentralized Exchange Development Company
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-[80%]">
-            Delivering Game-Changing DLT Ecosystems To Transform Your DEX
-            Development Dream Into Reality
+          Bringing Innovative DLT Ecosystems to Life, Turning Your DEX Development Vision Into Reality
           </p>
 
           <div className="mt-8">
             <div>
               <p className="text-white text-[17px]">
-                7+ Years of Expertise in the Blockchain Domain
+              No Third-Party Interference
               </p>
               <p className="text-white text-[17px] mt-4">
-                Rigorous Testing and Responsible Handling of Errors
+              Complete User Privacy and Anonymity
               </p>
               <p className="text-white text-[17px] mt-4">
-                Technology-Agnostic, First-Time Right Deliverables
+              Effortless Wallet Integration
               </p>
               <p className="text-white text-[17px]  mt-4">
-                Complete Transparency During Development
+              Fast and Seamless Transactions
+              </p>
+              <p className="text-white text-[17px]  mt-4">
+              Superior Security and Scalability
               </p>
             </div>
           </div>
@@ -120,20 +126,12 @@ const Decentralized = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Decentralized Exchange Software Development
+          Decentralized Exchange (DEX) Software Development
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+           In recent years, decentralized exchange software solutions have evolved significantly, positioning them as strong competitors to traditional centralized exchanges (CEXs). The next generation of DEXs in the Web3 era offers numerous advantages for businesses and individuals, including enhanced data security, reduced risks, improved efficiency, better liquidity, and a superior user experience. <br/> <br/>
+           At Giichi, our expertise in developing state-of-the-art solutions ensures that your decentralized cryptocurrency exchange app development is in line with the Web3 vision, ready to thrive in the ever-evolving crypto landscape. <br/> <br/>
+           Start your journey towards building a future-proof decentralized crypto exchange with Giichi.
           </p>
           {/* button to connect on whatsapp */}
           <div className="mt-8">
@@ -168,7 +166,7 @@ const Decentralized = () => {
               >
                 <div className="flex flex-col items-center text-center gap-4">
                   <div className="text-4xl">{platform.icon}</div>
-                  <h2 className="text-lg font-medium">{platform.name}</h2>
+                  <h2 className="text-lg font-medium w-[70%]">{platform.name}</h2>
                 </div>
               </div>
             </div>
@@ -199,6 +197,11 @@ const Decentralized = () => {
             </div>
           ))}
         </div>
+      </div>
+
+       {/* FAQ */}
+       <div className="mt-24">
+        <Faq data={DecentralizedExchangeFaq} />
       </div>
     </div>
   );

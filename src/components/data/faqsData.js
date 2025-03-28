@@ -248,50 +248,56 @@ export const BlockchainDevelopmentFaq = [
 
 export const P2PExchangeFaq = [
   {
-    question: "How does P2P Exchange works?",
+    question: "What is a P2P cryptocurrency exchange?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "A P2P cryptocurrency exchange is a platform where buyers and sellers can trade directly with each other, without intermediaries. The platform facilitates these transactions securely, often with the use of smart contracts or escrow systems.",
   },
   {
-    question: "How does P2P Exchange works?",
+    question: "How does a P2P exchange work?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "A P2P exchange connects buyers and sellers, who set their own prices and trading terms. The platform acts as an intermediary, providing a secure environment, escrow services, and dispute resolution to ensure safe transactions.",
   },
   {
-    question: "How does P2P Exchange works?",
+    question: "Can I integrate mobile apps with my P2P exchange?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Yes, we offer custom mobile app development for P2P exchanges, ensuring users can trade on the go. We also specialize in Telegram MiniApp development for easy access.",
   },
   {
     question:
-      "How does P2P Exchange works?",
+      "How can I ensure the security of my P2P exchange?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "We integrate multi-layer security measures, such as encryption for wallets and data, two-factor authentication (2FA), anti-phishing tools, and smart contract security, to safeguard user funds and data.",
+  },
+  {
+    question:
+      "What payment methods can be supported in a P2P exchange?",
+    answer:
+      "P2P exchanges can support a wide range of payment methods, including bank transfers, gift cards, mobile payments, PayPal, and even local payment systems.",
   },
  
 ];
 
 export const MarketMakingExchangeFaq = [
   {
-    question: "What is Cryptocurrency Market Making?",
+    question: " What is crypto market making?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "It’s the process of buying and selling assets to ensure liquidity, tight spreads, and smooth trading.",
   },
   {
-    question: "What is Cryptocurrency Market Making?",
+    question: "How do market-making bots help?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "They automate trading, balance order books, and maintain liquidity 24/7 across multiple exchanges.",
   },
   {
-    question: "What is Cryptocurrency Market Making?",
+    question: "What makes a good market-making strategy?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Key factors include liquidity depth, trading volume, volatility, arbitrage opportunities, and market sentiment.",
   },
   {
     question:
-      "What is Cryptocurrency Market Making?",
+      "How does market making benefit token issuers and exchanges?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "It boosts trading volume, enhances price stability, and attracts more traders by improving liquidity.",
   },
  
 ];
@@ -601,4 +607,120 @@ export const MaasFaq = [
       "Unlike traditional marketing, MAAS focuses on blockchain, crypto, and NFT projects, leveraging decentralized technologies and Web3-specific engagement strategies.",
   },
  
+];
+
+export const CustomExchangeFaq = [
+  {
+    question: "What is custom exchange development?",
+    answer:
+      "Custom exchange development involves building a tailored cryptocurrency exchange platform designed to meet specific business needs, integrate with unique features, and provide a customized user experience. This can include options like token support, security protocols, and integration with other systems.",
+  },
+  {
+    question: "How long does it take to develop a custom exchange?",
+    answer:
+      "The development time for a custom exchange depends on several factors such as complexity, required features, design, and integration. Generally, it can take anywhere from a few months to a year for full development, including testing and deployment.",
+  },
+  {
+    question: "What security features are essential for a custom exchange?",
+    answer:
+      "Key security features for a custom exchange include two-factor authentication (2FA), cold storage wallets, encryption, secure API connections, anti-DDOS protection, and regular security audits. Ensuring compliance with local regulations and standards is also critical for safeguarding the platform and its users.",
+  },
+  {
+    question:
+      "How can I ensure the scalability of my custom exchange?",
+    answer:
+      "To ensure scalability, you should focus on building a modular architecture, optimizing database performance, and utilizing cloud infrastructure. Regular monitoring, load balancing, and the ability to scale resources as demand increases are also essential for maintaining performance and reliability.",
+  },
+];
+
+export const WhiteLabelExchangeFaq = [
+  {
+    question: "What is a white label crypto exchange?",
+    answer:
+      "A pre-built, customizable platform that lets businesses launch their own cryptocurrency exchange quickly and cost-effectively.",
+  },
+  {
+    question: "How long does it take to launch a white label crypto exchange?",
+    answer:
+      "Typically, it takes a few weeks to a few months, depending on customization needs.",
+  },
+  {
+    question: "What are the benefits of using white label crypto exchange software?",
+    answer:
+      "Quick launch, reduced costs, secure infrastructure, easy customization, and scalability.",
+  },
+];
+
+export const MarginTradingExchangeFaq = [
+  {
+    question: "What is margin trading?",
+    answer:
+      "Margin trading lets traders borrow funds to increase their position size, offering higher profit potential but also higher risk.",
+  },
+  {
+    question: "What features should a margin trading exchange include?",
+    answer:
+      "Essential features include high leverage, multi-layer security, advanced order types, a powerful trading engine, and a multi-currency wallet.",
+  },
+  {
+    question: "How is risk managed in margin trading?",
+    answer:
+      "Risk management includes auto deleveraging, stop loss/take profit, partial close orders, and insurance funds to minimize losses.",
+  },
+];
+
+export const DecentralizedExchangeFaq = [
+  {
+    question: "What is a Decentralized Exchange (DEX)?",
+    answer:
+      "A DEX is a cryptocurrency trading platform that allows users to trade directly with one another using smart contracts, without the need for an intermediary or centralized authority.",
+  },
+  {
+    question: "How does a DEX work?",
+    answer:
+      "DEXs use smart contracts to facilitate peer-to-peer transactions, allowing users to trade cryptocurrencies securely and anonymously. The platform operates without a central entity controlling the process, offering greater security and privacy.",
+  },
+  {
+    question: "What are the advantages of using a DEX?",
+    answer:
+      "Key benefits include enhanced security, privacy, reduced risk of hacking, complete user control over funds, and lower fees compared to centralized exchanges.",
+  },
+  {
+    question: "Do I need to create an account on a DEX?",
+    answer:
+      "No, most DEXs do not require users to create an account. Trades are conducted directly between users, and wallets are used for transactions, ensuring greater privacy.",
+  },
+  {
+    question: "Are DEXs more secure than centralized exchanges?",
+    answer:
+      "Yes, DEXs are generally considered more secure because users retain control over their private keys and funds. Since there’s no central authority holding assets, there is less risk of large-scale hacks.",
+  },
+];
+
+export const CentralizedExchangeFaq = [
+  {
+    question: "What is a centralized exchange?",
+    answer:
+      "A centralized exchange (CEX) is a platform where users can trade cryptocurrencies, with a central authority managing transactions and user funds.",
+  },
+  {
+    question: " How does it work?",
+    answer:
+      "It matches buy and sell orders from users and acts as an intermediary to ensure secure and efficient trading.",
+  },
+  {
+    question: "What are the benefits?",
+    answer:
+      "Centralized exchanges offer high liquidity, faster transactions, strong security, and reliable customer support.",
+  },
+  {
+    question: "What is the development process?",
+    answer:
+      "The development process includes consultation, requirement gathering, solution design, development, testing, deployment, and ongoing maintenance.",
+  },
+  {
+    question: "How secure are they?",
+    answer:
+      "They use two-factor authentication (2FA), SSL encryption, cold storage, and regular security audits to ensure user protection.",
+  },
 ];

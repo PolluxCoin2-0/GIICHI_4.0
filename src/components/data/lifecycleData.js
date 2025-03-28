@@ -185,46 +185,87 @@ export const maasLifeCycleData = [
 export const derivativesLifeCycleData = [
   {
     title: "Consultation Phase",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "We begin with a consulting phase tailored for clients looking to enter the crypto world, helping them understand its potential and the benefits of derivatives trading.",
     image: understandImg,
   },
   {
     title: "Discovery Phase",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "In this phase, we dive deep into understanding your goals through detailed discussions and brainstorming sessions, which help us outline a clear plan to achieve your objectives.",
     image: researchImg,
   },
   {
     title: "Requirements Gathering",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "We collect all the necessary requirements for the exchange and perform thorough analysis to create a roadmap. This ensures that the development process is aligned with your expectations.",
     image: contentImg,
   },
   {
     title: "Solution and Strategy Design",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Our experts design appropriate solutions and create strategic plans to ensure a smooth, intuitive user experience on the crypto derivatives exchange.",
     image: designImg,
   },
   {
     title: "Development Phase",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "The core development of the platform and crypto derivatives software takes place in this phase. Our team works on the approved designs and requirements to build the exchange, ensuring it’s ready for launch.",
     image: deliveryImg,
   },
   {
     title: "Testing and Quality Analysis",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "After development, our dedicated QA team conducts rigorous testing to ensure that the platform meets all standards and is free of any issues before it’s launched.",
     image: designImg,
   },
   {
     title: "Deployment Phase",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "Once the platform passes quality assurance, we proceed with the launch. We ensure a seamless deployment process to guarantee full client satisfaction.",
     image: deliveryImg,
   },
   {
     title: "Maintenance and Support",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Following the successful launch, we provide ongoing maintenance and support to ensure the platform runs smoothly, addressing any bugs or technical issues that may arise.",
     image: designImg,
   },
 
+];
+
+export const centralizedLifeCycleData = [
+  {
+    title: "Discovery Phase",
+    description: "In this phase, we delve into understanding your goals in detail. Through multiple brainstorming sessions, we create a clear roadmap to achieve the desired objectives.",
+    image: understandImg,
+  },
+  {
+    title: "Requirements Gathering",
+    description: "Here, we collect all necessary requirements for the exchange and conduct a thorough analysis. A comprehensive roadmap is then crafted to guide the development process of the centralized exchange.",
+    image: researchImg,
+  },
+  {
+    title: "Solution and Strategy Design",
+    description: "Our experts design effective solutions and create strategic plans to ensure a smooth user experience on the centralized crypto exchange, with a focus on seamless functionality.",
+    image: contentImg,
+  },
+  {
+    title: "Development Phase",
+    description: "During this phase, we proceed with the core development of the crypto exchange platform, following the approved designs. This ensures the platform is shaped to meet your needs and is ready for launch.",
+    image: designImg,
+  },
+  {
+    title: "Testing and Quality Assurance",
+    description:
+      "After development, our dedicated QA team conducts rigorous testing and quality analysis. This ensures the platform is flawless and market-ready, free of issues or glitches.",
+    image: deliveryImg,
+  },
+  {
+    title: "Deployment Phase",
+    description: "Once we receive approval from the QA team, the exchange is ready for deployment. Our team ensures a smooth launch, providing complete client satisfaction and successfully concluding the deployment phase.",
+    image: designImg,
+  },
+  {
+    title: "Maintenance and Support",
+    description:
+      "Following the exchange's successful launch, we continue to offer ongoing maintenance and support to ensure the platform runs smoothly, without bugs or technical issues.",
+    image: deliveryImg,
+  },
+ 
 ];
 

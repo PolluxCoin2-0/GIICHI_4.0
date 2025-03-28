@@ -423,32 +423,47 @@ export const BlockchainDevelopmentService = [
     {
       title: "High Leverage",
       description:
-        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+        "This feature allows users to enhance their buying or selling power by utilizing leverage, providing them with greater trading potential.",
     },
     {
       title: "Multi-Layer Security",
       description:
-        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+        "Our exchanges come with advanced security features like SSL encryption and two-factor authentication to ensure secure and authorized user access.",
     },
     {
       title: "Advanced Order Types",
       description:
-        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+        "Our crypto derivatives exchange supports various order types, including market orders, copy trading, and more, for enhanced trading flexibility.",
     },
     {
       title: "Powerful Trading Engine",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        "Equipped with a high-performance trading engine, our exchange delivers exceptional speed and reliability, significantly improving overall platform performance.",
     },
     {
       title: "Multi-Currency Wallet",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "Integrated with a multi-currency wallet, our exchange ensures secure, fast, and seamless transactions across a wide range of cryptocurrencies.",
     },
     {
       title: "Robust Admin Panel",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        "The robust admin panel provides an intuitive interface to monitor user activity and transactions efficiently on the platform.",
+    },
+    {
+      title: "Automated Transactions",
+      description:
+        "Derivatives trading operates without intermediaries, enabling automated transactions that streamline processes and save time.",
+    },
+    {
+      title: "Cross-Platform Compliance",
+      description:
+        "Our exchange ensures compliance across various platforms, expanding the number of participants engaging in trades on the exchange.",
+    },
+    {
+      title: "Auto Deleveraging (ADL)",
+      description:
+        "This feature automatically closes traders’ positions when the market price reaches a certain bankruptcy threshold, minimizing risk exposure.",
     },
    
   ];
@@ -457,47 +472,47 @@ export const BlockchainDevelopmentService = [
     {
       title: "Robust Admin Panel",
       description:
-        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+        "Easily manage the platform, track performance, and monitor all activities with our user-friendly admin panel.",
     },
     {
-      title: "Potent Trade Machine",
+      title: "Powerful Trading Engine",
       description:
-        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+        "Our centralized crypto exchanges come equipped with a high-performance trading engine that ensures smooth and efficient trading.",
     },
     {
       title: "Device Compatibility",
       description:
-        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+        "The exchanges we develop are fully compatible with all major devices, allowing users to conduct transactions without any concerns.",
     },
     {
       title: "Multi-Currency Support",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        "The platform features a scalable architecture, enabling seamless trading across various fiat currencies and cryptocurrencies.",
     },
     {
       title: "KYC/AML Integration",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "Our exchanges include location-based KYC/AML features, ensuring full compliance with regulatory requirements.",
     },
     {
       title: "Multiple Payment Gateways",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        "We integrate multiple payment gateways to ensure smooth and secure payment processing for transactions.",
     },
     {
       title: "Enhanced Security",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        "The exchanges are fortified with advanced security measures like 2FA, SSL, and more to guarantee platform safety.",
     },
     {
-      title: "Advanced Chart Tools",
+      title: "Advanced Charting Tools",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "We provide detailed trading charts and features that enhance users' trading experience, boosting efficiency and profitability.",
     },
     {
-      title: "Crypto Wallet",
+      title: "Crypto Wallet Integration",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        "Crypto wallets are seamlessly integrated into the exchange, allowing users to store and transfer various cryptocurrencies securely.",
     },
    
   ];
@@ -506,32 +521,32 @@ export const BlockchainDevelopmentService = [
     {
       title: "Escrow Timer",
       description:
-        "From strategy formulation to seamless implementation, our blockchain experts guide you at every step of your development journey, ensuring successful integration with deep industry expertise.",
+        "Ensure timely transactions on your platform by integrating an escrow timer that releases assets/funds promptly.",
     },
     {
       title: "Mobile App Development",
       description:
-        "We build innovative Layer 2 solutions, including rollups and state channels, to enhance scalability and efficiency while integrating seamlessly with existing blockchain networks.",
+        "Provide your customers with easy access to your P2P exchange via custom-designed mobile apps. We also specialize in developing Telegram MiniApps.",
     },
     {
       title: "Messaging System",
       description:
-        "Our team specializes in developing scalable and customizable blockchain protocols, from consensus mechanisms to governance structures, tailored to your unique business requirements.",
+        "An encrypted messaging system allows users to securely communicate with others, negotiate terms, and finalize trades safely.",
     },
     {
       title: "Advanced Filters",
       description:
-        "We design secure, high-performance trading platforms for seamless cryptocurrency transactions, ensuring compliance and scalability for both centralized and decentralized exchanges.",
+        "Incorporate advanced filters to help traders easily find the best deals and make smarter trading decisions.",
     },
     {
       title: "Preferred Trader Selection",
       description:
-        "Our NFT marketplaces come with multi-chain support, smart contract integration, and secure payment gateways, ensuring authenticity, security, and seamless token transactions.",
+        "This feature lets traders choose their preferred partners, creating a trustworthy and personalized trading environment.",
     },
     {
       title: "AI Integration",
       description:
-        "We create and audit smart contracts with rigorous testing to ensure security, efficiency, and compliance with industry standards across multiple blockchain platforms.",
+        "Integrate AI into your P2P cryptocurrency exchange to enable smart order matching, predictive analytics, chatbots, fraud detection, sentiment analysis, and more.",
     },
 ];
 
