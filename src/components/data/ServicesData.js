@@ -355,49 +355,34 @@ export const BlockchainDevelopmentService = [
 
   export const Web3ConsultingService = [
     {
-      title: "Expert Advice and Training",
+      title: "Web3 Strategy and Roadmap Development",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "As a trusted Web3 consulting firm, we help businesses unlock the full potential of Web3 by creating tailored strategies and roadmaps for a seamless transition into the decentralized world.",
     },
     {
-      title: "Development of Strategies",
+      title: "Migration from Web2 to Web3",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Leverage our Web3 consulting and advisory services for a smooth, hassle-free transition from Web2 to Web3, ensuring uninterrupted business operations.",
     },
     {
-      title: "Speedy Creation of PoC",
+      title: "Web3 Integration Services",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Connect with our expert Web3 consultants to explore how integrating Web 3 technology can unlock new opportunities and future-proof your business.",
     },
     {
-      title: "Regulatory Compliance and Security Assessment",
+      title: "Web3 Game Consulting Services",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Leverage our team's deep domain knowledge and Web3 game development expertise to implement the best-suited Web3 technologies for your gaming project.",
     },
     {
-      title: "Development & Deployment Solutions",
+      title: "Building Web3 Business Applications",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "Our Web3 consulting services empower businesses to develop impactful Web3 applications, expanding market reach and significantly boosting profitability.",
     },
     {
-      title: "Superior Technical Guidance",
+      title: "Web3 Compliance Services",
       description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Enterprise Blockchain Consulting",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Blockchain Applications Development",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
-    },
-    {
-      title: "Integration of Blockchain",
-      description:
-        "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+        "As a leading Web3 consulting firm, Antier offers compliance services to help businesses seamlessly navigate the Web3 landscape and develop high-quality solutions.",
     },
   ];
 

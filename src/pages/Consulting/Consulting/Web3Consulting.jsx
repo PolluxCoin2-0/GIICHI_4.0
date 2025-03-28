@@ -24,7 +24,7 @@ const Web3Consulting = () => {
         img={BlockchainImg}
         title1="Web3 Consulting "
         title2="Company"
-        desc="Forging Brands With Ultimate Web3 and Digital Marketing, and Consultancy Services"
+        desc="Let our expert Web3 consultants unlock your business’s full potential, keeping you ahead in today’s competitive market."
       />
 
       {/* Our blockchain consulting related services */}
@@ -39,12 +39,9 @@ const Web3Consulting = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
           Best Web3 Consultants at Your Service
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-[90%] tracking-wider">
+          Web3 has generated significant buzz, leaving many wondering what it truly entails. Simply put, Web3 is the modern internet powered by blockchain, offering all the advantages of decentralized technology.  <br/> <br/>
+           With its vast opportunities across industries, Web3 presents immense potential. This is where Giichi, a leading Web3 consulting firm, steps in helping businesses efficiently explore and harness these opportunities for their growth and success.
           </p>
           {/* button to connect on whatsapp */}
           <div className="mt-8">
@@ -66,17 +63,17 @@ const Web3Consulting = () => {
       {/* Blockchain Consulting Services */}
       <Services
         data={Web3ConsultingService}
-        heading1="Web3 Consulting Services"
-        heading2=""
-        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+        heading1=""
+        heading2="Web3 Consulting Services"
+        desc="Our Web 3 consulting services aim to harness emerging technology and implement it strategically to drive business success."
       />
 
       {/* Top Benefits of blockchain development company */}
       <Framework
         data={Web3ConsultingFramework}
         heading1="Benefits of"
-        heading2="Web3 Blockchain"
-        desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+        heading2="Web3 Consulting"
+        desc="Here’s what you gain from our expert Web3 consulting services."
       />
 
       {/* Blockchain Supply Chain Network */}
@@ -92,15 +89,13 @@ const Web3Consulting = () => {
           {/* Custom First Card */}
           <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
             <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-              Why choose Giichi for Asset <br />
+              Why choose Giichi for Web3 <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization Services?
+                Consulting Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
-              Giichi offers secure, scalable, and regulatory-compliant asset
-              tokenization, enabling seamless digital asset management and
-              liquidity.
+            Giichi is a leading Web3 consulting firm, helps businesses transition to Web3 by implementing cutting-edge technology and unlocking its vast opportunities.
             </p>
           </div>
           {/* Mapping Client Data */}

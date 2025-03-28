@@ -477,39 +477,39 @@ export const BlockchainConsultingFramework =  [
 export const Web3ConsultingFramework =  [
   {
     logo: realEstateImg,
-    title: "Exploring Blockchain Technology",
+    title: "Streamlining Business Processes",
     description:
-      " The first zero-knowledge scaling solution fully compatible with the Ethereum Virtual Machine (EVM), enabling smart contract execution with enhanced privacy and scalability.",
+      "Web3 simplifies business transactions and enhances manageability while automating various processes to streamline operations efficiently.",
   },
   {
     logo: realEstateImg,
-    title: " Cost-Effective in Nature",
+    title: "Elimination of Third Party Dependency",
     description:
-      "A next-gen blockchain architecture utilizing parallel zkEVM instances to achieve consensus on Ethereum’s Layer 1, improving scalability and transaction efficiency.",
+      "Built on blockchain architecture, Web3 eliminates third-party dependence, helping businesses save time, effort, and costs.",
   },
   {
     logo: realEstateImg,
-    title: " Streamlined Processes ",
+    title: "Effective Data Management",
     description:
-      " Custom blockchain networks designed for infinite scalability, allowing businesses to define their own sovereign rules while benefiting from Avalanche’s consensus.",
+      "The rise of Web3 enhances data management by enabling seamless sharing and collaboration across borders, ensuring efficiency and effectiveness.",
   },
   {
     logo: realEstateImg,
-    title: "Offers Competitive Advantage",
+    title: "Lowered Risk of Hacks and Cyber Attacks",
     description:
-      "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
+      "Web3 decentralized nature ensures secure, tamper-proof transactions, minimizing the risk of hacks and cyberattacks.",
   },
   {
     logo: realEstateImg,
-    title: "Enhanced Safety and Security",
+    title: "Enhanced Trust and Transparency",
     description:
-      "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
+      "Integrating Web3 enhances trust and transparency through blockchain technology, where every transaction remains visible and verifiable by all.",
   },
   {
     logo: realEstateImg,
-    title: "Improved Data Privacy ",
+    title: "Facilitates Interoperability",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Web3 technology enables seamless interoperability, ensuring that various products and systems function smoothly across different platforms without interruptions.",
   },
  
 ];
