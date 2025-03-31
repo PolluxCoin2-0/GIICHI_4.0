@@ -13,7 +13,7 @@ const ICO = () => {
         img={BlockchainImg}
         title1="ICO Development"
         title2="Company"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        desc="End-to-end ICO development solutions designed to ensure a successful Initial Coin Offering launch, driving efficient fundraising efforts."
       />
 
       {/* ICO Development Journey*/}
@@ -26,20 +26,11 @@ const ICO = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Top-Rated ICO Development for Accelerated Fundraising Journey
+          Leading ICO Development for Seamless Fundraising
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          In the crypto space, Initial Coin Offerings (ICO) serve as the equivalent of Initial Public Offerings (IPO) in traditional markets. Establishing a strong market presence is crucial for both startups and established businesses, requiring substantial capital investment, this is where ICO development services play a vital role. <br/><br/>
+          Our team of experts guides you through the entire ICO development journey, from token creation and launch to strategic marketing, ensuring a smooth and successful fundraising process. Step into the world of ICOs with confidence and unlock new growth opportunities.
           </p>
 
           {/* button to connect on whatsapp */}
@@ -62,9 +53,9 @@ const ICO = () => {
       {/* Top Benefits of blockchain development company */}
       <Framework
         data={ICOFramework}
-        heading1="Top Benefits of Blockchain"
-        heading2="Development Company"
-        desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+        heading1="Our Comprehensive ICO "
+        heading2="Development Services"
+        desc="We provide a full suite of ICO development services designed to help businesses leverage blockchain technology for successful fundraising. Explore our key offerings:"
       />
 
       {/* FAQ SECTION */}

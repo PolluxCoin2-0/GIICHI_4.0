@@ -1120,31 +1120,31 @@ export const ArbitrageBotFramework =  [
     logo: realEstateImg,
     title: "Crypto Arbitrage Bot Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "The crypto market is highly volatile, making it challenging to manually track arbitrage opportunities. Our automated arbitrage trading bots operate 24/7, ensuring you never miss a profitable trade.",
   },
   {
     logo: realEstateImg,
     title: "Bot-as-a-Service(BaaS)",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our innovative Bot-as-a-Service (BaaS) model enables businesses to deploy and manage trading bots effortlessly. With our cloud-based solution, security and maintenance are fully handled by us, allowing you to focus on trading.",
   },
   {
     logo: realEstateImg,
-    title: "AI Arbitrage Trading Bot Development",
+    title: "AI Arbitrage Bot Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enhance your trading strategy with AI-driven arbitrage bots that utilize real-time data analysis, pattern recognition, high-speed execution, multi-market adaptability, and optimization capabilities.",
   },
   {
     logo: realEstateImg,
     title: "Arbitrage Bot Consultation Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Navigate the world of automated trading with expert guidance. Our experienced consultants assist with strategy development, technology selection, algorithm optimization, risk management, and security assessments to ensure a successful trading experience.",
   },
   {
     logo: realEstateImg,
     title: "Arbitrage Bot Integration Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Seamlessly integrate advanced crypto arbitrage AI bots into your existing trading platform or exchange. Our developers specialize in API configuration, risk management integration, and ensuring smooth functionality across multiple trading environments.",
   },
   
 ];
@@ -1154,194 +1154,194 @@ export const ICOFramework =  [
     logo: realEstateImg,
     title: "ICO Consulting Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Expert-driven consulting to guide businesses through the ICO process, ensuring a seamless journey and successful project execution.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Development",
+    title: "Custom ICO Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We create custom tokens on Ethereum, Binance Smart Chain, and other blockchains, ensuring compliance with standards like ERC-20, ERC-721, and more.",
   },
   {
     logo: realEstateImg,
-    title: "Smart Contract Development",
+    title: "Secure Smart Contract Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our audited smart contracts provide secure governance over token distribution, sale mechanisms, and other crucial ICO functionalities.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Website/Landing Development",
+    title: "ICO Website & Landing Page Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We design intuitive, investor-friendly ICO websites and landing pages that showcase project details, tokenomics, team profiles, and whitepapers.",
   },
   {
     logo: realEstateImg,
     title: "KYC/AML Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "To enhance security and regulatory compliance, we integrate Know Your Customer (KYC) and Anti-Money Laundering (AML) protocols.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security Audit Services",
+    title: "Security Audit & Risk Assessment",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We conduct in-depth security audits to identify vulnerabilities and ensure the highest level of safety for investor funds.",
   },
   {
     logo: realEstateImg,
-    title: "Legal, Risk, Compliance, and Advisory Services",
+    title: "Legal, Compliance & Advisory Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our experts ensure your ICO adheres to relevant laws and regulations, mitigating any legal or compliance risks.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Marketing and PR Support",
+    title: "ICO Marketing & PR Support",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We boost ICO visibility through social media campaigns, influencer collaborations, community management, and content marketing.",
   },
   {
     logo: realEstateImg,
-    title: "Post-ICO Support",
+    title: "Post-ICO Support & Token Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Beyond the launch, we assist with token distribution, exchange listings, community engagement, and ongoing project development.",
   },
 ];
 
 export const TokenCoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Crypto Token Consulting & Advisory",
+    title: "ICO & Token Advisory",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our seasoned crypto token consultants provide expert insights and strategic guidance, ensuring you navigate your crypto ventures with confidence and precision.",
   },
   {
     logo: realEstateImg,
-    title: "Designing Meme Coins",
+    title: "Meme Coin Creation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We specialize in designing engaging and market-driven meme coins, enhancing the value and appeal of your digital asset ecosystem.",
   },
   {
     logo: realEstateImg,
-    title: "AI-Based Tokens",
+    title: "AI-Powered Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our AI-integrated token solutions combine artificial intelligence with blockchain technology, enabling intelligent automation and smart tokenized systems.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Creation",
+    title: "Stablecoin Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a leading token development company, we create secure and reliable stablecoins, including crypto-backed, fiat-backed, commodity-backed, and gold-backed variants.",
   },
   {
     logo: realEstateImg,
-    title: "Equity/Asset-Backed Tokens",
+    title: "Security & Asset-Backed Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our team excels in developing security tokens, equity tokens, and utility tokens, streamlining capital-raising and asset-backed initiatives for businesses.",
   },
 
   {
     logo: realEstateImg,
     title: "Telegram Bot Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We provide customized crypto token solutions that integrate seamlessly with Telegram bot functionalities, optimizing trading and user engagement.",
   },
   {
     logo: realEstateImg,
     title: "Non-Fungible Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Leverage our expertise to develop unique NFTs, enabling the tokenization of art, music, digital ownership, and more with innovation and precision.",
   },
   {
     logo: realEstateImg,
-    title: "DeFi Tokens",
+    title: "DeFi Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our DeFi token solutions empower decentralized financial ecosystems, optimizing lending, borrowing, and investment management processes.",
   },
   {
     logo: realEstateImg,
-    title: "Metaverse Tokens",
+    title: "Metaverse Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Work with our skilled blockchain developers to design, build, and launch metaverse tokens that align with the evolving virtual economy.",
   },
 ];
 
 export const StablecoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Stablecoin Consulting and Advisory Services",
+    title: "Stablecoin Consulting & Advisory",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our expert consulting services help businesses navigate their stablecoin projects smoothly, minimizing risks and ensuring seamless execution. We provide strategic guidance to ensure success at every stage.",
   },
   {
     logo: realEstateImg,
-    title: "Stable Coin Development",
+    title: "Custom Stablecoin Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We deliver end-to-end stablecoin solutions, from concept design and smart contract development to deployment and ongoing support, tailored to meet diverse business needs.",
   },
   {
     logo: realEstateImg,
     title: "Regulatory Compliance Assistance",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Navigating regulations can be complex. Our experts provide legal guidance, covering KYC/AML procedures and global compliance frameworks to ensure your stablecoin meets all necessary standards.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Promotion and Marketing Services",
+    title: "Stablecoin Promotion & Marketing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "From whitepaper creation and pre-launch campaigns to post-launch marketing, we help businesses maximize visibility and attract investors across multiple channels.",
   },
   {
     logo: realEstateImg,
-    title: "Token Integration and Wallet Development",
+    title: "Token Integration & Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We offer seamless integration of stablecoins into wallets, exchanges, and dApps, along with the development of custom wallets for enhanced accessibility and user experience.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security and Audit Services",
+    title: "Security & Audit Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Security is our priority. We conduct comprehensive audits to identify vulnerabilities, mitigate risks, and protect user funds, ensuring a robust and secure stablecoin ecosystem.",
   },
  ];
 
  export const MemecoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Stablecoin Consulting and Advisory Services",
+    title: "Meme Coin Creation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We develop secure, high-performance meme coins with advanced token architecture, strong security layers, and viral market positioning for sustained liquidity and adoption.",
   },
   {
     logo: realEstateImg,
-    title: "Stable Coin Development",
+    title: "Logo Designing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our expert designers craft distinctive brand identities, combining artistic creativity and strategic branding to establish a strong market presence.",
   },
   {
     logo: realEstateImg,
-    title: "Regulatory Compliance Assistance",
+    title: "Tokenomics Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We design optimized token economies with dynamic supply mechanics, staking models, and incentive-driven structures to maximize value and long-term growth.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Promotion and Marketing Services",
+    title: "Meme Coin Marketing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our data-driven marketing strategies leverage Web3 virality, influencer collaborations, and gamified promotions to boost visibility.",
   },
   {
     logo: realEstateImg,
-    title: "Token Integration and Wallet Development",
+    title: " Exchange Listings",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We facilitate meme coin listings on top centralized and decentralized exchanges, increasing liquidity, investor reach, and trading efficiency.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security and Audit Services",
+    title: " Liquidity Pool Formation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We establish robust liquidity pools with strategic token pairing, algorithmic market-making, and yield optimization to maintain price stability.",
   },
  ];
 

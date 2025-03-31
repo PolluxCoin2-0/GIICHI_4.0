@@ -25,13 +25,13 @@ export const BlockchainDevelopmentCycle = [
   ];
 
   export const IdoDevelopmentCycle = [
-    { step: "01.", title: "Expert Consultation", description: " Users can create self-sovereign identities (SSI) that allow full control over personal data, reducing reliance on centralized authorities." },
-    { step: "02.", title: "White Paper Creation", description: " Eliminates password-based logins with blockchain-powered authentication, reducing the risk of credential theft and phishing attacks." },
-    { step: "03.", title: "Blockchain Selection", description: "Streamlines identity verification for banks, financial institutions, and crypto exchanges, ensuring compliance while reducing onboarding time." },
-    { step: "04.", title: "Secure Smart Contracts", description: "Enables secure, transparent, and fraud-resistant online voting by ensuring voter identities remain verifiable and immutable." },
-    { step: "05.", title: "Rigorous Testing", description: " Stores patient identities, health records, and medical histories securely, allowing seamless access while maintaining privacy and compliance." },
-    { step: "06.", title: "Custom Token Development", description: " Universities and institutions can issue tamper-proof digital diplomas and certifications, enabling instant verification by employers and organizations." },
-    { step: "07.", title: "Strategic Marketing", description: "Enhances e-governance by securing citizen IDs, passports, and social security data on a blockchain, preventing fraud and identity theft." },
-    { step: "08.", title: "Ongoing Support", description: "Ensures authenticity of supplier identities, preventing fraud while allowing secure workforce credentialing and verification." },
+    { step: "01.", title: "Expert Consultation", description: " Work closely with our IDO specialists to define your project goals and establish platform requirements." },
+    { step: "02.", title: "White Paper Creation", description: "Develop a compelling and concise white paper that outlines your project vision, tokenomics, and strategic roadmap." },
+    { step: "03.", title: "Blockchain Selection", description: "Our experts guide you in selecting the most suitable blockchain network tailored to your project's specific needs." },
+    { step: "04.", title: "Secure Smart Contracts", description: "Implement robust smart contracts to automate essential IDO functions, including token distribution and fundraising." },
+    { step: "05.", title: "Rigorous Testing", description: "Conduct comprehensive security and performance testing to identify and eliminate vulnerabilities before deployment." },
+    { step: "06.", title: "Custom Token Development", description: "Create a secure, functional, and scalable token designed specifically to meet your IDO requirements." },
+    { step: "07.", title: "Strategic Marketing", description: "Develop and execute a targeted marketing strategy to attract potential investors and maximize IDO participation." },
+    { step: "08.", title: "Ongoing Support", description: "Receive continuous support and maintenance services to ensure the long-term success of your IDO platform." },
    
   ];

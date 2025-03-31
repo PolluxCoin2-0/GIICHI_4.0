@@ -587,90 +587,90 @@ export const TradingBotsService = [
   {
     title: "Automated Trade Execution",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "AI-driven trading bots eliminate the need for manual intervention by executing trades automatically based on predefined rules.",
   },
   {
     title: "Customizable Strategies",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Our expert developers create versatile bots that support multiple trading strategies, including arbitrage, trend following, and more.",
   },
   {
     title: "Risk Management Tools",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Our AI-powered trading bot includes robust risk management features, allowing traders to set stop-loss and take-profit limits for optimal risk control.",
   },
   {
     title: "Advanced Market Analysis",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "The bot continuously analyzes market data—such as price movements and trading volume—to make well-informed trading decisions.",
   },
   {
     title: "Real-time Notifications",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Stay updated with real-time alerts sent via SMS, email, or push notifications, ensuring you never miss crucial market activities.",
   },
   {
     title: "Portfolio Management",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "The AI-driven portfolio management module automates order execution using advanced analytics to diversify and optimize traders’ portfolios.",
   },
   {
     title: "Paper Trading",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "This feature allows traders to test their strategies in a risk-free simulated environment before deploying them in the live market.",
   },
   {
     title: "Machine Learning Integration",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Leverage AI and machine learning capabilities to implement sophisticated and dynamic trading strategies for futures and spot markets.",
   },
   {
     title: "Robust Security ",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "With top-tier security measures in place, traders can confidently execute transactions, knowing their funds and data are well-protected.",
   },
 ];
 
 export const IDOService = [
   {
-    title: "Retail Investor Access",
+    title: "Early Retail Investor Access",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDO platforms provide retail investors with early entry into promising projects, promoting wider participation and democratizing investment opportunities.",
   },
   {
-    title: "Economical Token Listing",
+    title: "Cost-Effective Token Listing",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDOs offer an affordable token listing process, requiring minimal liquidity and reducing excessive fees, ensuring project sustainability.",
   },
   {
-    title: "Zero Slippage & Tolerance",
+    title: "Zero Slippage & Secure Transactions",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Smart contracts on DEXs eliminate slippage and tolerance issues, guaranteeing secure, predictable, and fair transactions for investors.",
   },
   {
-    title: "Swift Trading",
+    title: "Instant Trading & Liquidity",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Immediate trading upon launch enhances liquidity and market engagement, creating a dynamic and scalable trading environment.",
   },
   {
-    title: "Launchpad Governance",
+    title: "Decentralized Launchpad Governance",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Token holders gain governance rights, allowing them to vote on project listings and contribute to a transparent, community-driven fundraising ecosystem.",
   },
   {
     title: "Gamified User Engagement",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Incorporating reward-based features such as participation incentives and loyalty programs encourages early involvement and enhances user interaction.",
   },
   {
     title: "Multi-Chain Compatibility",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDO platforms support multi-chain token launches, enabling projects to operate across different blockchain networks for greater flexibility and accessibility.",
   },
   {
     title: "Parametric Trade-Offs",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Advanced features like Initial Farm Offerings (IFOs) allow investors to utilize their existing holdings for participation, offering the potential for higher returns.",
   },
 ];
 

@@ -10,37 +10,37 @@ const features = [
     icon: serviceIcon,
     title: "Know your customer (KYC)",
     description:
-      "We have a team of highly trained and extensively experienced experts who develop tailored NFT marketing services, enabling businesses to achieve success within a limited timeframe.",
+      "Ensures businesses and investors are verified, granting only legitimate users access to the platform.",
   },
   {
     icon: serviceIcon,
     title: "Multiple fundraising methods",
     description:
-      "Our team leverages a data-driven approach to craft impactful marketing strategies that maximize reach and engagement.",
+      "Supports various fundraising models, allowing businesses to raise capital seamlessly.",
   },
   {
     icon: serviceIcon,
-    title: "Crypto wallet",
+    title: "Integrated Crypto Wallet",
     description:
-      "From community building to influencer outreach, we provide end-to-end NFT marketing solutions for sustainable growth.",
+      "A secure built-in crypto wallet facilitates safe transactions and storage of digital assets.",
   },
   {
     icon: serviceIcon,
     title: "Multi-tier staking",
     description:
-      "With a track record of successful campaigns, we help businesses gain visibility and traction in the NFT space.",
+      "Enables multiple crowdfunding rounds based on the total tokens staked, enhancing participation flexibility.",
   },
   {
     icon: serviceIcon,
-    title: "Transparency",
+    title: "Enhanced Transparency",
     description:
-      "From community building to influencer outreach, we provide end-to-end NFT marketing solutions for sustainable growth.",
+      "Boosts project visibility, attracting more investors and fostering trust within the ecosystem.",
   },
   {
     icon: serviceIcon,
-    title: "Compatibility",
+    title: "Blockchain Compatibility",
     description:
-      "With a track record of successful campaigns, we help businesses gain visibility and traction in the NFT space.",
+      "Supports multiple blockchain networks, giving platform owners the flexibility to expand functionality across different ecosystems.",
   },
 ];
 
@@ -49,49 +49,49 @@ const servicesData = [
     icon: serviceIcon,
     title: "ICO Launchpad Development",
     description:
-      "ICO, known as Initial Coin Offering, is a popular fundraising process. We build smart contract-based ICO platforms that.",
+      "We develop smart contract-powered ICO (Initial Coin Offering) platforms, enabling businesses to seamlessly list tokens and raise funds efficiently.",
   },
   {
     icon: serviceIcon,
-    title: "NFT Marketplace Development",
+    title: "IEO Launchpad Development",
     description:
-      "We create feature-rich NFT marketplaces that enable users to buy, sell, and trade digital assets securely and efficiently.",
+      "Our expert developers create customized IEO (Initial Exchange Offering) launchpads, allowing businesses to list their projects on crypto exchanges for streamlined fundraising.",
   },
   {
     icon: serviceIcon,
-    title: "DeFi Development",
+    title: "INO Launchpad Development",
     description:
-      "Our DeFi solutions provide decentralized financial services, from lending to yield farming, enhancing financial inclusivity.",
+      "With the rising popularity of INO (Initial NFT Offering), we build high-performance INO launchpads to facilitate fundraising for NFT projects while delivering a seamless user experience.",
   },
   {
     icon: serviceIcon,
-    title: "Smart Contract Development",
+    title: "IGO Launchpad Development",
     description:
-      "We develop secure and efficient smart contracts to automate transactions and enhance trust in blockchain applications.",
+      "We specialize in IGO (Initial Game Offering) launchpads, enabling blockchain gaming projects to raise funds and enter the GameFi ecosystem effortlessly.",
   },
   {
     icon: serviceIcon,
-    title: "Crypto Exchange Development",
+    title: "IIO Launchpad Development",
     description:
-      "Our crypto exchange solutions offer seamless and secure trading experiences with advanced features and high liquidity.",
+      "Our team builds secure and scalable IIO (Initial Insurance Offering) launchpads, designed specifically for insurance-related crypto fundraising initiatives.",
   },
   {
     icon: serviceIcon,
-    title: "Blockchain Consulting",
+    title: "IFO Launchpad Development",
     description:
-      "We provide expert guidance and strategic blockchain consulting to help businesses integrate decentralized solutions.",
+      "We develop IFO (Initial Farming Offering) launchpads, empowering DeFi projects to raise capital through farming events on decentralized exchange (DEX) platforms.",
   },
   {
     icon: serviceIcon,
-    title: "Metaverse Development",
+    title: "IDO Launchpad Development",
     description:
-      "Our metaverse solutions enable businesses to create immersive virtual worlds and digital economies powered by blockchain.",
+      "Our IDO (Initial DEX Offering) launchpad solutions provide decentralized projects with secure, scalable, and high-performance platforms for efficient fundraising.",
   },
   {
     icon: serviceIcon,
-    title: "Token Development",
+    title: "ILO Launchpad Development",
     description:
-      "We offer end-to-end token development services to help businesses create, launch, and manage their crypto assets.",
+      "We build ILO (Initial Liquidity Offering) launchpads, integrating Automated Market Maker (AMM), liquidity pools, and other essential features to help startups fuel their growth.",
   },
 ];
 
@@ -119,7 +119,7 @@ const Launchpad = () => {
         img={BlockchainImg}
         title1="Crypto Launchpad"
         title2="Development"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        desc="Simplify and optimize the fundraising process with our advanced crypto launchpad solutions."
       />
 
       {/* Cryptocurrency Launchpad Development Journey*/}
@@ -132,20 +132,11 @@ const Launchpad = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Expedite your Cryptocurrency Launchpad Development Journey
+          Accelerate Your Crypto Launchpad Development
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          The growing adoption of cryptocurrencies has paved the way for innovative, investor-friendly solutions like crypto launchpads, which simplify the fundraising process for blockchain projects. These platforms empower startups to raise capital and expand efficiently while unlocking new revenue opportunities. <br/> <br/>
+          At Giichi, we provide end-to-end crypto launchpad development services, helping you build a robust launchpad and capitalize on the booming crypto industry. Our experienced blockchain engineers and industry experts ensure a fast time-to-market, giving you a competitive edge.
           </p>
 
           {/* button to connect on whatsapp */}
@@ -166,12 +157,12 @@ const Launchpad = () => {
       </div>
 
       {/* Cryptocurrency Launchpad Development Services*/}
-      <div className="bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60">
+      <div className="bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60 py-12">
         <p className="text-white text-2xl md:text-3xl font-bold pt-4 leading-tight tracking-wide text-center">
           Our Cryptocurrency Launchpad Development Services
         </p>
         <p className="text-white text-opacity-70 pt-4 text-center">
-          We provide a host of offerings to cater to diverse business needs.
+        We offer a wide range of launchpad development solutions tailored to diverse business needs.
         </p>
         <div className="flex flex-row justify-between items-center w-full space-x-20">
           <div className="flex flex-col justify-between items-center w-full">
@@ -191,11 +182,10 @@ const Launchpad = () => {
       <div className="mt-20 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60">
         <div className="flex flex-col justify-center items-center">
           <p className="text-white text-2xl md:text-3xl font-bold pt-4 leading-tight tracking-wide text-center">
-            Features of a Cryptocurrency Launchpad
+          Key Features of a Cryptocurrency Launchpad
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] font-normal pt-4 leading-7 w-full md:w-[60%] text-center">
-            We deliver launchpads underpinned by the right features to deliver
-            world-class performance.
+          Our launchpads are designed with advanced features to ensure top-tier performance and security.
           </p>
         </div>
 
