@@ -1458,49 +1458,49 @@ export const PaymentGatewayFramework =  [
     logo: realEstateImg,
     title: "Highly-Secure Crypto Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enables secure storage, tracking, and swift transfer of cryptocurrencies with robust wallet development solutions.",
   },
   {
     logo: realEstateImg,
-    title: "Blockchain Payment",
+    title: "Blockchain Payment Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Supports seamless transactions on blockchain networks, ensuring high security for all crypto payments.",
   },
   {
     logo: realEstateImg,
     title: "Multiple Payment Options",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Allows effortless crypto-to-fiat conversions and vice versa, enabling payments via wire transfers, credit cards, and debit cards.",
   },
   {
     logo: realEstateImg,
     title: "API Plugins",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enhances automation in payment processing with scalable API integrations, streamlining both payment and non-payment transactions.",
   },
   {
     logo: realEstateImg,
     title: "Mobile Application",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Empowers users to manage crypto transactions on the go—make payments, access digital assets, and convert crypto to fiat anytime, anywhere.",
   },
   {
     logo: realEstateImg,
-    title: "User Handled Funds",
+    title: "User-Controlled Funds",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Grants users full ownership of their private keys, ensuring complete control over their funds without intermediary involvement.",
   },
   {
     logo: realEstateImg,
     title: "Defense-Grade Security",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Implements top-tier security measures to protect transactions and user data against cyber threats and fraud.",
   },
   {
     logo: realEstateImg,
     title: "Crypto Invoice Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Simplifies invoicing with tools to generate, send, and track payments in multiple cryptocurrencies.",
   },
 ];
 

@@ -520,6 +520,36 @@ export const WhiteLabelBankingFaq = [
   },
 ];
 
+export const PaymentGatewayBankingFaq = [
+  {
+    question: "What is a crypto payment gateway?",
+    answer:
+      "A crypto payment gateway is a secure digital payment solution that enables businesses and individuals to accept cryptocurrencies as payment for goods and services. It facilitates transactions by converting crypto into fiat or other digital assets.",
+  },
+  {
+    question: "How does a crypto payment gateway work?",
+    answer:
+      "When a user makes a payment in cryptocurrency, the gateway processes the transaction, verifies it on the blockchain, and transfers the funds to the merchant. Some gateways offer auto-conversion to fiat, reducing volatility risks.",
+  },
+  {
+    question: "Are crypto payment gateways secure?",
+    answer:
+      " Yes, crypto payment gateways use blockchain technology, encryption, and private keys for security. They also implement multi-factor authentication (MFA) and anti-fraud measures to protect transactions.",
+  },
+  {
+    question:
+      "Can I accept multiple cryptocurrencies with a payment gateway?",
+    answer:
+      " Yes, most crypto payment gateways support multiple cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), USDT, and other altcoins, allowing businesses to offer flexible payment options.",
+  },
+  {
+    question:
+      "What are the benefits of using a crypto payment gateway?",
+    answer:
+      "Crypto payment gateways provide faster transactions, lower fees, global accessibility, no chargebacks, and enhanced security, making them an attractive option for businesses and merchants.",
+  },
+];
+
 export const NftMarketplaceFaq = [
   {
     question: "What is Coin Launchpad Development?",
