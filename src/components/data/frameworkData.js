@@ -69,6 +69,10 @@ import IcoImg from "../../assets/ico.png";
 import NFTImg from "../../assets/nft1.png";
 import AIImg from "../../assets/ai.png";
 import MetaverseAiImg from "../../assets/metaverseAi.png";
+import CreditCardImg from "../../assets/credit-card.png";
+import RetailImg from "../../assets/retail.png";
+import DebitcardImg from "../../assets/debitcard.png";
+import SatelliteImg from "../../assets/satellite.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -1352,56 +1356,56 @@ export const StablecoinFramework =  [
 
  export const DigitalBankingFramework =  [
   {
-    logo: realEstateImg,
+    logo: FacilitatesInteroperabilityImg,
     title: "Bank Account",
     description:
       "Facilitate cost-effective global transactions with SEPA IBAN & SWIFT IBAN accounts, supporting multiple currencies.",
   },
   {
-    logo: realEstateImg,
+    logo: CreditCardImg,
     title: "Debit Card",
     description:
       "Make instant payments with a virtual crypto debit card, accepted by online and in-store merchants worldwide.",
   },
   {
-    logo: realEstateImg,
+    logo: DebitcardImg,
     title: "Credit Card",
     description:
       "Enjoy a secure virtual credit card with global acceptance, robust security, and flexible repayment options.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "User-controlled Wallet",
     description:
       "Gain full control over your digital assets with a secure wallet offering hassle-free crypto transactions and private key protection.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Remittance",
     description:
       "Experience swift and seamless cross-border remittances with online access, multiple payout options, and dedicated customer support.",
   },
 
   {
-    logo: realEstateImg,
+    logo: paymentImg,
     title: "Payments",
     description:
       "Optimize financial management with features like invoice tracking, secure transactions, and real-time payment status.",
   },
   {
-    logo: realEstateImg,
+    logo: RetailImg,
     title: "Merchant Payment Gateway",
     description:
       "Accept fiat and crypto payments with instant settlements for a frictionless transaction experience.",
   },
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Crypto Trading Desk",
     description:
       "Access advanced trading tools, real-time market data, and a secure infrastructure to execute trades confidently.",
   },
   {
-    logo: realEstateImg,
+    logo: depinServiceImg,
     title: "P2P Transfers",
     description:
       "Send and receive funds instantly and securely with just a few clicks.",
@@ -1410,37 +1414,37 @@ export const StablecoinFramework =  [
 
  export const WhiteLabelBankingFramework =  [
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Multi-Currency Accounts",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: CreditCardImg,
     title: "Debit/Credit Card Integration",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: DebitcardImg,
     title: "Multi-Currency Virtual Cards",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "User-specific Wallet",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: RetailImg,
     title: "Instant Payment Settlements",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: paymentImg,
     title: "Contactless Payments",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
@@ -1449,55 +1453,55 @@ export const StablecoinFramework =  [
 
 export const PaymentGatewayFramework =  [
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Multi-Currency Exchange",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Highly-Secure Crypto Wallet",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: supplyChainImg1,
     title: "Blockchain Payment",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: paymentImg,
     title: "Multiple Payment Options",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "API Plugins",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Mobile Application",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: "User Handled Funds",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Defense-Grade Security",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Crypto Invoice Services",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
@@ -1506,55 +1510,55 @@ export const PaymentGatewayFramework =  [
 
 export const P2pLendingFramework =  [
   {
-    logo: realEstateImg,
+    logo: privacyPolicyImg,
     title: "Data Encryption",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "JWT Encryption",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: scDevImg,
     title: "Anti-Denial of Service (DoS)",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Anti-Distributed Denial of Service",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Protection against SQL Injection",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "Self-XSS Protection",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Server-Side Request Forgery Protection",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: SatelliteImg,
     title: "HTTP Parameter Pollution Protection",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Prevention of Multiple logins of Same Credentials",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
