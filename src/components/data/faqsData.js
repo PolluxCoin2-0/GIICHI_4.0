@@ -354,25 +354,31 @@ export const Web3WalletExchangeFaq = [
 
 export const CoinLaunchpadFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is a crypto launchpad?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "A crypto launchpad is a platform that helps blockchain projects raise funds by allowing investors to buy tokens early.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "Which fundraising models can a launchpad support?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "It can support ICO, IDO, IEO, INO, IGO, IFO, IIO, and ILO, depending on the project’s requirements.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "Can a launchpad support multiple blockchains?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Yes, launchpads can be designed to be multi-chain compatible, supporting Ethereum, BSC, Solana, and more.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "How secure is a crypto launchpad?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Security is ensured through KYC verification, smart contract audits, anti-bot mechanisms, and multi-layer encryption.",
+  },
+  {
+    question:
+      "How long does it take to develop a crypto launchpad?",
+    answer:
+      "The development timeline depends on the complexity and features required, typically ranging from a few weeks to months.",
   },
  
 ];
