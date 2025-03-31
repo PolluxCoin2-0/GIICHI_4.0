@@ -496,6 +496,30 @@ export const DigitalBankingFaq = [
  
 ];
 
+export const WhiteLabelBankingFaq = [
+  {
+    question: "What is white-label crypto banking?",
+    answer:
+      "It allows businesses to offer crypto services under their own brand using pre-built platforms from third-party providers.",
+  },
+  {
+    question: "How does it benefit my business? ",
+    answer:
+      "It helps you quickly launch crypto services without building technology from scratch, saving time and resources.",
+  },
+  {
+    question: "Is it secure? ",
+    answer:
+      " Yes, with strong security features like encryption and compliance to protect customer data and funds.",
+  },
+  {
+    question:
+      "Can I customize the platform?",
+    answer:
+      " Yes, white-label solutions are customizable to match your brand's design and identity.",
+  },
+];
+
 export const NftMarketplaceFaq = [
   {
     question: "What is Coin Launchpad Development?",

@@ -1408,37 +1408,37 @@ export const StablecoinFramework =  [
     logo: realEstateImg,
     title: "Multi-Currency Accounts",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Empowers users to manage multiple cryptocurrencies in a single account, simplifying portfolio tracking and transactions.",
   },
   {
     logo: realEstateImg,
     title: "Debit/Credit Card Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Seamlessly links crypto and NFT accounts to debit or credit cards for effortless spending and cash withdrawals.",
   },
   {
     logo: realEstateImg,
     title: "Multi-Currency Virtual Cards",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Facilitates cross-border transactions, enabling users to send and receive funds internationally through your platform.",
   },
   {
     logo: realEstateImg,
     title: "User-specific Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Offers secure digital asset management with private key protection and safeguards against unauthorized transactions.",
   },
   {
     logo: realEstateImg,
     title: "Instant Payment Settlements",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enables near-instant transaction settlements, enhancing efficiency and reducing waiting times for fund transfers.",
   },
   {
     logo: realEstateImg,
     title: "Contactless Payments",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Supports NFC-enabled virtual card payments, ensuring seamless and secure in-store transactions.",
   },
 ];
 
