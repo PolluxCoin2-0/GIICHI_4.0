@@ -1350,56 +1350,56 @@ export const StablecoinFramework =  [
     logo: realEstateImg,
     title: "Bank Account",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Facilitate cost-effective global transactions with SEPA IBAN & SWIFT IBAN accounts, supporting multiple currencies.",
   },
   {
     logo: realEstateImg,
     title: "Debit Card",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Make instant payments with a virtual crypto debit card, accepted by online and in-store merchants worldwide.",
   },
   {
     logo: realEstateImg,
     title: "Credit Card",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enjoy a secure virtual credit card with global acceptance, robust security, and flexible repayment options.",
   },
   {
     logo: realEstateImg,
     title: "User-controlled Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Gain full control over your digital assets with a secure wallet offering hassle-free crypto transactions and private key protection.",
   },
   {
     logo: realEstateImg,
     title: "Remittance",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Experience swift and seamless cross-border remittances with online access, multiple payout options, and dedicated customer support.",
   },
 
   {
     logo: realEstateImg,
     title: "Payments",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Optimize financial management with features like invoice tracking, secure transactions, and real-time payment status.",
   },
   {
     logo: realEstateImg,
     title: "Merchant Payment Gateway",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Accept fiat and crypto payments with instant settlements for a frictionless transaction experience.",
   },
   {
     logo: realEstateImg,
-    title: "Cryptocurrency Trading Desk",
+    title: "Crypto Trading Desk",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Access advanced trading tools, real-time market data, and a secure infrastructure to execute trades confidently.",
   },
   {
     logo: realEstateImg,
     title: "P2P Transfers",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Send and receive funds instantly and securely with just a few clicks.",
   },
  ];
 
