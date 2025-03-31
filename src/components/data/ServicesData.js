@@ -633,44 +633,44 @@ export const TradingBotsService = [
 
 export const IDOService = [
   {
-    title: "Retail Investor Access",
+    title: "Early Retail Investor Access",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDO platforms provide retail investors with early entry into promising projects, promoting wider participation and democratizing investment opportunities.",
   },
   {
-    title: "Economical Token Listing",
+    title: "Cost-Effective Token Listing",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDOs offer an affordable token listing process, requiring minimal liquidity and reducing excessive fees, ensuring project sustainability.",
   },
   {
-    title: "Zero Slippage & Tolerance",
+    title: "Zero Slippage & Secure Transactions",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Smart contracts on DEXs eliminate slippage and tolerance issues, guaranteeing secure, predictable, and fair transactions for investors.",
   },
   {
-    title: "Swift Trading",
+    title: "Instant Trading & Liquidity",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Immediate trading upon launch enhances liquidity and market engagement, creating a dynamic and scalable trading environment.",
   },
   {
-    title: "Launchpad Governance",
+    title: "Decentralized Launchpad Governance",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Token holders gain governance rights, allowing them to vote on project listings and contribute to a transparent, community-driven fundraising ecosystem.",
   },
   {
     title: "Gamified User Engagement",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Incorporating reward-based features such as participation incentives and loyalty programs encourages early involvement and enhances user interaction.",
   },
   {
     title: "Multi-Chain Compatibility",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "IDO platforms support multi-chain token launches, enabling projects to operate across different blockchain networks for greater flexibility and accessibility.",
   },
   {
     title: "Parametric Trade-Offs",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Advanced features like Initial Farm Offerings (IFOs) allow investors to utilize their existing holdings for participation, offering the potential for higher returns.",
   },
 ];
 

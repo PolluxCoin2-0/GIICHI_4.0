@@ -417,25 +417,25 @@ export const ICOFaq = [
 
 export const IDOFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is an Initial DEX Offering (IDO)?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "An IDO (Initial DEX Offering) is a decentralized fundraising method where tokens are launched on a DEX, enabling instant liquidity and automated transactions.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How is an IDO different from an ICO and IEO?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "IDO uses a DEX for fundraising, ICO sells tokens directly, and IEO is managed by a centralized exchange for added security.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What are the benefits of an IDO?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "It offers instant liquidity, lower costs, decentralized security, and wider investor access.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "What is needed to launch an IDO?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "A whitepaper, smart contract, blockchain selection, and marketing strategy to attract investors.",
   },
  
 ];

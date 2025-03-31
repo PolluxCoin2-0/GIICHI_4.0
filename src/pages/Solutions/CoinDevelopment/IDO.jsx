@@ -15,7 +15,7 @@ const IDO = () => {
         img={BlockchainImg}
         title1="IDO Development"
         title2="Services"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        desc="As a leading IDO development company, we facilitate seamless fundraising through decentralized exchange platforms."
       />
 
       {/* IDO Development Journey*/}
@@ -27,20 +27,12 @@ const IDO = () => {
         </div>
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Insights On Initial DEX Offering(IDO)
+          Understanding Initial DEX Offering (IDO)
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          An Initial DEX Offering (IDO) leverages Decentralized Exchanges (DEXs) to provide primary liquidity, allowing users to stake tokens in exchange for new Liquidity Provider (LP) tokens, which are then released with the token launch. This model encourages informed decision-making and introduces innovative trading solutions.<br/> <br/>
+          IDO platforms distribute tokens to trusted crypto users, facilitating initial liquidity offerings for DeFi projects. The process is entirely decentralized and automated through smart contracts, ensuring both transparency and anonymity.
+          
           </p>
         </div>
       </div>
@@ -48,15 +40,15 @@ const IDO = () => {
       {/* IDO Services */}
       <Services
         data={IDOService}
-        heading1="Striking Features of "
+        heading1="Key Features of "
         heading2="IDO Development"
-        desc=""
+        desc="IDO development platforms equip projects with cutting-edge features to facilitate capital raising and connect with crypto investors effectively."
       />
 
       {/* Blockchain Process */}
       <div>
         <BlockchainCycle
-          title="Your Roadmap To IDO Development"
+          title="Your Roadmap to Successful IDO Development"
           data={IdoDevelopmentCycle}
         />
       </div>
@@ -68,25 +60,26 @@ const IDO = () => {
             White-Label IDO Launchpad Development
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            fugit sit voluptas aliquam distinctio enim impedit iure amet ab
-            necessitatibus. Quod, excepturi nostrum mollitia laboriosam officia
-            tenetur amet. Ipsam aliquid, minus fugiat sequi, veritatis corporis
-            odit cupiditate, dolorem commodi deserunt cum doloribus voluptatem
-            deleniti omnis assumenda possimus soluta excepturi laboriosam.
+          Accelerate your fundraising journey with our customizable white-label IDO launchpad solutions. Designed for efficiency and flexibility, these pre-built platforms provide a cost-effective approach to launching your IDO, tailored to fit your business needs.
           </p>
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white pt-6 leading-7 w-full md:w-[80%]">Why Choose Our White-Label IDO Launchpad?</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
+          Secure & Transparent Decentralized Ecosystem</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]">
+          Dynamic Price Discovery Mechanism</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]">
+          Multi-Chain Compatibility</p>
         </div>
         <div className="w-full md:w-[70%] lg:w-[50%] mt-4 md:mt-0">
           <p className="text-white text-lg ">
-            Trending IDO Launchpad Clones To Consider~
+          Popular IDO Launchpad Clones to Consider:
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center mt-6">
             <div className=" bg-[#239400] bg-opacity-10 p-6 rounded-3xl md:rounded-tl-3xl w-full md:w-[70%]">
               {/* img */}
               <p className="text-white text-lg font-medium pt-4">Trustpad</p>
               <p className="text-white text-opacity-70 pt-2 text-[17px] md:text-[14px] ">
-                of medicines in parts of Latin America, Asia and Africa can be
-                counterfeit.
+              A highly interoperable, user-friendly launchpad with a strong market presence, making it a top choice for token launches.
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-10 p-6 rounded-3xl md:rounded-tr-3xl w-full md:w-[70%] mt-4 md:mt-0">
@@ -95,8 +88,7 @@ const IDO = () => {
                 Solstarter (Solana)
               </p>
               <p className="text-white text-opacity-70 pt-2 text-[17px] md:text-[14px] ">
-                of medicines in parts of Latin America, Asia and Africa can be
-                counterfeit.
+              A premier Solana-based launchpad that facilitates seamless fundraising and investor participation.
               </p>
             </div>
           </div>
@@ -105,11 +97,10 @@ const IDO = () => {
             <div className=" bg-[#239400] bg-opacity-10 p-6 rounded-3xl md:rounded-tl-3xl w-full md:w-[70%]">
               {/* img */}
               <p className="text-white text-lg font-medium pt-4">
-                BSC Pad (Binance Smart Chain)
+                Binance Smart Chain
               </p>
               <p className="text-white text-opacity-70 pt-2 text-[17px] md:text-[14px] ">
-                of medicines in parts of Latin America, Asia and Africa can be
-                counterfeit.
+              A top-tier launchpad specializing in token distribution and liquidity generation, simplifying launch complexities.
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-10 p-6 rounded-3xl md:rounded-tr-3xl w-full md:w-[70%] mt-4 md:mt-0">
@@ -118,8 +109,7 @@ const IDO = () => {
                 Polka Starter (Polkadot)
               </p>
               <p className="text-white text-opacity-70 pt-2 text-[17px] md:text-[14px] ">
-                of medicines in parts of Latin America, Asia and Africa can be
-                counterfeit.
+              A feature-rich Polkadot-based launchpad with advanced cross-chain capabilities, addressing key crypto space challenges.
               </p>
             </div>
           </div>
