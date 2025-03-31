@@ -64,6 +64,11 @@ import SoftwareImg from "../../assets/Software.png";
 import lifestyleImg from "../../assets/lifestyle.png";
 import marketingImg from "../../assets/marketing.png";
 import RecordImg from "../../assets/record.png";
+import WalletImg from "../../assets/wallet (2).png";
+import IcoImg from "../../assets/ico.png";
+import NFTImg from "../../assets/nft1.png";
+import AIImg from "../../assets/ai.png";
+import MetaverseAiImg from "../../assets/metaverseAi.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -1117,31 +1122,31 @@ export const MulticurrencyWalletFramework =  [
 
 export const ArbitrageBotFramework =  [
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Crypto Arbitrage Bot Development",
     description:
       "The crypto market is highly volatile, making it challenging to manually track arbitrage opportunities. Our automated arbitrage trading bots operate 24/7, ensuring you never miss a profitable trade.",
   },
   {
-    logo: realEstateImg,
+    logo: SkillsImg,
     title: "Bot-as-a-Service(BaaS)",
     description:
       "Our innovative Bot-as-a-Service (BaaS) model enables businesses to deploy and manage trading bots effortlessly. With our cloud-based solution, security and maintenance are fully handled by us, allowing you to focus on trading.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "AI Arbitrage Bot Development",
     description:
       "Enhance your trading strategy with AI-driven arbitrage bots that utilize real-time data analysis, pattern recognition, high-speed execution, multi-market adaptability, and optimization capabilities.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Arbitrage Bot Consultation Services",
     description:
       "Navigate the world of automated trading with expert guidance. Our experienced consultants assist with strategy development, technology selection, algorithm optimization, risk management, and security assessments to ensure a successful trading experience.",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Arbitrage Bot Integration Services",
     description:
       "Seamlessly integrate advanced crypto arbitrage AI bots into your existing trading platform or exchange. Our developers specialize in API configuration, risk management integration, and ensuring smooth functionality across multiple trading environments.",
@@ -1157,50 +1162,50 @@ export const ICOFramework =  [
       "Expert-driven consulting to guide businesses through the ICO process, ensuring a seamless journey and successful project execution.",
   },
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "Custom ICO Token Development",
     description:
       "We create custom tokens on Ethereum, Binance Smart Chain, and other blockchains, ensuring compliance with standards like ERC-20, ERC-721, and more.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Secure Smart Contract Development",
     description:
       "Our audited smart contracts provide secure governance over token distribution, sale mechanisms, and other crucial ICO functionalities.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "ICO Website & Landing Page Development",
     description:
       "We design intuitive, investor-friendly ICO websites and landing pages that showcase project details, tokenomics, team profiles, and whitepapers.",
   },
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "KYC/AML Integration",
     description:
       "To enhance security and regulatory compliance, we integrate Know Your Customer (KYC) and Anti-Money Laundering (AML) protocols.",
   },
 
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Security Audit & Risk Assessment",
     description:
       "We conduct in-depth security audits to identify vulnerabilities and ensure the highest level of safety for investor funds.",
   },
   {
-    logo: realEstateImg,
+    logo: privacyPolicyImg,
     title: "Legal, Compliance & Advisory Services",
     description:
       "Our experts ensure your ICO adheres to relevant laws and regulations, mitigating any legal or compliance risks.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "ICO Marketing & PR Support",
     description:
       "We boost ICO visibility through social media campaigns, influencer collaborations, community management, and content marketing.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Post-ICO Support & Token Management",
     description:
       "Beyond the launch, we assist with token distribution, exchange listings, community engagement, and ongoing project development.",
@@ -1209,56 +1214,56 @@ export const ICOFramework =  [
 
 export const TokenCoinFramework =  [
   {
-    logo: realEstateImg,
+    logo: IcoImg,
     title: "ICO & Token Advisory",
     description:
       "Our seasoned crypto token consultants provide expert insights and strategic guidance, ensuring you navigate your crypto ventures with confidence and precision.",
   },
   {
-    logo: realEstateImg,
+    logo: NFTImg,
     title: "Meme Coin Creation",
     description:
       "We specialize in designing engaging and market-driven meme coins, enhancing the value and appeal of your digital asset ecosystem.",
   },
   {
-    logo: realEstateImg,
+    logo: AIImg,
     title: "AI-Powered Tokens",
     description:
       "Our AI-integrated token solutions combine artificial intelligence with blockchain technology, enabling intelligent automation and smart tokenized systems.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Stablecoin Development",
     description:
       "As a leading token development company, we create secure and reliable stablecoins, including crypto-backed, fiat-backed, commodity-backed, and gold-backed variants.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Security & Asset-Backed Tokens",
     description:
       "Our team excels in developing security tokens, equity tokens, and utility tokens, streamlining capital-raising and asset-backed initiatives for businesses.",
   },
 
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Telegram Bot Tokens",
     description:
       "We provide customized crypto token solutions that integrate seamlessly with Telegram bot functionalities, optimizing trading and user engagement.",
   },
   {
-    logo: realEstateImg,
+    logo: NFTImg,
     title: "Non-Fungible Tokens",
     description:
       "Leverage our expertise to develop unique NFTs, enabling the tokenization of art, music, digital ownership, and more with innovation and precision.",
   },
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "DeFi Token Development",
     description:
       "Our DeFi token solutions empower decentralized financial ecosystems, optimizing lending, borrowing, and investment management processes.",
   },
   {
-    logo: realEstateImg,
+    logo: MetaverseAiImg,
     title: "Metaverse Token Development",
     description:
       "Work with our skilled blockchain developers to design, build, and launch metaverse tokens that align with the evolving virtual economy.",
@@ -1267,38 +1272,38 @@ export const TokenCoinFramework =  [
 
 export const StablecoinFramework =  [
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Stablecoin Consulting & Advisory",
     description:
       "Our expert consulting services help businesses navigate their stablecoin projects smoothly, minimizing risks and ensuring seamless execution. We provide strategic guidance to ensure success at every stage.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Custom Stablecoin Development",
     description:
       "We deliver end-to-end stablecoin solutions, from concept design and smart contract development to deployment and ongoing support, tailored to meet diverse business needs.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Regulatory Compliance Assistance",
     description:
       "Navigating regulations can be complex. Our experts provide legal guidance, covering KYC/AML procedures and global compliance frameworks to ensure your stablecoin meets all necessary standards.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Stablecoin Promotion & Marketing",
     description:
       "From whitepaper creation and pre-launch campaigns to post-launch marketing, we help businesses maximize visibility and attract investors across multiple channels.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Token Integration & Wallet Development",
     description:
       "We offer seamless integration of stablecoins into wallets, exchanges, and dApps, along with the development of custom wallets for enhanced accessibility and user experience.",
   },
 
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Security & Audit Services",
     description:
       "Security is our priority. We conduct comprehensive audits to identify vulnerabilities, mitigate risks, and protect user funds, ensuring a robust and secure stablecoin ecosystem.",
@@ -1307,38 +1312,38 @@ export const StablecoinFramework =  [
 
  export const MemecoinFramework =  [
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Meme Coin Creation",
     description:
       "We develop secure, high-performance meme coins with advanced token architecture, strong security layers, and viral market positioning for sustained liquidity and adoption.",
   },
   {
-    logo: realEstateImg,
+    logo: AIImg,
     title: "Logo Designing",
     description:
       "Our expert designers craft distinctive brand identities, combining artistic creativity and strategic branding to establish a strong market presence.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Tokenomics Development",
     description:
       "We design optimized token economies with dynamic supply mechanics, staking models, and incentive-driven structures to maximize value and long-term growth.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Meme Coin Marketing",
     description:
       "Our data-driven marketing strategies leverage Web3 virality, influencer collaborations, and gamified promotions to boost visibility.",
   },
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: " Exchange Listings",
     description:
       "We facilitate meme coin listings on top centralized and decentralized exchanges, increasing liquidity, investor reach, and trading efficiency.",
   },
 
   {
-    logo: realEstateImg,
+    logo: depinAssetImg,
     title: " Liquidity Pool Formation",
     description:
       "We establish robust liquidity pools with strategic token pairing, algorithmic market-making, and yield optimization to maintain price stability.",
