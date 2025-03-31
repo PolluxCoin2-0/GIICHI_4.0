@@ -385,25 +385,31 @@ export const CoinLaunchpadFaq = [
 
 export const ICOFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is ICO development?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "ICO (Initial Coin Offering) development involves creating blockchain-based tokens, smart contracts, and platforms to help businesses raise funds for their projects.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How long does it take to develop an ICO?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "The timeline varies based on project complexity, but typically, it takes 4-8 weeks for development, including token creation, smart contract deployment, and website setup.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What blockchain platforms are used for ICO token development?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "We develop ICO tokens on Ethereum (ERC-20, ERC-721), Binance Smart Chain (BEP-20), Solana, Polygon, and other networks based on project needs.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "Is KYC/AML compliance necessary for ICOs?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Yes, integrating Know Your Customer (KYC) and Anti-Money Laundering (AML) procedures enhances security and ensures regulatory compliance.",
+  },
+  {
+    question:
+      " What post-ICO support services do you offer?",
+    answer:
+      "We provide token distribution, exchange listing assistance, investor relations management, and further project development to ensure a smooth transition after the ICO launch.",
   },
  
 ];

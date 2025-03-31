@@ -1130,56 +1130,56 @@ export const ICOFramework =  [
     logo: realEstateImg,
     title: "ICO Consulting Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Expert-driven consulting to guide businesses through the ICO process, ensuring a seamless journey and successful project execution.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Development",
+    title: "Custom ICO Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We create custom tokens on Ethereum, Binance Smart Chain, and other blockchains, ensuring compliance with standards like ERC-20, ERC-721, and more.",
   },
   {
     logo: realEstateImg,
-    title: "Smart Contract Development",
+    title: "Secure Smart Contract Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our audited smart contracts provide secure governance over token distribution, sale mechanisms, and other crucial ICO functionalities.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Website/Landing Development",
+    title: "ICO Website & Landing Page Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We design intuitive, investor-friendly ICO websites and landing pages that showcase project details, tokenomics, team profiles, and whitepapers.",
   },
   {
     logo: realEstateImg,
     title: "KYC/AML Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "To enhance security and regulatory compliance, we integrate Know Your Customer (KYC) and Anti-Money Laundering (AML) protocols.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security Audit Services",
+    title: "Security Audit & Risk Assessment",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We conduct in-depth security audits to identify vulnerabilities and ensure the highest level of safety for investor funds.",
   },
   {
     logo: realEstateImg,
-    title: "Legal, Risk, Compliance, and Advisory Services",
+    title: "Legal, Compliance & Advisory Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our experts ensure your ICO adheres to relevant laws and regulations, mitigating any legal or compliance risks.",
   },
   {
     logo: realEstateImg,
-    title: "ICO Marketing and PR Support",
+    title: "ICO Marketing & PR Support",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We boost ICO visibility through social media campaigns, influencer collaborations, community management, and content marketing.",
   },
   {
     logo: realEstateImg,
-    title: "Post-ICO Support",
+    title: "Post-ICO Support & Token Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Beyond the launch, we assist with token distribution, exchange listings, community engagement, and ongoing project development.",
   },
 ];
 
