@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Services from "../../../components/CommonComponent/Services";
@@ -40,16 +41,16 @@ const TradingBots = () => {
       <BannerContent
         img={BlockchainImg}
         title1="Crypto Trading Bot "
-        title2="Development"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        title2="Development Company"
+        desc="Effortlessly reach your trading goals and maximize ROI with our advanced crypto trading bot development solutions, designed to automate and optimize your trading experience."
       />
 
       {/* Blockchain Development Services */}
       <Services
         data={TradingBotsService}
-        heading1="Automated Crypto Trading Bot :"
-        heading2=" Key Features"
-        desc=""
+        heading1="Automated Crypto Trading Bot:"
+        heading2="Key Features"
+        desc="Enhance your trading experience with a seamless, AI-powered crypto trading bot equipped with the following cutting-edge features:"
       />
 
       {/* web3 crypto  wallet offerings */}
@@ -60,8 +61,7 @@ const TradingBots = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Trading Bots experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -92,11 +92,10 @@ const TradingBots = () => {
       {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8">
         <h2 className="text-2xl font-bold text-white">
-          Types of Crypto Trading Bot Solutions We Build
+        Types of Crypto Trading Bot Solutions We Develop
         </h2>
         <p className="text-white text-opacity-70 mt-2 max-w-2xl">
-          Our team of crypto bot developers is capable of building
-          high-frequency trading bots for a wide range of trading strategies.
+        Our team of expert crypto bot developers specializes in building high-frequency trading bots tailored to various trading strategies.
         </p>
         <div className="flex flex-col md:flex-row items-center space-x-24 mt-6 w-full max-w-7xl">
           <div className="w-1/3 flex justify-center">
@@ -126,16 +125,14 @@ const TradingBots = () => {
       {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
-          Crypto Trading Bot Development
+        Crypto Trading Bot Development 
           <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
             Services We Offer
           </span>
         </p>
         <div className="flex flex-col justify-center items-center">
           <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[50%] leading-7 text-center">
-            Our blockchain supply chain solutions are packed with user-friendly,
-            advanced features that empower businesses to efficiently manage
-            their supply chain operations without hassle.
+          Whether you're an entrepreneur looking to integrate a trading bot into an existing platform or building an AI-powered trading platform for personal use, we have the expertise to bring your vision to life.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
@@ -152,9 +149,7 @@ const TradingBots = () => {
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs 2xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                            bottom-12 md:bottom-8 p-4 md:p-2 lg:md:p-4 left-0 right-0 text-center "
             >
-              A comprehensive dashboard that provides real-time insights and
-              detailed analytics for better decision-making and enhanced
-              visibility across supply chain processes.
+            Leverage our cloud-based trading bot solutions, accessible from anywhere in the world. Our highly customizable automated crypto trading bots can be tailored to meet your specific trading strategies and compliance requirements.
             </p>
           </div>
 
@@ -171,9 +166,7 @@ const TradingBots = () => {
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs 2xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                             bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-              Streamline user access and roles within the supply chain network
-              with robust management tools, ensuring secure and controlled
-              interactions.
+            Gain a deeper understanding of automated crypto trading with our expert consultation services. Whether you're new to the industry or looking to refine your trading approach, we help you navigate the right path to profitable AI-driven trading.
             </p>
           </div>
 
@@ -190,9 +183,7 @@ const TradingBots = () => {
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs 2xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                             bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-              A versatile wallet that supports multiple currencies, enabling
-              businesses to manage and process transactions seamlessly in
-              various currencies within the supply chain ecosystem.
+            Stay ahead in the crypto market with our AI-powered auto trading bots. Designed with advanced algorithms, our bots analyze market trends to identify the best trading opportunities for maximum returns.
             </p>
           </div>
 
@@ -209,9 +200,7 @@ const TradingBots = () => {
               className=" text-white text-opacity-70 pt-4 text-sm md:text-[8px] lg:text-xs 2xl:text-sm opacity-0 translate-y-8 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-in-out delay-100 absolute 
                             bottom-12 md:bottom-8 left-0 right-0 text-center p-4 md:p-2 lg:md:p-4"
             >
-              Integrated Know Your Customer (KYC) and Anti-Money Laundering
-              (AML) features ensure compliance and secure onboarding of supply
-              chain participants, while simplifying verification processes.
+            We provide top-tier AI trading bot integration services, seamlessly integrating third-party or custom-developed bots into your preferred crypto exchange or platform—all at competitive pricing.
             </p>
           </div>
         </div>
@@ -220,8 +209,8 @@ const TradingBots = () => {
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
         data={steps}
-        heading="Trading Bot Development Process "
-        desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
+        heading="Crypto Trading Bot Development Process "
+        desc="To guarantee flawless deliveries, our team follows a structured and efficient process for developing trading bots, which includes the following phases:"
       />
     </div>
   );
