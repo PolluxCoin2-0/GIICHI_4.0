@@ -5,7 +5,7 @@ import { ArbitrageBotFramework } from "../../../components/data/frameworkData";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { derivativesLifeCycleData } from "../../../components/data/lifecycleData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { clientData } from "../../../components/data/clientData";
+import { arbitrageBotData } from "../../../components/data/clientData";
 
 const botTypesLeft = [
   "Triangular Arbitrage Bots",
@@ -149,7 +149,7 @@ const ArbitrageBots = () => {
             </p>
           </div>
           {/* Mapping Client Data */}
-          {clientData.map((client, index) => (
+          {arbitrageBotData.map((client, index) => (
             <div
               key={index}
               className="p-4 md:p-6 text-gray-900 rounded-2xl flex flex-col space-y-6 relative transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(100,255,100,0.5),_0_0_15px_rgba(100,255,100,0.3)]"
