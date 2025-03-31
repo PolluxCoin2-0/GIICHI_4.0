@@ -496,6 +496,85 @@ export const DigitalBankingFaq = [
  
 ];
 
+export const WhiteLabelBankingFaq = [
+  {
+    question: "What is white-label crypto banking?",
+    answer:
+      "It allows businesses to offer crypto services under their own brand using pre-built platforms from third-party providers.",
+  },
+  {
+    question: "How does it benefit my business? ",
+    answer:
+      "It helps you quickly launch crypto services without building technology from scratch, saving time and resources.",
+  },
+  {
+    question: "Is it secure? ",
+    answer:
+      " Yes, with strong security features like encryption and compliance to protect customer data and funds.",
+  },
+  {
+    question:
+      "Can I customize the platform?",
+    answer:
+      " Yes, white-label solutions are customizable to match your brand's design and identity.",
+  },
+];
+
+export const PaymentGatewayBankingFaq = [
+  {
+    question: "What is a crypto payment gateway?",
+    answer:
+      "A crypto payment gateway is a secure digital payment solution that enables businesses and individuals to accept cryptocurrencies as payment for goods and services. It facilitates transactions by converting crypto into fiat or other digital assets.",
+  },
+  {
+    question: "How does a crypto payment gateway work?",
+    answer:
+      "When a user makes a payment in cryptocurrency, the gateway processes the transaction, verifies it on the blockchain, and transfers the funds to the merchant. Some gateways offer auto-conversion to fiat, reducing volatility risks.",
+  },
+  {
+    question: "Are crypto payment gateways secure?",
+    answer:
+      " Yes, crypto payment gateways use blockchain technology, encryption, and private keys for security. They also implement multi-factor authentication (MFA) and anti-fraud measures to protect transactions.",
+  },
+  {
+    question:
+      "Can I accept multiple cryptocurrencies with a payment gateway?",
+    answer:
+      " Yes, most crypto payment gateways support multiple cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), USDT, and other altcoins, allowing businesses to offer flexible payment options.",
+  },
+  {
+    question:
+      "What are the benefits of using a crypto payment gateway?",
+    answer:
+      "Crypto payment gateways provide faster transactions, lower fees, global accessibility, no chargebacks, and enhanced security, making them an attractive option for businesses and merchants.",
+  },
+];
+
+export const P2pLendingFaq = [
+  {
+    question: "What is P2P lending?",
+    answer:
+      "Peer-to-peer (P2P) lending is a form of direct lending where individuals or businesses lend money to borrowers through an online platform, bypassing traditional financial institutions like banks. The platform connects lenders and borrowers, facilitating the loan process.",
+  },
+  {
+    question: "How does P2P lending work?",
+    answer:
+      "In P2P lending, borrowers create loan requests on the platform, while lenders browse these requests and choose which loans to fund. The platform facilitates the loan process, including credit checks, documentation, and repayment tracking. Borrowers repay the loan with interest, which is then paid to the lenders.",
+  },
+  {
+    question: "How do I start a P2P cryptocurrency lending platform?",
+    answer:
+      " If you are planning to build a P2P lending platform, you can either choose to go with a white label solution or build a custom P2P lending platform from scratch. White label development requires less development time and cost compared to building the platform from ground zero.",
+  },
+  {
+    question:
+      "How to start a bitcoin lending platform?",
+    answer:
+      "To go ahead with the development of a bitcoin lending platform, you need to be clear on your business model in the first place. Additionally, decide on the features that you need in your platform and partner with a reliable development company.",
+  },
+
+];
+
 export const NftMarketplaceFaq = [
   {
     question: "What is Coin Launchpad Development?",

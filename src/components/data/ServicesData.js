@@ -678,27 +678,32 @@ export const PaymentGatewayService = [
   {
     title: "Cross-Border Payments",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Facilitates fast and secure international transactions, enabling businesses of all sizes to process export and import payments instantly.",
   },
   {
     title: "Multi-Wallet Support",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Allows users to connect multiple crypto wallets to the payment gateway, simplifying community payments and enhancing transaction efficiency.",
   },
   {
     title: "Multi-Lingual Capabilities",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Enables users to conduct transactions in their preferred language, ensuring a seamless payment experience.",
   },
   {
     title: "Real-Time Transaction Confirmations",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Provides instant transaction status updates, covering both processing and approval stages in real-time.",
   },
   {
-    title: "Simple & Intuitive Interface",
+    title: "User-Friendly Interface",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Features a simple and intuitive design, making navigation smooth and ensuring effortless access to the platform.",
+  },
+  {
+    title: "Multi-Platform Compatibility",
+    description:
+      "Accessible via web, mobile, and desktop, ensuring smooth integration without modifying existing system settings.",
   },
 ];
 

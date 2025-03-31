@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
-import { DigitalBankingFaq } from "../../../components/data/faqsData";
+import { P2pLendingFaq } from "../../../components/data/faqsData";
 import Framework from "../../../components/CommonComponent/Framework";
 import { P2pLendingFramework } from "../../../components/data/frameworkData";
 
@@ -20,10 +20,7 @@ const P2pLending = () => {
           Development Company
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Accelerate your financial objectives with our robust P2P lending software. Experience secure and seamless connections between lenders and borrowers, crafted for optimal reliability and efficiency.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-6">
@@ -63,22 +60,12 @@ const P2pLending = () => {
         </div>
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-           Elevate Your Lending Experience with the Top P2P Lending Platform Software
+          Enhance Your Lending Experience with Leading P2P Lending Platform Software
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
-          </p>
+          Giichi offers an unparalleled peer-to-peer lending software solution for businesses aiming to revolutionize their lending operations. Built on cutting-edge automation and AI-powered algorithms, our platform facilitates seamless connections between borrowers and lenders, boosting operational efficiency and accelerating loan processing. <br/> <br/>
+          With a strong focus on security and compliance, we implement sophisticated, multilayered protocols to safeguard sensitive user data. Our P2P lending platform is designed to adapt to the ever-evolving regulatory environment, ensuring confidence and trust among all stakeholders.
+         </p>
         </div>
       </div>
        
@@ -86,15 +73,15 @@ const P2pLending = () => {
       <div className="mt-12">
         <Framework
           data={P2pLendingFramework}
-          heading1="Our Crypto Digital Banking"
-          heading2="Solution Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          heading1="Features of P2P Lending Platform"
+          heading2=""
+          desc="Enhance your confidence in P2P lending with our advanced security measures. Our platform is equipped with state-of-the-art features designed to protect every transaction and user interaction."
         />
       </div>
 
       {/* FAQ SECTION */}
       <div className="mt-24">
-        <Faq data={DigitalBankingFaq} />
+        <Faq data={P2pLendingFaq} />
       </div>
     </div>
   );

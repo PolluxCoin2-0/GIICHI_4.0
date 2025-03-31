@@ -1417,37 +1417,37 @@ export const StablecoinFramework =  [
     logo: ManagementImg,
     title: "Multi-Currency Accounts",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Empowers users to manage multiple cryptocurrencies in a single account, simplifying portfolio tracking and transactions.",
   },
   {
     logo: CreditCardImg,
     title: "Debit/Credit Card Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Seamlessly links crypto and NFT accounts to debit or credit cards for effortless spending and cash withdrawals.",
   },
   {
     logo: DebitcardImg,
     title: "Multi-Currency Virtual Cards",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Facilitates cross-border transactions, enabling users to send and receive funds internationally through your platform.",
   },
   {
     logo: WalletImg,
     title: "User-specific Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Offers secure digital asset management with private key protection and safeguards against unauthorized transactions.",
   },
   {
     logo: RetailImg,
     title: "Instant Payment Settlements",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enables near-instant transaction settlements, enhancing efficiency and reducing waiting times for fund transfers.",
   },
   {
     logo: paymentImg,
     title: "Contactless Payments",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Supports NFC-enabled virtual card payments, ensuring seamless and secure in-store transactions.",
   },
 ];
 
@@ -1462,49 +1462,49 @@ export const PaymentGatewayFramework =  [
     logo: WalletImg,
     title: "Highly-Secure Crypto Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enables secure storage, tracking, and swift transfer of cryptocurrencies with robust wallet development solutions.",
   },
   {
     logo: supplyChainImg1,
-    title: "Blockchain Payment",
+    title: "Blockchain Payment Integration",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Supports seamless transactions on blockchain networks, ensuring high security for all crypto payments.",
   },
   {
     logo: paymentImg,
     title: "Multiple Payment Options",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Allows effortless crypto-to-fiat conversions and vice versa, enabling payments via wire transfers, credit cards, and debit cards.",
   },
   {
     logo: SoftwareImg,
     title: "API Plugins",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enhances automation in payment processing with scalable API integrations, streamlining both payment and non-payment transactions.",
   },
   {
     logo: marketingImg,
     title: "Mobile Application",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Empowers users to manage crypto transactions on the go—make payments, access digital assets, and convert crypto to fiat anytime, anywhere.",
   },
   {
     logo: FundImg,
-    title: "User Handled Funds",
+    title: "User-Controlled Funds",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Grants users full ownership of their private keys, ensuring complete control over their funds without intermediary involvement.",
   },
   {
     logo: SafetyImg,
     title: "Defense-Grade Security",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Implements top-tier security measures to protect transactions and user data against cyber threats and fraud.",
   },
   {
     logo: RecordImg,
     title: "Crypto Invoice Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Simplifies invoicing with tools to generate, send, and track payments in multiple cryptocurrencies.",
   },
 ];
 
@@ -1513,7 +1513,7 @@ export const P2pLendingFramework =  [
     logo: privacyPolicyImg,
     title: "Data Encryption",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Ensures that users' credentials and sensitive information stored in the database are fully protected through advanced encryption methods.",
   },
   {
     logo: SafetyImg,
@@ -1543,25 +1543,25 @@ export const P2pLendingFramework =  [
     logo: testingImg,
     title: "Self-XSS Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Protects users from cross-site scripting (XSS) attacks, preventing unauthorized access to user accounts.",
   },
   {
     logo: securityImg,
     title: "Server-Side Request Forgery Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Prevents SSRF attacks, where attackers manipulate requests from the server to gain unauthorized access.",
   },
   {
     logo: SatelliteImg,
     title: "HTTP Parameter Pollution Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Stops attacks that attempt to retrieve hidden information by manipulating HTTP requests.",
   },
   {
     logo: ManagementImg,
     title: "Prevention of Multiple logins of Same Credentials",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Limits users to one active session at a time, ensuring secure, authenticated access.",
   },
 ];
 
