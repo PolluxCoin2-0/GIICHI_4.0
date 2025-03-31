@@ -40,6 +40,30 @@ import realEstateImg from "../../assets/realesate.png";
 import collectibleImg from "../../assets/agreement.png";
 import commodityImg from "../../assets/commodity.png";
 import equityImg from "../../assets/printer.png";
+import FundImg from "../../assets/fund.png";
+import processImg from "../../assets/process.png";
+import CompetitionImg from "../../assets/Competition.png";
+import privacyPolicyImg from "../../assets/privacy-policy.png";
+import SafetyImg from "../../assets/Safety.png";
+import FacilitatesInteroperabilityImg from "../../assets/Facilitates Interoperability.png";
+import TrustImg from "../../assets/talk.png";
+import CyberAttacksImg from "../../assets/Cyber attacks.png";
+import Dependency from "../../assets/Dependency.png";
+import SkillsImg from "../../assets/Skills.png";
+import ExperienceImg from "../../assets/Experience.png";
+import GlobalImg from "../../assets/Global.png";
+import StakingImg from "../../assets/Staking.png";
+import CoinImg from "../../assets/Coin.png";
+import ExchangeImg from "../../assets/Exchange.png";
+import stockChartImg from "../../assets/stock-chart.png";
+import speedometerImg from "../../assets/speedometer.png";
+import buyButtonImg from "../../assets/buy-button.png";
+import ManufactureImg from "../../assets/manufacture.png";
+import ManagementImg from "../../assets/management.png";
+import SoftwareImg from "../../assets/Software.png";
+import lifestyleImg from "../../assets/lifestyle.png";
+import marketingImg from "../../assets/marketing.png";
+import RecordImg from "../../assets/record.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -436,37 +460,37 @@ export const AssetTokenFramework =  [
 
 export const BlockchainConsultingFramework =  [
   {
-    logo: realEstateImg,
+    logo: supplyChainImg1,
     title: "Exploring Blockchain Technology",
     description:
       "Our experienced blockchain consultants provide businesses with in-depth insights into blockchain technology, helping them explore its potential use cases and maximize its benefits.",
   },
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: " Cost-Effective in Nature",
     description:
       "By eliminating intermediaries and identifying inefficiencies in business operations, blockchain enables cost reduction through optimized, blockchain-based solutions.",
   },
   {
-    logo: realEstateImg,
+    logo: processImg,
     title: " Streamlined Processes ",
     description:
       "Blockchain solutions effectively streamline business processes and operations, enabling faster and more efficient transactions.",
   },
   {
-    logo: realEstateImg,
+    logo: CompetitionImg,
     title: "Offers Competitive Advantage",
     description:
       "Harnessing the power of blockchain technology gives businesses a competitive edge by enhancing transparency, efficiency, and security.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Enhanced Safety and Security",
     description:
       "Blockchain technology offers enhanced security through its decentralized ledger, which records all transactions securely, transparently, and tamper-proof.",
   },
   {
-    logo: realEstateImg,
+    logo: privacyPolicyImg,
     title: "Improved Data Privacy ",
     description:
       "Blockchain technology enables secure and private data sharing, ensuring sensitive information is handled with the highest level of confidentiality and enhanced privacy.",
@@ -476,37 +500,37 @@ export const BlockchainConsultingFramework =  [
 
 export const Web3ConsultingFramework =  [
   {
-    logo: realEstateImg,
+    logo: credibilityImg,
     title: "Streamlining Business Processes",
     description:
       "Web3 simplifies business transactions and enhances manageability while automating various processes to streamline operations efficiently.",
   },
   {
-    logo: realEstateImg,
+    logo: Dependency,
     title: "Elimination of Third Party Dependency",
     description:
       "Built on blockchain architecture, Web3 eliminates third-party dependence, helping businesses save time, effort, and costs.",
   },
   {
-    logo: realEstateImg,
+    logo: dataImg,
     title: "Effective Data Management",
     description:
       "The rise of Web3 enhances data management by enabling seamless sharing and collaboration across borders, ensuring efficiency and effectiveness.",
   },
   {
-    logo: realEstateImg,
+    logo:  CyberAttacksImg,
     title: "Lowered Risk of Hacks and Cyber Attacks",
     description:
       "Web3 decentralized nature ensures secure, tamper-proof transactions, minimizing the risk of hacks and cyberattacks.",
   },
   {
-    logo: realEstateImg,
+    logo: TrustImg,
     title: "Enhanced Trust and Transparency",
     description:
       "Integrating Web3 enhances trust and transparency through blockchain technology, where every transaction remains visible and verifiable by all.",
   },
   {
-    logo: realEstateImg,
+    logo: FacilitatesInteroperabilityImg,
     title: "Facilitates Interoperability",
     description:
       "Web3 technology enables seamless interoperability, ensuring that various products and systems function smoothly across different platforms without interruptions.",
@@ -516,37 +540,37 @@ export const Web3ConsultingFramework =  [
 
 export const MetaverseConsultingFramework =  [
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "Hyper-Personalized User Experience",
     description:
       "The metaverse enhances customer satisfaction and loyalty by delivering hyper-personalized user experiences.",
   },
   {
-    logo: realEstateImg,
+    logo: collabImg,
     title: "Improved User Engagement and Connection",
     description:
       "The metaverse enables businesses to enhance services, boost user engagement, and strengthen connections.",
   },
   {
-    logo: realEstateImg,
+    logo: SkillsImg,
     title: "Seamless Training and Skills Delivery",
     description:
       "The metaverse enables businesses across industries to deliver seamless training and skill development for new employees.",
   },
   {
-    logo: realEstateImg,
+    logo: ExperienceImg,
     title: "Providing Highly Immersive Experiences",
     description:
       "The metaverse allows businesses to deliver immersive experiences, creating a captivating environment for users.",
   },
   {
-    logo: realEstateImg,
+    logo: TrustImg,
     title: "Creating Digital Twins",
     description:
       "The metaverse enables the creation of digital twins for various objects, allowing advanced simulations and in-depth analysis.",
   },
   {
-    logo: realEstateImg,
+    logo: GlobalImg,
     title: "Increased Accessibility on a Global Scale ",
     description:
       "The metaverse offers global accessibility, allowing users worldwide to easily and conveniently access the platform.",
@@ -556,37 +580,37 @@ export const MetaverseConsultingFramework =  [
 
 export const DefiConsultingFramework =  [
   {
-    logo: realEstateImg,
+    logo: StakingImg,
     title: "DeFi Staking",
     description:
       "We provide end-to-end support for your staking strategy, whether you choose to build your own infrastructure or leverage ours.",
   },
   {
-    logo: realEstateImg,
+    logo: depinAssetImg,
     title: "Decentralized Assets",
     description:
       "We guide you in navigating the exciting world of decentralized assets, unlocking new opportunities in crypto investing.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Stablecoins",
     description:
       "We help you identify the right stablecoin for your needs and develop a strong strategy to navigate potential challenges.",
   },
   {
-    logo: realEstateImg,
+    logo: depinScImg,
     title: "DeFi Protocols",
     description:
       "With the fast-growing DeFi landscape, we provide expert insights and help you evaluate its potential for your business.",
   },
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "Liquidity Mining",
     description:
       "We provide insights into liquidity mining, helping you understand its risks and opportunities while developing strategies to maximize returns.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Custody & Security",
     description:
       "Protecting your crypto assets and private keys is essential. We help you design a tailored security and custody strategy.",
@@ -596,37 +620,37 @@ export const DefiConsultingFramework =  [
 
 export const CustomExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Crypto Exchange Consulting",
     description:
       "Our team of seasoned tech professionals offers specialized consulting services for clients new to the crypto space, ensuring a seamless and hassle-free transition into the world of digital assets.",
   },
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Custom Exchange Development",
     description:
       "We design highly functional cryptocurrency exchanges with robust security measures, customized to meet clients' specific needs and incorporate all desired features.",
   },
   {
-    logo: realEstateImg,
+    logo: scDevImg,
     title: "Whitelabel Exchange Development",
     description:
       "As a pioneering crypto exchange development company, we offer scalable and secure white-label cryptocurrency exchange solutions, enabling a seamless and hassle-free trading experience.",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Arbitrage Bot Development",
     description:
       "Our skilled and experienced developers create advanced arbitrage trading bots that automate trading processes, enabling strategic trading and maximizing profitability.",
   },
   {
-    logo: realEstateImg,
+    logo: CompetitionImg,
     title: "Offers Competitive Advantage",
     description:
       "An open-source framework for building interoperable multi-asset blockchains, supporting both public Proof-of-Stake (PoS) and permissioned Proof-of-Authority (PoA) networks.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Enhanced Safety and Security",
     description:
       "A permissionless framework for launching custom Layer 2 and Layer 3 chains within the Polkadot ecosystem, enabling cross-chain communication and scalability.",
@@ -635,31 +659,31 @@ export const CustomExchangeFramework =  [
 
 export const WhiteLabelExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: speedometerImg,
     title: "High-Volume TPS",
     description:
       "TPS is a key metric for evaluating the efficiency of an exchange. Our white label crypto exchange guarantees exceptional performance, capable of handling up to 100,000 transactions per second.",
   },
   {
-    logo: realEstateImg,
+    logo: buyButtonImg,
     title: "High-Powered Trading Engine",
     description:
       "We equip exchanges with a robust trading engine designed to execute buy/sell orders with minimal latency. It supports all major order types, including limit, market, and stop orders.",
   },
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "KYC and AML",
     description:
       "Geography-based KYC/AML procedures help prevent unauthorized users from accessing the trading platform. These measures are also triggered when large cryptocurrency withdrawal requests are detected.",
   },
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Automated Trading",
     description:
       "The advanced bot trading module enables users to capitalize on market opportunities 24/7. Its primary function is to support continuous trading and ensure order books remain filled at all times.",
   },
   {
-    logo: realEstateImg,
+    logo: CompetitionImg,
     title: "Referral and Reward Program",
     description:
       "Giichi has a  market-leading white label crypto trading platform comes with expertly designed referral and reward programs, allowing users to earn incentives by bringing in new participants.",
@@ -671,19 +695,19 @@ export const WhiteLabelExchangeFramework =  [
       "Our ready-to-deploy crypto white label exchange is integrated with external liquidity sources, ensuring a fully populated order book and smooth trade executions, regardless of market conditions.",
   },
   {
-    logo: realEstateImg,
+    logo: StakingImg,
     title: "Staking Module",
     description:
       "The staking feature enables users to lock their funds and earn additional rewards on their crypto holdings. It also allows platform owners to boost liquidity, security, and control.",
   },
   {
-    logo: realEstateImg,
+    logo: paymentImg,
     title: "Payment Gateway Integration",
     description:
       "Our crypto exchange white label software development team creates platforms that support various payment methods, enabling a broader customer base to perform instant transactions.",
   },
   {
-    logo: realEstateImg,
+    logo: ManufactureImg,
     title: "Advanced Admin Console",
     description:
       "Our white label cryptocurrency exchange development solution features a user-friendly, powerful admin dashboard that allows customers to efficiently manage the platform and their funds.",
@@ -693,19 +717,19 @@ export const WhiteLabelExchangeFramework =  [
 
 export const MarginTradingExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: "Increased Profits",
     description:
       " Margin trading benefits both traders and exchange owners. Traders can maximize their profits with a small initial investment, while exchange owners can boost their earnings by collecting transaction fees on each trade.",
   },
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "New Revenue Stream",
     description:
       "Crypto exchange platforms often have idle funds in their reserves. By integrating a crypto leverage trading exchange, owners can use these funds to enable traders to leverage, generating consistent returns.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Increased Users and Revenue",
     description:
       "Whether the crypto market is bearish or bullish, traders are eager to speculate for significant profits. A crypto exchange offering leverage trading can attract more users, leading to higher earnings for exchange owners.",
@@ -714,37 +738,37 @@ export const MarginTradingExchangeFramework =  [
 
 export const DerivativesExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Exchange Consulting Services",
     description:
       "As a leading centralized cryptocurrency exchange development company, we provide expert consulting to help clients smoothly transition into the world of crypto.",
   },
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Custom Exchange Development",
     description:
       "Our skilled team of developers can create fully customized centralized exchanges tailored to meet business-specific requirements, ensuring complete client satisfaction.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Crypto Exchange Software",
     description:
       "We develop high-performance software for centralized crypto exchanges to ensure seamless, uninterrupted functionality",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Exchange Security Solutions",
     description:
       "We provide robust security solutions for both newly developed and existing centralized crypto exchanges, safeguarding transactions and ensuring a secure trading environment.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Integration Services & Solutions",
     description:
-      "Our integration services include adding or modifying features and functionalities to existing crypto exchanges, optimizing them to meet desired goals.",
+    "Our integration services include adding or modifying features and functionalities to existing crypto exchanges, optimizing them to meet desired goals.",
   },
   {
-    logo: realEstateImg,
+    logo: lifestyleImg,
     title: "Exchange Maintenance Services",
     description:
       "We offer maintenance services for both new and existing exchanges, ensuring smooth, glitch-free operations.",
@@ -753,37 +777,37 @@ export const DerivativesExchangeFramework =  [
 
 export const CentralizedExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Exchange Consulting Services",
     description:
       "As a leading provider of centralized cryptocurrency exchange development, we offer expert consulting to help clients seamlessly enter the crypto space.",
   },
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Custom Exchange Development",
     description:
       "Our skilled development team specializes in building bespoke centralized exchanges tailored to meet the unique needs of businesses, ensuring complete client satisfaction.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Crypto Exchange Software",
     description:
       "We design and develop cutting-edge software for centralized cryptocurrency exchanges, ensuring smooth and uninterrupted functionality.",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Exchange Security Solutions",
     description:
       "We provide robust security solutions for the centralized exchanges we develop, as well as for existing exchanges, ensuring secure transactions at all times.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Integration Services & Solutions",
     description:
       "Our integration services involve enhancing or modifying features and functionalities of existing crypto exchanges to deliver the desired outcomes.",
   },
   {
-    logo: realEstateImg,
+    logo: lifestyleImg,
     title: "Exchange Maintenance Services",
     description:
       "We offer ongoing maintenance services for both new and existing exchanges, ensuring they run efficiently without technical issues.",
@@ -792,55 +816,55 @@ export const CentralizedExchangeFramework =  [
 
 export const P2PExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "Verified User Profiles",
     description:
       "This feature allows users to boost their credibility by verifying their profiles.",
   },
   {
-    logo: realEstateImg,
+    logo: speedometerImg,
     title: "Powerful Matching Engine",
     description:
       "Our high-speed matching engine ensures minimal latency when matching buy and sell orders based on price and quantity preferences",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Escrow System",
     description:
       "A smart contract-based escrow securely holds funds until the transaction is completed, ensuring both parties' security.",
   },
   {
-    logo: realEstateImg,
+    logo: paymentImg,
     title: "Payment Methods",
     description:
       "Our P2P cryptocurrency exchange software supports a wide range of payment options, including bank transfers, gift cards, mobile payments, and more.",
   },
   {
-    logo: realEstateImg,
+    logo: StakingImg,
     title: "Multi-layer Security",
     description:
       "We implement encryption for data and wallets, 2FA, anti-phishing protocols, and other robust security measures to ensure maximum protection.",
   },
   {
-    logo: realEstateImg,
+    logo: FacilitatesInteroperabilityImg,
     title: "Third-Party KYC",
     description:
       "By partnering with KYC providers like SumSub, Shufti Pro, and Ondato, we add an extra layer of authentication to enhance platform security.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Dispute Resolution",
     description:
       "Our platform includes a strong dispute management system where the escrow service resolves issues based on presented evidence.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Multi-Chain USDT",
     description:
       "This feature allows for safeguarding NFT projects through comprehensive audits using advanced tools and methodologies.",
   },
   {
-    logo: realEstateImg,
+    logo: TrustImg,
     title: "Atomic Swaps",
     description:
       "We support P2P cross-chain swaps, expanding trading opportunities and enabling fast, cost-effective transactions.",
@@ -849,55 +873,55 @@ export const P2PExchangeFramework =  [
 
 export const MarketMakingExchangeFramework =  [
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Order-Book Liquidity Management",
     description:
       "We ensure a well-balanced order book by consistently placing buy and sell orders, facilitating seamless trade execution.",
   },
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Cross-Exchange Arbitrage Management",
     description:
       "Our cryptocurrency market-making bots eliminate arbitrage opportunities by maintaining uniform asset pricing across multiple trading platforms.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Bid-Ask Spread Management",
     description:
       "We maintain competitive, tight spreads, reducing entry and exit costs for investors while promoting confident trading.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "24X7 Agile Cryptocurrency Market Making",
     description:
       "With advanced trading bots, our team continuously monitors and adapts to market fluctuations, ensuring a strategic approach to changing conditions.",
   },
   {
-    logo: realEstateImg,
+    logo: KycImg,
     title: " Volume Generation",
     description:
       "From early adoption to mass trading, we ensure a steady token volume, keeping market charts active and organic.",
   },
   {
-    logo: realEstateImg,
+    logo: commodityImg,
     title: "Asset Liquidation",
     description:
       "As a top-tier market maker, we assist clients in liquidating assets efficiently when they wish to sell off their token inventory.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Price Stability & Support",
     description:
       "Our 24/7 market-making bots provide ongoing price support, helping to stabilize and increase asset value in different market conditions.",
   },
   {
-    logo: realEstateImg,
+    logo: SkillsImg,
     title: "Strategic PR & Launch Planning",
     description:
       "Leverage industry expertise to plan and execute PR campaigns, marketing strategies, and exchange listings for optimal market impact.",
   },
   {
-    logo: realEstateImg,
+    logo: stockChartImg,
     title: "Expert Market Strategy Development",
     description:
       "Our experienced strategists design tailored market-making strategies to help clients navigate volatile market conditions and achieve their financial goals.",

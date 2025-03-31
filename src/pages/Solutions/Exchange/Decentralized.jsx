@@ -1,48 +1,52 @@
-import { FaExchangeAlt } from "react-icons/fa";
+import { FaExchangeAlt, FaFileContract } from "react-icons/fa";
 import Faq from "../../../components/resuableComponent/Faq";
 import { DecentralizedExchangeFaq } from "../../../components/data/faqsData";
+import { RiGovernmentFill, RiP2pFill } from "react-icons/ri";
+import { MdOutlineSecurity, MdPrivacyTip } from "react-icons/md";
+import { IoMdSpeedometer } from "react-icons/io";
+import { BsGlobeCentralSouthAsia } from "react-icons/bs";
 
 const platforms = [
   {
     name: "Peer-to-Peer Trading",
-    icon: <FaExchangeAlt />,
+    icon: <RiP2pFill color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "Liquidity Pools",
-    icon: <FaExchangeAlt />,
+    icon: <FaExchangeAlt color="#8AF969"/>,
     color: "bg-black",
   },
   
   {
     name: "Enhanced Security",
-    icon: <FaExchangeAlt />,
+    icon: <MdOutlineSecurity color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "Fast Transactions",
-    icon: <FaExchangeAlt />,
+    icon: <IoMdSpeedometer color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "User Privacy & Anonymity",
-    icon: <FaExchangeAlt />,
+    icon: <MdPrivacyTip color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "No Centralized Authority",
-    icon: <FaExchangeAlt />,
+    icon: <BsGlobeCentralSouthAsia color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "Smart Contract Integration",
-    icon: <FaExchangeAlt />,
+    icon: <FaFileContract color="#8AF969"/>,
     color: "bg-black",
   },
  
   {
     name: "Decentralized Governance",
-    icon: <FaExchangeAlt />,
+    icon: <RiGovernmentFill color="#8AF969"/>,
     color: "bg-black",
   },
 ];

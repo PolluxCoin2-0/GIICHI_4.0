@@ -2,64 +2,68 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { WhiteLabelExchangeFramework } from "../../../components/data/frameworkData";
-import { FaExchangeAlt, FaShoppingCart } from "react-icons/fa";
-import { FaEthereum, FaWallet } from "react-icons/fa6";
+import { FaExclamationTriangle, FaNetworkWired, FaServer } from "react-icons/fa";
 import Faq from "../../../components/resuableComponent/Faq";
 import { WhiteLabelExchangeFaq } from "../../../components/data/faqsData";
+import { SiLetsencrypt } from "react-icons/si";
+import { BiSolidLogInCircle } from "react-icons/bi";
+import { TbAuth2Fa } from "react-icons/tb";
+import { MdOutlineHttp } from "react-icons/md";
+import { AiOutlineFileProtect } from "react-icons/ai";
 
 const platforms = [
  {
     name: "Data Encryption",
-    icon: <FaEthereum />,
+    icon: <SiLetsencrypt color="#8AF969"/>,
     description:
       "Data encryption helps prevent unauthorized access to user credentials and other sensitive information.",
-    color: "bg-black",
+    color: "#8AF969",
   },
   {
     name: "Jail Login",
-    icon: <FaWallet />,
+    icon: <BiSolidLogInCircle color="#8AF969"/>,
     description:
       "The jail login feature blocks login attempts for a specified duration after multiple failed login attempts.",
     color: "bg-black",
   },
   {
     name: "Two-Factor Authentication",
-    icon: <FaShoppingCart />,
+    icon: <TbAuth2Fa color="#8AF969"/>,
     description:
       "Our white label Bitcoin exchange solution includes a 2FA mechanism to provide an extra layer of security during the login process.",
     color: "bg-black",
   },
   {
     name: "Anti-Denial of Service (Dos)",
-    icon: <FaExchangeAlt />,
+    icon: <FaExclamationTriangle  color="#8AF969"/>,
     description:
       "Anti-DoS protection safeguards the ecosystem by detecting and mitigating a high volume of requests identified by the trading engine.",
     color: "bg-black",
   },
   {
     name: "Token-Based HTTP Authentication",
-    icon: <FaExchangeAlt />,
+    icon: <MdOutlineHttp color="#8AF969"/>,
     description:
       "Mechanisms like OAuth provide secure user authentication through token-based HTTP authentication.",
     color: "bg-black",
   },
   {
     name: "Anti-Distributed Denial Of Service (DDoS)",
-    icon: <FaEthereum />,
+    icon: <FaNetworkWired color="#8AF969"/>,
     description:
       "Anti-DDoS protection shields the white label crypto trading platform from attacks where multiple connected devices target it simultaneously.",
     color: "bg-black",
   },
   {
     name: "Server-Side Request Forgery (SSRF) Protection",
-    icon: <FaWallet />,
+    icon: <FaServer color="#8AF969"/>,
     description:
       "SSRF protection defends the crypto white label exchange from attacks originating within authorized internal applications.",
     color: "bg-black",
   },
   {
     name: "HTTP Parameter Pollution Protection",
-    icon: <FaShoppingCart />,
+    icon: <AiOutlineFileProtect color="#8AF969"/>,
     description:
       "This protection safeguards networks from web attacks where HTTP requests are manipulated to access hidden data.",
     color: "bg-black",
@@ -196,7 +200,7 @@ const WhiteLabel = () => {
           {platforms.map((platform, index) => (
             <div key={index} className="cursor-pointer">
               <div
-                className={`text-white p-6 rounded-2xl shadow-lg ${platform.color}`}
+                className={`text-white p-6 rounded-2xl shadow-lg`}
               >
                 <div className="flex flex-col items-center text-center gap-4">
                   <div className="text-4xl">{platform.icon}</div>

@@ -3,51 +3,56 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { MarginTradingExchangeFramework } from "../../../components/data/frameworkData";
-import { FaExchangeAlt, FaShoppingCart } from "react-icons/fa";
-import { FaEthereum, FaWallet } from "react-icons/fa6";
+import { FaHourglassStart, FaLayerGroup, FaSearchDollar } from "react-icons/fa";
 import fundImg from "../../../assets/fund.png";
 import Faq from "../../../components/resuableComponent/Faq";
 import { MarginTradingExchangeFaq } from "../../../components/data/faqsData";
+import ExchangeImg from "../../../assets/Exchange.png";
+import stockChartImg from "../../../assets/stock-chart.png";
+import buyButtonImg from "../../../assets/buy-button.png";
+import { IoMdSpeedometer } from "react-icons/io";
+import { HiWallet } from "react-icons/hi2";
+import { MdAdminPanelSettings } from "react-icons/md";
 
 const platforms = [
   {
     name: "High Leverage",
-    icon: <FaExchangeAlt />,
+    icon: <FaHourglassStart color="#8AF969"/>,
     description:
       "Enables users to amplify their buying or selling power by leveraging up to several times their initial investment.",
     color: "bg-black",
   },
   {
     name: "Multi-layer Security",
-    icon: <FaEthereum />,
+    icon: <FaLayerGroup color="#8AF969"/>,
     description:
       "Top-tier security features, including SSL encryption and two-factor authentication, ensure secure access for legitimate users.",
     color: "bg-black",
   },
   {
     name: "Advanced Order Types",
-    icon: <FaWallet />,
+    icon: <FaSearchDollar color="#8AF969"/>,
     description:
       "The exchange supports various trading order types, such as market orders, copy trading, and more.",
     color: "bg-black",
   },
   {
     name: "Powerful Trading Engine",
-    icon: <FaShoppingCart />,
+    icon: <IoMdSpeedometer color="#8AF969"/>,
     description:
       "Our high-performance trading engine provides unmatched speed and reliability, enhancing the platform’s overall performance.",
     color: "bg-black",
   },
   {
     name: "Multi-currency Wallet",
-    icon: <FaExchangeAlt />,
+    icon: <HiWallet color="#8AF969"/>,
     description:
       "Integrated multi-currency wallet ensures fast, secure transactions across a wide range of cryptocurrencies.",
     color: "bg-black",
   },
   {
     name: "Robust Admin Panel",
-    icon: <FaEthereum />,
+    icon: <MdAdminPanelSettings color="#8AF969"/>,
     description:
       "The comprehensive admin panel allows easy monitoring of user activities and transactions across the platform.",
     color: "bg-black",
@@ -124,7 +129,7 @@ const MarginTrading = () => {
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={fundImg}
+              src={ExchangeImg}
               alt="report-image"
               className="w-16 group-hover:hidden"
             />
@@ -140,7 +145,7 @@ const MarginTrading = () => {
           </div>
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={fundImg}
+              src={stockChartImg}
               alt="manage-image"
               className="w-16 group-hover:hidden"
             />
@@ -157,7 +162,7 @@ const MarginTrading = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={fundImg}
+              src={buyButtonImg}
               alt="wallet-image"
               className="w-16 group-hover:hidden"
             />
