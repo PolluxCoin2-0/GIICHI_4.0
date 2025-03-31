@@ -30,7 +30,7 @@ const ArbitrageBots = () => {
         img={BlockchainImg}
         title1="Crypto Arbitrage"
         title2="Bot Development"
-        desc="With expertise in 40+ blockchain protocols, Giichi IT Solutions is driving the web3 revolution with cutting-edge blockchain development services."
+        desc="Effortlessly achieve your trading goals and maximize profits by automating your crypto trading with our cutting-edge crypto trading bot development solutions."
       />
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
@@ -43,15 +43,12 @@ const ArbitrageBots = () => {
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Crypto Arbitrage Bot Development to Maximize Your Crypto Trading
-            Profit
+          Crypto Arbitrage Bot Development for Maximum Trading Profit
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          As a leading crypto trading bot development company, we create advanced automated arbitrage trading software with state-of-the-art features and superior functionalities. Our bots are designed to significantly boost your trading profit margins by leveraging cutting-edge technology, high performance, and robust security measures.<br/> <br/>
+
+          Crypto arbitrage trading bot development is essential for not only automating trades but also executing diverse trading strategies efficiently and effortlessly. Our team of expert developers ensures that each bot is tailored to meet the unique needs of both individual traders and crypto businesses, delivering optimal results.
           </p>
 
           {/* button to connect on whatsapp */}
@@ -77,7 +74,7 @@ const ArbitrageBots = () => {
           data={ArbitrageBotFramework}
           heading1="Our Crypto Arbitrage Trading"
           heading2="Bot Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="Unlock the potential of professionally developed crypto arbitrage bots to take advantage of market inefficiencies and seamlessly execute trades across multiple crypto exchanges."
         />
       </div>
 
@@ -86,10 +83,10 @@ const ArbitrageBots = () => {
       {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8 mt-12">
         <h2 className="text-2xl font-bold text-white">
-          Types of Crypto Arbitrage Bots We Build:
+          Types of Crypto Arbitrage Bots We Develop:
         </h2>
         <p className="text-white text-opacity-70 mt-2 max-w-2xl">
-          Our team of crypto bot developers is capable of building
+          Our team of arbitrage bot developers is capable of building
           high-frequency trading bots for a wide range of trading strategies.
         </p>
         <div className="flex flex-col md:flex-row items-center space-x-24 mt-6 w-full max-w-7xl">
@@ -120,9 +117,9 @@ const ArbitrageBots = () => {
       {/* Lifecycle data */}
       <div>
         <LifeCycle
-          heading1="Our Crypto Derivative Exchange"
+          heading1="Our Crypto Arbitrage Bot "
           heading2="Development Process"
-          desc="We follow a step-by-step process for crypto derivatives exchange development to provide the best services to every client."
+          desc="As a top-tier crypto arbitrage bot development company, we follow a well-structured process to deliver high-quality, customized solutions for every client."
           steps={derivativesLifeCycleData}
         />
       </div>
@@ -140,9 +137,9 @@ const ArbitrageBots = () => {
           {/* Custom First Card */}
           <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
             <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-              Why choose Giichi for Asset <br />
+              Why choose Giichi for Bot <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization Services?
+                Development Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">

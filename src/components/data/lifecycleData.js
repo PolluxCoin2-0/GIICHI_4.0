@@ -185,44 +185,44 @@ export const maasLifeCycleData = [
 export const derivativesLifeCycleData = [
   {
     title: "Consultation Phase",
-    description: "We begin with a consulting phase tailored for clients looking to enter the crypto world, helping them understand its potential and the benefits of derivatives trading.",
+    description: "We begin with expert consultation services, especially tailored for clients new to crypto arbitrage trading. This helps them make informed decisions and set the foundation for profitable trades.",
     image: understandImg,
   },
   {
     title: "Discovery Phase",
-    description: "In this phase, we dive deep into understanding your goals through detailed discussions and brainstorming sessions, which help us outline a clear plan to achieve your objectives.",
+    description: "In this stage, we gain a deep understanding of your trading goals through brainstorming sessions, allowing us to create a strategic roadmap for development.",
     image: researchImg,
   },
   {
     title: "Requirements Gathering",
-    description: "We collect all the necessary requirements for the exchange and perform thorough analysis to create a roadmap. This ensures that the development process is aligned with your expectations.",
+    description: "We conduct an in-depth analysis of your specific requirements, ensuring that all aspects of the project are clearly defined before proceeding with development.",
     image: contentImg,
   },
   {
     title: "Solution and Strategy Design",
-    description: "Our experts design appropriate solutions and create strategic plans to ensure a smooth, intuitive user experience on the crypto derivatives exchange.",
+    description: "Our team designs a comprehensive trading bot solution that aligns perfectly with your needs, ensuring an efficient and effective trading experience.",
     image: designImg,
   },
   {
     title: "Development Phase",
     description:
-      "The core development of the platform and crypto derivatives software takes place in this phase. Our team works on the approved designs and requirements to build the exchange, ensuring it’s ready for launch.",
+      "This is where the core development of the crypto arbitrage bot takes place, transforming the approved design into a fully functional, high-performance trading bot.",
     image: deliveryImg,
   },
   {
     title: "Testing and Quality Analysis",
-    description: "After development, our dedicated QA team conducts rigorous testing to ensure that the platform meets all standards and is free of any issues before it’s launched.",
+    description: "Our dedicated QA team rigorously tests the bot to identify and resolve any issues, ensuring it operates flawlessly before launch.",
     image: designImg,
   },
   {
     title: "Deployment Phase",
     description:
-      "Once the platform passes quality assurance, we proceed with the launch. We ensure a seamless deployment process to guarantee full client satisfaction.",
+      "Once the bot passes all quality checks, we deploy it efficiently, ensuring a seamless launch and complete client satisfaction.",
     image: deliveryImg,
   },
   {
     title: "Maintenance and Support",
-    description: "Following the successful launch, we provide ongoing maintenance and support to ensure the platform runs smoothly, addressing any bugs or technical issues that may arise.",
+    description: "Post-deployment, we provide ongoing maintenance and support services to ensure smooth performance, timely updates, and quick resolution of any technical issues.",
     image: designImg,
   },
 

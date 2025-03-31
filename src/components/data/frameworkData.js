@@ -1096,31 +1096,31 @@ export const ArbitrageBotFramework =  [
     logo: realEstateImg,
     title: "Crypto Arbitrage Bot Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "The crypto market is highly volatile, making it challenging to manually track arbitrage opportunities. Our automated arbitrage trading bots operate 24/7, ensuring you never miss a profitable trade.",
   },
   {
     logo: realEstateImg,
     title: "Bot-as-a-Service(BaaS)",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our innovative Bot-as-a-Service (BaaS) model enables businesses to deploy and manage trading bots effortlessly. With our cloud-based solution, security and maintenance are fully handled by us, allowing you to focus on trading.",
   },
   {
     logo: realEstateImg,
-    title: "AI Arbitrage Trading Bot Development",
+    title: "AI Arbitrage Bot Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Enhance your trading strategy with AI-driven arbitrage bots that utilize real-time data analysis, pattern recognition, high-speed execution, multi-market adaptability, and optimization capabilities.",
   },
   {
     logo: realEstateImg,
     title: "Arbitrage Bot Consultation Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Navigate the world of automated trading with expert guidance. Our experienced consultants assist with strategy development, technology selection, algorithm optimization, risk management, and security assessments to ensure a successful trading experience.",
   },
   {
     logo: realEstateImg,
     title: "Arbitrage Bot Integration Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Seamlessly integrate advanced crypto arbitrage AI bots into your existing trading platform or exchange. Our developers specialize in API configuration, risk management integration, and ensuring smooth functionality across multiple trading environments.",
   },
   
 ];
