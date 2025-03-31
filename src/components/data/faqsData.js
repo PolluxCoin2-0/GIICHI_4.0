@@ -467,25 +467,31 @@ export const MemecoinFaq = [
 
 export const DigitalBankingFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is crypto digital banking?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "Crypto digital banking refers to financial services that integrate cryptocurrencies with traditional banking features. It allows users to store, transfer, and manage both fiat and digital assets within a single platform.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How is crypto banking different from traditional banking?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "Unlike traditional banks that operate with fiat currencies and centralized control, crypto banks leverage blockchain technology, providing decentralized, borderless, and often faster financial transactions.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "Is crypto banking safe?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Crypto banking platforms implement security measures like encryption, two-factor authentication (2FA), and cold storage. However, users should also follow best practices, such as using strong passwords and enabling security features.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "Can I earn interest on my crypto holdings in a digital bank?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Yes, many crypto banks offer interest-bearing accounts where users can earn yields by staking or lending their cryptocurrencies, similar to traditional savings accounts.",
+  },
+  {
+    question:
+      "Are crypto digital banks regulated?",
+    answer:
+      "Regulations vary by country. Some crypto banks comply with financial regulations like KYC (Know Your Customer) and AML (Anti-Money Laundering), while others operate in more decentralized frameworks.",
   },
  
 ];

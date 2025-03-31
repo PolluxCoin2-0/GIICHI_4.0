@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import Framework from "../../../components/CommonComponent/Framework";
@@ -14,17 +15,14 @@ const DigitalBanking = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl 3xl:text-[50px] font-semibold pt-4 tracking-wide">
            Crypto Friendly{" "}
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl  2xl:text-5xl 3xl:text-[50px] font-semibold pt-6 tracking-wide">
           Digital Banking Solution
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Step into the future of banking with our scalable, feature-rich white-label crypto-friendly banking solutions designed for seamless digital finance.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-6">
@@ -64,17 +62,11 @@ const DigitalBanking = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Crypto Banking Solutions: A Step to Streamlined Financial Services
+          Crypto Banking Solutions: Simplifying Financial Services
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br/> <br/>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga iure 
-            obcaecati porro nemo assumenda quisquam, magni sit! Aperiam aliquid architecto fuga tenetur aliquam possimus rerum. Molestias ullam, 
-            voluptas suscipit voluptatum cupiditate itaque nostrum, reiciendis vel culpa facere minus, dolores expedita dolore.
+          As cryptocurrencies and contactless payments gain momentum, the demand for crypto-friendly banking is rising. Whether you're a bank, financial institution, startup, or established business, our comprehensive crypto banking solutions empower you to launch and scale seamlessly. <br/> <br/>
+          At Giichi, we offer a ready-to-use digital banking platform with essential financial services, including bank accounts, credit/debit cards, trading, and seamless payment options—ensuring smooth operations and an effortless onboarding experience for your users.
           </p>
         </div>
       </div>
@@ -87,8 +79,7 @@ const DigitalBanking = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Digital Banking experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -122,7 +113,7 @@ const DigitalBanking = () => {
           data={DigitalBankingFramework}
           heading1="Our Crypto Digital Banking"
           heading2="Solution Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="A one-stop platform for all your digital banking needs, powered by cutting-edge blockchain technology for seamless and secure financial transactions."
         />
       </div>
 
