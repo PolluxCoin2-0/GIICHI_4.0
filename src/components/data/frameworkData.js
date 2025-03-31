@@ -1244,40 +1244,40 @@ export const TokenCoinFramework =  [
 export const StablecoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Stablecoin Consulting and Advisory Services",
+    title: "Stablecoin Consulting & Advisory",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our expert consulting services help businesses navigate their stablecoin projects smoothly, minimizing risks and ensuring seamless execution. We provide strategic guidance to ensure success at every stage.",
   },
   {
     logo: realEstateImg,
-    title: "Stable Coin Development",
+    title: "Custom Stablecoin Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We deliver end-to-end stablecoin solutions, from concept design and smart contract development to deployment and ongoing support, tailored to meet diverse business needs.",
   },
   {
     logo: realEstateImg,
     title: "Regulatory Compliance Assistance",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Navigating regulations can be complex. Our experts provide legal guidance, covering KYC/AML procedures and global compliance frameworks to ensure your stablecoin meets all necessary standards.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Promotion and Marketing Services",
+    title: "Stablecoin Promotion & Marketing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "From whitepaper creation and pre-launch campaigns to post-launch marketing, we help businesses maximize visibility and attract investors across multiple channels.",
   },
   {
     logo: realEstateImg,
-    title: "Token Integration and Wallet Development",
+    title: "Token Integration & Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We offer seamless integration of stablecoins into wallets, exchanges, and dApps, along with the development of custom wallets for enhanced accessibility and user experience.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security and Audit Services",
+    title: "Security & Audit Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Security is our priority. We conduct comprehensive audits to identify vulnerabilities, mitigate risks, and protect user funds, ensuring a robust and secure stablecoin ecosystem.",
   },
  ];
 

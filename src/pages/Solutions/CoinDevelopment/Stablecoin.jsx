@@ -1,8 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import Framework from "../../../components/CommonComponent/Framework";
 import { StablecoinFramework } from "../../../components/data/frameworkData";
 import { FaFingerprint } from "react-icons/fa";
+import Faq from "../../../components/resuableComponent/Faq";
+import { StableCoinDevFaq } from "../../../components/data/faqsData";
 
 const steps = [
   {
@@ -39,17 +42,14 @@ const Stablecoin = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-4 tracking-wide">
             Stablecoin{" "}
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-6 tracking-wide">
             Development Company
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Create your own stablecoin with our cutting-edge stablecoin development services, ensuring a seamless and hassle-free experience from start to finish.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6">
@@ -89,14 +89,11 @@ const Stablecoin = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Stablecoin Development Services Tailored to Your Specific Needs
+          Customized Stablecoin Development Services
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          As a leading stablecoin development company, we offer end-to-end solutions tailored to your unique needs. Whether you're an individual, startup, or enterprise, our expert team ensures high-quality development that meets all your requirements. <br/> <br/>
+          We understand the transformative potential of stablecoins in the financial sector. Our services cover the entire development lifecycle—from concept and development to testing, deployment, and continuous support, ensuring a seamless experience.
           </p>
         </div>
       </div>
@@ -109,8 +106,7 @@ const Stablecoin = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Stablecoin Development experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -170,11 +166,16 @@ const Stablecoin = () => {
       <div className="mt-32">
         <Framework
           data={StablecoinFramework}
-          heading1="Our Stable Coin Development Services"
-          heading2=""
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          heading1=""
+          heading2="Our Stable Coin Development Services"
+          desc="We provide a comprehensive range of stablecoin development solutions, ensuring businesses get everything they need under one roof. Here's what we offer:"
         />
       </div>
+
+       {/* FAQ */}
+            <div className="mt-24">
+              <Faq data={StableCoinDevFaq} />
+            </div>
     </div>
   );
 };

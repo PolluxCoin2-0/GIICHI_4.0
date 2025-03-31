@@ -736,3 +736,28 @@ export const CentralizedExchangeFaq = [
       "They use two-factor authentication (2FA), SSL encryption, cold storage, and regular security audits to ensure user protection.",
   },
 ];
+
+
+export const StableCoinDevFaq = [
+  {
+    question: "What is a stablecoin?",
+    answer:
+      "A cryptocurrency pegged to stable assets like fiat, gold, or crypto to reduce volatility.",
+  },
+  {
+    question: "Types of stablecoins?",
+    answer:
+      "Fiat-backed, crypto-backed, commodity-backed, and algorithmic stablecoins.",
+  },
+  {
+    question: "How is regulatory compliance ensured?",
+    answer:
+      "Through KYC/AML, legal frameworks, and jurisdictional adherence.",
+  },
+  {
+    question: "What security measures are included?",
+    answer:
+      "Smart contract audits, encryption, and fraud prevention for secure transactions.",
+  },
+
+];
