@@ -1284,40 +1284,40 @@ export const StablecoinFramework =  [
  export const MemecoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Stablecoin Consulting and Advisory Services",
+    title: "Meme Coin Creation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We develop secure, high-performance meme coins with advanced token architecture, strong security layers, and viral market positioning for sustained liquidity and adoption.",
   },
   {
     logo: realEstateImg,
-    title: "Stable Coin Development",
+    title: "Logo Designing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our expert designers craft distinctive brand identities, combining artistic creativity and strategic branding to establish a strong market presence.",
   },
   {
     logo: realEstateImg,
-    title: "Regulatory Compliance Assistance",
+    title: "Tokenomics Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We design optimized token economies with dynamic supply mechanics, staking models, and incentive-driven structures to maximize value and long-term growth.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Promotion and Marketing Services",
+    title: "Meme Coin Marketing",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our data-driven marketing strategies leverage Web3 virality, influencer collaborations, and gamified promotions to boost visibility.",
   },
   {
     logo: realEstateImg,
-    title: "Token Integration and Wallet Development",
+    title: " Exchange Listings",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We facilitate meme coin listings on top centralized and decentralized exchanges, increasing liquidity, investor reach, and trading efficiency.",
   },
 
   {
     logo: realEstateImg,
-    title: "Security and Audit Services",
+    title: " Liquidity Pool Formation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We establish robust liquidity pools with strategic token pairing, algorithmic market-making, and yield optimization to maintain price stability.",
   },
  ];
 

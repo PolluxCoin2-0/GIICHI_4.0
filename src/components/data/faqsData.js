@@ -442,25 +442,25 @@ export const IDOFaq = [
 
 export const MemecoinFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How long does it take to develop a meme coin?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "The timeline varies based on customization, blockchain selection, and feature complexity, but typically takes a few weeks to a couple of months.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What factors determine a meme coin's success?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "Success depends on strategic tokenomics, strong branding, liquidity, community engagement, and effective marketing.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "Can a meme coin have utility beyond hype?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Yes! Adding staking, governance, play-to-earn models, or real-world use cases enhances long-term value.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "How do you ensure security in meme coin development?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "We implement rigorous smart contract audits, anti-bot mechanisms, and robust security protocols to prevent vulnerabilities.",
   },
  
 ];
