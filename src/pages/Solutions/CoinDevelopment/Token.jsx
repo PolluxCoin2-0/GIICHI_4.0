@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import Framework from "../../../components/CommonComponent/Framework";
 import { TokenCoinFramework } from "../../../components/data/frameworkData";
-import { clientData } from "../../../components/data/clientData";
+import { tokenDevelopmentData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const Token = () => {
@@ -13,17 +13,14 @@ const Token = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-            Crypto Token{" "}
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-4 tracking-wide">
+          Leading Crypto Token {" "}
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-6 tracking-wide">
             Development Company
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Transform your digital strategy with our premium crypto token development services. As a CMMI Level 5-certified firm, we provide cutting-edge solutions that adhere to the highest industry standards.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6">
@@ -63,37 +60,32 @@ const Token = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Our Crypto Token Development Company Brings Next Gen Tokens At Your
-            Fingertips
+          Next-Gen Crypto Token Development at Your Fingertips
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          Explore our comprehensive crypto token development services, designed to deliver advanced and feature-rich tokens tailored to your needs. Our expertise ensures seamless functionality, including:
           </p>
 
           <div className="flex flex-row items-center space-x-12 mt-8">
             <div>
               <p className="text-white text-sm ">Multi-Chain Minting</p>
               <p className="text-white text-sm mt-4">
-                Universal Wallet Compatibility
+              Effortless Token Listing
               </p>
               <p className="text-white text-sm mt-4">
-                Universal Wallet Compatibility
+              Universal Wallet Compatibility
               </p>
-              <p className="text-white text-sm  mt-4">Seamless Token Listing</p>
+              <p className="text-white text-sm  mt-4">Secure Token Minting</p>
             </div>
             <div>
-              <p className="text-white text-sm ">Multi-Chain Minting</p>
+              <p className="text-white text-sm ">Strategic Token Pausing</p>
               <p className="text-white text-sm mt-4">
-                Universal Wallet Compatibility
+              Efficient Token Burning
               </p>
               <p className="text-white text-sm mt-4">
-                Universal Wallet Compatibility
+              Multiple Currency Support
               </p>
-              <p className="text-white text-sm  mt-4">Seamless Token Listing</p>
+              <p className="text-white text-sm  mt-4">Robust Multi-Factor Security</p>
             </div>
           </div>
         </div>
@@ -107,8 +99,7 @@ const Token = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Token Development experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -140,9 +131,9 @@ const Token = () => {
       <div className="mt-20">
         <Framework
           data={TokenCoinFramework}
-          heading1="Explore Our Comprehensive"
+          heading1="Explore Our Comprehensive "
           heading2="Token Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="Unlock limitless opportunities with our cryptocurrency development solutions, designed to support various blockchain ecosystems and asset types."
         />
       </div>
 
@@ -152,19 +143,17 @@ const Token = () => {
                 {/* Custom First Card */}
                 <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
                   <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-                  Mastering the Spectrum of <br />
+                  Mastering the Art of <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
                     Web3 Token Development
                     </span>
                   </h3>
                   <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">
-                    Giichi offers secure, scalable, and regulatory-compliant asset
-                    tokenization, enabling seamless digital asset management and
-                    liquidity.
+                  As a leading blockchain innovator, our token development company is dedicated to crafting cutting-edge Web3 tokens that drive the decentralized revolution.
                   </p>
                 </div>
                 {/* Mapping Client Data */}
-                {clientData.map((client, index) => (
+                {tokenDevelopmentData.map((client, index) => (
                   <div
                     key={index}
                     className="p-4 md:p-6 text-gray-900 rounded-2xl flex flex-col space-y-6 relative transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_4px_20px_rgba(100,255,100,0.5),_0_0_15px_rgba(100,255,100,0.3)]"

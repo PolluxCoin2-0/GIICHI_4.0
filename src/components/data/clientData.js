@@ -53,3 +53,26 @@ export const clientData = [
       title: "Exceptional Post-Development Support",
     },
   ];
+
+  export const tokenDevelopmentData = [
+    {
+      description:
+        "We create regulatory-compliant security tokens that represent real-world assets, unlocking liquidity for traditionally illiquid investments while ensuring transparency and trust.",
+      title: "Security Tokens",
+    },
+    {
+      description:
+        "Our utility token solutions power decentralized platforms, enabling seamless access to blockchain-based services and fueling the cryptocurrency ecosystem.",
+      title: "Utility Tokens",
+    },
+    {
+      description:
+        "We develop governance tokens that empower holders with voting rights, facilitating decentralized decision-making and shaping the evolution of blockchain protocols.",
+      title: "Governance Tokens",
+    },
+    {
+      description:
+        "We design and develop transactional tokens that function as digital currencies, streamlining value transfers within blockchain networks and supporting DeFi growth through innovative crypto solutions.",
+      title: "Transactional Tokens",
+    },
+  ];

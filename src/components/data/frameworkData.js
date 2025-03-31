@@ -1186,58 +1186,58 @@ export const ICOFramework =  [
 export const TokenCoinFramework =  [
   {
     logo: realEstateImg,
-    title: "Crypto Token Consulting & Advisory",
+    title: "ICO & Token Advisory",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our seasoned crypto token consultants provide expert insights and strategic guidance, ensuring you navigate your crypto ventures with confidence and precision.",
   },
   {
     logo: realEstateImg,
-    title: "Designing Meme Coins",
+    title: "Meme Coin Creation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We specialize in designing engaging and market-driven meme coins, enhancing the value and appeal of your digital asset ecosystem.",
   },
   {
     logo: realEstateImg,
-    title: "AI-Based Tokens",
+    title: "AI-Powered Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our AI-integrated token solutions combine artificial intelligence with blockchain technology, enabling intelligent automation and smart tokenized systems.",
   },
   {
     logo: realEstateImg,
-    title: "Stablecoin Creation",
+    title: "Stablecoin Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a leading token development company, we create secure and reliable stablecoins, including crypto-backed, fiat-backed, commodity-backed, and gold-backed variants.",
   },
   {
     logo: realEstateImg,
-    title: "Equity/Asset-Backed Tokens",
+    title: "Security & Asset-Backed Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our team excels in developing security tokens, equity tokens, and utility tokens, streamlining capital-raising and asset-backed initiatives for businesses.",
   },
 
   {
     logo: realEstateImg,
     title: "Telegram Bot Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We provide customized crypto token solutions that integrate seamlessly with Telegram bot functionalities, optimizing trading and user engagement.",
   },
   {
     logo: realEstateImg,
     title: "Non-Fungible Tokens",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Leverage our expertise to develop unique NFTs, enabling the tokenization of art, music, digital ownership, and more with innovation and precision.",
   },
   {
     logo: realEstateImg,
-    title: "DeFi Tokens",
+    title: "DeFi Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our DeFi token solutions empower decentralized financial ecosystems, optimizing lending, borrowing, and investment management processes.",
   },
   {
     logo: realEstateImg,
-    title: "Metaverse Tokens",
+    title: "Metaverse Token Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Work with our skilled blockchain developers to design, build, and launch metaverse tokens that align with the evolving virtual economy.",
   },
 ];
 
