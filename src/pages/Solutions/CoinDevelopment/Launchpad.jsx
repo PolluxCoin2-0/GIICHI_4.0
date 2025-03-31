@@ -4,28 +4,33 @@ import BlockchainImg from "../../../assets/blockchainImg.png";
 import serviceIcon from "../../../assets/collab.png";
 import Faq from "../../../components/resuableComponent/Faq";
 import { CoinLaunchpadFaq } from "../../../components/data/faqsData";
+import StakingImg from "../../../assets/Staking.png";
+import supplyChainImg from "../../../assets/logictics.png";
+import WalletImg from "../../../assets/wallet (2).png";
+import FundImg from "../../../assets/fund.png";
+import RecordImg from "../../../assets/record.png";
 
 const features = [
   {
-    icon: serviceIcon,
+    icon: RecordImg,
     title: "Know your customer (KYC)",
     description:
       "Ensures businesses and investors are verified, granting only legitimate users access to the platform.",
   },
   {
-    icon: serviceIcon,
+    icon: FundImg,
     title: "Multiple fundraising methods",
     description:
       "Supports various fundraising models, allowing businesses to raise capital seamlessly.",
   },
   {
-    icon: serviceIcon,
+    icon: WalletImg,
     title: "Integrated Crypto Wallet",
     description:
       "A secure built-in crypto wallet facilitates safe transactions and storage of digital assets.",
   },
   {
-    icon: serviceIcon,
+    icon: StakingImg,
     title: "Multi-tier staking",
     description:
       "Enables multiple crowdfunding rounds based on the total tokens staked, enhancing participation flexibility.",
@@ -37,7 +42,7 @@ const features = [
       "Boosts project visibility, attracting more investors and fostering trust within the ecosystem.",
   },
   {
-    icon: serviceIcon,
+    icon: supplyChainImg,
     title: "Blockchain Compatibility",
     description:
       "Supports multiple blockchain networks, giving platform owners the flexibility to expand functionality across different ecosystems.",

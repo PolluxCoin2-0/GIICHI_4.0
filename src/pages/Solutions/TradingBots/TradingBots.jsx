@@ -5,8 +5,11 @@ import Services from "../../../components/CommonComponent/Services";
 import { TradingBotsService } from "../../../components/data/ServicesData";
 import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
-import accessImg from "../../../assets/payment.png";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
+import SkillsImg from "../../../assets/Skills.png";
+import SoftwareImg from "../../../assets/Software.png";
+import stockChartImg from "../../../assets/stock-chart.png";
+import ManagementImg from "../../../assets/management.png";
 
 const botTypesLeft = [
   "Margin Trading Bots",
@@ -138,7 +141,7 @@ const TradingBots = () => {
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={accessImg}
+              src={SkillsImg}
               alt="report-image"
               className="w-16 group-hover:hidden"
             />
@@ -155,7 +158,7 @@ const TradingBots = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={accessImg}
+              src={ManagementImg}
               alt="manage-image"
               className="w-16 group-hover:hidden"
             />
@@ -172,7 +175,7 @@ const TradingBots = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={accessImg}
+              src={SoftwareImg}
               alt="wallet-image"
               className="w-16 group-hover:hidden"
             />
@@ -189,7 +192,7 @@ const TradingBots = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[25%] group relative ">
             <img
-              src={accessImg}
+              src={stockChartImg}
               alt="know-your-customer-image"
               className="w-16 group-hover:hidden"
             />
