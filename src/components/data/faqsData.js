@@ -550,6 +550,31 @@ export const PaymentGatewayBankingFaq = [
   },
 ];
 
+export const P2pLendingFaq = [
+  {
+    question: "What is P2P lending?",
+    answer:
+      "Peer-to-peer (P2P) lending is a form of direct lending where individuals or businesses lend money to borrowers through an online platform, bypassing traditional financial institutions like banks. The platform connects lenders and borrowers, facilitating the loan process.",
+  },
+  {
+    question: "How does P2P lending work?",
+    answer:
+      "In P2P lending, borrowers create loan requests on the platform, while lenders browse these requests and choose which loans to fund. The platform facilitates the loan process, including credit checks, documentation, and repayment tracking. Borrowers repay the loan with interest, which is then paid to the lenders.",
+  },
+  {
+    question: "How do I start a P2P cryptocurrency lending platform?",
+    answer:
+      " If you are planning to build a P2P lending platform, you can either choose to go with a white label solution or build a custom P2P lending platform from scratch. White label development requires less development time and cost compared to building the platform from ground zero.",
+  },
+  {
+    question:
+      "How to start a bitcoin lending platform?",
+    answer:
+      "To go ahead with the development of a bitcoin lending platform, you need to be clear on your business model in the first place. Additionally, decide on the features that you need in your platform and partner with a reliable development company.",
+  },
+
+];
+
 export const NftMarketplaceFaq = [
   {
     question: "What is Coin Launchpad Development?",

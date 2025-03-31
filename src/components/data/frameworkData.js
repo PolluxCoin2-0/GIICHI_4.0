@@ -1509,55 +1509,37 @@ export const P2pLendingFramework =  [
     logo: realEstateImg,
     title: "Data Encryption",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Ensures that users' credentials and sensitive information stored in the database are fully protected through advanced encryption methods.",
   },
   {
     logo: realEstateImg,
     title: "JWT Encryption",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Anti-Denial of Service (DoS)",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Anti-Distributed Denial of Service",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Protection against SQL Injection",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Secures data by encrypting JSON Web Tokens (JWT), preventing unauthorized data manipulation.",
   },
   {
     logo: realEstateImg,
     title: "Self-XSS Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Protects users from cross-site scripting (XSS) attacks, preventing unauthorized access to user accounts.",
   },
   {
     logo: realEstateImg,
     title: "Server-Side Request Forgery Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Prevents SSRF attacks, where attackers manipulate requests from the server to gain unauthorized access.",
   },
   {
     logo: realEstateImg,
     title: "HTTP Parameter Pollution Protection",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Stops attacks that attempt to retrieve hidden information by manipulating HTTP requests.",
   },
   {
     logo: realEstateImg,
     title: "Prevention of Multiple logins of Same Credentials",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Limits users to one active session at a time, ensuring secure, authenticated access.",
   },
 ];
 
