@@ -120,8 +120,9 @@ const TronWallet = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-        Exclusive Features of TRON Wallet</p>
-        
+          Exclusive Features of TRON Wallet
+        </p>
+
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           {benefits.map((row, rowIndex) => (
             <div

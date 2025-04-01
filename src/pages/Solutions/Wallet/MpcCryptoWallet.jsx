@@ -20,8 +20,7 @@ const stages = [
   },
   {
     number: "03",
-    title:
-      "DeFi Integration",
+    title: "DeFi Integration",
     socialIcon: null,
   },
   {
@@ -47,13 +46,21 @@ const comparisons = [
     cefi: "MPC schemes are blockchain-agnostic and interoperable.",
     defi: "Multisig is limited to the blockchain it’s implemented on.",
   },
-  { feature: "Access", cefi: "MPC scales efficiently without performance loss.", defi: " Multisig can be slow due to required coordination." },
+  {
+    feature: "Access",
+    cefi: "MPC scales efficiently without performance loss.",
+    defi: " Multisig can be slow due to required coordination.",
+  },
   {
     feature: "Censorship",
     cefi: "MPC transactions are simpler and cost-effective.",
     defi: "Multisig transactions are larger and incur higher fees.",
   },
-  { feature: "Cost", cefi: "MPC simplifies the user experience and can be simple for users", defi: "Multisig requires coordination and can be more complex for users." },
+  {
+    feature: "Cost",
+    cefi: "MPC simplifies the user experience and can be simple for users",
+    defi: "Multisig requires coordination and can be more complex for users.",
+  },
 ];
 
 const MpcCryptoWallet = () => {
@@ -65,7 +72,8 @@ const MpcCryptoWallet = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-5xl text-white font-semibold text-center">
-          MPC Crypto Wallet<br />
+          MPC Crypto Wallet
+          <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Company
           </span>
@@ -74,9 +82,18 @@ const MpcCryptoWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-            Strengthen Your Institutional Wallet with Leading MPC Wallet Development Services <br/> <br/>
-            Elevate your institutional wallets to highly secure solutions with the expertise of a top MPC wallet development company. Our goal is to provide advanced asset protection, ensuring peace of mind for your business.   <br/> <br/>
-            With our MPC (Multi-Party Computation) wallet development services, we offer cutting-edge solutions designed to enhance the security and management of your institutional wallets. By distributing private keys across multiple parties, our MPC technology ensures that no single entity ever has access to the full key, significantly reducing the risk of hacks or breaches.
+              Strengthen Your Institutional Wallet with Leading MPC Wallet
+              Development Services <br /> <br />
+              Elevate your institutional wallets to highly secure solutions with
+              the expertise of a top MPC wallet development company. Our goal is
+              to provide advanced asset protection, ensuring peace of mind for
+              your business. <br /> <br />
+              With our MPC (Multi-Party Computation) wallet development
+              services, we offer cutting-edge solutions designed to enhance the
+              security and management of your institutional wallets. By
+              distributing private keys across multiple parties, our MPC
+              technology ensures that no single entity ever has access to the
+              full key, significantly reducing the risk of hacks or breaches.
             </p>
 
             {/* button to connect on whatsapp */}
@@ -117,13 +134,13 @@ const MpcCryptoWallet = () => {
         />
       </div>
 
-      
       {/* DEFI DEVELOPMENT JOURNEY */}
       <div className="mt-24">
         <div className="flex flex-col justify-center items-center">
-        <p className="text-white text-2xl md:text-3xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
-        Exploring Profitable Ways to Make Money with <br/> MPC Wallet Development Solutions
-        </p>
+          <p className="text-white text-2xl md:text-3xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
+            Exploring Profitable Ways to Make Money with <br /> MPC Wallet
+            Development Solutions
+          </p>
         </div>
         <div className="p-4 mt-6">
           <div className="relative flex items-center justify-between max-w-7xl 3xl:max-w-[1380px] mx-auto">
@@ -155,11 +172,10 @@ const MpcCryptoWallet = () => {
         </div>
       </div>
 
-
-         {/* DIFFERNCE BETWEEN CEFI VS DEFI */}
-         <div className="mt-24">
+      {/* DIFFERNCE BETWEEN CEFI VS DEFI */}
+      <div className="mt-24">
         <p className="text-white text-4xl font-semibold text-center">
-        MPC Wallets vs. Multi-Signature Crypto Wallets
+          MPC Wallets vs. Multi-Signature Crypto Wallets
         </p>
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
@@ -175,7 +191,9 @@ const MpcCryptoWallet = () => {
                     <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
                   </svg>
                 </div>
-                <p className="text-2xl font-semibold text-center">MPC Wallets</p>
+                <p className="text-2xl font-semibold text-center">
+                  MPC Wallets
+                </p>
               </div>
               <div className="bg-green bg-opacity-10 p-4">
                 {comparisons.map((comp, index) => (
@@ -230,7 +248,8 @@ const MpcCryptoWallet = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Blockchain experts TODAY!
+            Reach Giichi and discuss your requirements with our Blockchain
+            experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a

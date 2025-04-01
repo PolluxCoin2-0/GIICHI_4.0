@@ -58,11 +58,18 @@ const Web3Development = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Partner with Our Leading Web 3.0 Development Company to Expand Your Market
+            Partner with Our Leading Web 3.0 Development Company to Expand Your
+            Market
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
-          Web 3.0 represents the next evolution of the internet, enabling users to engage with websites and dApps in a highly immersive way. Embrace the Web 3.0 revolution with our expert development team and elevate your business to new heights.  <br/> <br/>
-          We provide a comprehensive range of Web 3.0 development services tailored to meet the diverse needs of businesses across various industries. Our skilled and experienced Web 3.0 professionals craft strategic solutions designed to drive business success.
+            Web 3.0 represents the next evolution of the internet, enabling
+            users to engage with websites and dApps in a highly immersive way.
+            Embrace the Web 3.0 revolution with our expert development team and
+            elevate your business to new heights. <br /> <br />
+            We provide a comprehensive range of Web 3.0 development services
+            tailored to meet the diverse needs of businesses across various
+            industries. Our skilled and experienced Web 3.0 professionals craft
+            strategic solutions designed to drive business success.
           </p>
         </div>
       </div>
@@ -92,18 +99,18 @@ const Web3Development = () => {
 
       {/* Blockchain Depin Framework */}
       <div className="">
-      <Framework
-        data={Web3DevelopmentFramework}
-        heading1="All-Inclusive Web3.0"
-        heading2="Development Services Under One Roof"
-        desc="Explore our comprehensive Web 3.0 development offerings and choose the perfect solution to meet your business needs."
-      />
+        <Framework
+          data={Web3DevelopmentFramework}
+          heading1="All-Inclusive Web3.0"
+          heading2="Development Services Under One Roof"
+          desc="Explore our comprehensive Web 3.0 development offerings and choose the perfect solution to meet your business needs."
+        />
       </div>
 
       {/* WEB3 DEVELOPMENT JOURNEY */}
       <div className="mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
-        Navigating Our Web3 Development Journey
+          Navigating Our Web3 Development Journey
         </p>
         <p className="text-white text-opacity-70 text-center pt-4">
           We follow a coherent roadmap to seamlessly drive your Web3 development
@@ -151,7 +158,8 @@ const Web3Development = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Web3.0 Development experts TODAY!
+            Reach Giichi and discuss your requirements with our Web3.0
+            Development experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
