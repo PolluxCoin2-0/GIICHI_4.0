@@ -456,6 +456,30 @@ export const DefiWalletFaq = [
   },
 ];
 
+export const NftWalletFaq = [
+  {
+    question: "What is NFT development?",
+    answer:
+      "NFT development involves creating unique, blockchain-based digital assets that represent ownership of items like artwork, collectibles, music, and in-game assets. It includes smart contract creation, marketplace integration, and wallet support.",
+  },
+  {
+    question: "Which blockchain is best for NFT development?",
+    answer:
+      "Ethereum is the most popular blockchain for NFT development, but alternatives like Solana, Binance Smart Chain, and Polygon offer lower fees and faster transactions.",
+  },
+  {
+    question: "How much does it cost to develop an NFT platform?",
+    answer:
+      "The cost varies based on features, blockchain selection, and customization. A basic NFT marketplace can cost $30,000–$100,000, while advanced platforms with custom smart contracts can exceed $150,000.",
+  },
+  {
+    question:
+      "What are the key features of an NFT marketplace?",
+    answer:
+      "A robust NFT marketplace includes smart contracts, wallet integration, auction systems, multi-chain support, and strong security features to facilitate seamless buying, selling, and trading of NFTs.",
+  },
+ 
+];
 
 export const CoinLaunchpadFaq = [
   {

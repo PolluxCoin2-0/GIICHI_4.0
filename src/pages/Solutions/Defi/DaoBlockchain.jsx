@@ -24,7 +24,11 @@ const comparisons = [
     cefi: "Decision-Making: Driven by expertise and seniority within the organization.",
     defi: "Decision-Making: Automated through AI, independent agents, and smart contracts.",
   },
-  { feature: "Cost", cefi: "Operational Costs: Typically high due to administrative overhead and layers of management.", defi: "Operational Costs: Lower, thanks to decentralized governance and reduced administrative overhead." },
+  {
+    feature: "Cost",
+    cefi: "Operational Costs: Typically high due to administrative overhead and layers of management.",
+    defi: "Operational Costs: Lower, thanks to decentralized governance and reduced administrative overhead.",
+  },
 ];
 
 const DaoBlockchain = () => {
@@ -50,7 +54,8 @@ const DaoBlockchain = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our DAO Development experts TODAY!
+            Reach Giichi and discuss your requirements with our DAO Development
+            experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -84,24 +89,29 @@ const DaoBlockchain = () => {
           DAO vs Traditional Organizations
         </p>
         <p className="text-white text-opacity-75 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-4">
-        When comparing governance models for organizations, there are two primary options: COs (Traditional or Continuous Organizations) and DAOs. Both are powered by advanced crypto-economic principles and smart contracts.
+          When comparing governance models for organizations, there are two
+          primary options: COs (Traditional or Continuous Organizations) and
+          DAOs. Both are powered by advanced crypto-economic principles and
+          smart contracts.
         </p>
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
             <div>
-            <div className="bg-green text-white flex items-center space-x-4 p-6">
-  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="black"
-      className="w-6 h-6 text-blue-500"
-    >
-      <path d="M3 21V8.5l9-6.5 9 6.5V21h-5v-5h-8v5H3z" />
-    </svg>
-  </div>
-  <p className="text-2xl font-semibold text-center">Traditional Organizations</p>
-</div>
+              <div className="bg-green text-white flex items-center space-x-4 p-6">
+                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="black"
+                    className="w-6 h-6 text-blue-500"
+                  >
+                    <path d="M3 21V8.5l9-6.5 9 6.5V21h-5v-5h-8v5H3z" />
+                  </svg>
+                </div>
+                <p className="text-2xl font-semibold text-center">
+                  Traditional Organizations
+                </p>
+              </div>
 
               <div className="bg-green bg-opacity-10 p-4">
                 {comparisons.map((comp, index) => (
@@ -119,19 +129,19 @@ const DaoBlockchain = () => {
 
           <div className="w-1/2">
             <div>
-            <div className="bg-green text-white flex items-center space-x-4 p-6">
-  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="w-6 h-6 text-blue"
-    >
-      <path d="M9 2H15V4H9V2ZM4.22 5.64L5.64 4.22L7.05 5.64L5.64 7.05L4.22 5.64ZM2 9H4V15H2V9ZM4.22 18.36L5.64 19.78L7.05 18.36L5.64 16.95L4.22 18.36ZM9 20H15V22H9V20ZM16.95 18.36L18.36 19.78L19.78 18.36L18.36 16.95L16.95 18.36ZM20 9H22V15H20V9ZM16.95 5.64L18.36 7.05L19.78 5.64L18.36 4.22L16.95 5.64ZM12 6C15.31 6 18 8.69 18 12C18 15.31 15.31 18 12 18C8.69 18 6 15.31 6 12C6 8.69 8.69 6 12 6Z" />
-    </svg>
-  </div>
-  <p className="text-2xl font-semibold">AI DAOs</p>
-</div>
+              <div className="bg-green text-white flex items-center space-x-4 p-6">
+                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 h-6 text-blue"
+                  >
+                    <path d="M9 2H15V4H9V2ZM4.22 5.64L5.64 4.22L7.05 5.64L5.64 7.05L4.22 5.64ZM2 9H4V15H2V9ZM4.22 18.36L5.64 19.78L7.05 18.36L5.64 16.95L4.22 18.36ZM9 20H15V22H9V20ZM16.95 18.36L18.36 19.78L19.78 18.36L18.36 16.95L16.95 18.36ZM20 9H22V15H20V9ZM16.95 5.64L18.36 7.05L19.78 5.64L18.36 4.22L16.95 5.64ZM12 6C15.31 6 18 8.69 18 12C18 15.31 15.31 18 12 18C8.69 18 6 15.31 6 12C6 8.69 8.69 6 12 6Z" />
+                  </svg>
+                </div>
+                <p className="text-2xl font-semibold">AI DAOs</p>
+              </div>
 
               <div className="bg-green bg-opacity-10 text-white p-4">
                 {comparisons.map((comp, index) => (
