@@ -1039,37 +1039,37 @@ export const Web3WalletFramework =  [
     logo: realEstateImg,
     title: "Multi-Currency Web3 Wallets",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our multi-currency Web3 wallets allow users to securely store and trade various crypto assets. Whether it's trading NFTs, cryptocurrencies, or game tokens, these wallets simplify transactions for both seasoned traders and beginners.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Mobile Wallets",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our Web3 mobile wallets are designed for seamless storage and transfer of digital assets. We can create single and multi-currency wallets tailored to your business requirements, ensuring smooth transactions on the go.",
   },
   {
     logo: realEstateImg,
     title: "White Label Web3 Wallets",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Quickly enter the wallet space with our ready-made White Label Web3 wallet solutions. Our team applies their in-depth domain knowledge to deliver scalable and customizable solutions that meet your needs.",
   },
   {
     logo: realEstateImg,
     title: "Centralized Web3 Wallets",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We also specialize in developing centralized wallets integrated with private keys for enhanced security. These wallets safeguard digital assets from potential breaches and ensure secure access management.",
   },
   {
     logo: realEstateImg,
     title: "Decentralized Web3 Wallets",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Gain complete control over your assets with our decentralized Web3 wallets, built using Web3 protocols. These wallets can seamlessly connect with decentralized applications (dApps) for effortless interaction.",
   },
   {
     logo: realEstateImg,
     title: "Web3 TRON Wallet",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      " Harness the full potential of the TRON blockchain with our Web3 TRON wallet development services. Whether you're a startup or an established enterprise, we help you create powerful wallets that enable easy management and trading of TRX.",
   },
 ];
 
