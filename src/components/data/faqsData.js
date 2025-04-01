@@ -657,6 +657,38 @@ export const Web3DevelopmentFaq = [
  
 ];
 
+export const DeFiStakingFaq = [
+  {
+    question: "What is DeFi staking?",
+    answer:
+      "DeFi staking involves locking tokens in a decentralized platform to earn passive income. Users contribute their assets to a shared pool, and rewards are distributed based on the amount staked.",
+  },
+  {
+    question: "How does DeFi staking work?",
+    answer:
+      "In DeFi staking, users stake their tokens in a platform that uses algorithms to select participants for rewards. The more tokens you stake, the higher your chances of earning, though the selection process remains random.",
+  },
+  {
+    question: "What are the benefits of DeFi staking?",
+    answer:
+      "The main benefits include passive income, reward generation, and contributing to the security of decentralized networks. Staking also helps reduce network congestion and facilitates consensus mechanisms like Proof-of-Stake (PoS).",
+  },
+  {
+    question:
+      " Is DeFi staking safe?",
+    answer:
+      "DeFi staking is generally safe when using trusted platforms with robust security features, though risks such as smart contract vulnerabilities exist. Always choose platforms with proper audits and security measures in place.",
+  },
+  {
+    question:
+      " Can I withdraw my tokens anytime?",
+    answer:
+      "It depends on the platform. Some DeFi staking platforms allow instant withdrawals, while others may require a lock-up period. Always check the platform’s terms and conditions before staking.",
+  },
+ 
+ 
+];
+
 export const DaoBlockchainFaq = [
   {
     question: "What is a DAO?",
