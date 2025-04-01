@@ -657,27 +657,57 @@ export const Web3DevelopmentFaq = [
  
 ];
 
-export const DefiDevelopmentFaq = [
+export const DaoBlockchainFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is a DAO?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "A DAO is a decentralized organization governed by its members through smart contracts, where decisions are made collectively without central authority.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How does a DAO work?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "A DAO operates using smart contracts that automate decision-making. Members vote on proposals using DAO tokens, and the system executes decisions automatically.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What are the benefits of DAOs?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "DAOs offer decentralization, transparency, lower costs, and democratic governance, removing the need for intermediaries and empowering community-driven decision-making.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      " How are decisions made in a DAO?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Decisions are made by voting with DAO tokens, where votes are proportional to token holdings. Smart contracts automatically implement the results.",
+  },
+];
+
+export const DefiDevelopmentFaq = [
+  {
+    question: " What is decentralization in DeFi?",
+    answer:
+      "Decentralization in DeFi means financial services are run on a blockchain, without centralized control, offering transparency and user autonomy.",
+  },
+  {
+    question: "How does DeFi ensure security without intermediaries?",
+    answer:
+      "DeFi uses blockchain for transparent, immutable transactions and smart contracts for automation, removing the need for traditional intermediaries.",
+  },
+  {
+    question: "What are the benefits of DeFi decentralization?",
+    answer:
+      "Benefits include lower fees, faster transactions, better privacy, and increased financial inclusion.",
+  },
+  {
+    question:
+      "Can DeFi be as efficient as CeFi?",
+    answer:
+      "DeFi offers great benefits but can face challenges in speed and scalability, though improvements are ongoing.",
+  },
+  {
+    question:
+      "Is DeFi more secure than CeFi?",
+    answer:
+      "DeFi offers transparency and security through blockchain, though it’s still vulnerable to smart contract risks, requiring careful research and audits.",
   },
  
 ];
