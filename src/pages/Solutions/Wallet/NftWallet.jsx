@@ -3,25 +3,25 @@
 import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
 import { NftWalletFaq } from "../../../components/data/faqsData";
-import { FaExchangeAlt } from "react-icons/fa";
+import { FaShieldAlt, FaKey, FaFire } from "react-icons/fa";
 
 const platforms = [
   {
     name: "Custodial Wallet",
     desc: "A custodial NFT wallet is managed by a third party that securely stores assets, tokens, and private keys on its servers. Users must log into the wallet to access and perform transactions.",
-    icon: <FaExchangeAlt />,
+    icon: <FaShieldAlt color="#8AF969" />,
     color: "bg-black",
   },
   {
     name: "Non-Custodial Wallet",
     desc: "A non-custodial NFT wallet gives users full control over their assets and private keys. Owners are solely responsible for securing their keys and must avoid sharing private information with third parties.",
-    icon: <FaExchangeAlt />,
+    icon: <FaKey color="#8AF969"/>,
     color: "bg-black",
   },
   {
     name: "Hot Wallet",
     desc: "Hot wallets are desktop and mobile applications that allow users to buy, sell, and exchange NFTs. These wallets operate online, with strong security measures in place to prevent unauthorized access or tampering.",
-    icon: <FaExchangeAlt />,
+    icon: <FaFire color="#8AF969"/>,
     color: "bg-black",
   },
 ];

@@ -4,35 +4,35 @@ import Framework from "../../../components/CommonComponent/Framework";
 import { DerivativesExchangeFramework } from "../../../components/data/frameworkData";
 import Services from "../../../components/CommonComponent/Services";
 import { DerivativeDevelopmentService } from "../../../components/data/ServicesData";
-import { FaExchangeAlt } from "react-icons/fa";
+import { FaChartLine, FaFileContract, FaClipboardList, FaInfinity } from "react-icons/fa";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { derivativesLifeCycleData } from "../../../components/data/lifecycleData";
 
 const platforms = [
   {
     name: "Futures Trading",
-    icon: <FaExchangeAlt />,
+    icon: <FaChartLine color="#8AF969"/>,
     description:
       "In futures trading, the buyer and seller agree on a fixed price for the crypto asset to be settled at a specific future date. These contracts are standardized and come with an expiration date.",
     color: "bg-black",
   },
   {
     name: "Forwards Trading",
-    icon: <FaExchangeAlt />,
+    icon: <FaFileContract color="#8AF969"/>,
     description:
       "Similar to futures trading, forwards contracts are more customizable, allowing both parties to adjust terms, including the underlying asset, based on their needs.",
     color: "bg-black",
   },
   {
     name: "Options Trading",
-    icon: <FaExchangeAlt />,
+    icon: <FaClipboardList color="#8AF969"/>,
     description:
       "Options trading gives the buyer the right, but not the obligation, to purchase a crypto asset at an agreed price by a specific date. The buyer can also specify a particular time for the purchase.",
     color: "bg-black",
   },
   {
     name: "Perpetual Trading",
-    icon: <FaExchangeAlt />,
+    icon: <FaInfinity color="#8AF969"/>,
     description:
       "Perpetual trading involves exchanging one form of cash flow for another at a future date. These swaps are typically influenced by interest rates, currencies, and commodities.",
     color: "bg-black",

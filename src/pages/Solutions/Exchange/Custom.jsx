@@ -3,22 +3,21 @@ import BannerContent from "../../../components/CommonComponent/BannerContent"
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { CustomExchangeFramework } from "../../../components/data/frameworkData";
-import { FaExchangeAlt, FaShoppingCart } from "react-icons/fa";
-import { FaEthereum, FaWallet } from "react-icons/fa6";
+import { FaBuilding, FaEthereum, FaUsers, FaChartLine, FaBalanceScale, FaStore, FaCoins, FaClipboardList } from "react-icons/fa"; // Import relevant icons
 import Process from "../../../components/CommonComponent/Process";
 import { CryptoExchangeProcessSteps } from "../../../components/data/processData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { CustomExchangeFaq } from "../../../components/data/faqsData";
 
 const platforms = [
-  { name: "Centralized Exchanges", icon: <FaExchangeAlt />, color: "bg-black" },
-  { name: "Decentralized Exchanges", icon: <FaEthereum />, color: "bg-black" },
-  { name: "Peer-to-Peer Exchanges", icon: <FaWallet />,  color: "bg-black" },
-  { name: "Crypto Derivatives Exchanges", icon: <FaShoppingCart />,  color: "bg-black" },
-  { name: "Margin Trading Exchanges", icon: <FaExchangeAlt />,  color: "bg-black" },
-  { name: "Non-Fungible Token Exchanges", icon: <FaEthereum />, color: "bg-black" },
-  { name: "Security Token Exchanges", icon: <FaWallet />, color: "bg-black" },
-  { name: "Futures Trading Platforms", icon: <FaShoppingCart />, color: "bg-black" }
+  { name: "Centralized Exchanges", icon: <FaBuilding color="#8AF969"/>, color: "bg-black" },
+  { name: "Decentralized Exchanges", icon: <FaEthereum color="#8AF969"/>, color: "bg-black" },
+  { name: "Peer-to-Peer Exchanges", icon: <FaUsers color="#8AF969"/>,  color: "bg-black" },
+  { name: "Crypto Derivatives Exchanges", icon: <FaChartLine color="#8AF969"/>,  color: "bg-black" },
+  { name: "Margin Trading Exchanges", icon: <FaBalanceScale color="#8AF969"/>,  color: "bg-black" },
+  { name: "Non-Fungible Token Exchanges", icon: <FaStore color="#8AF969"/>, color: "bg-black" },
+  { name: "Security Token Exchanges", icon: <FaCoins color="#8AF969"/>, color: "bg-black" },
+  { name: "Futures Trading Platforms", icon: <FaClipboardList color="#8AF969"/>, color: "bg-black" }
 ];
 
 export

@@ -74,6 +74,7 @@ import RetailImg from "../../assets/retail.png";
 import DebitcardImg from "../../assets/debitcard.png";
 import SatelliteImg from "../../assets/satellite.png";
 import ControlImg from "../../assets/Control.png";
+import QRImg from "../../assets/QR.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -946,49 +947,49 @@ export const DigitalWalletFramework =  [
       "Launch pre-built, ready-to-go platforms that save your business time, effort, and resources compared to creating a solution from scratch.",
   },
   {
-    logo: realEstateImg,
+    logo: depinDevImg,
     title: "DeFi Wallet Development",
     description:
       "Our DeFi wallet solutions provide complete control over assets and seamless access to DeFi protocols, enabling users to maximize ROI.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Web3 Wallet Development",
     description:
       "Web3 wallets offer users full asset control, fostering trust and simplifying onboarding and transaction processes.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Wallet-as-a-Service (WaaS)",
     description:
       "Leverage scalable infrastructure (MPC Technology) to create secure digital solutions for storing and transacting cryptocurrencies.",
   },
   {
-    logo: realEstateImg,
+    logo: scDevImg,
     title: "MPC Wallet Development",
     description:
       "Multi-Party Computation (MPC) wallet development enhances security by dividing and distributing private keys across multiple parties.",
   },
   {
-    logo: realEstateImg,
+    logo: SkillsImg,
     title: "Multi-Chain Wallet Development",
     description:
       "Our multi-chain wallet solutions enable seamless management of assets across various blockchain networks, improving the user experience.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Coin-Based Wallet Development",
     description:
       "Store proprietary tokens securely with our coin-based wallet development solutions, ensuring easy access and smooth asset management.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Centralized Wallet Development",
     description:
       "Centralized wallet solutions offer third-party management, supporting instant transactions through paper whitelisting and essential wallet features.",
   },
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: "TRON Wallet Development",
     description:
       "Develop wallets specifically for the TRON blockchain, providing secure storage and transfer of TRX assets within a protected environment.",
@@ -997,37 +998,37 @@ export const DigitalWalletFramework =  [
 
 export const WhiteLabelWalletFramework =  [
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Multi-Signature Crypto Wallet Development",
     description:
       "A multi-signature wallet requires multiple approvals before executing transactions, providing enhanced protection against fraud and money laundering.",
   },
   {
-    logo: realEstateImg,
+    logo: supplyChainImg,
     title: "Blockchain Wallet Development",
     description:
       "Our certified blockchain teams deliver feature-rich blockchain wallets, equipped with advanced functionalities and integrated seamlessly into one platform.",
   },
   {
-    logo: realEstateImg,
+    logo: securityImg,
     title: "Custom Crypto Wallet Development",
     description:
       "With years of expertise, our skilled developers create tailor-made crypto wallet solutions for businesses of all sizes, ensuring smooth integration with decentralized applications (dApps).",
   },
   {
-    logo: realEstateImg,
+    logo: depinDevImg,
     title: "Decentralized Wallet Development",
     description:
       "Decentralized wallets give users complete control over their funds and personal data, operating independently on personal devices without the need for third-party intermediaries.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Web3 Wallet Development",
     description:
       "Our premium Web3 wallet solutions provide support for a variety of cryptocurrencies, enabling users to access decentralized applications (dApps) and swap tokens effortlessly.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Clone Script Wallet Development",
     description:
       "Launch your wallet application quickly with our clone script wallet solutions. These replicas of existing wallet platforms can be customized with a few tweaks before going live.",
@@ -1036,37 +1037,37 @@ export const WhiteLabelWalletFramework =  [
 
 export const Web3WalletFramework =  [
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "Multi-Currency Web3 Wallets",
     description:
       "Our multi-currency Web3 wallets allow users to securely store and trade various crypto assets. Whether it's trading NFTs, cryptocurrencies, or game tokens, these wallets simplify transactions for both seasoned traders and beginners.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Web3 Mobile Wallets",
     description:
       "Our Web3 mobile wallets are designed for seamless storage and transfer of digital assets. We can create single and multi-currency wallets tailored to your business requirements, ensuring smooth transactions on the go.",
   },
   {
-    logo: realEstateImg,
+    logo: scArchImg,
     title: "White Label Web3 Wallets",
     description:
       "Quickly enter the wallet space with our ready-made White Label Web3 wallet solutions. Our team applies their in-depth domain knowledge to deliver scalable and customizable solutions that meet your needs.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Centralized Web3 Wallets",
     description:
       "We also specialize in developing centralized wallets integrated with private keys for enhanced security. These wallets safeguard digital assets from potential breaches and ensure secure access management.",
   },
   {
-    logo: realEstateImg,
+    logo: depinDevImg,
     title: "Decentralized Web3 Wallets",
     description:
       "Gain complete control over your assets with our decentralized Web3 wallets, built using Web3 protocols. These wallets can seamlessly connect with decentralized applications (dApps) for effortless interaction.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Web3 TRON Wallet",
     description:
       " Harness the full potential of the TRON blockchain with our Web3 TRON wallet development services. Whether you're a startup or an established enterprise, we help you create powerful wallets that enable easy management and trading of TRX.",
@@ -1075,37 +1076,37 @@ export const Web3WalletFramework =  [
 
 export const MulticurrencyWalletFramework =  [
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "OTC Trading Support",
     description:
       "A standout feature of our wallet is OTC trading, which enables traders to conduct secure transactions with minimal latency, ensuring seamless trading experiences.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Multi-Currency Support",
     description:
       "Our wallet solutions support Bitcoin along with other popular altcoins. We customize our wallets to meet specific business needs, offering tailored trading facilities for clients.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Push Notifications",
     description:
       "Users can manage push notifications to stay updated on transaction details, price alerts, and other market activities, providing convenience and control.",
   },
   {
-    logo: realEstateImg,
+    logo: QRImg,
     title: "QR Code Scanner",
     description:
       "The wallet comes with a built-in QR code scanner, enabling users to make instant payments at PoS terminals or through online services with ease.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "Risk Management",
     description:
       "We integrate robust risk management features, including identifying suspicious wallet addresses and preventing duplicate payments to enhance security.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Multi-Signature Support",
     description:
       "Our wallet supports multi-signature functionality, allowing users to view transaction details, authorize transactions, and have a secure recovery phase for added protection.",
@@ -1120,31 +1121,31 @@ export const mpcCryptoWalletFramework =  [
       "Our White Label MPC crypto wallet solutions offer a pre-built, market-ready platform designed to save time and resources, allowing for quicker deployment.",
   },
   {
-    logo: realEstateImg,
+    logo: RetailImg,
     title: "DeFi MPC Wallet Development",
     description:
       "Utilizing MPC technology, our DeFi MPC wallets provide secure storage and enable seamless access to a wide range of decentralized finance protocols.",
   },
   {
-    logo: realEstateImg,
+    logo: supplyChainImg,
     title: "Multi-Chain MPC Wallet Development",
     description:
       "We offer multi-chain MPC wallet solutions that allow users to securely manage their assets across various blockchain networks, utilizing MPC technology for enhanced protection.",
   },
   {
-    logo: realEstateImg,
+    logo: CoinImg,
     title: "Coin-Based MPC Wallet Development",
     description:
       "Our coin-based MPC wallets leverage advanced cryptographic mechanisms to securely store and manage different types of digital assets.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Centralized MPC Wallet Development",
     description:
       "With centralized MPC wallet development, we create wallets that are controlled by third parties, providing access to essential functionalities while maintaining security.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "TRON MPC Wallet Development",
     description:
       "Our TRON-based MPC wallets combine the efficiency of TRON blockchain with the security of MPC technology, enabling secure management of TRX and other digital assets.",
@@ -1639,7 +1640,7 @@ export const WhiteLabelNftFramework =  [
       "Giichi offers end-to-end development for white label NFT marketplaces, providing a seamless platform for buying, selling, trading, and minting NFTs. With a focus on security, ease of use, and scalability, our experts ensure thorough customization to help you stand out in the global market.",
   },
   {
-    logo: realEstateImg,
+    logo: RetailImg,
     title: "Hybrid NFT Marketplace Development",
     description:
       "We reject the one-size-fits-all approach, instead delivering tailor-made white label NFT solutions designed specifically for your business. Our custom hybrid marketplace solutions, powered by IPFS and agile methodology, provide superior functionality to meet your unique needs.",
@@ -1657,7 +1658,7 @@ export const WhiteLabelNftFramework =  [
       "We build a solid foundation for your NFT marketplace, supporting a wide array of NFT token standards, including ERC-20, ERC-721, ERC-1155, dGoods, FA2, TRC-721, BEP-721, and many more, to offer robust and flexible token management.",
   },
   {
-    logo: realEstateImg,
+    logo: AIImg,
     title: "NFT Design Services",
     description:
       "Our team of talented NFT designers, animators, and 3D artists specialize in creating visually stunning, original, and user-friendly designs for your white label NFT marketplace, ensuring your platform attracts and engages customers.",
