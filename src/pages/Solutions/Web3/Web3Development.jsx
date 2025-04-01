@@ -7,8 +7,7 @@ import Framework from "../../../components/CommonComponent/Framework";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
-import TechStack from "../../../components/CommonComponent/TechStack";
-import { Web3DevtechCategories } from "../../../components/data/techStackData";
+
 const statsData = [
   { label: "Years of blockchain experience", value: "7+" },
   { label: "End-Users Supported", value: "2M+" },
@@ -20,22 +19,22 @@ const stages = [
   {
     number: "01",
     title: "CONTEXTUALIZE",
-    desc: "We work hands-on with you to comprehend your needs and contextualize Web3 for your business. We do so while exploring the benefits and challenges and co-innovating around the use case.",
+    desc: "We work closely with you to understand your business needs and contextualize Web3 within your industry. Through collaboration, we explore potential benefits, challenges, and innovative use cases.",
   },
   {
     number: "02",
     title: "ORCHESTRATE",
-    desc: "We help you prepare for the market disruption as a result of the successful Web 3.0 launch. Our strategy and advisory services help you gauge organizational readiness, anticipate the business impact, and devise a go-to-market plan.",
+    desc: "Our strategy and advisory services help you prepare for the market shift brought by Web 3.0 adoption. We assess organizational readiness, anticipate business impact, and craft a go-to-market strategy.",
   },
   {
     number: "03",
     title: "BUILD",
-    desc: "We design and architect a Web 3.0 platform leveraging our rich domain knowledge and breadth of expertise. We work across the organization to engage stakeholders in legal and compliance businesses to build solutions ready for deployment.",
+    desc: "Leveraging our deep industry expertise, we design and build a robust Web 3.0 platform. We engage key stakeholders across legal, compliance, and business sectors to ensure a seamless and compliant deployment.",
   },
   {
     number: "04",
     title: "IMPLEMENT",
-    desc: "We implement a Web 3.0 solution and authorize updates and changes. We constantly deliver our Web3 development services and support even after product deployment to ensure that our solutions have a tangible impact on your businesses.",
+    desc: "We develop and deploy your Web 3.0 solution while authorizing updates and improvements. Our team continues to provide post-launch support, ensuring long-term success and measurable business impact.",
   },
 ];
 
@@ -47,10 +46,7 @@ const Web3Development = () => {
         img={BlockchainDepinImg}
         title1="Web 3.0 Development "
         title2="Services"
-        desc="Building a decentralized infrastructure network is no longer a
-            challenge. Giichi enables businesses to transform their physical
-            infrastructure into decentralized networks that enhance efficiency,
-            security, and transparency."
+        desc="Creating dynamic and immersive Web 3.0 solutions by seamlessly integrating blockchain, AI, and IoT technologies."
       />
 
       {/* WHY OUR WEB3 DEVELOPMENT SERVICES*/}
@@ -62,22 +58,11 @@ const Web3Development = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Partner with Our Premium Web 3.0 Development Company to Widen Your
-            Market
+          Partner with Our Leading Web 3.0 Development Company to Expand Your Market
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
+          Web 3.0 represents the next evolution of the internet, enabling users to engage with websites and dApps in a highly immersive way. Embrace the Web 3.0 revolution with our expert development team and elevate your business to new heights.  <br/> <br/>
+          We provide a comprehensive range of Web 3.0 development services tailored to meet the diverse needs of businesses across various industries. Our skilled and experienced Web 3.0 professionals craft strategic solutions designed to drive business success.
           </p>
         </div>
       </div>
@@ -109,16 +94,16 @@ const Web3Development = () => {
       <div className="">
       <Framework
         data={Web3DevelopmentFramework}
-        heading1="Complete Package of Web3.0 "
+        heading1="All-Inclusive Web3.0"
         heading2="Development Services Under One Roof"
-        desc="Check out web 3.0 development offerings and choose the one that best fits your business requirements."
+        desc="Explore our comprehensive Web 3.0 development offerings and choose the perfect solution to meet your business needs."
       />
       </div>
 
       {/* WEB3 DEVELOPMENT JOURNEY */}
       <div className="mt-24">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
-          Our Web3 Development Journey
+        Navigating Our Web3 Development Journey
         </p>
         <p className="text-white text-opacity-70 text-center pt-4">
           We follow a coherent roadmap to seamlessly drive your Web3 development
@@ -158,11 +143,6 @@ const Web3Development = () => {
         </div>
       </div>
 
-      {/* WEB3 TECHSTACK */}
-      <div>
-        <TechStack data={Web3DevtechCategories} />
-      </div>
-
       {/* TOKEN DEVELOPMENT offerings */}
       <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
         <div>
@@ -171,8 +151,7 @@ const Web3Development = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Web3.0 Development experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a

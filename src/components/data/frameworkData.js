@@ -1648,55 +1648,55 @@ export const Web3DevelopmentFramework =  [
     logo: realEstateImg,
     title: "Web3 Metaverse Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We specialize in building immersive metaverse platforms for industries such as Gaming, Entertainment, Real Estate, Fashion, Social Media, and more.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Whether you need a multichain wallet or a blockchain-specific solution, we offer secure and customized Web 3.0 crypto wallet development tailored to your business requirements.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Exchange Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our decentralized exchange (DEX) development services empower businesses to revolutionize the crypto market with high-performance, secure trading platforms.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Metaverse Game Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "From NFT creation to immersive gaming experiences, we provide end-to-end Web 3.0 metaverse game development services to bring your vision to life.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Smart Contract Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our expert developers create highly secure smart contracts to enhance decentralized applications, enabling businesses to leverage the power of DeFi.",
   },
   {
     logo: realEstateImg,
     title: "Web 3.0 Browsers",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We harness blockchain technology to develop secure Web 3.0-powered browsers that protect user data while ensuring complete anonymity.",
   },
   {
     logo: realEstateImg,
     title: "Web Streaming Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Leveraging blockchain and smart contracts, we build transparent web streaming platforms that empower content creators to earn seamlessly.",
   },
   {
     logo: realEstateImg,
     title: "Decentralized Autonomous Organization (DAO)",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our Web 3.0 developers create and implement smart contract-driven DAO platforms tailored to various business applications.",
   },
   {
     logo: realEstateImg,
     title: "Decentralized Finance (DeFi)",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "As a leading Web 3.0 development company, we design innovative DeFi platforms for borrowing/lending, staking, yield farming, and beyond.",
   },
 ];
 
