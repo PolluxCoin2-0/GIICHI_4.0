@@ -401,6 +401,37 @@ export const Web3WalletExchangeFaq = [
  
 ];
 
+export const MpcWalletFaq = [
+  {
+    question: "What is an MPC Crypto Wallet?",
+    answer:
+      "An MPC crypto wallet uses Multi-Party Computation (MPC) to split and secure private keys across multiple parties, enhancing security.",
+  },
+  {
+    question: "How does MPC technology improve security?",
+    answer:
+      "MPC technology splits private keys into fragments, reducing the risk of hacks since no single party holds the full key.",
+  },
+  {
+    question: "Can MPC wallets support multiple blockchains?",
+    answer:
+      "Yes, MPC wallets can manage assets across multiple blockchains securely.",
+  },
+  {
+    question:
+      "Why choose an MPC wallet over traditional wallets?",
+    answer:
+      "MPC wallets offer better security with distributed key management, multi-signature support, and scalability for DeFi and Web3 apps.",
+  },
+  {
+    question:
+      "Are MPC wallets suitable for institutions?",
+    answer:
+      "Yes, MPC wallets provide robust security and flexible access controls, making them ideal for institutional use.",
+  },
+ 
+];
+
 export const CoinLaunchpadFaq = [
   {
     question: "What is a crypto launchpad?",

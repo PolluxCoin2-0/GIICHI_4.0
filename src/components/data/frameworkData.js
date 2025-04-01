@@ -1112,6 +1112,45 @@ export const MulticurrencyWalletFramework =  [
   },
 ];
 
+export const mpcCryptoWalletFramework =  [
+  {
+    logo: realEstateImg,
+    title: "White Label MPC Crypto Wallet Development",
+    description:
+      "Our White Label MPC crypto wallet solutions offer a pre-built, market-ready platform designed to save time and resources, allowing for quicker deployment.",
+  },
+  {
+    logo: realEstateImg,
+    title: "DeFi MPC Wallet Development",
+    description:
+      "Utilizing MPC technology, our DeFi MPC wallets provide secure storage and enable seamless access to a wide range of decentralized finance protocols.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Multi-Chain MPC Wallet Development",
+    description:
+      "We offer multi-chain MPC wallet solutions that allow users to securely manage their assets across various blockchain networks, utilizing MPC technology for enhanced protection.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Coin-Based MPC Wallet Development",
+    description:
+      "Our coin-based MPC wallets leverage advanced cryptographic mechanisms to securely store and manage different types of digital assets.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Centralized MPC Wallet Development",
+    description:
+      "With centralized MPC wallet development, we create wallets that are controlled by third parties, providing access to essential functionalities while maintaining security.",
+  },
+  {
+    logo: realEstateImg,
+    title: "TRON MPC Wallet Development",
+    description:
+      "Our TRON-based MPC wallets combine the efficiency of TRON blockchain with the security of MPC technology, enabling secure management of TRX and other digital assets.",
+  },
+];
+
 export const ArbitrageBotFramework =  [
   {
     logo: CoinImg,
