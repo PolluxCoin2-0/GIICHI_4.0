@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import MobileNavbar from "./MobileNavbar";
 import Giichi_Logo_Img from "../assets/Giichi_Logo.png";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [activeMenu, setActiveMenu] = useState(null);
   const [activeSubmenu, setActiveSubmenu] = useState(null);
 
@@ -229,6 +230,11 @@ const handleMenuLeave = () => {
   setMenuTimeout(timeout);
 };
 
+const handleNavigation = (path) => {
+  navigate(path);
+  handleMenuLeave();
+};
+
 
   return (
     <nav className="relative z-50">
@@ -304,11 +310,11 @@ const handleMenuLeave = () => {
                     {menuItems[activeMenu].submenus
                       .find(submenu => submenu.label === activeSubmenu)
                       ?.items.map((item, index) => (
-                        <Link to={item.link} key={index}>
-                          <div className="px-4 py-3 hover:bg-[#8AF969] hover:bg-opacity-10 rounded-xl p-4 mt-4 first:mt-0">
+                        <div key={index} className="cursor-pointer">
+                          <div onClick={() => handleNavigation(item.link)}  className="px-4 py-3 hover:bg-[#8AF969] hover:bg-opacity-10 rounded-xl p-4 mt-4 first:mt-0">
                             <p className="text-white text-[17px] font-semibold text-nowrap">{item.label}</p>
                           </div>
-                        </Link>
+                         </div>
                     ))}
                   </div>
                   </div>
