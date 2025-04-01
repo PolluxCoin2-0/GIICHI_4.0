@@ -57,62 +57,47 @@ const BenefitCard = ({ image, title, points }) => {
 const TronWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
-      {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+      {/* POLINK WALLET */}
+      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
-          Tron Wallet <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            Development Company
-          </span>
-        </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
-            </p>
-
-            {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
-              <a
+        <div className="w-[50%]">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
+          NFT Token {" "}
+          </p>
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
+          Development Services
+          </p>
+          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
+          Leverage the expertise of Giichi leading NFT developers to seamlessly tokenize your collectibles.
+          </p>
+          {/* button to connect on whatsapp */}
+          <div className="flex flex-row items-center space-x-6 mt-6">
+            <a
+              type="button"
+              href="https://wa.me/9266416198"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              aria-label="Contact us "
+              title="Click to contact us form"
+            >
+              Connect on Whatsapp
+            </a>
+            <Link to="/contact-us">
+              <button
                 type="button"
-                href="https://wa.me/9266416198"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
                 aria-label="Contact us "
                 title="Click to contact us form"
               >
-                Connect on Whatsapp
-              </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
-            </div>
+                Request a Free Demo
+              </button>
+            </Link>
           </div>
         </div>
+
+        <div className="w-[50%]"></div>
       </div>
 
       {/*  Web3 Wallet Development:  */}
