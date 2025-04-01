@@ -89,21 +89,20 @@ const DaoBlockchain = () => {
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
             <div>
-              <div className="bg-green  text-white flex items-center space-x-4 p-6">
-                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2 ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6 text-blue-500"
-                  >
-                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                </div>
-                <p className="text-2xl font-semibold text-center">
-                  Traditional Organizations
-                </p>
-              </div>
+            <div className="bg-green text-white flex items-center space-x-4 p-6">
+  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="black"
+      className="w-6 h-6 text-blue-500"
+    >
+      <path d="M3 21V8.5l9-6.5 9 6.5V21h-5v-5h-8v5H3z" />
+    </svg>
+  </div>
+  <p className="text-2xl font-semibold text-center">Traditional Organizations</p>
+</div>
+
               <div className="bg-green bg-opacity-10 p-4">
                 {comparisons.map((comp, index) => (
                   <div
@@ -120,19 +119,20 @@ const DaoBlockchain = () => {
 
           <div className="w-1/2">
             <div>
-              <div className="bg-green text-white flex items-center space-x-4 p-6">
-                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6 text-blue"
-                  >
-                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                </div>
-                <p className="text-2xl font-semibold">AI DAOs</p>
-              </div>
+            <div className="bg-green text-white flex items-center space-x-4 p-6">
+  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="w-6 h-6 text-blue"
+    >
+      <path d="M9 2H15V4H9V2ZM4.22 5.64L5.64 4.22L7.05 5.64L5.64 7.05L4.22 5.64ZM2 9H4V15H2V9ZM4.22 18.36L5.64 19.78L7.05 18.36L5.64 16.95L4.22 18.36ZM9 20H15V22H9V20ZM16.95 18.36L18.36 19.78L19.78 18.36L18.36 16.95L16.95 18.36ZM20 9H22V15H20V9ZM16.95 5.64L18.36 7.05L19.78 5.64L18.36 4.22L16.95 5.64ZM12 6C15.31 6 18 8.69 18 12C18 15.31 15.31 18 12 18C8.69 18 6 15.31 6 12C6 8.69 8.69 6 12 6Z" />
+    </svg>
+  </div>
+  <p className="text-2xl font-semibold">AI DAOs</p>
+</div>
+
               <div className="bg-green bg-opacity-10 text-white p-4">
                 {comparisons.map((comp, index) => (
                   <div

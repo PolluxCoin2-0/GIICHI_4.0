@@ -1742,37 +1742,37 @@ export const DappDevelopmentFramework =  [
 
 export const DefiStakingFramework =  [
   {
-    logo: realEstateImg,
+    logo: StakingImg,
     title: "DeFi Staking Consultation",
     description:
       "Our team of experts offers in-depth DeFi staking consultation to guide clients entering the decentralized finance space, helping them make informed decisions and get the most out of DeFi staking.",
   },
   {
-    logo: realEstateImg,
+    logo: AIImg,
     title: "Staking Platform Development",
     description:
       "We specialize in building customized DeFi staking platforms tailored to the unique requirements of each client, ensuring top-tier performance and user satisfaction.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "DeFi Staking Software Development",
     description:
       "As a premier DeFi staking company, we design and develop highly functional and feature-rich staking software that aligns with your platform's specific needs and objectives.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Staking Platform Upgradation",
     description:
       "We provide platform upgradation services to enhance existing DeFi staking platforms, adding new features and functionalities to improve their scalability and usability.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Staking Platform Maintenance",
     description:
       "Our team offers platform maintenance services to ensure your DeFi staking platform runs smoothly, with minimal downtime and no disruptions to users.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Wallet Integration Services",
     description:
       "We offer wallet integration for new and existing staking platforms, simplifying user transactions and improving the overall user experience, making operations seamless and efficient",
