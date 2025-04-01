@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { DigitalWalletFramework } from "../../../components/data/frameworkData";
@@ -68,23 +69,12 @@ const DigitalWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
+            Elevate your business by collaborating with a leading cryptocurrency wallet development company. We create robust, customized solutions for total asset security and seamlessly integrate financial services to enhance passive income opportunities. <br/> <br/>
+            A cryptocurrency digital wallet is an essential tool for anyone involved in the digital asset space. It is a software application that securely stores, sends, and receives cryptocurrencies like Bitcoin, Ethereum, and other altcoins. The wallet functions by holding the user's private keys—cryptographic keys that are necessary to access and manage their digital assets. 
             </p>
 
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
+            <div className="flex flex-row items-center space-x-6 mt-8">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
@@ -117,21 +107,12 @@ const DigitalWallet = () => {
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Crypto Wallet Development: Explore the Prospects Offered by Billion
-            Dollar Market
+          Crypto Wallet Development: Unlocking Opportunities in the Billion-Dollar Market
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          The global crypto wallet market, valued at around $10.27 billion in 2023, is set to expand significantly, reaching an estimated $14.39 billion in 2024 and growing by $47.62 billion by 2030. This rapid growth presents significant opportunities for businesses to capitalize on, with the guidance of experienced crypto wallet development experts. <br/> <br/>
+          As a leading crypto wallet development company, Giichi specializes in crafting tailored solutions that empower businesses and investors to fully harness the potential of digital wallets. We design all-in-one platforms that integrate financial services, social features, and gaming functionalities, giving users access based on their preferences. <br/> <br/> 
+          With over a decade of industry experience, technical expertise, and a commitment to excellence, we provide highly secure, adaptable, and future-ready wallet solutions.
           </p>
         </div>
         <div className="w-full lg:w-[50%]">
@@ -197,9 +178,9 @@ const DigitalWallet = () => {
       {/* workflow of a wallet */}
       <div className="mt-24 mb-12">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
-          Inside Custom Cryptocurrency Wallet Development : <br />
+        A Comprehensive Guide to Custom Cryptocurrency   <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-            A Step-By-Step Workflow
+          Wallet Development: Step-by-Step Workflow
           </span>
         </p>
 
@@ -232,7 +213,7 @@ const DigitalWallet = () => {
           data={DigitalWalletFramework}
           heading1="Digital Wallet"
           heading2="Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc="Explore our full-range of crypto wallet development services, from initial ideation to fully realized solutions, customized to meet your unique requirements and objectives."
         />
       </div>
 
@@ -240,8 +221,8 @@ const DigitalWallet = () => {
       <div className="mt-20">
         <Industries
           data={digitalWalletIndustriesData}
-          heading1="Industries Harnessing the Potential of Our Crypto"
-          heading2=" Digital Wallet Development Solutions"
+          heading1="Industries"
+          heading2="We Serve"
           desc=""
         />
       </div>

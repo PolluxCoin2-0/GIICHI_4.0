@@ -304,25 +304,31 @@ export const MarketMakingExchangeFaq = [
 
 export const DigitalWalletExchangeFaq = [
   {
-    question: "What is Crypto Digital Wallet?",
+    question: "What is a cryptocurrency wallet?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "A cryptocurrency wallet is a digital tool that allows users to store, send, and receive cryptocurrencies. It holds the private keys needed to access blockchain assets securely.",
   },
   {
-    question: "How Crypto Currency Digital Wallet Works?",
+    question: "How does a crypto wallet work?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "Crypto wallets store your private keys and public addresses. When you send crypto, your wallet signs the transaction with your private key, and the blockchain verifies it.",
   },
   {
-    question: "How Crypto Currency Digital Wallet Works?",
+    question: "What types of cryptocurrency wallets are there? ",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "There are several types of crypto wallets, including software wallets (web, desktop, mobile), hardware wallets (physical devices), and paper wallets (physical printouts of your keys).",
   },
   {
     question:
-      "How Crypto Currency Digital Wallet Works?",
+      "What are the security features of a cryptocurrency wallet? ",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Crypto wallets often include features like encryption, multi-factor authentication, biometric authentication, and backup options to ensure the safety of your assets.",
+  },
+  {
+    question:
+      "Can I store multiple cryptocurrencies in one wallet?",
+    answer:
+      "Yes, many wallets support multi-currency functionality, allowing users to store different types of cryptocurrencies in a single wallet.",
   },
  
 ];

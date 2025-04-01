@@ -943,55 +943,55 @@ export const DigitalWalletFramework =  [
     logo: realEstateImg,
     title: "White Label Crypto Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Launch pre-built, ready-to-go platforms that save your business time, effort, and resources compared to creating a solution from scratch.",
   },
   {
     logo: realEstateImg,
     title: "DeFi Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our DeFi wallet solutions provide complete control over assets and seamless access to DeFi protocols, enabling users to maximize ROI.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Web3 wallets offer users full asset control, fostering trust and simplifying onboarding and transaction processes.",
   },
   {
     logo: realEstateImg,
     title: "Wallet-as-a-Service (WaaS)",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Leverage scalable infrastructure (MPC Technology) to create secure digital solutions for storing and transacting cryptocurrencies.",
   },
   {
     logo: realEstateImg,
     title: "MPC Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Multi-Party Computation (MPC) wallet development enhances security by dividing and distributing private keys across multiple parties.",
   },
   {
     logo: realEstateImg,
     title: "Multi-Chain Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our multi-chain wallet solutions enable seamless management of assets across various blockchain networks, improving the user experience.",
   },
   {
     logo: realEstateImg,
     title: "Coin-Based Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Store proprietary tokens securely with our coin-based wallet development solutions, ensuring easy access and smooth asset management.",
   },
   {
     logo: realEstateImg,
     title: "Centralized Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Centralized wallet solutions offer third-party management, supporting instant transactions through paper whitelisting and essential wallet features.",
   },
   {
     logo: realEstateImg,
     title: "TRON Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Develop wallets specifically for the TRON blockchain, providing secure storage and transfer of TRX assets within a protected environment.",
   },
 ];
 
