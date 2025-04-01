@@ -1594,37 +1594,37 @@ export const P2pLendingFramework =  [
 
 export const NftDevelopmentFramework =  [
   {
-    logo: realEstateImg,
+    logo: NFTImg,
     title: "Fractional NFTs",
     description:
       "Our fractional NFT platform allows users to divide NFTs into smaller parts, enabling multiple individuals to own a piece of high-value digital assets and improving accessibility.",
   },
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: "NFT Renting",
     description:
       "Our NFT renting solutions provide an opportunity to reduce upfront costs, enhance liquidity, and offer endless benefits to lenders and borrowers by facilitating access to high-value NFTs.",
   },
   {
-    logo: realEstateImg,
+    logo: dataImg,
     title: "Dynamic NFTs",
     description:
       "We specialize in developing dynamic NFTs, which are powered by smart contracts, oracles, and external data sources to create interactive and evolving digital assets.",
   },
   {
-    logo: realEstateImg,
+    logo: buyButtonImg,
     title: "NFT Minting",
     description:
       "Our NFT minting platform enables users to create, mint, and sell NFTs, which is the first step toward starting an NFT selling journey.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Smart Contract Development",
     description:
       "Smart contracts on the blockchain are automated programs that execute predetermined conditions. We integrate these to enable seamless NFT transactions.",
   },
   {
-    logo: realEstateImg,
+    logo: SafetyImg,
     title: "NFT Passport",
     description:
       "Secure your passport as an NFT for a tamper-proof journey. Travel with enhanced confidence, security, and authenticity.",
@@ -1633,7 +1633,7 @@ export const NftDevelopmentFramework =  [
 
 export const WhiteLabelNftFramework =  [
   {
-    logo: realEstateImg,
+    logo: ,
     title: "White Label NFT Marketplace Development",
     description:
       "Giichi offers end-to-end development for white label NFT marketplaces, providing a seamless platform for buying, selling, trading, and minting NFTs. With a focus on security, ease of use, and scalability, our experts ensure thorough customization to help you stand out in the global market.",
@@ -1645,13 +1645,13 @@ export const WhiteLabelNftFramework =  [
       "We reject the one-size-fits-all approach, instead delivering tailor-made white label NFT solutions designed specifically for your business. Our custom hybrid marketplace solutions, powered by IPFS and agile methodology, provide superior functionality to meet your unique needs.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "NFT Smart Contracts Audit",
     description:
       "Our experienced team performs comprehensive security audits on your NFTs, financial protocols, tokens, blockchain wallets, protocols, and dApps during development. This ensures that your platform remains secure, compliant, and free from vulnerabilities.",
   },
   {
-    logo: realEstateImg,
+    logo: NFTImg,
     title: "NFT Token Standard Development",
     description:
       "We build a solid foundation for your NFT marketplace, supporting a wide array of NFT token standards, including ERC-20, ERC-721, ERC-1155, dGoods, FA2, TRC-721, BEP-721, and many more, to offer robust and flexible token management.",
@@ -1663,7 +1663,7 @@ export const WhiteLabelNftFramework =  [
       "Our team of talented NFT designers, animators, and 3D artists specialize in creating visually stunning, original, and user-friendly designs for your white label NFT marketplace, ensuring your platform attracts and engages customers.",
   },
   {
-    logo: realEstateImg,
+    logo: ManagementImg,
     title: "Support & Maintenance",
     description:
       "Our skilled team provides ongoing support and maintenance services to ensure your NFT marketplace runs smoothly. We offer robust integration and 24/7 assistance, helping your platform scale efficiently and stay ahead of the competition.",
