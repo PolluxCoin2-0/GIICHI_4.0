@@ -7,6 +7,8 @@ import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { maasLifeCycleData } from "../../../components/data/lifecycleData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { MaasFaq } from "../../../components/data/faqsData";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import MaasBannerImg from "../../../assets/maasBannerImg.png";
 
 const services = [
   {
@@ -37,52 +39,15 @@ const services = [
 
 const Maas = () => {
   return (
-    <div className=" mb-20 ">
-      {/* MARKETING AS A SERVICE */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
-          <p className="text-white text-opacity-70 text-xl font-medium">
-            Marketing As A Service
-          </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            Web3 & Digital{" "}
-          </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            Marketing Company
-          </p>
-          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Building Brands with Premier Web3, Digital Marketing, and
-            Consultancy Services.
-          </p>
-          {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6 mt-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div className="w-[50%]"></div>
-      </div>
+    <div className="pt-6 md:pt-12 mb-20">
+    
+       {/* Banner Image - MARKETING AS A SERVICE  */}
+       <BannerContent
+        img={MaasBannerImg}
+        title1="Web3 & Digital"
+        title2=" Marketing Company"
+        desc=" Building Brands with Premier Web3, Digital Marketing, and Consultancy Services."
+      />
 
       {/* Banner Image */}
       <div>
