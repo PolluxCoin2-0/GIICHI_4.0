@@ -629,6 +629,37 @@ export const NftMarketplaceFaq = [
  
 ];
 
+export const SemiFungibleFaq = [
+  {
+    question: "What are SFTs?",
+    answer:
+      "SFTs combine fungible and non-fungible token properties. They are fungible until used for a specific purpose, after which they become unique.",
+  },
+  {
+    question: "How do SFTs work?",
+    answer:
+      "SFTs allow multiple token types to be bundled in one smart contract, reducing complexity and enabling efficient token transfers.",
+  },
+  {
+    question: "Benefits for developers?",
+    answer:
+      "Developers can manage both fungible and non-fungible tokens under a single contract, reducing gas fees and complexity.",
+  },
+  {
+    question:
+      "Can SFTs be unbundled?",
+    answer:
+      "Yes, SFTs can be unbundled and traded individually after being used for a specific purpose.",
+  },
+  {
+    question:
+      "Why are SFTs popular?",
+    answer:"They offer a cost-effective and flexible way to manage tokenized assets, ideal for use cases like collectibles and gaming.",
+  },
+ 
+];
+
+
 export const WhiteLabelNftMarketplaceFaq = [
   {
     question: "What is White Label NFT Marketplace Development?",
