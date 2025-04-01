@@ -625,25 +625,25 @@ export const NftMarketplaceFaq = [
 
 export const WhiteLabelNftMarketplaceFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is White Label NFT Marketplace Development?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "White label NFT marketplace development involves creating a customizable, ready-made platform where users can buy, sell, and trade NFTs. It is designed to be rebranded by businesses for their own use without starting from scratch.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How long does it take to develop a White Label NFT Marketplace?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "The development time varies depending on features and customization but generally takes a few weeks to a couple of months to create a fully functional platform.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What are the advantages of using a White Label NFT Marketplace?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "White label solutions are cost-effective, quick to launch, and customizable, offering businesses the ability to brand the platform and add features specific to their needs, without extensive development costs.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "Can I customize the White Label NFT Marketplace to suit my business needs?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Yes, white label NFT marketplaces are highly customizable in terms of design, functionality, and supported features, making it easy to tailor the platform to your business model.",
   },
  
 ];

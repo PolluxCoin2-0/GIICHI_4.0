@@ -1610,37 +1610,37 @@ export const WhiteLabelNftFramework =  [
     logo: realEstateImg,
     title: "White Label NFT Marketplace Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Giichi offers end-to-end development for white label NFT marketplaces, providing a seamless platform for buying, selling, trading, and minting NFTs. With a focus on security, ease of use, and scalability, our experts ensure thorough customization to help you stand out in the global market.",
   },
   {
     logo: realEstateImg,
     title: "Hybrid NFT Marketplace Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We reject the one-size-fits-all approach, instead delivering tailor-made white label NFT solutions designed specifically for your business. Our custom hybrid marketplace solutions, powered by IPFS and agile methodology, provide superior functionality to meet your unique needs.",
   },
   {
     logo: realEstateImg,
     title: "NFT Smart Contracts Audit",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our experienced team performs comprehensive security audits on your NFTs, financial protocols, tokens, blockchain wallets, protocols, and dApps during development. This ensures that your platform remains secure, compliant, and free from vulnerabilities.",
   },
   {
     logo: realEstateImg,
     title: "NFT Token Standard Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We build a solid foundation for your NFT marketplace, supporting a wide array of NFT token standards, including ERC-20, ERC-721, ERC-1155, dGoods, FA2, TRC-721, BEP-721, and many more, to offer robust and flexible token management.",
   },
   {
     logo: realEstateImg,
-    title: "Designing of NFTs",
+    title: "NFT Design Services",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our team of talented NFT designers, animators, and 3D artists specialize in creating visually stunning, original, and user-friendly designs for your white label NFT marketplace, ensuring your platform attracts and engages customers.",
   },
   {
     logo: realEstateImg,
     title: "Support & Maintenance",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our skilled team provides ongoing support and maintenance services to ensure your NFT marketplace runs smoothly. We offer robust integration and 24/7 assistance, helping your platform scale efficiently and stay ahead of the competition.",
   },
 ];
 

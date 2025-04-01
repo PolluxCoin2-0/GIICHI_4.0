@@ -711,32 +711,32 @@ export const WhiteLabelNftService = [
   {
     title: "Hassle-Free Bidding",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Our platform offers a smooth, fully secure bidding and auction process, enabling investors to place bids effortlessly.",
   },
   {
-    title: "Enjoy Additional Privileges",
+    title: "Exclusive Privileges",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Investors enjoy additional perks such as coupon codes and other benefits when making purchases on the platform.",
   },
   {
     title: "Lazy Minting",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Save on gas fees and other upfront costs with our next-gen white label NFT marketplace, which automates the minting process for ease and efficiency.",
   },
   {
     title: "IPFS NFT Storage",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Leverage IPFS NFT storage for extended storage space and enhanced durability for NFT owners and creators in our multi-chain marketplace.",
   },
   {
     title: "Multi-chain Compatibility",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "We ensure seamless multi-chain compatibility, allowing token exchanges in a decentralized manner across multiple networks.",
   },
   {
     title: "Global Royalty Standard",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "NFT users receive royalties on each sale, supported by a global royalty standard to ensure ongoing benefits for creators.",
   },
 ];
 
