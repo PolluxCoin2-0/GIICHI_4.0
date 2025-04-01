@@ -1701,6 +1701,45 @@ export const Web3DevelopmentFramework =  [
   },
 ];
 
+export const DappDevelopmentFramework =  [
+  {
+    logo: MetaverseAiImg,
+    title: "Automation",
+    description:
+      "dApps operate through smart contracts, which are self-executing codes that automatically trigger actions. This minimizes transaction costs and ensures seamless peer-to-peer transactions without intermediaries.",
+  },
+  {
+    logo: WalletImg,
+    title: "Transparency",
+    description:
+      "The data of dApps is stored on a public ledger, ensuring that all actions and transactions are transparently recorded. This helps prevent data manipulation and guarantees transparency at all times.",
+  },
+  {
+    logo: ExchangeImg,
+    title: "Privacy",
+    description:
+      "User validation in dApps is done using blockchain-based cryptographic techniques, providing users with enhanced privacy and a smooth, secure experience.",
+  },
+  {
+    logo: SoftwareImg,
+    title: "User Governance",
+    description:
+      "dApps are governed by a consensus mechanism, preventing any single entity from controlling the system. This decentralized approach ensures fairness and avoids gatekeeping.",
+  },
+  {
+    logo: RecordImg,
+    title: "Fault-tolerance",
+    description:
+      "Due to their decentralized nature, dApps eliminate a single point of failure, making them more stable and secure compared to traditional centralized applications.",
+  },
+  {
+    logo: GlobalImg,
+    title: " Incentivization",
+    description:
+      "dApps incorporate an incentive system using tokens (or digital assets) to reward users and validators, promoting active participation and engagement within the blockchain ecosystem.",
+  },
+];
+
 export const DefiStakingFramework =  [
   {
     logo: realEstateImg,

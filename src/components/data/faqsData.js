@@ -656,6 +656,29 @@ export const Web3DevelopmentFaq = [
  
  
 ];
+export const DappDevelopmentFaq = [
+  {
+    question: "What is a dApp?",
+    answer:
+      "A dApp (decentralized application) is an application built on a blockchain that operates without a central authority. It uses smart contracts to automate processes and ensures transparency, security, and decentralization.",
+  },
+  {
+    question: "What are the benefits of dApp development?",
+    answer:
+      "dApps offer benefits such as automation (through smart contracts), transparency (data stored on a public ledger), privacy (using blockchain-based cryptography), user governance, fault tolerance, and incentivization through tokens.",
+  },
+  {
+    question: "How does dApp development differ from traditional app development?",
+    answer:
+      "Unlike traditional apps that are controlled by a central authority, dApps are decentralized, operate on blockchain networks, and rely on smart contracts to execute transactions. This ensures better security, transparency, and lower operational costs.",
+  },
+  {
+    question:
+      "How secure are dApps?",
+    answer:
+      "dApps are generally more secure than traditional applications because they are decentralized and distributed across a blockchain, eliminating a single point of failure. They are also protected by cryptographic techniques, making data manipulation difficult.",
+  },
+];
 
 export const DeFiStakingFaq = [
   {
