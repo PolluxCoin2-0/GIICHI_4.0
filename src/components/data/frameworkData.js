@@ -1705,37 +1705,37 @@ export const DefiDevFramework =  [
     logo: realEstateImg,
     title: "Process Simplification",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "DeFi eliminates intermediaries, allowing direct peer-to-peer transactions for greater efficiency.",
   },
   {
     logo: realEstateImg,
     title: "Process Automation",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Smart contracts streamline operations, enabling automated and accelerated financial services.",
   },
   {
     logo: realEstateImg,
     title: "Reduced Transaction Cost",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Decentralized transactions lower costs by removing third-party fees.",
   },
   {
     logo: realEstateImg,
     title: "Increased Control",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Users retain full autonomy over their assets with non-custodial wallets, ensuring greater security and independence.",
   },
   {
     logo: realEstateImg,
     title: "Transparency",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "DeFi’s Decentralized Autonomous Organization (DAO) model enhances trust and transparency in financial operations.",
   },
   {
     logo: realEstateImg,
     title: "Faster Settlement",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "DeFi applications can reduce settlement times from T+1 to T+0, enabling instant transactions.",
   },
 ];
 

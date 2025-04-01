@@ -659,25 +659,31 @@ export const Web3DevelopmentFaq = [
 
 export const DefiDevelopmentFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: " What is decentralization in DeFi?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "Decentralization in DeFi means financial services are run on a blockchain, without centralized control, offering transparency and user autonomy.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How does DeFi ensure security without intermediaries?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "DeFi uses blockchain for transparent, immutable transactions and smart contracts for automation, removing the need for traditional intermediaries.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What are the benefits of DeFi decentralization?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Benefits include lower fees, faster transactions, better privacy, and increased financial inclusion.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "Can DeFi be as efficient as CeFi?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "DeFi offers great benefits but can face challenges in speed and scalability, though improvements are ongoing.",
+  },
+  {
+    question:
+      "Is DeFi more secure than CeFi?",
+    answer:
+      "DeFi offers transparency and security through blockchain, though it’s still vulnerable to smart contract risks, requiring careful research and audits.",
   },
  
 ];

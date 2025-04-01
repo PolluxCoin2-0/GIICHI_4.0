@@ -68,10 +68,10 @@ export const DefiConsultingForecast = {
 export const DefiDevForecast = {
   img1:TransportFeature1Img,
    img2:TransportFeature2Img,
-   title1:"The Paradigm Shift From Traditional Business Model to DeFi Development",
-   title2:"Decentralized Finance Development Global Market Size",
-   desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",
-   desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
+   title1:"The Shift from Traditional Finance to Decentralized Solutions",
+   title2:"Global Market Size of Decentralized Finance (DeFi) Development",
+   desc1:"Are you struggling with challenges like delayed settlements, inefficient price discovery, liquidity constraints, poor decision-making, and uncertainty around underlying assets due to traditional financial systems? Decentralized Finance (DeFi) development offers a transformative solution to these issues. Whether you're a fast-growing startup or a Fortune 500 enterprise, the future of finance is decentralized.",
+   desc2:"At Giichi, we are committed to shaping the future of the digital economy—and that future is fully decentralized. The global DeFi market was valued at USD 13.61 billion in 2022 and is projected to grow at a CAGR of 46.0% from 2023 to 2030. As the DeFi development landscape continues to evolve, both traditional financial institutions and new market players can leverage DeFi solutions to drive innovation, enhance efficiency, and unlock new growth opportunities.",
          
 };
 

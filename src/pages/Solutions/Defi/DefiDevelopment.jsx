@@ -72,16 +72,13 @@ const DefiDevelopment = () => {
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <div className="w-[50%]">
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-            Decentralized Finance{" "}
+          Decentralized Finance {" "}
           </p>
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            DeFi Development
+          (DeFi) Development
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Empowering Collaborative Ecosystems with Resilient and Trust-Driven DeFi Solutions.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-5">
@@ -152,13 +149,14 @@ const DefiDevelopment = () => {
 
       {/* DEFI DEVELOPMENT JOURNEY */}
       <div className="mt-24">
+        <div className="flex flex-col justify-center items-center">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
           Our DeFi Development Journey
         </p>
-        <p className="text-white text-opacity-70 text-center pt-4">
-          We follow a coherent roadmap to seamlessly drive your Web3 development
-          process.
+        <p className="text-white text-opacity-70 text-center pt-4 w-[60%] ">
+        From ideation and initial design sprints to full-scale deployment and widespread adoption, our structured DeFi development process ensures you stay ahead in the decentralized finance revolution.
         </p>
+        </div>
         <div className="p-4 mt-6">
           <div className="relative flex items-center justify-between max-w-7xl 3xl:max-w-[1380px] mx-auto">
             {stages.map((stage, index) => (
@@ -195,11 +193,7 @@ const DefiDevelopment = () => {
           DeFi Vs CeFi
         </p>
         <p className="text-white text-opacity-75 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-4">
-          DeFi and CeFi are two distinct models of financial systems that
-          operate on blockchain technology. CeFi is controlled by a central
-          authority such as a bank and CeFi platforms typically require users to
-          go through a rigorous KYC. Decentralized Finance Development is ideal
-          for those who prioritize decentralization, transparency, and low fees.
+        DeFi and CeFi represent two different approaches to financial systems, both leveraging blockchain technology. CeFi is centralized, meaning it is governed by a central authority, such as a bank, and usually requires users to undergo strict Know Your Customer (KYC) procedures.
         </p>
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
