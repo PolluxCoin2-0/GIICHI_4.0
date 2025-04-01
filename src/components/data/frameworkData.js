@@ -73,6 +73,7 @@ import CreditCardImg from "../../assets/credit-card.png";
 import RetailImg from "../../assets/retail.png";
 import DebitcardImg from "../../assets/debitcard.png";
 import SatelliteImg from "../../assets/satellite.png";
+import ControlImg from "../../assets/Control.png";
 
 export const BlockchainDevelopmentFramework =  [
   {
@@ -1645,55 +1646,55 @@ export const WhiteLabelNftFramework =  [
 
 export const Web3DevelopmentFramework =  [
   {
-    logo: realEstateImg,
+    logo: MetaverseAiImg,
     title: "Web3 Metaverse Development",
     description:
       "We specialize in building immersive metaverse platforms for industries such as Gaming, Entertainment, Real Estate, Fashion, Social Media, and more.",
   },
   {
-    logo: realEstateImg,
+    logo: WalletImg,
     title: "Web3 Wallet Development",
     description:
       "Whether you need a multichain wallet or a blockchain-specific solution, we offer secure and customized Web 3.0 crypto wallet development tailored to your business requirements.",
   },
   {
-    logo: realEstateImg,
+    logo: ExchangeImg,
     title: "Web3 Exchange Development",
     description:
       "Our decentralized exchange (DEX) development services empower businesses to revolutionize the crypto market with high-performance, secure trading platforms.",
   },
   {
-    logo: realEstateImg,
+    logo: SoftwareImg,
     title: "Web3 Metaverse Game Development",
     description:
       "From NFT creation to immersive gaming experiences, we provide end-to-end Web 3.0 metaverse game development services to bring your vision to life.",
   },
   {
-    logo: realEstateImg,
+    logo: RecordImg,
     title: "Web3 Smart Contract Development",
     description:
       "Our expert developers create highly secure smart contracts to enhance decentralized applications, enabling businesses to leverage the power of DeFi.",
   },
   {
-    logo: realEstateImg,
+    logo: GlobalImg,
     title: "Web 3.0 Browsers",
     description:
       "We harness blockchain technology to develop secure Web 3.0-powered browsers that protect user data while ensuring complete anonymity.",
   },
   {
-    logo: realEstateImg,
+    logo: marketingImg,
     title: "Web Streaming Services",
     description:
       "Leveraging blockchain and smart contracts, we build transparent web streaming platforms that empower content creators to earn seamlessly.",
   },
   {
-    logo: realEstateImg,
+    logo: depinGoverImg,
     title: "Decentralized Autonomous Organization (DAO)",
     description:
       "Our Web 3.0 developers create and implement smart contract-driven DAO platforms tailored to various business applications.",
   },
   {
-    logo: realEstateImg,
+    logo: FundImg,
     title: "Decentralized Finance (DeFi)",
     description:
       "As a leading Web 3.0 development company, we design innovative DeFi platforms for borrowing/lending, staking, yield farming, and beyond.",
@@ -1702,37 +1703,37 @@ export const Web3DevelopmentFramework =  [
 
 export const DefiDevFramework =  [
   {
-    logo: realEstateImg,
+    logo: processImg,
     title: "Process Simplification",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: ManufactureImg,
     title: "Process Automation",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: depinTokenImg,
     title: "Reduced Transaction Cost",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: ControlImg,
     title: "Increased Control",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: testingImg,
     title: "Transparency",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
   },
   {
-    logo: realEstateImg,
+    logo: RetailImg,
     title: "Faster Settlement",
     description:
       "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
