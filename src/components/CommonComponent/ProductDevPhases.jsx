@@ -20,7 +20,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
               <div key={index} className="relative m-0 md:m-4">
                 {/* Hexagon outer gradient */}
                 <div
-                  className="w-48 md:w-64 h-48 md:h-64 bg-gradient-to-r from-[#F0AA06] to-[#64A03C]"
+                  className="w-48 lg:w-64 h-48 lg:h-64 bg-gradient-to-r from-[#F0AA06] to-[#64A03C]"
                   style={{
                     clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
                   }}
@@ -35,7 +35,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
                   >
                     <div className="text-white font-medium text-center">
                       <div className="text-lg font-bold">{step.id}.</div>
-                      <div className="mt-1 text-[12px] md:text-lg font-bold">{step.title}</div>
+                      <div className="mt-1 text-[12px] lg:text-lg font-bold">{step.title}</div>
                     </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
               <div key={index + 3} className="relative m-0 md:m-4">
                 {/* Hexagon outer gradient */}
                 <div
-                  className="w-48 md:w-64 h-48 md:h-64 bg-gradient-to-r from-[#F0AA06] to-[#64A03C]"
+                  className="w-48 lg:w-64 h-48 lg:h-64 bg-gradient-to-r from-[#F0AA06] to-[#64A03C]"
                   style={{
                     clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
                   }}
@@ -64,7 +64,7 @@ const ProductDevPhases = ({ data, heading, desc }) => {
                   >
                     <div className="text-white font-medium text-center">
                       <div className="text-lg font-bold">{step.id}.</div>
-                      <div className="mt-1 text-[12px] md:text-lg font-bold">{step.title}</div>
+                      <div className="mt-1 text-[12px] lg:text-lg font-bold">{step.title}</div>
                     </div>
                   </div>
                 </div>

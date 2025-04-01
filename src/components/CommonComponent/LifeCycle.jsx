@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const LifeCycle = ({ heading1, heading2, desc, steps }) => {
   return (
-    <div className="pt-20 pb-20 relative">
+    <div className="pt-6 md:pt-20 pb-20 relative">
         <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
       <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -12,7 +12,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
         </span>
       </p>
       <div className="flex justify-center">
-        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[50%] leading-7 text-center">
+        <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[70%] lg:w-[50%] leading-7 text-center">
           {desc}
         </p>
       </div>

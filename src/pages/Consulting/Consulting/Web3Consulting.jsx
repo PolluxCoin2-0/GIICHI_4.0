@@ -29,7 +29,7 @@ const Web3Consulting = () => {
       />
 
       {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
@@ -40,7 +40,7 @@ const Web3Consulting = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
           Best Web3 Consultants at Your Service
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-[90%] tracking-wider">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-full md:w-[90%] tracking-wider">
           Web3 has generated significant buzz, leaving many wondering what it truly entails. Simply put, Web3 is the modern internet powered by blockchain, offering all the advantages of decentralized technology.  <br/> <br/>
            With its vast opportunities across industries, Web3 presents immense potential. This is where Giichi, a leading Web3 consulting firm, steps in helping businesses efficiently explore and harness these opportunities for their growth and success.
           </p>

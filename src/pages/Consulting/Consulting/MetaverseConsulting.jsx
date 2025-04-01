@@ -29,7 +29,7 @@ const MetaverseConsulting = () => {
       />
 
       {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
@@ -40,7 +40,7 @@ const MetaverseConsulting = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
           Unlock Metaverse Growth with Expert Consulting  
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-full lg:w-[90%]">
          Our metaverse consulting services help businesses tap into the immense growth potential of the metaverse, regardless of industry. Now is the time to explore and integrate this revolutionary technology to achieve next-level success. <br/> <br/> 
          With a team of highly skilled metaverse experts, we provide strategic guidance and valuable insights, ensuring businesses make the most of metaverse opportunities for maximum benefits.
           </p>

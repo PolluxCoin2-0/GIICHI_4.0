@@ -65,8 +65,10 @@ import ArbitrageBots from "./pages/Solutions/TradingBots/ArbitrageBots";
 import ContactForm from "./components/resuableComponent/ContactForm";
 import AboutUs from "./pages/About/AboutUs";
 import { ToastContainer } from "react-toastify";
+
 function App() {
   return (
+    <div className="overflow-x-hidden">
     <Router>
       <Navbar />
       <ToastContainer
@@ -180,6 +182,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </div>
   );
 }
 

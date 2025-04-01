@@ -20,7 +20,7 @@ const BannerContent = ({img, title1, title2, desc}) => {
               {title2}{" "}
             </span>
           </p>
-          <p className="pt-6 lg:text-[16px] font-semibold leading-snug md:w-[50%] xl:w-[30%]">
+          <p className="pt-6 text-sm lg:text-[16px] font-semibold leading-snug md:w-[50%] xl:w-[30%]">
             {desc}
           </p>
           {/* Button */}
