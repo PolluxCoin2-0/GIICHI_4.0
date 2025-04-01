@@ -657,6 +657,30 @@ export const Web3DevelopmentFaq = [
  
 ];
 
+export const DaoBlockchainFaq = [
+  {
+    question: "What is a DAO?",
+    answer:
+      "A DAO is a decentralized organization governed by its members through smart contracts, where decisions are made collectively without central authority.",
+  },
+  {
+    question: "How does a DAO work?",
+    answer:
+      "A DAO operates using smart contracts that automate decision-making. Members vote on proposals using DAO tokens, and the system executes decisions automatically.",
+  },
+  {
+    question: "What are the benefits of DAOs?",
+    answer:
+      "DAOs offer decentralization, transparency, lower costs, and democratic governance, removing the need for intermediaries and empowering community-driven decision-making.",
+  },
+  {
+    question:
+      " How are decisions made in a DAO?",
+    answer:
+      "Decisions are made by voting with DAO tokens, where votes are proportional to token holdings. Smart contracts automatically implement the results.",
+  },
+];
+
 export const DefiDevelopmentFaq = [
   {
     question: " What is decentralization in DeFi?",

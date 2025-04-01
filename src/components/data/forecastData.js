@@ -79,8 +79,8 @@ export const DaoBlockchainForecast = {
   img1:TransportFeature1Img,
    img2:TransportFeature2Img,
    title1:"Professional DAO Development Company",
-   title2:"An Insight into DAO Development",
-   desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",
-   desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
+   title2:"An Overview of DAO Development",
+   desc1:"Blockchain technology offers a secure, unified system with a range of powerful features. DAO blockchain development provides a cost-effective solution to the challenges of traditional centralized businesses. Discover how Giichi can help protect and enhance your business by leveraging DAO blockchain development.",
+   desc2:"A Decentralized Autonomous Organization (DAO) is a transparent, self-governing entity that operates without a central authority. In a DAO, all members share equal governance rights, and critical decisions are made collectively by the community. A DAO can be established through various crypto wallets controlled by either individuals or organizations.",
          
 };

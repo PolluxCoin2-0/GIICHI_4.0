@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import BlockchainDepinImg from "../../../assets/depin.png";
-import { Web3DevelopmentFaq } from "../../../components/data/faqsData";
+import { DaoBlockchainFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import { Link } from "react-router-dom";
@@ -10,23 +10,21 @@ import { DaoBlockchainForecast } from "../../../components/data/forecastData";
 
 const comparisons = [
   {
-    feature: "Structure",
-    cefi: "Centralized",
-    defi: "Completely Decentralized",
+    feature: "Governance",
+    cefi: "Governance: Managed hierarchically, with decision-making bottlenecks at higher levels.",
+    defi: "Governance: Governed by smart contracts, with rules embedded in code.",
   },
   {
-    feature: "Transparency",
-    cefi: "Not Transparent",
-    defi: "Highly Transparent",
+    feature: "Trust",
+    cefi: "Trust: Relies on established relationships and past experiences.",
+    defi: "Trust: Built on cryptography and blockchain technology for security and transparency.",
   },
-  { feature: "Access", cefi: "Permissioned", defi: "Permissionless" },
   {
-    feature: "Censorship",
-    cefi: "Can be Censored",
-    defi: "Censorship Resistant",
+    feature: "Decision-Making",
+    cefi: "Decision-Making: Driven by expertise and seniority within the organization.",
+    defi: "Decision-Making: Automated through AI, independent agents, and smart contracts.",
   },
-  { feature: "Cost", cefi: "Expensive", defi: "Economical" },
-  { feature: "Security", cefi: "Less Secure", defi: "Highly Secure" },
+  { feature: "Cost", cefi: "Operational Costs: Typically high due to administrative overhead and layers of management.", defi: "Operational Costs: Lower, thanks to decentralized governance and reduced administrative overhead." },
 ];
 
 const DaoBlockchain = () => {
@@ -37,10 +35,7 @@ const DaoBlockchain = () => {
         img={BlockchainDepinImg}
         title1="DAO Blockchain "
         title2="Development"
-        desc="Building a decentralized infrastructure network is no longer a
-            challenge. Giichi enables businesses to transform their physical
-            infrastructure into decentralized networks that enhance efficiency,
-            security, and transparency."
+        desc="Automated, Decentralized, and High-Performance Business Structures."
       />
 
       {/* Bloackchain forecast */}
@@ -55,8 +50,7 @@ const DaoBlockchain = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our DAO Development experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -90,11 +84,7 @@ const DaoBlockchain = () => {
           DAO vs Traditional Organizations
         </p>
         <p className="text-white text-opacity-75 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-4">
-          DeFi and CeFi are two distinct models of financial systems that
-          operate on blockchain technology. CeFi is controlled by a central
-          authority such as a bank and CeFi platforms typically require users to
-          go through a rigorous KYC. Decentralized Finance Development is ideal
-          for those who prioritize decentralization, transparency, and low fees.
+        When comparing governance models for organizations, there are two primary options: COs (Traditional or Continuous Organizations) and DAOs. Both are powered by advanced crypto-economic principles and smart contracts.
         </p>
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
@@ -161,7 +151,7 @@ const DaoBlockchain = () => {
 
       {/* FAQ Section */}
       <div>
-        <Faq data={Web3DevelopmentFaq} />
+        <Faq data={DaoBlockchainFaq} />
       </div>
     </div>
   );
