@@ -998,57 +998,39 @@ export const DigitalWalletFramework =  [
 export const WhiteLabelWalletFramework =  [
   {
     logo: realEstateImg,
-    title: "White Label Crypto Wallet Development",
+    title: "Multi-Signature Crypto Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "A multi-signature wallet requires multiple approvals before executing transactions, providing enhanced protection against fraud and money laundering.",
   },
   {
     logo: realEstateImg,
-    title: "DeFi Wallet Development",
+    title: "Blockchain Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our certified blockchain teams deliver feature-rich blockchain wallets, equipped with advanced functionalities and integrated seamlessly into one platform.",
+  },
+  {
+    logo: realEstateImg,
+    title: "Custom Crypto Wallet Development",
+    description:
+      "With years of expertise, our skilled developers create tailor-made crypto wallet solutions for businesses of all sizes, ensuring smooth integration with decentralized applications (dApps).",
+  },
+  {
+    logo: realEstateImg,
+    title: "Decentralized Wallet Development",
+    description:
+      "Decentralized wallets give users complete control over their funds and personal data, operating independently on personal devices without the need for third-party intermediaries.",
   },
   {
     logo: realEstateImg,
     title: "Web3 Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our premium Web3 wallet solutions provide support for a variety of cryptocurrencies, enabling users to access decentralized applications (dApps) and swap tokens effortlessly.",
   },
   {
     logo: realEstateImg,
-    title: "Wallet-as-a-Service (WaaS)",
+    title: "Clone Script Wallet Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "MPC Wallet Development",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Multi-Chain Wallet Development",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Coin-Based Wallet Development",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "Centralized Wallet Development",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
-  },
-  {
-    logo: realEstateImg,
-    title: "TRON Wallet Development",
-    description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Launch your wallet application quickly with our clone script wallet solutions. These replicas of existing wallet platforms can be customized with a few tweaks before going live.",
   },
 ];
 

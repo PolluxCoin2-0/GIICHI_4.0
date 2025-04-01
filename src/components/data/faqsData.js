@@ -333,6 +333,24 @@ export const DigitalWalletExchangeFaq = [
  
 ];
 
+export const WhiteLabelWalletExchangeFaq = [
+  {
+    question: "What is a White Label Cryptocurrency Wallet?",
+    answer:
+      "A white label cryptocurrency wallet is a pre-built, customizable wallet solution that businesses can brand and launch as their own. It allows businesses to offer secure storage and management of digital assets without building a wallet from scratch.",
+  },
+  {
+    question: "How does a White Label Wallet benefit my business?",
+    answer:
+      "A white label wallet helps businesses save time and development costs by providing a ready-to-deploy solution. It can be tailored to your brand, offering features like multi-currency support, enhanced security, and ease of use, helping you stand out in the competitive crypto space.",
+  },
+  {
+    question: "Can I customize the features of a White Label Crypto Wallet?",
+    answer:
+      "Yes, white label wallets can be fully customized to meet your specific needs. You can add features such as multi-signature support, two-factor authentication, and integrate the wallet with various blockchain networks to suit your target audience and business model.",
+  },
+];
+
 export const Web3WalletExchangeFaq = [
   {
     question: "What is Web3 Wallet?",

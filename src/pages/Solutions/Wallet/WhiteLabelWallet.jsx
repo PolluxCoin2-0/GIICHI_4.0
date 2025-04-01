@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
-import { DigitalWalletFramework } from "../../../components/data/frameworkData";
+import { WhiteLabelWalletFramework } from "../../../components/data/frameworkData";
 import Industries from "../../../components/CommonComponent/Industries";
 import { whiteLabelIndustriesData } from "../../../components/data/industriesData";
 import Faq from "../../../components/resuableComponent/Faq";
-import { DigitalWalletExchangeFaq } from "../../../components/data/faqsData";
+import { WhiteLabelWalletExchangeFaq } from "../../../components/data/faqsData";
 
 const statsData = [
   { label: "Registration", value: "200+" },
@@ -32,23 +32,12 @@ const WhiteLabelWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
+            Boost your investments with our ready-to-launch, White Label cryptocurrency wallet. We specialize in creating customized, secure, and user-friendly wallets that help you differentiate yourself in the market. <br/> <br/>
+            A white label cryptocurrency wallet is a pre-built, customizable solution that allows businesses to offer their own branded wallet service without needing to develop the software from scratch. These wallets come with the essential features for securely storing and managing cryptocurrencies, but businesses can personalize the interface, branding, and specific functionalities to suit their target audience.
             </p>
 
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
+            <div className="flex flex-row items-center space-x-6 mt-6">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
@@ -80,20 +69,12 @@ const WhiteLabelWallet = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Navigating the Features of White Label Cryptocurrency Wallet
+          Exploring the Key Features of White Label Cryptocurrency Wallets
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          A White-Label cryptocurrency wallet is a pre-built, fully-tested, and customizable solution for securely storing, sending, and receiving cryptocurrencies, NFTs, stablecoins, and various other digital assets. This ready-made platform can be quickly adapted to your brand’s requirements, streamlining the deployment and launch process for both web and mobile platforms. <br/> <br/>
+
+Creating a White-Label wallet demands deep domain knowledge, extensive experience, and expertise — all of which are available through top-tier development companies like Giichi. We offer both custodial and non-custodial wallet development on prominent blockchain networks, backed by over a decade of industry experience.
           </p>
         </div>
         <div className="w-full lg:w-[50%]">{/* img */}</div>
@@ -135,16 +116,16 @@ const WhiteLabelWallet = () => {
       {/* DIGITAL WALLET DEVELOPMENT SERVICES */}
       <div className="mt-20">
         <Framework
-          data={DigitalWalletFramework}
+          data={WhiteLabelWalletFramework}
           heading1="Explore Our White Label "
           heading2="Crypto Wallet Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc=""
         />
       </div>
 
       {/* FAQ SECTION */}
-      <div>
-        <Faq data={DigitalWalletExchangeFaq} />
+      <div className="mt-24">
+        <Faq data={WhiteLabelWalletExchangeFaq} />
       </div>
     </div>
   );
