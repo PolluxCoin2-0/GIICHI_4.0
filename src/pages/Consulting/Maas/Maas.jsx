@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import { PulseBeams } from "../../../components/resuableComponent/PulseBeam";
+// import { PulseBeams } from "../../../components/resuableComponent/PulseBeam";
 import serviceIcon from "../../../assets/collab.png";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { maasLifeCycleData } from "../../../components/data/lifecycleData";
@@ -40,9 +40,8 @@ const services = [
 const Maas = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
-    
-       {/* Banner Image - MARKETING AS A SERVICE  */}
-       <BannerContent
+      {/* Banner Image - MARKETING AS A SERVICE  */}
+      <BannerContent
         img={MaasBannerImg}
         title1="Web3 & Digital"
         title2="Marketing Company"
@@ -50,12 +49,12 @@ const Maas = () => {
       />
 
       {/* Banner Image */}
-      <div className="hidden lg:block">
+      {/* <div className="hidden lg:block">
         <PulseBeams />
-      </div>
+      </div> */}
 
       {/* what is maas */}
-      <div className="flex flex-col jjustify-start md:justify-center items-start md:items-center mt-8 lg:mt-0 px-4">
+      <div className="flex flex-col jjustify-start md:justify-center items-start md:items-center mt-8  px-4">
         <p className="text-white text-lg md:text-xl lg:text-3xl font-bold pt-4 leading-tight tracking-wide ">
           <span className="text-transparent bg-clip-text bg-green-gradient text-lg md:text-xl lg:text-3xl font-semibold pt-14 pb-14">
             What is Marketing As A Service?
@@ -116,8 +115,13 @@ const Maas = () => {
         {/* row 1 */}
         <div className="flex flex-col md:flex-row justify-center space-x-0 md:space-x-4 lg:space-x-8 w-full">
           <div className="bg-[#3F91E3] w-full md:w-[50%] lg:w-[40%] h-[200px] p-4 lg:p-6">
-            <p className="text-white text-xl md:text-lg lg:text-2xl font-semibold">Branding</p>
-            <p className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed w-full md:w-[90%]" style={{ lineHeight: '1.75' }}>
+            <p className="text-white text-xl md:text-lg lg:text-2xl font-semibold">
+              Branding
+            </p>
+            <p
+              className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed w-full md:w-[90%]"
+              style={{ lineHeight: "1.75" }}
+            >
               Our team establish a unique and memorable brand identity tailored
               to the Web3 ecosystem. We create compelling brand strategies,
               logos, and messaging to position your business effectively.
@@ -127,7 +131,10 @@ const Maas = () => {
             <p className="text-white text-xl  md:text-lg lg:text-2xl font-semibold">
               Social Media Marketing
             </p>
-            <p className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed w-full md:w-[90%]" style={{ lineHeight: '1.75' }}>
+            <p
+              className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed w-full md:w-[90%]"
+              style={{ lineHeight: "1.75" }}
+            >
               Web drive engagement and build a strong online presence with
               strategic content, community interaction, and platform-specific
               campaigns on Twitter, Discord, Telegram, LinkedIn, and more.
@@ -141,15 +148,23 @@ const Maas = () => {
             <p className="text-white text-[19px]  md:text-lg  lg:text-2xl font-semibold">
               Content Creation & Marketing
             </p>
-            <p className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed " style={{ lineHeight: '1.75' }}>
+            <p
+              className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed "
+              style={{ lineHeight: "1.75" }}
+            >
               Our team develops high-quality, informative, and engaging content,
               including blogs, whitepapers, videos, and infographics, to educate
               your audience and strengthen your brand authority.
             </p>
           </div>
           <div className="bg-[#CB3F79] w-full md:w-[33%] h-[200px] p-4 lg:p-6 mt-4 md:mt-0">
-            <p className="text-white text-xl  md:text-lg lg:text-2xl font-semibold">UI/UX Design</p>
-            <p className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed" style={{ lineHeight: '1.75' }}>
+            <p className="text-white text-xl  md:text-lg lg:text-2xl font-semibold">
+              UI/UX Design
+            </p>
+            <p
+              className="text-white text-sm  md:text-xs lg:text-[15px] font-normal mt-2 leading-relaxed"
+              style={{ lineHeight: "1.75" }}
+            >
               We design intuitive, user-friendly, and visually appealing digital
               experiences that enhance user interaction, ensuring seamless
               navigation across Web3 platforms and applications.
@@ -159,7 +174,10 @@ const Maas = () => {
             <p className="text-white text-[19px]  md:text-lg  lg:text-2xl font-semibold">
               Search Engine Optimzation
             </p>
-            <p className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed" style={{ lineHeight: '1.75' }}>
+            <p
+              className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed"
+              style={{ lineHeight: "1.75" }}
+            >
               We offer Optimization of your website and content to improve
               search engine rankings, drive organic traffic, and increase
               discoverability within the blockchain and crypto space.
@@ -173,7 +191,10 @@ const Maas = () => {
             <p className="text-white text-[19px] md:text-lg lg:text-2xl font-semibold">
               Insights and In-Depth Analytics
             </p>
-            <p className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed w-full md:w-[90%]" style={{ lineHeight: '1.75' }}>
+            <p
+              className="text-white text-sm md:text-xs lg:text-[15px] font-normal mt-0 md:mt-2 leading-relaxed w-full md:w-[90%]"
+              style={{ lineHeight: "1.75" }}
+            >
               We leverage data-driven strategies with real-time performance
               tracking, competitor analysis, and audience insights to refine
               marketing campaigns and maximize ROI.
@@ -225,8 +246,8 @@ const Maas = () => {
         </div>
       </div>
 
-       {/* FAQ */}
-       <div className="mt-24">
+      {/* FAQ */}
+      <div className="mt-24">
         <Faq data={MaasFaq} />
       </div>
     </div>
