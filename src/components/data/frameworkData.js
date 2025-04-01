@@ -1076,35 +1076,40 @@ export const Web3WalletFramework =  [
 export const MulticurrencyWalletFramework =  [
   {
     logo: realEstateImg,
-    title: "Two Factor Authentication",
+    title: "OTC Trading Support",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "A standout feature of our wallet is OTC trading, which enables traders to conduct secure transactions with minimal latency, ensuring seamless trading experiences.",
   },
   {
     logo: realEstateImg,
-    title: "Automatic Session Logout",
+    title: "Multi-Currency Support",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our wallet solutions support Bitcoin along with other popular altcoins. We customize our wallets to meet specific business needs, offering tailored trading facilities for clients.",
   },
   {
     logo: realEstateImg,
-    title: "Complete Threat Protection",
+    title: "Push Notifications",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Users can manage push notifications to stay updated on transaction details, price alerts, and other market activities, providing convenience and control.",
   },
   {
     logo: realEstateImg,
-    title: "Wallet Backup",
+    title: "QR Code Scanner",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "The wallet comes with a built-in QR code scanner, enabling users to make instant payments at PoS terminals or through online services with ease.",
   },
   {
     logo: realEstateImg,
-    title: "Email Authentication",
+    title: "Risk Management",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We integrate robust risk management features, including identifying suspicious wallet addresses and preventing duplicate payments to enhance security.",
   },
-  
+  {
+    logo: realEstateImg,
+    title: "Multi-Signature Support",
+    description:
+      "Our wallet supports multi-signature functionality, allowing users to view transaction details, authorize transactions, and have a secure recovery phase for added protection.",
+  },
 ];
 
 export const ArbitrageBotFramework =  [

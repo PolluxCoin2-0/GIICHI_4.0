@@ -351,6 +351,31 @@ export const WhiteLabelWalletExchangeFaq = [
   },
 ];
 
+export const MulticurrencyWalletExchangeFaq = [
+  {
+    question: "What is a multicurrency wallet?",
+    answer:
+      "A multicurrency wallet is a digital wallet that supports the storage, management, and exchange of multiple cryptocurrencies in one platform. It enables users to store various cryptocurrencies like Bitcoin, Ethereum, and altcoins without needing separate wallets for each.",
+  },
+  {
+    question: "How secure is a multicurrency wallet? ",
+    answer:
+      "Multicurrency wallets are equipped with high-level security features such as encryption, multi-signature support, and two-factor authentication (2FA) to ensure the safety of user funds. Advanced risk management tools also help detect fraudulent activities and prevent unauthorized access.",
+  },
+  {
+    question: "Can I trade cryptocurrencies directly within a multicurrency wallet?",
+    answer:
+      "Yes, most multicurrency wallets support integrated exchange features, allowing users to trade cryptocurrencies directly within the wallet. Some wallets also enable OTC (Over-the-Counter) trading for secure and seamless transactions.",
+  },
+  {
+    question:
+      "Are multicurrency wallets compatible with all blockchains?",
+    answer:
+      " Multicurrency wallets are typically designed to be compatible with multiple blockchain networks. However, their functionality may vary depending on the wallet's support for specific blockchains, tokens, and cryptocurrencies. It’s important to ensure that the wallet supports the assets you want to store and manage.",
+  },
+ 
+];
+
 export const Web3WalletExchangeFaq = [
   {
     question: "What is Web3 Wallet?",
