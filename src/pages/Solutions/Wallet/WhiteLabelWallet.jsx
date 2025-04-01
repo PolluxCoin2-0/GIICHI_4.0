@@ -32,8 +32,17 @@ const WhiteLabelWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-            Boost your investments with our ready-to-launch, White Label cryptocurrency wallet. We specialize in creating customized, secure, and user-friendly wallets that help you differentiate yourself in the market. <br/> <br/>
-            A white label cryptocurrency wallet is a pre-built, customizable solution that allows businesses to offer their own branded wallet service without needing to develop the software from scratch. These wallets come with the essential features for securely storing and managing cryptocurrencies, but businesses can personalize the interface, branding, and specific functionalities to suit their target audience.
+              Boost your investments with our ready-to-launch, White Label
+              cryptocurrency wallet. We specialize in creating customized,
+              secure, and user-friendly wallets that help you differentiate
+              yourself in the market. <br /> <br />A white label cryptocurrency
+              wallet is a pre-built, customizable solution that allows
+              businesses to offer their own branded wallet service without
+              needing to develop the software from scratch. These wallets come
+              with the essential features for securely storing and managing
+              cryptocurrencies, but businesses can personalize the interface,
+              branding, and specific functionalities to suit their target
+              audience.
             </p>
 
             {/* button to connect on whatsapp */}
@@ -69,12 +78,20 @@ const WhiteLabelWallet = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Exploring the Key Features of White Label Cryptocurrency Wallets
+            Exploring the Key Features of White Label Cryptocurrency Wallets
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-          A White-Label cryptocurrency wallet is a pre-built, fully-tested, and customizable solution for securely storing, sending, and receiving cryptocurrencies, NFTs, stablecoins, and various other digital assets. This ready-made platform can be quickly adapted to your brand’s requirements, streamlining the deployment and launch process for both web and mobile platforms. <br/> <br/>
-
-Creating a White-Label wallet demands deep domain knowledge, extensive experience, and expertise — all of which are available through top-tier development companies like Giichi. We offer both custodial and non-custodial wallet development on prominent blockchain networks, backed by over a decade of industry experience.
+            A White-Label cryptocurrency wallet is a pre-built, fully-tested,
+            and customizable solution for securely storing, sending, and
+            receiving cryptocurrencies, NFTs, stablecoins, and various other
+            digital assets. This ready-made platform can be quickly adapted to
+            your brand’s requirements, streamlining the deployment and launch
+            process for both web and mobile platforms. <br /> <br />
+            Creating a White-Label wallet demands deep domain knowledge,
+            extensive experience, and expertise — all of which are available
+            through top-tier development companies like Giichi. We offer both
+            custodial and non-custodial wallet development on prominent
+            blockchain networks, backed by over a decade of industry experience.
           </p>
         </div>
         <div className="w-full lg:w-[50%]">{/* img */}</div>

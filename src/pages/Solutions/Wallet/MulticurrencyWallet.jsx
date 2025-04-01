@@ -63,17 +63,26 @@ const MulticurrencyWallet = () => {
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <p className="text-5xl text-white font-semibold text-center">
-        Multi-Currency Wallet  <br />
+          Multi-Currency Wallet <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          Development Services
+            Development Services
           </span>
         </p>
         <div className="flex flex-row w-full mt-12">
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-            Partner with a leading multi-currency wallet development company to build and launch secure, scalable wallet solutions. Our team of experts will deploy wallets on your preferred blockchain, ensuring a seamless experience. Designed with an intuitive, user-friendly interface, our multi-currency wallets elevate the overall financial experience for your users. <br/> <br/>
-            Collaborate with a trusted multi-currency wallet development company to create cutting-edge wallet solutions tailored to your needs. We specialize in developing highly secure, scalable wallets that support a wide range of digital assets across multiple blockchains.
+              Partner with a leading multi-currency wallet development company
+              to build and launch secure, scalable wallet solutions. Our team of
+              experts will deploy wallets on your preferred blockchain, ensuring
+              a seamless experience. Designed with an intuitive, user-friendly
+              interface, our multi-currency wallets elevate the overall
+              financial experience for your users. <br /> <br />
+              Collaborate with a trusted multi-currency wallet development
+              company to create cutting-edge wallet solutions tailored to your
+              needs. We specialize in developing highly secure, scalable wallets
+              that support a wide range of digital assets across multiple
+              blockchains.
             </p>
 
             {/* button to connect on whatsapp */}
@@ -116,7 +125,8 @@ const MulticurrencyWallet = () => {
           </span>
         </p>
         <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 px-0 xl:px-28 leading-6 text-center">
-        As a leading crypto wallet development company, we are your reliable technology partner with extensive experience in the IT domain.
+          As a leading crypto wallet development company, we are your reliable
+          technology partner with extensive experience in the IT domain.
         </p>
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60 pt-10">
           {benefits.map((row, rowIndex) => (
@@ -155,7 +165,8 @@ const MulticurrencyWallet = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Multicurrency
+            Wallet experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a
@@ -193,37 +204,25 @@ const MulticurrencyWallet = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img
-              src={accessImg}
-              alt="report-image"
-              className="w-16"
-            />
+            <img src={accessImg} alt="report-image" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Well-equipped infrastructure
             </p>
-           </div>
+          </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img
-              src={accessImg}
-              alt="manage-image"
-              className="w-16 "
-            />
+            <img src={accessImg} alt="manage-image" className="w-16 " />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Expert development team
             </p>
-           </div>
+          </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img
-              src={accessImg}
-              alt="wallet-image"
-              className="w-16"
-            />
+            <img src={accessImg} alt="wallet-image" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Wide domain knowledge & Experience
             </p>
-            </div>
+          </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
             <img
@@ -237,15 +236,11 @@ const MulticurrencyWallet = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img
-              src={accessImg}
-              alt="funding-icon"
-              className="w-16"
-            />
+            <img src={accessImg} alt="funding-icon" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Budget-friendly projects
             </p>
-         </div>
+          </div>
         </div>
       </div>
 

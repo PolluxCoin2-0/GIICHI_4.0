@@ -1,250 +1,238 @@
 export const BlockchainDevelopmentFaq = [
-    {
-      question: "What is blockchain development?",
-      answer:
-        "Blockchain development involves designing, building, and deploying decentralized applications (dApps), smart contracts, and custom blockchain solutions that ensure transparency, security, and efficiency in digital transactions.",
-    },
-    {
-      question: "What industries can benefit from blockchain technology?",
-      answer:
-        "Blockchain is widely used in industries like finance, healthcare, supply chain, real estate, gaming, government, and entertainment, improving security, transparency, and automation.",
-    },
-    {
-      question: " What are the key benefits of blockchain development?",
-      answer:
-        "Blockchain offers benefits such as enhanced security, decentralization, immutability, faster transactions, reduced costs, and trustless operations, making it ideal for various business applications.",
-    },
-    {
-      question: " What are smart contracts, and how do they work?",
-      answer:
-        "Smart contracts are self-executing digital contracts with predefined rules written in code. They automatically trigger actions when conditions are met, eliminating intermediaries and reducing fraud.",
-    },
-    {
-      question: "  How much does blockchain development cost?",
-      answer:
-        "The cost depends on factors like project complexity, blockchain type, smart contract functionality, and integration needs. Custom blockchain solutions can range from a few thousand to hundreds of thousands of dollars.",
-    },
-    {
-      question: "   How long does it take to develop a blockchain application?",
-      answer:
-        "Development time varies based on project scope and complexity. A basic dApp may take a few weeks, while a full-fledged blockchain platform may require several months of development and testing.",
-    },
-    {
-      question: "  Which blockchain platforms do you work with?",
-      answer:
-        "We specialize in various blockchain frameworks, including Ethereum, Polygon, BNB Chain, Solana, Avalanche, Polkadot, Cosmos, and custom Layer 2/3 solutions.",
-    },
-    {
-      question:
-        "  Can you integrate blockchain with existing business systems?",
-      answer:
-        "Yes, we provide blockchain integration services to connect blockchain networks with existing enterprise systems, ensuring seamless operations and improved efficiency.",
-    },
-    {
-      question: " How do you ensure security in blockchain development?",
-      answer:
-        "We follow best practices such as smart contract audits, rigorous security testing, encryption techniques, and compliance with industry standards to prevent vulnerabilities and cyber threats.",
-    },
-  ];
-
-  export const BlockchainIdentityFaq =  [
-    {
-      question: "What is blockchain identity management?",
-      answer:
-        "Blockchain identity management is a decentralized way of verifying and managing digital identities using blockchain technology. It allows individuals and businesses to have secure, self-sovereign identities without relying on central authorities.",
-    },
-    {
-      question: "How does blockchain improve digital identity security?",
-      answer:
-        "Blockchain enhances security by storing identity data in a decentralized, tamper-proof ledger, reducing the risk of hacks, identity theft, and unauthorized modifications. It uses cryptographic encryption to protect personal data.",
-    },
-    {
-      question: "How does blockchain-based identity management work?",
-      answer:
-        "Blockchain identity management works by issuing verifiable credentials stored on the blockchain. Users can present these credentials for authentication without exposing their private data, ensuring privacy and security.",
-    },
-    {
-      question:
-        "What industries can benefit from blockchain identity management?",
-      answer:
-        "Blockchain identity solutions are beneficial for banking, healthcare, education, government, supply chain, travel, and e-commerce by enabling secure authentication, compliance, and fraud prevention.",
-    },
-    {
-      question:
-        "  How does blockchain identity help with KYC and AML compliance?",
-      answer:
-        "Blockchain identity management simplifies KYC (Know Your Customer) and AML (Anti-Money Laundering) processes by allowing businesses to verify customer identities instantly while maintaining data integrity and reducing costs.",
-    },
-    {
-      question: "  Can blockchain identity management prevent identity theft?",
-      answer:
-        "Yes! Since identities are decentralized and cryptographically secured, hackers cannot alter or steal identity records, making identity theft significantly harder.",
-    },
-    {
-      question: " What is a decentralized identity wallet?",
-      answer:
-        "A decentralized identity wallet allows users to store and manage their digital identity credentials securely on their devices. It enables them to share only necessary information without exposing full identity details.",
-    },
-  ];
-
-  export const BlockchainDepinFaq =  [
-    {
-      question: "What is DePIN?",
-      answer:
-        "DePIN is a decentralized network that allows individuals to contribute physical infrastructure (e.g., bandwidth, storage, energy) and earn rewards via blockchain technology.",
-    },
-    {
-      question: "How does DePIN work?",
-      answer:
-        "Users contribute physical resources to the network and receive tokens in return. Blockchain ensures transparency, security, and automated transactions.",
-    },
-    {
-      question: "What resources can I contribute?",
-      answer:
-        "You can contribute internet bandwidth, storage space, or energy to the network.",
-    },
-    {
-      question:
-        "How are rewards distributed?",
-      answer:
-        "Rewards are given based on the amount and quality of resources contributed, usually in the form of tokens.",
-    },
-    {
-      question:
-        "  Is DePIN secure?",
-      answer:
-        "Yes, it uses blockchain for transparency, security, and protection from fraud.",
-    },
-    {
-      question: " How can I participate",
-      answer:
-        "Set up the required devices and contribute resources to start earning rewards in tokens.",
-    },
-   
-  ];
-
-  export const SuppyChainFaq = [
-    {
-      question: "What is blockchain in supply chain management?",
-      answer:
-        "Blockchain is a secure, transparent technology that records transactions, improving traceability, accountability, and security in supply chain operations.",
-    },
-    {
-      question: "How does blockchain improve supply chains?",
-      answer:
-        "It offers enhanced transparency, reduces fraud, and increases efficiency by providing real-time data and secure transactions across all stakeholders.",
-    },
-    {
-      question: "How does blockchain prevent counterfeiting?",
-      answer:
-        "By providing a secure, immutable record of every product’s journey, ensuring authenticity and reducing the risk of counterfeit goods.",
-    },
-    {
-      question:
-        " Is blockchain expensive for supply chains?",
-      answer:
-        "The initial investment may be high, but the long-term benefits, like reduced fraud and operational costs, usually provide a strong return on investment.",
-    },
-    {
-      question:
-        " How secure is blockchain?",
-      answer:
-        "Blockchain is highly secure, with encrypted and immutable records, ensuring that only authorized participants can access and update the data.",
-    },
-    {
-      question: " What industries benefit from blockchain in supply chains?",
-      answer:
-        "Industries like retail, pharmaceuticals, food and agriculture, and logistics can all benefit from improved traceability, security, and efficiency.",
-    },
-   
-  ];
-
-  export const RealEstateFaq = [
-    {
-      question: "How can blockchain benefit the real estate industry?",
-      answer:
-        "   Blockchain enhances transparency, security, and efficiency in real estate transactions. It helps with fraud prevention, faster property transfers, secure digital registries, and automated payments using smart contracts.",
-    },
-    {
-      question: "What is real estate tokenization?",
-      answer:
-        "Real estate tokenization is the process of converting property assets into digital tokens on a blockchain. This allows fractional ownership, easier trading, and increased liquidity, making property investment more accessible.",
-    },
-    {
-      question: "Can blockchain help prevent fraud in real estate?",
-      answer:
-        "Yes, blockchain’s immutable ledger records property ownership and transaction history securely. This prevents title fraud, identity theft, and unauthorized property transfers.",
-    },
-    {
-      question:
-        "What is a blockchain-powered digital registry?",
-      answer:
-        "A digital registry on blockchain stores property titles, ownership records, and transaction details in a tamper-proof and transparent system, reducing disputes and making property verification seamless.",
-    },
-    {
-      question:
-        " How does blockchain enhance real estate financing?",
-      answer:
-        "Blockchain enables decentralized mortgage securitization, where smart contracts automate payments and approvals, ensuring efficient loan processing, lower risks, and real-time reporting for lenders and investors.",
-    },
-    {
-      question: " How does blockchain improve real estate construction management?",
-      answer:
-        "Blockchain streamlines procurement, contract management, and supply chain transparency in construction projects. It ensures authenticity of materials, prevents fraud, and optimizes project timelines.",
-    },
-    {
-        question: "Is blockchain real estate software compliant with regulations?",
-        answer:
-          "Yes, blockchain-based real estate solutions adhere to jurisdictional regulations with compliance embedded in smart contracts, ensuring secure and legal transactions.",
-      },
-      {
-        question: " How can blockchain reduce real estate transaction costs?",
-        answer:
-          "By eliminating intermediaries like brokers and banks, blockchain reduces processing fees, paperwork, and legal costs, making real estate transactions more affordable and efficient.",
-      },
-      {
-        question: "Can blockchain make real estate investment more accessible?",
-        answer:
-          "Yes! Tokenized real estate allows fractional ownership, meaning investors can buy a share of a property rather than the entire asset, making real estate investments more affordable and liquid.",
-      },
-   
-  ];
-
-  export const EducationFaq = [
-    {
-      question: "What is blockchain technology in education?",
-      answer:
-        "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
-    },
-    {
-      question: " How does blockchain improve security in education?",
-      answer:
-        "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
-    },
-    {
-      question: " Can blockchain help with student identity verification?",
-      answer:
-        "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
-    },
-    {
-      question:
-        "Can blockchain eliminate fake degrees and certificates?",
-      answer:
-        "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
-    },
-    {
-      question:
-        " Does blockchain help with online learning platforms?",
-      answer:
-        "Absolutely! Blockchain enhances decentralized learning, allowing students to earn verifiable micro-credentials and track progress across different platforms.",
-    },
-    {
-      question: " Is blockchain adoption in education expensive?",
-      answer:
-        "While the initial integration may require investment, blockchain reduces long-term operational costs by automating record management, verification, and credential issuance—leading to cost savings.",
-    },
+  {
+    question: "What is blockchain development?",
+    answer:
+      "Blockchain development involves designing, building, and deploying decentralized applications (dApps), smart contracts, and custom blockchain solutions that ensure transparency, security, and efficiency in digital transactions.",
+  },
+  {
+    question: "What industries can benefit from blockchain technology?",
+    answer:
+      "Blockchain is widely used in industries like finance, healthcare, supply chain, real estate, gaming, government, and entertainment, improving security, transparency, and automation.",
+  },
+  {
+    question: " What are the key benefits of blockchain development?",
+    answer:
+      "Blockchain offers benefits such as enhanced security, decentralization, immutability, faster transactions, reduced costs, and trustless operations, making it ideal for various business applications.",
+  },
+  {
+    question: " What are smart contracts, and how do they work?",
+    answer:
+      "Smart contracts are self-executing digital contracts with predefined rules written in code. They automatically trigger actions when conditions are met, eliminating intermediaries and reducing fraud.",
+  },
+  {
+    question: "  How much does blockchain development cost?",
+    answer:
+      "The cost depends on factors like project complexity, blockchain type, smart contract functionality, and integration needs. Custom blockchain solutions can range from a few thousand to hundreds of thousands of dollars.",
+  },
+  {
+    question: "   How long does it take to develop a blockchain application?",
+    answer:
+      "Development time varies based on project scope and complexity. A basic dApp may take a few weeks, while a full-fledged blockchain platform may require several months of development and testing.",
+  },
+  {
+    question: "  Which blockchain platforms do you work with?",
+    answer:
+      "We specialize in various blockchain frameworks, including Ethereum, Polygon, BNB Chain, Solana, Avalanche, Polkadot, Cosmos, and custom Layer 2/3 solutions.",
+  },
+  {
+    question: "  Can you integrate blockchain with existing business systems?",
+    answer:
+      "Yes, we provide blockchain integration services to connect blockchain networks with existing enterprise systems, ensuring seamless operations and improved efficiency.",
+  },
+  {
+    question: " How do you ensure security in blockchain development?",
+    answer:
+      "We follow best practices such as smart contract audits, rigorous security testing, encryption techniques, and compliance with industry standards to prevent vulnerabilities and cyber threats.",
+  },
 ];
 
+export const BlockchainIdentityFaq = [
+  {
+    question: "What is blockchain identity management?",
+    answer:
+      "Blockchain identity management is a decentralized way of verifying and managing digital identities using blockchain technology. It allows individuals and businesses to have secure, self-sovereign identities without relying on central authorities.",
+  },
+  {
+    question: "How does blockchain improve digital identity security?",
+    answer:
+      "Blockchain enhances security by storing identity data in a decentralized, tamper-proof ledger, reducing the risk of hacks, identity theft, and unauthorized modifications. It uses cryptographic encryption to protect personal data.",
+  },
+  {
+    question: "How does blockchain-based identity management work?",
+    answer:
+      "Blockchain identity management works by issuing verifiable credentials stored on the blockchain. Users can present these credentials for authentication without exposing their private data, ensuring privacy and security.",
+  },
+  {
+    question:
+      "What industries can benefit from blockchain identity management?",
+    answer:
+      "Blockchain identity solutions are beneficial for banking, healthcare, education, government, supply chain, travel, and e-commerce by enabling secure authentication, compliance, and fraud prevention.",
+  },
+  {
+    question:
+      "  How does blockchain identity help with KYC and AML compliance?",
+    answer:
+      "Blockchain identity management simplifies KYC (Know Your Customer) and AML (Anti-Money Laundering) processes by allowing businesses to verify customer identities instantly while maintaining data integrity and reducing costs.",
+  },
+  {
+    question: "  Can blockchain identity management prevent identity theft?",
+    answer:
+      "Yes! Since identities are decentralized and cryptographically secured, hackers cannot alter or steal identity records, making identity theft significantly harder.",
+  },
+  {
+    question: " What is a decentralized identity wallet?",
+    answer:
+      "A decentralized identity wallet allows users to store and manage their digital identity credentials securely on their devices. It enables them to share only necessary information without exposing full identity details.",
+  },
+];
+
+export const BlockchainDepinFaq = [
+  {
+    question: "What is DePIN?",
+    answer:
+      "DePIN is a decentralized network that allows individuals to contribute physical infrastructure (e.g., bandwidth, storage, energy) and earn rewards via blockchain technology.",
+  },
+  {
+    question: "How does DePIN work?",
+    answer:
+      "Users contribute physical resources to the network and receive tokens in return. Blockchain ensures transparency, security, and automated transactions.",
+  },
+  {
+    question: "What resources can I contribute?",
+    answer:
+      "You can contribute internet bandwidth, storage space, or energy to the network.",
+  },
+  {
+    question: "How are rewards distributed?",
+    answer:
+      "Rewards are given based on the amount and quality of resources contributed, usually in the form of tokens.",
+  },
+  {
+    question: "  Is DePIN secure?",
+    answer:
+      "Yes, it uses blockchain for transparency, security, and protection from fraud.",
+  },
+  {
+    question: " How can I participate",
+    answer:
+      "Set up the required devices and contribute resources to start earning rewards in tokens.",
+  },
+];
+
+export const SuppyChainFaq = [
+  {
+    question: "What is blockchain in supply chain management?",
+    answer:
+      "Blockchain is a secure, transparent technology that records transactions, improving traceability, accountability, and security in supply chain operations.",
+  },
+  {
+    question: "How does blockchain improve supply chains?",
+    answer:
+      "It offers enhanced transparency, reduces fraud, and increases efficiency by providing real-time data and secure transactions across all stakeholders.",
+  },
+  {
+    question: "How does blockchain prevent counterfeiting?",
+    answer:
+      "By providing a secure, immutable record of every product’s journey, ensuring authenticity and reducing the risk of counterfeit goods.",
+  },
+  {
+    question: " Is blockchain expensive for supply chains?",
+    answer:
+      "The initial investment may be high, but the long-term benefits, like reduced fraud and operational costs, usually provide a strong return on investment.",
+  },
+  {
+    question: " How secure is blockchain?",
+    answer:
+      "Blockchain is highly secure, with encrypted and immutable records, ensuring that only authorized participants can access and update the data.",
+  },
+  {
+    question: " What industries benefit from blockchain in supply chains?",
+    answer:
+      "Industries like retail, pharmaceuticals, food and agriculture, and logistics can all benefit from improved traceability, security, and efficiency.",
+  },
+];
+
+export const RealEstateFaq = [
+  {
+    question: "How can blockchain benefit the real estate industry?",
+    answer:
+      "   Blockchain enhances transparency, security, and efficiency in real estate transactions. It helps with fraud prevention, faster property transfers, secure digital registries, and automated payments using smart contracts.",
+  },
+  {
+    question: "What is real estate tokenization?",
+    answer:
+      "Real estate tokenization is the process of converting property assets into digital tokens on a blockchain. This allows fractional ownership, easier trading, and increased liquidity, making property investment more accessible.",
+  },
+  {
+    question: "Can blockchain help prevent fraud in real estate?",
+    answer:
+      "Yes, blockchain’s immutable ledger records property ownership and transaction history securely. This prevents title fraud, identity theft, and unauthorized property transfers.",
+  },
+  {
+    question: "What is a blockchain-powered digital registry?",
+    answer:
+      "A digital registry on blockchain stores property titles, ownership records, and transaction details in a tamper-proof and transparent system, reducing disputes and making property verification seamless.",
+  },
+  {
+    question: " How does blockchain enhance real estate financing?",
+    answer:
+      "Blockchain enables decentralized mortgage securitization, where smart contracts automate payments and approvals, ensuring efficient loan processing, lower risks, and real-time reporting for lenders and investors.",
+  },
+  {
+    question:
+      " How does blockchain improve real estate construction management?",
+    answer:
+      "Blockchain streamlines procurement, contract management, and supply chain transparency in construction projects. It ensures authenticity of materials, prevents fraud, and optimizes project timelines.",
+  },
+  {
+    question: "Is blockchain real estate software compliant with regulations?",
+    answer:
+      "Yes, blockchain-based real estate solutions adhere to jurisdictional regulations with compliance embedded in smart contracts, ensuring secure and legal transactions.",
+  },
+  {
+    question: " How can blockchain reduce real estate transaction costs?",
+    answer:
+      "By eliminating intermediaries like brokers and banks, blockchain reduces processing fees, paperwork, and legal costs, making real estate transactions more affordable and efficient.",
+  },
+  {
+    question: "Can blockchain make real estate investment more accessible?",
+    answer:
+      "Yes! Tokenized real estate allows fractional ownership, meaning investors can buy a share of a property rather than the entire asset, making real estate investments more affordable and liquid.",
+  },
+];
+
+export const EducationFaq = [
+  {
+    question: "What is blockchain technology in education?",
+    answer:
+      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+  },
+  {
+    question: " How does blockchain improve security in education?",
+    answer:
+      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+  },
+  {
+    question: " Can blockchain help with student identity verification?",
+    answer:
+      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+  },
+  {
+    question: "Can blockchain eliminate fake degrees and certificates?",
+    answer:
+      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+  },
+  {
+    question: " Does blockchain help with online learning platforms?",
+    answer:
+      "Absolutely! Blockchain enhances decentralized learning, allowing students to earn verifiable micro-credentials and track progress across different platforms.",
+  },
+  {
+    question: " Is blockchain adoption in education expensive?",
+    answer:
+      "While the initial integration may require investment, blockchain reduces long-term operational costs by automating record management, verification, and credential issuance—leading to cost savings.",
+  },
+];
 
 export const P2PExchangeFaq = [
   {
@@ -263,18 +251,15 @@ export const P2PExchangeFaq = [
       "Yes, we offer custom mobile app development for P2P exchanges, ensuring users can trade on the go. We also specialize in Telegram MiniApp development for easy access.",
   },
   {
-    question:
-      "How can I ensure the security of my P2P exchange?",
+    question: "How can I ensure the security of my P2P exchange?",
     answer:
       "We integrate multi-layer security measures, such as encryption for wallets and data, two-factor authentication (2FA), anti-phishing tools, and smart contract security, to safeguard user funds and data.",
   },
   {
-    question:
-      "What payment methods can be supported in a P2P exchange?",
+    question: "What payment methods can be supported in a P2P exchange?",
     answer:
       "P2P exchanges can support a wide range of payment methods, including bank transfers, gift cards, mobile payments, PayPal, and even local payment systems.",
   },
- 
 ];
 
 export const MarketMakingExchangeFaq = [
@@ -294,12 +279,10 @@ export const MarketMakingExchangeFaq = [
       "Key factors include liquidity depth, trading volume, volatility, arbitrage opportunities, and market sentiment.",
   },
   {
-    question:
-      "How does market making benefit token issuers and exchanges?",
+    question: "How does market making benefit token issuers and exchanges?",
     answer:
       "It boosts trading volume, enhances price stability, and attracts more traders by improving liquidity.",
   },
- 
 ];
 
 export const DigitalWalletExchangeFaq = [
@@ -319,18 +302,15 @@ export const DigitalWalletExchangeFaq = [
       "There are several types of crypto wallets, including software wallets (web, desktop, mobile), hardware wallets (physical devices), and paper wallets (physical printouts of your keys).",
   },
   {
-    question:
-      "What are the security features of a cryptocurrency wallet? ",
+    question: "What are the security features of a cryptocurrency wallet? ",
     answer:
       "Crypto wallets often include features like encryption, multi-factor authentication, biometric authentication, and backup options to ensure the safety of your assets.",
   },
   {
-    question:
-      "Can I store multiple cryptocurrencies in one wallet?",
+    question: "Can I store multiple cryptocurrencies in one wallet?",
     answer:
       "Yes, many wallets support multi-currency functionality, allowing users to store different types of cryptocurrencies in a single wallet.",
   },
- 
 ];
 
 export const WhiteLabelWalletExchangeFaq = [
@@ -363,17 +343,16 @@ export const MulticurrencyWalletExchangeFaq = [
       "Multicurrency wallets are equipped with high-level security features such as encryption, multi-signature support, and two-factor authentication (2FA) to ensure the safety of user funds. Advanced risk management tools also help detect fraudulent activities and prevent unauthorized access.",
   },
   {
-    question: "Can I trade cryptocurrencies directly within a multicurrency wallet?",
+    question:
+      "Can I trade cryptocurrencies directly within a multicurrency wallet?",
     answer:
       "Yes, most multicurrency wallets support integrated exchange features, allowing users to trade cryptocurrencies directly within the wallet. Some wallets also enable OTC (Over-the-Counter) trading for secure and seamless transactions.",
   },
   {
-    question:
-      "Are multicurrency wallets compatible with all blockchains?",
+    question: "Are multicurrency wallets compatible with all blockchains?",
     answer:
       " Multicurrency wallets are typically designed to be compatible with multiple blockchain networks. However, their functionality may vary depending on the wallet's support for specific blockchains, tokens, and cryptocurrencies. It’s important to ensure that the wallet supports the assets you want to store and manage.",
   },
- 
 ];
 
 export const Web3WalletExchangeFaq = [
@@ -393,12 +372,10 @@ export const Web3WalletExchangeFaq = [
       "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
   },
   {
-    question:
-      "How Web3 Crypto Currency Wallet Works?",
+    question: "How Web3 Crypto Currency Wallet Works?",
     answer:
       "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
   },
- 
 ];
 
 export const MpcWalletFaq = [
@@ -418,18 +395,15 @@ export const MpcWalletFaq = [
       "Yes, MPC wallets can manage assets across multiple blockchains securely.",
   },
   {
-    question:
-      "Why choose an MPC wallet over traditional wallets?",
+    question: "Why choose an MPC wallet over traditional wallets?",
     answer:
       "MPC wallets offer better security with distributed key management, multi-signature support, and scalability for DeFi and Web3 apps.",
   },
   {
-    question:
-      "Are MPC wallets suitable for institutions?",
+    question: "Are MPC wallets suitable for institutions?",
     answer:
       "Yes, MPC wallets provide robust security and flexible access controls, making them ideal for institutional use.",
   },
- 
 ];
 
 export const DefiWalletFaq = [
@@ -473,12 +447,10 @@ export const NftWalletFaq = [
       "The cost varies based on features, blockchain selection, and customization. A basic NFT marketplace can cost $30,000–$100,000, while advanced platforms with custom smart contracts can exceed $150,000.",
   },
   {
-    question:
-      "What are the key features of an NFT marketplace?",
+    question: "What are the key features of an NFT marketplace?",
     answer:
       "A robust NFT marketplace includes smart contracts, wallet integration, auction systems, multi-chain support, and strong security features to facilitate seamless buying, selling, and trading of NFTs.",
   },
- 
 ];
 
 export const CoinLaunchpadFaq = [
@@ -498,18 +470,15 @@ export const CoinLaunchpadFaq = [
       "Yes, launchpads can be designed to be multi-chain compatible, supporting Ethereum, BSC, Solana, and more.",
   },
   {
-    question:
-      "How secure is a crypto launchpad?",
+    question: "How secure is a crypto launchpad?",
     answer:
       "Security is ensured through KYC verification, smart contract audits, anti-bot mechanisms, and multi-layer encryption.",
   },
   {
-    question:
-      "How long does it take to develop a crypto launchpad?",
+    question: "How long does it take to develop a crypto launchpad?",
     answer:
       "The development timeline depends on the complexity and features required, typically ranging from a few weeks to months.",
   },
- 
 ];
 
 export const ICOFaq = [
@@ -529,20 +498,16 @@ export const ICOFaq = [
       "We develop ICO tokens on Ethereum (ERC-20, ERC-721), Binance Smart Chain (BEP-20), Solana, Polygon, and other networks based on project needs.",
   },
   {
-    question:
-      "Is KYC/AML compliance necessary for ICOs?",
+    question: "Is KYC/AML compliance necessary for ICOs?",
     answer:
       "Yes, integrating Know Your Customer (KYC) and Anti-Money Laundering (AML) procedures enhances security and ensures regulatory compliance.",
   },
   {
-    question:
-      " What post-ICO support services do you offer?",
+    question: " What post-ICO support services do you offer?",
     answer:
       "We provide token distribution, exchange listing assistance, investor relations management, and further project development to ensure a smooth transition after the ICO launch.",
   },
- 
 ];
-
 
 export const IDOFaq = [
   {
@@ -561,12 +526,10 @@ export const IDOFaq = [
       "It offers instant liquidity, lower costs, decentralized security, and wider investor access.",
   },
   {
-    question:
-      "What is needed to launch an IDO?",
+    question: "What is needed to launch an IDO?",
     answer:
       "A whitepaper, smart contract, blockchain selection, and marketing strategy to attract investors.",
   },
- 
 ];
 
 export const MemecoinFaq = [
@@ -586,12 +549,10 @@ export const MemecoinFaq = [
       "Yes! Adding staking, governance, play-to-earn models, or real-world use cases enhances long-term value.",
   },
   {
-    question:
-      "How do you ensure security in meme coin development?",
+    question: "How do you ensure security in meme coin development?",
     answer:
       "We implement rigorous smart contract audits, anti-bot mechanisms, and robust security protocols to prevent vulnerabilities.",
   },
- 
 ];
 export const NftDevFaq = [
   {
@@ -634,18 +595,15 @@ export const DigitalBankingFaq = [
       "Crypto banking platforms implement security measures like encryption, two-factor authentication (2FA), and cold storage. However, users should also follow best practices, such as using strong passwords and enabling security features.",
   },
   {
-    question:
-      "Can I earn interest on my crypto holdings in a digital bank?",
+    question: "Can I earn interest on my crypto holdings in a digital bank?",
     answer:
       "Yes, many crypto banks offer interest-bearing accounts where users can earn yields by staking or lending their cryptocurrencies, similar to traditional savings accounts.",
   },
   {
-    question:
-      "Are crypto digital banks regulated?",
+    question: "Are crypto digital banks regulated?",
     answer:
       "Regulations vary by country. Some crypto banks comply with financial regulations like KYC (Know Your Customer) and AML (Anti-Money Laundering), while others operate in more decentralized frameworks.",
   },
- 
 ];
 
 export const WhiteLabelBankingFaq = [
@@ -665,8 +623,7 @@ export const WhiteLabelBankingFaq = [
       " Yes, with strong security features like encryption and compliance to protect customer data and funds.",
   },
   {
-    question:
-      "Can I customize the platform?",
+    question: "Can I customize the platform?",
     answer:
       " Yes, white-label solutions are customizable to match your brand's design and identity.",
   },
@@ -689,14 +646,12 @@ export const PaymentGatewayBankingFaq = [
       " Yes, crypto payment gateways use blockchain technology, encryption, and private keys for security. They also implement multi-factor authentication (MFA) and anti-fraud measures to protect transactions.",
   },
   {
-    question:
-      "Can I accept multiple cryptocurrencies with a payment gateway?",
+    question: "Can I accept multiple cryptocurrencies with a payment gateway?",
     answer:
       " Yes, most crypto payment gateways support multiple cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), USDT, and other altcoins, allowing businesses to offer flexible payment options.",
   },
   {
-    question:
-      "What are the benefits of using a crypto payment gateway?",
+    question: "What are the benefits of using a crypto payment gateway?",
     answer:
       "Crypto payment gateways provide faster transactions, lower fees, global accessibility, no chargebacks, and enhanced security, making them an attractive option for businesses and merchants.",
   },
@@ -719,12 +674,10 @@ export const P2pLendingFaq = [
       " If you are planning to build a P2P lending platform, you can either choose to go with a white label solution or build a custom P2P lending platform from scratch. White label development requires less development time and cost compared to building the platform from ground zero.",
   },
   {
-    question:
-      "How to start a bitcoin lending platform?",
+    question: "How to start a bitcoin lending platform?",
     answer:
       "To go ahead with the development of a bitcoin lending platform, you need to be clear on your business model in the first place. Additionally, decide on the features that you need in your platform and partner with a reliable development company.",
   },
-
 ];
 
 export const NftMarketplaceFaq = [
@@ -744,18 +697,15 @@ export const NftMarketplaceFaq = [
       "Yes, you can create a custom NFT marketplace tailored to your needs, allowing you to mint, list, and sell NFTs with features like auctions, royalties, and multi-chain support.",
   },
   {
-    question:
-      "What blockchain is used in NFT marketplaces?",
+    question: "What blockchain is used in NFT marketplaces?",
     answer:
       "Most NFT marketplaces operate on blockchains like Ethereum, Binance Smart Chain, and Solana, offering scalability, security, and support for NFTs.",
   },
   {
-    question:
-      "What are the fees involved in NFT marketplaces?",
+    question: "What are the fees involved in NFT marketplaces?",
     answer:
       "Fees typically include listing fees, transaction fees, and sometimes minting fees. The cost can vary depending on the platform and blockchain used.",
   },
- 
 ];
 
 export const SemiFungibleFaq = [
@@ -775,19 +725,16 @@ export const SemiFungibleFaq = [
       "Developers can manage both fungible and non-fungible tokens under a single contract, reducing gas fees and complexity.",
   },
   {
-    question:
-      "Can SFTs be unbundled?",
+    question: "Can SFTs be unbundled?",
     answer:
       "Yes, SFTs can be unbundled and traded individually after being used for a specific purpose.",
   },
   {
-    question:
-      "Why are SFTs popular?",
-    answer:"They offer a cost-effective and flexible way to manage tokenized assets, ideal for use cases like collectibles and gaming.",
+    question: "Why are SFTs popular?",
+    answer:
+      "They offer a cost-effective and flexible way to manage tokenized assets, ideal for use cases like collectibles and gaming.",
   },
- 
 ];
-
 
 export const WhiteLabelNftMarketplaceFaq = [
   {
@@ -811,7 +758,6 @@ export const WhiteLabelNftMarketplaceFaq = [
     answer:
       "Yes, white label NFT marketplaces are highly customizable in terms of design, functionality, and supported features, making it easy to tailor the platform to your business model.",
   },
- 
 ];
 
 export const Web3DevelopmentFaq = [
@@ -831,20 +777,17 @@ export const Web3DevelopmentFaq = [
       "Web 3.0 development incorporates blockchain, smart contracts, decentralized storage (IPFS, Arweave), AI, IoT, and cryptographic security. Popular blockchain networks used include Ethereum, Solana, Polkadot, and Binance Smart Chain.",
   },
   {
-    question:
-      "How long does it take to develop a Web 3.0 application?",
+    question: "How long does it take to develop a Web 3.0 application?",
     answer:
       "The development timeline varies based on complexity, features, and integrations. A basic dApp may take a few weeks, whereas a large-scale Web 3.0 platform like a metaverse or DeFi solution can take several months.",
   },
   {
-    question:
-      "What are the security considerations in Web 3.0 development?",
+    question: "What are the security considerations in Web 3.0 development?",
     answer:
       "Security is a top priority in Web 3.0. Our development process includes smart contract audits, rigorous testing, identity protection measures, and compliance with blockchain security best practices to ensure a secure and robust application.",
   },
- 
- 
 ];
+
 export const DappDevelopmentFaq = [
   {
     question: "What is a dApp?",
@@ -857,13 +800,13 @@ export const DappDevelopmentFaq = [
       "dApps offer benefits such as automation (through smart contracts), transparency (data stored on a public ledger), privacy (using blockchain-based cryptography), user governance, fault tolerance, and incentivization through tokens.",
   },
   {
-    question: "How does dApp development differ from traditional app development?",
+    question:
+      "How does dApp development differ from traditional app development?",
     answer:
       "Unlike traditional apps that are controlled by a central authority, dApps are decentralized, operate on blockchain networks, and rely on smart contracts to execute transactions. This ensures better security, transparency, and lower operational costs.",
   },
   {
-    question:
-      "How secure are dApps?",
+    question: "How secure are dApps?",
     answer:
       "dApps are generally more secure than traditional applications because they are decentralized and distributed across a blockchain, eliminating a single point of failure. They are also protected by cryptographic techniques, making data manipulation difficult.",
   },
@@ -886,19 +829,15 @@ export const DeFiStakingFaq = [
       "The main benefits include passive income, reward generation, and contributing to the security of decentralized networks. Staking also helps reduce network congestion and facilitates consensus mechanisms like Proof-of-Stake (PoS).",
   },
   {
-    question:
-      " Is DeFi staking safe?",
+    question: " Is DeFi staking safe?",
     answer:
       "DeFi staking is generally safe when using trusted platforms with robust security features, though risks such as smart contract vulnerabilities exist. Always choose platforms with proper audits and security measures in place.",
   },
   {
-    question:
-      " Can I withdraw my tokens anytime?",
+    question: " Can I withdraw my tokens anytime?",
     answer:
       "It depends on the platform. Some DeFi staking platforms allow instant withdrawals, while others may require a lock-up period. Always check the platform’s terms and conditions before staking.",
   },
- 
- 
 ];
 
 export const DaoBlockchainFaq = [
@@ -918,8 +857,7 @@ export const DaoBlockchainFaq = [
       "DAOs offer decentralization, transparency, lower costs, and democratic governance, removing the need for intermediaries and empowering community-driven decision-making.",
   },
   {
-    question:
-      " How are decisions made in a DAO?",
+    question: " How are decisions made in a DAO?",
     answer:
       "Decisions are made by voting with DAO tokens, where votes are proportional to token holdings. Smart contracts automatically implement the results.",
   },
@@ -942,18 +880,15 @@ export const DefiDevelopmentFaq = [
       "Benefits include lower fees, faster transactions, better privacy, and increased financial inclusion.",
   },
   {
-    question:
-      "Can DeFi be as efficient as CeFi?",
+    question: "Can DeFi be as efficient as CeFi?",
     answer:
       "DeFi offers great benefits but can face challenges in speed and scalability, though improvements are ongoing.",
   },
   {
-    question:
-      "Is DeFi more secure than CeFi?",
+    question: "Is DeFi more secure than CeFi?",
     answer:
       "DeFi offers transparency and security through blockchain, though it’s still vulnerable to smart contract risks, requiring careful research and audits.",
   },
- 
 ];
 
 export const MaasFaq = [
@@ -973,18 +908,15 @@ export const MaasFaq = [
       "MAAS covers branding, content creation, social media management, UI/UX design, SEO, analytics, and in-depth marketing insights to boost project success.",
   },
   {
-    question:
-      "Is MAAS suitable for startups and established businesses?",
+    question: "Is MAAS suitable for startups and established businesses?",
     answer:
       "Yes, MAAS is highly scalable and customizable, making it ideal for both startups and established businesses looking to strengthen their presence in the Web3 market.",
   },
   {
-    question:
-      "How does MAAS differ from traditional marketing?",
+    question: "How does MAAS differ from traditional marketing?",
     answer:
       "Unlike traditional marketing, MAAS focuses on blockchain, crypto, and NFT projects, leveraging decentralized technologies and Web3-specific engagement strategies.",
   },
- 
 ];
 
 export const CustomExchangeFaq = [
@@ -1004,8 +936,7 @@ export const CustomExchangeFaq = [
       "Key security features for a custom exchange include two-factor authentication (2FA), cold storage wallets, encryption, secure API connections, anti-DDOS protection, and regular security audits. Ensuring compliance with local regulations and standards is also critical for safeguarding the platform and its users.",
   },
   {
-    question:
-      "How can I ensure the scalability of my custom exchange?",
+    question: "How can I ensure the scalability of my custom exchange?",
     answer:
       "To ensure scalability, you should focus on building a modular architecture, optimizing database performance, and utilizing cloud infrastructure. Regular monitoring, load balancing, and the ability to scale resources as demand increases are also essential for maintaining performance and reliability.",
   },
@@ -1023,7 +954,8 @@ export const WhiteLabelExchangeFaq = [
       "Typically, it takes a few weeks to a few months, depending on customization needs.",
   },
   {
-    question: "What are the benefits of using white label crypto exchange software?",
+    question:
+      "What are the benefits of using white label crypto exchange software?",
     answer:
       "Quick launch, reduced costs, secure infrastructure, easy customization, and scalability.",
   },
@@ -1103,7 +1035,6 @@ export const CentralizedExchangeFaq = [
   },
 ];
 
-
 export const StableCoinDevFaq = [
   {
     question: "What is a stablecoin?",
@@ -1117,13 +1048,11 @@ export const StableCoinDevFaq = [
   },
   {
     question: "How is regulatory compliance ensured?",
-    answer:
-      "Through KYC/AML, legal frameworks, and jurisdictional adherence.",
+    answer: "Through KYC/AML, legal frameworks, and jurisdictional adherence.",
   },
   {
     question: "What security measures are included?",
     answer:
       "Smart contract audits, encryption, and fraud prevention for secure transactions.",
   },
-
 ];

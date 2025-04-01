@@ -40,8 +40,19 @@ const DefiWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-            Collaborate with the leading DeFi wallet development company to provide users with a wallet that ensures full asset control and superior security. Our solutions enable smooth and transparent transactions.<br/> <br/>
-            A DeFi wallet is a decentralized digital wallet that allows users to store, manage, and trade digital assets securely without relying on centralized intermediaries. Unlike traditional wallets, DeFi wallets are connected to decentralized applications (dApps) on blockchain networks, particularly Ethereum and other compatible blockchains. They empower users with full control over their assets, ensuring that they can participate in decentralized finance (DeFi) activities like lending, borrowing, staking, and liquidity provision.
+              Collaborate with the leading DeFi wallet development company to
+              provide users with a wallet that ensures full asset control and
+              superior security. Our solutions enable smooth and transparent
+              transactions.
+              <br /> <br />A DeFi wallet is a decentralized digital wallet that
+              allows users to store, manage, and trade digital assets securely
+              without relying on centralized intermediaries. Unlike traditional
+              wallets, DeFi wallets are connected to decentralized applications
+              (dApps) on blockchain networks, particularly Ethereum and other
+              compatible blockchains. They empower users with full control over
+              their assets, ensuring that they can participate in decentralized
+              finance (DeFi) activities like lending, borrowing, staking, and
+              liquidity provision.
             </p>
 
             {/* button to connect on whatsapp */}
@@ -78,11 +89,22 @@ const DefiWallet = () => {
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          DeFi Wallet Development: Unlock the Potential with Our Flexible Solutions
+            DeFi Wallet Development: Unlock the Potential with Our Flexible
+            Solutions
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-          Decentralized Finance (DeFi) wallets have captured the attention of crypto enthusiasts worldwide, offering innovative ways to grow income in the crypto space. With features like open-source code, high security, and compliance with industry standards, DeFi wallets have become a cornerstone of financial innovation. <br/> <br/>
-          Partner with Giichi, a leading DeFi wallet development company, to tap into this billion-dollar market. Our team brings deep expertise and knowledge to create custom DeFi wallet solutions tailored to meet your needs. We offer a variety of flexible options and provide continuous post-deployment support, along with marketing assistance to maximize the reach of your wallet. Explore our solutions and take advantage of this high-growth opportunity!
+            Decentralized Finance (DeFi) wallets have captured the attention of
+            crypto enthusiasts worldwide, offering innovative ways to grow
+            income in the crypto space. With features like open-source code,
+            high security, and compliance with industry standards, DeFi wallets
+            have become a cornerstone of financial innovation. <br /> <br />
+            Partner with Giichi, a leading DeFi wallet development company, to
+            tap into this billion-dollar market. Our team brings deep expertise
+            and knowledge to create custom DeFi wallet solutions tailored to
+            meet your needs. We offer a variety of flexible options and provide
+            continuous post-deployment support, along with marketing assistance
+            to maximize the reach of your wallet. Explore our solutions and take
+            advantage of this high-growth opportunity!
           </p>
         </div>
         <div className="w-full lg:w-[50%]"></div>

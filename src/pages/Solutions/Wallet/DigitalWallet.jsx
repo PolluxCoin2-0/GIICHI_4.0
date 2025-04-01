@@ -69,8 +69,17 @@ const DigitalWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-            Elevate your business by collaborating with a leading cryptocurrency wallet development company. We create robust, customized solutions for total asset security and seamlessly integrate financial services to enhance passive income opportunities. <br/> <br/>
-            A cryptocurrency digital wallet is an essential tool for anyone involved in the digital asset space. It is a software application that securely stores, sends, and receives cryptocurrencies like Bitcoin, Ethereum, and other altcoins. The wallet functions by holding the user's private keys—cryptographic keys that are necessary to access and manage their digital assets. 
+              Elevate your business by collaborating with a leading
+              cryptocurrency wallet development company. We create robust,
+              customized solutions for total asset security and seamlessly
+              integrate financial services to enhance passive income
+              opportunities. <br /> <br />A cryptocurrency digital wallet is an
+              essential tool for anyone involved in the digital asset space. It
+              is a software application that securely stores, sends, and
+              receives cryptocurrencies like Bitcoin, Ethereum, and other
+              altcoins. The wallet functions by holding the user's private
+              keys—cryptographic keys that are necessary to access and manage
+              their digital assets.
             </p>
 
             {/* button to connect on whatsapp */}
@@ -107,12 +116,25 @@ const DigitalWallet = () => {
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Crypto Wallet Development: Unlocking Opportunities in the Billion-Dollar Market
+            Crypto Wallet Development: Unlocking Opportunities in the
+            Billion-Dollar Market
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-          The global crypto wallet market, valued at around $10.27 billion in 2023, is set to expand significantly, reaching an estimated $14.39 billion in 2024 and growing by $47.62 billion by 2030. This rapid growth presents significant opportunities for businesses to capitalize on, with the guidance of experienced crypto wallet development experts. <br/> <br/>
-          As a leading crypto wallet development company, Giichi specializes in crafting tailored solutions that empower businesses and investors to fully harness the potential of digital wallets. We design all-in-one platforms that integrate financial services, social features, and gaming functionalities, giving users access based on their preferences. <br/> <br/> 
-          With over a decade of industry experience, technical expertise, and a commitment to excellence, we provide highly secure, adaptable, and future-ready wallet solutions.
+            The global crypto wallet market, valued at around $10.27 billion in
+            2023, is set to expand significantly, reaching an estimated $14.39
+            billion in 2024 and growing by $47.62 billion by 2030. This rapid
+            growth presents significant opportunities for businesses to
+            capitalize on, with the guidance of experienced crypto wallet
+            development experts. <br /> <br />
+            As a leading crypto wallet development company, Giichi specializes
+            in crafting tailored solutions that empower businesses and investors
+            to fully harness the potential of digital wallets. We design
+            all-in-one platforms that integrate financial services, social
+            features, and gaming functionalities, giving users access based on
+            their preferences. <br /> <br />
+            With over a decade of industry experience, technical expertise, and
+            a commitment to excellence, we provide highly secure, adaptable, and
+            future-ready wallet solutions.
           </p>
         </div>
         <div className="w-full lg:w-[50%]">
@@ -178,9 +200,9 @@ const DigitalWallet = () => {
       {/* workflow of a wallet */}
       <div className="mt-24 mb-12">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
-        A Comprehensive Guide to Custom Cryptocurrency   <br />
+          A Comprehensive Guide to Custom Cryptocurrency <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
-          Wallet Development: Step-by-Step Workflow
+            Wallet Development: Step-by-Step Workflow
           </span>
         </p>
 
