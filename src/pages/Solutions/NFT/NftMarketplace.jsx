@@ -17,16 +17,13 @@ const NftMarketplace = () => {
             Development Company
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          An NFT marketplace is a decentralized platform that allows users to buy, sell, and trade digital assets, such as artwork, collectibles, music, and more, using blockchain technology. These platforms provide a secure environment where non-fungible tokens (NFTs) can be minted, listed, and transacted.
           </p>
           <ul className="list-disc text-white mt-4 p-4">
-            <li>Ready to deploy Solutions</li>
-            <li className="pt-2">Lorem ipsum dolor sit.</li>
-            <li className="pt-2">Lorem, ipsum dolor.</li>
-            <li className="pt-2">Lorem ipsum dolor sit amet.</li>
+            <li>Ready-to-Launch Solutions</li>
+            <li className="pt-2">Reduced Fraud Risk</li>
+            <li className="pt-2">Seamless User Experience</li>
+            <li className="pt-2">Fully Customizable & Scalable</li>
           </ul>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-4">
@@ -66,21 +63,12 @@ const NftMarketplace = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Full-Fledged NFT Marketplace Solutions
+          Comprehensive NFT Marketplace Solutions
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
+          Giichi is a leading NFT marketplace development company, offers unparalleled experience and expertise in creating high-performance, scalable marketplaces where users can mint, buy, sell, and trade NFTs.  <br/> <br/>
+          We specialize in building NFT marketplaces tailored to various business sectors. Our services will elevate your brand with unique digital collectibles. <br/> <br/>
+          With features like auction systems, royalty management, and multi-chain support, NFT marketplaces enable creators, collectors, and investors to engage in a transparent and efficient digital asset ecosystem. The customization and scalability of these platforms make them ideal for businesses looking to tap into the booming NFT market.
           </p>
         </div>
       </div>

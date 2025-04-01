@@ -600,25 +600,31 @@ export const P2pLendingFaq = [
 
 export const NftMarketplaceFaq = [
   {
-    question: "What is Coin Launchpad Development?",
+    question: "What is an NFT marketplace?",
     answer:
-      "Blockchain technology in education refers to the use of decentralized, secure, and immutable digital ledgers to manage student records, certificates, and academic credentials. It enhances transparency, security, and accessibility in the education system.",
+      "An NFT marketplace is a platform where users can buy, sell, and trade non-fungible tokens (NFTs), which represent ownership of unique digital assets like art, music, and collectibles.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "How do NFT marketplaces work?",
     answer:
-      "Blockchain ensures that student records, degrees, and certificates cannot be altered or forged. Each record is stored in a tamper-proof and verifiable manner, reducing risks of fraud and identity theft.",
+      "NFT marketplaces use blockchain technology to ensure the authenticity and ownership of digital assets. Users can list NFTs, bid on them, and transact securely using cryptocurrency.",
   },
   {
-    question: "What is Coin Launchpad Development?",
+    question: "Can I create my own NFT marketplace?",
     answer:
-      "Yes, blockchain enables self-sovereign identity management, allowing students to own and control their academic credentials. Institutions and employers can verify credentials instantly without relying on intermediaries.",
+      "Yes, you can create a custom NFT marketplace tailored to your needs, allowing you to mint, list, and sell NFTs with features like auctions, royalties, and multi-chain support.",
   },
   {
     question:
-      "What is Coin Launchpad Development?",
+      "What blockchain is used in NFT marketplaces?",
     answer:
-      "Yes. Since records on the blockchain are immutable and verifiable, it becomes impossible to forge or manipulate academic credentials, ensuring credibility.",
+      "Most NFT marketplaces operate on blockchains like Ethereum, Binance Smart Chain, and Solana, offering scalability, security, and support for NFTs.",
+  },
+  {
+    question:
+      "What are the fees involved in NFT marketplaces?",
+    answer:
+      "Fees typically include listing fees, transaction fees, and sometimes minting fees. The cost can vary depending on the platform and blockchain used.",
   },
  
 ];
