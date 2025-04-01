@@ -1,6 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { NftDevelopmentFramework } from "../../../components/data/frameworkData";
+import Faq from "../../../components/resuableComponent/Faq";
+import {  NftDevFaq } from "../../../components/data/faqsData";
 
 const NftDev = () => {
   return (
@@ -11,16 +14,13 @@ const NftDev = () => {
         <div className="hidden md:block spotlight2 spotlight-right"></div>
         <div className="w-[50%]">
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-            Crypto Friendly{" "}
+          NFT Token {" "}
           </p>
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            Digital Banking Solution
+          Development Services
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          Leverage the expertise of Giichi leading NFT developers to seamlessly tokenize your collectibles.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-6">
@@ -60,21 +60,12 @@ const NftDev = () => {
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Why Choose a Dedicated NFT Development Company?
+          Why Partner with a Leading NFT Development Company?
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
+          Giichi is a trusted NFT development company, brings extensive experience in creating high-quality products and delivering NFT development services built on advanced algorithms.
+           As part of our DeFi Center of Excellence (COE), we utilize the DNFT protocol to develop decentralized non-fungible tokens (NFTs) tailored to various business requirements.  <br/> <br/>
+           Our team of skilled NFT developers and subject matter experts work collaboratively to provide meticulously crafted NFT development services designed to help you achieve your business objectives. Whether you're looking to tokenize art, videos, or any other asset, we offer purpose-driven NFT software development solutions to effectively meet your needs.
           </p>
         </div>
       </div>
@@ -96,8 +87,13 @@ const NftDev = () => {
           data={NftDevelopmentFramework}
           heading1=""
           heading2="NFT Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc=" We specialize in developing a wide range of NFT solutions tailored to various industries:"
         />
+      </div>
+
+       {/* FAQ SECTION */}
+       <div className="mt-24 mb-12">
+        <Faq data={NftDevFaq} />
       </div>
     </div>
   );

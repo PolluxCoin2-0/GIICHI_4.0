@@ -464,6 +464,29 @@ export const MemecoinFaq = [
   },
  
 ];
+export const NftDevFaq = [
+  {
+    question: "What is NFT development?",
+    answer:
+      "NFT development involves creating non-fungible tokens (NFTs) on a blockchain, typically using smart contracts. These tokens represent unique digital assets such as art, music, videos, and more, offering ownership, verification, and tradeability in decentralized environments.",
+  },
+  {
+    question: "How can NFTs benefit creators and businesses?",
+    answer:
+      "NFTs provide creators and businesses with a way to tokenize digital assets, enabling them to monetize their work through sales, royalties, and direct transactions. For businesses, NFTs offer new revenue streams, enhance customer engagement, and ensure authenticity and ownership verification.",
+  },
+  {
+    question: "What industries can benefit from NFTs?",
+    answer:
+      "NFTs can be applied across various industries, including art, music, fashion, gaming, real estate, and even financial services like NFT-backed loans. Each industry can leverage NFTs for greater transparency, ownership, and monetization opportunities.",
+  },
+  {
+    question:
+      "What are Dynamic NFTs and how are they different from traditional NFTs?",
+    answer:
+      "Dynamic NFTs are interactive and evolve over time based on smart contracts, external data, or oracles. Unlike traditional static NFTs, dynamic NFTs can change their properties, allowing for more engaging and evolving digital assets.",
+  },
+];
 
 export const DigitalBankingFaq = [
   {

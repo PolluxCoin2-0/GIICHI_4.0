@@ -1569,39 +1569,39 @@ export const P2pLendingFramework =  [
 export const NftDevelopmentFramework =  [
   {
     logo: realEstateImg,
-    title: "Generative Art",
+    title: "Fractional NFTs",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our fractional NFT platform allows users to divide NFTs into smaller parts, enabling multiple individuals to own a piece of high-value digital assets and improving accessibility.",
   },
   {
     logo: realEstateImg,
-    title: "Timesharing NFT Development",
+    title: "NFT Renting",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our NFT renting solutions provide an opportunity to reduce upfront costs, enhance liquidity, and offer endless benefits to lenders and borrowers by facilitating access to high-value NFTs.",
   },
   {
     logo: realEstateImg,
-    title: "Digital Content",
+    title: "Dynamic NFTs",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "We specialize in developing dynamic NFTs, which are powered by smart contracts, oracles, and external data sources to create interactive and evolving digital assets.",
   },
   {
     logo: realEstateImg,
-    title: "NFT backed Loans",
+    title: "NFT Minting",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Our NFT minting platform enables users to create, mint, and sell NFTs, which is the first step toward starting an NFT selling journey.",
   },
   {
     logo: realEstateImg,
-    title: "Real-estate",
+    title: "Smart Contract Development",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Smart contracts on the blockchain are automated programs that execute predetermined conditions. We integrate these to enable seamless NFT transactions.",
   },
   {
     logo: realEstateImg,
-    title: "Games",
+    title: "NFT Passport",
     description:
-      "A flexible platform for deploying custom Layer 2 and Layer 3 chains, offering enhanced scalability with Ethereum compatibility.",
+      "Secure your passport as an NFT for a tamper-proof journey. Travel with enhanced confidence, security, and authenticity.",
   },
 ];
 
