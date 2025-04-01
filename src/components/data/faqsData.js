@@ -432,6 +432,31 @@ export const MpcWalletFaq = [
  
 ];
 
+export const DefiWalletFaq = [
+  {
+    question: "What is a DeFi wallet?",
+    answer:
+      "A DeFi wallet allows you to store and manage cryptocurrencies while interacting directly with decentralized finance (DeFi) applications.",
+  },
+  {
+    question: "How do I use a DeFi wallet?",
+    answer:
+      "Download a DeFi wallet app, transfer crypto into it, and connect it to DeFi platforms for activities like trading, staking, or lending.",
+  },
+  {
+    question: "Is a DeFi wallet safe?",
+    answer:
+      "DeFi wallets are secure if you protect your private keys and recovery phrase. Using hardware wallets adds extra security.",
+  },
+  {
+    question:
+      "What’s the difference between a DeFi wallet and a regular wallet?",
+    answer:
+      "A DeFi wallet interacts with decentralized protocols, while a regular wallet is typically tied to centralized exchanges.",
+  },
+];
+
+
 export const CoinLaunchpadFaq = [
   {
     question: "What is a crypto launchpad?",

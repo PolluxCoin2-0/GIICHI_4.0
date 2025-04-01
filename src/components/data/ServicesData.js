@@ -554,32 +554,32 @@ export const DefiWalletService = [
   {
     title: "Defi Wallet App Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Create a mobile-compatible platform that allows users to make fast payments and securely store their digital assets.",
   },
   {
     title: "MPC Defi Wallet Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Enhance security by using advanced MPC technology to split private keys into shards, preventing single points of failure.",
   },
   {
     title: "Defi Exchange Wallet Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "A sophisticated solution that combines DeFi wallet and exchange features, enabling seamless asset storage and access to financial services.",
   },
   {
-    title: "Defi Yearn Finance Wallet Development",
+    title: "DeFi Multi-Currency Wallet Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Host and manage multiple digital assets securely, ensuring smooth transfers and storage.",
   },
   {
-    title: "Lending & Borrowing DeFi Wallet Development",
+    title: "DeFi Staking Wallet Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Enable users to hold assets and earn interest by staking their digital tokens on the platform.",
   },
   {
-    title: "Defi Super Crypto App Development",
+    title: "DeFi Yield Farming Wallet Development",
     description:
-      "We craft immersive metaverse experiences, from AR/VR applications to avatar-based ecosystems, helping businesses bridge the physical and digital worlds.",
+      "Empower users to participate in yield farming with features like Automatic Yield Optimization to track and maximize earnings.",
   },
 ];
 

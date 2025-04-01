@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
-import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
+import { DefiWalletFaq } from "../../../components/data/faqsData";
 import Services from "../../../components/CommonComponent/Services";
 import { DefiWalletService } from "../../../components/data/ServicesData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
@@ -11,15 +11,15 @@ const statsData = [
   { label: "User Base", value: "1M+" },
   { label: "Countries Served", value: "150+" },
   { label: "Solutions Delivered", value: "500+" },
-  { label: "Total Experience", value: "300+" },
+  { label: "Total Experience", value: "10+ Years" },
 ];
 
 const steps = [
   { id: "01", title: "Blockchain Pioneers" },
-  { id: "02", title: "End-to-End Services" },
-  { id: "03", title: "Cost-Effective Offerings" },
-  { id: "04", title: "Security-Based Approach" },
-  { id: "05", title: "24/7 Customer Support" },
+  { id: "02", title: "Customization Excellence" },
+  { id: "03", title: "End-to-End Services" },
+  { id: "04", title: "Cost-Effective Offerings" },
+  { id: "05", title: "Security-Based Approach" },
 ];
 
 const DefiWallet = () => {
@@ -40,23 +40,12 @@ const DefiWallet = () => {
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
             <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
+            Collaborate with the leading DeFi wallet development company to provide users with a wallet that ensures full asset control and superior security. Our solutions enable smooth and transparent transactions.<br/> <br/>
+            A DeFi wallet is a decentralized digital wallet that allows users to store, manage, and trade digital assets securely without relying on centralized intermediaries. Unlike traditional wallets, DeFi wallets are connected to decentralized applications (dApps) on blockchain networks, particularly Ethereum and other compatible blockchains. They empower users with full control over their assets, ensuring that they can participate in decentralized finance (DeFi) activities like lending, borrowing, staking, and liquidity provision.
             </p>
 
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
+            <div className="flex flex-row items-center space-x-6 mt-6">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
@@ -89,20 +78,11 @@ const DefiWallet = () => {
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            What's unique About DeFi Wallet?
+          DeFi Wallet Development: Unlock the Potential with Our Flexible Solutions
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          Decentralized Finance (DeFi) wallets have captured the attention of crypto enthusiasts worldwide, offering innovative ways to grow income in the crypto space. With features like open-source code, high security, and compliance with industry standards, DeFi wallets have become a cornerstone of financial innovation. <br/> <br/>
+          Partner with Giichi, a leading DeFi wallet development company, to tap into this billion-dollar market. Our team brings deep expertise and knowledge to create custom DeFi wallet solutions tailored to meet your needs. We offer a variety of flexible options and provide continuous post-deployment support, along with marketing assistance to maximize the reach of your wallet. Explore our solutions and take advantage of this high-growth opportunity!
           </p>
         </div>
         <div className="w-full lg:w-[50%]"></div>
@@ -136,19 +116,19 @@ const DefiWallet = () => {
         data={DefiWalletService}
         heading1="Discover Our DeFi Wallet "
         heading2="Development Services"
-        desc="Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+        desc="Along with DeFi wallet development, we offer a full spectrum of services tailored to your vision and user needs."
       />
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
         data={steps}
         heading="Our DeFi Development Capabilities"
-        desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
+        desc="Trust our experienced DeFi wallet development team, recognized for crafting successful solutions across the globe."
       />
 
       {/* FAQ SECTION */}
       <div>
-        <Faq data={Web3WalletExchangeFaq} />
+        <Faq data={DefiWalletFaq} />
       </div>
     </div>
   );
