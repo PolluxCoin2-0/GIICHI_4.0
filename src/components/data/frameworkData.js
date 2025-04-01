@@ -1633,7 +1633,7 @@ export const NftDevelopmentFramework =  [
 
 export const WhiteLabelNftFramework =  [
   {
-    logo: ,
+    logo: realEstateImg,
     title: "White Label NFT Marketplace Development",
     description:
       "Giichi offers end-to-end development for white label NFT marketplaces, providing a seamless platform for buying, selling, trading, and minting NFTs. With a focus on security, ease of use, and scalability, our experts ensure thorough customization to help you stand out in the global market.",

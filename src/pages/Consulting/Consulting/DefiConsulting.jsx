@@ -1,28 +1,103 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import defiConsultingBannerImg from "../../../assets/defiConsultingBanner.png";
 import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import Forecast from "../../../components/CommonComponent/Forecast";
-import { DefiConsultingForecast } from "../../../components/data/forecastData";
 import Framework from "../../../components/CommonComponent/Framework";
 import { DefiConsultingFramework } from "../../../components/data/frameworkData";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import { Link } from "react-router-dom";
+import defiConsultingFeature1Img from "../../../assets/defiConsultingFeature1.png";
+import defiConsultingFeature2Img from "../../../assets/defiConsultingFeature2.png";
 
 const DefiConsulting = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={BlockchainImg}
+        img={defiConsultingBannerImg}
         title1="Defi Consulting "
         title2="Services"
         desc="We simplify your entry into the DeFi market, whether for launching a decentralized exchange or starting staking activities."
       />
 
-      {/* Bloackchain forecast */}
-      <div className="mt-20">
-        <Forecast data={DefiConsultingForecast} />
+      {/* Defi Consulting service */}
+      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+        <div className="w-full lg:w-[40%] relative">
+          <div className="hidden md:block spotlight spotlight-left"></div>
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <img
+            src={defiConsultingFeature1Img}
+            alt="Web3 Consulting Feature Image"
+            className=" w-[80%]"
+          />
+        </div>
+
+        <div className="w-full lg:w-[60%] ">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+            DeFi Consulting:
+            <br /> Unlock DeFi’s Potential for Your Business
+          </p>
+          <p className="pt-8 text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 leading-6 text-justify hyphens-auto w-[90%] tracking-wider">
+            The DeFi market is expected to reach $232 billion by 2030. If you’re
+            looking to capitalize on this growth but don’t know where to start,
+            we’ve got you covered. Our experts provide comprehensive DeFi
+            consulting, guiding you on everything from technical development to
+            community building.
+          </p>
+          {/* button to connect on whatsapp */}
+          <div className="mt-12">
+            <a
+              type="button"
+              href="https://wa.me/9266416198"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              aria-label="Contact us "
+              title="Click to contact us form"
+            >
+              Connect on Whatsapp
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Defi Consulting insights */}
+      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+        <div className="w-full lg:w-[60%] ">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+            Unbiased & Expert Insights on the DeFi Market
+          </p>
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-8 leading-6 text-justify hyphens-auto w-[90%] tracking-wider">
+            If you’re uncertain about entering the DeFi space, rely on us for
+            independent, expert advice. With real-world experience, we help
+            businesses analyze the DeFi market to make informed decisions. Our
+            deep industry knowledge and expertise have positioned us as a
+            trusted DeFi consulting firm.
+          </p>
+          {/* button to connect on whatsapp */}
+          <div className="mt-12">
+            <a
+              type="button"
+              href="https://wa.me/9266416198"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              aria-label="Contact us "
+              title="Click to contact us form"
+            >
+              Connect on Whatsapp
+            </a>
+          </div>
+        </div>
+        <div className="w-full lg:w-[40%] relative">
+          <div className="hidden md:block spotlight spotlight-left"></div>
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <img
+            src={defiConsultingFeature2Img}
+            alt="Web3 Consulting Feature Image"
+            className=""
+          />
+        </div>
       </div>
 
       {/* Defi Consulting Services */}
@@ -37,7 +112,7 @@ const DefiConsulting = () => {
       <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
         <div>
           {" "}
-          <img src={bgimg} alt="" className="" />
+          <img src={bgimg} alt="" className="" />{" "}
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">

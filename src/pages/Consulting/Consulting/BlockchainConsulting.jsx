@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainConsultingBannerImg from "../../../assets/bkConsultingBannerImg.png";
+import BlockchainConsultingFeatureImg from "../../../assets/bkConsultingFeature.png";
 import Services from "../../../components/CommonComponent/Services";
 import { BlockchainConsultingService } from "../../../components/data/ServicesData";
 import Framework from "../../../components/CommonComponent/Framework";
@@ -34,7 +35,7 @@ const BlockchainConsulting = () => {
       <div className="w-full lg:w-[40%] relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        {/* img */}
+        <img src={BlockchainConsultingFeatureImg} alt="Blockchain Consulting Feature Image" className=""/>
       </div>
 
       <motion.div 

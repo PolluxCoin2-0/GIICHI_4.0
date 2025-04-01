@@ -45,24 +45,24 @@ const Maas = () => {
        <BannerContent
         img={MaasBannerImg}
         title1="Web3 & Digital"
-        title2=" Marketing Company"
-        desc=" Building Brands with Premier Web3, Digital Marketing, and Consultancy Services."
+        title2="Marketing Company"
+        desc="Building Brands with Premier Web3, Digital Marketing, and Consultancy Services."
       />
 
       {/* Banner Image */}
-      <div>
+      <div className="hidden md:block">
         <PulseBeams />
       </div>
 
       {/* what is maas */}
-      <div className="flex flex-col justify-center items-center ">
-        <p className="text-white text-2xl md:text-3xl font-bold pt-4 leading-tight tracking-wide">
-          <span className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-3xl font-semibold pt-14 pb-14">
+      <div className="flex flex-col jjustify-start md:justify-center items-start md:items-center mt-8 md:mt-0 px-4">
+        <p className="text-white text-lg md:text-3xl font-bold pt-4 leading-tight tracking-wide ">
+          <span className="text-transparent bg-clip-text bg-green-gradient text-lg md:text-3xl font-semibold pt-14 pb-14">
             What is Marketing As A Service?
           </span>
           - How Does it Work?
         </p>
-        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal leading-8 w-full md:w-[60%] text-center tracking-wider pt-6">
+        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal leading-8 w-full md:w-[60%] text-start md:text-center tracking-wider pt-6">
           MAAS (Marketing as a Service) is a leading Web3 marketing firm that
           helps businesses achieve their goals through innovative Web3
           strategies. We offer agile, customized marketing solutions on demand,
@@ -70,13 +70,14 @@ const Maas = () => {
           ensure project success.
         </p>
         {/* button to connect on whatsapp */}
-        <div className="flex flex-row items-center space-x-6 pt-6">
+        <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-6 pt-6">
           <a
             type="button"
             href="https://wa.me/9266416198"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+            className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
+            text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
             aria-label="Contact us "
             title="Click to contact us form"
           >
@@ -85,7 +86,8 @@ const Maas = () => {
           <Link to="/contact-us">
             <button
               type="button"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
+              text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
               aria-label="Contact us "
               title="Click to contact us form"
             >

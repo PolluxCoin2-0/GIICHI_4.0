@@ -1,5 +1,6 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import MetaverseBannerImg from "../../../assets/metaverseBanner.png";
+import MetaverseFeatureImg from "../../../assets/metaverseFeature.png";
 import Services from "../../../components/CommonComponent/Services";
 import Framework from "../../../components/CommonComponent/Framework";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
@@ -21,7 +22,7 @@ const MetaverseConsulting = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={BlockchainImg}
+        img={MetaverseBannerImg}
         title1="Metaverse Consulting "
         title2="Company"
         desc="Seamlessly enter the Metaverse and elevate your business with our expert consulting and development services."
@@ -32,7 +33,7 @@ const MetaverseConsulting = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+           <img src={MetaverseFeatureImg} alt="Metaverse Consulting Feature Image" className=""/>
         </div>
 
         <div className="w-full lg:w-[60%] ">

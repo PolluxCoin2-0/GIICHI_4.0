@@ -6,6 +6,8 @@ import depinImg from "../../assets/depin (2).png";
 import depinSolImg from "../../assets/depinsol2.png";
 import TransportFeature1Img from "../../assets/TransportFeature.png";
 import TransportFeature2Img from "../../assets/TransportFeature2.png";
+import defiConsultingFeature1Img from "../../assets/defiConsultingFeature1.png";
+import defiConsultingFeature2Img from "../../assets/defiConsultingFeature2.png";
 
 export const BlockchainDevelopmentForecast = {
   img1: bkDev1Img,
@@ -56,8 +58,8 @@ export const TransportForecast = {
 }
 
 export const DefiConsultingForecast = {
-  img1:TransportFeature1Img,
-   img2:TransportFeature2Img,
+  img1:defiConsultingFeature1Img,
+   img2:defiConsultingFeature2Img,
    title1:"DeFi Consulting: Unlock DeFi’s Potential for Your Business",
    title2:"Unbiased & Expert Insights on the DeFi Market",
    desc1:"The DeFi market is expected to reach $232 billion by 2030. If you’re looking to capitalize on this growth but don’t know where to start, we’ve got you covered. Our experts provide comprehensive DeFi consulting, guiding you on everything from technical development to community building.",

@@ -1,5 +1,6 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import web3ConsultingBannerImg from "../../../assets/web3Banner.png";
+import web3ConsultingFeatureImg from "../../../assets/web3Feature.png";
 import Services from "../../../components/CommonComponent/Services";
 import Framework from "../../../components/CommonComponent/Framework";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
@@ -21,7 +22,7 @@ const Web3Consulting = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={BlockchainImg}
+        img={web3ConsultingBannerImg}
         title1="Web3 Consulting "
         title2="Company"
         desc="Let our expert Web3 consultants unlock your business’s full potential, keeping you ahead in today’s competitive market."
@@ -32,7 +33,7 @@ const Web3Consulting = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={web3ConsultingFeatureImg} alt="Web3 Consulting Feature Image" className=""/>
         </div>
 
         <div className="w-full lg:w-[60%] ">
