@@ -7,7 +7,6 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { MpcWalletFaq } from "../../../components/data/faqsData";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 
-
 const stages = [
   {
     number: "01",
@@ -36,7 +35,6 @@ const stages = [
     socialIcon: "message",
   },
 ];
-
 
 const comparisons = [
   {
