@@ -4,6 +4,9 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { SemiFungibleFaq } from "../../../components/data/faqsData";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import nft1Img from "../../../assets/nft1.png";
+import ManagementImg from "../../../assets/management.png";
+import processImg from "../../../assets/process.png";
+import stockChartImg from "../../../assets/stock-chart.png";
 
 const SemiFungibleToken = () => {
   return (
@@ -116,13 +119,13 @@ const SemiFungibleToken = () => {
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center ">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
+              <img src={ManagementImg} alt="" className="" />
               <p className="text-white pt-2 text-[17px] md:text-[14px] text-center">
                 Easy management of fungible and non-fungible tokens
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] mt-4 md:mt-0 flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
+              <img src={processImg} alt="" className="" />
               <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
               The minting process is simple, accessible, and cost-effective.
               </p>
@@ -134,7 +137,7 @@ const SemiFungibleToken = () => {
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
+              <img src={stockChartImg} alt="" className="" />
               <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
               Even when bundled under one smart contract, the owner can unbundle and trade each token individually.
               </p>

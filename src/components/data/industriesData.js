@@ -20,6 +20,7 @@ import insuranceImg from "../../assets/depinSc.png";
 import telecommunicationImg from "../../assets/satellite.png";
 import operationsImg from "../../assets/review.png";
 import serviceImg from '../../assets/management.png';
+import MetaverseAiImg from "../../assets/metaverseAi.png";
 
 export const BkDevIndustriesData = [
   {
@@ -195,7 +196,7 @@ export const digitalWalletIndustriesData = [
 
 export const whiteLabelIndustriesData = [
   {
-    img: healthImg,
+    img: logisticImg,
     title: "FinTech",
   },
   {
@@ -203,11 +204,11 @@ export const whiteLabelIndustriesData = [
     title: "E-Commerce",
   },
   {
-    img: museumImg,
+    img: MetaverseAiImg,
     title: "Gaming",
   },
   {
-    img: logisticImg,
+    img: healthImg,
     title: "Charity",
   },
   {

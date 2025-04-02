@@ -180,21 +180,27 @@ const MpcCryptoWallet = () => {
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
             <div>
-              <div className="bg-green  text-white flex items-center space-x-4 p-6">
-                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2 ">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6 text-blue-500"
-                  >
-                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                </div>
-                <p className="text-2xl font-semibold text-center">
-                  MPC Wallets
-                </p>
-              </div>
+            <div className="bg-green text-white flex items-center space-x-4 p-6">
+  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="black"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-10 h-10 text-blue-500"
+    >
+      <path d="M2 7h16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H2z" />
+      <path d="M16 12h4" />
+      <circle cx="18" cy="12" r="1" />
+      <path d="M6 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2" />
+    </svg>
+  </div>
+  <p className="text-2xl font-semibold text-center">MPC Wallets</p>
+</div>
+
               <div className="bg-green bg-opacity-10 p-4">
                 {comparisons.map((comp, index) => (
                   <div
@@ -211,19 +217,28 @@ const MpcCryptoWallet = () => {
 
           <div className="w-1/2">
             <div>
-              <div className="bg-green text-white flex items-center space-x-4 p-6">
-                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6 text-blue"
-                  >
-                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
-                  </svg>
-                </div>
-                <p className="text-2xl font-semibold">Multisig Wallets</p>
-              </div>
+            <div className="bg-green text-white flex items-center space-x-4 p-6">
+  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="black"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="w-12 h-12 text-blue-500"
+    >
+      <path d="M6 10v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-6" />
+      <path d="M9 10V7a3 3 0 0 1 6 0v3" />
+      <circle cx="12" cy="18" r="1" />
+      <path d="M5 20h14" />
+      <path d="M3 10h18" />
+    </svg>
+  </div>
+  <p className="text-2xl font-semibold">Multisig Wallets</p>
+</div>
+
               <div className="bg-green bg-opacity-10 text-white p-4">
                 {comparisons.map((comp, index) => (
                   <div

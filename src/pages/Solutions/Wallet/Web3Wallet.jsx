@@ -7,11 +7,15 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import stockChartImg from "../../../assets/stock-chart.png";
+import FundImg from "../../../assets/fund.png";
+import depinScImg from "../../../assets/depinSc.png";
+
 
 const benefits = [
   [
     {
-      image: accessImg,
+      image: FundImg,
       title: "Transaction Fee",
       points:
         "Transaction fees are a key revenue stream for Web3 wallets. A fixed or variable fee is charged based on the transaction value. More wallet transactions lead to increased revenue, making this a consistent income source.",
@@ -25,13 +29,13 @@ const benefits = [
   ],
   [
     {
-      image: accessImg,
+      image: depinScImg,
       title: "DeFi Integration",
       points:
         "By integrating Web3 wallets with decentralized finance (DeFi) platforms, you can earn fixed returns while enabling wallet users to perform transactions on DeFi networks. This model boosts revenue when combined with transaction and swapping fees.",
     },
     {
-      image: accessImg,
+      image: stockChartImg,
       title: "Trading Fees",
       points:
         "Web3 wallets are extensively used for trading cryptocurrencies, NFTs, and other digital assets. With multi-currency support, these wallets allow seamless trading and can be linked to various NFT marketplaces and cryptocurrency exchanges.",

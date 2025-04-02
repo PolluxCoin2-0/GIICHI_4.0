@@ -7,17 +7,21 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { MulticurrencyWalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import FundImg from "../../../assets/fund.png";
+import SoftwareImg from "../../../assets/Software.png";
+import AIImg from "../../../assets/ai.png";
+import SafetyImg from "../../../assets/Safety.png";
 
 const benefits = [
   [
     {
-      image: accessImg,
+      image: FundImg,
       title: "Multicurrency Wallet Consulting",
       points:
         "As an established multi-currency wallet development firm, we offer expert consulting services to help businesses streamline their processes and ensure seamless wallet integration.",
     },
     {
-      image: accessImg,
+      image: SoftwareImg,
       title: "Multicurrency Wallet Development",
       points:
         "We create secure, high-performance multi-cryptocurrency wallet solutions designed to safely store your assets and facilitate smooth transactions. Our team stays on top of cutting-edge technologies to deliver robust wallet solutions.",
@@ -25,13 +29,13 @@ const benefits = [
   ],
   [
     {
-      image: accessImg,
+      image: AIImg,
       title: "Deployment",
       points:
         "Using advanced tools and technologies, we ensure that our wallet solutions are fully interoperable with multiple blockchain networks for a smooth user experience.",
     },
     {
-      image: accessImg,
+      image: SafetyImg,
       title: "Token Encryption & Mining",
       points:
         "We offer comprehensive token mining services and store tokens in decentralized databases, implementing advanced encryption protocols to protect your assets from security threats.",
