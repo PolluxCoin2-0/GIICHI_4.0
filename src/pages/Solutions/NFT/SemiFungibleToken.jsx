@@ -85,7 +85,8 @@ const SemiFungibleToken = () => {
           <p className="text-3xl font-semibold text-transparent bg-clip-text bg-green-gradient">
             Semi Fungible Token Development Benefits
           </p>
-          <p className="text-white text-[15px] font-medium pt-4">
+          <p className="text-white text-[15px] font-medium pt-4 pb-2">
+          <span className="w-3 h-3 bg-green mr-3 inline-block"></span>
             Benefits for Token Holders
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center ">
@@ -103,7 +104,8 @@ const SemiFungibleToken = () => {
             </div>
           </div>
 
-          <p className="text-white text-[15px] font-medium pt-8">
+          <p className="text-white text-[15px] font-medium pt-8 pb-2">
+          <span className="w-3 h-3 bg-green mr-3 inline-block"></span>
             Benefits for Token Creators
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center">
