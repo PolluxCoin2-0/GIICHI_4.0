@@ -4,7 +4,7 @@ import avlancheImg from "../../assets/avlanche.png";
 import cosmosDkImg from "../../assets/cosmosDk.png";
 import polkadotImg from "../../assets/polkadot.png";
 import arbitrumImg from "../../assets/arbitrum.png";
-import parityImg from "../../assets/parity.png";
+import parityImg from "../../assets/paritySubstrate.png";
 import opStackImg from "../../assets/opStack.png";
 import depinArchImg from "../../assets/depinArch.png";
 import depinApiImg from "../../assets/depinApi.png";
@@ -115,7 +115,7 @@ export const BlockchainDevelopmentFramework =  [
   },
   {
     logo: parityImg,
-    title: " Parity Substrate ",
+    title: "Parity Substrate ",
     description:
       "A modular and highly efficient framework by Parity Technologies, designed for building flexible and scalable blockchain architectures.",
   },

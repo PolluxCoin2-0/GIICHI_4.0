@@ -5,6 +5,9 @@ import Industries from "../../../components/CommonComponent/Industries";
 import { whiteLabelIndustriesData } from "../../../components/data/industriesData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { WhiteLabelWalletExchangeFaq } from "../../../components/data/faqsData";
+import whiteLabelCryptoWalletFeatureImg from "../../../assets/whiteLabelWalletFeature.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import whiteLabelBannerImg from "../../../assets/whiteLabelBanner.png";
 
 const statsData = [
   { label: "Registration", value: "200+" },
@@ -17,36 +20,38 @@ const statsData = [
 const WhiteLabelWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
-      {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
-          White Label <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            Cryptocurrency Wallet
-          </span>
-        </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              Boost your investments with our ready-to-launch, White Label
-              cryptocurrency wallet. We specialize in creating customized,
-              secure, and user-friendly wallets that help you differentiate
-              yourself in the market. <br /> <br />A white label cryptocurrency
-              wallet is a pre-built, customizable solution that allows
-              businesses to offer their own branded wallet service without
-              needing to develop the software from scratch. These wallets come
-              with the essential features for securely storing and managing
-              cryptocurrencies, but businesses can personalize the interface,
-              branding, and specific functionalities to suit their target
-              audience.
-            </p>
-
+      
+      {/* WHITE LABEL CRYPTO WALLET DEVELOPMENT COMPANY */}
+      <BannerContent
+        img={whiteLabelBannerImg}
+        title1="White Label"
+        title2="Cryptocurrency Wallet"
+        desc=" Boost your investments with our ready-to-launch, White Label cryptocurrency wallet. "
+      />
+ 
+       {/* Our blockchain consulting related services */}
+      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+        <div className="w-full lg:w-[50%] relative">
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
+            Exploring the Key Features of White Label Cryptocurrency Wallets
+          </p>
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+            A White-Label cryptocurrency wallet is a pre-built, fully-tested,
+            and customizable solution for securely storing, sending, and
+            receiving cryptocurrencies, NFTs, stablecoins, and various other
+            digital assets. This ready-made platform can be quickly adapted to
+            your brand’s requirements, streamlining the deployment and launch
+            process for both web and mobile platforms. <br /> <br />
+            Creating a White-Label wallet demands deep domain knowledge,
+            extensive experience, and expertise — all of which are available
+            through top-tier development companies like Giichi. We offer both
+            custodial and non-custodial wallet development on prominent
+            blockchain networks, backed by over a decade of industry experience.
+          </p>
+          
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6 mt-6">
+            <div className="flex flex-row items-center space-x-6 mt-8">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
@@ -69,39 +74,15 @@ const WhiteLabelWallet = () => {
                 </button>
               </Link>
             </div>
-          </div>
         </div>
-      </div>
-
-      {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[50%] relative">
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Exploring the Key Features of White Label Cryptocurrency Wallets
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            A White-Label cryptocurrency wallet is a pre-built, fully-tested,
-            and customizable solution for securely storing, sending, and
-            receiving cryptocurrencies, NFTs, stablecoins, and various other
-            digital assets. This ready-made platform can be quickly adapted to
-            your brand’s requirements, streamlining the deployment and launch
-            process for both web and mobile platforms. <br /> <br />
-            Creating a White-Label wallet demands deep domain knowledge,
-            extensive experience, and expertise — all of which are available
-            through top-tier development companies like Giichi. We offer both
-            custodial and non-custodial wallet development on prominent
-            blockchain networks, backed by over a decade of industry experience.
-          </p>
-        </div>
-        <div className="w-full lg:w-[50%]">{/* img */}</div>
+        <div className="w-full lg:w-[50%]"><img src={whiteLabelCryptoWalletFeatureImg} alt="" className="" /></div>
       </div>
 
       {/*Stats Data */}
-      <div className="relative">
+      <div className="relative ">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-6  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-10 rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-32">
           {statsData.map((stat, index) => (
             <div
               key={index}

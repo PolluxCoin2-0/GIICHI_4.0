@@ -59,33 +59,25 @@ const Token = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Next-Gen Crypto Token Development at Your Fingertips
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           Explore our comprehensive crypto token development services, designed to deliver advanced and feature-rich tokens tailored to your needs. Our expertise ensures seamless functionality, including:
           </p>
 
           <div className="flex flex-row items-center space-x-12 mt-8">
             <div>
-              <p className="text-white text-sm ">Multi-Chain Minting</p>
-              <p className="text-white text-sm mt-4">
-              Effortless Token Listing
-              </p>
-              <p className="text-white text-sm mt-4">
-              Universal Wallet Compatibility
-              </p>
-              <p className="text-white text-sm  mt-4">Secure Token Minting</p>
+              <p className="text-white text-sm "><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Multi-Chain Minting</p>
+              <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Effortless Token Listing</p>
+              <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span> Universal Wallet Compatibility</p>
+              <p className="text-white text-sm  mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Secure Token Minting</p>
             </div>
             <div>
-              <p className="text-white text-sm ">Strategic Token Pausing</p>
-              <p className="text-white text-sm mt-4">
-              Efficient Token Burning
-              </p>
-              <p className="text-white text-sm mt-4">
-              Multiple Currency Support
-              </p>
-              <p className="text-white text-sm  mt-4">Robust Multi-Factor Security</p>
+              <p className="text-white text-sm "><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Strategic Token Pausing</p>
+              <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Efficient Token Burning </p>
+              <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Multiple Currency Support</p>
+              <p className="text-white text-sm  mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Robust Multi-Factor Security</p>
             </div>
           </div>
         </div>

@@ -54,14 +54,14 @@ const Maas = () => {
       </div> */}
 
       {/* what is maas */}
-      <div className="flex flex-col jjustify-start md:justify-center items-start md:items-center mt-8  px-4">
+      <div className="flex flex-col jjustify-start md:justify-center items-start md:items-center mt-12 px-4">
         <p className="text-white text-lg md:text-xl lg:text-3xl font-bold pt-4 leading-tight tracking-wide ">
           <span className="text-transparent bg-clip-text bg-green-gradient text-lg md:text-xl lg:text-3xl font-semibold pt-14 pb-14">
             What is Marketing As A Service?
           </span>
           - How Does it Work?
         </p>
-        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal leading-8 w-full md:w-[80%] lg:w-[60%] text-start md:text-center tracking-wider pt-6">
+        <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal leading-8 w-full md:w-[80%] lg:w-[60%] text-start md:text-center tracking-wider pt-6" style={{ lineHeight: "1.7" }}>
           MAAS (Marketing as a Service) is a leading Web3 marketing firm that
           helps businesses achieve their goals through innovative Web3
           strategies. We offer agile, customized marketing solutions on demand,

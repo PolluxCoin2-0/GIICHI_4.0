@@ -87,7 +87,7 @@ const Footer = () => {
           <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
             QUICK LINKS
           </p>
-          <a href="https://www.giichi.network/about-us">
+          <a href="/about-us">
             <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
               About Us
             </p>
@@ -97,27 +97,31 @@ const Footer = () => {
               Insights
             </p>
           </a>
-          <a href="https://www.giichi.network/blockchain-development">
+          <a href="/blockchain-development">
             <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
               Blockchain
             </p>
           </a>
-          <a href="https://www.giichi.network/ai-ml-solution">
+          <a href="/ai-ml-solution">
             <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
               Artificial Intelligence
             </p>
           </a>
-          <a href="/">
+          <a href="/web3-consulting-company">
             <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
               Web3 Consulting
             </p>
           </a>
+          <a href="/token-coin-development">
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
-            Crypto Solutions
+            Token Development
           </p>
+          </a>
+          <a href="/asset-tokenization">
           <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
             Asset Tokenization
           </p>
+          </a>
           <a
             href="https://blog.giichi.network/"
             target="_blank"
@@ -127,7 +131,7 @@ const Footer = () => {
               Blogs
             </p>
           </a>
-          <a href="https://www.giichi.network/contact-us">
+          <a href="/contact-us">
             <p className="text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer">
               Contact
             </p>
@@ -143,10 +147,10 @@ const Footer = () => {
             <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
               Sales Enquiry
             </p>
-            <div className="flex flex-row items-center space-x-4 mt-4">
+            <div className="flex flex-row items-center space-x-2 mt-4">
               <IoCall color="#ffffff" />
               <p className="text-white text-opacity-70 text-xs md:text-[12px] lg:text-xs xl:text-[15px] font-normal ">
-                +91 92664 16198
+                +91 9252552665
               </p>
             </div>
           </div>
@@ -154,10 +158,10 @@ const Footer = () => {
             <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
               HR Enquiry
             </p>
-            <div className="flex flex-row items-center space-x-4 mt-4">
+            <div className="flex flex-row items-center space-x-2 mt-4">
               <IoCall color="#ffffff" />
               <p className="text-white text-opacity-70 text-xs md:text-[12px] lg:text-xs xl:text-[15px] font-normal ">
-                +91 92664 16198
+                +91 8557007331
               </p>
             </div>
           </div>

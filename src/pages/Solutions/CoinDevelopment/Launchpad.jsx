@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+                /* eslint-disable react/prop-types */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import serviceIcon from "../../../assets/collab.png";
@@ -9,6 +9,14 @@ import supplyChainImg from "../../../assets/logictics.png";
 import WalletImg from "../../../assets/wallet (2).png";
 import FundImg from "../../../assets/fund.png";
 import RecordImg from "../../../assets/record.png";
+import icoImg from "../../../assets/ico (1).png";
+import idoImg from "../../../assets/ido.png";
+import ieoImg from "../../../assets/ieo.png";
+import ifoImg from "../../../assets/ifo.png";
+import igoImg from "../../../assets/igo.png";
+import iioImg from "../../../assets/iio.png";
+import iloImg from "../../../assets/ilo.png";
+import inoImg from "../../../assets/ino.png";
 
 const features = [
   {
@@ -51,49 +59,49 @@ const features = [
 
 const servicesData = [
   {
-    icon: serviceIcon,
+    icon: icoImg,
     title: "ICO Launchpad Development",
     description:
       "We develop smart contract-powered ICO (Initial Coin Offering) platforms, enabling businesses to seamlessly list tokens and raise funds efficiently.",
   },
   {
-    icon: serviceIcon,
+    icon: ieoImg,
     title: "IEO Launchpad Development",
     description:
       "Our expert developers create customized IEO (Initial Exchange Offering) launchpads, allowing businesses to list their projects on crypto exchanges for streamlined fundraising.",
   },
   {
-    icon: serviceIcon,
+    icon: inoImg,
     title: "INO Launchpad Development",
     description:
       "With the rising popularity of INO (Initial NFT Offering), we build high-performance INO launchpads to facilitate fundraising for NFT projects while delivering a seamless user experience.",
   },
   {
-    icon: serviceIcon,
+    icon: igoImg,
     title: "IGO Launchpad Development",
     description:
       "We specialize in IGO (Initial Game Offering) launchpads, enabling blockchain gaming projects to raise funds and enter the GameFi ecosystem effortlessly.",
   },
   {
-    icon: serviceIcon,
+    icon: iioImg,
     title: "IIO Launchpad Development",
     description:
       "Our team builds secure and scalable IIO (Initial Insurance Offering) launchpads, designed specifically for insurance-related crypto fundraising initiatives.",
   },
   {
-    icon: serviceIcon,
+    icon: ifoImg,
     title: "IFO Launchpad Development",
     description:
       "We develop IFO (Initial Farming Offering) launchpads, empowering DeFi projects to raise capital through farming events on decentralized exchange (DEX) platforms.",
   },
   {
-    icon: serviceIcon,
+    icon: idoImg,
     title: "IDO Launchpad Development",
     description:
       "Our IDO (Initial DEX Offering) launchpad solutions provide decentralized projects with secure, scalable, and high-performance platforms for efficient fundraising.",
   },
   {
-    icon: serviceIcon,
+    icon: iloImg,
     title: "ILO Launchpad Development",
     description:
       "We build ILO (Initial Liquidity Offering) launchpads, integrating Automated Market Maker (AMM), liquidity pools, and other essential features to help startups fuel their growth.",
@@ -103,7 +111,7 @@ const servicesData = [
 const ServiceCard = ({ icon, title, description }) => {
   return (
     <div className="flex flex-row items-center w-full space-x-6 mt-12">
-      <div className="bg-white px-4 py-4">
+      <div className="bg-[#073106] px-6 py-6 rounded-lg">
         <img src={icon} alt={title} className="w-24" />
       </div>
       <div>
@@ -139,7 +147,7 @@ const Launchpad = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
           Accelerate Your Crypto Launchpad Development
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           The growing adoption of cryptocurrencies has paved the way for innovative, investor-friendly solutions like crypto launchpads, which simplify the fundraising process for blockchain projects. These platforms empower startups to raise capital and expand efficiently while unlocking new revenue opportunities. <br/> <br/>
           At Giichi, we provide end-to-end crypto launchpad development services, helping you build a robust launchpad and capitalize on the booming crypto industry. Our experienced blockchain engineers and industry experts ensure a fast time-to-market, giving you a competitive edge.
           </p>
@@ -204,10 +212,10 @@ const Launchpad = () => {
                 <img
                   src={service.icon}
                   alt={service.title}
-                  className="w-20 object-cover"
+                  className="w-12 object-cover"
                 />
               </div>
-              <p className="text-white pt-4 text-lg font-bold text-center">
+              <p className="text-white pt-8 text-lg font-bold text-center">
                 {service.title}
               </p>
               <p className="text-white text-opacity-50 pt-2 text-[15px] text-center">

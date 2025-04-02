@@ -7,7 +7,7 @@ const Process = ({ heading1, heading2, desc, processSteps }) => {
       <div className="hidden md:block spotlight2 spotlight-right"></div>
       <p className="text-white text-center text-xl md:text-4xl 2xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
         {heading1} <br />
-        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl text-center">
+        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl 2xl:text-5xl text-center block mt-3">
           {heading2}
         </span>
       </p>
@@ -25,7 +25,7 @@ const Process = ({ heading1, heading2, desc, processSteps }) => {
             } mt-12`}
           >
             <div>
-              <p className="text-white text-[15px] md:text-2xl 2xl:text-3xl font-semibold w-full md:w-[70%] 2xl:w-full 3xl:w-[70%]">
+              <p className="text-white text-[15px] md:text-2xl font-semibold w-full md:w-[70%] 2xl:w-full ">
                 {step.title}
               </p>
               <ul className="list-disc ml-3 md:ml-6 pt-2">
@@ -39,8 +39,10 @@ const Process = ({ heading1, heading2, desc, processSteps }) => {
                 ))}
               </ul>
             </div>
-            <div className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 
-            absolute left-0 lg:left-[420px] xl:left-[600px] 2xl:left-[700px] 3xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+            <div
+              className="text-white text-[15px] md:text-4xl font-semibold md:font-bold border-white border-2 md:border-4 w-7 md:w-20 h-7 md:h-20 p-2 
+            absolute left-0 lg:left-[420px] xl:left-[600px] 2xl:left-[700px] 3xl:left-[850px] -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center"
+            >
               {String(index + 1).padStart(2, "0")}
             </div>
           </div>

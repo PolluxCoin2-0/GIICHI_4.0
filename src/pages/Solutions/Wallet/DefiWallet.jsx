@@ -6,6 +6,7 @@ import { DefiWalletFaq } from "../../../components/data/faqsData";
 import Services from "../../../components/CommonComponent/Services";
 import { DefiWalletService } from "../../../components/data/ServicesData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
+import defiWalletFeatureImg from "../../../assets/defiFeature.png";
 
 const statsData = [
   { label: "User Base", value: "1M+" },
@@ -88,11 +89,11 @@ const DefiWallet = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
             DeFi Wallet Development: Unlock the Potential with Our Flexible
             Solutions
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Decentralized Finance (DeFi) wallets have captured the attention of
             crypto enthusiasts worldwide, offering innovative ways to grow
             income in the crypto space. With features like open-source code,
@@ -107,7 +108,9 @@ const DefiWallet = () => {
             advantage of this high-growth opportunity!
           </p>
         </div>
-        <div className="w-full lg:w-[50%]"></div>
+        <div className="w-full lg:w-[50%]">
+          <img src={defiWalletFeatureImg} alt="" className=""/>
+        </div>
       </div>
 
       {/*Stats Data */}

@@ -26,10 +26,10 @@ const IDO = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Understanding Initial DEX Offering (IDO)
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           An Initial DEX Offering (IDO) leverages Decentralized Exchanges (DEXs) to provide primary liquidity, allowing users to stake tokens in exchange for new Liquidity Provider (LP) tokens, which are then released with the token launch. This model encourages informed decision-making and introduces innovative trading solutions.<br/> <br/>
           IDO platforms distribute tokens to trusted crypto users, facilitating initial liquidity offerings for DeFi projects. The process is entirely decentralized and automated through smart contracts, ensuring both transparency and anonymity.
           
@@ -56,19 +56,16 @@ const IDO = () => {
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between items-start space-x-0 md:space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 md:mb-8 lg:mb-12 bg-[#283430] bg-opacity-10 py-20">
         <div className="w-full md:w-[50%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4">
+          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4" style={{ lineHeight: '1.5' }}>
             White-Label IDO Launchpad Development
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]"  style={{ lineHeight: "1.7" }}>
           Accelerate your fundraising journey with our customizable white-label IDO launchpad solutions. Designed for efficiency and flexibility, these pre-built platforms provide a cost-effective approach to launching your IDO, tailored to fit your business needs.
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white pt-6 leading-7 w-full md:w-[80%]">Why Choose Our White-Label IDO Launchpad?</p>
-          <p className="text-sm font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
-          Secure & Transparent Decentralized Ecosystem</p>
-          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]">
-          Dynamic Price Discovery Mechanism</p>
-          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]">
-          Multi-Chain Compatibility</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Secure & Transparent Decentralized Ecosystem</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Dynamic Price Discovery Mechanism</p>
+          <p className="text-sm font-normal text-white text-opacity-50 pt-2 leading-7 w-full md:w-[80%]"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Multi-Chain Compatibility</p>
         </div>
         <div className="w-full md:w-[70%] lg:w-[50%] mt-4 md:mt-0">
           <p className="text-white text-lg ">

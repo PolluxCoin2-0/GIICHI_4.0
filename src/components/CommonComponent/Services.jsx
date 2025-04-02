@@ -28,7 +28,7 @@ const Services = ({ data, heading1, heading2, desc }) => {
         <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl font-bold pt-4 leading-tight tracking-wide">
           {heading1}
           <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+          <span className="block mt-4 text-transparent bg-clip-text bg-green-gradient">
            {heading2}
           </span>
         </p>

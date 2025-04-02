@@ -10,7 +10,7 @@ import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import stockChartImg from "../../../assets/stock-chart.png";
 import FundImg from "../../../assets/fund.png";
 import depinScImg from "../../../assets/depinSc.png";
-
+import web3FeatureImg from "../../../assets/webFeature.png";
 
 const benefits = [
   [
@@ -74,9 +74,9 @@ const Web3Wallet = () => {
           </span>
         </p>
         <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
+          <div className="w-[50%]"></div>
           <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
+            <p className="text-white text-opacity-70 text-justify hyphens-auto" >
               Web3 wallets are decentralized digital wallets that provide users
               with full control over their assets in the Web3 ecosystem. Unlike
               traditional Web2 wallets, Web3 wallets are designed to interact
@@ -128,7 +128,7 @@ const Web3Wallet = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
             What Sets Web3 Wallet Apart?
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Did you know that venture capital firms invested over $27 billion in
             crypto projects in 2021, and an even greater amount in Web3
             initiatives? Whether you’re a startup or an established business,
@@ -149,7 +149,9 @@ const Web3Wallet = () => {
             digital assets.
           </p>
         </div>
-        <div className="w-full lg:w-[50%]"></div>
+        <div className="w-full lg:w-[50%]">
+          <img src={web3FeatureImg} alt="" className="object-contain" />
+        </div>
       </div>
 
       {/*  Web3 Wallet Development:  */}
@@ -159,7 +161,7 @@ const Web3Wallet = () => {
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Web3 Wallet Development:
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
+          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center block mt-2">
             Lucrative Revenue Models
           </span>
         </p>
@@ -223,7 +225,7 @@ const Web3Wallet = () => {
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
           Our Unique Offerings in <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+          <span className="block mt-4 text-transparent bg-clip-text bg-green-gradient">
             Web3 Wallet
           </span>
         </p>

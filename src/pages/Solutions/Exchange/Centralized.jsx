@@ -1,5 +1,6 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import centralizedExchangeBannerImg from "../../../assets/centralizeExchangeBanner.png";
+import centralizedExchangeFeatureimg from "../../../assets/centralizeExchangeFeature.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { CentralizedExchangeFramework } from "../../../components/data/frameworkData";
 import Services from "../../../components/CommonComponent/Services";
@@ -14,9 +15,9 @@ const Centralized = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
-        title1="Centralized Exchange "
-        title2=" Development Servicest"
+        img={centralizedExchangeBannerImg}
+        title1="Centralized Exchange"
+        title2=" Development Services"
         desc="Leverage the advantages of high-quality, institutional-grade centralized exchange development to create a fully functional and feature-packed platform."
       />
 
@@ -25,16 +26,27 @@ const Centralized = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img
+            src={centralizedExchangeFeatureimg}
+            alt="centralized Exchanged development"
+            className=""
+          />
         </div>
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
             Centralized Exchange Development
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-          Elevate your business by creating a secure, scalable, and highly functional centralized cryptocurrency exchange with our expert team. Our centralized crypto exchange platforms offer instant liquidity, robust APIs, and enhanced security measures to ensure a seamless user experience. <br/> <br/>
-          Our skilled and experienced developers specialize in building cutting-edge crypto exchange software, delivering feature-rich, uninterrupted exchanges. We utilize the latest tools and technologies to build resilient and market-ready crypto exchanges.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+            Elevate your business by creating a secure, scalable, and highly
+            functional centralized cryptocurrency exchange with our expert team.
+            Our centralized crypto exchange platforms offer instant liquidity,
+            robust APIs, and enhanced security measures to ensure a seamless
+            user experience. <br /> <br />
+            Our skilled and experienced developers specialize in building
+            cutting-edge crypto exchange software, delivering feature-rich,
+            uninterrupted exchanges. We utilize the latest tools and
+            technologies to build resilient and market-ready crypto exchanges.
           </p>
 
           {/* button to connect on whatsapp */}

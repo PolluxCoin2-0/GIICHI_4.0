@@ -69,10 +69,10 @@ const WhiteLabelBanking = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           White Label Crypto Bank Development Company: Delivering Cutting-Edge Solutions
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]"  style={{ lineHeight: "1.7" }}>
           The financial sector is undergoing a major transformation, driven by blockchain technology and cryptocurrencies. As crypto-friendly banking services gain traction, we recognize the challenges of building a crypto bank from the ground up—requiring significant time, money, and resources. <br/> <br/>
           With our pre-engineered white-label crypto banking software, you can seamlessly launch your crypto bank in no time, eliminating the complexities of development. <br/> <br/>
           

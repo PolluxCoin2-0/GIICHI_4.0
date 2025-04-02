@@ -16,7 +16,7 @@ const BannerContent = ({img, title1, title2, desc}) => {
              {title1}{" "}
             </span>
             <br />
-            <span className="text-transparent bg-clip-text bg-black-gradient md:text-3xl lg:text-4xl xl:text-5xl font-bold">
+            <span className="text-transparent bg-clip-text bg-black-gradient md:text-3xl lg:text-4xl xl:text-5xl font-bold block mt-3">
               {title2}{" "}
             </span>
           </p>
@@ -31,10 +31,10 @@ const BannerContent = ({img, title1, title2, desc}) => {
          {/* For Mobile */}
          <div className="md:hidden flex flex-col items-start justify-center pt-6">
          <p className="">
-           <span className="text-white text-3xl font-bold">
+           <span className="text-white text-2xl font-bold">
            {title1}{" "}
            </span>
-           <span className="text-white text-3xl font-bold">
+           <span className="text-white text-2xl font-bold">
            {title2}{" "}
            </span>
          </p>

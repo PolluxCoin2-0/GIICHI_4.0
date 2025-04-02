@@ -14,7 +14,7 @@ const Forecast = ({ data }) => {
               alt="forecast-image"
               className="h-96 object-contain "
             />
-            <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center">
+            <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center" style={{ lineHeight: '1.5' }}>
               {data.title1}
             </p>
             <p className="text-sm md:text-[17px] font-light text-white text-opacity-50 pt-6 px-0 xl:px-[85px] text-center leading-normal">
@@ -28,7 +28,7 @@ const Forecast = ({ data }) => {
               alt="forecast-image"
               className="h-96 object-contain"
             />
-            <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center ">
+            <p className="text-white text-xl font-semibold pt-4 px-0 xl:px-28 text-center" style={{ lineHeight: '1.5' }}>
               {data.title2}
             </p>
             <p className="text-sm md:text-[17px] font-light text-white text-opacity-50 pt-6 px-0 xl:px-[85px] leading-normal text-center">

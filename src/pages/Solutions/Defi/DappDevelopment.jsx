@@ -58,10 +58,10 @@ const DappDevelopment = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Unlock the Potential of Decentralization with Blockchain dApp Development
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]"  style={{ lineHeight: "1.7" }}>
           DApps (decentralized applications) are poised to drive significant long-term benefits for businesses, with a promising future ahead. In 2022, the dApp industry saw a 50% increase in unique active wallets, with daily active users rising from 1.58 million in 2021 to 2.37 million on average. As more enterprises embrace blockchain technology, they are partnering with dApp development experts to enhance their revenue and expand their reach. <br/> <br/>
         As a leading dApp development company, we specialize in creating innovative, secure, and engaging decentralized applications. Our team of experienced Web3-based dApp developers delivers customizable solutions that harness the full potential of blockchain technology, ensuring long-term value and growth for your business. Let us help you build a future-ready application that empowers both your enterprise and your users.
           </p>
@@ -81,7 +81,7 @@ const DappDevelopment = () => {
 
       {/* WEB3 DEVELOPMENT JOURNEY */}
       <div className="mt-24">
-        <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
+        <p className="text-white text-2xl md:text-4xl lg:text-4xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
         Our Step-by-Step dApp Development Process
         </p>
         <div className="p-4 mt-10">

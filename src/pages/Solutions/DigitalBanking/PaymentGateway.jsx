@@ -118,10 +118,10 @@ const PaymentGateway = () => {
         </div>
 
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-[35px] font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.4' }}>
           Crypto Payment Gateway Development: Unlocking Unmatched Potential
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-4 leading-6 text-justify hyphens-auto tracking-wider w-[90%]"  style={{ lineHeight: "1.7" }}>
           According to research by Future Market Insights, the global crypto payments market is set to expand at a CAGR of 14.1%, with its value rising from $1,294.1 million in 2023 to $4,853.8 million by 2033. This rapid growth presents a unique opportunity for merchants to integrate instant, secure, and borderless payment solutions. <br/> <br/>
           Partnering with Giichi gives you access to world-class infrastructure, deep domain expertise, and tailored solutions designed to fit your exact business needs. Whether you require a custom-built or white-label crypto payment gateway, we ensure a cost-effective, seamless, and future-ready payment experience.
           </p>

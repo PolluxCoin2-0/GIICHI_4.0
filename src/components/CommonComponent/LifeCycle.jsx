@@ -7,7 +7,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
       <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
         {heading1}
         <br />
-        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
+        <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center block mt-3">
           {heading2}
         </span>
       </p>

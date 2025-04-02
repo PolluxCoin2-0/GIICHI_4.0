@@ -60,13 +60,13 @@ const Memecoin = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Leverage the Growing Popularity of Meme Coin Development
           </p>
           <p className="text-white text-xl font-semibold pt-4 tracking-tight">
           Can a Meme Coin Be More Than Just Hype?
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-4 leading-6 text-justify hyphens-auto mt-6">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-4 leading-6 text-justify hyphens-auto mt-6"  style={{ lineHeight: "1.7" }}>
           In today's evolving financial landscape, meme coins have transcended internet humor, merging blockchain innovation, community-driven momentum, and high-frequency trading to create valuable digital assets. Once seen as speculative trends, meme coins now command significant liquidity and institutional attention, proving that viral culture—when strategically engineered—can achieve long-term market relevance. <br/> <br/>
           As a leading meme coin development company, we craft enterprise-grade blockchain solutions with robust smart contract architecture and efficient token economies. Whether you're launching the next viral sensation or a community-driven digital asset, our expertise ensures a secure, optimized, and impactful market entry.
           </p>

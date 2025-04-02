@@ -33,10 +33,10 @@ const DefiConsulting = () => {
         </div>
 
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight">
+          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
             DeFi Consulting: <br /> Unlock DeFi’s Potential for Your Business
           </p>
-          <p className="pt-8 md:pt-4 xl:pt-8 text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider">
+          <p className="pt-8 md:pt-4 xl:pt-8 text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider" style={{ lineHeight: "1.7" }}>
             The DeFi market is expected to reach $232 billion by 2030. If you’re
             looking to capitalize on this growth but don’t know where to start,
             we’ve got you covered. Our experts provide comprehensive DeFi
@@ -64,10 +64,10 @@ const DefiConsulting = () => {
       {/* Defi Consulting insights */}
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
             Unbiased & Expert Insights on the DeFi Market
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-8 md:pt-3 xl:pt-8 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-8 md:pt-3 xl:pt-8 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider" style={{ lineHeight: "1.7" }}>
             If you’re uncertain about entering the DeFi space, rely on us for
             independent, expert advice. With real-world experience, we help
             businesses analyze the DeFi market to make informed decisions. Our

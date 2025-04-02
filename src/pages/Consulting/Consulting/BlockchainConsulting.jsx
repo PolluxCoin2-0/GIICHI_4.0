@@ -47,7 +47,7 @@ const BlockchainConsulting = () => {
         <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight">
           Skilled Blockchain Advisors at Your Disposal
         </p>
-        <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto md:text-start md:hyphens-none tracking-wider">
+        <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto md:text-start md:hyphens-none tracking-wider" style={{ lineHeight: "1.7" }}>
           Giichi is a leading blockchain consulting company, empowering businesses with cutting-edge blockchain solutions that maximize the technology's potential for growth and innovation. <br/><br/>
           Blockchain is a transformative network, offering trust, transparency, and security—features that drive significant impact across industries. By integrating blockchain into business strategies, companies can unlock new opportunities and turn their goals into success stories.  
           As a renowned blockchain consulting firm, we have a team of expert blockchain consultants who continuously research, develop, and test blockchain ecosystems. Their dedication ensures innovative solutions that seamlessly integrate blockchain architecture into businesses, driving efficiency and competitive advantage.  

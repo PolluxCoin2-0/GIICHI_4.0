@@ -6,6 +6,9 @@ import { mpcCryptoWalletFramework } from "../../../components/data/frameworkData
 import Faq from "../../../components/resuableComponent/Faq";
 import { MpcWalletFaq } from "../../../components/data/faqsData";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import customExchangeBannerImg from "../../../assets/customExchangeBanner.png";
+import mpcCryptoWalletFeatureImg from "../../../assets/mpcCryptoWallet.png";
 
 const stages = [
   {
@@ -66,24 +69,32 @@ const comparisons = [
 const MpcCryptoWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
+
+       {/* Banner Image content */}
+       <BannerContent
+        img={customExchangeBannerImg}
+        title1="MPC Crypto Wallet"
+        title2="Development Services"
+        desc="Strengthen Your Institutional Wallet with Leading MPC Wallet Development Services"
+      />
+
       {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
+      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative mt-32">
         <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
+        
+        <div className="flex flex-row w-full">
+          <div className="w-[50%]"><img src={mpcCryptoWalletFeatureImg} alt="" className=""/></div>
+          <div className="w-[50%]">
+          <p className="text-5xl text-white font-semibold">
           MPC Crypto Wallet
           <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Company
           </span>
         </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              Strengthen Your Institutional Wallet with Leading MPC Wallet
-              Development Services <br /> <br />
+            <p className="text-white text-opacity-70 text-justify hyphens-auto mt-6" style={{ lineHeight: "1.7" }}>
               Elevate your institutional wallets to highly secure solutions with
               the expertise of a top MPC wallet development company. Our goal is
               to provide advanced asset protection, ensuring peace of mind for
@@ -137,7 +148,10 @@ const MpcCryptoWallet = () => {
       {/* DEFI DEVELOPMENT JOURNEY */}
       <div className="mt-24">
         <div className="flex flex-col justify-center items-center">
-          <p className="text-white text-2xl md:text-3xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
+          <p
+            className="text-white text-2xl md:text-3xl px-2 font-bold pt-4 leading-tight tracking-wide text-center"
+            style={{ lineHeight: "1.5" }}
+          >
             Exploring Profitable Ways to Make Money with <br /> MPC Wallet
             Development Solutions
           </p>
@@ -180,26 +194,28 @@ const MpcCryptoWallet = () => {
         <div className="flex gap-4 p-4 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-96 mt-6">
           <div className="w-1/2">
             <div>
-            <div className="bg-green text-white flex items-center space-x-4 p-6">
-  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="black"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="w-10 h-10 text-blue-500"
-    >
-      <path d="M2 7h16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H2z" />
-      <path d="M16 12h4" />
-      <circle cx="18" cy="12" r="1" />
-      <path d="M6 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2" />
-    </svg>
-  </div>
-  <p className="text-2xl font-semibold text-center">MPC Wallets</p>
-</div>
+              <div className="bg-green text-white flex items-center space-x-4 p-6">
+                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="black"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="w-10 h-10 text-blue-500"
+                  >
+                    <path d="M2 7h16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H2z" />
+                    <path d="M16 12h4" />
+                    <circle cx="18" cy="12" r="1" />
+                    <path d="M6 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2" />
+                  </svg>
+                </div>
+                <p className="text-2xl font-semibold text-center">
+                  MPC Wallets
+                </p>
+              </div>
 
               <div className="bg-green bg-opacity-10 p-4">
                 {comparisons.map((comp, index) => (
@@ -217,27 +233,27 @@ const MpcCryptoWallet = () => {
 
           <div className="w-1/2">
             <div>
-            <div className="bg-green text-white flex items-center space-x-4 p-6">
-  <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="black"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className="w-12 h-12 text-blue-500"
-    >
-      <path d="M6 10v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-6" />
-      <path d="M9 10V7a3 3 0 0 1 6 0v3" />
-      <circle cx="12" cy="18" r="1" />
-      <path d="M5 20h14" />
-      <path d="M3 10h18" />
-    </svg>
-  </div>
-  <p className="text-2xl font-semibold">Multisig Wallets</p>
-</div>
+              <div className="bg-green text-white flex items-center space-x-4 p-6">
+                <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="black"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="w-12 h-12 text-blue-500"
+                  >
+                    <path d="M6 10v6a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-6" />
+                    <path d="M9 10V7a3 3 0 0 1 6 0v3" />
+                    <circle cx="12" cy="18" r="1" />
+                    <path d="M5 20h14" />
+                    <path d="M3 10h18" />
+                  </svg>
+                </div>
+                <p className="text-2xl font-semibold">Multisig Wallets</p>
+              </div>
 
               <div className="bg-green bg-opacity-10 text-white p-4">
                 {comparisons.map((comp, index) => (

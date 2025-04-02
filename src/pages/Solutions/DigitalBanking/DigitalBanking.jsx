@@ -61,10 +61,10 @@ const DigitalBanking = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Crypto Banking Solutions: Simplifying Financial Services
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-[90%]"  style={{ lineHeight: "1.7" }}>
           As cryptocurrencies and contactless payments gain momentum, the demand for crypto-friendly banking is rising. Whether you're a bank, financial institution, startup, or established business, our comprehensive crypto banking solutions empower you to launch and scale seamlessly. <br/> <br/>
           At Giichi, we offer a ready-to-use digital banking platform with essential financial services, including bank accounts, credit/debit cards, trading, and seamless payment options—ensuring smooth operations and an effortless onboarding experience for your users.
           </p>

@@ -37,10 +37,10 @@ const MetaverseConsulting = () => {
         </div>
 
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
           Unlock Metaverse Growth with Expert Consulting  
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-full lg:w-[90%]">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-full lg:w-[90%]" style={{ lineHeight: "1.7" }}>
          Our metaverse consulting services help businesses tap into the immense growth potential of the metaverse, regardless of industry. Now is the time to explore and integrate this revolutionary technology to achieve next-level success. <br/> <br/> 
          With a team of highly skilled metaverse experts, we provide strategic guidance and valuable insights, ensuring businesses make the most of metaverse opportunities for maximum benefits.
           </p>

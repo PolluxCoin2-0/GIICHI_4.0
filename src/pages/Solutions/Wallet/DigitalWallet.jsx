@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 import Framework from "../../../components/CommonComponent/Framework";
 import { DigitalWalletFramework } from "../../../components/data/frameworkData";
 import Industries from "../../../components/CommonComponent/Industries";
@@ -16,6 +16,7 @@ import { IoQrCode } from "react-icons/io5";
 import { GiWallet } from "react-icons/gi";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiTwoCoins } from "react-icons/gi";
+import digitalWalletBannerImg from "../../../assets/digitalWalletBanner.png";
 
 const steps = [
   {
@@ -54,72 +55,28 @@ const DigitalWallet = () => {
 
   return (
     <div className="mt-20 mb-20 ">
+      
       {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
-          Crypto Digital Wallet <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            Development Company
-          </span>
-        </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              Elevate your business by collaborating with a leading
-              cryptocurrency wallet development company. We create robust,
-              customized solutions for total asset security and seamlessly
-              integrate financial services to enhance passive income
-              opportunities. <br /> <br />A cryptocurrency digital wallet is an
-              essential tool for anyone involved in the digital asset space. It
-              is a software application that securely stores, sends, and
-              receives cryptocurrencies like Bitcoin, Ethereum, and other
-              altcoins. The wallet functions by holding the user's private
-              keys—cryptographic keys that are necessary to access and manage
-              their digital assets.
-            </p>
-
-            {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6 mt-8">
-              <a
-                type="button"
-                href="https://wa.me/9266416198"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Connect on Whatsapp
-              </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <BannerContent
+        img={digitalWalletBannerImg}
+        title1="Crypto Digital Wallet  "
+        title2="Development Services"
+        desc="Elevate your business by collaborating with a leading cryptocurrency wallet development company."
+      />
+    
       {/* Our blockchain consulting related services */}
       <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p
+            className="text-white text-xl md:text-2xl xl:text-3xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.5" }}
+          >
             Crypto Wallet Development: Unlocking Opportunities in the
             Billion-Dollar Market
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             The global crypto wallet market, valued at around $10.27 billion in
             2023, is set to expand significantly, reaching an estimated $14.39
             billion in 2024 and growing by $47.62 billion by 2030. This rapid
@@ -201,7 +158,7 @@ const DigitalWallet = () => {
       <div className="mt-24 mb-12">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
           A Comprehensive Guide to Custom Cryptocurrency <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          <span className="text-transparent bg-clip-text bg-green-gradient block mt-3">
             Wallet Development: Step-by-Step Workflow
           </span>
         </p>

@@ -42,12 +42,11 @@ const ArbitrageBots = () => {
         </div>
 
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Crypto Arbitrage Bot Development for Maximum Trading Profit
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           As a leading crypto trading bot development company, we create advanced automated arbitrage trading software with state-of-the-art features and superior functionalities. Our bots are designed to significantly boost your trading profit margins by leveraging cutting-edge technology, high performance, and robust security measures.<br/> <br/>
-
           Crypto arbitrage trading bot development is essential for not only automating trades but also executing diverse trading strategies efficiently and effortlessly. Our team of expert developers ensures that each bot is tailored to meet the unique needs of both individual traders and crypto businesses, delivering optimal results.
           </p>
 
@@ -77,8 +76,6 @@ const ArbitrageBots = () => {
           desc="Unlock the potential of professionally developed crypto arbitrage bots to take advantage of market inefficiencies and seamlessly execute trades across multiple crypto exchanges."
         />
       </div>
-
-      {/* Types of cryptocurrency exchange platform */}
 
       {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8 mt-12">
@@ -128,7 +125,7 @@ const ArbitrageBots = () => {
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12">
         <p className="text-white text-center text-xl md:text-4xl xl:text-5xl font-bold pt-4 tracking-wide ">
           Arbitrage Bot <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
+          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center block mt-2">
             Development Services
           </span>
         </p>

@@ -88,10 +88,10 @@ const Stablecoin = () => {
           {/* img */}
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Customized Stablecoin Development Services
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           As a leading stablecoin development company, we offer end-to-end solutions tailored to your unique needs. Whether you're an individual, startup, or enterprise, our expert team ensures high-quality development that meets all your requirements. <br/> <br/>
           We understand the transformative potential of stablecoins in the financial sector. Our services cover the entire development lifecycle—from concept and development to testing, deployment, and continuous support, ensuring a seamless experience.
           </p>

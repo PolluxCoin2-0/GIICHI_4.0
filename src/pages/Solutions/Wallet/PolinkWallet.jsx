@@ -7,6 +7,8 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import BlockchainImg from "../../../assets/blockchainImg.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 
 const benefits = [
   [
@@ -57,55 +59,20 @@ const BenefitCard = ({ image, title, points }) => {
 const TronWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
-      {/* POLINK WALLET */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-          NFT Token {" "}
-          </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-          Development Services
-          </p>
-          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-          Leverage the expertise of Giichi leading NFT developers to seamlessly tokenize your collectibles.
-          </p>
-          {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6 mt-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-
-        <div className="w-[50%]"></div>
-      </div>
+      {/* POLINK WALLET-Banner Image content */}
+     <BannerContent
+        img={BlockchainImg}
+        title1="POLINK WALLET"
+        title2=""
+        desc="As a leading IDO development company, we facilitate seamless fundraising through decentralized exchange platforms."
+      />
 
       {/*  Web3 Wallet Development:  */}
       <div className="mt-0 md:mt-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-          Exclusive Features of TRON Wallet
+          Exclusive Features of POLINK Wallet
         </p>
 
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
@@ -145,8 +112,7 @@ const TronWallet = () => {
         </div>
         <div>
           <p className="text-white text-2xl font-semibold ">
-            Reach Antier and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
+            Reach Giichi and discuss your requirements with our Wallet experts TODAY!
           </p>
           <div className="flex flex-row items-center space-x-6">
             <a

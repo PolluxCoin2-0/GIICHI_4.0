@@ -25,10 +25,10 @@ const ICO = () => {
         </div>
 
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Leading ICO Development for Seamless Fundraising
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
           In the crypto space, Initial Coin Offerings (ICO) serve as the equivalent of Initial Public Offerings (IPO) in traditional markets. Establishing a strong market presence is crucial for both startups and established businesses, requiring substantial capital investment, this is where ICO development services play a vital role. <br/><br/>
           Our team of experts guides you through the entire ICO development journey, from token creation and launch to strategic marketing, ensuring a smooth and successful fundraising process. Step into the world of ICOs with confidence and unlock new growth opportunities.
           </p>

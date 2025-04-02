@@ -40,7 +40,7 @@ const Web3Consulting = () => {
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
           Best Web3 Consultants at Your Service
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-full md:w-[90%] tracking-wider">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-full md:w-[90%] tracking-wider" style={{ lineHeight: "1.7" }}>
           Web3 has generated significant buzz, leaving many wondering what it truly entails. Simply put, Web3 is the modern internet powered by blockchain, offering all the advantages of decentralized technology.  <br/> <br/>
            With its vast opportunities across industries, Web3 presents immense potential. This is where Giichi, a leading Web3 consulting firm, steps in helping businesses efficiently explore and harness these opportunities for their growth and success.
           </p>

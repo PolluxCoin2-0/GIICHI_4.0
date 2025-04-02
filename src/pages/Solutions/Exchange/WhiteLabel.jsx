@@ -1,5 +1,5 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import whiteLabelBannerImg from "../../../assets/whiteLabelBanner.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { WhiteLabelExchangeFramework } from "../../../components/data/frameworkData";
 import { FaExclamationTriangle, FaNetworkWired, FaServer } from "react-icons/fa";
@@ -75,7 +75,7 @@ const WhiteLabel = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
+        img={whiteLabelBannerImg}
         title1="White Label Crypto"
         title2="Exchange Development"
         desc="Offering Secure, Scalable, Compliant, and Future-Proof White Label Exchange Software for Businesses Looking to Launch Their Own Custom Cryptocurrency Exchange with Minimal Development Time, Lower Costs, and Seamless Integration of Advanced Features."
@@ -90,10 +90,10 @@ const WhiteLabel = () => {
         </div>
 
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight" style={{ lineHeight: '1.5' }}>
           Top White Label Crypto Exchange Software for a Quick Launch
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
           Cryptocurrency is rapidly becoming a legitimate, high-potential asset. As adoption increases and the user base expands, having a robust, responsive, and user-friendly trading infrastructure is essential. <br/> <br/>
           At Giichi, we specialize in offering the best white label crypto exchange software development solutions for financial institutions looking for a flexible trading platform with an easy-to-use back office. <br/> <br/>
           We provide you with a solid software foundation for your exchange business, empowering you to make a significant impact on your customers with a fully customizable, feature-rich white label cryptocurrency exchange.
@@ -118,10 +118,10 @@ const WhiteLabel = () => {
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
           Maximize Efficiency and Save Thousands with White Label Crypto Exchange Solutions
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
           Building a secure, multi-currency, high-frequency digital asset trading platform requires significant time, resources, and investment. Giichi is ready-to-deploy white label crypto exchange software offers a straightforward, rapid, cost-effective solution to launch your crypto trading platform without the complexity.<br/> <br/>
           Opting for white label cryptocurrency exchange development can significantly reduce costs. However, the following factors influence the pricing of a white label crypto exchange:
           </p>
@@ -129,23 +129,29 @@ const WhiteLabel = () => {
           <div className="flex flex-row items-center space-x-12 mt-8">
             <div>
               <p className="text-white text-sm ">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               Type of exchange (CEX/DEX/hybrid)
               </p>
               <p className="text-white text-sm mt-4">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               Security level (high/medium)
               </p>
               <p className="text-white text-sm mt-4">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               Additional API Integrations
               </p>
             </div>
             <div>
               <p className="text-white text-sm">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               UI/UX design (basic/advanced)
               </p>
-              <p className="text-white text-sm  mt-4">
+              <p className="text-white text-sm mt-4">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               Extra features or modules
               </p>
-              <p className="text-white text-sm  mt-4">
+              <p className="text-white text-sm mt-4">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
               Blockchain and token integrations
               </p>
             </div>

@@ -11,6 +11,9 @@ import FundImg from "../../../assets/fund.png";
 import SoftwareImg from "../../../assets/Software.png";
 import AIImg from "../../../assets/ai.png";
 import SafetyImg from "../../../assets/Safety.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import customExchangeBannerImg from "../../../assets/customExchangeBanner.png";
+import multicurrencyFeatureImg from "../../../assets/multicurrencyFeature.png";
 
 const benefits = [
   [
@@ -61,21 +64,30 @@ const BenefitCard = ({ image, title, points }) => {
 const MulticurrencyWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
+       {/* Banner Image content */}
+       <BannerContent
+        img={customExchangeBannerImg}
+        title1="Multi-Currency Wallet "
+        title2="Development Services"
+        desc="Partner with a leading multi-currency wallet development company to build and launch secure, scalable wallet solutions."
+      />
+
       {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
+      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative mt-24">
         <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
+        
+        <div className="flex flex-row w-full">
+          <div className="w-[50%]"><img src={multicurrencyFeatureImg} alt="" className="" /></div>
+          <div className="w-[50%]">
+          <p className="text-5xl text-white font-semibold">
           Multi-Currency Wallet <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Services
           </span>
         </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
+            <p className="text-white text-opacity-70 text-justify hyphens-auto mt-6" style={{ lineHeight: "1.7" }}>
               Partner with a leading multi-currency wallet development company
               to build and launch secure, scalable wallet solutions. Our team of
               experts will deploy wallets on your preferred blockchain, ensuring
@@ -124,7 +136,7 @@ const MulticurrencyWallet = () => {
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           Explore Our Multicurrency
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center">
+          <span className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-4xl xl:text-5xl text-center block mt-4">
             Wallet Development Services
           </span>
         </p>
@@ -202,7 +214,7 @@ const MulticurrencyWallet = () => {
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
           Our Unique Offerings in <br />
-          <span className="block pt-2 text-transparent bg-clip-text bg-green-gradient">
+          <span className="block mt-4 text-transparent bg-clip-text bg-green-gradient">
             Multicurrency Wallet
           </span>
         </p>
