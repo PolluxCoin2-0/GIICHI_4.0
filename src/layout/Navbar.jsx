@@ -393,7 +393,7 @@ const Navbar = () => {
              <p
              className={`text-white text-opacity-80 font-medium text-[17px] hover:font-semibold hover:text-white ${
                isSubmenuActive(submenu.label)
-                 ? "text-green-400 font-semibold text-opacity-100"
+                 ? "text-[#8AF969] font-semibold text-opacity-100"
                  : ""
              }`}
            >
