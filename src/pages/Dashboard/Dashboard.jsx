@@ -9,12 +9,12 @@ import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import Review from "./Review";
-import EmailPopup from "../../components/resuableComponent/EmailPopup";
+// import EmailPopup from "../../components/resuableComponent/EmailPopup";
 import calendlyImg from "../../assets/calendar.png";
 
 const Dashboard = () => {
   const [blogData, setBlogData] = useState([]);
-  const [popupOpen, setPopupOpen] = useState(false);
+  // const [popupOpen, setPopupOpen] = useState(false);
 
   // FOR GETTING ALL THE BLOGS DATA HERE IN GIICHI
   const fetchData = async () => {
@@ -31,14 +31,14 @@ const Dashboard = () => {
 
   
    // FOR EMAIL POPUP
-  useEffect(() => {
-    const timer = setTimeout(() => setPopupOpen(true), 2000); // Show after 2s
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setPopupOpen(true), 2000); // Show after 2s
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  const handleEmailSubmit = (email) => {
-    console.log("Email Submitted:", email);
-  };
+  // const handleEmailSubmit = (email) => {
+  //   console.log("Email Submitted:", email);
+  // };
 
   return (
     <div className="pt-6 md:pt-20 ">
@@ -248,13 +248,13 @@ const Dashboard = () => {
         </a>
       </div>
 
-      <div className="p-10 ">
+      {/* <div className="p-10 ">
       <EmailPopup
         isOpen={popupOpen}
         onClose={() => setPopupOpen(false)}
         onSubmit={handleEmailSubmit}
       />
-    </div>
+    </div> */}
 
       {/* Calender Image */}
       <div>
