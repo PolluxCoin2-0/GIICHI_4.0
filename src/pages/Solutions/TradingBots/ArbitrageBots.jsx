@@ -1,11 +1,12 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { ArbitrageBotFramework } from "../../../components/data/frameworkData";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { derivativesLifeCycleData } from "../../../components/data/lifecycleData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { arbitrageBotData } from "../../../components/data/clientData";
+import arbitrageBotBannerImg from "../../../assets/arbitrageBotBanner.png";
+import arbitrageBotFeatureImg from "../../../assets/arbitrageBotFeature.png";
 
 const botTypesLeft = [
   "Triangular Arbitrage Bots",
@@ -24,10 +25,9 @@ const botTypesRight = [
 const ArbitrageBots = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
-      
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
+        img={arbitrageBotBannerImg}
         title1="Crypto Arbitrage"
         title2="Bot Development"
         desc="Effortlessly achieve your trading goals and maximize profits by automating your crypto trading with our cutting-edge crypto trading bot development solutions."
@@ -35,19 +35,40 @@ const ArbitrageBots = () => {
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[50%] relative">
+        <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img
+            src={arbitrageBotFeatureImg}
+            alt="Arbitrage bot Feature Image"
+            className="w-[90%]"
+          />
         </div>
 
-        <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
-          Crypto Arbitrage Bot Development for Maximum Trading Profit
+        <div className="w-full lg:w-[60%] ">
+          <p
+            className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.5" }}
+          >
+            Crypto Arbitrage Bot Development for Maximum Trading Profit
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
-          As a leading crypto trading bot development company, we create advanced automated arbitrage trading software with state-of-the-art features and superior functionalities. Our bots are designed to significantly boost your trading profit margins by leveraging cutting-edge technology, high performance, and robust security measures.<br/> <br/>
-          Crypto arbitrage trading bot development is essential for not only automating trades but also executing diverse trading strategies efficiently and effortlessly. Our team of expert developers ensures that each bot is tailored to meet the unique needs of both individual traders and crypto businesses, delivering optimal results.
+          <p
+            className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"
+            style={{ lineHeight: "1.7" }}
+          >
+            As a leading crypto trading bot development company, we create
+            advanced automated arbitrage trading software with state-of-the-art
+            features and superior functionalities. Our bots are designed to
+            significantly boost your trading profit margins by leveraging
+            cutting-edge technology, high performance, and robust security
+            measures.
+            <br /> <br />
+            Crypto arbitrage trading bot development is essential for not only
+            automating trades but also executing diverse trading strategies
+            efficiently and effortlessly. Our team of expert developers ensures
+            that each bot is tailored to meet the unique needs of both
+            individual traders and crypto businesses, delivering optimal
+            results.
           </p>
 
           {/* button to connect on whatsapp */}
@@ -79,21 +100,24 @@ const ArbitrageBots = () => {
 
       {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8 mt-12">
-        <h2 className="text-2xl font-bold text-white">
+        <h2 className="text-xl md:text-2xl font-bold text-white">
           Types of Crypto Arbitrage Bots We Develop:
         </h2>
-        <p className="text-white text-opacity-70 mt-2 max-w-2xl">
+        <p className="text-white text-opacity-70 mt-2 max-w-2xl text-sm md:text-[16px]">
           Our team of arbitrage bot developers is capable of building
           high-frequency trading bots for a wide range of trading strategies.
         </p>
-        <div className="flex flex-col md:flex-row items-center space-x-24 mt-6 w-full max-w-7xl">
-          <div className="w-1/3 flex justify-center">
+        <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-24 mt-6 w-full max-w-7xl">
+          <div className="w-full md:w-1/3 flex justify-center">
             {/* <img src={bgimg} alt="" className="w-full" /> */}
           </div>
-          <div className="w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left mt-6">
+          <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left mt-6">
             <ul className="list-disc space-y-6">
               {botTypesLeft.map((bot, index) => (
-                <li key={index} className="text-white flex items-center">
+                <li
+                  key={index}
+                  className="text-white flex items-center text-sm md:text-[16px]"
+                >
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
                 </li>
@@ -101,7 +125,10 @@ const ArbitrageBots = () => {
             </ul>
             <ul className="list-none space-y-6">
               {botTypesRight.map((bot, index) => (
-                <li key={index} className="text-white flex items-center">
+                <li
+                  key={index}
+                  className="text-white flex items-center text-sm md:text-[16px]"
+                >
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
                 </li>
