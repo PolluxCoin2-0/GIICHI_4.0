@@ -6,11 +6,12 @@ import { Web3WalletFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
-import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import stockChartImg from "../../../assets/stock-chart.png";
 import FundImg from "../../../assets/fund.png";
 import depinScImg from "../../../assets/depinSc.png";
 import web3FeatureImg from "../../../assets/webFeature.png";
+import webFeature2Img from "../../../assets/webWalletFeature2.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const benefits = [
   [
@@ -66,17 +67,17 @@ const Web3Wallet = () => {
         <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
+        <p className="text-3xl md:text-4xl lg:text-6xl text-white font-bold text-center">
           Web3 Wallet
           <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
+          <span className="text-transparent bg-clip-text bg-green-gradient block mt-0 md:mt-2">
             Development Services
           </span>
         </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]"></div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto" >
+        <div className="flex flex-col md:flex-row items-center w-full mt-12">
+          <div className="w-full md:w-[50%]"><img src={webFeature2Img} alt="" className=""/></div>
+          <div className="w-full md:w-[50%] mt-6 md:mt-0">
+            <p className="text-white text-opacity-70 text-justify hyphens-auto text-sm lg:text-[16px]" style={{ lineHeight: "1.7" }} >
               Web3 wallets are decentralized digital wallets that provide users
               with full control over their assets in the Web3 ecosystem. Unlike
               traditional Web2 wallets, Web3 wallets are designed to interact
@@ -93,13 +94,13 @@ const Web3Wallet = () => {
             </p>
 
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6 mt-6">
+            <div className="flex flex-col lg:flex-row items-start lg:items-center space-x-0 lg:space-x-6 mt-6">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
                 aria-label="Contact us "
                 title="Click to contact us form"
               >
@@ -108,7 +109,7 @@ const Web3Wallet = () => {
               <Link to="/contact-us">
                 <button
                   type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
                   aria-label="Contact us "
                   title="Click to contact us form"
                 >
@@ -121,11 +122,11 @@ const Web3Wallet = () => {
       </div>
 
       {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+      <div className="flex flex-col lg:flex-row justify-between items-start space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-2xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
             What Sets Web3 Wallet Apart?
           </p>
           <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
@@ -149,13 +150,13 @@ const Web3Wallet = () => {
             digital assets.
           </p>
         </div>
-        <div className="w-full lg:w-[50%]">
-          <img src={web3FeatureImg} alt="" className="object-contain" />
+        <div className="w-full lg:w-[50%] flex justify-center lg:justify-end mt-6 lg:mt-0">
+          <img src={web3FeatureImg} alt="" className="object-contain w-[90%]" />
         </div>
       </div>
 
       {/*  Web3 Wallet Development:  */}
-      <div className="mt-0 md:mt-12 relative">
+      <div className="mt-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
@@ -198,30 +199,9 @@ const Web3Wallet = () => {
       </div>
 
       {/* web3 crypto  wallet offerings */}
-      <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />
-        </div>
-        <div>
-          <p className="text-white text-2xl font-semibold w-[80%]">
-            Offer an Exhilarating User Experience with Our Web3 Crypto Wallet
-            Solutions
-          </p>
-          <Link to="/contact-us">
-            <button
-              type="button"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a Free Demo
-            </button>
-          </Link>
-        </div>
-      </div>
-
-      {/* Features offered by Supply Chain Management */}
+       <Offerings data="   Offer an Exhilarating User Experience with Our Web3 Crypto Wallet Solutions"/>
+  
+   {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
           Our Unique Offerings in <br />

@@ -26,7 +26,7 @@ const Framework = ({ data, heading1, heading2, desc }) => {
         <p className="text-white text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
           {heading1}
           <br />{" "}
-          <span className="text-transparent bg-clip-text bg-green-gradient block mt-4">
+          <span className="text-transparent bg-clip-text bg-green-gradient block mt-0 md:mt-4">
             {heading2}
           </span>
         </p>
