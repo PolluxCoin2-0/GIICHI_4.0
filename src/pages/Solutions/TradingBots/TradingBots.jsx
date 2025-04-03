@@ -3,13 +3,13 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import Services from "../../../components/CommonComponent/Services";
 import { TradingBotsService } from "../../../components/data/ServicesData";
-import { Link } from "react-router-dom";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import SkillsImg from "../../../assets/Skills.png";
 import SoftwareImg from "../../../assets/Software.png";
 import stockChartImg from "../../../assets/stock-chart.png";
 import ManagementImg from "../../../assets/management.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const botTypesLeft = [
   "Margin Trading Bots",
@@ -56,43 +56,10 @@ const TradingBots = () => {
         desc="Enhance your trading experience with a seamless, AI-powered crypto trading bot equipped with the following cutting-edge features:"
       />
 
-      {/* web3 crypto  wallet offerings */}
-      <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />
-        </div>
-        <div>
-          <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Trading Bots experts TODAY!
-          </p>
-          <div className="flex flex-row items-center space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Types of crypto trading bots */}
+      {/* Trading Bots  wallet offerings */}
+      <Offerings data="  Reach Giichi and discuss your requirements with our Trading Bots experts TODAY!"/>
+  
+    {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8">
         <h2 className="text-2xl font-bold text-white">
         Types of Crypto Trading Bot Solutions We Develop

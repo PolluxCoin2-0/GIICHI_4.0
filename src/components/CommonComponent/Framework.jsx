@@ -23,7 +23,7 @@ const Framework = ({ data, heading1, heading2, desc }) => {
       <div className="hidden md:block spotlight spotlight-left"></div>
       <div className="hidden md:block spotlight2 spotlight-right"></div>
       <div className="flex flex-col justify-center items-center">
-        <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
+        <p className="text-white text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
           {heading1}
           <br />{" "}
           <span className="text-transparent bg-clip-text bg-green-gradient block mt-4">

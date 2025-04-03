@@ -4,10 +4,9 @@ import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import Framework from "../../../components/CommonComponent/Framework";
 import { DefiConsultingFramework } from "../../../components/data/frameworkData";
-import bgimg from "../../../assets/bitcoin-key-wallet.svg";
-import { Link } from "react-router-dom";
 import defiConsultingFeature1Img from "../../../assets/defiConsultingFeature1.png";
 import defiConsultingFeature2Img from "../../../assets/defiConsultingFeature2.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const DefiConsulting = () => {
   return (
@@ -33,10 +32,16 @@ const DefiConsulting = () => {
         </div>
 
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
+          <p
+            className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.5" }}
+          >
             DeFi Consulting: <br /> Unlock DeFi’s Potential for Your Business
           </p>
-          <p className="pt-8 md:pt-4 xl:pt-8 text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider" style={{ lineHeight: "1.7" }}>
+          <p
+            className="pt-8 md:pt-4 xl:pt-8 text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider"
+            style={{ lineHeight: "1.7" }}
+          >
             The DeFi market is expected to reach $232 billion by 2030. If you’re
             looking to capitalize on this growth but don’t know where to start,
             we’ve got you covered. Our experts provide comprehensive DeFi
@@ -64,10 +69,16 @@ const DefiConsulting = () => {
       {/* Defi Consulting insights */}
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
+          <p
+            className="text-white text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.5" }}
+          >
             Unbiased & Expert Insights on the DeFi Market
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-8 md:pt-3 xl:pt-8 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider" style={{ lineHeight: "1.7" }}>
+          <p
+            className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-8 md:pt-3 xl:pt-8 leading-6 text-justify hyphens-auto w-full lg:w-[90%] tracking-wider"
+            style={{ lineHeight: "1.7" }}
+          >
             If you’re uncertain about entering the DeFi space, rely on us for
             independent, expert advice. With real-world experience, we help
             businesses analyze the DeFi market to make informed decisions. Our
@@ -110,44 +121,8 @@ const DefiConsulting = () => {
       />
 
       {/* TOKEN DEVELOPMENT offerings */}
-      <div className="bg-[#283430] bg-opacity-20 flex flex-col md:flex-row items-center space-x-0 md:space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />{" "}
-        </div>
-        <div>
-          <p className="text-white text-lg lg:text-2xl font-semibold mt-6 md:mt-0">
-            Reach Giichi and discuss your requirements with our DeFi Consultant
-            experts TODAY!
-          </p>
-          <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-5 md:px-6 lg:px-8 py-3 text-white 
-              text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
-                text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
+      <Offerings data="    Reach Giichi and discuss your requirements with our DeFi Consultant experts TODAY!"/>
+ 
       {/* why choose giichi for blockchain consulting */}
       <div className="px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pb-20 mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">

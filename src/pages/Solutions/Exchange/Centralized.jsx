@@ -17,7 +17,7 @@ const Centralized = () => {
       <BannerContent
         img={centralizedExchangeBannerImg}
         title1="Centralized Exchange"
-        title2=" Development Services"
+        title2="Development Services"
         desc="Leverage the advantages of high-quality, institutional-grade centralized exchange development to create a fully functional and feature-packed platform."
       />
 

@@ -1,14 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { MulticurrencyWalletFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
-import bgimg from "../../../assets/bitcoin-key-wallet.svg";
 import BlockchainImg from "../../../assets/blockchainImg.png";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const benefits = [
   [
@@ -105,42 +104,9 @@ const TronWallet = () => {
       </div>
 
       {/* web3 crypto  wallet offerings */}
-      <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />
-        </div>
-        <div>
-          <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Wallet experts TODAY!
-          </p>
-          <div className="flex flex-row items-center space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Features offered by Supply Chain Management */}
+      <Offerings data="   Reach Giichi and discuss your requirements with our Wallet experts TODAY!"/>
+  
+   {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
           Our Unique Offerings in <br />

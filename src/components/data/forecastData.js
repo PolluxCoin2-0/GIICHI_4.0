@@ -8,6 +8,10 @@ import TransportFeature1Img from "../../assets/TransportFeature.png";
 import TransportFeature2Img from "../../assets/TransportFeature2.png";
 import defiConsultingFeature1Img from "../../assets/defiConsultingFeature1.png";
 import defiConsultingFeature2Img from "../../assets/defiConsultingFeature2.png";
+import defiDevFeature1Img from "../../assets/defiDevFeature1.png";
+import defiDevFeature2Img from '../../assets/defiDevFeature2.png';
+import daoBlockchainFeature1Img from "../../assets/daoBlockchainFeature1.png";
+import daoBlockchainFeature2Img from "../../assets/daoBlockchainFeature2.png";
 
 export const BlockchainDevelopmentForecast = {
   img1: bkDev1Img,
@@ -68,8 +72,8 @@ export const DefiConsultingForecast = {
 };
 
 export const DefiDevForecast = {
-  img1:TransportFeature1Img,
-   img2:TransportFeature2Img,
+  img1:daoBlockchainFeature1Img,
+   img2:daoBlockchainFeature2Img,
    title1:"The Shift from Traditional Finance to Decentralized Solutions",
    title2:"Global Market Size of Decentralized Finance (DeFi) Development",
    desc1:"Are you struggling with challenges like delayed settlements, inefficient price discovery, liquidity constraints, poor decision-making, and uncertainty around underlying assets due to traditional financial systems? Decentralized Finance (DeFi) development offers a transformative solution to these issues. Whether you're a fast-growing startup or a Fortune 500 enterprise, the future of finance is decentralized.",
@@ -78,8 +82,8 @@ export const DefiDevForecast = {
 };
 
 export const DaoBlockchainForecast = {
-  img1:TransportFeature1Img,
-   img2:TransportFeature2Img,
+  img1:  defiDevFeature1Img,
+   img2:  defiDevFeature2Img,
    title1:"Professional DAO Development Company",
    title2:"An Overview of DAO Development",
    desc1:"Blockchain technology offers a secure, unified system with a range of powerful features. DAO blockchain development provides a cost-effective solution to the challenges of traditional centralized businesses. Discover how Giichi can help protect and enhance your business by leveraging DAO blockchain development.",
