@@ -27,7 +27,6 @@ const BannerContent = ({img, title1, title2, desc}) => {
           <div className="mt-6">
           <CalendlyButton />
           </div>
-          {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
        
          {/* For Mobile */}
