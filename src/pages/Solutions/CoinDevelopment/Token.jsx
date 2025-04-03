@@ -1,62 +1,29 @@
-import { Link } from "react-router-dom";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
 import Framework from "../../../components/CommonComponent/Framework";
 import { TokenCoinFramework } from "../../../components/data/frameworkData";
 import { tokenDevelopmentData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import Offerings from "../../../components/CommonComponent/Offerings";
+import tokenCoinDevelopmentBannerImg from "../../../assets/tokenCoinDevBanner.png";
+import tokenCoinDevelopmentFeatureImg from "../../../assets/tokenCoinFeature.png";
 
 const Token = () => {
   return (
-    <div className="pt-6 md:pt-0 mb-20">
+    <div  className="pt-6 md:pt-12 mb-20">
       {/* Crypto Token Development */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-4 tracking-wide">
-          Leading Crypto Token {" "}
-          </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[50px] font-semibold pt-6 tracking-wide">
-            Development Company
-          </p>
-          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-4 leading-7">
-          Transform your digital strategy with our premium crypto token development services. As a CMMI Level 5-certified firm, we provide cutting-edge solutions that adhere to the highest industry standards.
-          </p>
-          {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-
-        <div className="w-[50%]"></div>
-      </div>
-
+      <BannerContent
+        img={tokenCoinDevelopmentBannerImg}
+        title1="Leading Crypto Token"
+        title2="Development Company"
+        desc="Transform your digital strategy with our premium crypto token development services. As a CMMI Level 5-certified firm, we provide cutting-edge solutions that adhere to the highest industry standards."
+      />
+   
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12">
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+         <img src={tokenCoinDevelopmentFeatureImg} alt="" className=""/>
         </div>
         <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
@@ -66,14 +33,14 @@ const Token = () => {
           Explore our comprehensive crypto token development services, designed to deliver advanced and feature-rich tokens tailored to your needs. Our expertise ensures seamless functionality, including:
           </p>
 
-          <div className="flex flex-row items-center space-x-12 mt-8">
+          <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-12 mt-8">
             <div>
               <p className="text-white text-sm "><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Multi-Chain Minting</p>
               <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Effortless Token Listing</p>
               <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span> Universal Wallet Compatibility</p>
               <p className="text-white text-sm  mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Secure Token Minting</p>
             </div>
-            <div>
+            <div className="mt-4 md:mt-0">
               <p className="text-white text-sm "><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Strategic Token Pausing</p>
               <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Efficient Token Burning </p>
               <p className="text-white text-sm mt-4"><span className="w-2 h-2 bg-green mr-4 inline-block"></span>Multiple Currency Support</p>
