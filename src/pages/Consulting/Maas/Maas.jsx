@@ -9,16 +9,19 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { MaasFaq } from "../../../components/data/faqsData";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import MaasBannerImg from "../../../assets/maasBannerImg.png";
+import teamImg from "../../../assets/management.png";
+import solutionImg from "../../../assets/process.png";
+import exchangeImg from "../../../assets/Exchange.png";
 
 const services = [
   {
-    icon: serviceIcon,
+    icon: teamImg,
     title: "Experienced Team",
     description:
       "Our skilled and experienced experts craft customized NFT marketing strategies, helping businesses achieve success efficiently and within a short timeframe.",
   },
   {
-    icon: serviceIcon,
+    icon: solutionImg,
     title: "Customized Solutions",
     description:
       "We recognize that each business has unique needs, so our expert team designs tailored strategies to deliver optimal results.",
@@ -30,7 +33,7 @@ const services = [
       "Our ICO marketing services are designed to scale effortlessly, ensuring seamless adaptation to the evolving needs of blockchain businesses.",
   },
   {
-    icon: serviceIcon,
+    icon: exchangeImg,
     title: "Growth-Oriented Strategies",
     description:
       "Our expert blockchain marketers craft strategies focused on driving business growth and elevating success to the next level.",

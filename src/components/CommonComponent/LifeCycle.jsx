@@ -27,7 +27,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
             } mt-12`}
           >
             <div className="-mt-4 md:mt-0">
-              <p className="text-white text-[15px] md:text-xl 2xl:text-2xl ml-[80px]">
+              <p className="text-white text-[15px] md:text-xl 2xl:text-2xl ml-[80px] ">
                 {step.title}
               </p>
               <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] ml-[80px] text-opacity-70 pt-0 lg:pt-2 w-[70%] md:w-[40%] ">
