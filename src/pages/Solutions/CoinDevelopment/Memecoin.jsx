@@ -6,6 +6,7 @@ import { MemecoinFaq } from "../../../components/data/faqsData";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import memeCoinBannerImg from "../../../assets/memeCoinBanner.png";
+import memeCoinFeatureImg from "../../../assets/memeCoinFeature.png";
 
 const Memecoin = () => {
   return (
@@ -23,7 +24,7 @@ const Memecoin = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={memeCoinFeatureImg} alt="Meme Coin Feature Image" className=""/>
         </div>
         <div className="w-full lg:w-[60%] ">
           <p

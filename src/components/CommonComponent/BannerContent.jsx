@@ -21,7 +21,7 @@ const BannerContent = ({ img, title1, title2, desc }) => {
           </span>
         </p>
         <p
-          className="md:pt-2 lg:pt-6 md:text-xs lg:text-sm lg:text-[16px] font-semibold leading-snug md:w-[50%] xl:w-[30%]"
+          className="md:pt-2 lg:pt-6 md:text-xs lg:text-sm 3xl:text-[17px] font-semibold leading-snug md:w-[50%] xl:w-[30%]"
           style={{ lineHeight: "1.7" }}
         >
           {desc}

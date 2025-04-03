@@ -243,31 +243,11 @@ const MobileNavbar = () => {
                 </li>
                 {isConsult1Open && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs ">
-                      {" "}
-                      Blockchain Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Web3 Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Metaverse Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      DeFi Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      DAO Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      AI Consulting Company
-                    </p>
-                  </div>
+                    <Link to="/blockchain-consulting-company"><p className="text-white text-xs ">Blockchain Consulting Company </p></Link> 
+                    <Link to="/web3-consulting-company"><p className="text-white text-xs pt-2">Web3 Consulting Company</p></Link>
+                    <Link to="/metaverse-consulting-company"><p className="text-white text-xs pt-2">Metaverse Consulting Company</p></Link>
+                    <Link to="/defi-consulting-company"><p className="text-white text-xs pt-2">DeFi Consulting Company</p></Link>
+                   </div>
                 )}
                 <li
                   className="text-whitev text-sm pt-2"
@@ -277,10 +257,7 @@ const MobileNavbar = () => {
                 </li>
                 {isMarketOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs ">
-                      {" "}
-                      Marketing As A Service (MaaS)
-                    </p>
+                    <Link to="/marketing-as-a-service"><p className="text-white text-xs ">Marketing As A Service (MaaS) </p></Link>
                   </div>
                 )}
               </ul>

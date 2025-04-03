@@ -110,7 +110,6 @@ function App() {
         <Route path="/whitepaper-development" element={<WhitepaperDev />} />
         <Route path="/ai-ml-solution" element={<AiSolutions />} />
         <Route path="/generative-ai" element={<GenerativeAi />} />
-        <Route path="/marketing-as-a-service" element={<Maas />} />
         <Route
           path="/blockchain-consulting-company"
           element={<BlockchainConsulting />}
@@ -121,7 +120,7 @@ function App() {
           element={<MetaverseConsulting />}
         />
         <Route path="/defi-consulting-company" element={<DefiConsulting />} />
-        <Route path="/defi-consulting-com" element={<DefiConsulting />} />
+        <Route path="/marketing-as-a-service" element={<Maas />} />
         <Route path="/custom-exchange" element={<Custom />} />
         <Route path="/white-label-exchange" element={<WhiteLabel />} />
         <Route path="/margin-trading-exchange" element={<MarginTrading />} />

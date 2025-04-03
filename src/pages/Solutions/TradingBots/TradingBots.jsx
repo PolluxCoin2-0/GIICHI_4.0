@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
 import Services from "../../../components/CommonComponent/Services";
 import { TradingBotsService } from "../../../components/data/ServicesData";
 import bgimg from "../../../assets/bitcoin-key-wallet.svg";
@@ -11,6 +10,8 @@ import stockChartImg from "../../../assets/stock-chart.png";
 import ManagementImg from "../../../assets/management.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import { tradingBotsteps } from "../../../components/data/productDevPhases";
+import tradingBotsBannerImg from "../../../assets/tradingBotsBanner.png";
+
 const botTypesLeft = [
   "Margin Trading Bots",
   "Leverage Trading Bots",
@@ -34,7 +35,7 @@ const TradingBots = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
+        img={tradingBotsBannerImg }
         title1="Crypto Trading Bot "
         title2="Development Company"
         desc="Effortlessly reach your trading goals and maximize ROI with our advanced crypto trading bot development solutions, designed to automate and optimize your trading experience."
@@ -53,20 +54,20 @@ const TradingBots = () => {
   
     {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8">
-        <h2 className="text-2xl font-bold text-white">
+        <h2 className="text-xl md:text-2xl font-bold text-white">
         Types of Crypto Trading Bot Solutions We Develop
         </h2>
-        <p className="text-white text-opacity-70 mt-2 max-w-2xl">
+        <p className="text-white text-opacity-70 mt-2 max-w-2xl text-sm lg:text-[16px]">
         Our team of expert crypto bot developers specializes in building high-frequency trading bots tailored to various trading strategies.
         </p>
-        <div className="flex flex-col md:flex-row items-center space-x-24 mt-6 w-full max-w-7xl">
-          <div className="w-1/3 flex justify-center">
+        <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-24 mt-6 w-full max-w-7xl">
+          <div className="w-full md:w-1/3 flex justify-center">
             <img src={bgimg} alt="" className="w-full" />
           </div>
-          <div className="w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left mt-6">
+          <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left mt-6">
             <ul className="list-disc space-y-6">
               {botTypesLeft.map((bot, index) => (
-                <li key={index} className="text-white flex items-center">
+                <li key={index} className="text-white flex items-center text-xs md:text-sm lg:text-[16px]">
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
                 </li>
@@ -74,7 +75,7 @@ const TradingBots = () => {
             </ul>
             <ul className="list-none space-y-6">
               {botTypesRight.map((bot, index) => (
-                <li key={index} className="text-white flex items-center">
+                <li key={index} className="text-white flex items-center text-xs md:text-sm lg:text-[16px]">
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
                 </li>
@@ -93,7 +94,7 @@ const TradingBots = () => {
           </span>
         </p>
         <div className="flex flex-col justify-center items-center">
-          <p className="block text-sm md:text-[17px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[50%] leading-7 text-center">
+          <p className="block text-sm md:text-[16px] lg:text-[15px] 2xl:text-[17px] text-white text-opacity-70 pt-4 px-4 w-full md:w-[80%] lg:w-[50%] leading-7 text-center">
           Whether you're an entrepreneur looking to integrate a trading bot into an existing platform or building an AI-powered trading platform for personal use, we have the expertise to bring your vision to life.
           </p>
         </div>
