@@ -7,7 +7,7 @@ const BannerContent = ({img, title1, title2, desc}) => {
         <img
           src={img}
           alt="main-background-image"
-          className="md:w-full md:h-[400px] object-cover rounded-xl md:rounded-3xl"
+          className="md:w-full object-cover rounded-xl md:rounded-3xl"
         />
         {/* The text */}
         <div className="hidden md:flex flex-col items-start justify-center absolute top-0 md:left-16 lg:left-24 xl:left-44 3xl:left-80 w-full h-full">
@@ -20,11 +20,13 @@ const BannerContent = ({img, title1, title2, desc}) => {
               {title2}{" "}
             </span>
           </p>
-          <p className="pt-6 text-sm lg:text-[16px] font-semibold leading-snug md:w-[50%] xl:w-[30%]">
+          <p className="pt-6 text-sm lg:text-[16px] font-semibold leading-snug md:w-[50%] xl:w-[30%]" style={{ lineHeight: "1.7" }}>
             {desc}
           </p>
           {/* Button */}
+          <div className="mt-6">
           <CalendlyButton />
+          </div>
           {/* transform translate-y-full text-white p-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 */}
         </div>
        
