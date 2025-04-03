@@ -13,6 +13,7 @@ import buyButtonImg from "../../../assets/buy-button.png";
 import { IoMdSpeedometer } from "react-icons/io";
 import { HiWallet } from "react-icons/hi2";
 import { MdAdminPanelSettings } from "react-icons/md";
+import marginTradingFeature2Img from "../../../assets/marginTradingFeature2.png";
 
 const platforms = [
   {
@@ -72,13 +73,13 @@ const MarginTrading = () => {
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[50%] relative">
+        <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={marginTradingFeature2Img} alt="" className=""/>
         </div>
 
-        <div className="w-full lg:w-[50%] ">
+        <div className="w-full lg:w-[60%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.3' }}>
             Boost Your Revenue by Launching a Margin Trading Crypto Exchange
           </p>

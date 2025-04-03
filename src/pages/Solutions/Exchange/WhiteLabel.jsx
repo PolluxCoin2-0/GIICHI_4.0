@@ -10,6 +10,8 @@ import { BiSolidLogInCircle } from "react-icons/bi";
 import { TbAuth2Fa } from "react-icons/tb";
 import { MdOutlineHttp } from "react-icons/md";
 import { AiOutlineFileProtect } from "react-icons/ai";
+import whiteLabelFeature1Img from "../../../assets/wlExchangeFeature1.png";
+import whiteLabelFeature2Img from "../../../assets/semiFungibleTokenFeature2.png";
 
 const platforms = [
  {
@@ -86,9 +88,9 @@ const WhiteLabel = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={whiteLabelFeature2Img} alt="" className=""/>
         </div>
-
+ 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight" style={{ lineHeight: '1.5' }}>
           Top White Label Crypto Exchange Software for a Quick Launch
@@ -175,7 +177,7 @@ const WhiteLabel = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={whiteLabelFeature1Img} alt="" className=""/>
         </div>
       </div>
 
