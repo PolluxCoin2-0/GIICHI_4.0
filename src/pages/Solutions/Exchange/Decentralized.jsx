@@ -1,44 +1,55 @@
-import { FaExchangeAlt } from "react-icons/fa";
+import { FaExchangeAlt, FaFileContract } from "react-icons/fa";
+import Faq from "../../../components/resuableComponent/Faq";
+import { DecentralizedExchangeFaq } from "../../../components/data/faqsData";
+import { RiGovernmentFill, RiP2pFill } from "react-icons/ri";
+import { MdOutlineSecurity, MdPrivacyTip } from "react-icons/md";
+import { IoMdSpeedometer } from "react-icons/io";
+import { BsGlobeCentralSouthAsia } from "react-icons/bs";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import decentralizedExchangeBannerImg from "../../../assets/decenExchangeBanner.png";
+import decentralizedExchangeFeatureImg from "../../../assets/decenExchangeFeature.png";
 
 const platforms = [
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "Peer-to-Peer Trading",
+    icon: <RiP2pFill color="#8AF969"/>,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "Liquidity Pools",
+    icon: <FaExchangeAlt color="#8AF969"/>,
+    color: "bg-black",
+  },
+  
+  {
+    name: "Enhanced Security",
+    icon: <MdOutlineSecurity color="#8AF969"/>,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "Fast Transactions",
+    icon: <IoMdSpeedometer color="#8AF969"/>,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "User Privacy & Anonymity",
+    icon: <MdPrivacyTip color="#8AF969"/>,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "No Centralized Authority",
+    icon: <BsGlobeCentralSouthAsia color="#8AF969"/>,
     color: "bg-black",
   },
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "Smart Contract Integration",
+    icon: <FaFileContract color="#8AF969"/>,
     color: "bg-black",
   },
+ 
   {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
-    color: "bg-black",
-  },
-  {
-    name: "Real-time Alerts and Notifications",
-    icon: <FaExchangeAlt />,
+    name: "Decentralized Governance",
+    icon: <RiGovernmentFill color="#8AF969"/>,
     color: "bg-black",
   },
 ];
@@ -60,95 +71,56 @@ const features = [
 const Decentralized = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
-      {/* DECENTRALIZED EXCHANGED DDEVELOPMENT COMPANY */}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-        <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-[50px] font-semibold pt-4 tracking-tight leading-[1.2] md:leading-[1.4] xl:leading-[1.6] 2xl:leading-[1.2]">
-            Decentralized Exchange <br /> Development Company
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto w-[80%]">
-            Delivering Game-Changing DLT Ecosystems To Transform Your DEX
-            Development Dream Into Reality
-          </p>
 
-          <div className="mt-8">
-            <div>
-              <p className="text-white text-[17px]">
-                7+ Years of Expertise in the Blockchain Domain
-              </p>
-              <p className="text-white text-[17px] mt-4">
-                Rigorous Testing and Responsible Handling of Errors
-              </p>
-              <p className="text-white text-[17px] mt-4">
-                Technology-Agnostic, First-Time Right Deliverables
-              </p>
-              <p className="text-white text-[17px]  mt-4">
-                Complete Transparency During Development
-              </p>
-            </div>
-          </div>
-          {/* button to connect on whatsapp */}
-          <div className="mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Talk to our Experts
-            </a>
-          </div>
-        </div>
-
-        <div className="w-full lg:w-[40%] relative">
-          <div className="hidden md:block spotlight spotlight-left"></div>
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
-        </div>
-      </div>
-
-      {/* DECENTRALIZED EXCHANGED DDEVELOPMENT SOFTWARE*/}
+       {/* DECENTRALIZED EXCHANGED DDEVELOPMENT COMPANY */}
+      <BannerContent
+        img={decentralizedExchangeBannerImg}
+        title1="Decentralized Exchange "
+        title2="Development Company "
+        desc="  Bringing Innovative DLT Ecosystems to Life, Turning Your DEX Development Vision Into Reality"
+      />
+  
+     {/* DECENTRALIZED EXCHANGED DDEVELOPMENT SOFTWARE*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={decentralizedExchangeFeatureImg} alt="Decentralized Exchange Software development Image" className=""/>
         </div>
 
         <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Decentralized Exchange Software Development
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: '1.5' }}>
+          Decentralized Exchange (DEX) Software Development
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-4 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+           In recent years, decentralized exchange software solutions have evolved significantly, positioning them as strong competitors to traditional centralized exchanges (CEXs). The next generation of DEXs in the Web3 era offers numerous advantages for businesses and individuals, including enhanced data security, reduced risks, improved efficiency, better liquidity, and a superior user experience. <br/> <br/>
+           At Giichi, our expertise in developing state-of-the-art solutions ensures that your decentralized cryptocurrency exchange app development is in line with the Web3 vision, ready to thrive in the ever-evolving crypto landscape.
+           Start your journey towards building a future-proof decentralized crypto exchange with Giichi. 
           </p>
-          {/* button to connect on whatsapp */}
-          <div className="mt-8">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a free demo
-            </a>
-          </div>
+           <div className="mt-6">
+            <div>
+              <p className="text-white text-[15px]">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
+              No Third-Party Interference
+              </p>
+              <p className="text-white text-[15px] mt-2">
+              <span className="w-2 h-2 bg-green mr-4 inline-block text-sm"></span>
+              Complete User Privacy and Anonymity
+              </p>
+              <p className="text-white text-[15px] mt-2">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
+              Effortless Wallet Integration
+              </p>
+              <p className="text-white text-[15px] mt-2">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
+              Fast and Seamless Transactions
+              </p>
+              <p className="text-white text-[15px] mt-2">
+              <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
+              Superior Security and Scalability
+              </p>
+            </div>
+            </div>
         </div>
       </div>
 
@@ -168,7 +140,7 @@ const Decentralized = () => {
               >
                 <div className="flex flex-col items-center text-center gap-4">
                   <div className="text-4xl">{platform.icon}</div>
-                  <h2 className="text-lg font-medium">{platform.name}</h2>
+                  <h2 className="text-lg font-medium w-[70%]">{platform.name}</h2>
                 </div>
               </div>
             </div>
@@ -199,6 +171,11 @@ const Decentralized = () => {
             </div>
           ))}
         </div>
+      </div>
+
+       {/* FAQ */}
+       <div className="mt-24">
+        <Faq data={DecentralizedExchangeFaq} />
       </div>
     </div>
   );

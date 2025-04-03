@@ -1,54 +1,77 @@
-import { Link } from "react-router-dom";
+/* eslint-disable react/no-unescaped-entities */
 import Framework from "../../../components/CommonComponent/Framework";
 import { NftDevelopmentFramework } from "../../../components/data/frameworkData";
+import Faq from "../../../components/resuableComponent/Faq";
+import { NftDevFaq } from "../../../components/data/faqsData";
+import nftDevFeatureImg from "../../../assets/nftDevFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/BUttonFreeDemo";
+import nftDevFeature2Img from "../../../assets/nftTokenFeature2.png";
+
+const stages = [
+  {
+    number: "01",
+    title: "Initial Consultation",
+    desc: "Our experts take the time to understand your NFT development needs, future goals, and expectations. Through in-depth brainstorming sessions, we craft the best solutions tailored to your vision.",
+  },
+  {
+    number: "02",
+    title: "Blueprint & Strategy",
+    desc: "Once your requirements are clear, our NFT developers and domain specialists formulate a strategic plan to provide you with the most efficient and effective solution in the shortest possible time.",
+  },
+  {
+    number: "03",
+    title: "Development",
+    desc: "With a team of over 100 subject matter experts, Giichi delivers top-tier NFT development services. Our developers work meticulously to ensure that your specific requirements are met with precision.",
+  },
+  {
+    number: "04",
+    title: "Quality Assurance",
+    desc: "At Giichi, quality is paramount. Our dedicated QA and testing teams rigorously assess the NFT software to identify and resolve any issues, ensuring a flawless final product.",
+  },
+  {
+    number: "04",
+    title: "Launch & Maintenance",
+    desc: "Upon your approval, our team deploys your NFT solution to the market. Additionally, we provide ongoing maintenance and support, so you can focus on growth while we handle the technical aspects.",
+  },
+];
 
 const NftDev = () => {
   return (
     <div>
       {/* NFT Development */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-12 md:py-20 lg:py-20 3xl:py-48">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-            Crypto Friendly{" "}
+            NFT Token{" "}
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            Digital Banking Solution
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-0 md:pt-6 tracking-wide">
+            Development Services
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+            Leverage the expertise of Giichi leading NFT developers to
+            seamlessly tokenize your collectibles.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6 mt-6">
+          <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6 mt-0 md:mt-6">
             <a
               type="button"
               href="https://wa.me/9266416198"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
+              text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
               aria-label="Contact us "
               title="Click to contact us form"
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+          <ButtonFreeDemo/>
           </div>
         </div>
 
-        <div className="w-[50%]"></div>
+        <div className="w-full md:w-[50%] flex justify-center md:justify-end mt-6 md:mt-0"> <img src={nftDevFeature2Img} alt="" className="w-[90%]"/></div>
       </div>
 
       {/*Choosing a Dedicated NFT Development Company*/}
@@ -56,48 +79,91 @@ const NftDev = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={nftDevFeatureImg} alt="NFT development" className="w-[90%]"/>
         </div>
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Why Choose a Dedicated NFT Development Company?
+          <p
+            className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.5" }}
+          >
+            Why Partner with a Leading NFT Development Company?
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider" style={{ lineHeight: "1.7" }}>
+            Giichi is a trusted NFT development company, brings extensive
+            experience in creating high-quality products and delivering NFT
+            development services built on advanced algorithms. As part of our
+            DeFi Center of Excellence (COE), we utilize the DNFT protocol to
+            develop decentralized non-fungible tokens (NFTs) tailored to various
+            business requirements. <br /> <br />
+            Our team of skilled NFT developers and subject matter experts work
+            collaboratively to provide meticulously crafted NFT development
+            services designed to help you achieve your business objectives.
+            Whether you're looking to tokenize art, videos, or any other asset,
+            we offer purpose-driven NFT software development solutions to
+            effectively meet your needs.
           </p>
         </div>
       </div>
 
       {/* OUR NFT DEVELOPMENT PROCESS */}
-      <div className="bg-[#283430] bg-opacity-10">
-        <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight text-center">
-          Our NFT Development Process
-        </p>
-        <p className="text-white text-opacity-70 text-center pt-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo
-          distinctio a, veritatis reiciendis labore.
-        </p>
+      <div className="mt-12 md:mt-24 ">
+        <div className="flex flex-col items-center">
+          <p className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
+            Our NFT Development Process
+          </p>
+          <p className="text-white text-opacity-70 text-center pt-4 w-full md:w-[60%] text-sm md:text-[16px] px-4">
+            At Giichi, we take great pride in delivering exceptional NFT token
+            development services. From the initial consultation to post-launch
+            support, we ensure a seamless experience for our clients.
+          </p>
+        </div>
+        <div className="p-4 mt-6">
+          <div className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl 3xl:max-w-[1380px] mx-auto">
+            {stages.map((stage, index) => (
+              <div
+                key={stage.number}
+                className="relative flex flex-col items-center mt-6 md:mt-0"
+              >
+                {/* Connecting vertical line */}
+                {index < stages.length && (
+                  <div className="absolute top-28 left-1/2 transform -translate-x-1/2 h-full">
+                    <div className="w-0 h-28 border-r-2 border-dashed border-gray-300"></div>
+                  </div>
+                )}
+                {/* Outer light green circle with blinking effect */}
+                <div className="w-36 h-36 bg-green bg-opacity-20 rounded-full flex items-center justify-center relative z-10 animate-blink">
+                  {/* Inner dark green circle */}
+                  <div className="w-16 h-16 bg-green text-white rounded-full flex items-center justify-center font-bold z-20">
+                    {stage.number}
+                  </div>
+                </div>
+                {/* Stage title */}
+                <div className="text-center mt-24 w-48 text-lg text-white font-semibold">
+                  {stage.title}
+                </div>
+                {/* Stage description*/}
+                <div className="text-center mt-4 w-56 text-sm text-white text-opacity-75">
+                  {stage.desc}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* NFT DEVELOPMENT SERVICES*/}
-      <div className="mt-32 mb-12">
+      <div className="mt-12 3xl:mt-32 mb-12">
         <Framework
           data={NftDevelopmentFramework}
           heading1=""
           heading2="NFT Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc=" We specialize in developing a wide range of NFT solutions tailored to various industries:"
         />
+      </div>
+
+      {/* FAQ SECTION */}
+      <div className="mt-24 mb-12">
+        <Faq data={NftDevFaq} />
       </div>
     </div>
   );

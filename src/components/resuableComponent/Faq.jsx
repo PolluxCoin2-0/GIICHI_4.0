@@ -5,7 +5,7 @@ import {
 } from "react-icons/md";
 import { useState } from "react";
 
-const Faq = ({data}) => {
+const Faq = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFaq = (index) => {
@@ -24,8 +24,8 @@ const Faq = ({data}) => {
         </p>
 
         <div className="space-y-4 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlightOrange spotlightOrange-right"></div>
+          <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
+          <div className="hidden md:block spotlightOrange spotlightOrange-right"></div>
           {data.map((faq, index) => (
             <div
               key={index}

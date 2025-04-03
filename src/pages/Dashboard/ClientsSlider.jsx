@@ -88,7 +88,7 @@ const sliderSecondRowSettings = {
         {[{ logo: zonLogo, name: "Zon Token", color: "#F23C27" },
           { logo: lBankLogo, name: "LBank", color: "#FCD739" },
           { logo: koinBxLogo, name: "KoinBx", color: "#88C047" },
-          { logo: coinstoreLogo, name: "CoinStore", color: "#394c9b" },
+          { logo: coinstoreLogo, name: "CoinStore", color: "#ffffff" },
           { logo: sulaanaLogo, name: "Sulaana", color: "#9423B5" }
         ].map((item, index) => (
           <div key={index} className="px-3 mt-4">

@@ -1,28 +1,56 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
-import { NftMarketplaceFaq } from "../../../components/data/faqsData";
-import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import { SemiFungibleFaq } from "../../../components/data/faqsData";
 import nft1Img from "../../../assets/nft1.png";
+import ManagementImg from "../../../assets/management.png";
+import processImg from "../../../assets/process.png";
+import stockChartImg from "../../../assets/stock-chart.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import semiFungibleBannerImg from "../../../assets/semiFungibleBanner.png";
+import semiFungibleFeatureImg from "../../../assets/semiFungibleFeature.png";
 
 const SemiFungibleToken = () => {
   return (
-    <div>
+    <div className="pt-6 md:pt-12 mb-20">
       {/* NFT Development */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
-            Semi Fungible Token{" "}
+      <BannerContent
+        img={semiFungibleBannerImg}
+        title1="Semi Fungible Token"
+        title2="Development Services"
+        desc="Semi-fungible tokens (SFTs) are a type of token that blend the characteristics of both fungible and non-fungible tokens."
+      />
+
+      {/*Choosing a Dedicated NFT Development Company*/}
+      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12">
+        <div className="w-full lg:w-[40%] relative">
+          <div className="hidden md:block spotlight spotlight-left"></div>
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <img src={semiFungibleFeatureImg} alt="" className="" />
+        </div>
+        <div className="w-full lg:w-[60%] ">
+          <p
+            className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight"
+            style={{ lineHeight: "1.7" }}
+          >
+            Why Choose SFT Development Services?
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
-            Development Services
-          </p>
-          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ducimus numquam, labore ratione perferendis reiciendis aliquid
-            aspernatur culpa molestias porro perspiciatis iure consequuntur
-            autem, iusto distinctio, odio blanditiis quia quibusdam?
+          <p
+            className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider"
+            style={{ lineHeight: "1.7" }}
+          >
+            NFTs revolutionized the digital world by providing a secure,
+            transparent, and immutable way to represent ownership. However,
+            transferring a collection of NFTs can be slow and inefficient. This
+            is where SFTs come in. By using a next-generation multi-token
+            standard, SFTs allow for batch token transfers, making the process
+            much faster and more efficient. <br /> <br />
+            Creating semi-fungible tokens allows you to combine both fungible
+            (like tokens) and non-fungible (NFTs) assets under one contract,
+            significantly reducing gas fees. Whether you're an artist, gamer, or
+            brand, Giichi provide SFT development solutions help streamline
+            token management, save costs, and unlock new possibilities for your
+            business.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-row items-center space-x-6 mt-4">
@@ -49,113 +77,50 @@ const SemiFungibleToken = () => {
             </Link>
           </div>
         </div>
-
-        <div className="w-[50%]"></div>
-      </div>
-
-      {/*Choosing a Dedicated NFT Development Company*/}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12">
-        <div className="w-full lg:w-[40%] relative">
-          <div className="hidden md:block spotlight spotlight-left"></div>
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
-        </div>
-        <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            What is Semi Fungible Token Development Services?
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-            beatae hic rerum dolorum explicabo doloremque, quis numquam! Fuga
-            iure obcaecati porro nemo assumenda quisquam, magni sit! Aperiam
-            aliquid architecto fuga tenetur aliquam possimus rerum. Molestias
-            ullam, voluptas suscipit voluptatum cupiditate itaque nostrum,
-            reiciendis vel culpa facere minus, dolores expedita dolore.
-          </p>
-        </div>
-      </div>
-
-      {/* TOKEN DEVELOPMENT offerings */}
-      <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />
-        </div>
-        <div>
-          <p className="text-white text-2xl font-semibold ">
-            Reach Giichi and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
-          </p>
-          <div className="flex flex-row items-center space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
       </div>
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-20 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12">
+      <div className="flex flex-col lg:flex-row justify-between items-center space-x-20 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 3xl:mt-40">
         <div className="w-full lg:w-[50%]">
-          <p className="text-white text-2xl font-semibold">
+          <p className="text-3xl font-semibold text-transparent bg-clip-text bg-green-gradient">
             Semi Fungible Token Development Benefits
           </p>
-          <p className="text-white text-[15px] font-medium pt-4">
+          <p className="text-white text-[15px] font-medium pt-4 pb-2">
+          <span className="w-3 h-3 bg-green mr-3 inline-block"></span>
             Benefits for Token Holders
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center ">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px] text-center">
+              <img src={ManagementImg} alt="" className="" />
+              <p className="text-white pt-2 text-[17px] md:text-[14px] text-center">
                 Easy management of fungible and non-fungible tokens
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] mt-4 md:mt-0 flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px] text-center">
-                Easy management of fungible and non-fungible tokens
+              <img src={processImg} alt="" className="" />
+              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+                The minting process is simple, accessible, and cost-effective.
               </p>
             </div>
           </div>
 
-          <p className="text-white text-[15px] font-medium pt-8">
+          <p className="text-white text-[15px] font-medium pt-8 pb-2">
+          <span className="w-3 h-3 bg-green mr-3 inline-block"></span>
             Benefits for Token Creators
           </p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
-              <img src={nft1Img} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px] text-center">
-                Easy management of fungible and non-fungible tokens
+              <img src={stockChartImg} alt="" className="" />
+              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+                Even when bundled under one smart contract, the owner can
+                unbundle and trade each token individually.
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16  w-full md:w-[70%] mt-4 md:mt-0 flex flex-col justify-center items-center">
               <img src={nft1Img} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px] lg:text-[17px] text-center">
-                Easy management of fungible and non-fungible tokens
+              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+                Only one smart contract is required to control both fungible and
+                non-fungible tokens
               </p>
             </div>
           </div>
@@ -166,7 +131,7 @@ const SemiFungibleToken = () => {
 
       {/* FAQ SECTION */}
       <div className="mt-24 mb-20">
-        <Faq data={NftMarketplaceFaq} />
+        <Faq data={SemiFungibleFaq} />
       </div>
     </div>
   );

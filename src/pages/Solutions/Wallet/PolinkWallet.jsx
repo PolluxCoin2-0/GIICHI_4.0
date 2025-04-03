@@ -1,12 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { MulticurrencyWalletFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { Web3WalletExchangeFaq } from "../../../components/data/faqsData";
 import accessImg from "../../../assets/payment.png";
-import bgimg from "../../../assets/bitcoin-key-wallet.svg";
+import BlockchainImg from "../../../assets/blockchainImg.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const benefits = [
   [
@@ -57,71 +58,22 @@ const BenefitCard = ({ image, title, points }) => {
 const TronWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
-      {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
-          Tron Wallet <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            Development Company
-          </span>
-        </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
-            </p>
-
-            {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
-              <a
-                type="button"
-                href="https://wa.me/9266416198"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Connect on Whatsapp
-              </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* POLINK WALLET-Banner Image content */}
+     <BannerContent
+        img={BlockchainImg}
+        title1="POLINK WALLET"
+        title2=""
+        desc="As a leading IDO development company, we facilitate seamless fundraising through decentralized exchange platforms."
+      />
 
       {/*  Web3 Wallet Development:  */}
       <div className="mt-0 md:mt-12 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-4xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
-        Exclusive Features of TRON Wallet</p>
-        
+          Exclusive Features of POLINK Wallet
+        </p>
+
         <div className="px-4 md:px-8 lg:px-12 xl:px-20 3xl:px-60">
           {benefits.map((row, rowIndex) => (
             <div
@@ -152,43 +104,9 @@ const TronWallet = () => {
       </div>
 
       {/* web3 crypto  wallet offerings */}
-      <div className="bg-[#283430] bg-opacity-20  flex flex-row items-center space-x-32 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-20 mb-20 p-10">
-        <div>
-          {" "}
-          <img src={bgimg} alt="" className="" />
-        </div>
-        <div>
-          <p className="text-white text-2xl font-semibold ">
-            Reach Antier and discuss your requirements with our Multicurrency
-            Wallet experts TODAY!
-          </p>
-          <div className="flex flex-row items-center space-x-6">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      {/* Features offered by Supply Chain Management */}
+      <Offerings data="   Reach Giichi and discuss your requirements with our Wallet experts TODAY!"/>
+  
+   {/* Features offered by Supply Chain Management */}
       <div className="mb-6 xl:mb-12 2xl:mb-24 mt-24">
         <p className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center pt-4 leading-tight tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:text-32 3xl:px-60 ">
           Our Unique Offerings in <br />

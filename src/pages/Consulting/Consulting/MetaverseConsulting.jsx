@@ -1,5 +1,6 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
+import MetaverseBannerImg from "../../../assets/metaverseBanner.png";
+import MetaverseFeatureImg from "../../../assets/metaverseFeature.png";
 import Services from "../../../components/CommonComponent/Services";
 import Framework from "../../../components/CommonComponent/Framework";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
@@ -7,47 +8,37 @@ import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MetaverseConsultingService } from "../../../components/data/ServicesData";
 import { MetaverseConsultingFramework } from "../../../components/data/frameworkData";
-
-const steps = [
-  { id: "01", title: "Initial Consultation & Needs Assessment" },
-  { id: "02", title: "Strategy & Roadmap Development" },
-  { id: "03", title: "Prototyping & MVP Development" },
-  { id: "04", title: "Full-Scale Development & Integration" },
-  { id: "05", title: "Deployment, Security, & Ongoing Support" },
-];
+import { metaverseConsultingSteps } from "../../../components/data/productDevPhases";
 
 const MetaverseConsulting = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image */}
       <BannerContent
-        img={BlockchainImg}
+        img={MetaverseBannerImg}
         title1="Metaverse Consulting "
         title2="Company"
-        desc="Forging Brands With Ultimate Web3 and Digital Marketing, and Consultancy Services"
+        desc="Seamlessly enter the Metaverse and elevate your business with our expert consulting and development services."
       />
 
       {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+           <img src={MetaverseFeatureImg} alt="Metaverse Consulting Feature Image" className=""/>
         </div>
 
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Proficient Metaverse Consultants to Assist You
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
+          Unlock Metaverse Growth with Expert Consulting  
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto tracking-wider w-full lg:w-[90%]" style={{ lineHeight: "1.7" }}>
+         Our metaverse consulting services help businesses tap into the immense growth potential of the metaverse, regardless of industry. Now is the time to explore and integrate this revolutionary technology to achieve next-level success. <br/> <br/> 
+         With a team of highly skilled metaverse experts, we provide strategic guidance and valuable insights, ensuring businesses make the most of metaverse opportunities for maximum benefits.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               type="button"
               href="https://wa.me/9266416198"
@@ -68,7 +59,7 @@ const MetaverseConsulting = () => {
         data={MetaverseConsultingService}
         heading1="Our Metaverse Consulting"
         heading2="& Development Services"
-        desc=" Giichi IT Solutions offers a comprehensive suite of blockchain development services to help businesses unlock the full potential of blockchain technology and gain a competitive edge in the evolving Web3 landscape."
+        desc="Giichi delivers result-driven metaverse consulting and development services, ensuring a seamless transition to revolutionize business processes."
       />
 
       {/* Top Benefits of blockchain development company */}
@@ -76,12 +67,12 @@ const MetaverseConsulting = () => {
         data={MetaverseConsultingFramework}
         heading1="Benefits of Metaverse"
         heading2="Consulting Services"
-        desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+        desc=""
       />
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={metaverseConsultingSteps}
         heading="Metaverse Consulting Process"
         desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
       />
@@ -91,10 +82,10 @@ const MetaverseConsulting = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-0 md:mt-20">
           {/* Custom First Card */}
           <div className="mr-6 text-gray-900 rounded-lg shadow-md flex flex-col space-y-4 p-0 md:p-4 mt-8 md:mt-0">
-            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl 3xl:text-2xl font-bold text-white">
-              Why choose Giichi for Asset <br />
+            <h3 className="poppins-thin text-[18px] md:text-2xl lg:text-[17px] xl:text-xl font-bold text-white">
+              Why choose Giichi for Metaverse<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#64A03C] to-[#F0AA06]">
-                Tokenization Services?
+                Consulting Services?
               </span>
             </h3>
             <p className="text-[14px] md:text-[15px] lg:text-[14px] font-medium poppins-thin text-white opacity-80">

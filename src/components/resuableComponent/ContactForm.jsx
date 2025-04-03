@@ -8,7 +8,7 @@ import { createContactApi } from "../../api/apiFunctions";
 import { toast } from "react-toastify";
 import Loader from "./Loader";
 
-const ContactForm = () => {
+const ContactForm = ({isBg}) => {
   const [isloading, setIsLoading] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
@@ -92,8 +92,12 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center mt-8 md:mt-20 bg-greish-gradient h-full pb-24 px-4 md:px-0">
-      <div className="border-2 border-white border-opacity-15 rounded-3xl px-4 md:px-6 lg:px-12 py-6 md:py-10 w-full md:w-[80%] lg:w-[70%] xl:w-[40%] pb-20 bg-gray-gradient ">
+    <div className={`flex flex-col justify-center items-center mt-8
+       md:mt-20 ${isBg ? "bg-transparent" : "bg-greish-gradient"} h-full pb-24 px-4 md:px-0`}>
+
+      <div className={`border-2 border-white border-opacity-15 rounded-3xl px-4 md:px-6 lg:px-12 py-6 md:py-10 
+        w-full md:w-[80%] lg:w-[70%] ${isBg ? "xl:w-[100%]" : "xl:w-[40%]"} pb-20 bg-gray-gradient `}>
+        
         <p className="text-white text-xl md:text-3xl font-bold text-center">
           Please Share Your Details
         </p>

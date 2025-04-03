@@ -299,8 +299,8 @@ body{
 /* Basic styles for the WhatsApp icon */
 #whatsapp-icon {
   position: fixed;
-  bottom: 120px; /* Positioned at the bottom */
-  right: 20px; /* Positioned at the right */
+  bottom: 130px; /* Positioned at the bottom */
+  right: 28px; /* Positioned at the right */
   z-index: 9999;
   transition: bottom 0.5s ease-in-out;
 }
@@ -334,7 +334,7 @@ body{
 /* Basic styles for the calender icon */
 #calender-icon {
   position: fixed;
-  bottom: 230px; /* Positioned at the bottom */
+  bottom: 210px; /* Positioned at the bottom */
   right: 28px; /* Positioned at the right */
   z-index: 9999;
   transition: bottom 0.5s ease-in-out;

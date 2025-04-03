@@ -156,28 +156,28 @@ export const whitePaperLifeCycleData = [
 export const maasLifeCycleData = [
   {
     title: "Discovery",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Understand your business, goals, target audience, and market trends to create a strong foundation.",
     image: understandImg,
   },
   {
     title: "Strategy",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Develop a tailored marketing plan with branding, content, social media, and SEO strategies for maximum impact.",
     image: researchImg,
   },
   {
     title: "Execution",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Implement the strategy with engaging content, targeted campaigns, and community-building activities.",
     image: contentImg,
   },
   {
     title: "Optimization",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Analyze performance metrics and fine-tune strategies for better engagement and conversions.",
     image: designImg,
   },
   {
     title: "Scaling",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "Expand reach, enhance brand authority, and drive long-term growth with advanced marketing initiatives.",
     image: deliveryImg,
   },
 ];
@@ -185,46 +185,87 @@ export const maasLifeCycleData = [
 export const derivativesLifeCycleData = [
   {
     title: "Consultation Phase",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "We begin with expert consultation services, especially tailored for clients new to crypto arbitrage trading. This helps them make informed decisions and set the foundation for profitable trades.",
     image: understandImg,
   },
   {
     title: "Discovery Phase",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "In this stage, we gain a deep understanding of your trading goals through brainstorming sessions, allowing us to create a strategic roadmap for development.",
     image: researchImg,
   },
   {
     title: "Requirements Gathering",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "We conduct an in-depth analysis of your specific requirements, ensuring that all aspects of the project are clearly defined before proceeding with development.",
     image: contentImg,
   },
   {
     title: "Solution and Strategy Design",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Our team designs a comprehensive trading bot solution that aligns perfectly with your needs, ensuring an efficient and effective trading experience.",
     image: designImg,
   },
   {
     title: "Development Phase",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "This is where the core development of the crypto arbitrage bot takes place, transforming the approved design into a fully functional, high-performance trading bot.",
     image: deliveryImg,
   },
   {
     title: "Testing and Quality Analysis",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Our dedicated QA team rigorously tests the bot to identify and resolve any issues, ensuring it operates flawlessly before launch.",
     image: designImg,
   },
   {
     title: "Deployment Phase",
     description:
-      "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+      "Once the bot passes all quality checks, we deploy it efficiently, ensuring a seamless launch and complete client satisfaction.",
     image: deliveryImg,
   },
   {
     title: "Maintenance and Support",
-    description: "We begin by understanding your project’s vision, goals, and target audience to align the white paper.",
+    description: "Post-deployment, we provide ongoing maintenance and support services to ensure smooth performance, timely updates, and quick resolution of any technical issues.",
     image: designImg,
   },
 
+];
+
+export const centralizedLifeCycleData = [
+  {
+    title: "Discovery Phase",
+    description: "In this phase, we delve into understanding your goals in detail. Through multiple brainstorming sessions, we create a clear roadmap to achieve the desired objectives.",
+    image: understandImg,
+  },
+  {
+    title: "Requirements Gathering",
+    description: "Here, we collect all necessary requirements for the exchange and conduct a thorough analysis. A comprehensive roadmap is then crafted to guide the development process of the centralized exchange.",
+    image: researchImg,
+  },
+  {
+    title: "Solution and Strategy Design",
+    description: "Our experts design effective solutions and create strategic plans to ensure a smooth user experience on the centralized crypto exchange, with a focus on seamless functionality.",
+    image: contentImg,
+  },
+  {
+    title: "Development Phase",
+    description: "During this phase, we proceed with the core development of the crypto exchange platform, following the approved designs. This ensures the platform is shaped to meet your needs and is ready for launch.",
+    image: designImg,
+  },
+  {
+    title: "Testing and Quality Assurance",
+    description:
+      "After development, our dedicated QA team conducts rigorous testing and quality analysis. This ensures the platform is flawless and market-ready, free of issues or glitches.",
+    image: deliveryImg,
+  },
+  {
+    title: "Deployment Phase",
+    description: "Once we receive approval from the QA team, the exchange is ready for deployment. Our team ensures a smooth launch, providing complete client satisfaction and successfully concluding the deployment phase.",
+    image: designImg,
+  },
+  {
+    title: "Maintenance and Support",
+    description:
+      "Following the exchange's successful launch, we continue to offer ongoing maintenance and support to ensure the platform runs smoothly, without bugs or technical issues.",
+    image: deliveryImg,
+  },
+ 
 ];
 

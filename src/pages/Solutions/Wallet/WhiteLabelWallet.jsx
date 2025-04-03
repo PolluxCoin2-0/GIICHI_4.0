@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
-import { DigitalWalletFramework } from "../../../components/data/frameworkData";
+import { WhiteLabelWalletFramework } from "../../../components/data/frameworkData";
 import Industries from "../../../components/CommonComponent/Industries";
 import { whiteLabelIndustriesData } from "../../../components/data/industriesData";
 import Faq from "../../../components/resuableComponent/Faq";
-import { DigitalWalletExchangeFaq } from "../../../components/data/faqsData";
+import { WhiteLabelWalletExchangeFaq } from "../../../components/data/faqsData";
+import whiteLabelCryptoWalletFeatureImg from "../../../assets/whiteLabelWalletFeature.png";
+import BannerContent from "../../../components/CommonComponent/BannerContent";
+import whiteLabelBannerImg from "../../../assets/whiteLabelBanner.png";
 
 const statsData = [
   { label: "Registration", value: "200+" },
@@ -17,38 +20,38 @@ const statsData = [
 const WhiteLabelWallet = () => {
   return (
     <div className="mt-20 mb-20 ">
-      {/* CRYPTO CURRENCY DIGITAL WALLET DEVELOPMENT COMPANY */}
-      <div className="flex flex-col items-center justify-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative">
-        <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
-          White Label <br />
-          <span className="text-transparent bg-clip-text bg-green-gradient">
-            Cryptocurrency Wallet
-          </span>
-        </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
-              A white paper is an authoritative, persuasive, and comprehensive
-              document that outlines a business project’s challenges and
-              solutions. It plays a crucial role in establishing industry
-              authority, enhancing credibility, and demonstrating thought
-              leadership. In the crypto market, a well-researched white paper
-              serves as a powerful tool to attract investors and showcase your
-              project’s potential.
-              <br /> <br />
-              At Giichi IT Solution, we specialize in crafting impactful white
-              papers that combine in-depth research, solution architecture, and
-              token economics. Our expert writers collaborate with industry
-              professionals to develop detailed, data-driven white papers that
-              add credibility and authenticity to your project.
-            </p>
-
+      
+      {/* WHITE LABEL CRYPTO WALLET DEVELOPMENT COMPANY */}
+      <BannerContent
+        img={whiteLabelBannerImg}
+        title1="White Label"
+        title2="Cryptocurrency Wallet"
+        desc=" Boost your investments with our ready-to-launch, White Label cryptocurrency wallet. "
+      />
+ 
+       {/* Our blockchain consulting related services */}
+      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+        <div className="w-full lg:w-[50%] relative">
+          <div className="hidden md:block spotlight2 spotlight-right"></div>
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.5" }}>
+            Exploring the Key Features of White Label Cryptocurrency Wallets
+          </p>
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+            A White-Label cryptocurrency wallet is a pre-built, fully-tested,
+            and customizable solution for securely storing, sending, and
+            receiving cryptocurrencies, NFTs, stablecoins, and various other
+            digital assets. This ready-made platform can be quickly adapted to
+            your brand’s requirements, streamlining the deployment and launch
+            process for both web and mobile platforms. <br /> <br />
+            Creating a White-Label wallet demands deep domain knowledge,
+            extensive experience, and expertise — all of which are available
+            through top-tier development companies like Giichi. We offer both
+            custodial and non-custodial wallet development on prominent
+            blockchain networks, backed by over a decade of industry experience.
+          </p>
+          
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6">
+            <div className="flex flex-row items-center space-x-6 mt-8">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
@@ -71,39 +74,15 @@ const WhiteLabelWallet = () => {
                 </button>
               </Link>
             </div>
-          </div>
         </div>
-      </div>
-
-      {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[50%] relative">
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Navigating the Features of White Label Cryptocurrency Wallet
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero. <br />{" "}
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repellendus, in consequuntur quaerat enim vitae sed, odit culpa nisi
-            incidunt distinctio autem, assumenda iure aspernatur harum suscipit
-            sint voluptatem quis vero facere doloribus quasi repudiandae
-            perferendis nulla! Accusantium voluptas tempore libero.
-          </p>
-        </div>
-        <div className="w-full lg:w-[50%]">{/* img */}</div>
+        <div className="w-full lg:w-[50%]"><img src={whiteLabelCryptoWalletFeatureImg} alt="" className="" /></div>
       </div>
 
       {/*Stats Data */}
-      <div className="relative">
+      <div className="relative ">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-6  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-10 rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-32">
           {statsData.map((stat, index) => (
             <div
               key={index}
@@ -135,16 +114,16 @@ const WhiteLabelWallet = () => {
       {/* DIGITAL WALLET DEVELOPMENT SERVICES */}
       <div className="mt-20">
         <Framework
-          data={DigitalWalletFramework}
+          data={WhiteLabelWalletFramework}
           heading1="Explore Our White Label "
           heading2="Crypto Wallet Development Services"
-          desc="Here are a few amazing benefits that your business can get from our top blockchain consultants."
+          desc=""
         />
       </div>
 
       {/* FAQ SECTION */}
-      <div>
-        <Faq data={DigitalWalletExchangeFaq} />
+      <div className="mt-24">
+        <Faq data={WhiteLabelWalletExchangeFaq} />
       </div>
     </div>
   );

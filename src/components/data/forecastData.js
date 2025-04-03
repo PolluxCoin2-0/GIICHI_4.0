@@ -6,6 +6,12 @@ import depinImg from "../../assets/depin (2).png";
 import depinSolImg from "../../assets/depinsol2.png";
 import TransportFeature1Img from "../../assets/TransportFeature.png";
 import TransportFeature2Img from "../../assets/TransportFeature2.png";
+import defiConsultingFeature1Img from "../../assets/defiConsultingFeature1.png";
+import defiConsultingFeature2Img from "../../assets/defiConsultingFeature2.png";
+import defiDevFeature1Img from "../../assets/defiDevFeature1.png";
+import defiDevFeature2Img from '../../assets/defiDevFeature2.png';
+import daoBlockchainFeature1Img from "../../assets/daoBlockchainFeature1.png";
+import daoBlockchainFeature2Img from "../../assets/daoBlockchainFeature2.png";
 
 export const BlockchainDevelopmentForecast = {
   img1: bkDev1Img,
@@ -55,12 +61,32 @@ export const TransportForecast = {
           
 }
 
+export const DefiConsultingForecast = {
+  img1:defiConsultingFeature1Img,
+   img2:defiConsultingFeature2Img,
+   title1:"DeFi Consulting: Unlock DeFi’s Potential for Your Business",
+   title2:"Unbiased & Expert Insights on the DeFi Market",
+   desc1:"The DeFi market is expected to reach $232 billion by 2030. If you’re looking to capitalize on this growth but don’t know where to start, we’ve got you covered. Our experts provide comprehensive DeFi consulting, guiding you on everything from technical development to community building.",
+   desc2:"If you’re uncertain about entering the DeFi space, rely on us for independent, expert advice. With real-world experience, we help businesses analyze the DeFi market to make informed decisions. Our deep industry knowledge and expertise have positioned us as a trusted DeFi consulting firm.",
+         
+};
+
 export const DefiDevForecast = {
-  img1:TransportFeature1Img,
-   img2:TransportFeature2Img,
-   title1:"The Paradigm Shift From Traditional Business Model to DeFi Development",
-   title2:"Decentralized Finance Development Global Market Size",
-   desc1:"The transportation and logistics industry has traditionally been slow to adopt modern technologies, relying on outdated processes that result in inefficiencies such as opaque supply chains, security risks, and operational uncertainty. ",
-   desc2:"At Giichi IT Solutions Pvt. Ltd., we help transportation and logistics companies digitally transform their operations, paving the way for new, innovative methods that drive better results for both businesses and their customers.",
+  img1:daoBlockchainFeature1Img,
+   img2:daoBlockchainFeature2Img,
+   title1:"The Shift from Traditional Finance to Decentralized Solutions",
+   title2:"Global Market Size of Decentralized Finance (DeFi) Development",
+   desc1:"Are you struggling with challenges like delayed settlements, inefficient price discovery, liquidity constraints, poor decision-making, and uncertainty around underlying assets due to traditional financial systems? Decentralized Finance (DeFi) development offers a transformative solution to these issues. Whether you're a fast-growing startup or a Fortune 500 enterprise, the future of finance is decentralized.",
+   desc2:"At Giichi, we are committed to shaping the future of the digital economy—and that future is fully decentralized. The global DeFi market was valued at USD 13.61 billion in 2022 and is projected to grow at a CAGR of 46.0% from 2023 to 2030. As the DeFi development landscape continues to evolve, both traditional financial institutions and new market players can leverage DeFi solutions to drive innovation, enhance efficiency, and unlock new growth opportunities.",
+         
+};
+
+export const DaoBlockchainForecast = {
+  img1:  defiDevFeature1Img,
+   img2:  defiDevFeature2Img,
+   title1:"Professional DAO Development Company",
+   title2:"An Overview of DAO Development",
+   desc1:"Blockchain technology offers a secure, unified system with a range of powerful features. DAO blockchain development provides a cost-effective solution to the challenges of traditional centralized businesses. Discover how Giichi can help protect and enhance your business by leveraging DAO blockchain development.",
+   desc2:"A Decentralized Autonomous Organization (DAO) is a transparent, self-governing entity that operates without a central authority. In a DAO, all members share equal governance rights, and critical decisions are made collectively by the community. A DAO can be established through various crypto wallets controlled by either individuals or organizations.",
          
 };

@@ -28,6 +28,15 @@ const MobileNavbar = () => {
   const [isMarketOpen, setIsMarketOpen] = useState(false);
 
   const [isSolutionMenuOpen, setIsSolutionMenuOpen] = useState(false);
+  const [isExchangeOpen, setIsExchangeOpen] = useState(false);
+  const [isWalletOpen, setIsWalletOpen] = useState(false);
+  const [isNftOpen, setIsNftOpen] = useState(false);
+  const [isDefiOpen, setIsDefiOpen] = useState(false);
+  const [isWeb3Open, setIsWeb3Open] = useState(false);
+  const [isDigitalBankingOpen, setIsDigitalBankingOpen] = useState(false);
+  const [isCoinDevOpen, setIsCoinDevOpen] = useState(false);
+  const [isTradingBotOpen, setIsTradingBotOpen] = useState(false);
+
   // const [isBfsiOpen, setIsBfsiOpen] = useState(false);
   // const [isServicesOpen, setIsServicesOpen] = useState(false);
   // const [isIndustryMenuOpen, setIsIndustryMenuOpen] = useState(false);
@@ -243,31 +252,11 @@ const MobileNavbar = () => {
                 </li>
                 {isConsult1Open && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs ">
-                      {" "}
-                      Blockchain Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Web3 Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      Metaverse Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      DeFi Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      DAO Consulting Company
-                    </p>
-                    <p className="text-white text-xs pt-2">
-                      {" "}
-                      AI Consulting Company
-                    </p>
-                  </div>
+                    <Link to="/blockchain-consulting-company"><p className="text-white text-xs ">Blockchain Consulting Company </p></Link> 
+                    <Link to="/web3-consulting-company"><p className="text-white text-xs pt-2">Web3 Consulting Company</p></Link>
+                    <Link to="/metaverse-consulting-company"><p className="text-white text-xs pt-2">Metaverse Consulting Company</p></Link>
+                    <Link to="/defi-consulting-company"><p className="text-white text-xs pt-2">DeFi Consulting Company</p></Link>
+                   </div>
                 )}
                 <li
                   className="text-whitev text-sm pt-2"
@@ -277,10 +266,7 @@ const MobileNavbar = () => {
                 </li>
                 {isMarketOpen && (
                   <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
-                    <p className="text-white text-xs ">
-                      {" "}
-                      Marketing As A Service (MaaS)
-                    </p>
+                    <Link to="/marketing-as-a-service"><p className="text-white text-xs ">Marketing As A Service (MaaS) </p></Link>
                   </div>
                 )}
               </ul>
@@ -296,14 +282,92 @@ const MobileNavbar = () => {
             </li>
             {isSolutionMenuOpen && (
               <ul className="pl-4">
-                <li className="text-white text-sm ">Exchange </li>
-                <li className="text-white text-sm pt-2 ">Wallet</li>
-                <li className="text-white text-sm pt-2">NFT</li>
-                <li className="text-white text-sm pt-2">DeFi</li>
-                <li className="text-white text-sm pt-2">Web3</li>
-                <li className="text-white text-sm pt-2">Digital Banking</li>
-                <li className="text-white text-sm pt-2">Coin Development</li>
-                <li className="text-white text-sm pt-2">Trading Bots</li>
+
+                <li className="text-white text-sm "   onClick={() => setIsExchangeOpen(!isExchangeOpen)}>Exchange </li>
+                {isExchangeOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/custom-exchange"><p className="text-white text-xs ">Custom Exchange</p></Link>
+                    <Link to="/white-label-exchange"><p className="text-white text-xs pt-2">White Label Exchange</p></Link>
+                    <Link to="/margin-trading-exchange"><p className=" text-white text-xs pt-2">Margin Trading Exchange</p></Link>
+                    <Link to="/decentralized-exchange"><p className=" text-white text-xs pt-2">Decentralized Exchange</p></Link>
+                    <Link to="/derivatives-exchange"><p className=" text-white text-xs pt-2">Derivatives Exchange</p></Link>
+                    <Link to="/centralized-exchange"><p className=" text-white text-xs pt-2"> Centralized Exchange</p></Link>
+                    <Link to="/p2p-exchange"><p className=" text-white text-xs pt-2">P2P Exchange</p></Link>
+                    <Link to="/market-making-exchange"><p className=" text-white text-xs pt-2">Market Making Exchange</p></Link>
+                 </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsWalletOpen(!isWalletOpen)}>Wallet</li>
+                {isWalletOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/digital-wallet"><p className="text-white text-xs ">Digital Wallet</p></Link>
+                    <Link to="/white-label-wallet"><p className="text-white text-xs pt-2">White Label Wallet</p></Link>
+                    <Link to="/web3-wallet"><p className=" text-white text-xs pt-2">Web3 Wallet</p></Link>
+                    <Link to="/multi-currency-wallet"><p className=" text-white text-xs pt-2">Multicurrency Wallet</p></Link>
+                    <Link to="/mpc-crypto-wallet"><p className=" text-white text-xs pt-2">MPC Crypto Wallet</p></Link>
+                    <Link to="/defi-wallet"><p className=" text-white text-xs pt-2">Defi Wallet</p></Link>
+                    <Link to="/polink-wallet"><p className=" text-white text-xs pt-2">Polink Wallet</p></Link>
+                    <Link to="/non-fungible-token-wallet"><p className=" text-white text-xs pt-2">NFT Wallet</p></Link>
+                 </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsNftOpen(!isNftOpen)}>NFT</li>
+                {isNftOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/nft-development"><p className="text-white text-xs ">NFT Development</p></Link>
+                    <Link to="/white-label-nft-development"><p className="text-white text-xs pt-2">White Label NFT Development</p></Link>
+                    <Link to="/nft-marketplace"><p className=" text-white text-xs pt-2">NFT Marketplace</p></Link>
+                    <Link to="/semi-fungible-token-development"><p className=" text-white text-xs pt-2">Semi Fungible Token</p></Link>
+                   </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsDefiOpen(!isDefiOpen)}>DeFi</li>
+                {isDefiOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/defi-decentralized-finance-development"><p className="text-white text-xs ">Defi Development</p></Link>
+                    <Link to="/dao-blockchain-development"><p className="text-white text-xs pt-2">DAO Blockchain</p></Link>
+                    <Link to="/defi-staking-development"><p className=" text-white text-xs pt-2">Defi Staking</p></Link>
+                    <Link to="/dapp-development"><p className=" text-white text-xs pt-2">Dapp Development Company</p></Link>
+                 </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsWeb3Open(!isWeb3Open)}>Web3</li>
+                {isWeb3Open && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/web3-development"><p className="text-white text-xs ">Web3.0 Development</p></Link>
+                  </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsDigitalBankingOpen(!isDigitalBankingOpen)}>Digital Banking</li>
+                {isDigitalBankingOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/digital-banking-solution"><p className="text-white text-xs ">Digital Banking</p></Link>
+                    <Link to="/white-label-banking-solution"><p className="text-white text-xs pt-2">White Label Banking</p></Link>
+                    <Link to="/payment-gateway-banking-solution"><p className=" text-white text-xs pt-2">Payment Gateway</p></Link>
+                    <Link to="/p2p-lending-solution"><p className=" text-white text-xs pt-2">P2P Lending</p></Link>
+                 </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsCoinDevOpen(!isCoinDevOpen)}>Coin Development</li>
+                {isCoinDevOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/launchpad-coin-development"><p className="text-white text-xs ">Launchpad Development</p></Link>
+                    <Link to="/ico-coin-development"><p className="text-white text-xs pt-2">ICO Development</p></Link>
+                    <Link to="/token-coin-development"><p className=" text-white text-xs pt-2">Coin/Token Development</p></Link>
+                    <Link to="/ido-coin-development"><p className=" text-white text-xs pt-2">IDO Development</p></Link>
+                    <Link to="/stable-coin-development"><p className=" text-white text-xs pt-2">Stablecoin Development</p></Link>
+                    <Link to="/meme-coin-development"><p className=" text-white text-xs pt-2">Meme Coin Development</p></Link>
+                 </div>
+                )}
+
+                <li className="text-white text-sm pt-2"  onClick={() => setIsTradingBotOpen(!isTradingBotOpen)}>Trading Bots</li>
+                {isTradingBotOpen && (
+                  <div className=" pl-4 mt-2 top-[110px] text-white text-opacity-80 hover:text-white">
+                    <Link to="/trading-bot-development"><p className="text-white text-xs ">Trading Bot</p></Link>
+                    <Link to="/arbitrage-bot-development"><p className="text-white text-xs pt-2">Arbitrage Bots</p></Link>
+                   </div>
+                )}
+
               </ul>
             )}
 

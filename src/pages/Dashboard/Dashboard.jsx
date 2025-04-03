@@ -10,7 +10,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import Review from "./Review";
 import EmailPopup from "../../components/resuableComponent/EmailPopup";
-// import calendlyImg from "../assets/calendar.png";
+import calendlyImg from "../../assets/calendar.png";
 
 const Dashboard = () => {
   const [blogData, setBlogData] = useState([]);
@@ -31,14 +31,40 @@ const Dashboard = () => {
 
   
    // FOR EMAIL POPUP
-  useEffect(() => {
-    const timer = setTimeout(() => setPopupOpen(true), 2000); // Show after 2s
-    return () => clearTimeout(timer);
-  }, []);
+ useEffect(() => {
+  const timer = setTimeout(() => setPopupOpen(true), 2000); // Show after 2s
+  return () => clearTimeout(timer);
+ }, []);
 
-  const handleEmailSubmit = (email) => {
+   const handleEmailSubmit = (email) => {
     console.log("Email Submitted:", email);
   };
+
+ // FOR CALENDLY POPUP
+  useEffect(() => {
+    // Dynamically load the Calendly widget script
+    const script = document.createElement('script');
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+
+    // Clean up the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  const handleClick = () => {
+    // Initialize the Calendly widget
+    if (window.Calendly) {
+      window.Calendly.initPopupWidget({
+        url: 'https://calendly.com/giichi-network',
+      });
+    }
+    return false;
+  };
+
 
   return (
     <div className="pt-6 md:pt-20 ">
@@ -107,7 +133,7 @@ const Dashboard = () => {
             alt={blogData[0]?.shortDescription || "Blog-Feature-image"}
             className="w-full rounded-2xl"
           />
-          <p className="text-white relative overflow-hidden max-h-[11em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
+          <p className="text-white relative overflow-hidden max-h-[13em] text-opacity-50 mt-4 lg:mt-4 xl:mt-4 mb-5 lg:-mb-2 xl:mb-4 block md:hidden lg:block px-2 lg:text-[15px] xl:text-[18px] 3xl:text-[17px] z-10">
             <div
               dangerouslySetInnerHTML={{ __html: blogData[0]?.description }}
               className="line-clamp-10 text-justify hyphens-auto"
@@ -248,20 +274,24 @@ const Dashboard = () => {
         </a>
       </div>
 
-      <div className="p-10">
+      <div className="p-10 ">
       <EmailPopup
         isOpen={popupOpen}
         onClose={() => setPopupOpen(false)}
         onSubmit={handleEmailSubmit}
       />
-    </div>
+    </div> 
 
       {/* Calender Image */}
-      {/* <div>
-      <a href="" id="calender-icon" target="_blank" title="Schedule Meeting">
-      <img src={calendlyImg} alt="calender" className="" />
-      </a>
-    </div> */}
+      <div>
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <div className="cursor-pointer" id="calender-icon"title="Schedule Meeting">
+      <img src={calendlyImg} alt="calender" className="" onClick={handleClick}/>
+      </div>
+    </div>
     </div>
   );
 };
