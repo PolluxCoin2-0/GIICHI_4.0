@@ -72,7 +72,7 @@ const EmailPopup = ({ isOpen, onClose, onSubmit }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex justify-start items-end p-6 z-50">
+    <div className="fixed inset-0 flex justify-start items-end p-6 z-20">
       <motion.div
         initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { NftDevelopmentFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { NftDevFaq } from "../../../components/data/faqsData";
 import nftDevFeatureImg from "../../../assets/nftDevFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/BUttonFreeDemo";
+import nftDevFeature2Img from "../../../assets/nftTokenFeature2.png";
 
 const stages = [
   {
@@ -38,14 +39,14 @@ const NftDev = () => {
   return (
     <div>
       {/* NFT Development */}
-      <div className="flex flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-48">
+      <div className="flex flex-col md:flex-row justify-between items-center bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 relative w-full py-12 md:py-20 lg:py-20 3xl:py-48">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="w-[50%]">
+        <div className="w-full md:w-[50%]">
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-4 tracking-wide">
             NFT Token{" "}
           </p>
-          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-6 tracking-wide">
+          <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-0 md:pt-6 tracking-wide">
             Development Services
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
@@ -53,32 +54,24 @@ const NftDev = () => {
             seamlessly tokenize your collectibles.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6 mt-6">
+          <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6 mt-0 md:mt-6">
             <a
               type="button"
               href="https://wa.me/9266416198"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
+              text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
               aria-label="Contact us "
               title="Click to contact us form"
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+          <ButtonFreeDemo/>
           </div>
         </div>
 
-        <div className="w-[50%]"></div>
+        <div className="w-full md:w-[50%] flex justify-center md:justify-end mt-6 md:mt-0"> <img src={nftDevFeature2Img} alt="" className="w-[90%]"/></div>
       </div>
 
       {/*Choosing a Dedicated NFT Development Company*/}
@@ -113,23 +106,23 @@ const NftDev = () => {
       </div>
 
       {/* OUR NFT DEVELOPMENT PROCESS */}
-      <div className="mt-24">
+      <div className="mt-12 md:mt-24 ">
         <div className="flex flex-col items-center">
           <p className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-4xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
             Our NFT Development Process
           </p>
-          <p className="text-white text-opacity-70 text-center pt-4 w-[60%]">
+          <p className="text-white text-opacity-70 text-center pt-4 w-full md:w-[60%] text-sm md:text-[16px] px-4">
             At Giichi, we take great pride in delivering exceptional NFT token
             development services. From the initial consultation to post-launch
             support, we ensure a seamless experience for our clients.
           </p>
         </div>
         <div className="p-4 mt-6">
-          <div className="relative flex items-center justify-between max-w-7xl 3xl:max-w-[1380px] mx-auto">
+          <div className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl 3xl:max-w-[1380px] mx-auto">
             {stages.map((stage, index) => (
               <div
                 key={stage.number}
-                className="relative flex flex-col items-center"
+                className="relative flex flex-col items-center mt-6 md:mt-0"
               >
                 {/* Connecting vertical line */}
                 {index < stages.length && (
@@ -159,7 +152,7 @@ const NftDev = () => {
       </div>
 
       {/* NFT DEVELOPMENT SERVICES*/}
-      <div className="mt-32 mb-12">
+      <div className="mt-12 3xl:mt-32 mb-12">
         <Framework
           data={NftDevelopmentFramework}
           heading1=""

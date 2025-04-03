@@ -290,6 +290,11 @@ const Navbar = () => {
     handleMenuLeave();
   };
 
+   // Helper function to determine if a submenu is active
+   const isSubmenuActive = (submenuLabel) => {
+    return activeSubmenu === submenuLabel;
+  };
+
   return (
     <nav className="relative z-50">
       <div className="flex justify-between items-center px-6 md:px-12 lg:px-12 xl:px-32 2xl:px-32 3xl:px-60 py-4">
@@ -313,14 +318,16 @@ const Navbar = () => {
               onMouseEnter={() => handleMenuEnter(key)}
               onMouseLeave={handleMenuLeave}
             >
-              <button
-                className="text-white text-sm xl:text-lg font-medium hover:text-gray-300"
-                aria-label="label-demo"
-                type="button"
-                title="Click "
-              >
-                {value.label}
-              </button>
+            <button
+            className={`text-white text-sm xl:text-lg font-medium hover:text-gray-300 ${
+              activeMenu === key ? "text-green-400 font-semibold" : ""
+            }`}
+            aria-label="label-demo"
+            type="button"
+            title="Click "
+          >
+            {value.label}
+          </button>
             </div>
           ))}
           <Link
@@ -373,15 +380,31 @@ const Navbar = () => {
             <div className="flex">
               <div className="w-[30%] bg-[#D9D9D919] rounded-xl p-4">
                 {menuItems[activeMenu].submenus.map((submenu) => (
-                  <div
-                    key={submenu.label}
-                    className="flex justify-between items-center p-4 hover:bg-[#D9D9D9] hover:bg-opacity-15 rounded-xl cursor-pointer"
-                    onMouseEnter={() => handleSubmenuEnter(submenu.label)}
-                  >
-                    <p className="text-white text-opacity-80 font-medium text-[17px] hover:font-semibold hover:text-white">
-                      {submenu.label}
-                    </p>
-                    <FaArrowRightLong color="#ffffff" size={24} />
+                 
+               <div
+               key={submenu.label}
+               className={`flex justify-between items-center p-4 hover:bg-[#D9D9D9] hover:bg-opacity-15 rounded-xl cursor-pointer ${
+                 isSubmenuActive(submenu.label)
+                   ? "bg-[#8AF969] bg-opacity-15"
+                   : ""
+               }`}
+               onMouseEnter={() => handleSubmenuEnter(submenu.label)}
+             >
+             <p
+             className={`text-white text-opacity-80 font-medium text-[17px] hover:font-semibold hover:text-white ${
+               isSubmenuActive(submenu.label)
+                 ? "text-green-400 font-semibold text-opacity-100"
+                 : ""
+             }`}
+           >
+             {submenu.label}
+           </p>
+           <FaArrowRightLong
+           color={
+             isSubmenuActive(submenu.label) ? "#8AF969" : "#ffffff"
+           }
+           size={24}
+         />
                   </div>
                 ))}
               </div>

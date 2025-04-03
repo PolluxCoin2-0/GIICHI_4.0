@@ -15,11 +15,11 @@ const Footer = () => {
       {/* Footer contract */}
       <div className="flex flex-col md:flex-row justify-between">
         {/* Logo */}
-        <div>
+        <div className="w-full md:w-[25%]">
           <img
             src={giichiLogo}
             alt="Giichi-logo"
-            className="w-48 md:w-20 lg:w-40 xl:w-full object-contain cursor-pointer"
+            className="w-48 md:w-20 lg:w-40 xl:w-40 object-contain cursor-pointer"
           />
 
           <div className="mt-12">
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         {/* About Us */}
-        <div>
+        <div className="w-full md:w-[25%]">
           <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
             QUICK LINKS
           </p>
@@ -139,7 +139,7 @@ const Footer = () => {
         </div>
 
         {/* Products */}
-        <div>
+        <div className="w-full md:w-[25%]">
           <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
             CONNECT
           </p>
@@ -179,21 +179,23 @@ const Footer = () => {
         </div>
 
         {/* Our Location */}
-        <div>
-          <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0">
+        <div className="w-full md:w-[25%]">
+          <p className="text-white font-semibold text-sm lg:text-[17px] pt-6 md:pt-0 pb-6">
             LOCATION
           </p>
-          <div className="mt-6">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094246!2d144.95592831550496!3d-37.81720997975167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5778fd78f5c4a99!2sFederation+Square!5e0!3m2!1sen!2sau!4v1614325275563!5m2!1sen!2sau"
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.223423806656!2d77.04140527494864!3d28.41251449403895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d229abf2ef123%3A0xdd2108f847f2e688!2sTOWER-B%2C%20SPAZE%20ITECH%20PARK%2C%20Sector%2049%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1743698203911!5m2!1sen!2sin"
               width="100%"
               height="150"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
             ></iframe>
-          </div>
+           
+          <p className="inline-block text-white text-opacity-70 hover:text-white pt-4 lg:pt-6 text-xs md:text-[11px] lg:text-xs xl:text-[15px] cursor-pointer" style={{ lineHeight: "1.5" }}>
+          425 , 4th floor, Tower B4, spaze iTech Park, Sohna - Gurgaon Rd, Sector 49, Gurugram, Haryana 122018</p>
         </div>
+        
       </div>
 
       {/* copyright */}
