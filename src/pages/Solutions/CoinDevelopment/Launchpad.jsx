@@ -1,6 +1,5 @@
-                /* eslint-disable react/prop-types */
+/* eslint-disable react/prop-types */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
 import serviceIcon from "../../../assets/collab.png";
 import Faq from "../../../components/resuableComponent/Faq";
 import { CoinLaunchpadFaq } from "../../../components/data/faqsData";
@@ -17,6 +16,8 @@ import igoImg from "../../../assets/igo.png";
 import iioImg from "../../../assets/iio.png";
 import iloImg from "../../../assets/ilo.png";
 import inoImg from "../../../assets/ino.png";
+import launchpadBannerImg from "../../../assets/launchpadBanner.png";
+import launchpadFeatureImg from "../../../assets/launchpadFeature.png";
 
 const features = [
   {
@@ -110,13 +111,15 @@ const servicesData = [
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
-    <div className="flex flex-row items-center w-full space-x-6 mt-12">
+    <div className="flex flex-row items-center w-full space-x-4 md:space-x-6 mt-12">
       <div className="bg-[#073106] px-6 py-6 rounded-lg">
         <img src={icon} alt={title} className="w-24" />
       </div>
       <div>
-        <p className="text-xl text-white font-semibold">{title}</p>
-        <p className="text-sm text-white text-opacity-70 pt-2">{description}</p>
+        <p className="text-sm md:text-xl text-white font-semibold">{title}</p>
+        <p className="text-xs md:text-sm text-white text-opacity-70 pt-1 md:pt-2">
+          {description}
+        </p>
       </div>
     </div>
   );
@@ -129,7 +132,7 @@ const Launchpad = () => {
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
+        img={launchpadBannerImg}
         title1="Crypto Launchpad"
         title2="Development"
         desc="Simplify and optimize the fundraising process with our advanced crypto launchpad solutions."
@@ -140,16 +143,27 @@ const Launchpad = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={launchpadFeatureImg} alt="" className="" />
         </div>
 
         <div className="w-full lg:w-[50%] ">
           <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-          Accelerate Your Crypto Launchpad Development
+            Accelerate Your Crypto Launchpad Development
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"  style={{ lineHeight: "1.7" }}>
-          The growing adoption of cryptocurrencies has paved the way for innovative, investor-friendly solutions like crypto launchpads, which simplify the fundraising process for blockchain projects. These platforms empower startups to raise capital and expand efficiently while unlocking new revenue opportunities. <br/> <br/>
-          At Giichi, we provide end-to-end crypto launchpad development services, helping you build a robust launchpad and capitalize on the booming crypto industry. Our experienced blockchain engineers and industry experts ensure a fast time-to-market, giving you a competitive edge.
+          <p
+            className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"
+            style={{ lineHeight: "1.7" }}
+          >
+            The growing adoption of cryptocurrencies has paved the way for
+            innovative, investor-friendly solutions like crypto launchpads,
+            which simplify the fundraising process for blockchain projects.
+            These platforms empower startups to raise capital and expand
+            efficiently while unlocking new revenue opportunities. <br /> <br />
+            At Giichi, we provide end-to-end crypto launchpad development
+            services, helping you build a robust launchpad and capitalize on the
+            booming crypto industry. Our experienced blockchain engineers and
+            industry experts ensure a fast time-to-market, giving you a
+            competitive edge.
           </p>
 
           {/* button to connect on whatsapp */}
@@ -170,14 +184,15 @@ const Launchpad = () => {
       </div>
 
       {/* Cryptocurrency Launchpad Development Services*/}
-      <div className="bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60 py-12">
+      <div className="bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60 py-12 mt-12 lg:mt-32">
         <p className="text-white text-2xl md:text-3xl font-bold pt-4 leading-tight tracking-wide text-center">
           Our Cryptocurrency Launchpad Development Services
         </p>
         <p className="text-white text-opacity-70 pt-4 text-center">
-        We offer a wide range of launchpad development solutions tailored to diverse business needs.
+          We offer a wide range of launchpad development solutions tailored to
+          diverse business needs.
         </p>
-        <div className="flex flex-row justify-between items-center w-full space-x-20">
+        <div className="flex flex-col lg:flex-row justify-between items-center w-full space-x-0 lg:space-x-20">
           <div className="flex flex-col justify-between items-center w-full">
             {firstColumn.map((service, index) => (
               <ServiceCard key={index} {...service} />
@@ -195,10 +210,11 @@ const Launchpad = () => {
       <div className="mt-20 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60">
         <div className="flex flex-col justify-center items-center">
           <p className="text-white text-2xl md:text-3xl font-bold pt-4 leading-tight tracking-wide text-center">
-          Key Features of a Cryptocurrency Launchpad
+            Key Features of a Cryptocurrency Launchpad
           </p>
           <p className="text-white text-opacity-70 text-sm xl:text-[16px] font-normal pt-4 leading-7 w-full md:w-[60%] text-center">
-          Our launchpads are designed with advanced features to ensure top-tier performance and security.
+            Our launchpads are designed with advanced features to ensure
+            top-tier performance and security.
           </p>
         </div>
 

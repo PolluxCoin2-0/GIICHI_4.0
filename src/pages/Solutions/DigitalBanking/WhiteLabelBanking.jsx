@@ -6,14 +6,7 @@ import { WhiteLabelBankingFaq } from "../../../components/data/faqsData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import whiteLabelFeature1Img from "../../../assets/whiteLabelFeature1.png";
 import whiteLabelFeature2Img from "../../../assets/whiteLabelFeature2.png";
-
-const steps = [
-  { id: "01", title: "Understanding Your Needs" },
-  { id: "02", title: "Design and Planning" },
-  { id: "03", title: "Customization" },
-  { id: "04", title: "Development" },
-  { id: "05", title: "Deployment" },
-];
+import { whiteLabelBankingSteps } from "../../../components/data/productDevPhases";
 
 const WhiteLabelBanking = () => {
   return (
@@ -115,7 +108,7 @@ const WhiteLabelBanking = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={whiteLabelBankingSteps}
         heading="White Label Banking Development Process"
         desc="At Giichi, we provide a structured, innovative approach to white-label Neo Bank development, enabling your institution to deliver strong financial services under your unique brand."
       />

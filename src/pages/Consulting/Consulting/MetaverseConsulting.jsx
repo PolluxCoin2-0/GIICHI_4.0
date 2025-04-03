@@ -8,14 +8,7 @@ import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MetaverseConsultingService } from "../../../components/data/ServicesData";
 import { MetaverseConsultingFramework } from "../../../components/data/frameworkData";
-
-const steps = [
-  { id: "01", title: "Understanding Business Needs" },
-  { id: "02", title: "Strategy & Roadmap Creation" },
-  { id: "03", title: "Design & Development " },
-  { id: "04", title: "Testing & Optimization" },
-  { id: "05", title: "Deployment & Support " },
-];
+import { metaverseConsultingSteps } from "../../../components/data/productDevPhases";
 
 const MetaverseConsulting = () => {
   return (
@@ -79,7 +72,7 @@ const MetaverseConsulting = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={metaverseConsultingSteps}
         heading="Metaverse Consulting Process"
         desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
       />

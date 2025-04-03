@@ -8,14 +8,7 @@ import { P2PDevelopmentService } from "../../../components/data/ServicesData";
 import Faq from "../../../components/resuableComponent/Faq";
 import p2pExchangeBannerImg from "../../../assets/p2pExchangeBanner.png";
 import p2pFeatureImg from "../../../assets/p2pFeature.png";
-
-const steps = [
-  { id: "01", title: "Requirement Gathering and Planning" },
-  { id: "02", title: "Technology Stack Selection" },
-  { id: "03", title: "UI/UX Development" },
-  { id: "04", title: " Backend Development & Smart Contracts" },
-  { id: "05", title: "Test, Improve & Deliver" },
-];
+import { p2pLendingSteps } from "../../../components/data/productDevPhases";
 
 const P2P = () => {
   return (
@@ -119,7 +112,7 @@ const P2P = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={p2pLendingSteps}
         heading="Our P2P Exchange Development Process"
         desc="At Giichi IT Solutions, we help enterprises achieve business automation with advanced, secure, and efficient smart contract solutions."
       />

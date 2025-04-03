@@ -10,14 +10,7 @@ import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhas
 import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { motion } from "framer-motion";
-
-const steps = [
-  { id: "01", title: "Discovery & Requirement Analysis" },
-  { id: "02", title: "Strategy & Architecture Design" },
-  { id: "03", title: "Prototyping & Proof of Concept (PoC)" },
-  { id: "04", title: "Development & Integration" },
-  { id: "05", title: "Deployment, Testing & Maintenance" },
-];
+import { blockchainConsultingSteps } from "../../../components/data/productDevPhases";
 
 const BlockchainConsulting = () => {
   return (
@@ -87,7 +80,7 @@ const BlockchainConsulting = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={blockchainConsultingSteps}
         heading="Blockchain Consulting Process"
         desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
       />

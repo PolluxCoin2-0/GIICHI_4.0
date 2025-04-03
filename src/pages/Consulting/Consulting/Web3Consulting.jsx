@@ -8,18 +8,12 @@ import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { Web3ConsultingService } from "../../../components/data/ServicesData";
 import { Web3ConsultingFramework } from "../../../components/data/frameworkData";
-
-const steps = [
-  { id: "01", title: "Initial Consultation & Needs Assessment" },
-  { id: "02", title: "Strategy & Roadmap Development" },
-  { id: "03", title: "Prototyping & MVP Development" },
-  { id: "04", title: "Full-Scale Development & Integration" },
-  { id: "05", title: "Deployment, Security, & Ongoing Support" },
-];
+import { web3ConsultingSteps } from "../../../components/data/productDevPhases";
 
 const Web3Consulting = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
+      
       {/* Banner Image */}
       <BannerContent
         img={web3ConsultingBannerImg}
@@ -79,7 +73,7 @@ const Web3Consulting = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={web3ConsultingSteps}
         heading="Web3 Consulting Process"
         desc="Sneak peek into Giichi's blockchain consulting and development process for a detailed understanding."
       />

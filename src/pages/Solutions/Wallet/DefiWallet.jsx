@@ -7,20 +7,13 @@ import Services from "../../../components/CommonComponent/Services";
 import { DefiWalletService } from "../../../components/data/ServicesData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import defiWalletFeatureImg from "../../../assets/defiFeature.png";
+import { defiWalletSteps } from "../../../components/data/productDevPhases";
 
 const statsData = [
   { label: "User Base", value: "1M+" },
   { label: "Countries Served", value: "150+" },
   { label: "Solutions Delivered", value: "500+" },
   { label: "Total Experience", value: "10+ Years" },
-];
-
-const steps = [
-  { id: "01", title: "Blockchain Pioneers" },
-  { id: "02", title: "Customization Excellence" },
-  { id: "03", title: "End-to-End Services" },
-  { id: "04", title: "Cost-Effective Offerings" },
-  { id: "05", title: "Security-Based Approach" },
 ];
 
 const DefiWallet = () => {
@@ -146,7 +139,7 @@ const DefiWallet = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={defiWalletSteps}
         heading="Our DeFi Development Capabilities"
         desc="Trust our experienced DeFi wallet development team, recognized for crafting successful solutions across the globe."
       />

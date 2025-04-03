@@ -1,16 +1,17 @@
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import BlockchainImg from "../../../assets/blockchainImg.png";
 import Framework from "../../../components/CommonComponent/Framework";
 import { ICOFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { ICOFaq } from "../../../components/data/faqsData";
+import icoDevelopmentBannerImg from "../../../assets/icoDevBanner.png";
+import icoDevelopmentFeatureImg from "../../../assets/icoDevFeature.png";
 
 const ICO = () => {
   return (
     <div className="pt-6 md:pt-12 mb-20">
       {/* Banner Image content */}
       <BannerContent
-        img={BlockchainImg}
+        img={icoDevelopmentBannerImg}
         title1="ICO Development"
         title2="Company"
         desc="End-to-end ICO development solutions designed to ensure a successful Initial Coin Offering launch, driving efficient fundraising efforts."
@@ -21,7 +22,7 @@ const ICO = () => {
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={icoDevelopmentFeatureImg} alt="" className=""/>
         </div>
 
         <div className="w-full lg:w-[50%] ">

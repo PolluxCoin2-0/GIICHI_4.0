@@ -10,7 +10,7 @@ import SoftwareImg from "../../../assets/Software.png";
 import stockChartImg from "../../../assets/stock-chart.png";
 import ManagementImg from "../../../assets/management.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
-
+import { tradingBotsteps } from "../../../components/data/productDevPhases";
 const botTypesLeft = [
   "Margin Trading Bots",
   "Leverage Trading Bots",
@@ -27,14 +27,6 @@ const botTypesRight = [
   "Option Bots",
   "MEV Bots",
   "Signal Bots",
-];
-
-const steps = [
-  { id: "01", title: "Understanding Requirements" },
-  { id: "02", title: "Conceptualization & Design" },
-  { id: "03", title: "Development & QA" },
-  { id: "04", title: "Security & Compliance" },
-  { id: "05", title: "Implementation Maintenance" },
 ];
 
 const TradingBots = () => {
@@ -178,7 +170,7 @@ const TradingBots = () => {
 
       {/* Blockchain Supply Chain Network */}
       <ProductDevPhases
-        data={steps}
+        data={tradingBotsteps}
         heading="Crypto Trading Bot Development Process "
         desc="To guarantee flawless deliveries, our team follows a structured and efficient process for developing trading bots, which includes the following phases:"
       />

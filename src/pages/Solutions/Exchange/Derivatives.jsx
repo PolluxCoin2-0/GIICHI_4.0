@@ -208,8 +208,7 @@ const Derivatives = () => {
           steps={derivativesLifeCycleData}
         />
       </div>
-
-     </div>
+</div>
   );
 };
 
