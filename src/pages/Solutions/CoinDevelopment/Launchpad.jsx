@@ -14,6 +14,7 @@ import launchpadBannerImg from "../../../assets/launchpadBanner.png";
 import launchpadFeatureImg from "../../../assets/launchpadFeature.png";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 import { LaunchpadFeaturesData } from "../../../components/data/data";
+import { motion } from "framer-motion";
 
 const servicesData = [
   {
@@ -97,38 +98,58 @@ const Launchpad = () => {
 
       {/* Cryptocurrency Launchpad Development Journey*/}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[50%] relative">
-          <div className="hidden md:block spotlight spotlight-left"></div>
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <img src={launchpadFeatureImg} alt="" className="" />
-        </div>
+      {/* Animated Image */}
+      <motion.div 
+        initial={{ opacity: 0, x: -100 }} 
+        whileInView={{ opacity: 1, x: 0 }} 
+        transition={{ duration: 1 }}
+        viewport={{ once: false }}
+        className="w-full lg:w-[50%] relative"
+      >
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <img src={launchpadFeatureImg} alt="" className="" />
+      </motion.div>
 
-        <div className="w-full lg:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
-            Accelerate Your Crypto Launchpad Development
-          </p>
-          <p
-            className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"
-            style={{ lineHeight: "1.7" }}
-          >
-            The growing adoption of cryptocurrencies has paved the way for
-            innovative, investor-friendly solutions like crypto launchpads,
-            which simplify the fundraising process for blockchain projects.
-            These platforms empower startups to raise capital and expand
-            efficiently while unlocking new revenue opportunities. <br /> <br />
-            At Giichi, we provide end-to-end crypto launchpad development
-            services, helping you build a robust launchpad and capitalize on the
-            booming crypto industry. Our experienced blockchain engineers and
-            industry experts ensure a fast time-to-market, giving you a
-            competitive edge.
-          </p>
+      {/* Animated Text Content */}
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 1, delay: 0.3 }}
+        viewport={{ once: false }}
+        className="w-full lg:w-[50%] "
+      >
+        <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight">
+          Accelerate Your Crypto Launchpad Development
+        </p>
+        <p
+          className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto"
+          style={{ lineHeight: "1.7" }}
+        >
+          The growing adoption of cryptocurrencies has paved the way for
+          innovative, investor-friendly solutions like crypto launchpads,
+          which simplify the fundraising process for blockchain projects.
+          These platforms empower startups to raise capital and expand
+          efficiently while unlocking new revenue opportunities. <br /> <br />
+          At Giichi, we provide end-to-end crypto launchpad development
+          services, helping you build a robust launchpad and capitalize on the
+          booming crypto industry. Our experienced blockchain engineers and
+          industry experts ensure a fast time-to-market, giving you a
+          competitive edge.
+        </p>
 
-          {/* button to connect on whatsapp */}
-          <div className="mt-12">
-          <ButtonFreeDemo/>
-          </div>
-        </div>
-      </div>
+        {/* Animated Button */}
+        <motion.div 
+          initial={{ opacity: 0, x: 100 }} 
+          whileInView={{ opacity: 1, x: 0 }} 
+          transition={{ duration: 1, delay: 0.6 }}
+          viewport={{ once: false }}
+          className="mt-6"
+        >
+          <ButtonFreeDemo />
+        </motion.div>
+      </motion.div>
+    </div>
 
       {/* Cryptocurrency Launchpad Development Services*/}
       <div className="bg-[#283430] bg-opacity-10 px-4 md:px-8 lg:px-12 xl:px-40 2xl:px-32 3xl:px-60 py-12 mt-12 lg:mt-32">
