@@ -1,31 +1,55 @@
 /* eslint-disable react/prop-types */
+import { motion } from "framer-motion";
 import { LuArrowUpRight } from "react-icons/lu";
 
-const FrameworksCard = ({ logo, title, description }) => {
+const FrameworksCard = ({ logo, title, description, index }) => {
   return (
-    <div className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6 ">
-      <div className="flex flex-row justify-between ">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.2 }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.2 }}
+      className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6"
+    >
+      <div className="flex flex-row justify-between">
         <img src={logo} alt={title} className="w-12" />
         <LuArrowUpRight color="#2BB32A" size={28} />
       </div>
       <p className="text-white pt-4 text-lg font-bold">{title}</p>
-      <p className="text-white text-opacity-50 pt-2 text-[15px]">
-        {description}
-      </p>
-    </div>
+      <p className="text-white text-opacity-50 pt-2 text-[15px]">{description}</p>
+    </motion.div>
   );
 };
 
 const Framework = ({ data, heading1, heading2, desc }) => {
   return (
     <div className="mt-12 relative">
-      <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
-      <div className="hidden md:block spotlight spotlight-left"></div>
-      <div className="hidden md:block spotlight2 spotlight-right"></div>
+      <motion.div
+        initial={{ x: -50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="hidden md:block spotlightOrange spotlightOrange-left"
+      ></motion.div>
+      <motion.div
+        initial={{ x: -50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="hidden md:block spotlight spotlight-left"
+      ></motion.div>
+      <motion.div
+        initial={{ x: 50, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="hidden md:block spotlight2 spotlight-right"
+      ></motion.div>
+      
       <div className="flex flex-col justify-center items-center">
         <p className="text-white text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
           {heading1}
-          <br />{" "}
+          <br />
           <span className="text-transparent bg-clip-text bg-green-gradient block mt-0 md:mt-4">
             {heading2}
           </span>
@@ -42,6 +66,7 @@ const Framework = ({ data, heading1, heading2, desc }) => {
             logo={item.logo}
             title={item.title}
             description={item.description}
+            index={index}
           />
         ))}
       </div>
