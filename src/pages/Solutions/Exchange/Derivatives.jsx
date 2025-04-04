@@ -9,6 +9,7 @@ import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { derivativesLifeCycleData } from "../../../components/data/lifecycleData";
 import Framework from "../../../components/CommonComponent/Framework";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import tradingImg from "../../../assets/trading.png";
 
 const platforms = [
   {
@@ -186,7 +187,7 @@ const Derivatives = () => {
         <div className="w-full lg:w-[40%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
-          {/* img */}
+          <img src={tradingImg} alt="" className=""/>
         </div>
       </div>
 
