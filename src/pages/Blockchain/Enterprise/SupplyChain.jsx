@@ -20,6 +20,7 @@ import walletImg from "../../../assets/wallet (2).png";
 import kycImg from "../../../assets/search-user.png";
 import fundImg from "../../../assets/fund.png";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import { motion } from "framer-motion";
 
 const challengesData = [
   [
@@ -48,41 +49,55 @@ const SupplyChain = () => {
 
       {/* Bloackchain supply chain forecast */}
       <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 lg:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
-        <div className="w-full lg:w-[40%] relative">
-          <div className="hidden md:block spotlight spotlight-left"></div>
-          <div className="hidden md:block spotlight2 spotlight-right"></div>
-          <img
-            src={SupplyFeatureImg}
-            alt="supply-chain-feature-image"
-            className=""
-          />
-        </div>
+      {/* Image Section */}
+      <motion.div 
+        className="w-full lg:w-[40%] relative"
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <div className="hidden md:block spotlight spotlight-left"></div>
+        <div className="hidden md:block spotlight2 spotlight-right"></div>
+        <img
+          src={SupplyFeatureImg}
+          alt="supply-chain-feature-image"
+          className=""
+        />
+      </motion.div>
 
-        <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.2" }} >
-            Blockchain Supply Chain Development: Build a Transparent, Trusted,
-            and Resilient Network
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            The supply chain industry is rapidly evolving, with innovative
-            technologies reshaping operations and processes. Traditional supply
-            chains, reliant on disjointed data systems and paper-based
-            practices, struggle to leverage vast amounts of data effectively.
-          </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-2 xl:pt-4 2xl:pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            Blockchain technology is revolutionizing supply chain management,
-            offering unparalleled transparency, traceability, and significant
-            reductions in administrative costs. At Giichi IT Solutions, we
-            specialize in creating blockchain-powered supply chain solutions
-            that digitize operations, reduce costs, and unlock new
-            opportunities—all while maintaining the integrity of your ongoing
-            processes. Our expertise ensures that supply chain leaders can not
-            only overcome disruptions but also build resilient networks that are
-            future-ready.
-          </p>
-          <ButtonFreeDemo/>
-        </div>
-      </div>
+      {/* Text Section */}
+      <motion.div 
+        className="w-full lg:w-[60%]"
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+      >
+        <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.2" }}>
+          Blockchain Supply Chain Development: Build a Transparent, Trusted,
+          and Resilient Network
+        </p>
+        <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+          The supply chain industry is rapidly evolving, with innovative
+          technologies reshaping operations and processes. Traditional supply
+          chains, reliant on disjointed data systems and paper-based
+          practices, struggle to leverage vast amounts of data effectively.
+        </p>
+        <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-2 xl:pt-4 2xl:pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+          Blockchain technology is revolutionizing supply chain management,
+          offering unparalleled transparency, traceability, and significant
+          reductions in administrative costs. At Giichi IT Solutions, we
+          specialize in creating blockchain-powered supply chain solutions
+          that digitize operations, reduce costs, and unlock new
+          opportunities—all while maintaining the integrity of your ongoing
+          processes. Our expertise ensures that supply chain leaders can not
+          only overcome disruptions but also build resilient networks that are
+          future-ready.
+        </p>
+        <ButtonFreeDemo />
+      </motion.div>
+    </div>
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">
