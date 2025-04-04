@@ -8,6 +8,7 @@ import { arbitrageBotData } from "../../../components/data/clientData";
 import arbitrageBotBannerImg from "../../../assets/arbitrageBotBanner.png";
 import arbitrageBotFeatureImg from "../../../assets/arbitrageBotFeature.png";
 import arbitBotimg from "../../../assets/arbiBotImg.png";
+import { motion } from "framer-motion";
 
 const botTypesLeft = [
   "Triangular Arbitrage Bots",
@@ -101,13 +102,26 @@ const ArbitrageBots = () => {
 
       {/* Types of crypto trading bots */}
       <div className="flex flex-col items-center text-center p-8 mt-16">
-        <h2 className="text-xl md:text-2xl xl:text-3xl font-bold text-transparent bg-clip-text bg-green-gradient">
+      <motion.h2
+          initial={{ opacity: 0, filter: "blur(10px)" }}
+          whileInView={{ opacity: 1, filter: "blur(0px)" }}
+          transition={{ duration: 1 }}
+          viewport={{ once: false }}
+          className="text-xl md:text-2xl xl:text-3xl font-bold text-transparent bg-clip-text bg-green-gradient"
+        >
           Types of Crypto Arbitrage Bots We Develop:
-        </h2>
-        <p className="text-white text-opacity-70 mt-6 max-w-2xl text-sm md:text-[16px] " style={{ lineHeight: '1.7' }}>
+          </motion.h2>
+          <motion.p
+          initial={{ opacity: 0, filter: "blur(10px)" }}
+          whileInView={{ opacity: 1, filter: "blur(0px)" }}
+          transition={{ duration: 1, delay: 0.3 }}
+          viewport={{ once: false }}
+          className="text-white text-opacity-70 mt-4 max-w-2xl text-sm lg:text-[16px]"
+          style={{ lineHeight: "1.7" }}
+        >
           Our team of arbitrage bot developers is capable of building
           high-frequency trading bots for a wide range of trading strategies.
-        </p>
+        </motion.p>
         <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-24 w-full max-w-7xl">
           <div className="w-full md:w-1/3 flex justify-center">
             <img src={arbitBotimg} alt="" className="" />
@@ -115,24 +129,32 @@ const ArbitrageBots = () => {
           <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
             <ul className="list-disc space-y-8">
               {botTypesLeft.map((bot, index) => (
-                <li
-                  key={index}
-                  className="text-white flex items-center text-sm md:text-[16px]"
-                >
+                <motion.li
+                key={index}
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: index * 0.2 }}
+                viewport={{ once: false }}
+                className="text-white flex items-center text-xs md:text-sm lg:text-[16px]"
+              >
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
-                </li>
+                </motion.li>
               ))}
             </ul>
             <ul className="list-none space-y-8">
               {botTypesRight.map((bot, index) => (
-                <li
+                  <motion.li
                   key={index}
-                  className="text-white flex items-center text-sm md:text-[16px]"
+                  initial={{ opacity: 0, x: -30 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8, delay: index * 0.2 }}
+                  viewport={{ once: false }}
+                  className="text-white flex items-center text-xs md:text-sm lg:text-[16px]"
                 >
                   <span className="w-2 h-2 bg-green mr-4 inline-block"></span>
                   {bot}
-                </li>
+                </motion.li>
               ))}
             </ul>
           </div>
