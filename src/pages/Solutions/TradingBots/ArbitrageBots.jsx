@@ -95,6 +95,8 @@ const ArbitrageBots = () => {
           className="mt-12"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <a
