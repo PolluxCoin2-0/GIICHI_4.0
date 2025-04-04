@@ -1,44 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 // import { PulseBeams } from "../../../components/resuableComponent/PulseBeam";
-import serviceIcon from "../../../assets/collab.png";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { maasLifeCycleData } from "../../../components/data/lifecycleData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { MaasFaq } from "../../../components/data/faqsData";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import MaasBannerImg from "../../../assets/maasBannerImg.png";
-import teamImg from "../../../assets/management.png";
-import solutionImg from "../../../assets/process.png";
-import exchangeImg from "../../../assets/Exchange.png";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
-
-const services = [
-  {
-    icon: teamImg,
-    title: "Experienced Team",
-    description:
-      "Our skilled and experienced experts craft customized NFT marketing strategies, helping businesses achieve success efficiently and within a short timeframe.",
-  },
-  {
-    icon: solutionImg,
-    title: "Customized Solutions",
-    description:
-      "We recognize that each business has unique needs, so our expert team designs tailored strategies to deliver optimal results.",
-  },
-  {
-    icon: serviceIcon,
-    title: "High Scalability",
-    description:
-      "Our ICO marketing services are designed to scale effortlessly, ensuring seamless adaptation to the evolving needs of blockchain businesses.",
-  },
-  {
-    icon: exchangeImg,
-    title: "Growth-Oriented Strategies",
-    description:
-      "Our expert blockchain marketers craft strategies focused on driving business growth and elevating success to the next level.",
-  },
-];
+import { MaasServicesData } from "../../../components/data/data";
 
 const Maas = () => {
   return (
@@ -222,7 +192,7 @@ const Maas = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-          {services.map((service, index) => (
+          {MaasServicesData.map((service, index) => (
             <div
               key={index}
               className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6"

@@ -1,13 +1,7 @@
 /* eslint-disable react/prop-types */
 import BannerContent from "../../../components/CommonComponent/BannerContent";
-import serviceIcon from "../../../assets/collab.png";
 import Faq from "../../../components/resuableComponent/Faq";
 import { CoinLaunchpadFaq } from "../../../components/data/faqsData";
-import StakingImg from "../../../assets/Staking.png";
-import supplyChainImg from "../../../assets/logictics.png";
-import WalletImg from "../../../assets/wallet (2).png";
-import FundImg from "../../../assets/fund.png";
-import RecordImg from "../../../assets/record.png";
 import icoImg from "../../../assets/ico (1).png";
 import idoImg from "../../../assets/ido.png";
 import ieoImg from "../../../assets/ieo.png";
@@ -19,45 +13,7 @@ import inoImg from "../../../assets/ino.png";
 import launchpadBannerImg from "../../../assets/launchpadBanner.png";
 import launchpadFeatureImg from "../../../assets/launchpadFeature.png";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
-
-const features = [
-  {
-    icon: RecordImg,
-    title: "Know your customer (KYC)",
-    description:
-      "Ensures businesses and investors are verified, granting only legitimate users access to the platform.",
-  },
-  {
-    icon: FundImg,
-    title: "Multiple fundraising methods",
-    description:
-      "Supports various fundraising models, allowing businesses to raise capital seamlessly.",
-  },
-  {
-    icon: WalletImg,
-    title: "Integrated Crypto Wallet",
-    description:
-      "A secure built-in crypto wallet facilitates safe transactions and storage of digital assets.",
-  },
-  {
-    icon: StakingImg,
-    title: "Multi-tier staking",
-    description:
-      "Enables multiple crowdfunding rounds based on the total tokens staked, enhancing participation flexibility.",
-  },
-  {
-    icon: serviceIcon,
-    title: "Enhanced Transparency",
-    description:
-      "Boosts project visibility, attracting more investors and fostering trust within the ecosystem.",
-  },
-  {
-    icon: supplyChainImg,
-    title: "Blockchain Compatibility",
-    description:
-      "Supports multiple blockchain networks, giving platform owners the flexibility to expand functionality across different ecosystems.",
-  },
-];
+import { LaunchpadFeaturesData } from "../../../components/data/data";
 
 const servicesData = [
   {
@@ -210,7 +166,7 @@ const Launchpad = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-          {features.map((service, index) => (
+          {LaunchpadFeaturesData.map((service, index) => (
             <div
               key={index}
               className="w-full border-[1px] border-white border-opacity-30 rounded-3xl p-4 lg:p-6"
