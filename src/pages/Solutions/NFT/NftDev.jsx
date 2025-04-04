@@ -5,7 +5,7 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { NftDevFaq } from "../../../components/data/faqsData";
 import nftDevFeatureImg from "../../../assets/nftDevFeature.png";
 import nftDevFeature2Img from "../../../assets/nftTokenFeature2.png";
-import ButtonFreeDemo from "../../../components/resuableComponent/BUttonFreeDemo";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const stages = [
   {
