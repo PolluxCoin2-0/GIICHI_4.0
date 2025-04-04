@@ -22,7 +22,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
             key={index}
             className={`flex flex-row space-x-12 items-center ${
               index % 2 === 0
-                ? "xl:ml-[200px] 2xl:ml-[150px] 3xl:ml-[400px]"
+                ? "xl:ml-[200px] 2xl:ml-[150px] 3xl:ml-[300px]"
                 : "xl:ml-[800px] 2xl:ml-[820px] 3xl:ml-[980px]"
             } mt-12`}
           >
@@ -30,7 +30,7 @@ const LifeCycle = ({ heading1, heading2, desc, steps }) => {
               <p className="text-white text-[15px] md:text-xl 2xl:text-2xl ml-[80px] ">
                 {step.title}
               </p>
-              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] ml-[80px] text-opacity-70 pt-0 lg:pt-2 w-[70%] md:w-[40%] ">
+              <p className="text-white text-[10px] md:text-[12px] 2xl:text-[14px] ml-[80px] text-opacity-70 pt-0 lg:pt-2 w-[70%] md:w-[30%] ">
                 {step.description}
               </p>
             </div>
