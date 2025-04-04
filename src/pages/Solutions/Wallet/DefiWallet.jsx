@@ -8,6 +8,7 @@ import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhas
 import defiWalletFeatureImg from "../../../assets/defiFeature.png";
 import { defiWalletSteps } from "../../../components/data/productDevPhases";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import defiWalletImg from "../../../assets/defiWalletImg.png";
 
 const statsData = [
   { label: "User Base", value: "500k+" },
@@ -24,16 +25,16 @@ const DefiWallet = () => {
         <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <p className="text-5xl text-white font-semibold text-center">
+        <p className="text-3xl md:text-4xl lg:text-5xl text-white font-semibold text-center">
           DeFi Wallet <br />
           <span className="text-transparent bg-clip-text bg-green-gradient">
             Development Company
           </span>
         </p>
-        <div className="flex flex-row w-full mt-12">
-          <div className="w-[50%]">{/* image */}</div>
-          <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+        <div className="flex flex-col md:flex-row items-center w-full mt-12">
+          <div className="w-full md:w-[50%]"><img src={defiWalletFeatureImg} alt="" className="w-[80%]"/></div>
+          <div className="w-full md:w-[50%] mt-6 md:mt-0">
+            <p className="text-white text-opacity-70 text-justify hyphens-auto text-sm md:text-[16px]" style={{ lineHeight: "1.7" }}>
               Collaborate with the leading DeFi wallet development company to
               provide users with a wallet that ensures full asset control and
               superior security. Our solutions enable smooth and transparent
@@ -50,13 +51,13 @@ const DefiWallet = () => {
             </p>
 
             {/* button to connect on whatsapp */}
-            <div className="flex flex-row items-center space-x-6 mt-6">
+            <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6 mt-6">
               <a
                 type="button"
                 href="https://wa.me/9266416198"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
                 aria-label="Contact us "
                 title="Click to contact us form"
               >
@@ -69,7 +70,7 @@ const DefiWallet = () => {
       </div>
 
       {/* Our blockchain consulting related services */}
-      <div className="flex flex-col lg:flex-row justify-between items-start space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
+      <div className="flex flex-col lg:flex-row justify-between items-start space-x-0 md:space-x-32 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 2xl:mt-32 mb-6 md:mb-12">
         <div className="w-full lg:w-[50%] relative">
           <div className="hidden md:block spotlight spotlight-left"></div>
           <div className="hidden md:block spotlight2 spotlight-right"></div>
@@ -92,8 +93,9 @@ const DefiWallet = () => {
             advantage of this high-growth opportunity!
           </p>
         </div>
-        <div className="w-full lg:w-[50%] flex justify-end">
-          <img src={defiWalletFeatureImg} alt="" className="w-[90%]"/>
+        <div className="w-full lg:w-[50%]">
+        <img src={defiWalletImg} alt="" className="" />
+      
         </div>
       </div>
 
@@ -101,11 +103,11 @@ const DefiWallet = () => {
       <div className="relative mt-24 mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-10  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <div className="flex flex-col md:flex-row justify-between items-center bg-[#283430] bg-opacity-10 py-10  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           {statsData.map((stat, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center "
+              className="flex flex-col items-center text-center mt-6 md:mt-0"
             >
               <div className="text-3xl font-bold text-white mb-2">
                 {stat.value}

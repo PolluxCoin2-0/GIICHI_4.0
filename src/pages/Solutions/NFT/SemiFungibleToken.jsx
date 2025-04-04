@@ -9,6 +9,7 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import semiFungibleBannerImg from "../../../assets/semiFungibleBanner.png";
 import semiFungibleFeatureImg from "../../../assets/semiFungibleFeature.png";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import semiNftImg from "../../../assets/semiNftImg.png";
 
 const SemiFungibleToken = () => {
   return (
@@ -53,13 +54,13 @@ const SemiFungibleToken = () => {
             business.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="flex flex-row items-center space-x-6 mt-4">
+          <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6 mt-4">
             <a
               type="button"
               href="https://wa.me/9266416198"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
               aria-label="Contact us "
               title="Click to contact us form"
             >
@@ -71,9 +72,9 @@ const SemiFungibleToken = () => {
       </div>
 
       {/* WHY TO INVEST IN CRYPTO EXCHANGE COMPANY*/}
-      <div className="flex flex-col lg:flex-row justify-between items-center space-x-20 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 3xl:mt-40">
+      <div className="flex flex-col lg:flex-row justify-between items-center space-x-0 md:space-x-20 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 3xl:mt-40">
         <div className="w-full lg:w-[50%]">
-          <p className="text-3xl font-semibold text-transparent bg-clip-text bg-green-gradient">
+          <p className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-green-gradient">
             Semi Fungible Token Development Benefits
           </p>
           <p className="text-white text-[15px] font-medium pt-4 pb-2">
@@ -83,13 +84,13 @@ const SemiFungibleToken = () => {
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center ">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
               <img src={ManagementImg} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px] text-center">
+              <p className="text-white pt-2 text-sm md:text-[17px] lg:text-[14px] text-center">
                 Easy management of fungible and non-fungible tokens
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] mt-4 md:mt-0 flex flex-col justify-center items-center">
               <img src={processImg} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+              <p className="text-white pt-2 text-sm md:text-[17px] lg:text-[14px] text-center">
                 The minting process is simple, accessible, and cost-effective.
               </p>
             </div>
@@ -102,14 +103,14 @@ const SemiFungibleToken = () => {
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-4 items-center">
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16 w-full md:w-[70%] flex flex-col justify-center items-center">
               <img src={stockChartImg} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+              <p className="text-white pt-2 text-sm md:text-[17px] lg:text-[14px] text-center">
                 Even when bundled under one smart contract, the owner can
                 unbundle and trade each token individually.
               </p>
             </div>
             <div className=" bg-[#239400] bg-opacity-5 px-6 py-16  w-full md:w-[70%] mt-4 md:mt-0 flex flex-col justify-center items-center">
               <img src={nft1Img} alt="" className="" />
-              <p className="text-white pt-2 text-[17px] md:text-[14px]  text-center">
+              <p className="text-white pt-2 text-sm md:text-[17px] lg:text-[14px] text-center">
                 Only one smart contract is required to control both fungible and
                 non-fungible tokens
               </p>
@@ -117,7 +118,7 @@ const SemiFungibleToken = () => {
           </div>
         </div>
 
-        <div className="w-full lg:w-[50%] ">{/* img */}</div>
+        <div className="w-full lg:w-[50%] flex justify-center md:justify-end mt-6 md:mt-0"><img src={semiNftImg} alt="" className="w-[70%]" /></div>
       </div>
 
       {/* FAQ SECTION */}
