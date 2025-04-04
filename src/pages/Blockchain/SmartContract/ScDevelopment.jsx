@@ -10,6 +10,7 @@ import { ScDevLifeCycleData } from "../../../components/data/lifecycleData";
 import Process from "../../../components/CommonComponent/Process";
 import { ScDevProcessSteps } from "../../../components/data/processData";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import { motion } from "framer-motion";
 
 const ScDevelopment = () => {
   return (
@@ -24,34 +25,57 @@ const ScDevelopment = () => {
 
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-12 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight spotlight-right"></div>
-        <div className="w-full md:w-[40%]">
-          <img
-            src={scDevFeatureImg}
-            alt="smart-contract-feature-image"
-            className="w-[90%]"
-          />
-        </div>
-        <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4" style={{ lineHeight: "1.4" }}>
-            Smart Contracts: The Future of Business Automation
-          </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            Smart contracts are self-executing, self-enforcing protocols that
-            redefine how agreements are made across industries like real estate,
-            supply chain, telecom, manufacturing, healthcare, and more. These
-            immutable, transparent, and efficient contracts eliminate
-            intermediaries, reduce costs, and enhance security. <br/> <br/>
-            At Giichi IT Solutions, we specialize in custom smart contract
-            development, tailored to your unique business needs. With a team of
-            expert blockchain developers, we build secure, scalable, and
-            optimized smart contracts that streamline business processes and
-            drive automation.
-          </p>
-          <ButtonFreeDemo/>
-        </div>
-      </div>
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+      
+      {/* Image Animation */}
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: false }}
+        className="w-full md:w-[40%]"
+      >
+        <img
+          src={scDevFeatureImg}
+          alt="smart-contract-feature-image"
+          className="w-[90%]"
+        />
+      </motion.div>
+      
+      {/* Text Animation */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        viewport={{ once: false }}
+        className="w-full md:w-[60%]"
+      >
+        <p className="text-white text-2xl xl:text-4xl font-semibold pt-4" style={{ lineHeight: "1.4" }}>
+          Smart Contracts: The Future of Business Automation
+        </p>
+        <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+          Smart contracts are self-executing, self-enforcing protocols that
+          redefine how agreements are made across industries like real estate,
+          supply chain, telecom, manufacturing, healthcare, and more. These
+          immutable, transparent, and efficient contracts eliminate
+          intermediaries, reduce costs, and enhance security. <br /> <br />
+          At Giichi IT Solutions, we specialize in custom smart contract
+          development, tailored to your unique business needs. With a team of
+          expert blockchain developers, we build secure, scalable, and
+          optimized smart contracts that streamline business processes and
+          drive automation.
+        </p>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          viewport={{ once: false }}
+        >
+          <ButtonFreeDemo />
+        </motion.div>
+      </motion.div>
+    </div>
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">

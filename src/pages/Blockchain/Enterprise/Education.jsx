@@ -9,6 +9,7 @@ import { EducationFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import { motion } from "framer-motion";
 
 const benefits = [
   [
@@ -77,34 +78,48 @@ const Education = () => {
 
       {/* Bloackchain education forecast */}
       <div className="flex flex-col md:flex-row justify-between space-x-0 lg:space-x-10 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-6 md:mb-12 relative">
-        <div className="hidden md:block spotlight spotlight-left"></div>
-        <div className="hidden md:block spotlight spotlight-right"></div>
-        <div className="w-full md:w-[40%]">
-          <img
-            src={EducationFeatureImg}
-            alt="education-feature-image"
-            className="w-[70%]"
-          />
-        </div>
-        <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
-            Blockchain Application in Education: Embrace Greater Transparency
-            and Credibility
-          </p>
-          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            The education sector is evolving, and blockchain technology is at
-            the forefront of this transformation. By offering secure,
-            decentralized, and transparent records of learning, blockchain
-            enhances credibility, accessibility, and efficiency in education.<br/> <br/>
-            At Giichi IT Solutions, we empower educational institutions with
-            cutting-edge blockchain solutions that fortify academic records,
-            automate learning processes, and enhance trust in credentials. Our
-            expert blockchain developers craft tailored solutions to help you
-            redefine education with transparency and security.
-            </p>
-            <ButtonFreeDemo/>
-        </div>
-      </div>
+      <div className="hidden md:block spotlight spotlight-left"></div>
+      <div className="hidden md:block spotlight spotlight-right"></div>
+      
+      <motion.div 
+        initial={{ y: 50, opacity: 0 }} 
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="w-full md:w-[40%]"
+      >
+        <img
+          src={EducationFeatureImg}
+          alt="education-feature-image"
+          className="w-[70%]"
+        />
+      </motion.div>
+      
+      <motion.div 
+        initial={{ y: -50, opacity: 0 }} 
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="w-full md:w-[60%]"
+      >
+        <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
+          Blockchain Application in Education: Embrace Greater Transparency
+          and Credibility
+        </p>
+        <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
+          The education sector is evolving, and blockchain technology is at
+          the forefront of this transformation. By offering secure,
+          decentralized, and transparent records of learning, blockchain
+          enhances credibility, accessibility, and efficiency in education.<br/> <br/>
+          At Giichi IT Solutions, we empower educational institutions with
+          cutting-edge blockchain solutions that fortify academic records,
+          automate learning processes, and enhance trust in credentials. Our
+          expert blockchain developers craft tailored solutions to help you
+          redefine education with transparency and security.
+        </p>
+        <ButtonFreeDemo />
+      </motion.div>
+    </div>
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-0 md:pt-16 pb-6">

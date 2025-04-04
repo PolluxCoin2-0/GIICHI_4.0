@@ -6,6 +6,7 @@ import { EntertainmentFramework } from "../../../components/data/frameworkData";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import { motion } from "framer-motion";
 
 const Entertainment = () => {
   return (
@@ -22,35 +23,53 @@ const Entertainment = () => {
       <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-20 items-center w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 relative">
       <div className="hidden md:block spotlightOrange spotlightOrange-left"></div>
 
-        <div className="w-full md:w-[40%]">
-          <img
-            src={MediaFeatureImg}
-            alt="media-feature-image"
-            className="w-full object-contain"
-          />
-        </div>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="w-full md:w-[40%]"
+      >
+        <img
+          src={MediaFeatureImg}
+          alt="media-feature-image"
+          className="w-full object-contain"
+        />
+      </motion.div>
 
-        <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 ">
-            Media & Entertainment Industry: Ripe for Blockchain Adoption
-          </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 leading-7 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            The media and entertainment industry faces challenges like content
-            commoditization, widespread piracy, and copyright infringements.
-            Many users hesitate to pay for premium content, leading to revenue
-            leakage despite new streaming models.
-          </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 leading-7 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
-            Blockchain technology offers a solution by reducing IP
-            infringements, ensuring transparent content ownership, and enabling
-            seamless monetization through smart contracts. At Giichi IT
-            Solutions, we leverage blockchain to transform digital rights
-            management, secure content distribution, and drive revenue growth
-            for creators and businesses.
-          </p>
-          <ButtonFreeDemo/>
-        </div>
-      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="w-full md:w-[60%]"
+      >
+        <p className="text-white text-2xl xl:text-4xl font-semibold pt-4">
+          Media & Entertainment Industry: Ripe for Blockchain Adoption
+        </p>
+        <p
+          className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 leading-7 text-justify hyphens-auto"
+          style={{ lineHeight: "1.7" }}
+        >
+          The media and entertainment industry faces challenges like content
+          commoditization, widespread piracy, and copyright infringements.
+          Many users hesitate to pay for premium content, leading to revenue
+          leakage despite new streaming models.
+        </p>
+        <p
+          className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 leading-7 text-justify hyphens-auto"
+          style={{ lineHeight: "1.7" }}
+        >
+          Blockchain technology offers a solution by reducing IP
+          infringements, ensuring transparent content ownership, and enabling
+          seamless monetization through smart contracts. At Giichi IT
+          Solutions, we leverage blockchain to transform digital rights
+          management, secure content distribution, and drive revenue growth
+          for creators and businesses.
+        </p>
+        <ButtonFreeDemo />
+      </motion.div>
+    </div>
 
       {/* bottom line */}
       <div className="flex justify-center items-center pt-6 md:pt-16 pb-6">
