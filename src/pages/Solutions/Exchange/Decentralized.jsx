@@ -8,6 +8,7 @@ import { BsGlobeCentralSouthAsia } from "react-icons/bs";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import decentralizedExchangeBannerImg from "../../../assets/decenExchangeBanner.png";
 import decentralizedExchangeFeatureImg from "../../../assets/decenExchangeFeature.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const platforms = [
   {
@@ -147,6 +148,8 @@ const Decentralized = () => {
           ))}
         </div>
       </div>
+
+      <Offerings data="Reach Giichi and discuss your requirements with our Decentralized Development experts TODAY!"/>
 
       {/* WHAT MAKES US STAND*/}
       <div className="bg-blue-500 py-16 text-center px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 ">

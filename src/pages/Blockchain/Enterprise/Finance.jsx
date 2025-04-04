@@ -8,6 +8,7 @@ import NetworkImg from "../../../assets/depinGover.png";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import Framework from "../../../components/CommonComponent/Framework";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const Finance = () => {
   return (
@@ -33,23 +34,22 @@ const Finance = () => {
         </div>
 
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
+          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4" style={{ lineHeight: "1.5" }}>
             Blockchain Applications in Finance: Driving the Change
           </p>
-          <p className="text-[14px] lg:text-[15px] 2xl:text-[17px]  font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-[14px] lg:text-[15px] 2xl:text-[17px]  font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Blockchain is revolutionizing financial operations by shifting
             control from centralized authorities to a decentralized, trustless
             ecosystem. This transformation leads to significant savings in
             administrative, infrastructure, and transaction costs while
-            improving efficiency, transparency, and security.
-          </p>
-          <p className="text-[14px] lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-8 leading-6 text-justify hyphens-auto">
-            By eliminating intermediaries, blockchain streamlines digital asset
+            improving efficiency, transparency, and security. <br/> <br/>
+           By eliminating intermediaries, blockchain streamlines digital asset
             transfers and reduces reliance on central counterparties, ensuring
             faster and more reliable transactions. Its integration enhances
             trust, accuracy, and resilience in financial services, making it an
             essential technology for the future of finance.
           </p>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

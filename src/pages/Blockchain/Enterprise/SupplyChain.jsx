@@ -19,6 +19,7 @@ import manageImg from "../../../assets/management.png";
 import walletImg from "../../../assets/wallet (2).png";
 import kycImg from "../../../assets/search-user.png";
 import fundImg from "../../../assets/fund.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const challengesData = [
   [
@@ -58,17 +59,17 @@ const SupplyChain = () => {
         </div>
 
         <div className="w-full lg:w-[60%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4  tracking-tight">
+          <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight" style={{ lineHeight: "1.2" }} >
             Blockchain Supply Chain Development: Build a Transparent, Trusted,
             and Resilient Network
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             The supply chain industry is rapidly evolving, with innovative
             technologies reshaping operations and processes. Traditional supply
             chains, reliant on disjointed data systems and paper-based
             practices, struggle to leverage vast amounts of data effectively.
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-2 xl:pt-4 2xl:pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-2 xl:pt-4 2xl:pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Blockchain technology is revolutionizing supply chain management,
             offering unparalleled transparency, traceability, and significant
             reductions in administrative costs. At Giichi IT Solutions, we
@@ -79,6 +80,7 @@ const SupplyChain = () => {
             only overcome disruptions but also build resilient networks that are
             future-ready.
           </p>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

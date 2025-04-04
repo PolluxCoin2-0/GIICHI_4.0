@@ -123,9 +123,9 @@ const PaymentGateway = () => {
                 {index < steps.length - 1 && (
                   <div className="hidden md:block absolute top-10 left-20 w-60 border-t-[2px] border-dashed border-gray-300 -z-[1]"></div>
                 )}
-                <div className="hidden md:flex items-center justify-center w-8 h-8 bg-[#010F02] text-white rounded-full  absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
+                {/* <div className="hidden md:flex items-center justify-center w-8 h-8 bg-[#010F02] text-white rounded-full  absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
                   {index + 1}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

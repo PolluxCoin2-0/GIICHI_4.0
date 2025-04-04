@@ -12,6 +12,7 @@ import { MdOutlineHttp } from "react-icons/md";
 import { AiOutlineFileProtect } from "react-icons/ai";
 import whiteLabelFeature1Img from "../../../assets/wlExchangeFeature1.png";
 import whiteLabelFeature2Img from "../../../assets/semiFungibleTokenFeature2.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const platforms = [
  {
@@ -101,18 +102,8 @@ const WhiteLabel = () => {
           We provide you with a solid software foundation for your exchange business, empowering you to make a significant impact on your customers with a fully customizable, feature-rich white label cryptocurrency exchange.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Talk to our Experts
-            </a>
+          <div className="mt-6">
+            <ButtonFreeDemo/>
           </div>
         </div>
       </div>
@@ -169,7 +160,7 @@ const WhiteLabel = () => {
               aria-label="Contact us "
               title="Click to contact us form"
             >
-              Connect on Whatsapp
+               Talk to our Experts
             </a>
           </div>
         </div>
@@ -182,7 +173,7 @@ const WhiteLabel = () => {
       </div>
 
       {/* Top Benefits of blockchain development company */}
-      <div className="mt-20">
+      <div className="mt-32">
         <Framework
           data={WhiteLabelExchangeFramework}
           heading1="White Label Crypto Exchange Software : "

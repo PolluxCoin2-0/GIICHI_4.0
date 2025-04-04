@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import { AssetTokenFramework } from "../../../components/data/frameworkData";
-import { Link } from "react-router-dom";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import Framework from "../../../components/CommonComponent/Framework";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
@@ -11,6 +10,7 @@ import { clientData } from "../../../components/data/clientData";
 import assetTokenBannerImg from "../../../assets/assetTokenBanner.png";
 import assetTokenFeature1 from "../../../assets/assetTokenFeature1.png";
 import assetTokenFeature2 from "../../../assets/assetTokenFeature2.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const AssetToken = () => {
   return (
@@ -51,16 +51,7 @@ const AssetToken = () => {
             </li>
           </ul>
           {/* button for a free demo */}
-          <Link to="/contact-us">
-            <button
-              type="button"
-              className="mt-8 ml-2 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Schedule a Free Demo
-            </button>
-          </Link>
+          <ButtonFreeDemo/>
         </div>
       </div>
 
@@ -97,16 +88,20 @@ const AssetToken = () => {
             </li>
           </ul>
           {/* button for a free demo */}
-          <Link to="/contact-us">
-            <button
+          <div className="mt-12">
+          <a
               type="button"
-              className="mt-8  bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
+              href="https://wa.me/9266416198"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
+              text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
               aria-label="Contact us "
               title="Click to contact us form"
             >
-              Talk to our Expert
-            </button>
-          </Link>
+              Connect on Whatsapp
+            </a>
+            </div>
         </div>
 
         <div className="w-full md:w-[40%]">

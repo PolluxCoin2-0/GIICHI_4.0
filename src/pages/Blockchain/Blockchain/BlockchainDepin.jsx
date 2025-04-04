@@ -63,7 +63,7 @@ const BlockchainDepin = () => {
 
       {/* connect section */}
       <div>
-        <LetsTalk buttonText="Hire Us" />
+        <LetsTalk buttonText="Connect On Whatsapp" />
       </div>
 
       {/* FAQ Section */}

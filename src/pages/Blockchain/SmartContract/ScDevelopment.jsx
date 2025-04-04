@@ -9,6 +9,7 @@ import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { ScDevLifeCycleData } from "../../../components/data/lifecycleData";
 import Process from "../../../components/CommonComponent/Process";
 import { ScDevProcessSteps } from "../../../components/data/processData";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const ScDevelopment = () => {
   return (
@@ -33,23 +34,22 @@ const ScDevelopment = () => {
           />
         </div>
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4">
+          <p className="text-white text-2xl xl:text-4xl font-semibold pt-4" style={{ lineHeight: "1.4" }}>
             Smart Contracts: The Future of Business Automation
           </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 leading-8 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Smart contracts are self-executing, self-enforcing protocols that
             redefine how agreements are made across industries like real estate,
             supply chain, telecom, manufacturing, healthcare, and more. These
             immutable, transparent, and efficient contracts eliminate
-            intermediaries, reduce costs, and enhance security.
-          </p>
-          <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-70 pt-6 px-0 leading-8 text-justify hyphens-auto">
+            intermediaries, reduce costs, and enhance security. <br/> <br/>
             At Giichi IT Solutions, we specialize in custom smart contract
             development, tailored to your unique business needs. With a team of
             expert blockchain developers, we build secure, scalable, and
             optimized smart contracts that streamline business processes and
             drive automation.
           </p>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

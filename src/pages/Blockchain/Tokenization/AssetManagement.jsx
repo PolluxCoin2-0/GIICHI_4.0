@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
-import { Link } from "react-router-dom";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import assetManagementBanner from "../../../assets/assetManageBanner.png";
 import assetManagementFeature from "../../../assets/assetManageFeature.png";
 import { clientData } from "../../../components/data/clientData";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 
 const AssetManagement = () => {
@@ -39,16 +39,7 @@ Despite its potential, crypto trading remains complex due to its decentralized n
           </p>
           
           {/* button for a free demo */}
-          <Link to="/contact-us">
-            <button
-              type="button"
-              className="mt-8 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a Free Demo
-            </button>
-          </Link>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

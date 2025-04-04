@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { Web3WalletFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
@@ -12,6 +11,7 @@ import depinScImg from "../../../assets/depinSc.png";
 import web3FeatureImg from "../../../assets/webFeature.png";
 import webFeature2Img from "../../../assets/webWalletFeature2.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const benefits = [
   [
@@ -106,16 +106,7 @@ const Web3Wallet = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+              <ButtonFreeDemo/>
             </div>
           </div>
         </div>
@@ -156,7 +147,7 @@ const Web3Wallet = () => {
       </div>
 
       {/*  Web3 Wallet Development:  */}
-      <div className="mt-12 relative">
+      <div className="mt-32 relative">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight spotlight-right"></div>
         <p className="text-white text-center text-xl md:text-5xl font-bold pt-4 tracking-wide px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">

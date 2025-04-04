@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
-import { Link } from "react-router-dom";
 import { RealEstateTokenizationService } from "../../../components/data/ServicesData";
 import Services from "../../../components/CommonComponent/Services";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import realEstateTokenBanner from "../../../assets/realEstateTokenBanner.png";
 import realEstateTokenFeature from "../../../assets/realEstateTokenFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const steps = [
   { id: "01", title: "Asset Structuring & Legal Compliance" },
@@ -47,16 +47,7 @@ const RealEstatetToken = () => {
           </p>
  
           {/* button for a free demo */}
-          <Link to="/contact-us">
-            <button
-              type="button"
-              className="mt-8 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-[17px] text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a Free Demo
-            </button>
-          </Link>
+        <ButtonFreeDemo/>
         </div>
       </div>
 
