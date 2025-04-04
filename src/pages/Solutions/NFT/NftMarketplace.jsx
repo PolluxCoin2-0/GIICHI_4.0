@@ -3,6 +3,7 @@ import { NftMarketplaceFaq } from "../../../components/data/faqsData";
 import nftMarketplaceFeatureImg from "../../../assets/nftMarketplaceFeature.png";
 import nftMarketplaceBannerImg from "../../../assets/nftMarketplaceBanner.png";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const NftMarketplace = () => {
   return (
@@ -67,6 +68,8 @@ const NftMarketplace = () => {
           </ul>
         </div>
       </div>
+
+      <Offerings data="Reach Giichi and discuss your requirements with our NFT Marketplace experts TODAY!"/>
 
       {/* FAQ SECTION */}
       <div className="mt-32 mb-20">

@@ -177,7 +177,7 @@ const Navbar = () => {
             { label: "Multicurrency Wallet", link: "/multi-currency-wallet" },
             { label: "MPC Crypto Wallet", link: "/mpc-crypto-wallet" },
             { label: "Defi Wallet", link: "/defi-wallet" },
-            { label: "Polink Wallet", link: "/polink-wallet" },
+            { label: "Polink Wallet", link: "" },
             { label: "NFT Wallet", link: "/non-fungible-token-wallet" },
           ],
         },

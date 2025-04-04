@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
 import { SemiFungibleFaq } from "../../../components/data/faqsData";
 import nft1Img from "../../../assets/nft1.png";
@@ -9,6 +8,7 @@ import stockChartImg from "../../../assets/stock-chart.png";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import semiFungibleBannerImg from "../../../assets/semiFungibleBanner.png";
 import semiFungibleFeatureImg from "../../../assets/semiFungibleFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const SemiFungibleToken = () => {
   return (
@@ -65,16 +65,7 @@ const SemiFungibleToken = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+           <ButtonFreeDemo/>
           </div>
         </div>
       </div>

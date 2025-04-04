@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { StablecoinFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
@@ -13,6 +12,7 @@ import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { FaCoins } from "react-icons/fa6";
 import { SiAlgolia } from "react-icons/si";
 import { BsClipboard2DataFill } from "react-icons/bs";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const steps = [
   {
@@ -109,16 +109,7 @@ const Stablecoin = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+          <ButtonFreeDemo/>
           </div>
         </div>
       </div>

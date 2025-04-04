@@ -19,6 +19,7 @@ import Process from "../../../components/CommonComponent/Process";
 import { CryptoExchangeProcessSteps } from "../../../components/data/processData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { CustomExchangeFaq } from "../../../components/data/faqsData";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const platforms = [
   {
@@ -105,18 +106,8 @@ export const Custom = () => {
             expertise.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-16">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
+          <div className="mt-8">
+          <ButtonFreeDemo/>
           </div>
         </div>
       </div>

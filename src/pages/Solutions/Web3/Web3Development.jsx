@@ -7,13 +7,13 @@ import BannerContent from "../../../components/CommonComponent/BannerContent";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import web3DevelopmentBannerImg from "../../../assets/web3.0Banner.png";
 import web3DevelopmentFeatureImg from "../../../assets/web3.0Feature.png";
-import { Link } from "react-router-dom";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const statsData = [
-  { label: "Years of blockchain experience", value: "7+" },
-  { label: "End-Users Supported", value: "2M+" },
-  { label: "Billion Trades Enabled", value: "3+" },
-  { label: "Blockchain Engineers", value: "500+" },
+  { label: "Years of blockchain experience", value: "5+" },
+  { label: "End-Users Supported", value: "100k+" },
+  { label: "Billion Trades Enabled", value: "300+" },
+  { label: "Blockchain Engineers", value: "50+" },
 ];
 
 const stages = [
@@ -95,16 +95,7 @@ const Web3Development = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-5 md:px-6 lg:px-8 py-3 text-white text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+            <ButtonFreeDemo/>
           </div>
         </div>
       </div>

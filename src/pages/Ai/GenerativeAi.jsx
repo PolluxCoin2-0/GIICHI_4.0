@@ -27,19 +27,19 @@ const GenerativeAi = () => {
         desc="Generative AI development focuses on creating models that can generate new content, such as text, images, music, or code, by learning patterns from existing data."
       />
 
-      {/* Blockchain Supply Chain Network */}
-      <ProductDevPhases
-        data={steps}
-        heading="Generative AI Development Process"
-        desc="Our comprehensive generative AI development process equips businesses with powerful GenAI solutions that drive innovation and enhance operational efficiency."
-      />
-
       {/* Generative AI Services */}
       <Services
         data={GenerativeAiService}
         heading1="Services Provided by"
         heading2=" Generative AI in Blockchain"
         desc="Generative AI enhances blockchain by optimizing smart contract development, automating code generation, improving security through anomaly detection, and enabling AI-driven data insights."
+      />
+
+      {/* Blockchain Supply Chain Network */}
+      <ProductDevPhases
+        data={steps}
+        heading="Generative AI Development Process"
+        desc="Our comprehensive generative AI development process equips businesses with powerful GenAI solutions that drive innovation and enhance operational efficiency."
       />
 
       {/* Industries  */}

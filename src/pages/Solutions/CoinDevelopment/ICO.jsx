@@ -52,12 +52,14 @@ const ICO = () => {
       </div>
 
       {/* Top Benefits of blockchain development company */}
+      <div className="mt-32">
       <Framework
         data={ICOFramework}
         heading1="Our Comprehensive ICO "
         heading2="Development Services"
         desc="We provide a full suite of ICO development services designed to help businesses leverage blockchain technology for successful fundraising. Explore our key offerings:"
       />
+      </div>
 
       {/* FAQ SECTION */}
       <div className="mt-24">

@@ -6,6 +6,7 @@ import { RealEstateServicesData } from "../../../components/data/ServicesData";
 import Faq from "../../../components/resuableComponent/Faq";
 import Services from "../../../components/CommonComponent/Services";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const RealEstate = () => {
   return (
@@ -30,18 +31,18 @@ const RealEstate = () => {
           />
         </div>
         <div className="w-full md:w-[60%] ">
-          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4">
+          <p className="text-white text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4" style={{ lineHeight: "1.4" }}>
             Capitalize on Giichi for Blockchain Solutions in Real Estate – We’re
             the Architects of Change
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto ">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto " style={{ lineHeight: "1.7" }}>
             With deep blockchain expertise and a global presence, Giichi IT
             Solutions empowers clients to redefine the future of real estate. We
             transform challenges into opportunities, unlocking limitless
             possibilities and ensuring success with cutting-edge blockchain
             innovations.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             At Giichi IT Solutions, we lead the way in blockchain-powered real
             estate solutions, ensuring transparency, efficiency, and security in
             every transaction. Our expert team designs cutting-edge blockchain
@@ -69,6 +70,7 @@ const RealEstate = () => {
               High Transaction Costs{" "}
             </li>
           </ul>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

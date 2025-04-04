@@ -49,9 +49,9 @@ const NftDev = () => {
           <p className="text-white text-2xl md:text-4xl lg:text-4xl 2xl:text-[53px] font-semibold pt-0 md:pt-6 tracking-wide">
             Development Services
           </p>
-          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-6 leading-7">
-            Leverage the expertise of Giichi leading NFT developers to
-            seamlessly tokenize your collectibles.
+          <p className="text-white text-opacity-70 text-sm xl:text-[16px] 2xl:text-lg font-normal pt-8 leading-7" style={{ lineHeight: "1.7" }}>
+            Leverage the expertise of Giichi leading NFT developers to seamlessly tokenize your collectibles. <br/> <br/>
+            Unlock the full potential of blockchain technology with Giichi premier NFT development services. Our team of expert blockchain developers specializes in creating unique, secure, and scalable NFT solutions tailored to your needs.
           </p>
           {/* button to connect on whatsapp */}
           <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-6 mt-0 md:mt-6">

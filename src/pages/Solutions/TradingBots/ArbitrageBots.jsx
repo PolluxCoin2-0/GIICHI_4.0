@@ -7,6 +7,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { arbitrageBotData } from "../../../components/data/clientData";
 import arbitrageBotBannerImg from "../../../assets/arbitrageBotBanner.png";
 import arbitrageBotFeatureImg from "../../../assets/arbitrageBotFeature.png";
+import arbitBotimg from "../../../assets/arbiBotImg.png";
 
 const botTypesLeft = [
   "Triangular Arbitrage Bots",
@@ -99,20 +100,20 @@ const ArbitrageBots = () => {
       </div>
 
       {/* Types of crypto trading bots */}
-      <div className="flex flex-col items-center text-center p-8 mt-12">
-        <h2 className="text-xl md:text-2xl font-bold text-white">
+      <div className="flex flex-col items-center text-center p-8 mt-16">
+        <h2 className="text-xl md:text-2xl xl:text-3xl font-bold text-transparent bg-clip-text bg-green-gradient">
           Types of Crypto Arbitrage Bots We Develop:
         </h2>
-        <p className="text-white text-opacity-70 mt-2 max-w-2xl text-sm md:text-[16px]">
+        <p className="text-white text-opacity-70 mt-6 max-w-2xl text-sm md:text-[16px] " style={{ lineHeight: '1.7' }}>
           Our team of arbitrage bot developers is capable of building
           high-frequency trading bots for a wide range of trading strategies.
         </p>
-        <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-24 mt-6 w-full max-w-7xl">
+        <div className="flex flex-col md:flex-row items-start md:items-center space-x-0 md:space-x-24 w-full max-w-7xl">
           <div className="w-full md:w-1/3 flex justify-center">
-            {/* <img src={bgimg} alt="" className="w-full" /> */}
+            <img src={arbitBotimg} alt="" className="" />
           </div>
-          <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left mt-6">
-            <ul className="list-disc space-y-6">
+          <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+            <ul className="list-disc space-y-8">
               {botTypesLeft.map((bot, index) => (
                 <li
                   key={index}
@@ -123,7 +124,7 @@ const ArbitrageBots = () => {
                 </li>
               ))}
             </ul>
-            <ul className="list-none space-y-6">
+            <ul className="list-none space-y-8">
               {botTypesRight.map((bot, index) => (
                 <li
                   key={index}

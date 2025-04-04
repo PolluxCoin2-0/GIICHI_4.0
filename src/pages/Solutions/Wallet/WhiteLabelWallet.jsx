@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { WhiteLabelWalletFramework } from "../../../components/data/frameworkData";
 import Industries from "../../../components/CommonComponent/Industries";
@@ -8,13 +7,13 @@ import { WhiteLabelWalletExchangeFaq } from "../../../components/data/faqsData";
 import whiteLabelCryptoWalletFeatureImg from "../../../assets/whiteLabelWalletFeature.png";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import whiteLabelBannerImg from "../../../assets/whiteLabelBanner.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const statsData = [
-  { label: "Registration", value: "200+" },
+  { label: "Registration", value: "500+" },
   { label: "Profiles completed", value: "150+" },
-  { label: "Gift Purchases", value: "500+" },
-  { label: "Referrals", value: "300+" },
-  { label: "Registration", value: "Unlimited" },
+  { label: "Gift Purchases", value: "200+" },
+  { label: "Referrals", value: "500+" },
 ];
 
 const WhiteLabelWallet = () => {
@@ -63,16 +62,7 @@ const WhiteLabelWallet = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+               <ButtonFreeDemo/>
             </div>
         </div>
         <div className="w-full lg:w-[50%]"><img src={whiteLabelCryptoWalletFeatureImg} alt="" className="" /></div>

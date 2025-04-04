@@ -7,6 +7,7 @@ import ProductDevPhases from "../../components/CommonComponent/ProductDevPhases"
 import Services from "../../components/CommonComponent/Services";
 import Industries from "../../components/CommonComponent/Industries";
 import BannerContent from "../../components/CommonComponent/BannerContent";
+import Offerings from "../../components/CommonComponent/Offerings";
 
 const steps = [
   { id: "01", title: "Consultation Phase" },
@@ -34,6 +35,8 @@ const AiSolutions = () => {
         heading2="with advanced AI development"
         desc="At Giichi IT Solutions, we harness the power of AI and ML to revolutionize the crypto world, transforming the way it operates for enhanced efficiency and innovation."
       />
+
+    <Offerings data="Reach Giichi and discuss your requirements with our ai experts TODAY!"/>
 
       {/* Industries  */}
       <Industries

@@ -9,6 +9,7 @@ import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { ScAuditLifeCycleData } from "../../../components/data/lifecycleData";
 import Process from "../../../components/CommonComponent/Process";
 import { ScAuditProcessSteps } from "../../../components/data/processData";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const ScAudit = () => {
   return (
@@ -18,7 +19,7 @@ const ScAudit = () => {
         img={ScAuditBannerImg}
         title1="Smart Contract"
         title2="Audit Services"
-        desc="Ensuring Security, Transparency & Efficiency"
+        desc="At Giichi, we provide comprehensive smart contract audit services designed to identify vulnerabilities, optimize performance, ensuring security, transparency, efficiency,  and safeguard your blockchain applications."
       />
 
       {/* Bloackchain entertainment forecast */}
@@ -29,7 +30,7 @@ const ScAudit = () => {
           <img src={ScAuditFeatureImg} alt="smart-contract-feature-image" className="w-[80%]" />
         </div>
         <div className="w-full md:w-[50%] ">
-          <p className="text-white text-xl md:text-2xl xl:text-4xl font-semibold pt-4  ">
+          <p className="text-white text-xl md:text-2xl xl:text-4xl font-semibold pt-4  " style={{ lineHeight: "1.4" }}>
             Why You Need a Smart Contract Security Audit?
           </p>
           <p className="text-white pt-4 font-bold">
@@ -49,11 +50,12 @@ const ScAudit = () => {
               $3.5M Breach – Sportsbet.io (June 2024)
             </li>
           </ul>
-          <p className="text-white pt-8 text-[12px] lg:text-[16px]">
+          <p className="text-white pt-8 text-[12px] lg:text-[16px]" style={{ lineHeight: "1.7" }}>
             These real-world breaches highlight the urgent need for smart
             contract security audits to prevent vulnerabilities, exploits, and
             financial loss.
           </p>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

@@ -9,6 +9,7 @@ import Faq from "../../../components/resuableComponent/Faq";
 import p2pExchangeBannerImg from "../../../assets/p2pExchangeBanner.png";
 import p2pFeatureImg from "../../../assets/p2pFeature.png";
 import { p2pLendingSteps } from "../../../components/data/productDevPhases";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const P2P = () => {
   return (
@@ -76,18 +77,8 @@ const P2P = () => {
             </div>
           </div>
           {/* button to connect on whatsapp */}
-          <div className="mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a free demo
-            </a>
+          <div className="mt-6">
+           <ButtonFreeDemo/>
           </div>
         </div>
       </div>

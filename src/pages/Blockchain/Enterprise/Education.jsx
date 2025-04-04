@@ -8,6 +8,7 @@ import transparencyImg from "../../../assets/search-user.png";
 import { EducationFaq } from "../../../components/data/faqsData";
 import Faq from "../../../components/resuableComponent/Faq";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const benefits = [
   [
@@ -90,19 +91,18 @@ const Education = () => {
             Blockchain Application in Education: Embrace Greater Transparency
             and Credibility
           </p>
-          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             The education sector is evolving, and blockchain technology is at
             the forefront of this transformation. By offering secure,
             decentralized, and transparent records of learning, blockchain
-            enhances credibility, accessibility, and efficiency in education.
-          </p>
-          <p className="text-sm lg:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+            enhances credibility, accessibility, and efficiency in education.<br/> <br/>
             At Giichi IT Solutions, we empower educational institutions with
             cutting-edge blockchain solutions that fortify academic records,
             automate learning processes, and enhance trust in credentials. Our
             expert blockchain developers craft tailored solutions to help you
             redefine education with transparency and security.
-          </p>
+            </p>
+            <ButtonFreeDemo/>
         </div>
       </div>
 

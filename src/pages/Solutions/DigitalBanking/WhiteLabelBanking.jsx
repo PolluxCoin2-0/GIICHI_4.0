@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Framework from "../../../components/CommonComponent/Framework";
 import { WhiteLabelBankingFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
@@ -7,6 +6,7 @@ import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhas
 import whiteLabelFeature1Img from "../../../assets/whiteLabelFeature1.png";
 import whiteLabelFeature2Img from "../../../assets/whiteLabelFeature2.png";
 import { whiteLabelBankingSteps } from "../../../components/data/productDevPhases";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const WhiteLabelBanking = () => {
   return (
@@ -47,16 +47,7 @@ const WhiteLabelBanking = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+            <ButtonFreeDemo/>
           </div>
         </div>
 

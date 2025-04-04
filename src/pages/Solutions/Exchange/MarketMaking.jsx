@@ -5,6 +5,7 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { MarketMakingExchangeFaq } from "../../../components/data/faqsData";
 import marketMakingBannerImg from "../../../assets/marketMakingBanner.png";
 import marketMakingFeatureImg from "../../../assets/marketMakingFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const MarginMaking = () => {
   return (
@@ -47,18 +48,8 @@ const MarginMaking = () => {
             <br /> <br />
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-8">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Talk to our Experts
-            </a>
+          <div className="">
+           <ButtonFreeDemo/>
           </div>
         </div>
       </div>

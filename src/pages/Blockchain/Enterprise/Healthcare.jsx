@@ -5,6 +5,7 @@ import Framework from "../../../components/CommonComponent/Framework";
 import { HealthcareFramework } from "../../../components/data/frameworkData";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const Healthcare = () => {
   return (
@@ -20,7 +21,7 @@ const Healthcare = () => {
       {/* Bloackchain entertainment forecast */}
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-x-6 w-full px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-12 md:mt-24 mb-12 md:mb-8 lg:mb-12">
         <div className="w-full md:w-[50%] ">
-          <p className="text-white text-2xl xl:text-4xl 2xl:text-5xl font-semibold pt-4">
+          <p className="text-white text-2xl xl:text-4xl 3xl:text-5xl font-semibold pt-4" style={{ lineHeight: "1.2" }}>
             The Challenges of Healthcare Without Blockchain
           </p>
           <p className="text-sm lg:text-[15px] 2xl:text-[17px] font-normal text-white text-opacity-50 pt-6 leading-7 w-full md:w-[80%]">
@@ -30,6 +31,7 @@ const Healthcare = () => {
             accurate monitoring and treatment. However, the existing
             infrastructure struggles with:
           </p>
+          <ButtonFreeDemo/>
         </div>
         <div className="w-full md:w-[70%] lg:w-[50%] mt-4 md:mt-0">
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-6 items-center ">

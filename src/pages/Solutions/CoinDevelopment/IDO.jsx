@@ -11,7 +11,7 @@ import bscChainImg from "../../../assets/bsc.png";
 import polkadotImg from "../../../assets/polkadot.png";
 import idoDevelopmentBannerImg from "../../../assets/idoBanner.png";
 import idoDevelopmentFeatureImg from "../../../assets/idoFeature.png";
-import { Link } from "react-router-dom";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const IDO = () => {
   return (
@@ -52,16 +52,7 @@ const IDO = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+           <ButtonFreeDemo/>
           </div>
         </div>
       </div>

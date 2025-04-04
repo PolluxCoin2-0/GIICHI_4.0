@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
 import { P2pLendingFaq } from "../../../components/data/faqsData";
 import Framework from "../../../components/CommonComponent/Framework";
@@ -6,6 +5,7 @@ import { P2pLendingFramework } from "../../../components/data/frameworkData";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import p2pLendingBannerImg from "../../../assets/p2pLendingBanner.png";
 import p2pLendingFeatureImg from "../../../assets/p2pLendingFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const P2pLending = () => {
   return (
@@ -46,16 +46,7 @@ const P2pLending = () => {
             >
               Connect on Whatsapp
             </a>
-            <Link to="/contact-us">
-              <button
-                type="button"
-                className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-7 lg:px-8 py-3 text-white text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                aria-label="Contact us "
-                title="Click to contact us form"
-              >
-                Request a Free Demo
-              </button>
-            </Link>
+            <ButtonFreeDemo/>
           </div>
         </div>
       </div>

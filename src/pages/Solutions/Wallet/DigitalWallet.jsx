@@ -17,6 +17,7 @@ import { GiWallet } from "react-icons/gi";
 import { MdOutlineVerifiedUser } from "react-icons/md";
 import { GiTwoCoins } from "react-icons/gi";
 import digitalWalletBannerImg from "../../../assets/digitalWalletBanner.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const steps = [
   {
@@ -154,6 +155,8 @@ const DigitalWallet = () => {
         </div>
       </div>
 
+      <Offerings data="Reach Giichi and discuss your requirements with our Digital Wallet experts TODAY!"/>
+
       {/* workflow of a wallet */}
       <div className="mt-24 mb-12">
         <p className="text-white text-2xl md:text-4xl lg:text-4xl px-2 font-bold pt-4 leading-tight tracking-wide text-center">
@@ -177,9 +180,9 @@ const DigitalWallet = () => {
                 {index < steps.length - 1 && (
                   <div className="absolute top-10 left-20 w-60 border-t-[2px] border-dashed border-gray-300 -z-[1]"></div>
                 )}
-                <div className="w-8 h-8 bg-[#010F02] text-white rounded-full flex items-center justify-center absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
+                {/* <div className="w-8 h-8 bg-[#010F02] text-white rounded-full flex items-center justify-center absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
                   {index + 1}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

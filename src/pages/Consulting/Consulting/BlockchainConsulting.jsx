@@ -11,6 +11,7 @@ import { clientData } from "../../../components/data/clientData";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { motion } from "framer-motion";
 import { blockchainConsultingSteps } from "../../../components/data/productDevPhases";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const BlockchainConsulting = () => {
   return (
@@ -46,18 +47,8 @@ const BlockchainConsulting = () => {
           As a renowned blockchain consulting firm, we have a team of expert blockchain consultants who continuously research, develop, and test blockchain ecosystems. Their dedication ensures innovative solutions that seamlessly integrate blockchain architecture into businesses, driving efficiency and competitive advantage.  
         </p>
         {/* button to connect on whatsapp */}
-        <div className="mt-12">
-          <a
-            type="button"
-            href="https://wa.me/9266416198"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-            aria-label="Contact us "
-            title="Click to contact us form"
-          >
-            Connect on Whatsapp
-          </a>
+        <div className="">
+        <ButtonFreeDemo/>
         </div>
       </motion.div>
     </div>

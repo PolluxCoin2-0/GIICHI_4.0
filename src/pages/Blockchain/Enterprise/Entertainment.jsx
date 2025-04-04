@@ -5,6 +5,7 @@ import Framework from "../../../components/CommonComponent/Framework";
 import { EntertainmentFramework } from "../../../components/data/frameworkData";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const Entertainment = () => {
   return (
@@ -33,13 +34,13 @@ const Entertainment = () => {
           <p className="text-white text-2xl xl:text-4xl font-semibold pt-4 ">
             Media & Entertainment Industry: Ripe for Blockchain Adoption
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 leading-7 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 leading-7 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             The media and entertainment industry faces challenges like content
             commoditization, widespread piracy, and copyright infringements.
             Many users hesitate to pay for premium content, leading to revenue
             leakage despite new streaming models.
           </p>
-          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 leading-7 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[15px] font-normal text-white text-opacity-50 pt-6 px-0 leading-7 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             Blockchain technology offers a solution by reducing IP
             infringements, ensuring transparent content ownership, and enabling
             seamless monetization through smart contracts. At Giichi IT
@@ -47,6 +48,7 @@ const Entertainment = () => {
             management, secure content distribution, and drive revenue growth
             for creators and businesses.
           </p>
+          <ButtonFreeDemo/>
         </div>
       </div>
 

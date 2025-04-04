@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { WhitepaperIndustriesData } from "../../../components/data/industriesData";
 import LetsTalk from "../../../components/resuableComponent/LetsTalk";
 import Industries from "../../../components/CommonComponent/Industries";
@@ -6,6 +5,7 @@ import LifeCycle from "../../../components/CommonComponent/LifeCycle";
 import { whitePaperLifeCycleData } from "../../../components/data/lifecycleData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import whitepaperFeatureimg from "../../../assets/whitepaperFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const steps = [
   { id: "01", title: "Expand brand presence" },
@@ -74,16 +74,7 @@ const WhitepaperDev = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+              <ButtonFreeDemo/>
             </div>
           </div>
         </div>

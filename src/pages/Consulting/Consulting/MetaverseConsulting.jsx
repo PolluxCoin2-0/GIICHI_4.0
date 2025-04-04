@@ -9,6 +9,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MetaverseConsultingService } from "../../../components/data/ServicesData";
 import { MetaverseConsultingFramework } from "../../../components/data/frameworkData";
 import { metaverseConsultingSteps } from "../../../components/data/productDevPhases";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const MetaverseConsulting = () => {
   return (
@@ -38,18 +39,8 @@ const MetaverseConsulting = () => {
          With a team of highly skilled metaverse experts, we provide strategic guidance and valuable insights, ensuring businesses make the most of metaverse opportunities for maximum benefits.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
+          <div className="mt-4">
+            <ButtonFreeDemo/>
           </div>
         </div>
       </div>

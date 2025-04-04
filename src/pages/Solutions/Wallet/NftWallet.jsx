@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
 import { NftWalletFaq } from "../../../components/data/faqsData";
 import { FaShieldAlt, FaKey, FaFire } from "react-icons/fa";
 import nftWalletFeatureImg from "../../../assets/nftFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const platforms = [
   {
@@ -71,16 +71,7 @@ const NftWallet = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+              <ButtonFreeDemo/>
             </div>
           </div>
         </div>
@@ -97,7 +88,7 @@ const NftWallet = () => {
           >
             How Secure Are Our NFT Wallet Services?
           </p>
-          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto">
+          <p className="text-sm lg:text-[14px] 2xl:text-[16px] font-normal text-white text-opacity-50 pt-6 leading-6 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
             NFTs are valued for their authenticity, integrity, and immutability,
             making them a secure digital asset that cannot be easily hacked.
             Security is a top priority in our NFT wallet development process.{" "}
@@ -122,26 +113,17 @@ const NftWallet = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+              <ButtonFreeDemo/>
             </div>
         </div>
-        <div className="w-full lg:w-[50%]">
-          <img src={nftWalletFeatureImg} alt="" className=""/>
+        <div className="w-full lg:w-[50%] flex justify-end">
+          <img src={nftWalletFeatureImg} alt="" className="w-[75%]"/>
         </div>
       </div>
 
       {/* Types of cryptocurrency exchange platform */}
-      <div className="mt-20">
-        <p className="text-white text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight text-center">
+      <div className="mt-32">
+        <p className="text-transparent bg-clip-text bg-green-gradient text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-semibold pt-4 tracking-tight text-center">
           Types of NFT Wallet
         </p>
         <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 mt-8">
@@ -153,7 +135,7 @@ const NftWallet = () => {
                 <div className="flex flex-col items-start text-start gap-4">
                   <div className="text-4xl">{platform.icon}</div>
                   <h2 className="text-xl font-semibold">{platform.name}</h2>
-                  <p className="w-[90%] text-white text-sm text-opacity-70">
+                  <p className="w-[90%] text-white text-sm 3xl:text-[16px] text-opacity-70" style={{ lineHeight: "1.5" }}>
                     {platform.desc}
                   </p>
                 </div>

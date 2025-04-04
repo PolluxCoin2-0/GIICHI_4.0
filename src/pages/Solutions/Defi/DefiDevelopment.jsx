@@ -6,12 +6,13 @@ import Faq from "../../../components/resuableComponent/Faq";
 import { DefiDevelopmentFaq } from "../../../components/data/faqsData";
 import BannerContent from "../../../components/CommonComponent/BannerContent";
 import defiDevelopmentBannerImg from "../../../assets/defiDevBanner.png";
+import Offerings from "../../../components/CommonComponent/Offerings";
 
 const statsData = [
-  { label: "Years of blockchain experience", value: "7+" },
-  { label: "End-Users Supported", value: "500+" },
+  { label: "Years of blockchain experience", value: "5+" },
+  { label: "End-Users Supported", value: "100k+" },
   { label: "Billion Trades Enabled", value: "300+" },
-  { label: "Blockchain Engineers", value: "300+" },
+  { label: "Blockchain Engineers", value: "50+" },
 ];
 
 const comparisons = [
@@ -154,6 +155,8 @@ const DefiDevelopment = () => {
           </div>
         </div>
       </div>
+
+      <Offerings data="Reach Giichi and discuss your requirements with our Defi development experts TODAY!"/>
 
       {/* DIFFERNCE BETWEEN CEFI VS DEFI */}
       <div className="mt-20 ">

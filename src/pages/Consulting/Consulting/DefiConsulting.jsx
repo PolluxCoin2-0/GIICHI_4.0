@@ -7,6 +7,7 @@ import { DefiConsultingFramework } from "../../../components/data/frameworkData"
 import defiConsultingFeature1Img from "../../../assets/defiConsultingFeature1.png";
 import defiConsultingFeature2Img from "../../../assets/defiConsultingFeature2.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const DefiConsulting = () => {
   return (
@@ -49,19 +50,8 @@ const DefiConsulting = () => {
             community building.
           </p>
           {/* button to connect on whatsapp */}
-          <div className="mt-12 md:mt-6 lg:mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
-              text-sm md:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Connect on Whatsapp
-            </a>
+          <div className="mt-6">
+           <ButtonFreeDemo/>
           </div>
         </div>
       </div>
@@ -97,8 +87,9 @@ const DefiConsulting = () => {
               aria-label="Contact us "
               title="Click to contact us form"
             >
-              Connect on Whatsapp
+           Talk to our Experts
             </a>
+            
           </div>
         </div>
         <div className="w-full lg:w-[40%] relative mt-12 md:mt-0">

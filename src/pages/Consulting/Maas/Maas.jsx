@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
 // import { PulseBeams } from "../../../components/resuableComponent/PulseBeam";
 import serviceIcon from "../../../assets/collab.png";
 import LifeCycle from "../../../components/CommonComponent/LifeCycle";
@@ -12,6 +11,7 @@ import MaasBannerImg from "../../../assets/maasBannerImg.png";
 import teamImg from "../../../assets/management.png";
 import solutionImg from "../../../assets/process.png";
 import exchangeImg from "../../../assets/Exchange.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const services = [
   {
@@ -48,7 +48,7 @@ const Maas = () => {
         img={MaasBannerImg}
         title1="Web3 & Digital"
         title2="Marketing Company"
-        desc="Building Brands with Premier Web3, Digital Marketing, and Consultancy Services."
+        desc="Building Brands with Premier Web3, Digital Marketing, and Consultancy Services. At Giichi, we blend innovation with strategy to deliver cutting-edge Web3 solutions and impactful digital marketing campaigns."
       />
 
       {/* Banner Image */}
@@ -79,23 +79,15 @@ const Maas = () => {
             target="_blank"
             rel="noopener noreferrer"
             className=" bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-5 md:px-6 lg:px-8 py-3 text-white  
-            text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
+            text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300 mt-6"
             aria-label="Contact us "
             title="Click to contact us form"
           >
             Connect on Whatsapp
           </a>
-          <Link to="/contact-us">
-            <button
-              type="button"
-              className="bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  
-              text-sm lg:text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Request a Free Demo
-            </button>
-          </Link>
+          <div>
+          <ButtonFreeDemo/>
+          </div>
         </div>
       </div>
 

@@ -18,6 +18,7 @@ import iloImg from "../../../assets/ilo.png";
 import inoImg from "../../../assets/ino.png";
 import launchpadBannerImg from "../../../assets/launchpadBanner.png";
 import launchpadFeatureImg from "../../../assets/launchpadFeature.png";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const features = [
   {
@@ -168,17 +169,7 @@ const Launchpad = () => {
 
           {/* button to connect on whatsapp */}
           <div className="mt-12">
-            <a
-              type="button"
-              href="https://wa.me/9266416198"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-              aria-label="Contact us "
-              title="Click to contact us form"
-            >
-              Talk to our Experts
-            </a>
+          <ButtonFreeDemo/>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import Faq from "../../../components/resuableComponent/Faq";
 import { DefiWalletFaq } from "../../../components/data/faqsData";
 import Services from "../../../components/CommonComponent/Services";
@@ -8,12 +7,13 @@ import { DefiWalletService } from "../../../components/data/ServicesData";
 import ProductDevPhases from "../../../components/CommonComponent/ProductDevPhases";
 import defiWalletFeatureImg from "../../../assets/defiFeature.png";
 import { defiWalletSteps } from "../../../components/data/productDevPhases";
+import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
 
 const statsData = [
-  { label: "User Base", value: "1M+" },
-  { label: "Countries Served", value: "150+" },
-  { label: "Solutions Delivered", value: "500+" },
-  { label: "Total Experience", value: "10+ Years" },
+  { label: "User Base", value: "500k+" },
+  { label: "Countries Served", value: "5+" },
+  { label: "Solutions Delivered", value: "100+" },
+  { label: "Total Experience", value: "5+ Years" },
 ];
 
 const DefiWallet = () => {
@@ -33,7 +33,7 @@ const DefiWallet = () => {
         <div className="flex flex-row w-full mt-12">
           <div className="w-[50%]">{/* image */}</div>
           <div className="w-[50%]">
-            <p className="text-white text-opacity-70 text-justify hyphens-auto">
+            <p className="text-white text-opacity-70 text-justify hyphens-auto" style={{ lineHeight: "1.7" }}>
               Collaborate with the leading DeFi wallet development company to
               provide users with a wallet that ensures full asset control and
               superior security. Our solutions enable smooth and transparent
@@ -62,16 +62,7 @@ const DefiWallet = () => {
               >
                 Connect on Whatsapp
               </a>
-              <Link to="/contact-us">
-                <button
-                  type="button"
-                  className="mt-6 bg-green-gradient focus:outline-none cursor-pointer shadow-inner shadow-[#d4dfd1] px-6 lg:px-8 py-3 text-white  text-lg text-nowrap transform hover:scale-105 transition-transform duration-300"
-                  aria-label="Contact us "
-                  title="Click to contact us form"
-                >
-                  Request a Free Demo
-                </button>
-              </Link>
+              <ButtonFreeDemo/>
             </div>
           </div>
         </div>
@@ -101,16 +92,16 @@ const DefiWallet = () => {
             advantage of this high-growth opportunity!
           </p>
         </div>
-        <div className="w-full lg:w-[50%]">
-          <img src={defiWalletFeatureImg} alt="" className=""/>
+        <div className="w-full lg:w-[50%] flex justify-end">
+          <img src={defiWalletFeatureImg} alt="" className="w-[90%]"/>
         </div>
       </div>
 
       {/*Stats Data */}
-      <div className="relative">
+      <div className="relative mt-24 mb-24">
         <div className="hidden md:block spotlight spotlight-left"></div>
         <div className="hidden md:block spotlight2 spotlight-right"></div>
-        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-6  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
+        <div className="flex justify-between items-center bg-[#283430] bg-opacity-10 py-10  rounded-lg shadow-md px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60">
           {statsData.map((stat, index) => (
             <div
               key={index}
