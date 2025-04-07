@@ -13,7 +13,7 @@ import customExchangeBannerImg from "../../../assets/customExchangeBanner.png";
 import multicurrencyFeatureImg from "../../../assets/multicurrencyFeature.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
-import infraImg from "../../../assets/control.png";
+import infraImg from "../../../assets/Control.png";
 import teamImg from "../../../assets/depinGover.png";
 import experienceImg from "../../../assets/Experience.png";
 import projectsImg from "../../../assets/Skills.png";
