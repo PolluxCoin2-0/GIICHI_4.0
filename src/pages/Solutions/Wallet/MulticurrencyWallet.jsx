@@ -67,7 +67,7 @@ const BenefitCard = ({ image, title, points }) => {
 
 const MulticurrencyWallet = () => {
   return (
-    <div className="mt-20 mb-20 ">
+    <div  className="pt-6 md:pt-12 mb-20">
        {/* Banner Image content */}
        <BannerContent
         img={customExchangeBannerImg}

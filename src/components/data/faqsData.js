@@ -378,6 +378,20 @@ export const Web3WalletExchangeFaq = [
   },
 ];
 
+export const PolinkWalletFaq = [
+  {
+    question: "What is Polink Wallet?",
+    answer:
+      "PoLink is a cryptocurrency wallet developed by PolluxChain network, allowing users to manage their POX tokens, vote for Super Representatives (SRs), and access Pollux Power (PP) by staking their POX balance. ",
+  },
+  {
+    question: "What is purpose of Polink Wallet?",
+    answer:
+      "PoLink serves as a digital wallet for managing POX, the primary currency of the PolluxChain network.",
+  },
+];
+
+
 export const MpcWalletFaq = [
   {
     question: "What is an MPC Crypto Wallet?",
