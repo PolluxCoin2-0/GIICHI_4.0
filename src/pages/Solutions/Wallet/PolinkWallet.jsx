@@ -310,7 +310,7 @@ const PolinkWallet = () => {
         initial={{ y: -60, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: true }}
+        viewport={{ once: false }}
         className="text-transparent bg-clip-text bg-green-gradient text-2xl md:text-4xl lg:text-5xl font-semibold font-poppins"
         style={{ lineHeight: "1.2" }}
       >
@@ -325,7 +325,7 @@ const PolinkWallet = () => {
           initial={{ opacity: 0, filter: "blur(10px)" }}
           whileInView={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="flex flex-col items-center w-full md:w-[33%] py-8 bg-[#37DD00] bg-opacity-5 border-2 border-white border-opacity-20 rounded-[56px] cursor-pointer"
         >
           <img src={poxLogo} alt="Pox Logo" className="w-12 md:w-16" />
@@ -347,7 +347,7 @@ const PolinkWallet = () => {
           initial={{ opacity: 0, filter: "blur(10px)" }}
           whileInView={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="flex flex-col items-center w-full md:w-[33%] py-10 bg-[#37DD00] bg-opacity-5 border-2 border-white border-opacity-20 rounded-[56px] cursor-pointer"
         >
           <img src={evmLogo} alt="EVM Logo" className="w-12 md:w-16 h-20" />
@@ -366,7 +366,7 @@ const PolinkWallet = () => {
           initial={{ opacity: 0, filter: "blur(10px)" }}
           whileInView={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           className="flex flex-col items-center w-full md:w-[33%] py-11 bg-[#37DD00] bg-opacity-5 border-2 border-white border-opacity-20 rounded-[56px] cursor-pointer"
         >
           <img src={walletImg} alt="Polink Wallet Logo" className="w-12 md:w-16" />
