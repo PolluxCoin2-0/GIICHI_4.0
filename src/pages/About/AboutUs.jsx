@@ -34,7 +34,7 @@ const AboutUs = () => {
           Solutions
         </p>
         <div className="flex justify-center pt-6">
-          <p className="text-white text-opacity-70 text-[15px]  font-medium lg:w-[60%] 2xl:w-[55%]  text-center">
+          <p className="text-white text-opacity-70 text-[15px]  font-medium lg:w-[60%] 2xl:w-[55%]  text-center" style={{ lineHeight: '1.7' }}>
             At Giichi IT Solutions Pvt. Ltd., we are committed to driving the
             future of technology by delivering cutting-edge blockchain
             development, Web3 solutions, and AI-powered applications that
@@ -132,11 +132,11 @@ const AboutUs = () => {
               Vision
             </span>
           </p>
-          <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4 lg:pt-8">
+          <p className="text-sm lg:text-[16px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4 lg:pt-8" style={{ lineHeight: '1.7' }}>
           At Giichi IT Solutions Pvt. Ltd., our mission is to accelerate enterprise adoption of emerging technologies, ensuring seamless integration and innovation-driven growth. We strive to simplify complex digital transformation challenges, empowering businesses to stay ahead in an ever-evolving landscape.
         
           </p>
-         <p className="text-sm lg:text-[17px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4"> Our vision is to be the driving force behind next-gen technology solutions, guiding businesses from concept to execution. Whether it’s 
+         <p className="text-sm lg:text-[16px] text-white text-opacity-70 2xl:w-[100%] 3xl:w-[90%] pt-4" style={{ lineHeight: '1.7' }}> Our vision is to be the driving force behind next-gen technology solutions, guiding businesses from concept to execution. Whether it’s 
           a customer-centric application or a disruptive enterprise solution, we ensure a smooth journey—from ideation and design to implementation 
           and continuous support—fueling long-term success in the digital era.
        </p>

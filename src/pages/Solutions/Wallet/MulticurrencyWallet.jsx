@@ -4,7 +4,6 @@ import Framework from "../../../components/CommonComponent/Framework";
 import { MulticurrencyWalletFramework } from "../../../components/data/frameworkData";
 import Faq from "../../../components/resuableComponent/Faq";
 import { MulticurrencyWalletExchangeFaq } from "../../../components/data/faqsData";
-import accessImg from "../../../assets/payment.png";
 import FundImg from "../../../assets/fund.png";
 import SoftwareImg from "../../../assets/Software.png";
 import AIImg from "../../../assets/ai.png";
@@ -14,6 +13,11 @@ import customExchangeBannerImg from "../../../assets/customExchangeBanner.png";
 import multicurrencyFeatureImg from "../../../assets/multicurrencyFeature.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import infraImg from "../../../assets/control.png";
+import teamImg from "../../../assets/depinGover.png";
+import experienceImg from "../../../assets/Experience.png";
+import projectsImg from "../../../assets/Skills.png";
+import solutionImg from "../../../assets/record.png";
 
 const benefits = [
   [
@@ -177,21 +181,21 @@ const MulticurrencyWallet = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-between space-x-0 md:space-x-4 2xl:space-x-8 px-4 md:px-8 lg:px-12 xl:px-36 2xl:px-32 3xl:px-60 pt-12">
           <div className="border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="report-image" className="w-16" />
+            <img src={infraImg} alt="report-image" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Well-equipped infrastructure
             </p>
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="manage-image" className="w-16 " />
+            <img src={teamImg} alt="manage-image" className="w-16 " />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Expert development team
             </p>
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="wallet-image" className="w-16" />
+            <img src={experienceImg} alt="wallet-image" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Wide domain knowledge & Experience
             </p>
@@ -199,7 +203,7 @@ const MulticurrencyWallet = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
             <img
-              src={accessImg}
+              src={solutionImg}
               alt="know-your-customer-image"
               className="w-16"
             />
@@ -209,7 +213,7 @@ const MulticurrencyWallet = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="funding-icon" className="w-16" />
+            <img src={projectsImg} alt="funding-icon" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               Budget-friendly projects
             </p>
