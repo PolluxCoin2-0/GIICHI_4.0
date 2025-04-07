@@ -12,6 +12,10 @@ import web3FeatureImg from "../../../assets/webFeature.png";
 import webFeature2Img from "../../../assets/webWalletFeature2.png";
 import Offerings from "../../../components/CommonComponent/Offerings";
 import ButtonFreeDemo from "../../../components/resuableComponent/ButtonFreeDemo";
+import expertImg from "../../../assets/data.png";
+import modelsImg from "../../../assets/Skills.png";
+import transparentImg from "../../../assets/review.png";
+import customerImg from "../../../assets/credibility.png";
 
 const benefits = [
   [
@@ -209,14 +213,14 @@ const Web3Wallet = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="manage-image" className="w-16" />
+            <img src={expertImg} alt="manage-image" className="w-16" />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Technical expertise
             </p>
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%] ">
-            <img src={accessImg} alt="wallet-image" className="w-16 " />
+            <img src={modelsImg} alt="wallet-image" className="w-16 " />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden  text-[15px] 2xl:text-[17px]">
               Flexible models
             </p>
@@ -224,7 +228,7 @@ const Web3Wallet = () => {
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
             <img
-              src={accessImg}
+              src={transparentImg}
               alt="know-your-customer-image"
               className="w-16 "
             />
@@ -234,7 +238,7 @@ const Web3Wallet = () => {
           </div>
 
           <div className="mt-4 md:mt-0 border-[1px] border-white border-opacity-20 rounded-xl h-[240px] py-12 flex flex-col justify-center items-center w-full md:w-[20%]">
-            <img src={accessImg} alt="funding-icon" className="w-16 " />
+            <img src={customerImg} alt="funding-icon" className="w-16 " />
             <p className="text-white font-semibold pt-4 text-center group-hover:hidden text-[15px] 2xl:text-[17px]">
               24/7 customer assistance
             </p>
